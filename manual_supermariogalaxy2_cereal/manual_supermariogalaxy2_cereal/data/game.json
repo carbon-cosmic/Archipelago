@@ -1,0 +1,12 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "SuperMarioGalaxy2",
+  "creator": "Cereal",
+  "filler_item_name": "Starbits",
+  "starting_items": [
+    {
+            "item_categories": ["Grand Stars"],
+         "random": 1
+        }
+  ]
+}
