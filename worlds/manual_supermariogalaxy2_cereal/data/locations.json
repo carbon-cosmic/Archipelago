@@ -7882,7 +7882,7 @@
   },
    {
     "name": "Stone Cyclone Comet 1-Up on Sliding Stone Blocks",
-    "requires": "{OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)} AND {OptOne(|Speedy Comets|)} AND {OptOne(|Stone Cyclone Comet Medal)}",
+    "requires": "{OptOne(|Speedy Comets|)} AND {OptOne(|Stone Cyclone Comet Medal)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
       "World S",
@@ -7902,7 +7902,7 @@
   },
   {
     "name": "Stone Cyclone Comet 1-Up on Tox Box Path",
-    "requires": "OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
+    "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
       "World S",
