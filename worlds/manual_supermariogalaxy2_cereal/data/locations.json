@@ -7412,7 +7412,7 @@
   },
   {
     "name": "Galaxy Generator Comet Cloud Flower Section Launch Star Clock",
-    "requires": "{OptAll(|Spin AND Spin-Drill AND (Floaty Fluff OR (Long Jump AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)}))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
+    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)}))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
       "World 6",
@@ -7422,7 +7422,7 @@
   },
   {
     "name": "Galaxy Generator Comet Checkpoint Flag",
-    "requires": "{OptAll(|Spin AND Spin-Drill AND (Floaty Fluff OR (Long Jump AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)}))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
+    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)}))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
       "World 6",
