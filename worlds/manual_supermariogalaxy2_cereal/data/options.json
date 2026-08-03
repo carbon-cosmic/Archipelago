@@ -1,0 +1,222 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+  "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+
+  "core": {
+    "goal": {
+      "_comment": [
+        "Using 'goal' as the name of an option lets you override generated goal parameters."
+      ],
+      "display_name": "The End Objective",
+      "description": "How to end your randomized playthrough.",
+      "aliases": {
+        "easiest": 0
+      },
+      "hidden": false
+    },
+
+    "death_link": {
+      "default": false
+    }
+  },
+
+  "user": {
+    "Unlockable_Luigi": {
+      "description": [
+        "Include Luigi as an item for unlock."
+      ],
+      "display_name": "Unlockable Luigi",
+      "type": "Toggle",
+      "default": true,
+      "group": "Item Options"
+    },
+
+    "Advanced_Logic": {
+      "description": [
+        "Logic will include advanced tricks and technical jumps."
+      ],
+      "display_name": "Advanced Logic",
+      "type": "Toggle",
+      "default": false,
+      "group": "Randomization Options"
+    },
+
+    "1UPsanity": {
+      "description": [
+        "Receive checks for collecting 1-Ups."
+      ],
+      "display_name": "1-UPsanity",
+      "type": "Toggle",
+      "default": false,
+      "group": "Randomization Options"
+    },
+
+    "Life_Shroomsanity": {
+      "description": [
+        "Receive checks for collecting Life Mushrooms."
+      ],
+      "display_name": "Life Shroomsanity",
+      "type": "Toggle",
+      "default": false,
+      "group": "Randomization Options"
+    },
+
+    "Luma_Shopsanity": {
+      "description": [
+        "Receive checks for purchasing from Luma Shops."
+      ],
+      "display_name": "Luma Shopsanity",
+      "type": "Toggle",
+      "default": false,
+      "group": "Randomization Options"
+    },
+    "Chance_Cubesanity": {
+      "description": [
+        "Receive checks for spinning chance cubes."
+      ],
+      "display_name": "Chance Cubesanity",
+      "type": "Toggle",
+      "default": false,
+      "group": "Randomization Options"
+    },
+
+    "Flagsanity": {
+      "description": [
+        "Receive checks for reaching checkpoint flags."
+      ],
+      "display_name": "Flagsanity",
+      "type": "Toggle",
+      "default": false,
+      "group": "Randomization Options"
+    },
+
+    "Clocksanity": {
+      "description": [
+        "Receive checks for collecting speedrun clocks.",
+        "Speedrun levels will require all of their clock items before the star unlocks."
+      ],
+      "display_name": "Clocksanity",
+      "type": "Toggle",
+      "default": false,
+      "group": "Randomization Options"
+    },
+
+    "Coinsanity": {
+      "description": [
+        "Receive checks for collecting ? Coins."
+      ],
+      "display_name": "?-Coinsanity",
+      "type": "Toggle",
+      "default": false,
+      "group": "Randomization Options"
+    },
+    "Power_Star_Locations": {
+      "description": [
+        "Enable or disable regular Power Star locations."
+      ],
+      "display_name": "Power Star Locations",
+      "type": "Toggle",
+      "default": true,
+      "group": "Randomization Options"
+    },
+     "Green_Stars_Enabled": {
+      "description": [
+        "Enable or disable regular Green Star locations."
+      ],
+      "display_name": "Green Stars Enabled",
+      "type": "Toggle",
+      "default": true,
+      "group": "Randomization Options"
+    },
+     "Comet_Medal_Locations": {
+      "description": [
+        "Enable or disable Comet Medal locations."
+      ],
+      "display_name": "Comet Medal Locations",
+      "type": "Toggle",
+      "default": true,
+      "group": "Randomization Options"
+    },
+    "Movement_Randomization": {
+      "description": [
+        "Mario's movement abilities will be randomized."
+      ],
+      "display_name": "Movement Randomization",
+      "type": "Toggle",
+      "default": false,
+      "group": "Item Options"
+    },
+     "Comet_Medal_Items": {
+      "description": [
+        "Each galaxy will have its own comet medal item in the multiworld."
+      ],
+      "display_name": "Comet Medal Items",
+      "type": "Toggle",
+      "default": true,
+      "group": "Item Options"
+    },
+    "Comet_Category_Items": {
+      "description": [
+        "Randomizes Comet Categories (such as Speedy Comets or Purple Comets) into the Multiworld."
+      ],
+      "display_name": "Comet Category Items",
+      "type": "Toggle",
+      "default": true,
+      "group": "Item Options"
+    },
+    "Mechanic_Randomization": {
+      "description": [
+        "Access to Pull Stars, Star Balls, and Tornadoes will be randomized."
+      ],
+      "display_name": "Mechanic Randomization",
+      "type": "Toggle",
+      "default": false,
+      "group": "Item Options"
+    },
+
+    "Powerup_Randomization": {
+      "description": [
+        "Access to power-ups will be randomized."
+      ],
+      "display_name": "Powerup Randomization",
+      "type": "Toggle",
+      "default": false,
+      "group": "Item Options"
+    },
+
+    "Power_Stars_Required_to_Reach_Goal": {
+      "type": "Range",
+      "description": [
+        "Select the number of stars required to reach the goal.",
+        "Default: 70 stars."
+      ],
+      "display_name": "Power Stars Required to Reach Goal",
+      "range_start": 1,
+      "default": 70,
+      "range_end": 120,
+      "group": "Randomization Options"
+    },
+
+    "Green_Stars_Required_to_Reach_Goal": {
+      "type": "Range",
+      "description": [
+        "Select the number of green stars required to reach the goal.",
+        "If set to zero, green stars will be filler."
+      ],
+      "display_name": "Green Stars Required to Reach Goal",
+      "range_start": 0,
+      "default": 0,
+      "range_end": 120,
+      "group": "Randomization Options"
+    },
+    "Purple_Coinsanity": {
+            "description": [
+                "Receive checks for collecting Purple Coins. For sickos only."
+            ],
+            "display_name": "Purple Coinsanity",
+            "type": "Toggle",
+            "default": false,
+            "group": "Randomization Options"
+        }
+  }
+}
