@@ -5941,7 +5941,7 @@
   },
   {
     "name": "A Walk on the Weird Side",
-    "requires": "(|Ground Pound| AND (|Sideflip OR |Backflip| OR |Spin|)) OR ({YamlEnabled(Advanced Logic)} AND (|Spin| OR |Backflip|))",
+    "requires": "(|Ground Pound| AND (|Sideflip| OR |Backflip| OR |Spin|)) OR ({YamlEnabled(Advanced Logic)} AND (|Spin| OR |Backflip|))",
     "region": "Upside Dizzy Galaxy (40)",
     "category": [
       "World 5",
@@ -6001,7 +6001,7 @@
   },
   {
     "name": "Upside Dizzy Comet Medal",
-    "requires": "(|Ground Pound| AND (|Sideflip OR |Backflip| OR |Spin|)) OR ({YamlEnabled(Advanced Logic)} AND (|Spin| OR |Backflip|))",
+    "requires": "(|Ground Pound| AND (|Sideflip| OR |Backflip| OR |Spin|)) OR ({YamlEnabled(Advanced Logic)} AND (|Spin| OR |Backflip|))",
     "region": "Upside Dizzy Galaxy (40)",
     "category": [
       "World 5",
@@ -15003,9 +15003,9 @@
   {
     "name": "Clockwork Ruins Starting Area Purple Coin #1",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1499"
@@ -15013,9 +15013,9 @@
   {
     "name": "Clockwork Ruins Starting Area Purple Coin #2",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1500"
@@ -15023,9 +15023,9 @@
   {
     "name": "Clockwork Ruins Starting Area Purple Coin #3",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1501"
@@ -15033,9 +15033,9 @@
   {
     "name": "Clockwork Ruins Starting Area Purple Coin #4",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1502"
@@ -15043,9 +15043,9 @@
   {
     "name": "Clockwork Ruins Starting Area Purple Coin #5",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1503"
@@ -15053,9 +15053,9 @@
   {
     "name": "Clockwork Ruins Starting Area Purple Coin #6",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1504"
@@ -15063,9 +15063,9 @@
   {
     "name": "Clockwork Ruins Starting Area Purple Coin #7",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1505"
@@ -15073,9 +15073,9 @@
   {
     "name": "Clockwork Ruins Starting Area Purple Coin #8",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1506"
@@ -15083,9 +15083,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #1",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1507"
@@ -15093,9 +15093,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #2",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1508"
@@ -15103,9 +15103,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #3",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1509"
@@ -15113,9 +15113,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #4",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1510"
@@ -15123,9 +15123,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #5",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1511"
@@ -15133,9 +15133,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #6",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1512"
@@ -15143,9 +15143,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #7",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1513"
@@ -15153,9 +15153,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #8",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1514"
@@ -15163,9 +15163,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #9",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1515"
@@ -15173,9 +15173,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #10",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1516"
@@ -15183,9 +15183,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #11",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1517"
@@ -15193,9 +15193,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #12",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1518"
@@ -15203,9 +15203,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #13",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1519"
@@ -15213,9 +15213,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #14",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1520"
@@ -15223,9 +15223,9 @@
   {
     "name": "Clockwork Ruins First Wheel Purple Coin #15",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1521"
@@ -15233,9 +15233,9 @@
   {
     "name": "Clockwork Ruins Second Wheel Purple Coin #1",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1522"
@@ -15243,9 +15243,9 @@
   {
     "name": "Clockwork Ruins Second Wheel Purple Coin #2",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1523"
@@ -15253,9 +15253,9 @@
   {
     "name": "Clockwork Ruins Second Wheel Purple Coin #3",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1524"
@@ -15263,9 +15263,9 @@
   {
     "name": "Clockwork Ruins Second Wheel Purple Coin #4",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1525"
@@ -15273,9 +15273,9 @@
   {
     "name": "Clockwork Ruins Second Wheel Purple Coin #5",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1526"
@@ -15283,9 +15283,9 @@
   {
     "name": "Clockwork Ruins Second Wheel Purple Coin #6",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1527"
@@ -15293,9 +15293,9 @@
   {
     "name": "Clockwork Ruins Second Wheel Purple Coin #7",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1528"
@@ -15303,9 +15303,9 @@
   {
     "name": "Clockwork Ruins Second Wheel Purple Coin #8",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1529"
@@ -15313,9 +15313,9 @@
   {
     "name": "Clockwork Ruins Steps Purple Coin #1",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1530"
@@ -15323,9 +15323,9 @@
   {
     "name": "Clockwork Ruins Steps Purple Coin #2",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1531"
@@ -15333,9 +15333,9 @@
   {
     "name": "Clockwork Ruins Steps Purple Coin #3",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1532"
@@ -15343,9 +15343,9 @@
   {
     "name": "Clockwork Ruins Steps Purple Coin #4",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1533"
@@ -15353,9 +15353,9 @@
   {
     "name": "Clockwork Ruins Steps Purple Coin #5",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1534"
@@ -15363,9 +15363,9 @@
   {
     "name": "Clockwork Ruins Steps Purple Coin #6",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1535"
@@ -15373,9 +15373,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #1",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1536"
@@ -15383,9 +15383,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #2",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1537"
@@ -15393,9 +15393,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #3",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1538"
@@ -15403,9 +15403,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #4",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1539"
@@ -15413,9 +15413,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #5",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1540"
@@ -15423,9 +15423,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #6",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1541"
@@ -15433,9 +15433,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #7",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1542"
@@ -15443,9 +15443,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #8",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1543"
@@ -15453,9 +15453,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #9",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1544"
@@ -15463,9 +15463,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #10",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1545"
@@ -15473,9 +15473,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #11",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1546"
@@ -15483,9 +15483,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #12",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1547"
@@ -15493,9 +15493,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #13",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1548"
@@ -15503,9 +15503,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #14",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1549"
@@ -15513,9 +15513,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #15",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1550"
@@ -15523,9 +15523,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #16",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1551"
@@ -15533,9 +15533,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #17",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1552"
@@ -15543,9 +15543,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #18",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1553"
@@ -15553,9 +15553,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #19",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1554"
@@ -15563,9 +15563,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #20",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1555"
@@ -15573,9 +15573,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #21",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1556"
@@ -15583,9 +15583,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #22",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1557"
@@ -15593,9 +15593,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #23",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1558"
@@ -15603,9 +15603,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #24",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1559"
@@ -15613,9 +15613,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #25",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1560"
@@ -15623,9 +15623,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #26",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1561"
@@ -15633,9 +15633,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #27",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1562"
@@ -15643,9 +15643,9 @@
   {
     "name": "Clockwork Ruins Third Wheel Purple Coin #28",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1563"
@@ -15653,9 +15653,9 @@
   {
     "name": "Clockwork Ruins Final Platform Purple Coin #1",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1564"
@@ -15663,9 +15663,9 @@
   {
     "name": "Clockwork Ruins Final Platform Purple Coin #2",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1565"
@@ -15673,9 +15673,9 @@
   {
     "name": "Clockwork Ruins Final Platform Purple Coin #3",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1566"
@@ -15683,9 +15683,9 @@
   {
     "name": "Clockwork Ruins Final Platform Purple Coin #4",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1567"
@@ -15693,9 +15693,9 @@
   {
     "name": "Clockwork Ruins Final Platform Purple Coin #5",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1568"
@@ -15703,9 +15703,9 @@
   {
     "name": "Clockwork Ruins Final Platform Purple Coin #6",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1569"
@@ -15713,9 +15713,9 @@
   {
     "name": "Clockwork Ruins Final Platform Purple Coin #7",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1570"
@@ -15723,9 +15723,9 @@
   {
     "name": "Clockwork Ruins Final Platform Purple Coin #8",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1571"
@@ -15733,9 +15733,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #1",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1572"
@@ -15743,9 +15743,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #2",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1573"
@@ -15753,9 +15753,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #3",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1574"
@@ -15763,9 +15763,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #4",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1575"
@@ -15773,9 +15773,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #5",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1576"
@@ -15783,9 +15783,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #6",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1577"
@@ -15793,9 +15793,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #7",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1578"
@@ -15803,9 +15803,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #8",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1579"
@@ -15813,9 +15813,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #9",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1580"
@@ -15823,9 +15823,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #10",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1581"
@@ -15833,9 +15833,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #11",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1582"
@@ -15843,9 +15843,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #12",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1583"
@@ -15853,9 +15853,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #13",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1584"
@@ -15863,9 +15863,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #14",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1585"
@@ -15873,9 +15873,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #15",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1586"
@@ -15883,9 +15883,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #16",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1587"
@@ -15893,9 +15893,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #17",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1588"
@@ -15903,9 +15903,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #18",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1589"
@@ -15913,9 +15913,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #19",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1590"
@@ -15923,9 +15923,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #20",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1591"
@@ -15933,9 +15933,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #21",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1592"
@@ -15943,9 +15943,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #22",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1593"
@@ -15953,9 +15953,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #23",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1594"
@@ -15963,9 +15963,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #24",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1595"
@@ -15973,9 +15973,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #25",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1596"
@@ -15983,9 +15983,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #26",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1597"
@@ -15993,9 +15993,9 @@
   {
     "name": "Clockwork Ruins Final Wheel Purple Coin #27",
     "requires": "",
-    "region": "Supermassive Purple Coins",
+    "region": "Clockwork Ruins Purple Coins",
     "category": [
-      "Supermassive Purple Coins",
+      "Clockwork Ruins Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1598"

@@ -136,7 +136,7 @@
     "World 6": {
     "requires": "|Grand Star (World 6 Access)|",
     "connects_to": ["Melty Monster Galaxy (55)", "Clockwork Ruins Galaxy (55)", "Flash Black Galaxy (55)",
-      "Slimy Spring Galaxy (55)", " Throwback Galaxy (60)", "Battle Belt Galaxy (65)", "Bowser's Galaxy Generator (70)",
+      "Slimy Spring Galaxy (55)", "Throwback Galaxy (60)", "Battle Belt Galaxy (65)", "Bowser's Galaxy Generator (70)",
       "Bowser's Galaxy Generator Comet"]
   },
   "Melty Monster Galaxy (55)": {
@@ -196,7 +196,7 @@
   "connects_to": []
   },
   "Puzzle Plank Purple Coins": {
-    "requires": ["{OptAll(|Purple Comets| AND |Puzzle Plank Comet Medal|)}"]
+    "requires": "{OptAll(|Purple Comets| AND |Puzzle Plank Comet Medal|)}"
   },
   "Tall Trunk Purple Coins": {
     "requires": "{OptOne(|Purple Comets|)} AND {OptOne(|Tall Trunk Comet Medal|)}",
