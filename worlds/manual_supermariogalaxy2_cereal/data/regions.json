@@ -137,7 +137,7 @@
     "requires": "|Grand Star (World 6 Access)|",
     "connects_to": ["Melty Monster Galaxy (55)", "Clockwork Ruins Galaxy (55)", "Flash Black Galaxy (55)",
       "Slimy Spring Galaxy (55)", "Throwback Galaxy (60)", "Battle Belt Galaxy (65)", "Bowser's Galaxy Generator (70)",
-      "Bowser's Galaxy Generator Comet"]
+      "Bowser's Galaxy Generator Comet (70)"]
   },
   "Melty Monster Galaxy (55)": {
     "connects_to": []

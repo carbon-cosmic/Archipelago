@@ -7162,7 +7162,7 @@
   },
   {
     "name": "Galaxy Generator Green Star 2",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})) AND ((|Cloud Flower| AND |Long Jump| AND (|Wall Jump| OR {YamlEnabled(Advanced Logic)})) OR (|Yoshi| AND |Advanced Logic|)))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Green Comets|)}",
+    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})) AND ((|Cloud Flower| AND |Long Jump| AND (|Wall Jump| OR {YamlEnabled(Advanced Logic)})) OR (|Yoshi| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
       "World 6",
@@ -7222,7 +7222,7 @@
   },
   {
     "name": "Bowser's Big Bad Speed Run",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND |Ground Pound| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND |Advanced Logic|)))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
+    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND |Ground Pound| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
       "World 6",
