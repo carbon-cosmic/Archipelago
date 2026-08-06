@@ -96,12 +96,37 @@
       },
       "Movement_Randomization": {
         "description": [
-          "Mario's moveset will be randomized in the multiworld."
+          "How Mario's moveset will be randomized in the multiworld.",
+          " ",
+          "none: Movement will not be randomized",
+          "spin_start: Mario's moves will all be randomized except for Spin",
+          "spin_progressive: All of Mario's moves will be randomized. There will be two 'Progressive Spin' items, ",
+          "                  the first allowing ground and water spins and the second allowing spins in the air.",
+          "spin_singular: All of Mario's moves will be randomized. Spin will be a single item."
         ],
         "display_name": "Movement Randomization",
-        "type": "Toggle",
-        "default": false,
+        "type": "Choice",
+        "values": {
+          "none": 0,
+          "spin_start": 1,
+          "spin_progressive": 2,
+          "spin_singular": 3
+        },
+        "alias": {
+          "false": 0,
+          "off": 0,
+          "true": 3
+        },
+        "default": 1,
         "group": "Item Options"
+      },
+      "Progressive_Triple_Jump": {
+        "description": ["Whether Triple Jump is split into two Progressive Triple Jump items,",
+        "the first allowing Double Jumps and the second allowing Triple Jumps.",
+        "Does nothing if Movement Randomization is turned off."],
+        "display_name": "Progressive Triple Jump",
+        "type": "Toggle",
+        "default": true
       },
       "Mechanic_Randomization": {
         "description": [

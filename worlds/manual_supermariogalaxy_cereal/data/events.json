@@ -1,6 +1,122 @@
 [
   {
+    "name": "Can Ground Spin",
+    "requires": "{OptAll(|Spin| AND |Progressive Spin|)}"
+  },
+  {
+    "name": "Can Air Spin",
+    "requires": "{OptAll(|Spin| AND |Progressive Spin:2|)}"
+  },
+  {
+    "name": "Can Break Crates",
+    "requires": "|Ground Spin| OR |Ground Pound|"
+  },
+  {
+    "name": "Can Back or Sideflip",
+    "requires": "{OptAll(|Backflip| OR |Sideflip|)}"
+  },
+  {
+    "name": "Can Backflip",
+    "requires": "{OptOne(|Backflip|)}"
+  },
+  {
+    "name": "Can Sideflip",
+    "requires": "{OptOne(|Sideflip|)}"
+  },
+  {
+    "name": "Can Wall Jump",
+    "requires": "{OptOne(|Wall Jump|)}"
+  },
+  {
+    "name": "Can Ground Pound",
+    "requires": "{OptOne(|Ground Pound|)}"
+  },
+  {
+    "name": "Can Long Jump",
+    "requires": "{OptOne(|Long Jump|)}"
+  },
+  {
+    "name": "Can Double Jump",
+    "requires": "{OptAll(|Triple Jump| AND |Progressive Triple Jump|)}"
+  },
+  {
+    "name": "Can Triple Jump",
+    "requires": "{OptAll(|Triple Jump| AND |Progressive Triple Jump:2|)}"
+  },
+  {
+    "name": "Has Bee",
+    "requires": "{OptOne(|Bee Mushroom|)}"
+  },
+  {
+    "name": "Has Boo",
+    "requires": "{OptOne(|Boo Mushroom|)}"
+  },
+  {
+    "name": "Has Spring",
+    "requires": "{OptOne(|Spring Mushroom|)}"
+  },
+  {
+    "name": "Has Fire",
+    "requires": "{OptOne(|Fire Flower|)}"
+  },
+  {
+    "name": "Has Ice",
+    "requires": "{OptOne(|Ice Flower|)}"
+  },
+  {
+    "name": "Has Flight",
+    "requires": "{OptOne(|Red Star|)}"
+  },
+  {
+    "name": "Has Invincibility",
+    "requires": "{OptOne(|Rainbow Star|)}"
+  },
+  {
+    "name": "Has Star Ball",
+    "requires": "{OptOne(|Star Ball|)}"
+  },
+  {
+    "name": "Has Manta Surfing",
+    "requires": "{OptOne(|Manta Surfing|)}"
+  },
+  {
+    "name": "Has Bubble",
+    "requires": "{OptOne(|Bubble|)}"
+  },
+  {
+    "name": "Has Koopa Shell",
+    "requires": "{OptOne(|Koopa Shell|)}"
+  },
+  {
+    "name": "Has Bob-ombs",
+    "requires": "{OptOne(|Bob-ombs|)}"
+  },
+  {
+    "name": "Has Pull Stars",
+    "requires": "{OptOne(|Pull Stars|)}"
+  },
+  {
+    "name": "Has Sling Pods",
+    "requires": "{OptOne(|Sling Pods|)}"
+  },
+  {
+    "name": "Has Cannons",
+    "requires": "{OptOne(|Cannon Permit|)}"
+  },
+  {
+    "name": "Has Screwdriver",
+    "requires": "{OptOne(|Screwdriver|)}"
+  },
+  {
+    "name": "Has Tornadoes",
+    "requires": "{OptOne(|Tornado Soaring|)}"
+  },
+  {
+    "name": "Has Floaty Fluff",
+    "requires": "{OptOne(|Floaty Fluff|)}"
+  },
+  {
     "name": "Can Swim",
-    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})"
+    "requires": "{OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}"
   }
 ]

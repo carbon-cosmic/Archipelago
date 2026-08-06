@@ -10,7 +10,7 @@
   },
   "Gateway 1 Start": {
     "connects_to": ["Gateway 1"],
-    "exit_requires": ["{OptOne(|Spin|)}"]
+    "exit_requires": ["|Can Ground Spin|"]
   },
   "Gateway 1": {
 
@@ -29,13 +29,16 @@
   "Good Egg 1": {
     "connects_to": ["Good Egg Bonus Room"]
   },
+  "Good Egg Bonus Room": {
+
+  },
   "Good Egg 2 Start": {
     "connects_to": ["Good Egg 2 Pear Planet", "Good Egg Bonus Room"]
   },
   "Good Egg 2 Pear Planet": {
     "connects_to": ["Good Egg 2 Red Planet", "Good Egg 2 Egg Planet"],
-    "entrance_requires": ["{OptOne(|Pull Stars|)}"],
-    "exit_requires": ["{OptOne(|Spin|)}"]
+    "entrance_requires": ["|Has Pull Stars|"],
+    "exit_requires": ["|Can Ground Spin|"]
   },
   "Good Egg 2 Red Planet": {
     "connects_to": ["Good Egg 2 Egg Planet"]
@@ -54,7 +57,7 @@
   },
   "Good Egg 3 Start": {
     "connects_to": ["Good Egg Bonus Room, Good Egg 3 Chomp Planet"],
-    "exit_requires": ["{OptOne(|Spin|)}"]
+    "exit_requires": ["|Can Ground Spin|"]
   },
   "Good Egg 3 Chomp Planet": {
     "connects_to": ["Good Egg 3 Chomp Bonus Room, Good Egg 3 Fleet Planets"]
@@ -74,7 +77,7 @@
   "Good Egg P Pear Planet": {
     "connects_to": ["Good Egg P Red Planet", "Good Egg P Egg Planet"],
     "entrance_requires": ["{canAccessComet(4)} AND {OptOne(|Good Egg Comet Medal|)}"],
-    "exit_requires": ["{OptOne(|Spin|)}"]
+    "exit_requires": ["|Can Ground Spin|"]
   },
   "Good Egg P Red Planet": {
     "connects_to": ["Good Egg P Egg Planet"]
@@ -299,12 +302,25 @@
       "Beach Bowl C Cyclone Stone", "Beach Bowl P Ocean"]
   },
   "Beach Bowl 1 Ocean": {
-    "connects_to": ["Beach Bowl 1 Top"]
+    "connects_to": ["Beach Bowl 1 Top"],
+    "exit_requires": ["{OptOne(|Spin|)}"]
   },
+  "Beach Bowl 1 Top": {
 
-
+  },
   "Bubble Breeze Galaxy": {
-    "connects_to": []
+    "connects_to": ["Bubble Breeze Start"]
+  },
+  "Bubble Breeze Start": {
+    "connects_to": ["Bubble Breeze Start Swamp"],
+    "exit_requires": ["|Bubble|"]
+  },
+  "Bubble Breeze Start Swamp": {
+    "connects_to": ["Bubble Breeze End Swamp"],
+    "exit_requires": ["|Bubble"]
+  },
+  "Bubble Breeze End Swamp": {
+
   },
   "Ghostly Galaxy": {
     "connects_to": []
