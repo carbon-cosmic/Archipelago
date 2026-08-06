@@ -1,0 +1,738 @@
+[
+ {
+  "name": "Power Star",
+  "count": 104,
+  "category": [
+    "Total Stars"
+  ],
+  "progression": true
+},
+  {
+    "name": "Power Star (Sweet Sweet Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Hungry Luma Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Power Star (Sling Pod Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Hungry Luma Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Power Star (Drip Drop Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Hungry Luma Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Power Star (Bigmouth Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Hungry Luma Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Power Star (Sand Spiral Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Hungry Luma Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Red Power Star",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Hungry Luma Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Power Star (Snow Cap Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Hungry Luma Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Grand Star (Terrace Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Grand Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Grand Star (Fountain Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Grand Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Grand Star (Kitchen Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Grand Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Grand Star (Bedroom Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Grand Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Grand Star (Engine Room Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Grand Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Grand Star (Garden Access)",
+    "count": 1,
+    "category": [
+      "Total Stars",
+      "Grand Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Grand Star (Purple Coins)",
+    "count": 1,
+    "category": [
+      "Total Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Green Star",
+    "count": 3,
+    "category": [
+      "Total Stars",
+      "Green Stars"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Good Egg Luigi Letter",
+    "count": 1,
+    "category": [
+      "Letters"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Battlerock Luigi Letter",
+    "count": 1,
+    "category": [
+      "Letters"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Honeyhive Luigi Letter",
+    "count": 1,
+    "category": [
+      "Letters"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Bee Mushroom",
+    "count": 1,
+    "category": [
+      "Powerups"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Rainbow Star",
+    "count": 1,
+    "category": [
+      "Powerups"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Boo Mushroom",
+    "count": 1,
+    "category": [
+      "Powerups"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Ice Flower",
+    "count": 1,
+    "category": [
+      "Powerups"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Fire Flower",
+    "count": 1,
+    "category": [
+      "Powerups"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Spring Mushroom",
+    "count": 1,
+    "category": [
+      "Powerups"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Red Star",
+    "count": 1,
+    "category": [
+      "Powerups"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ground Pound",
+    "category": [
+      "Moves"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Spin",
+    "category": [
+      "Moves"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pull Stars",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wall Jump",
+    "category": [
+      "Moves"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Backflip",
+    "category": [
+      "Moves"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sideflip",
+    "category": [
+      "Moves"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Triple Jump",
+    "category": [
+      "Moves"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Manta Surfing",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Koopa Shell",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sling Pods",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Bob-ombs",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Cannon Permit",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Screwdriver",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Star Ball",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Bubble",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Floaty Fluff",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Tornado Soaring",
+    "category": [
+      "Mechanics"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Long Jump",
+    "category": [
+      "Moves"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Luigi Character Unlock",
+    "category": [
+      "Luigi"
+    ],
+    "useful": true,
+      "requires": ""
+
+  },
+  {
+  "name": "Gateway Purple Coin",
+  "count": 1,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Good Egg Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Honeyhive Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Space Junk Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Battlerock Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Beach Bowl Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Ghostly Purple Coin",
+  "count": 149,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Gusty Garden Purple Coin",
+  "count": 150,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Freezeflame Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Dusty Dune Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Gold Leaf Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Sea Slide Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Toy Time Purple Coin",
+  "count": 150,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Deep Dark Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Dreadnought Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+{
+  "name": "Melty Molten Purple Coin",
+  "count": 100,
+  "category": [
+    "Purple Coins"
+  ],
+  "progression": true,
+  "yaml_option": [
+    "Purple_Coinsanity"
+  ]
+},
+  {
+  "name": "1-Up",
+  "count": 164,
+  "category": [
+    "Filler"
+  ],
+  "progression": false,
+  "useful": false,
+     "yaml_option": [
+    "1UPsanity"
+  ]
+},
+{
+  "name": "Life Mushroom",
+  "count": 45,
+  "category": [
+    "Filler"
+  ],
+  "progression": false,
+  "useful": false,
+  "yaml_option": [
+    "Life_Shroomsanity"
+  ]
+},
+  {
+    "name": "Gateway Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Good Egg Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Honeyhive Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Space Junk Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Battlerock Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+   {
+    "name": "Deep Dark Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Beach Bowl Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Ghostly Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Gusty Garden Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Freezeflame Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Dusty Dune Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Gold Leaf Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Sea Slide Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Toy Time Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Dreadnought Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "name": "Melty Molten Comet Medal",
+    "count": 1,
+    "category": [
+      "Comet Medals"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Speedy Comets",
+    "category": [
+      "Prankster Comets"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Cosmic Comets",
+    "category": [
+      "Prankster Comets"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Daredevil Comets",
+    "category": [
+      "Prankster Comets"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Fast-Foe Comets",
+    "category": [
+      "Prankster Comets"
+    ],
+    "progression": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "SuperMarioGalaxy",
+  "creator": "carboncosmic",
+  "filler_item_name": "Star Bits",
+  "starting_items": [
+    {
+            "item_categories": ["Grand Stars"],
+         "random": 1
+        }
+  ]
+}

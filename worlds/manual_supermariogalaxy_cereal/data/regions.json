@@ -1,0 +1,415 @@
+{
+  "Comet Observatory": {
+    "starting": true,
+    "connects_to": ["Gateway Galaxy", "Terrace", "Fountain", "Kitchen", "Bedroom", "Engine Room", "Garden",
+      "Sweet Sweet Galaxy", "Sling Pod Galaxy", "Drip Drop Galaxy", "Bigmouth Galaxy", "Sand Spiral Galaxy",
+      "Snow Cap Galaxy", "Boo's Boneyard Galaxy", "Bowser's Galaxy Reactor"]
+  },
+  "Gateway Galaxy": {
+    "connects_to": ["Gateway 1 Start", "Gateway P"]
+  },
+  "Gateway 1 Start": {
+    "connects_to": ["Gateway 1"],
+    "exit_requires": ["{OptOne(|Spin|)}"]
+  },
+  "Gateway 1": {
+
+  },
+  "Gateway P": {
+
+  },
+  "Terrace": {
+    "connects_to": ["Good Egg Galaxy", "Honeyhive Galaxy", "Loopdeloop Galaxy", "Switcheroo Galaxy",
+      "Bowser Jr.'s Robot Reactor"],
+    "entrance_requires": ["|Grand Star: Terrace Access|"]
+  },
+  "Good Egg Galaxy": {
+    "connects_to": ["Good Egg 1", "Good Egg 2 Start", "Good Egg 3 Start", "Good Egg C", "Good Egg P Pear Planet", "Good Egg L"]
+  },
+  "Good Egg 1": {
+    "connects_to": ["Good Egg Bonus Room"]
+  },
+  "Good Egg 2 Start": {
+    "connects_to": ["Good Egg 2 Pear Planet", "Good Egg Bonus Room"]
+  },
+  "Good Egg 2 Pear Planet": {
+    "connects_to": ["Good Egg 2 Red Planet", "Good Egg 2 Egg Planet"],
+    "entrance_requires": ["{OptOne(|Pull Stars|)}"],
+    "exit_requires": ["{OptOne(|Spin|)}"]
+  },
+  "Good Egg 2 Red Planet": {
+    "connects_to": ["Good Egg 2 Egg Planet"]
+  },
+  "Good Egg 2 Egg Planet": {
+    "connects_to": ["Good Egg 2 Hungry Luma Planet"]
+  },
+  "Good Egg 2 Hungry Luma Planet": {
+    "connects_to": ["Good Egg 2 Pill Planet"]
+  },
+  "Good Egg 2 Pill Planet": {
+    "connects_to": ["Good Egg 2 Star"]
+  },
+  "Good Egg 2 Star": {
+
+  },
+  "Good Egg 3 Start": {
+    "connects_to": ["Good Egg Bonus Room, Good Egg 3 Chomp Planet"],
+    "exit_requires": ["{OptOne(|Spin|)}"]
+  },
+  "Good Egg 3 Chomp Planet": {
+    "connects_to": ["Good Egg 3 Chomp Bonus Room, Good Egg 3 Fleet Planets"]
+  },
+  "Good Egg 3 Chomp Bonus Room": {
+
+  },
+  "Good Egg 3 Fleet Planets": {
+    "connects_to": ["Good Egg 3 Boss Planet"]
+  },
+  "Good Egg 3 Boss Planet": {
+
+  },
+  "Good Egg C": {
+    "entrance_requires": ["{canAccessComet(0)} AND {OptOne(|Good Egg Comet Medal|)}"]
+  },
+  "Good Egg P Pear Planet": {
+    "connects_to": ["Good Egg P Red Planet", "Good Egg P Egg Planet"],
+    "entrance_requires": ["{canAccessComet(4)} AND {OptOne(|Good Egg Comet Medal|)}"],
+    "exit_requires": ["{OptOne(|Spin|)}"]
+  },
+  "Good Egg P Red Planet": {
+    "connects_to": ["Good Egg P Egg Planet"]
+  },
+  "Good Egg P Egg Planet": {
+
+  },
+  "Honeyhive Galaxy": {
+    "connects_to": ["Honeyhive 1 Start", "Honeyhive 2 Start", "Honeyhive 3 Start", "Honeyhive C Start", "Honeyhive P Start"]
+  },
+  "Honeyhive 1 Start": {
+    "connects_to": ["Honeyhive 1 Pond Ledge", "Honeyhive 1 Behind the Waterfall", "Honeyhive 1 Right Ledge"]
+  },
+  "Loopdeeloop Galaxy": {
+    "connects_to": ["Loopdeeloop Start"]
+  },
+  "Loopdeeloop Start": {
+    "connects_to": ["Loopdeeloop Track"],
+    "exit_requires": ["OptOne(|Manta Surfing|)"]
+  },
+  "Loopdeeloop Track": {
+
+  },
+  "Switcheroo Galaxy": {
+    "connects_to": ["Switcheroo Flipswitches"]
+  },
+  "Switcheroo Flipswitches": {
+
+  },
+  "Bowser Jr.'s Robot Reactor": {
+    "connects_to": ["Robot Reactor Start"]
+  },
+  "Robot Reactor Start": {
+    "connects_to": ["Robot Reactor Megaleg"]
+  },
+  "Robot Reactor Megaleg": {
+
+  },
+  "Sweet Sweet Galaxy": {
+    "connects_to": ["Sweet Sweet Landing"],
+    "entrance_requires": "|Power Star (Sweet Sweet Access)|"
+  },
+  "Sweet Sweet Landing": {
+
+  },
+  "Fountain": {
+    "connects_to": ["Space Junk Galaxy", "Rolling Green Galaxy", "Battlerock Galaxy", "Hurry-Scurry Galaxy",
+      "Bowser's Star Reactor"],
+    "entrance_requires": ["|Grand Star (Fountain Access)|"]
+  },
+  "Space Junk Galaxy": {
+    "connects_to": ["Space Junk 1 Start", "Space Junk 2 Starshrooms", "Space Junk 3 Start", "Space Junk C Start",
+      "Space Junk P"]
+  },
+  "Space Junk 1 Start": {
+    "connects_to": ["Space Junk 1 Star Chips"],
+    "exit_requires": ["{OptOne(|Pull Stars|)}"]
+  },
+  "Space Junk 1 Star Chips": {
+    "connects_to": ["Space Junk 1 Pull Stars"]
+  },
+  "Space Junk 1 Pull Stars": {
+    "connects_to": ["Space Junk 1 Silver Stars"],
+    "exit_requires": ["{OptOne(|Spin|)}"]
+  },
+  "Space Junk 1 Silver Stars": {
+
+  },
+  "Space Junk 2 Starshrooms": {
+    "connects_to": ["Space Junk 2 Bridge Airship"]
+  },
+  "Space Junk 2 Bridge Airship": {
+    "connects_to": ["Space Junk 2 Magikoopa Airship"],
+    "exit_requires": ["{OptAll(|Spin| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)}))}"]
+  },
+  "Space Junk 2 Magikoopa Airship": {
+    "connects_to": ["Space Junk 2 Boss Airships"],
+    "exit_requires": ["{OptOne(|Koopa Shell|)}"]
+  },
+  "Space Junk 2 Boss Airships": {
+
+  },
+  "Space Junk 3 Start": {
+    "connects_to": ["Space Junk 3 Terrarium Planet"]
+  },
+  "Space Junk 3 Terrarium Planet": {
+    "connects_to": ["Space Junk 3 Sling Pods", "Space Junk S"],
+    "entrance_requires": ["{OptOne(|Pull Stars|)}"]
+  },
+  "Space Junk 3 Sling Pods": {
+
+  },
+  "Space Junk C Start": {
+    "connects_to": ["Space Junk 1 Star Chips"],
+    "entrance_requires": ["{canAccessComet(0)} AND {OptOne(Space Junk Comet Medal)}"],
+    "exit_requires": ["{OptOne(|Pull Stars|)}"]
+  },
+  "Space Junk C Star Chips": {
+    "connects_to": ["Space Junk 1 Pull Stars"]
+  },
+  "Space Junk C Pull Stars": {
+    "connects_to": ["Space Junk 1 Silver Stars"],
+    "exit_requires": ["{OptOne(|Spin|)}"]
+  },
+  "Space Junk C Silver Stars": {
+
+  },
+  "Space Junk P": {
+    "entrance_requires": ["{canAccessComet(0)} AND {OptOne(Space Junk Comet Medal)}"]
+  },
+  "Space Junk S": {
+    "entrance_requires": ["{OptOne(|Spin|)} OR {YamlEnabled(Advanced Logic)}"]
+  },
+  "Rolling Green Galaxy": {
+    "connects_to": ["Rolling Green Start"]
+  },
+  "Rolling Green Start": {
+    "connects_to": ["Rolling Green Main Planet"],
+    "exit_requires": ["{OptOne(|Star Ball|)}"]
+  },
+  "Rolling Green Main Planet": {
+
+  },
+  "Battlerock Galaxy": {
+    "connects_to": ["Battlerock 1 Start", "Battlerock 2 Start", "Battlerock 3 Start", "Battlerock C", "Battlerock P"]
+  },
+  "Battlerock 1 Start": {
+    "connects_to": "Battlerock 1 Cannons",
+    "exit_requires": ["{OptOne(|Pull Stars|)}"]
+  },
+  "Battlerock 1 Cannons": {
+    "connects_to": ["Battlerock 1 End UFOs"],
+    "entrance_requires": ["{OptOne(|Screwdriver|)}"]
+  },
+  "Battlerock 1 End UFOs": {
+
+  },
+  "Battlerock 2 Start": {
+    "connects_to": "Battlerock 2 Molecule Planet",
+    "exit_requires": ["{OptOne(|Bob-ombs|)}"]
+  },
+  "Battlerock 2 Molecule Planet": {
+    "connects_to": ["Battlerock 2 Pull Stars", "Battlerock S Ammo Depot"]
+  },
+  "Battlerock 2 Pull Stars": {
+    "connects_to": ["Battlerock 2 Cannon Cylinder"],
+    "exit_requires": ["{OptOne(|Pull Stars|)}"]
+  },
+  "Battlerock 2 Cannon Cylinder": {
+    "connects_to": ["Battlerock 2 Torpedo Planet"],
+    "exit_requires": ["{OptOne(|Cannon Permit|)}"]
+  },
+  "Battlerock 2 Torpedo Planet": {
+
+  },
+  "Battlerock 3 Start": {
+    "connects_to": ["Battlerock 3 Pillar Planet"],
+    "exit_requires": ["{OptOne(|Pull Stars|)}"]
+  },
+  "Battlerock 3 Pillar Planet": {
+    "connects_to": ["Battlerock 3 2D Section"],
+    "exit_requires": ["{OptOne(|Spin|)}"]
+  },
+  "Battlerock 3 2D Section": {
+    "connects_to": ["Battlerock 3 Boss"]
+  },
+  "Battlerock 3 Boss": {
+
+  },
+  "Battlerock C": {
+    "entrance_requires": ["{canAccessComet(1)} AND {OptOne(|Battlerock Comet Medal|)}"]
+  },
+  "Battlerock P": {
+    "entrance_requires": ["{canAccessComet(4)} AND {OptOne(|Battlerock Comet Medal|)}"]
+  },
+  "Battlerock S Ammo Depot": {
+
+  },
+  "Hurry-Scurry Galaxy": {
+    "connects_to": ["Hurry-Scurry Start"]
+  },
+  "Hurry-Scurry Start": {
+    "connects_to": ["Hurry-Scurry Satellite"]
+  },
+  "Hurry-Scurry Satellite": {
+
+  },
+  "Bowser's Star Reactor": {
+    "connects_to": ["Star Reactor Start"]
+  },
+  "Star Reactor Start": {
+    "connects_to": ["Star Reactor 2D Section"]
+  },
+  "Star Reactor 2D Section": {
+    "connects_to": ["Star Reactor Firebars"]
+  },
+  "Star Reactor Firebars": {
+
+  },
+  "Sling Pod Galaxy": {
+    "connects_to": ["Sling Pod Cannons"],
+    "entrance_requires": "|Power Star (Sling Pod Access)|"
+  },
+  "Sling Pod Cannons": {
+    "connects_to": ["Sling Pod Pull Stars"],
+    "entrance_requires": ["{OptOne(|Sling Pods|)}"]
+  },
+  "Sling Pod Pull Stars": {
+    "connects_to": ["Sling Pod Firebars"],
+    "entrance_requires": ["{OptOne(|Pull Stars|)}"]
+  },
+  "Sling Pod Firebars": {
+
+  },
+  "Kitchen": {
+    "connects_to": ["Beach Bowl Galaxy", "Bubble Breeze Galaxy", "Ghostly Galaxy", "Buoy Base Galaxy",
+      "Bowser Jr.'s Airship Armada"],
+    "entrance_requires": "|Grand Star (Kitchen Access)|"
+  },
+  "Beach Bowl Galaxy": {
+    "connects_to": ["Beach Bowl 1 Ocean", "Beach Bowl 2 Ocean", "Beach Bowl 3 Ocean",
+      "Beach Bowl C Cyclone Stone", "Beach Bowl P Ocean"]
+  },
+  "Beach Bowl 1 Ocean": {
+    "connects_to": ["Beach Bowl 1 Top"]
+  },
+
+
+  "Bubble Breeze Galaxy": {
+    "connects_to": []
+  },
+  "Ghostly Galaxy": {
+    "connects_to": []
+  },
+  "Buoy Base Galaxy": {
+    "connects_to": []
+  },
+  "Bowser Jr.'s Airship Armada": {
+    "connects_to": []
+  },
+  "Drip Drop Galaxy": {
+    "connects_to": [],
+    "entrance_requires": "|Power Star (Drip Drop Access)|"
+  },
+  "Bedroom": {
+    "connects_to": ["Gusty Garden Galaxy", "Freezeflame Galaxy", "Dusty Dune Galaxy", "Honeyclimb Galaxy",
+      "Bowser's Dark Matter Plant"],
+    "entrance_requires": ["|Grand Star (Bedroom Access)|"]
+  },
+  "Gusty Garden Galaxy": {
+    "connects_to": []
+  },
+  "Freezeflame Galaxy": {
+    "connects_to": []
+  },
+  "Dusty Dune Galaxy": {
+    "connects_to": []
+  },
+  "Honeyclimb Galaxy": {
+    "connects_to": []
+  },
+  "Bowser's Dark Matter Plant": {
+    "connects_to": []
+  },
+  "Bigmouth Galaxy": {
+    "connects_to": [],
+    "entrance_requires": "|Power Star (Bigmouth Access)|"
+  },
+  "Engine Room": {
+    "connects_to": ["Gold Leaf Galaxy", "Sea Slide Galaxy", "Toy Time Galaxy", "Bonefin Galaxy",
+      "Bowser Jr.'s Lava Reactor"],
+    "entrance_requires": ["|Grand Star (Engine Room Access)|"]
+  },
+  "Gold Leaf Galaxy": {
+    "connects_to": []
+  },
+  "Sea Slide Galaxy": {
+    "connects_to": []
+  },
+  "Toy Time Galaxy": {
+    "connects_to": []
+  },
+  "Bonefin Galaxy": {
+    "connects_to": []
+  },
+  "Bowser Jr.'s Lava Reactor": {
+    "connects_to": []
+  },
+  "Sand Spiral Galaxy": {
+    "connects_to": [],
+    "entrance_requires": "|Power Star (Sand Spiral Access)|"
+  },
+  "Boo's Boneyard Galaxy": {
+    "connects_to": [],
+    "entrance_requires": "|Red Power Star|"
+  },
+  "Garden": {
+    "connects_to": ["Deep Dark Galaxy", "Dreadnought Galaxy", "Matter Splatter Galaxy", "Melty Molten Galaxy"],
+    "entrance_requires": ["|Grand Star (Garden Access)|"]
+  },
+  "Deep Dark Galaxy": {
+    "connects_to": []
+  },
+  "Dreadnought Galaxy": {
+    "connects_to": []
+  },
+  "Matter Splatter Galaxy": {
+    "connects_to": []
+  },
+  "Melty Molten Galaxy": {
+    "connects_to": []
+  },
+  "Snow Cap Galaxy": {
+    "connects_to": [],
+    "entrance_requires": "|Power Star (Snow Cap Access)|"
+  },
+  "Planet of Trials": {
+    "connects_to": ["Loopdeeswoop Galaxy", "Bubble Blast Galaxy", "Rolling Gizmo Galaxy", "Grand Finale Galaxy"],
+    "entrance_requires": "|Green Star:3|"
+  },
+  "Loopdeeswoop Galaxy": {
+    "connects_to": []
+  },
+  "Bubble Blast Galaxy": {
+    "connects_to": []
+  },
+  "Rolling Gizmo Galaxy": {
+    "connects_to": []
+  },
+  "Bowser's Galaxy Reactor": {
+    "requires": "{OptionCount(@Total Stars, Galaxy_Generator_Star_Count)}",
+    "connects_to": []
+  },
+  "Grand Finale Galaxy": {
+    "entrance_requires": ["{OptionCount(@Total Stars, Grand_Finale_Star_Count"],
+    "connects_to": []
+  }
+}

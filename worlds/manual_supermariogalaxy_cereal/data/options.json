@@ -1,0 +1,199 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+
+    "core": {
+        "goal": {
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+            "description": "How to End your Randomized playthrough.",
+            "aliases": {
+                "easiest": 0
+            },
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        }
+    },
+
+    "user": {
+      "Unlockable_Luigi": {
+        "description": [
+          "Include Luigi as an item for unlock.",
+          "Note: Luigi's extra high jumps are currently not accounted for in logic."
+        ],
+        "display_name": "Unlockable Luigi",
+        "type": "Toggle",
+        "default": true,
+        "group": "Item Options"
+      },
+      "Advanced_Logic": {
+        "description": [
+          "Logic will include advanced tricks and technical jumps."
+        ],
+        "display_name": "Advanced Logic",
+        "type": "Toggle",
+        "default": false,
+        "group": "Randomization Options"
+      },
+       "1UPsanity": {
+         "description": [
+           "Receive checks for collecting 1-Up Mushrooms."
+         ],
+         "display_name": "1-Upsanity",
+         "type": "Toggle",
+         "default": false,
+         "group": "Randomization Options"
+      },
+      "Life_Shroomsanity": {
+        "description": [
+          "Receive checks for collecting Life Mushrooms."
+        ],
+        "display_name": "Life Shroomsanity",
+        "type": "Toggle",
+        "default": false,
+        "group": "Randomization Options"
+        },
+      "Luma_Shopsanity": {
+        "description": [
+          "Receive checks for purchasing from Luma Shops."
+        ],
+        "display_name": "Luma Shopsanity",
+        "type": "Toggle",
+        "default": false,
+        "group": "Randomization Options"
+        },
+       "Coinsanity": {
+        "description": [
+          "Receive checks for collecting ? Coins."
+        ],
+        "display_name": "?-Coinsanity",
+        "type": "Toggle",
+        "default": false,
+        "group": "Randomization Options"
+      },
+      "Purple_Coinsanity": {
+        "description": [
+          "Receive checks for collecting Purple Coins.",
+          "Warning: This will add 1,849 checks and Purple Coin items to the multiworld."
+        ],
+        "display_name": "Purple Coinsanity",
+        "type": "Toggle",
+        "default": false,
+        "group": "Randomization Options"
+      },
+      "Power_Star_Locations": {
+        "description": [
+          "Receive checks for collecting Power Stars."
+        ],
+        "display_name": "Power Star Locations",
+        "type": "Toggle",
+        "default": true,
+        "group": "Randomization Options"
+      },
+      "Movement_Randomization": {
+        "description": [
+          "Mario's moveset will be randomized in the multiworld."
+        ],
+        "display_name": "Movement Randomization",
+        "type": "Toggle",
+        "default": false,
+        "group": "Item Options"
+      },
+      "Mechanic_Randomization": {
+        "description": [
+          "Access to various different level mechanics will be randomized in the multiworld.",
+          "These include: Pull Stars, Sling Pods, Koopa Shells, Bolts and Valves, the Star Ball, Bubbles, Manta Surfing,",
+          "Floaty Fluff, Tornadoes, Bob-omb explosions, and Cannons."
+        ],
+        "display_name": "Mechanic Randomization",
+        "type": "Toggle",
+        "default": false,
+        "group": "Item Options"
+      },
+      "Powerup_Randomization": {
+        "description": [
+          "Access to Powerups will be randomized in the multiworld."
+        ],
+        "display_name": "Powerup Randomization",
+        "type": "Toggle",
+        "default": false,
+        "group": "Item Options"
+      },
+      "Power_Stars_Required_to_Unlock_The_Grand_Finale": {
+        "type": "Range",
+        "description": [
+          "Select the amount of Power Stars required to unlock the end objective",
+          "Default 60 Stars"
+        ],
+        "display_name": "Power Stars Required to Unlock The Grand Finale",
+        "range_start": 1,
+        "default": 60,
+        "range_end": 121,
+        "group": "Randomization Options"
+      },
+      "Galaxy_Generator_Star_Count": {
+        "type": "Range",
+        "description": [
+          "The amount of Power Stars required to unlock Bowser's Galaxy Generator",
+          "Maximum 121 stars, default is 60."
+        ],
+        "display_name": "Bowser's Galaxy Generator Star Count",
+        "range_start": 0,
+        "default": 60,
+        "range_end": 121,
+        "group": "Randomization Options"
+      },
+      "Grand_Finale_Star_Count": {
+        "type": "Range",
+        "description": [
+          "The amount of Power Stars required to unlock Grand Finale Galaxy",
+          "Maximum 121 stars."
+        ],
+        "display_name": "Grand Finale Galaxy Star Count",
+        "range_start": 0,
+        "default": 30,
+        "range_end": 121,
+        "group": "Randomization Options"
+      },
+       "Comet_Medal_Items": {
+         "description": [
+           "Option to include comet medal items that act like those found in Galaxy 2.",
+           "These don't exist in the original game, but were included for consistency with the combined randomizer."
+         ],
+         "display_name": "Comet Medal Items",
+         "type": "Toggle",
+         "default": false,
+         "group": "Item Options"
+       },
+       "Comet_Category_Items": {
+         "description": [
+           "Randomizes Comet Categories (such as Speedy Comets or Fast-Foe Comets) into the Multiworld."
+         ],
+         "display_name": "Comet Category Items",
+         "type": "Toggle",
+         "default": true,
+         "group": "Item Options"
+       },
+       "Comet_Randomization": {
+         "description": [
+           "How Prankster Comet randomization will be handled.",
+           "off: Prankster Comets will be available from the start.",
+           "category: Prankster Comets will be randomized by type of comet.",
+           "combined: Prankster Comets will all be unlocked by a single item."
+         ],
+         "display_name": "Comet Randomization",
+         "type": "Choice",
+         "values": {
+           "off": 0,
+           "category": 1,
+           "combined": 2
+         },
+         "default": "category",
+         "group": "Comet Options"
+       }
+  }
+}

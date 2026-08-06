@@ -1,0 +1,6 @@
+[
+  {
+    "name": "Can Swim",
+    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})"
+  }
+]
