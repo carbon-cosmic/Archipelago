@@ -191,40 +191,5 @@
   "Grandmaster Galaxy": {
     "connects_to": [],
     "requires": "{OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}"
-  },
-  "Flip-Swap Purple Coins": {
-  "requires": "{OptAll(|Purple Comets| AND |Flip-Swap Comet Medal|)}",
-  "connects_to": []
-  },
-  "Puzzle Plank Purple Coins": {
-    "requires": "{OptAll(|Purple Comets| AND |Puzzle Plank Comet Medal|)}"
-  },
-  "Tall Trunk Purple Coins": {
-    "requires": "{OptOne(|Purple Comets|)} AND {OptOne(|Tall Trunk Comet Medal|)}",
-    "connects_to": []
-  },
-  "Flipsville Purple Coins": {
-    "requires": "{OptOne(|Purple Comets|)} AND {OptOne(|Flipsville Comet Medal|)}",
-    "connects_to": []
-  },
-  "Starshine Beach Purple Coins": {
-    "requires": "{OptOne(|Purple Comets|)} AND {OptOne(|Starshine Beach Comet Medal|)}",
-    "connects_to": []
-  },
-  "Sweet Mystery Purple Coins": {
-    "requires": "{OptOne(|Purple Comets|)} AND {OptOne(|Sweet Mystery Comet Medal|)} AND {OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
-    "connects_to": []
-  },
-  "Clockwork Ruins Purple Coins": {
-    "requires": "{OptOne(|Purple Comets|)} AND {OptOne(|Clockwork Ruins Comet Medal|)}",
-    "connects_to": []
-  },
-  "Mario Squared Purple Coins": {
-    "requires": "{OptOne(|Purple Comets|)} AND {OptOne(|Mario Squared Comet Medal|)} AND {OptOne(|Cosmic Clone Comets|)}",
-    "connects_to": []
-  },
-  "Rolling Coaster Purple Coins": {
-    "requires": "{OptOne(|Purple Comets|)} AND {OptOne(|Rolling Coaster Comet Medal|)}}",
-    "connects_to": []
   }
 }
