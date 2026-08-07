@@ -56,20 +56,40 @@
     "requires": "{OptOne(|Spring Mushroom|)}"
   },
   {
+    "name": "Has Rock",
+    "requires": "{OptOne(|Rock Mushroom|)}"
+  },
+  {
     "name": "Has Fire",
     "requires": "{OptOne(|Fire Flower|)}"
   },
   {
-    "name": "Has Ice",
-    "requires": "{OptOne(|Ice Flower|)}"
-  },
-  {
-    "name": "Has Flight",
-    "requires": "{OptOne(|Red Star|)}"
+    "name": "Has Cloud",
+    "requires": "{OptOne(|Cloud Flower|)}"
   },
   {
     "name": "Has Invincibility",
     "requires": "{OptOne(|Rainbow Star|)}"
+  },
+  {
+    "name": "Has Spin-Drill",
+    "requires": "{OptOne(|Spin-Drill|)}"
+  },
+  {
+    "name": "Has Yoshi",
+    "requires": "{OptOne(|Yoshi|)}"
+  },
+  {
+    "name": "Has Dash Pepper",
+    "requires": "{OptOne(|Dash Pepper|)}"
+  },
+  {
+    "name": "Has Blimp Fruit",
+    "requires": "{OptOne(|Blimp Fruit|)}"
+  },
+  {
+    "name": "Has Bulb Berry",
+    "requires": "{OptOne(|Bulb Berry|)}"
   },
   {
     "name": "Has Star Ball",
