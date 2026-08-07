@@ -30,13 +30,26 @@
         "default": true,
         "group": "Item Options"
       },
-      "Advanced_Logic": {
+      "Logic_Difficulty": {
         "description": [
-          "Logic will include advanced tricks and technical jumps."
+          "The level of difficulty expected by logic.",
+          "",
+          "easy: Logic wil only expect simple, often developer-intended solutions.",
+          "normal: Adds a lot of unintended but relatively easy tricks, as well as some minor skips.",
+          "hard: Requires more precise, difficult, or complex skips."
         ],
-        "display_name": "Advanced Logic",
-        "type": "Toggle",
-        "default": false,
+        "display_name": "Logic Difficulty",
+        "type": "Choice",
+        "values": {
+          "easy": 0,
+          "normal": 1,
+          "hard": 2
+        },
+        "default": "easy",
+        "aliases": {
+          "false": 0,
+          "true": 2
+        },
         "group": "Randomization Options"
       },
        "1UPsanity": {
@@ -206,6 +219,7 @@
        "Comet_Randomization": {
          "description": [
            "How Prankster Comet randomization will be handled.",
+           "",
            "off: Prankster Comets will be available from the start.",
            "category: Prankster Comets will be randomized by type of comet.",
            "combined: Prankster Comets will all be unlocked by a single item."
