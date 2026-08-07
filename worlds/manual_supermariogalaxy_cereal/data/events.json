@@ -24,6 +24,10 @@
     "requires": "{OptOne(|Wall Jump|)}"
   },
   {
+    "name": "Can Wall Spin",
+    "requires": "|Can Air Spin| and |Can Wall Jump|"
+  },
+  {
     "name": "Can Ground Pound",
     "requires": "{OptOne(|Ground Pound|)}"
   },

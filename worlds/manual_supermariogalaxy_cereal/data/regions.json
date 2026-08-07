@@ -246,102 +246,102 @@
     "connects_to": ["Rolling Green - Start"]
   },
   "Rolling Green - Start": {
-    "connects_to": ["Rolling Green Main Planet"],
+    "connects_to": ["Rolling Green - Main Planet"],
     "exit_requires": "|Has Star Ball|"
   },
-  "Rolling Green Main Planet": {
+  "Rolling Green - Main Planet": {
 
   },
   "Battlerock Galaxy": {
-    "connects_to": ["Battlerock 1 Start", "Battlerock 2 Start", "Battlerock 3 Start", "Battlerock C", "Battlerock P"]
+    "connects_to": ["Battlerock 1 - Start", "Battlerock 2 - Start", "Battlerock 3 - Start", "Battlerock C - Boss Planet", "Battlerock P - Cannons"]
   },
-  "Battlerock 1 Start": {
-    "connects_to": "Battlerock 1 Cannons",
+  "Battlerock 1 - Start": {
+    "connects_to": "Battlerock 1 - Cannons",
     "exit_requires": "|Has Pull Stars|"
   },
-  "Battlerock 1 Cannons": {
-    "connects_to": ["Battlerock 1 End UFOs"],
+  "Battlerock 1 - Cannons": {
+    "connects_to": ["Battlerock 1 - End UFOs"],
     "entrance_requires": "|Has Screwdriver|"
   },
-  "Battlerock 1 End UFOs": {
+  "Battlerock 1 - End UFOs": {
 
   },
-  "Battlerock 2 Start": {
-    "connects_to": "Battlerock 2 Molecule Planet",
+  "Battlerock 2 - Start": {
+    "connects_to": "Battlerock 2 - Molecule Planet",
     "exit_requires": "|Has Bob-ombs|"
   },
-  "Battlerock 2 Molecule Planet": {
-    "connects_to": ["Battlerock 2 Pull Stars", "Battlerock S Ammo Depot"],
+  "Battlerock 2 - Molecule Planet": {
+    "connects_to": ["Battlerock 2 - Pull Stars", "Battlerock S - Ammo Depot"],
     "exit_requires": "|Has Bob-ombs|"
   },
-  "Battlerock 2 Pull Stars": {
-    "connects_to": ["Battlerock 2 Cannon Cylinder"],
+  "Battlerock 2 - Pull Stars": {
+    "connects_to": ["Battlerock 2 - Cannon Cylinder"],
     "exit_requires": "{OptOne(|Pull Stars|)}"
   },
-  "Battlerock 2 Cannon Cylinder": {
-    "connects_to": ["Battlerock 2 Torpedo Planet"],
+  "Battlerock 2 - Cannon Cylinder": {
+    "connects_to": ["Battlerock 2 - Torpedo Planet"],
     "exit_requires": "|Has Cannon Permit|"
   },
-  "Battlerock 2 Torpedo Planet": {
+  "Battlerock 2 - Torpedo Planet": {
 
   },
-  "Battlerock 3 Start": {
-    "connects_to": ["Battlerock 3 Pillar Planet"],
+  "Battlerock 3 - Start": {
+    "connects_to": ["Battlerock 3 - Pillar Planet"],
     "exit_requires": "|Has Pull Stars|"
   },
-  "Battlerock 3 Pillar Planet": {
-    "connects_to": ["Battlerock 3 2D Section"],
+  "Battlerock 3 - Pillar Planet": {
+    "connects_to": ["Battlerock 3 - 2D Section"],
     "exit_requires": "|Can Ground Spin|"
   },
-  "Battlerock 3 2D Section": {
-    "connects_to": ["Battlerock 3 Boss"]
+  "Battlerock 3 - 2D Section": {
+    "connects_to": ["Battlerock 3 - Boss"]
   },
-  "Battlerock 3 Boss": {
+  "Battlerock 3 - Boss": {
 
   },
-  "Battlerock C": {
+  "Battlerock C - Boss Planet": {
     "entrance_requires": ["{canAccessComet(1)} AND {OptOne(|Battlerock Comet Medal|)}"]
   },
-  "Battlerock P": {
+  "Battlerock P - Cannons": {
     "entrance_requires": ["{canAccessComet(4)} AND {OptOne(|Battlerock Comet Medal|)}"]
   },
-  "Battlerock S Ammo Depot": {
+  "Battlerock S - Ammo Depot": {
 
   },
   "Hurry-Scurry Galaxy": {
-    "connects_to": ["Hurry-Scurry Start"]
+    "connects_to": ["Hurry-Scurry - Start"]
   },
-  "Hurry-Scurry Start": {
-    "connects_to": ["Hurry-Scurry Satellite"]
+  "Hurry-Scurry - Start": {
+    "connects_to": ["Hurry-Scurry - Satellite"]
   },
-  "Hurry-Scurry Satellite": {
+  "Hurry-Scurry - Satellite": {
 
   },
   "Bowser's Star Reactor": {
-    "connects_to": ["Star Reactor Start"]
+    "connects_to": ["Star Reactor - Start"]
   },
-  "Star Reactor Start": {
-    "connects_to": ["Star Reactor 2D Section"]
+  "Star Reactor - Start": {
+    "connects_to": ["Star Reactor - 2D Section"]
   },
-  "Star Reactor 2D Section": {
-    "connects_to": ["Star Reactor Firebars"]
+  "Star Reactor - 2D Section": {
+    "connects_to": ["Star Reactor - Firebars"]
   },
-  "Star Reactor Firebars": {
+  "Star Reactor - Firebars": {
 
   },
   "Sling Pod Galaxy": {
-    "connects_to": ["Sling Pod Cannons"],
+    "connects_to": ["Sling Pod - Cannons"],
     "entrance_requires": "|Power Star (Sling Pod Access)|"
   },
-  "Sling Pod Cannons": {
-    "connects_to": ["Sling Pod Pull Stars"],
+  "Sling Pod - Cannons": {
+    "connects_to": ["Sling Pod - Pull Stars"],
     "entrance_requires": "|Has Sling Pods|"
   },
-  "Sling Pod Pull Stars": {
-    "connects_to": ["Sling Pod Firebars"],
+  "Sling Pod - Pull Stars": {
+    "connects_to": ["Sling Pod - Firebars"],
     "entrance_requires": "|Has Pull Stars|"
   },
-  "Sling Pod Firebars": {
+  "Sling Pod - Firebars": {
 
   },
   "Kitchen": {
@@ -350,28 +350,45 @@
     "entrance_requires": "|Grand Star (Kitchen Access)|"
   },
   "Beach Bowl Galaxy": {
-    "connects_to": ["Beach Bowl 1 Ocean", "Beach Bowl 2 Ocean", "Beach Bowl 3 Ocean",
-      "Beach Bowl C Cyclone Stone", "Beach Bowl P Ocean"]
+    "connects_to": ["Beach Bowl 1 - Ocean", "Beach Bowl 2 - Ocean", "Beach Bowl 3 - Ocean",
+      "Beach Bowl C - Cyclone Stone", "Beach Bowl P - Ocean"]
   },
-  "Beach Bowl 1 Ocean": {
-    "connects_to": ["Beach Bowl 1 Top"],
+  "Beach Bowl 1 - Ocean": {
+    "connects_to": ["Beach Bowl 1 - Underwater", "Beach Bowl - Waterfall Bonus Room"],
+  },
+  "Beach Bowl 1 - Underwater": {
+    "connects_to": ["Beach Bowl 1 - Top Pond Ledge"],
+    "entrance_requires": "|Can Swim|",
     "exit_requires": "|Can Ground Spin|"
   },
-  "Beach Bowl 1 Top": {
+  "Beach Bowl 1 - Top Pond Ledge": {
+    "connects_to": ["Beach Bowl 1 - Top Area"],
+    "exit_requires": "|Can Ground Pound| or "#
+  },
+  "Beach Bowl 1 - Top Area": {
+
+  },
+  "Beach Bowl 2 - Ocean": {
+    "connects_to": ["Beach Bowl S - Waterfalls", "Beach Bowl 2 - Underwater"]
+  },
+  "Beach Bowl 2 - Underwater": {
+    
+  },
+  "Beach Bowl S - Waterfalls": {
 
   },
   "Bubble Breeze Galaxy": {
-    "connects_to": ["Bubble Breeze Start"]
+    "connects_to": ["Bubble Breeze - Start"]
   },
-  "Bubble Breeze Start": {
-    "connects_to": ["Bubble Breeze Start Swamp"],
+  "Bubble Breeze - Start": {
+    "connects_to": ["Bubble Breeze - Start Swamp"],
     "exit_requires": ["|Has Bubble|"]
   },
-  "Bubble Breeze Start Swamp": {
+  "Bubble Breeze - Start Swamp": {
     "connects_to": ["Bubble Breeze End Swamp"],
     "exit_requires": ["|Has Bubble|"]
   },
-  "Bubble Breeze End Swamp": {
+  "Bubble Breeze - End Swamp": {
 
   },
   "Ghostly Galaxy": {
