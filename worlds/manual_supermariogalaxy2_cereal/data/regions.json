@@ -6,28 +6,28 @@
   },
   "World 1": {
     "requires": "|Grand Star (World 1 Access)|",
-    "connects_to": ["Sky Station Galaxy", "Yoshi Star Galaxy (1)", "Spin-Dig Galaxy (3)", "Flip-Swap Galaxy (3)",
-    "Fluffy Bluff Galaxy (3)", "Rightside Down Galaxy (3)", "Bowser Jr.'s Fiery Flotilla (7)"]
+    "connects_to": ["Sky Station Galaxy", "Yoshi Star Galaxy", "Spin-Dig Galaxy", "Flip-Swap Galaxy",
+    "Fluffy Bluff Galaxy", "Rightside Down Galaxy", "Bowser Jr.'s Fiery Flotilla"]
   },
   "Sky Station Galaxy": {
     "connects_to": []
   },
-  "Yoshi Star Galaxy (1)": {
+  "Yoshi Star Galaxy": {
     "connects_to": []
   },
-  "Spin-Dig Galaxy (3)": {
+  "Spin-Dig Galaxy": {
     "connects_to": []
   },
-  "Flip-Swap Galaxy (3)": {
+  "Flip-Swap Galaxy": {
     "connects_to": ["Flip-Swap Purple Coins"]
   },
-  "Fluffy Bluff Galaxy (3)": {
+  "Fluffy Bluff Galaxy": {
     "connects_to": []
   },
-  "Rightside Down Galaxy (3)": {
+  "Rightside Down Galaxy": {
     "connects_to": []
   },
-  "Bowser Jr.'s Fiery Flotilla (7)": {
+  "Bowser Jr.'s Fiery Flotilla": {
     "connects_to": []
   },
   "World 2": {
@@ -35,160 +35,160 @@
     "connects_to": ["Puzzle Plank Galaxy (7)", "Hightail Falls Galaxy (7)", "Boulder Bowl Galaxy (7)",
       "Cosmic Cove Galaxy (7)", "Wild Glide Galaxy (7)", "Honeybloom Galaxy (7)", "Bowser's Lava Lair (16)"]
   },
-  "Puzzle Plank Galaxy (7)": {
+  "Puzzle Plank Galaxy": {
     "connects_to": ["Puzzle Plank Purple Coins"]
   },
-  "Hightail Falls Galaxy (7)": {
+  "Hightail Falls Galaxy": {
     "connects_to": []
   },
-  "Boulder Bowl Galaxy (7)": {
+  "Boulder Bowl Galaxy": {
     "connects_to": []
   },
-  "Cosmic Cove Galaxy (7)": {
+  "Cosmic Cove Galaxy": {
     "connects_to": []
   },
-  "Wild Glide Galaxy (7)": {
+  "Wild Glide Galaxy": {
     "connects_to": []
   },
-  "Honeybloom Galaxy (7)": {
+  "Honeybloom Galaxy": {
     "connects_to": []
   },
-  "Bowser's Lava Lair (16)": {
+  "Bowser's Lava Lair": {
     "connects_to": []
   },
   "World 3": {
     "requires": "|Grand Star (World 3 Access)|",
-    "connects_to": ["Tall Trunk Galaxy (16)", "Cloudy Court Galaxy (16)", "Haunty Halls Galaxy (16)",
-      "Freezy Flake Galaxy (16)", "Rolling Masterpiece Galaxy (16)", "Beat Block Galaxy (16)", "Bowser Jr.'s Fearsome Fleet (28)"]
+    "connects_to": ["Tall Trunk Galaxy", "Cloudy Court Galaxy", "Haunty Halls Galaxy",
+      "Freezy Flake Galaxy", "Rolling Masterpiece Galaxy", "Beat Block Galaxy", "Bowser Jr.'s Fearsome Fleet"]
   },
-  "Tall Trunk Galaxy (16)": {
+  "Tall Trunk Galaxy": {
     "connects_to": ["Tall Trunk Purple Coins"]
   },
-  "Cloudy Court Galaxy (16)": {
+  "Cloudy Court Galaxy": {
     "connects_to": []
   },
-  "Haunty Halls Galaxy (16)": {
+  "Haunty Halls Galaxy": {
     "connects_to": []
   },
-  "Freezy Flake Galaxy (16)": {
+  "Freezy Flake Galaxy": {
     "connects_to": []
   },
-  "Rolling Masterpiece Galaxy (16)": {
+  "Rolling Masterpiece Galaxy": {
     "connects_to": []
   },
-  "Beat Block Galaxy (16)": {
+  "Beat Block Galaxy": {
     "connects_to": []
   },
-  "Bowser Jr.'s Fearsome Fleet (28)": {
+  "Bowser Jr.'s Fearsome Fleet": {
     "connects_to": []
   },
     "World 4": {
     "requires": "|Grand Star (World 4 Access)|",
-    "connects_to": ["Supermassive Galaxy (28)", "Sweet Mystery Galaxy (28)", "Flipsville Galaxy (28)",
-      "Honeyhop Galaxy (28)", "Starshine Beach Galaxy (28)", "Chompworks Galaxy (28)", "Bowser's Gravity Gauntlet (40)"]
+    "connects_to": ["Supermassive Galaxy", "Sweet Mystery Galaxy", "Flipsville Galaxy",
+      "Honeyhop Galaxy", "Starshine Beach Galaxy", "Chompworks Galaxy", "Bowser's Gravity Gauntlet"]
   },
-  "Supermassive Galaxy (28)": {
+  "Supermassive Galaxy": {
     "connects_to": []
   },
-  "Sweet Mystery Galaxy (28)": {
+  "Sweet Mystery Galaxy": {
     "connects_to": ["Sweet Mystery Purple Coins"]
   },
-  "Flipsville Galaxy (28)": {
+  "Flipsville Galaxy": {
     "connects_to": ["Flipsville Purple Coins"]
   },
-  "Honeyhop Galaxy (28)": {
+  "Honeyhop Galaxy": {
     "connects_to": []
   },
-  "Starshine Beach Galaxy (28)": {
+  "Starshine Beach Galaxy": {
     "connects_to": ["Starshine Beach Purple Coins"]
   },
-  "Chompworks Galaxy (28)": {
+  "Chompworks Galaxy": {
     "connects_to": []
   },
-  "Bowser's Gravity Gauntlet (40)": {
+  "Bowser's Gravity Gauntlet": {
     "connects_to": []
   },
     "World 5": {
     "requires": "|Grand Star (World 5 Access)|",
-    "connects_to": ["Space Storm Galaxy (40)", "Slipsand Galaxy (40)", "Shiverburn Galaxy (40)", "Boo Moon Galaxy (40)",
-      "Upside Dizzy Galaxy (40)", "Fleet Glide Galaxy (40)", "Bowser Jr.'s Boom Bunker (55)"]
+    "connects_to": ["Space Storm Galaxy", "Slipsand Galaxy", "Shiverburn Galaxy", "Boo Moon Galaxy",
+      "Upside Dizzy Galaxy", "Fleet Glide Galaxy", "Bowser Jr.'s Boom Bunker"]
   },
-  "Space Storm Galaxy (40)": {
+  "Space Storm Galaxy": {
     "connects_to": []
   },
-  "Slipsand Galaxy (40)": {
+  "Slipsand Galaxy": {
     "connects_to": []
   },
-  "Shiverburn Galaxy (40)": {
+  "Shiverburn Galaxy": {
     "connects_to": []
   },
-  "Boo Moon Galaxy (40)": {
+  "Boo Moon Galaxy": {
     "connects_to": []
   },
-  "Upside Dizzy Galaxy (40)": {
+  "Upside Dizzy Galaxy": {
     "connects_to": []
   },
-  "Fleet Glide Galaxy (40)": {
+  "Fleet Glide Galaxy": {
     "connects_to": []
   },
-  "Bowser Jr.'s Boom Bunker (55)": {
+  "Bowser Jr.'s Boom Bunker": {
     "connects_to": []
   },
     "World 6": {
     "requires": "|Grand Star (World 6 Access)|",
-    "connects_to": ["Melty Monster Galaxy (55)", "Clockwork Ruins Galaxy (55)", "Flash Black Galaxy (55)",
-      "Slimy Spring Galaxy (55)", "Throwback Galaxy (60)", "Battle Belt Galaxy (65)", "Bowser's Galaxy Generator (70)",
-      "Bowser's Galaxy Generator Comet (70)"]
+    "connects_to": ["Melty Monster Galaxy", "Clockwork Ruins Galaxy", "Flash Black Galaxy",
+      "Slimy Spring Galaxy", "Throwback Galaxy", "Battle Belt Galaxy", "Bowser's Galaxy Generator",
+      "Bowser's Galaxy Generator Comet"]
   },
-  "Melty Monster Galaxy (55)": {
+  "Melty Monster Galaxy": {
     "connects_to": []
   },
-  "Clockwork Ruins Galaxy (55)": {
+  "Clockwork Ruins Galaxy": {
     "connects_to": ["Clockwork Ruins Purple Coins"]
   },
-  "Flash Black Galaxy (55)": {
+  "Flash Black Galaxy": {
     "connects_to": []
   },
-  "Slimy Spring Galaxy (55)": {
+  "Slimy Spring Galaxy": {
     "connects_to": []
   },
-  "Throwback Galaxy (60)": {
+  "Throwback Galaxy": {
     "connects_to": []
   },
-  "Battle Belt Galaxy (65)": {
+  "Battle Belt Galaxy": {
     "connects_to": []
   },
-  "Bowser's Galaxy Generator (70)": {
+  "Bowser's Galaxy Generator": {
     "requires": "{OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}",
     "connects_to": []
   },
-  "Bowser's Galaxy Generator Comet (70)": {
+  "Bowser's Galaxy Generator Comet": {
     "connects_to": []
   },
     "World S": {
     "requires": "|Grand Star (World S Access)|",
-    "connects_to": ["Mario Squared Galaxy (70)", "Rolling Coaster Galaxy (75)", "Twisty Trials Galaxy (80)",
-      "Stone Cyclone Galaxy (90)", "Boss Blitz Galaxy (100)", "Flip-Out Galaxy (110)", "Grandmaster Galaxy (240)"]
+    "connects_to": ["Mario Squared Galaxy", "Rolling Coaster Galaxy", "Twisty Trials Galaxy",
+      "Stone Cyclone Galaxy", "Boss Blitz Galaxy", "Flip-Out Galaxy", "Grandmaster Galaxy"]
   },
-  "Mario Squared Galaxy (70)": {
+  "Mario Squared Galaxy": {
     "connects_to": ["Mario Squared Purple Coins"]
   },
-  "Rolling Coaster Galaxy (75)": {
+  "Rolling Coaster Galaxy": {
     "connects_to": ["Rolling Coaster Purple Coins"]
   },
-  "Twisty Trials Galaxy (80)": {
+  "Twisty Trials Galaxy": {
     "connects_to": []
   },
-  "Stone Cyclone Galaxy (90)": {
+  "Stone Cyclone Galaxy": {
     "connects_to": []
   },
-  "Boss Blitz Galaxy (100)": {
+  "Boss Blitz Galaxy": {
     "connects_to": []
   },
-  "Flip-Out Galaxy (110)": {
+  "Flip-Out Galaxy": {
     "connects_to": []
   },
-  "Grandmaster Galaxy (240)": {
+  "Grandmaster Galaxy": {
     "connects_to": [],
     "requires": "{OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}"
   },
