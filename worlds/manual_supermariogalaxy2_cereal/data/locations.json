@@ -1,6 +1,9 @@
 [
   {
-    "name": "Starship Mario Starshroom 1-Up",
+    "name": "Search 'Needs Testing' "
+  },
+  {
+    "name": "Starship Mario - Starshroom 1-Up",
     "requires": "",
     "region": "Starship Mario",
     "category": [
@@ -10,7 +13,7 @@
     "sort-key": "row-0004"
   },
   {
-    "name": "Starship Mario Aboveground Chance Cube",
+    "name": "Starship Mario - Aboveground Chance Cube",
     "requires": "",
     "region": "Starship Mario",
     "category": [
@@ -20,8 +23,8 @@
     "sort-key": "row-0005"
   },
   {
-    "name": "Starship Mario Ten Fruit 1-Up",
-    "requires": "{OptOne(|Yoshi|)}",
+    "name": "Starship Mario - Ten Fruit 1-Up",
+    "requires": "|Has Yoshi|",
     "region": "Starship Mario",
     "category": [
       "Starship Mario",
@@ -30,8 +33,8 @@
     "sort-key": "row-0006"
   },
   {
-    "name": "Starship Mario Cloud 1-Up",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)}",
+    "name": "Starship Mario - Cloud 1-Up",
+    "requires": "|Can Make Clouds|",
     "region": "Starship Mario",
     "category": [
       "Starship Mario",
@@ -40,7 +43,7 @@
     "sort-key": "row-0007"
   },
   {
-    "name": "Starship Mario Left Lumalee Dice Shop",
+    "name": "Starship Mario - Left Lumalee Dice Shop",
     "requires": "",
     "region": "Starship Mario",
     "category": [
@@ -50,7 +53,7 @@
     "sort-key": "row-0008"
   },
   {
-    "name": "Starship Mario Right Lumalee Dice Shop",
+    "name": "Starship Mario - Right Lumalee Dice Shop",
     "requires": "",
     "region": "Starship Mario",
     "category": [
@@ -61,8 +64,8 @@
   },
   {
     "name": "Peewee Piranha's Temper Tantrum",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Ground Pound|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "requires": "|Has Ground Spin| or (|Has Ground Pound| and |Has Triple Jump| and |Medium Logic|)",
+    "region": "Sky Station 1 - Boss Planet",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -70,9 +73,9 @@
     "sort-key": "row-0010"
   },
   {
-    "name": "Sky Station 1 Orange Pipe 1-Up",
+    "name": "Sky Station 1 - Orange Pipe 1-Up",
     "requires": "",
-    "region": "Sky Station Galaxy",
+    "region": "Sky Station 1 - Start Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -80,9 +83,9 @@
     "sort-key": "row-0011"
   },
   {
-    "name": "Sky Station Green Star 1",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Triple Jump|)} OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)}))) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station - Green Star 1",
+    "requires": "|Sky Station Green Stars| and (|Has Ground Spin| or (needs testing))",
+    "region": "Sky Station 1 - Start Planet",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -90,9 +93,9 @@
     "sort-key": "row-0012"
   },
   {
-    "name": "Sky Station 1 Yellow Platform 1-Up",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Yellow Platform 1-Up",
+    "requires": "",
+    "region": "Sky Station 1 - Green Hill Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -100,9 +103,9 @@
     "sort-key": "row-0013"
   },
   {
-    "name": "Sky Station 1 Blue Roof Checkpoint",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Blue Roof Checkpoint",
+    "requires": "",
+    "region": "Sky Station 1 - Green Hill Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -110,9 +113,9 @@
     "sort-key": "row-0014"
   },
   {
-    "name": "Sky Station 1 Notes ? Coin",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Notes ? Coin",
+    "requires": "",
+    "region": "Sky Station 1 - Green Hill Planet",
     "category": [
       "World 1",
       "? Coins"
@@ -120,9 +123,9 @@
     "sort-key": "row-0015"
   },
   {
-    "name": "Sky Station 1 Notes 1-Up #1",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Notes 1-Up #1",
+    "requires": "",
+    "region": "Sky Station 1 - Green Hill Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -130,9 +133,9 @@
     "sort-key": "row-0016"
   },
   {
-    "name": "Sky Station 1 Notes 1-Up #2",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Notes 1-Up #2",
+    "requires": "",
+    "region": "Sky Station 1 - Green Hill Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -140,9 +143,9 @@
     "sort-key": "row-0017"
   },
   {
-    "name": "Sky Station 1 Notes 1-Up #3",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Notes 1-Up #3",
+    "requires": "",
+    "region": "Sky Station 1 - Green Hill Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -150,9 +153,9 @@
     "sort-key": "row-0018"
   },
   {
-    "name": "Sky Station 1 Teleporter 1-Up #1",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Teleporter 1-Up #1",
+    "requires": "",
+    "region": "Sky Station 1 - Green Hill Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -160,9 +163,9 @@
     "sort-key": "row-0019"
   },
   {
-    "name": "Sky Station 1 Teleporter 1-Up #2",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Teleporter 1-Up #2",
+    "requires": "",
+    "region": "Sky Station 1 - Green Hill Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -170,9 +173,9 @@
     "sort-key": "row-0020"
   },
   {
-    "name": "Sky Station 1 Teleporter 1-Up #3",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Teleporter 1-Up #3",
+    "requires": "",
+    "region": "Sky Station 1 - Green Hill Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -180,9 +183,9 @@
     "sort-key": "row-0021"
   },
   {
-    "name": "Sky Station Green Star 2",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station - Green Star 2",
+    "requires": "|Sky Station Green Stars|",
+    "region": "Sky Station 1 - Green Hill Planet",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -190,9 +193,9 @@
     "sort-key": "row-0022"
   },
   {
-    "name": "Sky Station 1 Mini Planet ? Coin",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Planetoid ? Coin",
+    "requires": "",
+    "region": "Sky Station 1 - Planetoids",
     "category": [
       "World 1",
       "? Coins"
@@ -200,9 +203,9 @@
     "sort-key": "row-0023"
   },
   {
-    "name": "Sky Station 1 Carts Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Carts Checkpoint Flag",
+    "requires": "",
+    "region": "Sky Station 1 - Rolling Carts",
     "category": [
       "World 1",
       "Checkpoints"
@@ -210,9 +213,9 @@
     "sort-key": "row-0024"
   },
   {
-    "name": "Sky Station 1 Rotating Cart 1-Up",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Rolling Carts 1-Up",
+    "requires": "",
+    "region": "Sky Station 1 - Rolling Carts",
     "category": [
       "World 1",
       "1-Ups"
@@ -220,9 +223,9 @@
     "sort-key": "row-0025"
   },
   {
-    "name": "Sky Station 1 Crystal 1-Up Between Rotating Carts",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Crystal 1-Up Between Rotating Carts",
+    "requires": "|Has Ground Spin|",
+    "region": "Sky Station 1 - Rolling Carts",
     "category": [
       "World 1",
       "1-Ups"
@@ -230,9 +233,9 @@
     "sort-key": "row-0026"
   },
   {
-    "name": "Sky Station Comet Medal",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station - Comet Medal",
+    "requires": "|Jump Height 2| or |Hard Logic|", "need testing":  "",
+    "region": "Sky Station 1 - Rolling Carts",
     "category": [
       "World 1",
       "Comet Medal Locations"
@@ -240,9 +243,9 @@
     "sort-key": "row-0027"
   },
   {
-    "name": "Sky Station 1 Life Mushroom on Stone Slabs",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Life Mushroom on Stone Slabs",
+    "requires": "",
+    "region": "Sky Station 1 - Grassy Octoomba Planet",
     "category": [
       "World 1",
       "Life Mushrooms"
@@ -250,9 +253,9 @@
     "sort-key": "row-0028"
   },
   {
-    "name": "Sky Station 1 Grassy Steps Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - Grassy Steps Checkpoint Flag",
+    "requires": "",
+    "region": "Sky Station 1 - Grassy Octoomba Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -260,9 +263,9 @@
     "sort-key": "row-0029"
   },
   {
-    "name": "Sky Station 1 1-Up Behind Octoomba Stairs",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 1 - 1-Up Behind Octoomba Stairs",
+    "requires": "",
+    "region": "Sky Station 1 -Grassy Octoomba Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -271,8 +274,8 @@
   },
   {
     "name": "Storming the Sky Fleet",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "requires": "|Can Ground Spin|",
+    "region": "Sky Station 2 - Bomber Bill Planet",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -280,9 +283,9 @@
     "sort-key": "row-0031"
   },
   {
-    "name": "Sky Station 2 First Planet Chest 1-Up",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 2 - First Planet Chest 1-Up",
+    "requires": "|Can Ground Spin|",
+    "region": "Sky Station 2 - Start Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -290,9 +293,9 @@
     "sort-key": "row-0032"
   },
   {
-    "name": "Sky Station 2 Glass Planet Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 2 - Glass Planet Checkpoint Flag",
+    "requires": "",
+    "region": "Sky Station 2 - Sky Fleet Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -300,9 +303,9 @@
     "sort-key": "row-0033"
   },
   {
-    "name": "Sky Station 2 1-Up Above Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 2 - 1-Up Above Checkpoint Flag",
+    "requires": "",
+    "region": "Sky Station 2 - Sky Fleet Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -310,9 +313,9 @@
     "sort-key": "row-0034"
   },
   {
-    "name": "Sky Station 2 Teleporter 1-Up #1",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 2 - Teleporter 1-Up #1",
+    "requires": "",
+    "region": "Sky Station 2 - Sky Fleet Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -320,9 +323,9 @@
     "sort-key": "row-0035"
   },
   {
-    "name": "Sky Station 2 Teleporter 1-Up #2",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 2 - Teleporter 1-Up #2",
+    "requires": "",
+    "region": "Sky Station 2 - Sky Fleet Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -330,9 +333,9 @@
     "sort-key": "row-0036"
   },
   {
-    "name": "Sky Station 2 Teleporter 1-Up #3",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 2 - Teleporter 1-Up #3",
+    "requires": "",
+    "region": "Sky Station 2 - Sky Fleet Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -340,9 +343,9 @@
     "sort-key": "row-0037"
   },
   {
-    "name": "Sky Station Green Star 3",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station - Green Star 3",
+    "requires": "|Sky Station Green Stars|",
+    "region": "Sky Station 2 - Sky Fleet Planet",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -350,9 +353,9 @@
     "sort-key": "row-0038"
   },
   {
-    "name": "Sky Station 2 Wooden Alcove 1-Up",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 2 - Wooden Alcove 1-Up",
+    "requires": "",
+    "region": "Sky Station 2 - Sky Fleet Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -360,9 +363,9 @@
     "sort-key": "row-0039"
   },
   {
-    "name": "Sky Station 2 Flipswitches Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 2 - Flipswitches Checkpoint Flag",
+    "requires": "",
+    "region": "Sky Station 2 - Flipswitch Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -370,9 +373,9 @@
     "sort-key": "row-0040"
   },
   {
-    "name": "Sky Station 2 Flipswitches 1-Up",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 2 - Flipswitches 1-Up",
+    "requires": "",
+    "region": "Sky Station 2 - Flipswitch Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -380,9 +383,9 @@
     "sort-key": "row-0041"
   },
   {
-    "name": "Sky Station 2 Final Planet Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station 2 - Final Planet Checkpoint Flag",
+    "requires": "",
+    "region": "Sky Station 2 - Bomber Bill Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -391,8 +394,8 @@
   },
   {
     "name": "Peewee Piranha's Speed Run",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Ground Pound|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)} AND {OptOne(|Sky Station Clock:10|)}",
-    "region": "Sky Station Galaxy",
+    "requires": "|Has Ground Spin| or (|Has Triple Jump| and |Has Ground Pound|)",
+    "region": "Sky Station C - Boss Planet",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -400,9 +403,9 @@
     "sort-key": "row-0043"
   },
   {
-    "name": "Sky Station Comet Clock Above Green Pipe",
-    "requires": "{OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station C - Clock Above Green Pipe",
+    "requires": "",
+    "region": "Sky Station C - Start Planet",
     "category": [
       "World 1",
       "Comet Clocks"
@@ -410,9 +413,9 @@
     "sort-key": "row-0044"
   },
   {
-    "name": "Sky Station Comet Clock Beneath First Planet",
-    "requires": "{OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station C - Clock Beneath First Planet",
+    "requires": "",
+    "region": "Sky Station C - Start Planet",
     "category": [
       "World 1",
       "Comet Clocks"
@@ -420,9 +423,9 @@
     "sort-key": "row-0045"
   },
   {
-    "name": "Sky Station Comet Clock Before Rolling Carts",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station C - Clock Before Rolling Carts",
+    "requires": "",
+    "region": "Sky Station C - Rolling Carts",
     "category": [
       "World 1",
       "Comet Clocks"
@@ -430,9 +433,9 @@
     "sort-key": "row-0046"
   },
   {
-    "name": "Sky Station Comet Rolling Cart Clock #1",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station C - Rolling Cart Clock #1",
+    "requires": "",
+    "region": "Sky Station C - Rolling Carts",
     "category": [
       "World 1",
       "Comet Clocks"
@@ -440,9 +443,9 @@
     "sort-key": "row-0047"
   },
   {
-    "name": "Sky Station Comet Rolling Cart Clock #2",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station C - Rolling Cart Clock #2",
+    "requires": "",
+    "region": "Sky Station C - Rolling Carts",
     "category": [
       "World 1",
       "Comet Clocks"
@@ -450,9 +453,9 @@
     "sort-key": "row-0048"
   },
   {
-    "name": "Sky Station Comet Pewee Fight Clock #1",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station C - Pewee Fight Clock #1",
+    "requires": "",
+    "region": "Sky Station C - Boss Planet",
     "category": [
       "World 1",
       "Comet Clocks"
@@ -460,9 +463,9 @@
     "sort-key": "row-0049"
   },
   {
-    "name": "Sky Station Comet Pewee Fight Clock #2",
+    "name": "Sky Station C - Pewee Fight Clock #2",
     "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Sky Station Galaxy",
+    "region": "Sky Station C - Boss Planet",
     "category": [
       "World 1",
       "Comet Clocks"
@@ -470,9 +473,9 @@
     "sort-key": "row-0050"
   },
   {
-    "name": "Sky Station Comet Pewee Fight Clock #3",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station C - Pewee Fight Clock #3",
+    "requires": "",
+    "region": "Sky Station C - Boss Planet",
     "category": [
       "World 1",
       "Comet Clocks"
@@ -480,9 +483,9 @@
     "sort-key": "row-0051"
   },
   {
-    "name": "Sky Station Comet Pewee Fight Clock #4",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station C - Pewee Fight Clock #4",
+    "requires": "",
+    "region": "Sky Station C - Boss Planet",
     "category": [
       "World 1",
       "Comet Clocks"
@@ -490,9 +493,9 @@
     "sort-key": "row-0052"
   },
   {
-    "name": "Sky Station Comet Pewee Fight Clock #5",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Sky Station Galaxy",
+    "name": "Sky Station C - Pewee Fight Clock #5",
+    "requires": "",
+    "region": "Sky Station C - Boss Planet",
     "category": [
       "World 1",
       "Comet Clocks"
