@@ -160,6 +160,26 @@
     "requires": "{OptOne(|Green Comets|)}"
   },
   {
+    "name": "Jump Height 6",
+    "requires": "|Can Triple Jump| and |Can Air Spin|"
+  },
+  {
+    "name": "Jump Height 5",
+    "requires": "|Jump Height 6| or |Can Triple Jump| or (|Can Air Spin| and |Can Back or Sideflip|)"
+  },
+  {
+    "name": "Jump Height 4",
+    "requires": "|Jump Height 5| or (|Can Air Spin| and |Can Double Jump|)"
+  },
+  {
+    "name": "Jump Height 3",
+    "requires": "|Jump Height 4| or |Can Back or Sideflip| or |Can Air Spin|"
+  },
+  {
+    "name": "Jump Height 2",
+    "requires": "|Jump Height 3| or |Can Double Jump|"
+  },
+  {
     "name": "Can Swim",
     "requires": "|Can Ground Pound| or |Medium Logic|"
   },
