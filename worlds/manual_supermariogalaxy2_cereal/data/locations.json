@@ -84,7 +84,7 @@
   },
   {
     "name": "Sky Station - Green Star 1",
-    "requires": "|Sky Station Green Stars| and (|Has Ground Spin| or (needs testing))",
+    "requires": "|Sky Station Green Stars| and (|Has Ground Spin| or |Jump Height 4| or (|Jump Height 3| and |Has Wall Jump|))",
     "region": "Sky Station 1 - Start Planet",
     "category": [
       "World 1",
@@ -784,7 +784,7 @@
   },
   {
     "name": "Spin-Dig - Green Star 1",
-    "requires": "(({OptOne(|Spin-Drill|)} AND (|Needs Testing| or |Has Triple Jump| OR {OptOne(|Backflip|)} OR {OptOne(|Spin|)} OR ({OptOne(|Sideflip|)} AND {YamlEnabled(Advanced_Logic)}))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Backflip|)} AND {OptOne(|Wall Jump|)})))) AND {OptOne(|Spin-Dig Comet Medal|)} AND {OptOne(|Green Comets|)}",
+    "requires": "|Spin-Dig Green Stars| and |Jump Height 3|",
     "region": "Spin-Dig 1 - Dirt Tower Planet",
     "category": [
       "World 1",
@@ -924,7 +924,7 @@
   },
   {
     "name": "Spin-Dig - Green Star 3",
-    "requires": "|Spin-Dig Green Stars| and |Has Spin-Drill| and (|Needs Testing|)",
+    "requires": "|Spin-Dig Green Stars| and |Has Spin-Drill| and ((|Has Wall Jump| and (|Has Sideflip| or |Has Triple Jump|)) or (|Medium Logic| and |Has Backflip| and |Has Wall Jump|) or (|Hard Logic| and |Jump Height 6|)",
     "region": "Spin-Dig 2 - First Canister Section",
     "category": [
       "World 1",
@@ -1124,8 +1124,8 @@
   },
   {
     "name": "The Chimp's Stomp Challenge",
-    "requires": "|Chimp Letter Fluffy Bluff| AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "|Has Air Spin| or |Medium Logic|",
+    "region": "Fluffy Bluff 2 - Landing",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -1134,8 +1134,8 @@
   },
   {
     "name": "Fluffy Bluff 2 - Life Mushroom Behind Tree",
-    "requires": "|Chimp Letter Fluffy Bluff|",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff 2 - Landing",
     "category": [
       "World 1",
       "Life Mushrooms"
@@ -1144,8 +1144,8 @@
   },
   {
     "name": "Fluffy Bluff 2 - 1-Up On Large Tree Top",
-    "requires": "{OptOne(|Long Jump|)} AND |Chimp Letter Fluffy Bluff|",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff 2 - Tree",
     "category": [
       "World 1",
       "1-Ups"
@@ -1155,7 +1155,7 @@
   {
     "name": "Fluffy Bluff 2 - 1-Up Above Tree on Top Cliff",
     "requires": "|Chimp Letter Fluffy Bluff|",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "region": "Fluffy Bluff 2 - Landing",
     "category": [
       "World 1",
       "1-Ups"
@@ -1164,8 +1164,8 @@
   },
   {
     "name": "Every Planet Has Its Price",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Ground Spin| and |Hard Logic|)",
+    "region": "Fluffy Bluff S - Tower",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -1174,8 +1174,8 @@
   },
   {
     "name": "Fluffy Bluff S - Checkpoint Flag",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff S - Tower",
     "category": [
       "World 1",
       "Checkpoints"
@@ -1184,7 +1184,7 @@
   },
   {
     "name": "Fluffy Bluff S - 1-Up on Rotating Platform",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))",
+    "requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
       "World 1",
@@ -1194,7 +1194,7 @@
   },
   {
     "name": "Fluffy Bluff S - 1-Up Behind Tower #1",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))",
+    "requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
       "World 1",
@@ -1204,7 +1204,7 @@
   },
   {
     "name": "Fluffy Bluff S - 1-Up Behind Tower #2",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))",
+    "requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
       "World 1",
@@ -1215,7 +1215,7 @@
   {
     "name": "Think Before You Shake",
     "requires": "{OptOne(|Long Jump|)} OR {OptOne(|Spin|)}",
-    "region": "Flip-Swap Galaxy (3)",
+    "region": "Flip-Swap 1 - Star",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -1224,8 +1224,8 @@
   },
   {
     "name": "Flip-Swap Green Star 1",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Flip-Swap Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Flip-Swap Galaxy (3)",
+    "requires": "|Flip-Swap Green Stars| and (|Jump Height 6| or |Hard Logic|)",
+    "region": "Flip-Swap 1 - Main",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1234,8 +1234,8 @@
   },
   {
     "name": "Flip-Swap Electric Fences 1-Up",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Flip-Swap Galaxy (3)",
+    "requires": "",
+    "region": "Flip-Swap 1 - Main",
     "category": [
       "World 1",
       "1-Ups"
@@ -1244,8 +1244,8 @@
   },
   {
     "name": "Flip-Swap Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Flip-Swap Galaxy (3)",
+    "requires": "",
+    "region": "Flip-Swap 1 - Main",
     "category": [
       "World 1",
       "Checkpoints"
@@ -1254,8 +1254,8 @@
   },
   {
     "name": "Flip-Swap Chomps 1-Up",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Flip-Swap Galaxy (3)",
+    "requires": "",
+    "region": "Flip-Swap 1 - Main",
     "category": [
       "World 1",
       "1-Ups"
@@ -1264,8 +1264,8 @@
   },
   {
     "name": "Flip-Swap Green Star 2",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Flip-Swap Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Flip-Swap Galaxy (3)",
+    "requires": "|Flip-Swap Green Stars| and (|Jump Height 6| or |Hard Logic|",
+    "region": "Flip-Swap 1 - Main",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1274,8 +1274,8 @@
   },
   {
     "name": "Flip-Swap Comet Medal",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Galaxy (3)",
+    "requires": "",
+    "region": "Flip-Swap 1 - Main",
     "category": [
       "World 1",
       "Comet Medal Locations"
@@ -1284,8 +1284,8 @@
   },
   {
     "name": "Purple Coin Flip 'n' Sprint",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Flip-Swap Comet Medal|)} AND {OptOne(|Purple Comets|)} AND {OptOne(|Flip-Swap Purple Coin:100|)}",
-    "region": "Flip-Swap Galaxy (3)",
+    "requires": "{OptOne(|Flip-Swap Purple Coin:100|)}",
+    "region": "Flip-Swap C - Final Platform",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -1294,8 +1294,8 @@
   },
   {
     "name": "Flip-Swap Purple 1-Up",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Flip-Swap Comet Medal|)} AND {OptOne(|Purple Comets|)}",
-    "region": "Flip-Swap Galaxy (3)",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "World 1",
       "1-Ups"
@@ -8226,7 +8226,7 @@
   {
     "name": "Flip-Swap First Platform Purple Coin",
     "requires": "",
-    "region": "Flip-Swap Purple Coins",
+    "region": "Flip-Swap C - Start Blue Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8234,9 +8234,9 @@
     "sort-key": "row-0819"
   },
   {
-    "name": "Flip-Swap First Blue Panel Purple Coin",
+    "name": "Flip-Swap Start Blue Panel Purple Coin #1",
     "requires": "",
-    "region": "Flip-Swap Purple Coins",
+    "region": "Flip-Swap C - Start Blue Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8244,9 +8244,9 @@
     "sort-key": "row-0820"
   },
   {
-    "name": "Flip-Swap First Path Blue Panel Purple Coin #1",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Start Blue Panel Purple Coin #2",
+    "requires": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|",
+    "region": "Flip-Swap C - Start Blue Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8254,9 +8254,9 @@
     "sort-key": "row-0821"
   },
   {
-    "name": "Flip-Swap First Path Blue Panel Purple Coin #2",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Start Blue Panel Purple Coin #3",
+    "requires": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|",
+    "region": "Flip-Swap C - Start Blue Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8264,9 +8264,9 @@
     "sort-key": "row-0822"
   },
   {
-    "name": "Flip-Swap First Path Blue Panel Purple Coin #3",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Start Blue Panel Purple Coin #4",
+    "requires": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|",
+    "region": "Flip-Swap C - Start Blue Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8274,9 +8274,9 @@
     "sort-key": "row-0823"
   },
   {
-    "name": "Flip-Swap First Path Red Panel Purple Coin #1",
-    "requires": "({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Start Red Panel Purple Coin #1",
+    "requires": "",
+    "region": "Flip-Swap C - Start Red Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8284,9 +8284,9 @@
     "sort-key": "row-0824"
   },
   {
-    "name": "Flip-Swap First Path Red Panel Purple Coin #2",
-    "requires": "({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Start Red Panel Purple Coin #2",
+    "requires": "",
+    "region": "Flip-Swap C - Start Red Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8295,8 +8295,8 @@
   },
   {
     "name": "Flip-Swap 1-Up Purple Coin Ring Coin #1",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8305,8 +8305,8 @@
   },
   {
     "name": "Flip-Swap 1-Up Purple Coin Ring Coin #2",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8315,8 +8315,8 @@
   },
   {
     "name": "Flip-Swap 1-Up Purple Coin Ring Coin #3",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8325,8 +8325,8 @@
   },
   {
     "name": "Flip-Swap 1-Up Purple Coin Ring Coin #4",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8335,8 +8335,8 @@
   },
   {
     "name": "Flip-Swap 1-Up Purple Coin Ring Coin #5",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8345,8 +8345,8 @@
   },
   {
     "name": "Flip-Swap 1-Up Purple Coin Ring Coin #6",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8355,8 +8355,8 @@
   },
   {
     "name": "Flip-Swap 1-Up Purple Coin Ring Coin #7",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8365,8 +8365,8 @@
   },
   {
     "name": "Flip-Swap 1-Up Purple Coin Ring Coin #8",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8374,9 +8374,9 @@
     "sort-key": "row-0833"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #1",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap 1-Up Platform Blue Panel Purple Coin #1",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8384,9 +8384,9 @@
     "sort-key": "row-0834"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #2",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap 1-Up Platform Blue Panel Purple Coin #2",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8394,9 +8394,9 @@
     "sort-key": "row-0835"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #3",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #1",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8404,9 +8404,9 @@
     "sort-key": "row-0836"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #4",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #2",
+    "requires": "",
+    "region": "Flip-Swap C - 1-Up Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8414,9 +8414,9 @@
     "sort-key": "row-0837"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #5",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #3",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Blue Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8424,9 +8424,9 @@
     "sort-key": "row-0838"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #6",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #4",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Blue Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8434,9 +8434,9 @@
     "sort-key": "row-0839"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #7",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #5",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Blue Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8444,9 +8444,9 @@
     "sort-key": "row-0840"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #8",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #6",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Blue Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8455,8 +8455,8 @@
   },
   {
     "name": "Flip-Swap Electric Fences Red Panel Purple Coin #1",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8465,8 +8465,8 @@
   },
   {
     "name": "Flip-Swap Electric Fences Red Panel Purple Coin #2",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8475,8 +8475,8 @@
   },
   {
     "name": "Flip-Swap Electric Fences Red Panel Purple Coin #3",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8485,8 +8485,8 @@
   },
   {
     "name": "Flip-Swap Electric Fences Red Panel Purple Coin #4",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8495,8 +8495,8 @@
   },
   {
     "name": "Flip-Swap Electric Fences Red Panel Purple Coin #5",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8505,8 +8505,8 @@
   },
   {
     "name": "Flip-Swap Electric Fences Red Panel Purple Coin #6",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8515,8 +8515,8 @@
   },
   {
     "name": "Flip-Swap Electric Fences Red Panel Purple Coin #7",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8525,8 +8525,8 @@
   },
   {
     "name": "Flip-Swap Electric Fences Red Panel Purple Coin #8",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8535,8 +8535,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin Ring Coin #1",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - First Chomp Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8545,8 +8545,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin Ring Coin #2",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - First Chomp Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8555,8 +8555,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin Ring Coin #3",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - First Chomp Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8565,8 +8565,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin Ring Coin #4",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - First Chomp Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8575,8 +8575,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin Ring Coin #5",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - First Chomp Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8585,8 +8585,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin Ring Coin #6",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - First Chomp Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8595,8 +8595,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin Ring Coin #7",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - First Chomp Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8605,8 +8605,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin Ring Coin #8",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - First Chomp Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8615,8 +8615,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin #1",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8625,8 +8625,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin #2",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8635,8 +8635,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin #3",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8645,8 +8645,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin #4",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8655,8 +8655,8 @@
   },
   {
     "name": "Flip-Swap First Chomp Purple Coin #5",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8665,8 +8665,8 @@
   },
   {
     "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #1",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8675,8 +8675,8 @@
   },
   {
     "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #2",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8685,8 +8685,8 @@
   },
   {
     "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #3",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8695,8 +8695,8 @@
   },
   {
     "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #4",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8705,8 +8705,8 @@
   },
   {
     "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #5",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8715,8 +8715,8 @@
   },
   {
     "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #6",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8725,8 +8725,8 @@
   },
   {
     "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #7",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8735,8 +8735,8 @@
   },
   {
     "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #8",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8745,8 +8745,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #1",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8755,8 +8755,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #2",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8765,8 +8765,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #3",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8775,8 +8775,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #4",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8785,8 +8785,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #5",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8795,8 +8795,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #6",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8805,8 +8805,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #7",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8815,8 +8815,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #8",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8825,8 +8825,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #9",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8835,8 +8835,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #10",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8845,8 +8845,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #11",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8855,8 +8855,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #12",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8865,8 +8865,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #13",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8875,8 +8875,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #14",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8885,8 +8885,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #15",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8895,8 +8895,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #16",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8905,8 +8905,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #17",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8915,8 +8915,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #18",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8925,8 +8925,8 @@
   },
   {
     "name": "Flip-Swap Chomps Purple Coin #19",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8935,8 +8935,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #1",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8945,8 +8945,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #2",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8955,8 +8955,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #3",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8965,8 +8965,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #4",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8975,8 +8975,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #5",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8985,8 +8985,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #6",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -8995,8 +8995,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #7",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9005,8 +9005,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #8",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9015,8 +9015,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #1",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9025,8 +9025,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #2",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9035,8 +9035,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #3",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9045,8 +9045,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #4",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9055,8 +9055,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #5",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9065,8 +9065,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #6",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9075,8 +9075,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #7",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9085,8 +9085,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #8",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9095,8 +9095,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #9",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9105,8 +9105,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #10",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9115,8 +9115,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #11",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9125,8 +9125,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #12",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9135,8 +9135,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #13",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9145,8 +9145,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #14",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9155,8 +9155,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #15",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9165,8 +9165,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #16",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9175,8 +9175,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #17",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9185,8 +9185,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #18",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9195,8 +9195,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #19",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9205,8 +9205,8 @@
   },
   {
     "name": "Flip-Swap Final Stretch Purple Coin #20",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Chomps",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"
@@ -9215,8 +9215,8 @@
   },
   {
     "name": "Flip-Swap Final Purple Coin",
-    "requires": "({OptOne(|Spin|)})",
-    "region": "Flip-Swap Purple Coins",
+    "requires": "",
+    "region": "Flip-Swap C - Final Platform",
     "category": [
       "Flip-Swap Purple Coins",
       "Purple Coin Locations"

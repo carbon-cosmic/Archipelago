@@ -127,7 +127,7 @@
   },
   "Spin-Dig 2 - Start Planet": {
     "connects_to": ["Spin-Dig 2 - First 2D Section"],
-    "exit_requires": "|Has Ground Spin| or |Has Triple Jump| or |Needs Testing|"
+    "exit_requires": "(|Can Ground Spin| or |Jump Height 3| or |Can Double| and |Medium Logic|)\n"
   },
   "Spin-Dig 2 - First Canister Section": {
     "connects_to": ["Spin-Dig 2 - Second Canister Section"],
@@ -174,7 +174,7 @@
   },
   "Fluffy Bluff 1 - Waterfall": {
     "connects_to": ["Fluffy Bluff 1 - Waterfall Top"],
-    "exit_requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Medium Logic|) or (|Can Wall Spin| and |Hard Logic|) or |Needs Testing|"
+    "exit_requires": "|Can Make Clouds| or (|Can Wall Spin| and |Jump Height 4| and |Medium Logic|) or (|Has Cloud| and ((|Has Ground Spin| and |Medium Logic|) or (|Has Wall Jump| and |Hard Logic|)))"
   },
   "Fluffy Bluff 1 - Waterfall Top": {
     "connects_to": ["Fluffy Bluff 1 - Treetops"],
@@ -183,8 +183,55 @@
   "Fluffy Bluff 1 - Treetops": {
 
   },
+  "Fluffy Bluff 2 - Landing": {
+    "connects_to": ["Fluffy Bluff 2 - Tree"],
+    "entrance_requires": "|Fluffy Bluff Chimp Letter|"
+  },
+  "Fluffy Bluff 2 - Tree": {
+    "entrance_requires": "|Has Long Jump|"
+  },
   "Flip-Swap Galaxy": {
-    "connects_to": ["Flip-Swap Purple Coins"]
+    "connects_to": ["Flip-Swap 1 - Start", "Flip-Swap C - Start"]
+  },
+  "Flip-Swap 1 - Start": {
+    "connects_to": ["Flip-Swap 1 - Main"],
+    "exit_requires": "|Has Air Spin| or |Has Long Jump| or |Hard Logic|"
+  },
+  "Flip-Swap 1 - Main": {
+    "connects_to": ["Flip-Swap 1 - Star"],
+    "exit_requires": "|Has Air Spin| or |Has Long Jump| or (|Has Ground Spin| and |Hard Logic|)"
+  },
+  "Flip-Swap 1 - Star": {
+
+  },
+  "Flip-Swap C - Start Blue Panels": {
+    "connects_to": ["Flip-Swap C - Start Red Panels", "Flip-Swap C - 1-Up Platform"],
+    "entrance_requires": "|Has Purple Comets| and {OptOne(|Flip-Swap Comet Medal|)}"
+  },
+  "Flip-Swap C - Start Red Panels": {
+    "connects_to": ["Flip-Swap C - 1-Up Platform"],
+    "entrance_requires": "|Can Air Spin| or |Hard Logic|"
+  },
+  "Flip-Swap C - 1-Up Platform": {
+    "connects_to": ["Flip-Swap C - Electric Fences Blue Panels"],
+    "entrance_requires": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|"
+  },
+  "Flip-Swap C - Electric Fences Blue Panels": {
+    "connects_to": ["Flip-Swap C - Electric Fences Red Panels", "Flip-Swap C - Chomp Panels"],
+    "entrance_requires": "|Can Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
+  },
+"Flip-Swap C - Electric Fences Red Panels": {
+    "connects_to": ["Flip-Swap C - First Chomp Platform"],
+    "entrance_requires": "|Can Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
+  },
+  "Flip-Swap C - First Chomp Platform": {
+    "connects_to": ["Flip-Swap C - Chomp Panels"]
+  },
+  "Flip-Swap C - Chomps": {
+    "connects_to": ["Flip-Swap C - Final Platform"]
+  },
+  "Flip-Swap C - Final Platform": {
+
   },
   "Rightside Down Galaxy": {
     "connects_to": []
