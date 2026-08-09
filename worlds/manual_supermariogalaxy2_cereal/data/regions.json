@@ -150,6 +150,39 @@
   "Fluffy Bluff Galaxy": {
     "connects_to": ["Fluffy Bluff 1 - Landing", "Fluffy Bluff 2 - Landing"]
   },
+  "Fluffy Bluff 1 - Landing": {
+    "connects_to": ["Fluffy Bluff 1 - Start Building"],
+    "exit_requires": "|Can Make Ground Clouds| or |Jump Height 3| or (|Has Double Jump| and |Has Cloud| and |Medium Logic|)"
+  },
+  "Fluffy Bluff 1 - Start Building": {
+    "connects_to": ["Fluffy Bluff 1 - Hungry Luma Cloud", "Fluffy Bluff 1 - Clifftops Intermediate"]
+  },
+  "Fluffy Bluff 1 - Hungry Luma Cloud": {
+    "connects_to": ["Fluffy Bluff 1 - Clifftops", "Fluffy Bluff S - Tower Planet"],
+    "entrance_requires": "|Can Make Clouds| or (|Has Cloud| and (|Has Long Jump| or |Has Ground Spin|) and |Medium Logic|)"
+  },
+  "Fluffy Bluff 1 - Clifftops Intermediate": {
+    "connects_to": ["Fluffy Bluff 1 - Clifftops"],
+    "entrance_requires": "|Has Cloud| or (|Jump Height 6| and |Hard Logic|)"
+  },
+  "Fluffy Bluff 1 - Clifftops": {
+    "connects_to": ["Fluffy Bluff 1 - Fountain Planet"],
+    "exit_requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Has Wall Jump| and |Medium Logic|) or (|Has Cloud| and |Has Long Jump| and |Has Wall Jump| and |Medium Logic|)"
+  },
+  "Fluffy Bluff 1 - Fountain Planet": {
+    "connects_to": ["Fluffy Bluff 1 - Waterfall"]
+  },
+  "Fluffy Bluff 1 - Waterfall": {
+    "connects_to": ["Fluffy Bluff 1 - Waterfall Top"],
+    "exit_requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Medium Logic|) or (|Can Wall Spin| and |Hard Logic|) or |Needs Testing|"
+  },
+  "Fluffy Bluff 1 - Waterfall Top": {
+    "connects_to": ["Fluffy Bluff 1 - Treetops"],
+    "exit_requires": "|Can Make Clouds| or (|Has Cloud| and |Medium Logic|)"
+  },
+  "Fluffy Bluff 1 - Treetops": {
+
+  },
   "Flip-Swap Galaxy": {
     "connects_to": ["Flip-Swap Purple Coins"]
   },

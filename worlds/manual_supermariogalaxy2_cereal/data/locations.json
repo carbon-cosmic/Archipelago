@@ -464,7 +464,7 @@
   },
   {
     "name": "Sky Station C - Pewee Fight Clock #2",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Sky Station Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
+    "requires": "",
     "region": "Sky Station C - Boss Planet",
     "category": [
       "World 1",
@@ -773,7 +773,7 @@
     "sort-key": "row-0080"
   },
   {
-    "name": "Spin-Dig 1 Starting Planet Caged 1-Up",
+    "name": "Spin-Dig 1 - Starting Planet Caged 1-Up",
     "requires": "|Has Spin-Drill|",
     "region": "Spin-Dig 1 - Start Planet",
     "category": [
@@ -783,7 +783,7 @@
     "sort-key": "row-0081"
   },
   {
-    "name": "Spin-Dig Green Star 1",
+    "name": "Spin-Dig - Green Star 1",
     "requires": "(({OptOne(|Spin-Drill|)} AND (|Needs Testing| or |Has Triple Jump| OR {OptOne(|Backflip|)} OR {OptOne(|Spin|)} OR ({OptOne(|Sideflip|)} AND {YamlEnabled(Advanced_Logic)}))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Backflip|)} AND {OptOne(|Wall Jump|)})))) AND {OptOne(|Spin-Dig Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Spin-Dig 1 - Dirt Tower Planet",
     "category": [
@@ -793,7 +793,7 @@
     "sort-key": "row-0082"
   },
   {
-    "name": "Spin-Dig Comet Medal",
+    "name": "Spin-Dig - Comet Medal",
     "requires": "|Has Spin-Drill|",
     "region": "Spin-Dig 1 - Dirt Tower Planet",
     "category": [
@@ -803,7 +803,7 @@
     "sort-key": "row-0083"
   },
   {
-    "name": "Spin-Dig 1 Metal Ring Checkpoint Flag",
+    "name": "Spin-Dig 1 - Metal Ring Checkpoint Flag",
     "requires": "",
     "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
@@ -813,7 +813,7 @@
     "sort-key": "row-0084"
   },
   {
-    "name": "Spin-Dig 1 Teleporter 1-Up #1",
+    "name": "Spin-Dig 1 - Teleporter 1-Up #1",
     "requires": "",
     "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
@@ -823,7 +823,7 @@
     "sort-key": "row-0085"
   },
   {
-    "name": "Spin-Dig 1 Teleporter 1-Up #2",
+    "name": "Spin-Dig 1 - Teleporter 1-Up #2",
     "requires": "",
     "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
@@ -833,7 +833,7 @@
     "sort-key": "row-0086"
   },
   {
-    "name": "Spin-Dig 1 Teleporter 1-Up #3",
+    "name": "Spin-Dig 1 - Teleporter 1-Up #3",
     "requires": "",
     "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
@@ -843,7 +843,7 @@
     "sort-key": "row-0087"
   },
   {
-    "name": "Spin-Dig 1 Yellow Platform 1-Up",
+    "name": "Spin-Dig 1 - Yellow Platform 1-Up",
     "requires": "",
     "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
@@ -853,7 +853,7 @@
     "sort-key": "row-0088"
   },
   {
-    "name": "Spin-Dig Green Star 2",
+    "name": "Spin-Dig - Green Star 2",
     "requires": "|Spin-Dig Green Stars| and (|Jump Height 6| or (|Has Sideflip| and |Has Air Spin|))",
     "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
@@ -863,7 +863,7 @@
     "sort-key": "row-0089"
   },
   {
-    "name": "Spin-Dig 1 Luma Shop",
+    "name": "Spin-Dig 1 - Luma Shop",
     "requires": "",
     "region": "Spin-Dig 1 - Starshroom",
     "category": [
@@ -873,7 +873,7 @@
     "sort-key": "row-0090"
   },
   {
-    "name": "Spin-Dig 1 Red Starshroom Checkpoint Flag",
+    "name": "Spin-Dig 1 - Red Starshroom Checkpoint Flag",
     "requires": "",
     "region": "Spin-Dig 1 - Starshroom",
     "category": [
@@ -893,7 +893,7 @@
     "sort-key": "row-0092"
   },
   {
-    "name": "Spin-Dig 2 Teleporter 1-Up #1",
+    "name": "Spin-Dig 2 - Teleporter 1-Up #1",
     "requires": "",
     "region": "Spin-Dig 2 - First Canister Section",
     "category": [
@@ -903,7 +903,7 @@
     "sort-key": "row-0093"
   },
   {
-    "name": "Spin-Dig 2 Teleporter 1-Up #2",
+    "name": "Spin-Dig 2 - Teleporter 1-Up #2",
     "requires": "",
     "region": "Spin-Dig 2 - First Canister Section",
     "category": [
@@ -913,7 +913,7 @@
     "sort-key": "row-0094"
   },
   {
-    "name": "Spin-Dig 2 Teleporter 1-Up #3",
+    "name": "Spin-Dig 2 - Teleporter 1-Up #3",
     "requires": "",
     "region": "Spin-Dig 2 - First Canister Section",
     "category": [
@@ -923,7 +923,7 @@
     "sort-key": "row-0095"
   },
   {
-    "name": "Spin-Dig Green Star 3",
+    "name": "Spin-Dig - Green Star 3",
     "requires": "|Spin-Dig Green Stars| and |Has Spin-Drill| and (|Needs Testing|)",
     "region": "Spin-Dig 2 - First Canister Section",
     "category": [
@@ -933,7 +933,7 @@
     "sort-key": "row-0096"
   },
   {
-    "name": "Spin-Dig 2 Blue Starshroom Checkpoint Flag",
+    "name": "Spin-Dig 2 - Blue Starshroom Checkpoint Flag",
     "requires": "",
     "region": "Spin-Dig 2 - Starshroom",
     "category": [
@@ -954,8 +954,8 @@
   },
   {
     "name": "Search for the Toad Brigade Captain",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "|Has Cloud| and |Has Ground Spin|",
+    "region": "Fluffy Bluff 1 - Treetops",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -963,9 +963,9 @@
     "sort-key": "row-0099"
   },
   {
-    "name": "Fluffy Bluff 1 ? Coin Above Tree",
+    "name": "Fluffy Bluff 1 - ? Coin Above Tree",
     "requires": "",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
       "? Coins"
@@ -973,9 +973,9 @@
     "sort-key": "row-0100"
   },
   {
-    "name": "Fluffy Bluff 1 1-Up Beneath Bridge",
+    "name": "Fluffy Bluff 1 - 1-Up Beneath Bridge",
     "requires": "",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
       "1-Ups"
@@ -983,9 +983,9 @@
     "sort-key": "row-0101"
   },
   {
-    "name": "Fluffy Bluff Green Star 1",
-    "requires": "({OptOne(|Spin|)} AND {OptAll(|Backflip| OR |Sideflip| OR |Triple Jump|)} AND {OptOne(|Cloud Flower|)}) AND {OptOne(|Fluffy Bluff Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "name": "Fluffy Bluff - Green Star 1",
+    "requires": "|Fluffy Bluff Green Stars| and |Can Make Clouds| and (|Can Back or Sideflip| or (|Medium Logic| and |Can Double Jump|))",
+    "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -993,9 +993,9 @@
     "sort-key": "row-0102"
   },
   {
-    "name": "Fluffy Bluff 1 Bonus Room ? Coin",
+    "name": "Fluffy Bluff 1 - Bonus Room ? Coin",
     "requires": "",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
       "? Coins"
@@ -1003,9 +1003,9 @@
     "sort-key": "row-0103"
   },
   {
-    "name": "Fluffy Bluff 1 Bonus Room ? Coin 1-Up Reward",
+    "name": "Fluffy Bluff 1 - Bonus Room ? Coin 1-Up #1",
     "requires": "{OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
       "1-Ups"
@@ -1013,9 +1013,29 @@
     "sort-key": "row-0104"
   },
   {
-    "name": "Fluffy Bluff Green Star 2",
+    "name": "Fluffy Bluff 1 - Bonus Room ? Coin 1-Up #2",
+    "requires": "{OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
+    "region": "Fluffy Bluff 1 - Landing",
+    "category": [
+      "World 1",
+      "1-Ups"
+    ],
+    "sort-key": "row-0104"
+  },
+  {
+    "name": "Fluffy Bluff 1 - Bonus Room ? Coin 1-Up #3",
+    "requires": "{OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
+    "region": "Fluffy Bluff 1 - Landing",
+    "category": [
+      "World 1",
+      "1-Ups"
+    ],
+    "sort-key": "row-0104"
+  },
+  {
+    "name": "Fluffy Bluff - Green Star 2",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Fluffy Bluff Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "region": "Fluffy Bluff 1 - Clifftop",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1023,9 +1043,9 @@
     "sort-key": "row-0105"
   },
   {
-    "name": "Fluffy Bluff 1 Hungry Luma Cloud ? Coin",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "name": "Fluffy Bluff 1 - Hungry Luma Cloud ? Coin",
+    "requires": "",
+    "region": "Fluffy Bluff 1 - Hungry Luma Cloud",
     "category": [
       "World 1",
       "? Coins"
@@ -1033,7 +1053,7 @@
     "sort-key": "row-0106"
   },
   {
-    "name": "Fluffy Bluff 1 Cloud ? Coin 1-Up Reward",
+    "name": "Fluffy Bluff 1 - Cloud ? Coin 1-Up Reward",
     "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1043,7 +1063,7 @@
     "sort-key": "row-0107"
   },
   {
-    "name": "Fluffy Bluff 1 Clifftop Checkpoint",
+    "name": "Fluffy Bluff 1 - Clifftop Checkpoint",
     "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1053,7 +1073,7 @@
     "sort-key": "row-0108"
   },
   {
-    "name": "Fluffy Bluff Comet Medal",
+    "name": "Fluffy Bluff - Comet Medal",
     "requires": "{OptOne(|Cloud Flower|)} AND (({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Long Jump|)})) OR ({OptOne(|Long Jump|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1063,7 +1083,7 @@
     "sort-key": "row-0109"
   },
   {
-    "name": "Fluffy Bluff 1 Waterfall Checkpoint",
+    "name": "Fluffy Bluff 1 - Waterfall Checkpoint",
     "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1073,7 +1093,7 @@
     "sort-key": "row-0110"
   },
   {
-    "name": "Fluffy Bluff 1 1-Up Above Bomp",
+    "name": "Fluffy Bluff 1 - 1-Up Above Bomp",
     "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1083,7 +1103,7 @@
     "sort-key": "row-0111"
   },
   {
-    "name": "Fluffy Bluff Green Star 3",
+    "name": "Fluffy Bluff - Green Star 3",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Fluffy Bluff Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1093,7 +1113,7 @@
     "sort-key": "row-0112"
   },
   {
-    "name": "Fluffy Bluff 1 1-Up On Cloud Left of Chimp",
+    "name": "Fluffy Bluff 1 - 1-Up On Cloud Left of Chimp",
     "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)}",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1113,7 +1133,7 @@
     "sort-key": "row-0114"
   },
   {
-    "name": "Fluffy Bluff 2 Life Mushroom Behind Tree",
+    "name": "Fluffy Bluff 2 - Life Mushroom Behind Tree",
     "requires": "|Chimp Letter Fluffy Bluff|",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1123,7 +1143,7 @@
     "sort-key": "row-0115"
   },
   {
-    "name": "Fluffy Bluff 2 1-Up On Large Tree Top",
+    "name": "Fluffy Bluff 2 - 1-Up On Large Tree Top",
     "requires": "{OptOne(|Long Jump|)} AND |Chimp Letter Fluffy Bluff|",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1133,7 +1153,7 @@
     "sort-key": "row-0116"
   },
   {
-    "name": "Fluffy Bluff 2 1-Up Above Tree on Top Cliff",
+    "name": "Fluffy Bluff 2 - 1-Up Above Tree on Top Cliff",
     "requires": "|Chimp Letter Fluffy Bluff|",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1153,7 +1173,7 @@
     "sort-key": "row-0118"
   },
   {
-    "name": "Fluffy Bluff Secret Checkpoint Flag",
+    "name": "Fluffy Bluff S - Checkpoint Flag",
     "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1163,7 +1183,7 @@
     "sort-key": "row-0119"
   },
   {
-    "name": "Fluffy Bluff Secret 1-Up on Rotating Platform",
+    "name": "Fluffy Bluff S - 1-Up on Rotating Platform",
     "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1173,7 +1193,7 @@
     "sort-key": "row-0120"
   },
   {
-    "name": "Fluffy Bluff Secret 1-Up Behind Castle #1",
+    "name": "Fluffy Bluff S - 1-Up Behind Tower #1",
     "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [
@@ -1183,7 +1203,7 @@
     "sort-key": "row-0121"
   },
   {
-    "name": "Fluffy Bluff Secret 1-Up Behind Castle #2",
+    "name": "Fluffy Bluff S - 1-Up Behind Tower #2",
     "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))",
     "region": "Fluffy Bluff Galaxy (3)",
     "category": [

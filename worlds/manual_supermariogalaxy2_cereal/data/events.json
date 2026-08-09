@@ -195,6 +195,14 @@
     "name": "Can Make Clouds",
     "requires": "|Has Cloud| and |Has Air Spin|"
   },
+  {
+    "name": "Can Make Ground Clouds",
+    "requires": "|Has Cloud| and |Has Ground Spin|"
+  },
+  {
+    "name": "Can Complete Bonus Room ?-Coins",
+    "requires": "|Has Back or Sideflip| or |Has Double Jump| or |Has Air Spin|"
+  },
 
 
 
