@@ -764,8 +764,8 @@
   },
   {
     "name": "Digga-Leg's Planet",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "|Has Spin-Drill|",
+    "region": "Spin-Dig 1 - Boss Planet",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -774,8 +774,8 @@
   },
   {
     "name": "Spin-Dig 1 Starting Planet Caged 1-Up",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "|Has Spin-Drill|",
+    "region": "Spin-Dig 1 - Start Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -784,8 +784,8 @@
   },
   {
     "name": "Spin-Dig Green Star 1",
-    "requires": "(({OptOne(|Spin-Drill|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Spin|)} OR ({OptOne(|Sideflip|)} AND {YamlEnabled(Advanced_Logic)}))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Backflip|)} AND {OptOne(|Wall Jump|)})))) AND {OptOne(|Spin-Dig Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "(({OptOne(|Spin-Drill|)} AND (|Needs Testing| or |Has Triple Jump| OR {OptOne(|Backflip|)} OR {OptOne(|Spin|)} OR ({OptOne(|Sideflip|)} AND {YamlEnabled(Advanced_Logic)}))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Backflip|)} AND {OptOne(|Wall Jump|)})))) AND {OptOne(|Spin-Dig Comet Medal|)} AND {OptOne(|Green Comets|)}",
+    "region": "Spin-Dig 1 - Dirt Tower Planet",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -794,8 +794,8 @@
   },
   {
     "name": "Spin-Dig Comet Medal",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "|Has Spin-Drill|",
+    "region": "Spin-Dig 1 - Dirt Tower Planet",
     "category": [
       "World 1",
       "Comet Medal Locations"
@@ -803,9 +803,9 @@
     "sort-key": "row-0083"
   },
   {
-    "name": "Spin-Dig 1 Ring Planet Checkpoint Flag",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "name": "Spin-Dig 1 Metal Ring Checkpoint Flag",
+    "requires": "",
+    "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -814,8 +814,8 @@
   },
   {
     "name": "Spin-Dig 1 Teleporter 1-Up #1",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "",
+    "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -824,8 +824,8 @@
   },
   {
     "name": "Spin-Dig 1 Teleporter 1-Up #2",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "",
+    "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -834,8 +834,8 @@
   },
   {
     "name": "Spin-Dig 1 Teleporter 1-Up #3",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "",
+    "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -844,8 +844,8 @@
   },
   {
     "name": "Spin-Dig 1 Yellow Platform 1-Up",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Rightside Down Galaxy (3)",
+    "requires": "",
+    "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -854,8 +854,8 @@
   },
   {
     "name": "Spin-Dig Green Star 2",
-    "requires": "{OptAll(|Spin-Dig Comet Medal| AND |Green Comets| AND |Spin-Drill| AND |Spin| AND (|Triple Jump| OR |Sideflip|)",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "|Spin-Dig Green Stars| and (|Jump Height 6| or (|Has Sideflip| and |Has Air Spin|))",
+    "region": "Spin-Dig 1 - Metal Ring Planet",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -864,8 +864,8 @@
   },
   {
     "name": "Spin-Dig 1 Luma Shop",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "",
+    "region": "Spin-Dig 1 - Starshroom",
     "category": [
       "World 1",
       "Luma Shops"
@@ -874,8 +874,8 @@
   },
   {
     "name": "Spin-Dig 1 Red Starshroom Checkpoint Flag",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "",
+    "region": "Spin-Dig 1 - Starshroom",
     "category": [
       "World 1",
       "Checkpoints"
@@ -884,8 +884,8 @@
   },
   {
     "name": "Silver Stars Down Deep",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "|Has Spin-Drill|",
+    "region": "Spin-Dig 2 - Silver Stars",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -894,8 +894,8 @@
   },
   {
     "name": "Spin-Dig 2 Teleporter 1-Up #1",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "",
+    "region": "Spin-Dig 2 - First Canister Section",
     "category": [
       "World 1",
       "1-Ups"
@@ -904,8 +904,8 @@
   },
   {
     "name": "Spin-Dig 2 Teleporter 1-Up #2",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "",
+    "region": "Spin-Dig 2 - First Canister Section",
     "category": [
       "World 1",
       "1-Ups"
@@ -914,8 +914,8 @@
   },
   {
     "name": "Spin-Dig 2 Teleporter 1-Up #3",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "",
+    "region": "Spin-Dig 2 - First Canister Section",
     "category": [
       "World 1",
       "1-Ups"
@@ -924,8 +924,8 @@
   },
   {
     "name": "Spin-Dig Green Star 3",
-    "requires": "({OptOne(|Spin-Drill|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Sideflip|)}))))) AND {OptOne(|Spin-Dig Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "|Spin-Dig Green Stars| and |Has Spin-Drill| and (|Needs Testing|)",
+    "region": "Spin-Dig 2 - First Canister Section",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -934,8 +934,8 @@
   },
   {
     "name": "Spin-Dig 2 Blue Starshroom Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Spin-Drill|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "",
+    "region": "Spin-Dig 2 - Starshroom",
     "category": [
       "World 1",
       "Checkpoints"
@@ -944,8 +944,8 @@
   },
   {
     "name": "Digga-Leg's Daredevil Run",
-    "requires": "{OptOne(|Spin-Drill|)} AND {OptOne(|Spin-Dig Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Spin-Dig Galaxy (3)",
+    "requires": "|Has Spin-Drill|",
+    "region": "Spin-Dig C - Digga-Leg",
     "category": [
       "World 1",
       "Power Star Locations"

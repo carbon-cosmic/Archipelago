@@ -60,7 +60,7 @@
   },
   "Yoshi Star 1 - Start": {
     "connects_to": ["Yoshi Star 1 - Volcano Front"],
-    "exit_requires": "|Has Yoshi| or (|Has Long Spin| and |Medium Logic|)"
+    "exit_requires": "|Has Yoshi| or (|Can Long Spin| and |Medium Logic|)"
   },
   "Yoshi Star 1 - Volcano Front": {
     "connects_to": ["Yoshi Star 1 - Dirt Planet"],
@@ -96,17 +96,62 @@
   "Yoshi Star 2 - Stormy Planet": {
 
   },
-  "Yoshi Star C - ": {
+  "Yoshi Star C - Start": {
     "entrance_requires": "|Has Romp Comets| and {OptOne(|Yoshi Star Comet Medal|)}"
   },
   "Spin-Dig Galaxy": {
-    "connects_to": []
+    "connects_to": ["Spin-Dig 1 - Start Planet", "Spin-Dig 2 - Start Planet", "Spin-Dig C - Digga-Leg"]
+  },
+  "Spin-Dig 1 - Start Planet": {
+    "connects_to": ["Spin-Dig 1 - Dirt Tower Planet"],
+    "exit_requires": "|Has Spin Drill| or |Jump Height 6| or (|Medium Logic| and |Can Wall Spin| and (|Has Double Jump| or |Has Backflip|)) or (|Hard Logic| and |Can Long Spin| and |Can Wall Jump|)"
+  },
+  "Spin-Dig 1 - Dirt Tower Planet": {
+    "connects_to": ["Spin-Dig 1 - Metal Ring Planet"],
+    "exit_requires": "|Has Spin-Drill|"
+  },
+  "Spin-Dig 1 - Metal Ring Planet": {
+    "connects_to": ["Spin-Dig 1 - Hollow Planet"],
+    "exit_requires": ""
+  },
+  "Spin-Dig 1 - Hollow Planet": {
+    "connects_to": ["Spin-Dig 1 - Starshroom"],
+    "exit_requires": "Spin-Drill"
+  },
+  "Spin-Dig 1 - Starshroom": {
+    "connects_to": ["Spin-Dig 1 - Boss Planet"],
+    "exit_requires": ""
+  },
+  "Spin-Dig 1 - Boss Planet": {
+
+  },
+  "Spin-Dig 2 - Start Planet": {
+    "connects_to": ["Spin-Dig 2 - First 2D Section"],
+    "exit_requires": "|Has Ground Spin| or |Has Triple Jump| or |Needs Testing|"
+  },
+  "Spin-Dig 2 - First Canister Section": {
+    "connects_to": ["Spin-Dig 2 - Second Canister Section"],
+    "exit_requires": "|Has Spin-Drill|"
+  },
+  "Spin-Dig 2 - Second Canister Section": {
+    "connects_to": ["Spin-Dig 2 - Starshroom"],
+    "exit_requires": "|Has Spin-Drill| and |Has Ground Spin|"
+  },
+  "Spin-Dig 2 - Starshroom": {
+    "connects_to": ["Spin-Dig 2 - Silver Stars"],
+    "exit_requires": ""
+  },
+  "Spin-Dig 2 - Silver Stars": {
+
+  },
+  "Spin-Dig C - Digga-Leg": {
+
+  },
+  "Fluffy Bluff Galaxy": {
+    "connects_to": ["Fluffy Bluff 1 - Landing", "Fluffy Bluff 2 - Landing"]
   },
   "Flip-Swap Galaxy": {
     "connects_to": ["Flip-Swap Purple Coins"]
-  },
-  "Fluffy Bluff Galaxy": {
-    "connects_to": []
   },
   "Rightside Down Galaxy": {
     "connects_to": []

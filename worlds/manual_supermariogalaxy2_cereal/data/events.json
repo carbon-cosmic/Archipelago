@@ -24,7 +24,7 @@
     "requires": "{OptOne(|Wall Jump|)}"
   },
   {
-    "name": "Has Wall Spin",
+    "name": "Can Wall Spin",
     "requires": "|Has Air Spin| and |Has Wall Jump|"
   },
   {
@@ -34,6 +34,10 @@
   {
     "name": "Has Long Jump",
     "requires": "{OptOne(|Long Jump|)}"
+  },
+  {
+    "name": "Can Long Spin",
+    "requires": "|Has Long Jump| and |Has Air Spin|"
   },
   {
     "name": "Has Double Jump",
