@@ -25,7 +25,7 @@
   },
   {
     "name": "Has Wall Spin",
-    "requires": "|Can Air Spin| and |Can Wall Jump|"
+    "requires": "|Has Air Spin| and |Has Wall Jump|"
   },
   {
     "name": "Has Ground Pound",
@@ -161,31 +161,31 @@
   },
   {
     "name": "Jump Height 6",
-    "requires": "|Can Triple Jump| and |Can Air Spin|"
+    "requires": "|Has Triple Jump| and |Has Air Spin|"
   },
   {
     "name": "Jump Height 5",
-    "requires": "|Jump Height 6| or |Can Triple Jump| or (|Can Air Spin| and |Can Back or Sideflip|)"
+    "requires": "|Jump Height 6| or |Has Triple Jump| or (|Has Air Spin| and |Has Back or Sideflip|)"
   },
   {
     "name": "Jump Height 4",
-    "requires": "|Jump Height 5| or (|Can Air Spin| and |Can Double Jump|)"
+    "requires": "|Jump Height 5| or (|Has Air Spin| and |Has Double Jump|)"
   },
   {
     "name": "Jump Height 3",
-    "requires": "|Jump Height 4| or |Can Back or Sideflip| or |Can Air Spin|"
+    "requires": "|Jump Height 4| or |Has Back or Sideflip| or |Has Air Spin|"
   },
   {
     "name": "Jump Height 2",
-    "requires": "|Jump Height 3| or |Can Double Jump|"
+    "requires": "|Jump Height 3| or |Has Double Jump|"
   },
   {
     "name": "Can Swim",
-    "requires": "|Can Ground Pound| or |Medium Logic|"
+    "requires": "|Has Ground Pound| or |Medium Logic|"
   },
   {
     "name": "Can Break Crates",
-    "requires": "|Can Ground Spin| or |Can Ground Pound|"
+    "requires": "|Has Ground Spin| or |Has Ground Pound|"
   },
   {
     "name": "Can Make Clouds",

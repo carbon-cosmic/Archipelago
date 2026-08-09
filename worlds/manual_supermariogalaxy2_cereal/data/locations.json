@@ -274,7 +274,7 @@
   },
   {
     "name": "Storming the Sky Fleet",
-    "requires": "|Can Ground Spin|",
+    "requires": "|Has Ground Spin|",
     "region": "Sky Station 2 - Bomber Bill Planet",
     "category": [
       "World 1",
@@ -284,7 +284,7 @@
   },
   {
     "name": "Sky Station 2 - First Planet Chest 1-Up",
-    "requires": "|Can Ground Spin|",
+    "requires": "|Has Ground Spin|",
     "region": "Sky Station 2 - Start Planet",
     "category": [
       "World 1",
@@ -504,8 +504,8 @@
   },
   {
     "name": "Saddle Up with Yoshi",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "requires": "|Has Ground Spin| and |Has Yoshi|",
+    "region": "Yoshi Star 1 - Fossil Planet",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -513,9 +513,9 @@
     "sort-key": "row-0054"
   },
   {
-    "name": "Yoshi Star 1 Right Ledge 1-Up",
+    "name": "Yoshi Star 1 - Right Ledge 1-Up",
     "requires": "",
-    "region": "Yoshi Star Galaxy (1)",
+    "region": "Yoshi Star 1 - Start",
     "category": [
       "World 1",
       "1-Ups"
@@ -523,9 +523,9 @@
     "sort-key": "row-0055"
   },
   {
-    "name": "Yoshi Star Ten Fruit 1-Up",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star - Ten Fruit 1-Up",
+    "requires": "|Has Yoshi|",
+    "region": "Yoshi Star 1 - Start",
     "category": [
       "World 1",
       "1-Ups"
@@ -533,9 +533,9 @@
     "sort-key": "row-0056"
   },
   {
-    "name": "Yoshi Star Comet Medal",
-    "requires": "{OptOne(|Yoshi|)} OR {OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star - Comet Medal",
+    "requires": "|Has Yoshi| or |Has Air Spin| or |Medium Logic|",
+    "region": "Yoshi Star 1 - Start",
     "category": [
       "World 1",
       "Comet Medal Locations"
@@ -543,9 +543,9 @@
     "sort-key": "row-0057"
   },
   {
-    "name": "Yoshi Star Green Star 1",
-    "requires": "(({OptOne(|Yoshi|)} OR {OptOne(|Spin|)}) AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Yoshi|)} AND {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Yoshi Star Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star - Green Star 1",
+    "requires": "|Yoshi Star Green Stars| and (|Has Yoshi| or (|Has Air Spin| and |Has Back or Sideflip|))",
+    "region": "Yoshi Star 1 - Start",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -553,9 +553,9 @@
     "sort-key": "row-0058"
   },
   {
-    "name": "Yoshi Star 1 Teleporter 1-Up #1",
-    "requires": "{OptOne(|Yoshi|)} OR ({OptOne(|Spin|)} AND {OptOne(|Long Jump|)})",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 1 - Teleporter 1-Up #1",
+    "requires": "|Has Yoshi| or |Hard Logic|",
+    "region": "Yoshi Star 1 - Volcano Front",
     "category": [
       "World 1",
       "1-Ups"
@@ -563,9 +563,9 @@
     "sort-key": "row-0059"
   },
   {
-    "name": "Yoshi Star 1 Teleporter 1-Up #2",
-    "requires": "{OptOne(|Yoshi|)} OR ({OptOne(|Spin|)} AND {OptOne(|Long Jump|)})",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 1 - Teleporter 1-Up #2",
+    "requires": "|Has Yoshi| or |Hard Logic|",
+    "region": "Yoshi Star 1 - Volcano Front",
     "category": [
       "World 1",
       "1-Ups"
@@ -573,9 +573,9 @@
     "sort-key": "row-0060"
   },
   {
-    "name": "Yoshi Star 1 Teleporter 1-Up #3",
-    "requires": "{OptOne(|Yoshi|)} OR ({OptOne(|Spin|)} AND {OptOne(|Long Jump|)})",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 1 - Teleporter 1-Up #3",
+    "requires": "|Has Yoshi| or |Hard Logic|",
+    "region": "Yoshi Star 1 - Volcano Front",
     "category": [
       "World 1",
       "1-Ups"
@@ -583,9 +583,9 @@
     "sort-key": "row-0061"
   },
   {
-    "name": "Yoshi Star Green Star 2",
-    "requires": "({OptOne(|Yoshi|)} OR ({OptOne(|Spin|)} AND {OptOne(|Long Jump|)})) AND {OptOne(|Yoshi Star Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star - Green Star 2",
+    "requires": "|Yoshi Star Green Stars|",
+    "region": "Yoshi Star 1 - Volcano Front",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -593,9 +593,9 @@
     "sort-key": "row-0062"
   },
   {
-    "name": "Yoshi Star 1 Dirt Planet Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 1 - Dirt Planet Checkpoint Flag",
+    "requires": "",
+    "region": "Yoshi Star 1 - Dirt Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -603,9 +603,9 @@
     "sort-key": "row-0063"
   },
   {
-    "name": "Yoshi Star 1 Dirt Planet Chance Cube",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 1 - Dirt Planet Chance Cube",
+    "requires": "",
+    "region": "Yoshi Star 1 - Dirt Planet",
     "category": [
       "World 1",
       "Chance Cubes"
@@ -613,9 +613,9 @@
     "sort-key": "row-0064"
   },
   {
-    "name": "Yoshi Star 1 Final Planet Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Spin|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 1 - Final Planet Checkpoint Flag",
+    "requires": "",
+    "region": "Yoshi Star 1 - Fossil Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -623,9 +623,9 @@
     "sort-key": "row-0065"
   },
   {
-    "name": "Yoshi Star 1 Wooden Ledge 1-Up",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Spin|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 1 - Wooden Ledge 1-Up",
+    "requires": "",
+    "region": "Yoshi Star 1 - Fossil Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -633,9 +633,9 @@
     "sort-key": "row-0066"
   },
   {
-    "name": "Yoshi Star Green Star 3",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Yoshi Star Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star - Green Star 3",
+    "requires": "|Yoshi Star Green Stars|",
+    "region": "Yoshi Star 1 - Fossil Planet",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -644,8 +644,8 @@
   },
   {
     "name": "Spiny Control",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "requires": "|Has Yoshi|",
+    "region": "Yoshi Star 2 - Stormy Planet",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -653,9 +653,9 @@
     "sort-key": "row-0068"
   },
   {
-    "name": "Yoshi Star 2 Teleporter 1-Up #1",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 2 - Teleporter 1-Up #1",
+    "requires": "|Has Yoshi|",
+    "region": "Yoshi Star 2 - Start",
     "category": [
       "World 1",
       "1-Ups"
@@ -663,9 +663,9 @@
     "sort-key": "row-0069"
   },
   {
-    "name": "Yoshi Star 2 Teleporter 1-Up #2",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 2 - Teleporter 1-Up #2",
+    "requires": "|Has Yoshi|",
+    "region": "Yoshi Star 2 - Start",
     "category": [
       "World 1",
       "1-Ups"
@@ -673,9 +673,9 @@
     "sort-key": "row-0070"
   },
   {
-    "name": "Yoshi Star 2 Teleporter 1-Up #3",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 2 - Teleporter 1-Up #3",
+    "requires": "|Has Yoshi|",
+    "region": "Yoshi Star 2 - Start",
     "category": [
       "World 1",
       "1-Ups"
@@ -683,9 +683,9 @@
     "sort-key": "row-0071"
   },
   {
-    "name": "Yoshi Star 2 Caged 1-Up",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 2 - Caged 1-Up",
+    "requires": "|Has Yoshi|",
+    "region": "Yoshi Star 2 - Start",
     "category": [
       "World 1",
       "1-Ups"
@@ -693,9 +693,9 @@
     "sort-key": "row-0072"
   },
   {
-    "name": "Yoshi Star 2 Luma Planet Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 2 - Luma Planet Checkpoint Flag",
+    "requires": "",
+    "region": "Yoshi Star 2 - Luma Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -703,9 +703,9 @@
     "sort-key": "row-0073"
   },
   {
-    "name": "Yoshi Star 2 Secret Island 1-Up Beneath Platform",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 2 - Secret Planet 1-Up",
+    "requires": "",
+    "region": "Yoshi Star 2 - Secret Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -713,9 +713,9 @@
     "sort-key": "row-0074"
   },
   {
-    "name": "Yoshi Star 2 Secret Island Life Mushroom on Platform",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 2 - Secret Planet Life Mushroom",
+    "requires": "",
+    "region": "Yoshi Star 2 - Secret Planet",
     "category": [
       "World 1",
       "Life Mushrooms"
@@ -723,9 +723,9 @@
     "sort-key": "row-0075"
   },
   {
-    "name": "Yoshi Star 2 Wooden Ledge 1-Up",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 2 - Wooden Ledge 1-Up",
+    "requires": "",
+    "region": "Yoshi Star 2 - Stone Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -733,9 +733,9 @@
     "sort-key": "row-0076"
   },
   {
-    "name": "Yoshi Star 2 1-Up on Top of Stone Planet",
-    "requires": "{OptOne(|Yoshi|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Backflip|)})",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 2 - Stone Planet Top 1-Up",
+    "requires": "|Has Yoshi|",
+    "region": "Yoshi Star 2 - Stone Planet",
     "category": [
       "World 1",
       "1-Ups"
@@ -743,9 +743,9 @@
     "sort-key": "row-0077"
   },
   {
-    "name": "Yoshi Star 2 Stormy Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "name": "Yoshi Star 2 - Stormy Checkpoint Flag",
+    "requires": "",
+    "region": "Yoshi Star 2 - Stormy Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -754,8 +754,8 @@
   },
   {
     "name": "Spiny Rainbow Romp",
-    "requires": "{OptOne(|Rainbow Star|)} AND {OptOne(|Yoshi Star Comet Medal|)} AND {OptOne(|Romp Comets|)}",
-    "region": "Yoshi Star Galaxy (1)",
+    "requires": "|Has Invincibility|",
+    "region": "Yoshi Star C - Start",
     "category": [
       "World 1",
       "Power Star Locations"

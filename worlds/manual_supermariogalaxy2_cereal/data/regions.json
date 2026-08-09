@@ -56,7 +56,48 @@
 
   },
   "Yoshi Star Galaxy": {
-    "connects_to": []
+    "connects_to": ["Yoshi Star 1 - Start", "Yoshi Star 2 - Start", "Yoshi Star C - Start"]
+  },
+  "Yoshi Star 1 - Start": {
+    "connects_to": ["Yoshi Star 1 - Volcano Front"],
+    "exit_requires": "|Has Yoshi| or (|Has Long Spin| and |Medium Logic|)"
+  },
+  "Yoshi Star 1 - Volcano Front": {
+    "connects_to": ["Yoshi Star 1 - Dirt Planet"],
+    "exit_requires": "|Has Yoshi|"
+  },
+  "Yoshi Star 1 - Dirt Planet": {
+    "connects_to": ["Yoshi Star 1 - Tower Planet"],
+    "exit_requires": "|Has Ground Spin|"
+  },
+  "Yoshi Star 1 - Tower Planet": {
+    "connects_to": ["Yoshi Star 1 - Fossil Planet"],
+    "exit_requires": "|Has Yoshi|"
+  },
+  "Yoshi Star 1 - Fossil Planet": {
+
+  },
+  "Yoshi Star 2 - Start": {
+    "connects_to": ["Yoshi Star 2 - Luma Planet"],
+    "exit_requires": "|Has Yoshi|"
+  },
+  "Yoshi Star 2 - Luma Planet": {
+    "connects_to": ["Yoshi Star 2 - Stone Planet", "Yoshi Star 2 - Secret Planet"],
+    "exit_requires": "|Has Yoshi|"
+  },
+  "Yoshi Star 2 - Secret Planet": {
+    "connects_to": ["Yoshi Star 2 - Stone Planet"],
+    "exit_requires": ""
+  },
+  "Yoshi Star 2 - Stone Planet": {
+    "connects_to": ["Yoshi Star 2 - Stormy Planet"],
+    "exit_requires": "|Has Yoshi|"
+  },
+  "Yoshi Star 2 - Stormy Planet": {
+
+  },
+  "Yoshi Star C - ": {
+    "entrance_requires": "|Has Romp Comets| and {OptOne(|Yoshi Star Comet Medal|)}"
   },
   "Spin-Dig Galaxy": {
     "connects_to": []
