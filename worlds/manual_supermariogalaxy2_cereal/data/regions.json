@@ -270,7 +270,7 @@
     "entrance_requires": ""
   },
   "Rightside Down - Outside Final Section": {
-    "entrance_requires": "|Needs Testing|"
+    "entrance_requires": "|Jump Height 3|"
   },
   "Bowser Jr.'s Fiery Flotilla": {
     "connects_to": ["Fiery Flotilla - Outside Castle", "Fiery Flotilla C - Gobblegut"]
