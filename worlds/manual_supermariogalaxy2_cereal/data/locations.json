@@ -103,7 +103,7 @@
     "sort-key": "row-0013"
   },
   {
-    "name": "Sky Station 1 - Blue Roof Checkpoint",
+    "name": "Sky Station 1 - Blue Roof Checkpoint Flag",
     "requires": "",
     "region": "Sky Station 1 - Green Hill Planet",
     "category": [
@@ -1063,7 +1063,7 @@
     "sort-key": "row-0107"
   },
   {
-    "name": "Fluffy Bluff 1 - Clifftop Checkpoint",
+    "name": "Fluffy Bluff 1 - Clifftop Checkpoint Flag",
     "requires": "",
     "region": "Fluffy Bluff 1 - Clifftops",
     "category": [
@@ -1083,7 +1083,7 @@
     "sort-key": "row-0109"
   },
   {
-    "name": "Fluffy Bluff 1 - Waterfall Checkpoint",
+    "name": "Fluffy Bluff 1 - Waterfall Checkpoint Flag",
     "requires": "",
     "region": "Fluffy Bluff 1 - Waterfall",
     "category": [
@@ -1574,8 +1574,8 @@
   },
   {
     "name": "The Puzzling Picture Block",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "requires": "|Has Ground Pound|",
+    "region": "Puzzle Plank - Picture Block",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -1583,8 +1583,8 @@
     "sort-key": "row-0159"
   },
   {
-    "name": "Puzzle Plank Green Star 1",
-    "requires": "({OptOne(|Ground Pound|)} AND {OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) AND {OptOne(|Puzzle Plank Comet Medal|)} AND {OptOne(|Green Comets|)}",
+    "name": "Puzzle Plank - Green Star 1",
+    "requires": "|Puzzle Plank Green Stars| and |Has Ground Pound| and |Can Wall Spin| and |Can Back or Sideflip|",
     "region": "Puzzle Plank Galaxy (7)",
     "category": [
       "World 2",
@@ -1593,9 +1593,9 @@
     "sort-key": "row-0160"
   },
   {
-    "name": "Puzzle Plank Notes 1-Up #1",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Notes 1-Up #1",
+    "requires": "|Has Ground Pound|",
+    "region": "Puzzle Plank - Wigglers",
     "category": [
       "World 2",
       "1-Ups"
@@ -1603,9 +1603,9 @@
     "sort-key": "row-0161"
   },
   {
-    "name": "Puzzle Plank Notes 1-Up #2",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Notes 1-Up #2",
+    "requires": "|Has Ground Pound|",
+    "region": "Puzzle Plank - Wigglers",
     "category": [
       "World 2",
       "1-Ups"
@@ -1613,9 +1613,9 @@
     "sort-key": "row-0162"
   },
   {
-    "name": "Puzzle Plank Notes 1-Up #3",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Notes 1-Up #3",
+    "requires": "|Has Ground Pound|",
+    "region": "Puzzle Plank - Wigglers",
     "category": [
       "World 2",
       "1-Ups"
@@ -1623,9 +1623,9 @@
     "sort-key": "row-0163"
   },
   {
-    "name": "Puzzle Plank Bonus Room ? Coin",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Bonus Room ? Coin",
+    "requires": "",
+    "region": "Puzzle Plank - Grassy Planet",
     "category": [
       "World 2",
       "? Coins"
@@ -1633,9 +1633,9 @@
     "sort-key": "row-0164"
   },
   {
-    "name": "Puzzle Plank Bonus Room ? Coin 1-Up Reward",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Bonus Room ? Coin 1-Up Reward",
+    "requires": "",
+    "region": "Puzzle Plank - Grassy Planet",
     "category": [
       "World 2",
       "1-Ups"
@@ -1643,9 +1643,9 @@
     "sort-key": "row-0165"
   },
   {
-    "name": "Puzzle Plank ? Coin On Ground Pound Blocks",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - ? Coin On Ground Pound Blocks",
+    "requires": "",
+    "region": "Puzzle Plank - Grassy Planet",
     "category": [
       "World 2",
       "? Coins"
@@ -1653,9 +1653,9 @@
     "sort-key": "row-0166"
   },
   {
-    "name": "Puzzle Plank Saw Planks Checkpoint Flag",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Planks Checkpoint Flag",
+    "requires": "",
+    "region": "Puzzle Plank - Planks",
     "category": [
       "World 2",
       "Checkpoints"
@@ -1663,9 +1663,9 @@
     "sort-key": "row-0167"
   },
   {
-    "name": "Puzzle Plank Comet Medal",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Comet Medal",
+    "requires": "",
+    "region": "Puzzle Plank - Planks",
     "category": [
       "World 2",
       "Comet Medal Locations"
@@ -1673,9 +1673,9 @@
     "sort-key": "row-0168"
   },
   {
-    "name": "Puzzle Plank Green Star 2",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Puzzle Plank Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Green Star 2",
+    "requires": "|Needs Testing|",
+    "region": "Puzzle Plank - Planks",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -1683,9 +1683,9 @@
     "sort-key": "row-0169"
   },
   {
-    "name": "Puzzle Plank Green Star 3",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Puzzle Plank Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Green Star 3",
+    "requires": "|Puzzle Plank Green Stars|",
+    "region": "Puzzle Plank - Upper Planks",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -1693,9 +1693,9 @@
     "sort-key": "row-0170"
   },
   {
-    "name": "Puzzle Plank 1-Up on Saw Planks",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - 1-Up on Planks",
+    "requires": "",
+    "region": "Puzzle Plank - Upper Planks",
     "category": [
       "World 2",
       "1-Ups"
@@ -1703,9 +1703,9 @@
     "sort-key": "row-0171"
   },
   {
-    "name": "Puzzle Plank Luma Shop",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Luma Shop",
+    "requires": "",
+    "region": "Puzzle Plank - Wooden Planet",
     "category": [
       "World 2",
       "Luma Shops"
@@ -1713,9 +1713,9 @@
     "sort-key": "row-0172"
   },
   {
-    "name": "Puzzle Plank Picture Block Checkpoint Flag",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank - Picture Block Checkpoint Flag",
+    "requires": "",
+    "region": "Puzzle Plank - Wooden Planet",
     "category": [
       "World 2",
       "Checkpoints"
@@ -1724,8 +1724,8 @@
   },
   {
     "name": "Purple Coin Shadow Vault",
-    "requires": "{OptOne(|Puzzle Plank Comet Medal|)} AND {OptOne(|Cosmic Clone Comets|)} AND {OptOne(|Purple Comets|)} AND {OptOne(|Puzzle Plank Purple Coin:100|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "requires": "{OptOne(|Puzzle Plank Purple Coin:100|)}",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -1734,8 +1734,8 @@
   },
   {
     "name": "Bugaboom's Back",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "requires": "|Can Ground Pound|",
+    "region": "Puzzle Plank S - Boss Planet",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -1743,9 +1743,9 @@
     "sort-key": "row-0175"
   },
   {
-    "name": "Puzzle Plank Secret Checkpoint Flag",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Puzzle Plank Galaxy (7)",
+    "name": "Puzzle Plank S - Checkpoint Flag",
+    "requires": "",
+    "region": "Puzzle Plank S - Checkpoint Islands",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2593,7 +2593,7 @@
     "sort-key": "row-0257"
   },
   {
-    "name": "Lava Lair Meteor Checkpoint",
+    "name": "Lava Lair Meteor Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})",
     "region": "Bowser's Lava Lair (16)",
     "category": [
@@ -2853,7 +2853,7 @@
     "sort-key": "row-0283"
   },
   {
-    "name": "Tall Trunk 1 Carved Log Checkpoint",
+    "name": "Tall Trunk 1 Carved Log Checkpoint Flag",
     "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}) OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2943,7 +2943,7 @@
     "sort-key": "row-0292"
   },
   {
-    "name": "Tall Trunk 1 Wood Circle Checkpoint",
+    "name": "Tall Trunk 1 Wood Circle Checkpoint Flag",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -8224,7 +8224,7 @@
     "sort-key": "row-0813a"
   },
   {
-    "name": "Flip-Swap First Platform Purple Coin",
+    "name": "Flip-Swap - First Platform Purple Coin",
     "requires": "",
     "region": "Flip-Swap C - Start Blue Panels",
     "category": [
@@ -8234,7 +8234,7 @@
     "sort-key": "row-0819"
   },
   {
-    "name": "Flip-Swap Start Blue Panel Purple Coin #1",
+    "name": "Flip-Swap - Start Blue Panel Purple Coin #1",
     "requires": "",
     "region": "Flip-Swap C - Start Blue Panels",
     "category": [
@@ -8244,7 +8244,7 @@
     "sort-key": "row-0820"
   },
   {
-    "name": "Flip-Swap Start Blue Panel Purple Coin #2",
+    "name": "Flip-Swap - Start Blue Panel Purple Coin #2",
     "requires": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|",
     "region": "Flip-Swap C - Start Blue Panels",
     "category": [
@@ -8254,7 +8254,7 @@
     "sort-key": "row-0821"
   },
   {
-    "name": "Flip-Swap Start Blue Panel Purple Coin #3",
+    "name": "Flip-Swap - Start Blue Panel Purple Coin #3",
     "requires": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|",
     "region": "Flip-Swap C - Start Blue Panels",
     "category": [
@@ -8264,7 +8264,7 @@
     "sort-key": "row-0822"
   },
   {
-    "name": "Flip-Swap Start Blue Panel Purple Coin #4",
+    "name": "Flip-Swap - Start Blue Panel Purple Coin #4",
     "requires": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|",
     "region": "Flip-Swap C - Start Blue Panels",
     "category": [
@@ -8274,7 +8274,7 @@
     "sort-key": "row-0823"
   },
   {
-    "name": "Flip-Swap Start Red Panel Purple Coin #1",
+    "name": "Flip-Swap - Start Red Panel Purple Coin #1",
     "requires": "",
     "region": "Flip-Swap C - Start Red Panels",
     "category": [
@@ -8284,7 +8284,7 @@
     "sort-key": "row-0824"
   },
   {
-    "name": "Flip-Swap Start Red Panel Purple Coin #2",
+    "name": "Flip-Swap - Start Red Panel Purple Coin #2",
     "requires": "",
     "region": "Flip-Swap C - Start Red Panels",
     "category": [
@@ -8294,7 +8294,7 @@
     "sort-key": "row-0825"
   },
   {
-    "name": "Flip-Swap 1-Up Purple Coin Ring Coin #1",
+    "name": "Flip-Swap - 1-Up Purple Coin Ring Coin #1",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8304,7 +8304,7 @@
     "sort-key": "row-0826"
   },
   {
-    "name": "Flip-Swap 1-Up Purple Coin Ring Coin #2",
+    "name": "Flip-Swap - 1-Up Purple Coin Ring Coin #2",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8314,7 +8314,7 @@
     "sort-key": "row-0827"
   },
   {
-    "name": "Flip-Swap 1-Up Purple Coin Ring Coin #3",
+    "name": "Flip-Swap - 1-Up Purple Coin Ring Coin #3",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8324,7 +8324,7 @@
     "sort-key": "row-0828"
   },
   {
-    "name": "Flip-Swap 1-Up Purple Coin Ring Coin #4",
+    "name": "Flip-Swap - 1-Up Purple Coin Ring Coin #4",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8334,7 +8334,7 @@
     "sort-key": "row-0829"
   },
   {
-    "name": "Flip-Swap 1-Up Purple Coin Ring Coin #5",
+    "name": "Flip-Swap - 1-Up Purple Coin Ring Coin #5",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8344,7 +8344,7 @@
     "sort-key": "row-0830"
   },
   {
-    "name": "Flip-Swap 1-Up Purple Coin Ring Coin #6",
+    "name": "Flip-Swap - 1-Up Purple Coin Ring Coin #6",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8354,7 +8354,7 @@
     "sort-key": "row-0831"
   },
   {
-    "name": "Flip-Swap 1-Up Purple Coin Ring Coin #7",
+    "name": "Flip-Swap - 1-Up Purple Coin Ring Coin #7",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8364,7 +8364,7 @@
     "sort-key": "row-0832"
   },
   {
-    "name": "Flip-Swap 1-Up Purple Coin Ring Coin #8",
+    "name": "Flip-Swap - 1-Up Purple Coin Ring Coin #8",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8374,7 +8374,7 @@
     "sort-key": "row-0833"
   },
   {
-    "name": "Flip-Swap 1-Up Platform Blue Panel Purple Coin #1",
+    "name": "Flip-Swap - 1-Up Platform Blue Panel Purple Coin #1",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8384,7 +8384,7 @@
     "sort-key": "row-0834"
   },
   {
-    "name": "Flip-Swap 1-Up Platform Blue Panel Purple Coin #2",
+    "name": "Flip-Swap - 1-Up Platform Blue Panel Purple Coin #2",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8394,7 +8394,7 @@
     "sort-key": "row-0835"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #1",
+    "name": "Flip-Swap - Electric Fences Blue Panel Purple Coin #1",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8404,7 +8404,7 @@
     "sort-key": "row-0836"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #2",
+    "name": "Flip-Swap - Electric Fences Blue Panel Purple Coin #2",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -8414,7 +8414,7 @@
     "sort-key": "row-0837"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #3",
+    "name": "Flip-Swap - Electric Fences Blue Panel Purple Coin #3",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Blue Panels",
     "category": [
@@ -8424,7 +8424,7 @@
     "sort-key": "row-0838"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #4",
+    "name": "Flip-Swap - Electric Fences Blue Panel Purple Coin #4",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Blue Panels",
     "category": [
@@ -8434,7 +8434,7 @@
     "sort-key": "row-0839"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #5",
+    "name": "Flip-Swap - Electric Fences Blue Panel Purple Coin #5",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Blue Panels",
     "category": [
@@ -8444,7 +8444,7 @@
     "sort-key": "row-0840"
   },
   {
-    "name": "Flip-Swap Electric Fences Blue Panel Purple Coin #6",
+    "name": "Flip-Swap - Electric Fences Blue Panel Purple Coin #6",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Blue Panels",
     "category": [
@@ -8454,7 +8454,7 @@
     "sort-key": "row-0841"
   },
   {
-    "name": "Flip-Swap Electric Fences Red Panel Purple Coin #1",
+    "name": "Flip-Swap - Electric Fences Red Panel Purple Coin #1",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
@@ -8464,7 +8464,7 @@
     "sort-key": "row-0842"
   },
   {
-    "name": "Flip-Swap Electric Fences Red Panel Purple Coin #2",
+    "name": "Flip-Swap - Electric Fences Red Panel Purple Coin #2",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
@@ -8474,7 +8474,7 @@
     "sort-key": "row-0843"
   },
   {
-    "name": "Flip-Swap Electric Fences Red Panel Purple Coin #3",
+    "name": "Flip-Swap - Electric Fences Red Panel Purple Coin #3",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
@@ -8484,7 +8484,7 @@
     "sort-key": "row-0844"
   },
   {
-    "name": "Flip-Swap Electric Fences Red Panel Purple Coin #4",
+    "name": "Flip-Swap - Electric Fences Red Panel Purple Coin #4",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
@@ -8494,7 +8494,7 @@
     "sort-key": "row-0845"
   },
   {
-    "name": "Flip-Swap Electric Fences Red Panel Purple Coin #5",
+    "name": "Flip-Swap - Electric Fences Red Panel Purple Coin #5",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
@@ -8504,7 +8504,7 @@
     "sort-key": "row-0846"
   },
   {
-    "name": "Flip-Swap Electric Fences Red Panel Purple Coin #6",
+    "name": "Flip-Swap - Electric Fences Red Panel Purple Coin #6",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
@@ -8514,7 +8514,7 @@
     "sort-key": "row-0847"
   },
   {
-    "name": "Flip-Swap Electric Fences Red Panel Purple Coin #7",
+    "name": "Flip-Swap - Electric Fences Red Panel Purple Coin #7",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
@@ -8524,7 +8524,7 @@
     "sort-key": "row-0848"
   },
   {
-    "name": "Flip-Swap Electric Fences Red Panel Purple Coin #8",
+    "name": "Flip-Swap - Electric Fences Red Panel Purple Coin #8",
     "requires": "",
     "region": "Flip-Swap C - Electric Fences Red Panels",
     "category": [
@@ -8534,7 +8534,7 @@
     "sort-key": "row-0849"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin Ring Coin #1",
+    "name": "Flip-Swap - First Chomp Purple Coin Ring Coin #1",
     "requires": "",
     "region": "Flip-Swap C - First Chomp Platform",
     "category": [
@@ -8544,7 +8544,7 @@
     "sort-key": "row-0850"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin Ring Coin #2",
+    "name": "Flip-Swap - First Chomp Purple Coin Ring Coin #2",
     "requires": "",
     "region": "Flip-Swap C - First Chomp Platform",
     "category": [
@@ -8554,7 +8554,7 @@
     "sort-key": "row-0851"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin Ring Coin #3",
+    "name": "Flip-Swap - First Chomp Purple Coin Ring Coin #3",
     "requires": "",
     "region": "Flip-Swap C - First Chomp Platform",
     "category": [
@@ -8564,7 +8564,7 @@
     "sort-key": "row-0852"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin Ring Coin #4",
+    "name": "Flip-Swap - First Chomp Purple Coin Ring Coin #4",
     "requires": "",
     "region": "Flip-Swap C - First Chomp Platform",
     "category": [
@@ -8574,7 +8574,7 @@
     "sort-key": "row-0853"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin Ring Coin #5",
+    "name": "Flip-Swap - First Chomp Purple Coin Ring Coin #5",
     "requires": "",
     "region": "Flip-Swap C - First Chomp Platform",
     "category": [
@@ -8584,7 +8584,7 @@
     "sort-key": "row-0854"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin Ring Coin #6",
+    "name": "Flip-Swap - First Chomp Purple Coin Ring Coin #6",
     "requires": "",
     "region": "Flip-Swap C - First Chomp Platform",
     "category": [
@@ -8594,7 +8594,7 @@
     "sort-key": "row-0855"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin Ring Coin #7",
+    "name": "Flip-Swap - First Chomp Purple Coin Ring Coin #7",
     "requires": "",
     "region": "Flip-Swap C - First Chomp Platform",
     "category": [
@@ -8604,7 +8604,7 @@
     "sort-key": "row-0856"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin Ring Coin #8",
+    "name": "Flip-Swap - First Chomp Purple Coin Ring Coin #8",
     "requires": "",
     "region": "Flip-Swap C - First Chomp Platform",
     "category": [
@@ -8614,7 +8614,7 @@
     "sort-key": "row-0857"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin #1",
+    "name": "Flip-Swap - First Chomp Purple Coin #1",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8624,7 +8624,7 @@
     "sort-key": "row-0858"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin #2",
+    "name": "Flip-Swap - First Chomp Purple Coin #2",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8634,7 +8634,7 @@
     "sort-key": "row-0859"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin #3",
+    "name": "Flip-Swap - First Chomp Purple Coin #3",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8644,7 +8644,7 @@
     "sort-key": "row-0860"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin #4",
+    "name": "Flip-Swap - First Chomp Purple Coin #4",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8654,7 +8654,7 @@
     "sort-key": "row-0861"
   },
   {
-    "name": "Flip-Swap First Chomp Purple Coin #5",
+    "name": "Flip-Swap - First Chomp Purple Coin #5",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8664,7 +8664,7 @@
     "sort-key": "row-0862"
   },
   {
-    "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #1",
+    "name": "Flip-Swap - Second Chomp Purple Coin Ring Coin #1",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8674,7 +8674,7 @@
     "sort-key": "row-0863"
   },
   {
-    "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #2",
+    "name": "Flip-Swap - Second Chomp Purple Coin Ring Coin #2",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8684,7 +8684,7 @@
     "sort-key": "row-0864"
   },
   {
-    "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #3",
+    "name": "Flip-Swap - Second Chomp Purple Coin Ring Coin #3",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8694,7 +8694,7 @@
     "sort-key": "row-0865"
   },
   {
-    "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #4",
+    "name": "Flip-Swap - Second Chomp Purple Coin Ring Coin #4",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8704,7 +8704,7 @@
     "sort-key": "row-0866"
   },
   {
-    "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #5",
+    "name": "Flip-Swap - Second Chomp Purple Coin Ring Coin #5",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8714,7 +8714,7 @@
     "sort-key": "row-0867"
   },
   {
-    "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #6",
+    "name": "Flip-Swap - Second Chomp Purple Coin Ring Coin #6",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8724,7 +8724,7 @@
     "sort-key": "row-0868"
   },
   {
-    "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #7",
+    "name": "Flip-Swap - Second Chomp Purple Coin Ring Coin #7",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8734,7 +8734,7 @@
     "sort-key": "row-0869"
   },
   {
-    "name": "Flip-Swap Second Chomp Purple Coin Ring Coin #8",
+    "name": "Flip-Swap - Second Chomp Purple Coin Ring Coin #8",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8744,7 +8744,7 @@
     "sort-key": "row-0870"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #1",
+    "name": "Flip-Swap - Chomps Purple Coin #1",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8754,7 +8754,7 @@
     "sort-key": "row-0871"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #2",
+    "name": "Flip-Swap - Chomps Purple Coin #2",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8764,7 +8764,7 @@
     "sort-key": "row-0872"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #3",
+    "name": "Flip-Swap - Chomps Purple Coin #3",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8774,7 +8774,7 @@
     "sort-key": "row-0873"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #4",
+    "name": "Flip-Swap - Chomps Purple Coin #4",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8784,7 +8784,7 @@
     "sort-key": "row-0874"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #5",
+    "name": "Flip-Swap - Chomps Purple Coin #5",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8794,7 +8794,7 @@
     "sort-key": "row-0875"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #6",
+    "name": "Flip-Swap - Chomps Purple Coin #6",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8804,7 +8804,7 @@
     "sort-key": "row-0876"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #7",
+    "name": "Flip-Swap - Chomps Purple Coin #7",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8814,7 +8814,7 @@
     "sort-key": "row-0877"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #8",
+    "name": "Flip-Swap - Chomps Purple Coin #8",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8824,7 +8824,7 @@
     "sort-key": "row-0878"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #9",
+    "name": "Flip-Swap - Chomps Purple Coin #9",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8834,7 +8834,7 @@
     "sort-key": "row-0879"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #10",
+    "name": "Flip-Swap - Chomps Purple Coin #10",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8844,7 +8844,7 @@
     "sort-key": "row-0880"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #11",
+    "name": "Flip-Swap - Chomps Purple Coin #11",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8854,7 +8854,7 @@
     "sort-key": "row-0881"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #12",
+    "name": "Flip-Swap - Chomps Purple Coin #12",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8864,7 +8864,7 @@
     "sort-key": "row-0882"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #13",
+    "name": "Flip-Swap - Chomps Purple Coin #13",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8874,7 +8874,7 @@
     "sort-key": "row-0883"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #14",
+    "name": "Flip-Swap - Chomps Purple Coin #14",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8884,7 +8884,7 @@
     "sort-key": "row-0884"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #15",
+    "name": "Flip-Swap - Chomps Purple Coin #15",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8894,7 +8894,7 @@
     "sort-key": "row-0885"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #16",
+    "name": "Flip-Swap - Chomps Purple Coin #16",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8904,7 +8904,7 @@
     "sort-key": "row-0886"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #17",
+    "name": "Flip-Swap - Chomps Purple Coin #17",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8914,7 +8914,7 @@
     "sort-key": "row-0887"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #18",
+    "name": "Flip-Swap - Chomps Purple Coin #18",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8924,7 +8924,7 @@
     "sort-key": "row-0888"
   },
   {
-    "name": "Flip-Swap Chomps Purple Coin #19",
+    "name": "Flip-Swap - Chomps Purple Coin #19",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8934,7 +8934,7 @@
     "sort-key": "row-0889"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #1",
+    "name": "Flip-Swap - Final Stretch Purple Coin Ring Coin #1",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8944,7 +8944,7 @@
     "sort-key": "row-0890"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #2",
+    "name": "Flip-Swap - Final Stretch Purple Coin Ring Coin #2",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8954,7 +8954,7 @@
     "sort-key": "row-0891"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #3",
+    "name": "Flip-Swap - Final Stretch Purple Coin Ring Coin #3",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8964,7 +8964,7 @@
     "sort-key": "row-0892"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #4",
+    "name": "Flip-Swap - Final Stretch Purple Coin Ring Coin #4",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8974,7 +8974,7 @@
     "sort-key": "row-0893"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #5",
+    "name": "Flip-Swap - Final Stretch Purple Coin Ring Coin #5",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8984,7 +8984,7 @@
     "sort-key": "row-0894"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #6",
+    "name": "Flip-Swap - Final Stretch Purple Coin Ring Coin #6",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -8994,7 +8994,7 @@
     "sort-key": "row-0895"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #7",
+    "name": "Flip-Swap - Final Stretch Purple Coin Ring Coin #7",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9004,7 +9004,7 @@
     "sort-key": "row-0896"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin Ring Coin #8",
+    "name": "Flip-Swap - Final Stretch Purple Coin Ring Coin #8",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9014,7 +9014,7 @@
     "sort-key": "row-0897"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #1",
+    "name": "Flip-Swap - Final Stretch Purple Coin #1",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9024,7 +9024,7 @@
     "sort-key": "row-0898"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #2",
+    "name": "Flip-Swap - Final Stretch Purple Coin #2",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9034,7 +9034,7 @@
     "sort-key": "row-0899"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #3",
+    "name": "Flip-Swap - Final Stretch Purple Coin #3",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9044,7 +9044,7 @@
     "sort-key": "row-0900"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #4",
+    "name": "Flip-Swap - Final Stretch Purple Coin #4",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9054,7 +9054,7 @@
     "sort-key": "row-0901"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #5",
+    "name": "Flip-Swap - Final Stretch Purple Coin #5",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9064,7 +9064,7 @@
     "sort-key": "row-0902"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #6",
+    "name": "Flip-Swap - Final Stretch Purple Coin #6",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9074,7 +9074,7 @@
     "sort-key": "row-0903"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #7",
+    "name": "Flip-Swap - Final Stretch Purple Coin #7",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9084,7 +9084,7 @@
     "sort-key": "row-0904"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #8",
+    "name": "Flip-Swap - Final Stretch Purple Coin #8",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9094,7 +9094,7 @@
     "sort-key": "row-0905"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #9",
+    "name": "Flip-Swap - Final Stretch Purple Coin #9",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9104,7 +9104,7 @@
     "sort-key": "row-0906"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #10",
+    "name": "Flip-Swap - Final Stretch Purple Coin #10",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9114,7 +9114,7 @@
     "sort-key": "row-0907"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #11",
+    "name": "Flip-Swap - Final Stretch Purple Coin #11",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9124,7 +9124,7 @@
     "sort-key": "row-0908"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #12",
+    "name": "Flip-Swap - Final Stretch Purple Coin #12",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9134,7 +9134,7 @@
     "sort-key": "row-0909"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #13",
+    "name": "Flip-Swap - Final Stretch Purple Coin #13",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9144,7 +9144,7 @@
     "sort-key": "row-0910"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #14",
+    "name": "Flip-Swap - Final Stretch Purple Coin #14",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9154,7 +9154,7 @@
     "sort-key": "row-0911"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #15",
+    "name": "Flip-Swap - Final Stretch Purple Coin #15",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9164,7 +9164,7 @@
     "sort-key": "row-0912"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #16",
+    "name": "Flip-Swap - Final Stretch Purple Coin #16",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9174,7 +9174,7 @@
     "sort-key": "row-0913"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #17",
+    "name": "Flip-Swap - Final Stretch Purple Coin #17",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9184,7 +9184,7 @@
     "sort-key": "row-0914"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #18",
+    "name": "Flip-Swap - Final Stretch Purple Coin #18",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9194,7 +9194,7 @@
     "sort-key": "row-0915"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #19",
+    "name": "Flip-Swap - Final Stretch Purple Coin #19",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9204,7 +9204,7 @@
     "sort-key": "row-0916"
   },
   {
-    "name": "Flip-Swap Final Stretch Purple Coin #20",
+    "name": "Flip-Swap - Final Stretch Purple Coin #20",
     "requires": "",
     "region": "Flip-Swap C - Chomps",
     "category": [
@@ -9214,7 +9214,7 @@
     "sort-key": "row-0917"
   },
   {
-    "name": "Flip-Swap Final Purple Coin",
+    "name": "Flip-Swap - Final Purple Coin",
     "requires": "",
     "region": "Flip-Swap C - Final Platform",
     "category": [
@@ -9224,9 +9224,9 @@
     "sort-key": "row-0918"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #1",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #1",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9234,9 +9234,9 @@
     "sort-key": "row-0919"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #2",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #2",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9244,9 +9244,9 @@
     "sort-key": "row-0920"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #3",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #3",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9254,9 +9254,9 @@
     "sort-key": "row-0921"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #4",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #4",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9264,9 +9264,9 @@
     "sort-key": "row-0922"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #5",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #5",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9274,9 +9274,9 @@
     "sort-key": "row-0923"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #6",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #6",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9284,9 +9284,9 @@
     "sort-key": "row-0924"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #7",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #7",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9294,9 +9294,9 @@
     "sort-key": "row-0925"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #8",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #8",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9304,9 +9304,9 @@
     "sort-key": "row-0926"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #9",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #9",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9314,9 +9314,9 @@
     "sort-key": "row-0927"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #10",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #10",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9324,9 +9324,9 @@
     "sort-key": "row-0928"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #11",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #11",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9334,9 +9334,9 @@
     "sort-key": "row-0929"
   },
   {
-    "name": "Puzzle Plank Bottom Level Purple Coin #12",
+    "name": "Puzzle Plank - Bottom Level Purple Coin #12",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9344,9 +9344,9 @@
     "sort-key": "row-0930"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #1",
+    "name": "Puzzle Plank - First Level Right Purple Coin #1",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9354,9 +9354,9 @@
     "sort-key": "row-0931"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #2",
+    "name": "Puzzle Plank - First Level Right Purple Coin #2",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9364,9 +9364,9 @@
     "sort-key": "row-0932"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #3",
+    "name": "Puzzle Plank - First Level Right Purple Coin #3",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9374,9 +9374,9 @@
     "sort-key": "row-0933"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #4",
+    "name": "Puzzle Plank - First Level Right Purple Coin #4",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9384,9 +9384,9 @@
     "sort-key": "row-0934"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #5",
+    "name": "Puzzle Plank - First Level Right Purple Coin #5",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9394,9 +9394,9 @@
     "sort-key": "row-0935"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #6",
+    "name": "Puzzle Plank - First Level Right Purple Coin #6",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9404,9 +9404,9 @@
     "sort-key": "row-0936"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #7",
+    "name": "Puzzle Plank - First Level Right Purple Coin #7",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9414,9 +9414,9 @@
     "sort-key": "row-0937"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #8",
+    "name": "Puzzle Plank - First Level Right Purple Coin #8",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9424,9 +9424,9 @@
     "sort-key": "row-0938"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #9",
+    "name": "Puzzle Plank - First Level Right Purple Coin #9",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9434,9 +9434,9 @@
     "sort-key": "row-0939"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #10",
+    "name": "Puzzle Plank - First Level Right Purple Coin #10",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9444,9 +9444,9 @@
     "sort-key": "row-0940"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #11",
+    "name": "Puzzle Plank - First Level Right Purple Coin #11",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9454,9 +9454,9 @@
     "sort-key": "row-0941"
   },
   {
-    "name": "Puzzle Plank First Level Right Purple Coin #12",
+    "name": "Puzzle Plank - First Level Right Purple Coin #12",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9464,9 +9464,9 @@
     "sort-key": "row-0942"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #1",
+    "name": "Puzzle Plank - First Level Left Purple Coin #1",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9474,9 +9474,9 @@
     "sort-key": "row-0943"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #2",
+    "name": "Puzzle Plank - First Level Left Purple Coin #2",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9484,9 +9484,9 @@
     "sort-key": "row-0944"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #3",
+    "name": "Puzzle Plank - First Level Left Purple Coin #3",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9494,9 +9494,9 @@
     "sort-key": "row-0945"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #4",
+    "name": "Puzzle Plank - First Level Left Purple Coin #4",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9504,9 +9504,9 @@
     "sort-key": "row-0946"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #5",
+    "name": "Puzzle Plank - First Level Left Purple Coin #5",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9514,9 +9514,9 @@
     "sort-key": "row-0947"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #6",
+    "name": "Puzzle Plank - First Level Left Purple Coin #6",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9524,9 +9524,9 @@
     "sort-key": "row-0948"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #7",
+    "name": "Puzzle Plank - First Level Left Purple Coin #7",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9534,9 +9534,9 @@
     "sort-key": "row-0949"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #8",
+    "name": "Puzzle Plank - First Level Left Purple Coin #8",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9544,9 +9544,9 @@
     "sort-key": "row-0950"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #9",
+    "name": "Puzzle Plank - First Level Left Purple Coin #9",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9554,9 +9554,9 @@
     "sort-key": "row-0951"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #10",
+    "name": "Puzzle Plank - First Level Left Purple Coin #10",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9564,9 +9564,9 @@
     "sort-key": "row-0952"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #11",
+    "name": "Puzzle Plank - First Level Left Purple Coin #11",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9574,9 +9574,9 @@
     "sort-key": "row-0953"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #12",
+    "name": "Puzzle Plank - First Level Left Purple Coin #12",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9584,9 +9584,9 @@
     "sort-key": "row-0954"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #13",
+    "name": "Puzzle Plank - First Level Left Purple Coin #13",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9594,9 +9594,9 @@
     "sort-key": "row-0955"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #14",
+    "name": "Puzzle Plank - First Level Left Purple Coin #14",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9604,9 +9604,9 @@
     "sort-key": "row-0956"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #15",
+    "name": "Puzzle Plank - First Level Left Purple Coin #15",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9614,9 +9614,9 @@
     "sort-key": "row-0957"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #16",
+    "name": "Puzzle Plank - First Level Left Purple Coin #16",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9624,9 +9624,9 @@
     "sort-key": "row-0958"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #17",
+    "name": "Puzzle Plank - First Level Left Purple Coin #17",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9634,9 +9634,9 @@
     "sort-key": "row-0959"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #18",
+    "name": "Puzzle Plank - First Level Left Purple Coin #18",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9644,9 +9644,9 @@
     "sort-key": "row-0960"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #19",
+    "name": "Puzzle Plank - First Level Left Purple Coin #19",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9654,9 +9654,9 @@
     "sort-key": "row-0961"
   },
   {
-    "name": "Puzzle Plank First Level Left Purple Coin #20",
+    "name": "Puzzle Plank - First Level Left Purple Coin #20",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9664,9 +9664,9 @@
     "sort-key": "row-0962"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #1",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #1",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9674,9 +9674,9 @@
     "sort-key": "row-0963"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #2",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #2",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9684,9 +9684,9 @@
     "sort-key": "row-0964"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #3",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #3",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9694,9 +9694,9 @@
     "sort-key": "row-0965"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #4",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #4",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9704,9 +9704,9 @@
     "sort-key": "row-0966"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #5",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #5",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9714,9 +9714,9 @@
     "sort-key": "row-0967"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #6",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #6",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9724,9 +9724,9 @@
     "sort-key": "row-0968"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #7",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #7",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9734,9 +9734,9 @@
     "sort-key": "row-0969"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #8",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #8",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9744,9 +9744,9 @@
     "sort-key": "row-0970"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #9",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #9",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9754,9 +9754,9 @@
     "sort-key": "row-0971"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #10",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #10",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9764,9 +9764,9 @@
     "sort-key": "row-0972"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #11",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #11",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9774,9 +9774,9 @@
     "sort-key": "row-0973"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #12",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #12",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9784,9 +9784,9 @@
     "sort-key": "row-0974"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #13",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #13",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9794,9 +9794,9 @@
     "sort-key": "row-0975"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #14",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #14",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9804,9 +9804,9 @@
     "sort-key": "row-0976"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #15",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #15",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9814,9 +9814,9 @@
     "sort-key": "row-0977"
   },
   {
-    "name": "Puzzle Plank Second Level Right Purple Coin #16",
+    "name": "Puzzle Plank - Second Level Right Purple Coin #16",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9824,9 +9824,9 @@
     "sort-key": "row-0978"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #1",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #1",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9834,9 +9834,9 @@
     "sort-key": "row-0979"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #2",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #2",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9844,9 +9844,9 @@
     "sort-key": "row-0980"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #3",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #3",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9854,9 +9854,9 @@
     "sort-key": "row-0981"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #4",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #4",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9864,9 +9864,9 @@
     "sort-key": "row-0982"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #5",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #5",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9874,9 +9874,9 @@
     "sort-key": "row-0983"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #6",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #6",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9884,9 +9884,9 @@
     "sort-key": "row-0984"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #7",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #7",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9894,9 +9894,9 @@
     "sort-key": "row-0985"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #8",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #8",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9904,9 +9904,9 @@
     "sort-key": "row-0986"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #9",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #9",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9914,9 +9914,9 @@
     "sort-key": "row-0987"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #10",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #10",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9924,9 +9924,9 @@
     "sort-key": "row-0988"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #11",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #11",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9934,9 +9934,9 @@
     "sort-key": "row-0989"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #12",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #12",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9944,9 +9944,9 @@
     "sort-key": "row-0990"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #13",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #13",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9954,9 +9954,9 @@
     "sort-key": "row-0991"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #14",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #14",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9964,9 +9964,9 @@
     "sort-key": "row-0992"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #15",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #15",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9974,9 +9974,9 @@
     "sort-key": "row-0993"
   },
   {
-    "name": "Puzzle Plank Second Level Left Purple Coin #16",
+    "name": "Puzzle Plank - Second Level Left Purple Coin #16",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9984,9 +9984,9 @@
     "sort-key": "row-0994"
   },
   {
-    "name": "Puzzle Plank Third Level Right Purple Coin #1",
+    "name": "Puzzle Plank - Third Level Right Purple Coin #1",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -9994,9 +9994,9 @@
     "sort-key": "row-0995"
   },
   {
-    "name": "Puzzle Plank Third Level Right Purple Coin #2",
+    "name": "Puzzle Plank - Third Level Right Purple Coin #2",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10004,9 +10004,9 @@
     "sort-key": "row-0996"
   },
   {
-    "name": "Puzzle Plank Third Level Right Purple Coin #3",
+    "name": "Puzzle Plank - Third Level Right Purple Coin #3",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10014,9 +10014,9 @@
     "sort-key": "row-0997"
   },
   {
-    "name": "Puzzle Plank Third Level Right Purple Coin #4",
+    "name": "Puzzle Plank - Third Level Right Purple Coin #4",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10024,9 +10024,9 @@
     "sort-key": "row-0998"
   },
   {
-    "name": "Puzzle Plank Third Level Right Purple Coin #5",
+    "name": "Puzzle Plank - Third Level Right Purple Coin #5",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10034,9 +10034,9 @@
     "sort-key": "row-0999"
   },
   {
-    "name": "Puzzle Plank Third Level Right Purple Coin #6",
+    "name": "Puzzle Plank - Third Level Right Purple Coin #6",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10044,9 +10044,9 @@
     "sort-key": "row-1000"
   },
   {
-    "name": "Puzzle Plank Third Level Right Purple Coin #7",
+    "name": "Puzzle Plank - Third Level Right Purple Coin #7",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10054,9 +10054,9 @@
     "sort-key": "row-1001"
   },
   {
-    "name": "Puzzle Plank Third Level Right Purple Coin #8",
+    "name": "Puzzle Plank - Third Level Right Purple Coin #8",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10064,9 +10064,9 @@
     "sort-key": "row-1002"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #1",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #1",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10074,9 +10074,9 @@
     "sort-key": "row-1003"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #2",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #2",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10084,9 +10084,9 @@
     "sort-key": "row-1004"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #3",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #3",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10094,9 +10094,9 @@
     "sort-key": "row-1005"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #4",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #4",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10104,9 +10104,9 @@
     "sort-key": "row-1006"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #5",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #5",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10114,9 +10114,9 @@
     "sort-key": "row-1007"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #6",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #6",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10124,9 +10124,9 @@
     "sort-key": "row-1008"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #7",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #7",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10134,9 +10134,9 @@
     "sort-key": "row-1009"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #8",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #8",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10144,9 +10144,9 @@
     "sort-key": "row-1010"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #9",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #9",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10154,9 +10154,9 @@
     "sort-key": "row-1011"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #10",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #10",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10164,9 +10164,9 @@
     "sort-key": "row-1012"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #11",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #11",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10174,9 +10174,9 @@
     "sort-key": "row-1013"
   },
   {
-    "name": "Puzzle Plank Third Level Left Purple Coin #12",
+    "name": "Puzzle Plank - Third Level Left Purple Coin #12",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10184,9 +10184,9 @@
     "sort-key": "row-1014"
   },
   {
-    "name": "Puzzle Plank Top Level Purple Coin #1",
+    "name": "Puzzle Plank - Top Level Purple Coin #1",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10194,9 +10194,9 @@
     "sort-key": "row-1015"
   },
   {
-    "name": "Puzzle Plank Top Level Purple Coin #2",
+    "name": "Puzzle Plank - Top Level Purple Coin #2",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10204,9 +10204,9 @@
     "sort-key": "row-1016"
   },
   {
-    "name": "Puzzle Plank Top Level Purple Coin #3",
+    "name": "Puzzle Plank - Top Level Purple Coin #3",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"
@@ -10214,9 +10214,9 @@
     "sort-key": "row-1017"
   },
   {
-    "name": "Puzzle Plank Top Level Purple Coin #4",
+    "name": "Puzzle Plank - Top Level Purple Coin #4",
     "requires": "",
-    "region": "Puzzle Plank Purple Coins",
+    "region": "Puzzle Plank C - Shadow Vault",
     "category": [
       "Puzzle Plank Purple Coins",
       "Purple Coin Locations"

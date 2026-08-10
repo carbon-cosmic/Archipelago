@@ -304,7 +304,44 @@
       "Cosmic Cove Galaxy (7)", "Wild Glide Galaxy (7)", "Honeybloom Galaxy (7)", "Bowser's Lava Lair (16)"]
   },
   "Puzzle Plank Galaxy": {
-    "connects_to": ["Puzzle Plank Purple Coins"]
+    "connects_to": ["Puzzle Plank - Start", "Puzzle Plank C - Shadow Vault"]
+  },
+  "Puzzle Plank - Start": {
+    "connects_to": ["Puzzle Plank - Wigglers"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Puzzle Plank - Wigglers": {
+    "connects_to": ["Puzzle Plank - Grassy Planet"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Puzzle Plank - Grassy Planet": {
+    "connects_to": ["Puzzle Plank - Planks", "Puzzle Plank S - Checkpoint Islands"],
+    "exit_requires": ""
+  },
+  "Puzzle Plank - Planks": {
+    "connects_to": ["Puzzle Plank - Upper Planks"],
+    "exit_requires": "|Has Wall Jump|"
+  },
+  "Puzzle Plank - Upper Planks": {
+    "connects_to": ["Puzzle Plank - Wooden Planet"],
+    "exit_requires": ""
+  },
+  "Puzzle Plank - Wooden Planet": {
+    "connects_to": ["Puzzle Plank - Picture Block"],
+    "exit_requires": ""
+  },
+  "Puzzle Plank - Picture Block": {
+
+  },
+  "Puzzle Plank C - Shadow Vault": {
+    "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and {OptOne(|Puzzle Plank Comet Medal|)}"
+  },
+  "Puzzle Plank S - Checkpoint Islands": {
+    "connects_to": ["Puzzle Plank S - Boss Planet"],
+    "exit_requires": "|Can Make Clouds|"
+  },
+  "Puzzle Plank S - Boss Planet": {
+
   },
   "Hightail Falls Galaxy": {
     "connects_to": []
