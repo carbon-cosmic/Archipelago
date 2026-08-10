@@ -247,15 +247,30 @@
   },
   "Rightside Down - Gearmo": {
     "connects_to": ["Rightside Down - Slide"],
-    "entrance_requires": "|Has Ground Spin| or (|Has Back or Sideflip| and |Has Wall Jump| and |Medium Logic|) or (|Has Wall Jump| and |Has Triple Jump| and |Hard Logic|)"
+    "entrance_requires": "|Has Fire| and (|Has Ground Spin| or (|Has Back or Sideflip| and |Has Wall Jump| and |Medium Logic|) or (|Has Wall Jump| and |Has Triple Jump| and |Hard Logic|))"
   },
   "Rightside Down - Slide Intermediate": {
     "connects_to": ["Rightside Down - Slide"],
     "entrance_requires": "|Has Ground Spin|"
   },
   "Rightside Down - Slide": {
-    "connects_to": ["Rightside Down - Metal Crates"],
+    "connects_to": ["Rightside Down - Chomp Dispenser"],
     "entrance_requires": ""
+  },
+  "Rightside Down - Chomp Dispenser": {
+    "connects_to": ["Rightside Down - Metal Crates"],
+    "entrance_requires": "|Has Ground Spin|"
+  },
+  "Rightside Down - Metal Crates": {
+    "connects_to": ["Rightside Down - Final Section"],
+    "entrance_requires": "|Has Fire| and (|Has Wall Jump| or (|Has Triple Jump| and |Medium Logic|))"
+  },
+  "Rightside Down - Final Section": {
+    "connects_to": ["Rightside Down - Outside Final Section"],
+    "entrance_requires": ""
+  },
+  "Rightside Down - Outside Final Section": {
+    "entrance_requires": "|Needs Testing|"
   },
   "Bowser Jr.'s Fiery Flotilla": {
     "connects_to": []

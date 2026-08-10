@@ -1214,7 +1214,7 @@
   },
   {
     "name": "Think Before You Shake",
-    "requires": "{OptOne(|Long Jump|)} OR {OptOne(|Spin|)}",
+    "requires": "",
     "region": "Flip-Swap 1 - Star",
     "category": [
       "World 1",
@@ -1223,7 +1223,7 @@
     "sort-key": "row-0123"
   },
   {
-    "name": "Flip-Swap Green Star 1",
+    "name": "Flip-Swap - Green Star 1",
     "requires": "|Flip-Swap Green Stars| and (|Jump Height 6| or |Hard Logic|)",
     "region": "Flip-Swap 1 - Main",
     "category": [
@@ -1233,7 +1233,7 @@
     "sort-key": "row-0124"
   },
   {
-    "name": "Flip-Swap Electric Fences 1-Up",
+    "name": "Flip-Swap - Electric Fences 1-Up",
     "requires": "",
     "region": "Flip-Swap 1 - Main",
     "category": [
@@ -1243,7 +1243,7 @@
     "sort-key": "row-0125"
   },
   {
-    "name": "Flip-Swap Checkpoint Flag",
+    "name": "Flip-Swap - Checkpoint Flag",
     "requires": "",
     "region": "Flip-Swap 1 - Main",
     "category": [
@@ -1253,7 +1253,7 @@
     "sort-key": "row-0126"
   },
   {
-    "name": "Flip-Swap Chomps 1-Up",
+    "name": "Flip-Swap - Chomps 1-Up",
     "requires": "",
     "region": "Flip-Swap 1 - Main",
     "category": [
@@ -1263,7 +1263,7 @@
     "sort-key": "row-0127"
   },
   {
-    "name": "Flip-Swap Green Star 2",
+    "name": "Flip-Swap - Green Star 2",
     "requires": "|Flip-Swap Green Stars| and (|Jump Height 6| or |Hard Logic|",
     "region": "Flip-Swap 1 - Main",
     "category": [
@@ -1273,7 +1273,7 @@
     "sort-key": "row-0128"
   },
   {
-    "name": "Flip-Swap Comet Medal",
+    "name": "Flip-Swap - Comet Medal",
     "requires": "",
     "region": "Flip-Swap 1 - Main",
     "category": [
@@ -1293,7 +1293,7 @@
     "sort-key": "row-0130"
   },
   {
-    "name": "Flip-Swap Purple 1-Up",
+    "name": "Flip-Swap - Purple 1-Up",
     "requires": "",
     "region": "Flip-Swap C - 1-Up Platform",
     "category": [
@@ -1304,8 +1304,8 @@
   },
   {
     "name": "Breaking the Laws of Gravity",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Fire Flower|)}",
-    "region": "Rightside Down Galaxy (3)",
+    "requires": "",
+    "region": "Rightside Down 1 - Final Section",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -1313,9 +1313,9 @@
     "sort-key": "row-0132"
   },
   {
-    "name": "Rightside Down Slide ? Coin",
-    "requires": "{OptOne(|Spin|)} OR ({YamlEnabled(Advanced_Logic)} AND (({OptOne(|Fire Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))) OR ({OptOne(|Long Jump|)} AND {OptOne(|Backflip|)})))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Slide ? Coin",
+    "requires": "",
+    "region": "Rightside Down - Slide",
     "category": [
       "World 1",
       "? Coins"
@@ -1323,9 +1323,9 @@
     "sort-key": "row-0133"
   },
   {
-    "name": "Rightside Down 1 Slide Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} OR ({YamlEnabled(Advanced_Logic)} AND (({OptOne(|Fire Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))) OR ({OptOne(|Long Jump|)} AND {OptOne(|Backflip|)})))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Slide Checkpoint Flag",
+    "requires": "",
+    "region": "Rightside Down - Slide",
     "category": [
       "World 1",
       "Checkpoints"
@@ -1333,9 +1333,9 @@
     "sort-key": "row-0134"
   },
   {
-    "name": "Rightside Down Teleporter 1-Up #1",
-    "requires": "{OptOne(|Spin|)} OR ({YamlEnabled(Advanced_Logic)} AND (({OptOne(|Fire Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))) OR ({OptOne(|Long Jump|)} AND {OptOne(|Backflip|)})))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Teleporter 1-Up #1",
+    "requires": "",
+    "region": "Rightside Down - Slide",
     "category": [
       "World 1",
       "1-Ups"
@@ -1343,9 +1343,9 @@
     "sort-key": "row-0135"
   },
   {
-    "name": "Rightside Down Teleporter 1-Up #2",
-    "requires": "{OptOne(|Spin|)} OR ({YamlEnabled(Advanced_Logic)} AND (({OptOne(|Fire Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))) OR ({OptOne(|Long Jump|)} AND {OptOne(|Backflip|)})))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Teleporter 1-Up #2",
+    "requires": "",
+    "region": "Rightside Down - Slide",
     "category": [
       "World 1",
       "1-Ups"
@@ -1353,9 +1353,9 @@
     "sort-key": "row-0136"
   },
   {
-    "name": "Rightside Down Teleporter 1-Up #3",
-    "requires": "{OptOne(|Spin|)} OR ({YamlEnabled(Advanced_Logic)} AND (({OptOne(|Fire Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))) OR ({OptOne(|Long Jump|)} AND {OptOne(|Backflip|)})))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Teleporter 1-Up #3",
+    "requires": "",
+    "region": "Rightside Down Galaxy - Slide",
     "category": [
       "World 1",
       "1-Ups"
@@ -1363,9 +1363,9 @@
     "sort-key": "row-0137"
   },
   {
-    "name": "Rightside Down 1-Up Above Elevator",
-    "requires": "{OptAll(|Spin| OR ({YamlEnabled(Advanced Logic)} AND |Fire Flower| AND (|Triple Jump| OR (|Wall Jump| AND (|Sideflip| OR |Backflip|)) OR |Long Jump|)))}",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - 1-Up Above Elevator",
+    "requires": "|Has Ground Spin| or |Hard Logic|",
+    "region": "Rightside Down - Slide",
     "category": [
       "World 1",
       "1-Ups"
@@ -1373,9 +1373,9 @@
     "sort-key": "row-0138"
   },
   {
-    "name": "Rightside Down Comet Medal",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Comet Medal",
+    "requires": "",
+    "region": "Rightside Down - Chomp Dispenser",
     "category": [
       "World 1",
       "Comet Medal Locations"
@@ -1383,9 +1383,9 @@
     "sort-key": "row-0139"
   },
   {
-    "name": "Rightside Down Fire Flower Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Fire Flower Checkpoint Flag",
+    "requires": "",
+    "region": "Rightside Down - Chomp Dispenser",
     "category": [
       "World 1",
       "Checkpoints"
@@ -1393,9 +1393,9 @@
     "sort-key": "row-0140"
   },
   {
-    "name": "Rightside Down 3D Section Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - 3D Section Checkpoint Flag",
+    "requires": "",
+    "region": "Rightside Down - Metal Crates",
     "category": [
       "World 1",
       "Checkpoints"
@@ -1403,9 +1403,9 @@
     "sort-key": "row-0141"
   },
   {
-    "name": "Rightside Down Green Star 1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Rightside Down Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Green Star 1",
+    "requires": "|Has Air Spin|",
+    "region": "Rightside Down - Metal Crates",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1413,9 +1413,9 @@
     "sort-key": "row-0142"
   },
   {
-    "name": "Rightside Down Final Planet Corner 1-Up #1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Final Planet Corner 1-Up #1",
+    "requires": "",
+    "region": "Rightside Down - Outside Final Section",
     "category": [
       "World 1",
       "1-Ups"
@@ -1423,9 +1423,9 @@
     "sort-key": "row-0143"
   },
   {
-    "name": "Rightside Down Final Planet Corner 1-Up #2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Final Planet Corner 1-Up #2",
+    "requires": "",
+    "region": "Rightside Down - Outside Final Section",
     "category": [
       "World 1",
       "1-Ups"
@@ -1434,8 +1434,8 @@
   },
   {
     "name": "Rightside Down Final Planet Corner 1-Up #3",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Rightside Down Galaxy (3)",
+    "requires": "",
+    "region": "Rightside Down - Outside Final Section",
     "category": [
       "World 1",
       "1-Ups"
@@ -1443,9 +1443,9 @@
     "sort-key": "row-0145"
   },
   {
-    "name": "Rightside Down Final Planet Corner 1-Up #4",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Final Planet Corner 1-Up #4",
+    "requires": "",
+    "region": "Rightside Down - Outside Final Section",
     "category": [
       "World 1",
       "1-Ups"
@@ -1453,9 +1453,9 @@
     "sort-key": "row-0146"
   },
   {
-    "name": "Rightside Down Green Star 2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Fire Flower|)} AND {OptOne(|Rightside Down Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - Green Star 2",
+    "requires": "",
+    "region": "Rightside Down - Outside Final Section",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1463,9 +1463,9 @@
     "sort-key": "row-0147"
   },
   {
-    "name": "Rightside Down 1-Up Near Star",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down - 1-Up Near Star",
+    "requires": "",
+    "region": "Rightside Down - Final Section",
     "category": [
       "World 1",
       "1-Ups"
@@ -1474,8 +1474,8 @@
   },
   {
     "name": "The Great Crate Incinerator",
-    "requires": "{OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} OR (({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)}) AND {OptOne(|Wall Jump|)}) OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Rightside Down Galaxy (3)",
+    "requires": "",
+    "region": "Rightside Down - Gearmo",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -1483,9 +1483,9 @@
     "sort-key": "row-0149"
   },
   {
-    "name": "Rightside Down Secret Bottom Left Crate 1-Up",
-    "requires": "{OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} OR (({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)}) AND {OptOne(|Wall Jump|)}) OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Rightside Down Galaxy (3)",
+    "name": "Rightside Down S - Bottom Left Crate 1-Up",
+    "requires": "",
+    "region": "Rightside Down - Gearmo",
     "category": [
       "World 1",
       "1-Ups"
