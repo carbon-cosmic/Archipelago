@@ -1494,8 +1494,8 @@
   },
   {
     "name": "Gobblegut's Aching Belly",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Bowser Jr.'s Fiery Flotilla (7)",
+    "requires": "|Has Ground Spin|",
+    "region": "Fiery Flotilla - Boss Planet",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -1503,9 +1503,9 @@
     "sort-key": "row-0151"
   },
   {
-    "name": "Fiery Flotilla Comet Medal",
+    "name": "Fiery Flotilla - Comet Medal",
     "requires": "",
-    "region": "Bowser Jr.'s Fiery Flotilla (7)",
+    "region": "Fiery Flotilla - Outside Castle",
     "category": [
       "World 1",
       "Comet Medal Locations"
@@ -1513,9 +1513,9 @@
     "sort-key": "row-0152"
   },
   {
-    "name": "Fiery Flotilla 1-Up on Castle Wall",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser Jr.'s Fiery Flotilla (7)",
+    "name": "Fiery Flotilla - 1-Up on Castle Wall",
+    "requires": "",
+    "region": "Fiery Flotilla - Castle Walls",
     "category": [
       "World 1",
       "1-Ups"
@@ -1523,9 +1523,9 @@
     "sort-key": "row-0153"
   },
   {
-    "name": "Fiery Flotilla Green Star 1",
-    "requires": "(({OptOne(|Spin|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptAll(|Green Comets| AND |Fiery Flotilla Comet Medal|)}",
-    "region": "Bowser Jr.'s Fiery Flotilla (7)",
+    "name": "Fiery Flotilla - Green Star 1",
+    "requires": "|Fiery Flotilla Green Stars|",
+    "region": "Fiery Flotilla - Castle Walls",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1533,9 +1533,9 @@
     "sort-key": "row-0154"
   },
   {
-    "name": "Flotilla Fire Planet Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser Jr.'s Fiery Flotilla (7)",
+    "name": "Fiery Flotilla - Fire Planet Checkpoint Flag",
+    "requires": "",
+    "region": "Fiery Flotilla - Fire Planet",
     "category": [
       "World 1",
       "Checkpoints"
@@ -1543,9 +1543,9 @@
     "sort-key": "row-0155"
   },
   {
-    "name": "Fiery Flotilla Life Mushroom",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser Jr.'s Fiery Flotilla (7)",
+    "name": "Fiery Flotilla - Life Mushroom",
+    "requires": "",
+    "region": "Fiery Flotilla - Fire Planet",
     "category": [
       "World 1",
       "Life Mushrooms"
@@ -1553,9 +1553,9 @@
     "sort-key": "row-0156"
   },
   {
-    "name": "Fiery Flotilla Green Star 2",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Fiery Flotilla Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser Jr.'s Fiery Flotilla (7)",
+    "name": "Fiery Flotilla - Green Star 2",
+    "requires": "|Fiery Flotilla Green Stars|",
+    "region": "Fiery Flotilla - Fire Planet",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1564,8 +1564,8 @@
   },
   {
     "name": "Fiery Flotilla Speed Run",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fiery Flotilla Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser Jr.'s Fiery Flotilla (7)",
+    "requires": "|Has Ground Spin|",
+    "region": "Fiery Flotilla C - Gobblegut",
     "category": [
       "World 1",
       "Power Star Locations"

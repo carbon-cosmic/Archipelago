@@ -273,7 +273,30 @@
     "entrance_requires": "|Needs Testing|"
   },
   "Bowser Jr.'s Fiery Flotilla": {
-    "connects_to": []
+    "connects_to": ["Fiery Flotilla - Outside Castle", "Fiery Flotilla C - Gobblegut"]
+  },
+  "Fiery Flotilla - Outside Castle": {
+    "connects_to": ["Fiery Flotilla - Castle Intermediate", "Fiery Flotilla - Castle Walls"]
+  },
+  "Fiery Flotilla - Castle Intermediate": {
+    "connects_to": ["Fiery Flotilla - Inside Castle"],
+    "entrance_requires": "|Has Ground Spin|"
+  },
+  "Fiery Flotilla - Castle Walls": {
+    "connects_to": ["Fiery Flotilla - Inside Castle"],
+    "entrance_requires": "(|Has Air Spin| and |Has Backflip|) or (|Medium Logic| and (|Has Air Spin| or |Has Backflip|)) or (|Hard Logic| and |Has Sideflip|))"
+  },
+  "Fiery Flotilla - Inside Castle": {
+    "connects_to": ["Fiery Flotilla - Fire Planet"]
+  },
+  "Fiery Flotilla - Fire Planet": {
+    "connects_to": ["Fiery Flotilla - Boss Planet"]
+  },
+  "Fiery Flotilla - Boss Planet": {
+
+  },
+  "Fiery Flotilla C - Gobblegut": {
+    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Fiery Flotilla Comet Medal|)}"
   },
   "World 2": {
     "requires": "|Grand Star (World 2 Access)|",
