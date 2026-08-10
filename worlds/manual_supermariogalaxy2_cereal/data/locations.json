@@ -234,7 +234,7 @@
   },
   {
     "name": "Sky Station - Comet Medal",
-    "requires": "|Jump Height 2| or |Hard Logic|", "need testing":  "",
+    "requires": "|Jump Height 2| or |Hard Logic|",
     "region": "Sky Station 1 - Rolling Carts",
     "category": [
       "World 1",
