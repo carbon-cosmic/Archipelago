@@ -1004,7 +1004,7 @@
   },
   {
     "name": "Fluffy Bluff 1 - Bonus Room ? Coin 1-Up #1",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
+    "requires": "|Can Complete Bonus Room ?-Coins|",
     "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
@@ -1014,7 +1014,7 @@
   },
   {
     "name": "Fluffy Bluff 1 - Bonus Room ? Coin 1-Up #2",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
+    "requires": "|Can Complete Bonus Room ?-Coins|",
     "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
@@ -1024,7 +1024,7 @@
   },
   {
     "name": "Fluffy Bluff 1 - Bonus Room ? Coin 1-Up #3",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
+    "requires": "|Can Complete Bonus Room ?-Coins|",
     "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
@@ -1034,7 +1034,7 @@
   },
   {
     "name": "Fluffy Bluff - Green Star 2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Fluffy Bluff Comet Medal|)} AND {OptOne(|Green Comets|)}",
+    "requires": "|Fluffy Bluff Green Stars| and |Can Make Clouds|",
     "region": "Fluffy Bluff 1 - Clifftop",
     "category": [
       "World 1",
@@ -1054,8 +1054,8 @@
   },
   {
     "name": "Fluffy Bluff 1 - Cloud ? Coin 1-Up Reward",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff 1 - Hungry Luma Cloud",
     "category": [
       "World 1",
       "1-Ups"
@@ -1064,8 +1064,8 @@
   },
   {
     "name": "Fluffy Bluff 1 - Clifftop Checkpoint",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff 1 - Clifftops",
     "category": [
       "World 1",
       "Checkpoints"
@@ -1074,8 +1074,8 @@
   },
   {
     "name": "Fluffy Bluff - Comet Medal",
-    "requires": "{OptOne(|Cloud Flower|)} AND (({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Long Jump|)})) OR ({OptOne(|Long Jump|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff 1 - Fountain Planet)",
     "category": [
       "World 1",
       "Comet Medal Locations"
@@ -1084,8 +1084,8 @@
   },
   {
     "name": "Fluffy Bluff 1 - Waterfall Checkpoint",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff 1 - Waterfall",
     "category": [
       "World 1",
       "Checkpoints"
@@ -1094,8 +1094,8 @@
   },
   {
     "name": "Fluffy Bluff 1 - 1-Up Above Bomp",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff 1 - Waterfall Top",
     "category": [
       "World 1",
       "1-Ups"
@@ -1104,8 +1104,8 @@
   },
   {
     "name": "Fluffy Bluff - Green Star 3",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Fluffy Bluff Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "|Fluffy Bluff Green Stars| and |Can Make Clouds|",
+    "region": "Fluffy Bluff 1 - Treetops",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1114,8 +1114,8 @@
   },
   {
     "name": "Fluffy Bluff 1 - 1-Up On Cloud Left of Chimp",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)}",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "|Can Make Clouds|",
+    "region": "Fluffy Bluff 1 - Treetops",
     "category": [
       "World 1",
       "1-Ups"
@@ -1165,7 +1165,7 @@
   {
     "name": "Every Planet Has Its Price",
     "requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Ground Spin| and |Hard Logic|)",
-    "region": "Fluffy Bluff S - Tower",
+    "region": "Fluffy Bluff S - On Tower",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -1184,8 +1184,8 @@
   },
   {
     "name": "Fluffy Bluff S - 1-Up on Rotating Platform",
-    "requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff S - On Tower",
     "category": [
       "World 1",
       "1-Ups"
@@ -1194,8 +1194,8 @@
   },
   {
     "name": "Fluffy Bluff S - 1-Up Behind Tower #1",
-    "requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff S - On Tower",
     "category": [
       "World 1",
       "1-Ups"
@@ -1204,8 +1204,8 @@
   },
   {
     "name": "Fluffy Bluff S - 1-Up Behind Tower #2",
-    "requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))",
-    "region": "Fluffy Bluff Galaxy (3)",
+    "requires": "",
+    "region": "Fluffy Bluff S - On Tower",
     "category": [
       "World 1",
       "1-Ups"
@@ -4318,7 +4318,7 @@
     "region": "Flipsville Galaxy (28)",
     "category": [
       "World 4",
-      "1-Up"
+      "1-Ups"
     ],
     "sort-key": "row-0429"
   },
@@ -7435,7 +7435,7 @@
   },
   {
     "name": "Galaxy Generator Comet Cloud Flower Section Launch Star Clock",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)}))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
+    "requires": "({OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)}))}) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
       "World 6",

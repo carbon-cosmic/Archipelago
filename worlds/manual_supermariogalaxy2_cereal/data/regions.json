@@ -190,18 +190,24 @@
   "Fluffy Bluff 2 - Tree": {
     "entrance_requires": "|Has Long Jump|"
   },
+  "Fluffy Bluff S - Tower": {
+    "connects_to": ["Fluffy Bluff S - On Tower"]
+  },
+  "Fluffy Bluff S - On Tower": {
+    "entrance_requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))"
+  },
   "Flip-Swap Galaxy": {
     "connects_to": ["Flip-Swap 1 - Start", "Flip-Swap C - Start"]
   },
-  "Flip-Swap 1 - Start": {
+  "Flip-Swap - Start": {
     "connects_to": ["Flip-Swap 1 - Main"],
     "exit_requires": "|Has Air Spin| or |Has Long Jump| or |Hard Logic|"
   },
-  "Flip-Swap 1 - Main": {
+  "Flip-Swap - Main": {
     "connects_to": ["Flip-Swap 1 - Star"],
     "exit_requires": "|Has Air Spin| or |Has Long Jump| or (|Has Ground Spin| and |Hard Logic|)"
   },
-  "Flip-Swap 1 - Star": {
+  "Flip-Swap - Star": {
 
   },
   "Flip-Swap C - Start Blue Panels": {
@@ -234,7 +240,22 @@
 
   },
   "Rightside Down Galaxy": {
-    "connects_to": []
+    "connects_to": ["Rightside Down - Corridor"]
+  },
+  "Rightside Down - Corridor": {
+    "connects_to": ["Rightside Down - Slide Intermediate", "Rightside Down - Gearmo"]
+  },
+  "Rightside Down - Gearmo": {
+    "connects_to": ["Rightside Down - Slide"],
+    "entrance_requires": "|Has Ground Spin| or (|Has Back or Sideflip| and |Has Wall Jump| and |Medium Logic|) or (|Has Wall Jump| and |Has Triple Jump| and |Hard Logic|)"
+  },
+  "Rightside Down - Slide Intermediate": {
+    "connects_to": ["Rightside Down - Slide"],
+    "entrance_requires": "|Has Ground Spin|"
+  },
+  "Rightside Down - Slide": {
+    "connects_to": ["Rightside Down - Metal Crates"],
+    "entrance_requires": ""
   },
   "Bowser Jr.'s Fiery Flotilla": {
     "connects_to": []
