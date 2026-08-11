@@ -344,7 +344,49 @@
 
   },
   "Hightail Falls Galaxy": {
-    "connects_to": []
+    "connects_to": ["Hightail Falls - Start", "Hightail Falls C - Start"]
+  },
+  "Hightail Falls - Start": {
+    "connects_to": ["Hightail Falls - Giant Ramp"],
+    "exit_requires": "|Has Yoshi| and (|Has Dash Pepper| or |Medium Logic|)"
+  },
+  "Hightail Falls - Giant Ramp": {
+    "connects_to": ["Hightail Falls - Falling Road"],
+    "exit_requires": "|Can Use Dash|"
+  },
+  "Hightail Falls - Falling Road": {
+    "connects_to": ["Hightail Falls - Lamppost Wall"],
+    "exit_requires": "|Has Yoshi|"
+  },
+  "Hightail Falls - Lamppost Wall": {
+    "connects_to": ["Hightail Falls - Final Walls"],
+    "exit_requires": "|Can Use Dash|"
+  },
+  "Hightail Falls - Final Walls": {
+
+  },
+  "Hightail Falls C - Start": {
+    "connects_to": ["Hightail Falls C - Giant Ramp"],
+    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Hightail Falls Comet Medal|)}",
+    "exit_requires": "|Has Yoshi| and (|Has Dash Pepper| or |Medium Logic|)"
+  },
+  "Hightail Falls C - Giant Ramp": {
+    "connects_to": ["Hightail Falls C - Falling Road"],
+    "exit_requires": "|Can Use Dash|"
+  },
+  "Hightail Falls C - Falling Road": {
+    "connects_to": ["Hightail Falls C - Lamppost Wall"],
+    "exit_requires": "|Has Yoshi|"
+  },
+  "Hightail Falls C - Lamppost Wall": {
+    "connects_to": ["Hightail Falls C - Final Walls"],
+    "exit_requires": "|Can Use Dash|"
+  },
+  "Hightail Falls C - Final Walls": {
+
+  },
+  "Hightail Falls S - Kleptoads": {
+
   },
   "Boulder Bowl Galaxy": {
     "connects_to": []

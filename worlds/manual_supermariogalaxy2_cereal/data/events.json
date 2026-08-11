@@ -96,6 +96,18 @@
     "requires": "{OptOne(|Bulb Berry|)}"
   },
   {
+    "name": "Can Use Dash",
+    "requires": "|Has Yoshi| and |Has Dash Pepper|"
+  },
+  {
+    "name": "Can Use Blimp",
+    "requires": "|Has Yoshi| and |Has Blimp Fruit|"
+  },
+  {
+    "name": "Can Use Bulb",
+    "requires": "|Has Yoshi| and |Has Bulb Berry|"
+  },
+  {
     "name": "Has Star Ball",
     "requires": "{OptOne(|Star Ball|)}"
   },
@@ -212,7 +224,7 @@
 
   {
     "name": "Sky Station Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(| Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Sky Station Comet Medal)}"
   },
   {
     "name": "Yoshi Star Green Stars",

@@ -1674,7 +1674,7 @@
   },
   {
     "name": "Puzzle Plank - Green Star 2",
-    "requires": "|Needs Testing|",
+    "requires": "|Puzzle Plank Green Stars| and (|Needs Testing|)",
     "region": "Puzzle Plank - Planks",
     "category": [
       "World 2",
@@ -1754,8 +1754,8 @@
   },
   {
     "name": "Hot-Stepping Dash Pepper",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "requires": "",
+    "region": "Hightail Falls - Final Walls",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -1763,9 +1763,9 @@
     "sort-key": "row-0177"
   },
   {
-    "name": "Hightail Falls Giant Ramp ? Coin",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Giant Ramp ? Coin",
+    "requires": "|Can Use Dash|",
+    "region": "Hightail Falls - Giant Ramp",
     "category": [
       "World 2",
       "? Coins"
@@ -1773,9 +1773,9 @@
     "sort-key": "row-0178"
   },
   {
-    "name": "Hightail Falls Penguru 1-Up",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Penguru 1-Up",
+    "requires": "|Can Use Dash|",
+    "region": "Hightail Falls - Giant Ramp",
     "category": [
       "World 2",
       "1-Ups"
@@ -1783,9 +1783,9 @@
     "sort-key": "row-0179"
   },
   {
-    "name": "Hightail Falls Green Star 1",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)} AND {OptOne(|Hightail Falls Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Green Star 1",
+    "requires": "|Can Use Dash| and |Hightail Falls Green Stars|",
+    "region": "Hightail Falls - Giant Ramp",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -1793,9 +1793,9 @@
     "sort-key": "row-0180"
   },
   {
-    "name": "Hightail Falls Falling Blocks Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Falling Road Checkpoint Flag",
+    "requires": "",
+    "region": "Hightail Falls - Falling Road",
     "category": [
       "World 2",
       "Checkpoints"
@@ -1803,9 +1803,9 @@
     "sort-key": "row-0181"
   },
   {
-    "name": "Hightail Falls Teleporter 1-Up #1",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Teleporter 1-Up #1",
+    "requires": "",
+    "region": "Hightail Falls - Falling Road",
     "category": [
       "World 2",
       "1-Ups"
@@ -1813,9 +1813,9 @@
     "sort-key": "row-0182"
   },
   {
-    "name": "Hightail Falls Teleporter 1-Up #2",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Teleporter 1-Up #2",
+    "requires": "",
+    "region": "Hightail Falls - Falling Road)",
     "category": [
       "World 2",
       "1-Ups"
@@ -1823,9 +1823,9 @@
     "sort-key": "row-0183"
   },
   {
-    "name": "Hightail Falls Teleporter 1-Up #3",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Teleporter 1-Up #3",
+    "requires": "",
+    "region": "Hightail Falls - Falling Road",
     "category": [
       "World 2",
       "1-Ups"
@@ -1833,9 +1833,9 @@
     "sort-key": "row-0184"
   },
   {
-    "name": "Hightail Falls Blue Ramp Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Lamppost Wall Checkpoint Flag",
+    "requires": "",
+    "region": "Hightail Falls - Lamppost Wall",
     "category": [
       "World 2",
       "Checkpoints"
@@ -1843,9 +1843,9 @@
     "sort-key": "row-0185"
   },
   {
-    "name": "Hightail Falls Comet Medal",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Comet Medal",
+    "requires": "",
+    "region": "Hightail Falls - Final Walls",
     "category": [
       "World 2",
       "Comet Medal Locations"
@@ -1853,9 +1853,9 @@
     "sort-key": "row-0186"
   },
   {
-    "name": "Hightail Falls Green Star 2",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)} AND {OptOne(|Hightail Falls Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Green Star 2",
+    "requires": "|Hightail Falls Green Stars|",
+    "region": "Hightail Falls - Final Walls",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -1863,9 +1863,9 @@
     "sort-key": "row-0187"
   },
   {
-    "name": "Hightail Falls Green Star 3",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)} AND ({OptOne(|Backflip|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Hightail Falls Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - Green Star 3",
+    "requires": "|Hightail Falls Green Stars|",
+    "region": "Hightail Falls - Final Walls",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -1873,9 +1873,9 @@
     "sort-key": "row-0188"
   },
   {
-    "name": "Hightail Falls 1-Up Above Star",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls - 1-Up Above Star",
+    "requires": "",
+    "region": "Hightail Falls - Final Walls",
     "category": [
       "World 2",
       "1-Ups"
@@ -1884,8 +1884,8 @@
   },
   {
     "name": "Hightail Falls Speed Run",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)} AND {OptOne(|Hightail Falls Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "requires": "",
+    "region": "Hightail Falls C- Final Walls",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -1893,9 +1893,9 @@
     "sort-key": "row-0190"
   },
   {
-    "name": "Hightail Falls Comet Purple Block Wall 1-Up",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)} AND {OptOne(|Hightail Falls Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "name": "Hightail Falls C - Purple Block Wall 1-Up",
+    "requires": "",
+    "region": "Hightail Falls C - Final Walls",
     "category": [
       "World 2",
       "1-Ups"
@@ -1904,8 +1904,8 @@
   },
   {
     "name": "Silver Stars in Hightail Falls",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Dash Pepper|)}",
-    "region": "Hightail Falls Galaxy (7)",
+    "requires": "",
+    "region": "Hightail Falls S - Kleptoads",
     "category": [
       "World 2",
       "Power Star Locations"
