@@ -1923,7 +1923,7 @@
     "sort-key": "row-0193"
   },
   {
-    "name": "Boulder Bowl Comet Medal",
+    "name": "Boulder Bowl - Comet Medal",
     "requires": "|Has Rock|",
     "region": "Boulder Bowl - Start",
     "category": [
@@ -1933,7 +1933,7 @@
     "sort-key": "row-0194"
   },
   {
-    "name": "Boulder Bowl 1-Up Behind Comet Medal",
+    "name": "Boulder Bowl - 1-Up Behind Comet Medal",
     "requires": "|Has Rock| or |Medium Logic|",
     "region": "Boulder Bowl - Start",
     "category": [
@@ -1943,7 +1943,7 @@
     "sort-key": "row-0195"
   },
   {
-    "name": "Boulder Bowl Green Star 1",
+    "name": "Boulder Bowl - Green Star 1",
     "requires": "|Boulder Bowl Green Stars| and |Can Wall Spin| and |Can Back or Sideflip|",
     "region": "Boulder Bowl - Start",
     "category": [
@@ -1953,7 +1953,7 @@
     "sort-key": "row-0196"
   },
   {
-    "name": "Boulder Bowl Green Star 2",
+    "name": "Boulder Bowl - Green Star 2",
     "requires": "|Boulder Bowl Green Stars| and (|Has Rock| or (|Can Long Spin| and |Medium Logic| and (|Hard Logic| or |Has Wall Jump|)))",
     "region": "Boulder Bowl - Start",
     "category": [
@@ -1963,7 +1963,7 @@
     "sort-key": "row-0197"
   },
   {
-    "name": "Boulder Bowl Rolling Rocks Checkpoint Flag",
+    "name": "Boulder Bowl - Rolling Rocks Checkpoint Flag",
     "requires": "",
     "region": "Boulder Bowl - Rolling Rocks",
     "category": [
@@ -1973,7 +1973,7 @@
     "sort-key": "row-0198"
   },
   {
-    "name": "Boulder Bowl Green Star 3",
+    "name": "Boulder Bowl - Green Star 3",
     "requires": "|Boulder Bowl Green Stars|",
     "region": "Boulder Bowl - Rolling Rocks",
     "category": [
@@ -1983,7 +1983,7 @@
     "sort-key": "row-0199"
   },
   {
-    "name": "Boulder Bowl Bonus Room Chance Cube #1",
+    "name": "Boulder Bowl - Bonus Room Chance Cube #1",
     "requires": "",
     "region": "Boulder Bowl - Bonus Room",
     "category": [
@@ -1993,7 +1993,7 @@
     "sort-key": "row-0200"
   },
   {
-    "name": "Boulder Bowl Bonus Room Chance Cube #2",
+    "name": "Boulder Bowl - Bonus Room Chance Cube #2",
     "requires": "",
     "region": "Boulder Bowl - Bonus Room",
     "category": [
@@ -2003,7 +2003,7 @@
     "sort-key": "row-0201"
   },
   {
-    "name": "Boulder Bowl Bonus Room Chance Cube #3",
+    "name": "Boulder Bowl - Bonus Room Chance Cube #3",
     "requires": "",
     "region": "Boulder Bowl - Bonus Room",
     "category": [
@@ -2013,7 +2013,7 @@
     "sort-key": "row-0202"
   },
   {
-    "name": "Boulder Bowl Bonus Room Chance Cube #4",
+    "name": "Boulder Bowl - Bonus Room Chance Cube #4",
     "requires": "",
     "region": "Boulder Bowl - Bonus Room",
     "category": [
@@ -2023,7 +2023,7 @@
     "sort-key": "row-0203"
   },
   {
-    "name": "Boulder Bowl Bonus Room Chance Cube #5",
+    "name": "Boulder Bowl - Bonus Room Chance Cube #5",
     "requires": "",
     "region": "Boulder Bowl - Bonus Room",
     "category": [
@@ -2033,7 +2033,7 @@
     "sort-key": "row-0204"
   },
   {
-    "name": "Boulder Bowl Bonus Room Chance Cube #6",
+    "name": "Boulder Bowl - Bonus Room Chance Cube #6",
     "requires": "",
     "region": "Boulder Bowl - Bonus Room",
     "category": [
@@ -2043,7 +2043,7 @@
     "sort-key": "row-0205"
   },
   {
-    "name": "Boulder Bowl Luma Shop",
+    "name": "Boulder Bowl - Luma Shop",
     "requires": "",
     "region": "Boulder Bowl - Amber Planet",
     "category": [
@@ -2053,7 +2053,7 @@
     "sort-key": "row-0206"
   },
   {
-    "name": "Boulder Bowl Amber Planet Checkpoint Flag",
+    "name": "Boulder Bowl - Amber Planet Checkpoint Flag",
     "requires": "",
     "region": "Boulder Bowl - Amber Planet",
     "category": [
@@ -2073,7 +2073,7 @@
     "sort-key": "row-0208"
   },
   {
-    "name": "Boulder Bowl C Asteroid 1-Up",
+    "name": "Boulder Bowl C - Asteroid 1-Up",
     "requires": "",
     "region": "Boulder Bowl C - Asteroid",
     "category": [
@@ -2083,7 +2083,7 @@
     "sort-key": "row-0209"
   },
   {
-    "name": "Boulder Bowl C Blue Crabber 1-Up #1",
+    "name": "Boulder Bowl C - Blue Crabber 1-Up #1",
     "requires": "|Has Rock| or (|Has Ground Spin| and |Medium Logic|)",
     "region": "Boulder Bowl C - Metal Planet",
     "category": [
@@ -2093,7 +2093,7 @@
     "sort-key": "row-0210"
   },
   {
-    "name": "Boulder Bowl Comet Blue Crabber 1-Up #2",
+    "name": "Boulder Bowl C - Blue Crabber 1-Up #2",
     "requires": "|Has Rock| or (|Has Ground Spin| and |Medium Logic|)",
     "region": "Boulder Bowl C - Metal Planet",
     "category": [
@@ -2103,7 +2103,7 @@
     "sort-key": "row-0211"
   },
   {
-    "name": "Boulder Bowl Comet Blue Crabber 1-Up #3",
+    "name": "Boulder Bowl C -Blue Crabber 1-Up #3",
     "requires": "|Has Rock| or (|Has Ground Spin| and |Medium Logic|)",
     "region": "Boulder Bowl C - Metal Planet",
     "category": [
@@ -2124,8 +2124,8 @@
   },
   {
     "name": "Twin Falls Hideaway",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Spin|)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "requires": "|Has Ground Spin|",
+    "region": "Cosmic Cove 1 - Twin Falls",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -2133,9 +2133,9 @@
     "sort-key": "row-0214"
   },
   {
-    "name": "Cosmic Cove 1 ? Coin Under Purple Arch",
-    "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Koopa Shell|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove 1 - ? Coin Under Purple Arch",
+    "requires": "",
+    "region": "Cosmic Cove 1 - Main Area",
     "category": [
       "World 2",
       "? Coins"
@@ -2143,9 +2143,9 @@
     "sort-key": "row-0215"
   },
   {
-    "name": "Cosmic Cove Comet Medal",
-    "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Koopa Shell|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove - Comet Medal",
+    "requires": "",
+    "region": "Cosmic Cove 1 - Main Area",
     "category": [
       "World 2",
       "Comet Medal Locations"
@@ -2153,9 +2153,9 @@
     "sort-key": "row-0216"
   },
   {
-    "name": "Cosmic Cove 1 Crate Near Jellyfish 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove 1 - Crate Near Jellyfish 1-Up",
+    "requires": "|Has Ground Spin| or |Has Koopa Shell|",
+    "region": "Cosmic Cove 1 - Main Area",
     "category": [
       "World 2",
       "1-Ups"
@@ -2163,9 +2163,9 @@
     "sort-key": "row-0217"
   },
     {
-    "name": "Cosmic Cove 1 Bonus Room Chance Cube #1",
-    "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Koopa Shell|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove 1 - Bonus Room Chance Cube #1",
+    "requires": "",
+    "region": "Cosmic Cove 1 - Main Area",
     "category": [
       "World 2",
       "Chance Cubes"
@@ -2173,9 +2173,9 @@
     "sort-key": "row-0217a"
   },
       {
-    "name": "Cosmic Cove 1 Bonus Room Chance Cube #2",
-    "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Koopa Shell|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove 1 - Bonus Room Chance Cube #2",
+    "requires": "",
+    "region": "Cosmic Cove 1 - Main Area",
     "category": [
       "World 2",
       "Chance Cubes"
@@ -2183,9 +2183,9 @@
     "sort-key": "row-0217b"
   },
       {
-    "name": "Cosmic Cove 1 Bonus Room Chance Cube #3",
-    "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Koopa Shell|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove 1 - Bonus Room Chance Cube #3",
+    "requires": "",
+    "region": "Cosmic Cove 1 - Main Area",
     "category": [
       "World 2",
       "Chance Cubes"
@@ -2193,9 +2193,9 @@
     "sort-key": "row-0217c"
   },
   {
-    "name": "Cosmic Cove Green Star 1",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Cosmic Cove Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove - Green Star 1",
+    "requires": "|Cosmic Cove Green Stars|",
+    "region": "Cosmic Cove 1 - Twin Falls",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -2204,8 +2204,8 @@
   },
   {
     "name": "Exploring the Cosmic Cavern",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Spin-Drill|)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "requires": "|Has Spin-Drill|",
+    "region": "Cosmic Cove 2 - Rocky Planet Micro Mechas",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -2213,9 +2213,9 @@
     "sort-key": "row-0219"
   },
   {
-    "name": "Cosmic Cove 2 Cavern Checkpoint Flag",
-    "requires": "{OptOne(|Wall Jump|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove 2 - Cavern Checkpoint Flag",
+    "requires": "",
+    "region": "Cosmic Cove 2 - Cavern Water",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2223,9 +2223,9 @@
     "sort-key": "row-0220"
   },
   {
-    "name": "Cosmic Cove 2 Space Platforms Checkpoint Flag",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove 2 - Space Platforms Checkpoint Flag",
+    "requires": "",
+    "region": "Cosmic Cove 2 - Space Platforms",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2233,9 +2233,9 @@
     "sort-key": "row-0221"
   },
   {
-    "name": "Cosmic Cove Green Star 2",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Cosmic Cove Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove - Green Star 2",
+    "requires": "|Cosmic Cove Green Stars| and (|Has Air Spin| or |Medium Logic|)",
+    "region": "Cosmic Cove 2 - Space Platforms",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -2243,9 +2243,9 @@
     "sort-key": "row-0222"
   },
   {
-    "name": "Cosmic Cove 2 1-Up by Mine",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove 2 - 1-Up by Mine",
+    "requires": "",
+    "region": "Cosmic Cove 2 - Space Platforms",
     "category": [
       "World 2",
       "1-Ups"
@@ -2253,9 +2253,9 @@
     "sort-key": "row-0223"
   },
   {
-    "name": "Cosmic Cove Green Star 3",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Cosmic Cove Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove - Green Star 3",
+    "requires": "|Cosmic Cove Green Stars| and |Can Long Spin|",
+    "region": "Cosmic Cove 2 - Space Platforms",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -2263,9 +2263,9 @@
     "sort-key": "row-0224"
   },
   {
-    "name": "Cosmic Cove 2 Starshroom Checkpoint Flag",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove 2 - Starshroom Checkpoint Flag",
+    "requires": "",
+    "region": "Cosmic Cove 2 - Starshroom",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2273,9 +2273,9 @@
     "sort-key": "row-0225"
   },
   {
-    "name": "Cosmic Cove 2 Final Planet Underground 1-Up",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND {OptOne(|Spin-Drill|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove 2 - Final Planet Underground 1-Up",
+    "requires": "|Has Spin-Drill|",
+    "region": "Cosmic Cove 2 - Rocky Planet Micro Mechas",
     "category": [
       "World 2",
       "1-Ups"
@@ -2284,8 +2284,8 @@
   },
   {
     "name": "Catch That Star Bunny",
-    "requires": "{YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)})",
-    "region": "Cosmic Cove Galaxy (7)",
+    "requires": "(|Can Ground Spin| and |Can Ground Pound|) or |Hard Logic|",
+    "region": "Cosmic Cove S - Star Bunny",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -2293,9 +2293,9 @@
     "sort-key": "row-0227"
   },
   {
-    "name": "Cosmic Cove Secret Checkpoint Flag",
-    "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Koopa Shell|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Cosmic Cove Galaxy (7)",
+    "name": "Cosmic Cove S - Checkpoint Flag",
+    "requires": "",
+    "region": "Cosmic Cove S - Star Bunny",
     "category": [
       "World 2",
       "Checkpoints"

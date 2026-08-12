@@ -32,6 +32,10 @@
     "requires": "{OptOne(|Ground Pound|)}"
   },
   {
+    "name": "Can Homing Ground Pound",
+    "requires": "|Has Air Spin| and |Has Ground Pound|"
+  },
+  {
     "name": "Has Long Jump",
     "requires": "{OptOne(|Long Jump|)}"
   },

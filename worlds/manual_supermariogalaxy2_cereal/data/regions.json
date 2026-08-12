@@ -423,7 +423,48 @@
 
   },
   "Cosmic Cove Galaxy": {
-    "connects_to": []
+    "connects_to": ["Cosmic Cove 1 - Start", "Cosmic Cove 2 - Start"]
+  },
+  "Cosmic Cove 1 - Start": {
+    "connects_to": ["Cosmic Cove 1 - River"]
+  },
+  "Cosmic Cove 1 - River": {
+    "connects_to": ["Cosmic Cove 1 - Main Area"],
+    "entrance_requires": "|Can Swim| or |Has Koopa Shell|"
+  },
+  "Cosmic Cove 1 - Main Area": {
+    "connects_to": ["Cosmic Cove 1 - Twin Falls", "Cosmic Cove S - Star Bunny"]
+  },
+  "Cosmic Cove 1 - Twin Falls": {
+    "entrance_requires": "|Has Ground Pound| and |Has Wall Jump|"
+  },
+  "Cosmic Cove 2 - Start": {
+    "connects_to": ["Cosmic Cove 2 - Cavern Start"]
+  },
+  "Cosmic Cove 2 - Cavern Start": {
+    "connects_to": ["Cosmic Cove 2 - Cavern Water"],
+    "entrance_requires": "|Can Break Crates|",
+    "exit_requires": "|Has Wall Jump|"
+  },
+  "Cosmic Cove 2 - Cavern Water": {
+    "connects_to": ["Cosmic Cove 2 - Space Platforms"],
+    "exit_requires": "|Can Swim| and |Can Ground Spin|"
+  },
+  "Cosmic Cove 2 - Space Platforms": {
+    "connects_to": ["Cosmic Cove 2 - Starshroom"]
+  },
+  "Cosmic Cove 2 - Starshroom": {
+    "connects_to": ["Cosmic Cove 2 - Rocky Planet Fizzlits"]
+  },
+  "Cosmic Cove 2 - Rocky Planet Fizzlits": {
+    "connects_to": ["Cosmic Cove 2 - Rocky Planet Micro Mechas"],
+    "exit_requires": "|Has Spin-Drill|"
+  },
+  "Cosmic Cove 2 - Rocky Planet Micro Mechas": {
+
+  },
+  "Cosmic Cove S - Star Bunny": {
+
   },
   "Wild Glide Galaxy": {
     "connects_to": []
