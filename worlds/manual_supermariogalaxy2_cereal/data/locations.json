@@ -2464,8 +2464,8 @@
   },
   {
     "name": "Bowser's Big Lava Power Party",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})",
-    "region": "Bowser's Lava Lair (16)",
+    "requires": "",
+    "region": "Lava Lair - Bowser",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -2473,9 +2473,9 @@
     "sort-key": "row-0245"
   },
   {
-    "name": "Lava Lair Moving Platforms Life Mushroom",
-    "requires": "({OptOne(|Pull Stars|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}))) AND ({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Moving Platforms Life Mushroom",
+    "requires": "",
+    "region": "Lava Lair - Cylinder #2",
     "category": [
       "World 2",
       "Life Mushrooms"
@@ -2483,9 +2483,9 @@
     "sort-key": "row-0246"
   },
   {
-    "name": "Lava Lair Moving Platforms 1-Up",
-    "requires": "({OptOne(|Pull Stars|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}))) AND ({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Moving Platforms 1-Up",
+    "requires": "",
+    "region": "Lava Lair - Cylinder #2",
     "category": [
       "World 2",
       "1-Ups"
@@ -2493,9 +2493,9 @@
     "sort-key": "row-0247"
   },
   {
-    "name": "Lava Lair Flomps Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Flomps Checkpoint Flag",
+    "requires": "",
+    "region": "Lava Lair - Flomps",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2503,9 +2503,9 @@
     "sort-key": "row-0248"
   },
   {
-    "name": "Lava Lair Left Flomp 1-Up",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Left Flomp 1-Up",
+    "requires": "",
+    "region": "Lava Lair - Flomps",
     "category": [
       "World 2",
       "1-Ups"
@@ -2513,9 +2513,9 @@
     "sort-key": "row-0249"
   },
   {
-    "name": "Lava Lair Firebar ? Coin",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Firebar ? Coin",
+    "requires": "",
+    "region": "Lava Lair - Firebar",
     "category": [
       "World 2",
       "? Coins"
@@ -2523,9 +2523,9 @@
     "sort-key": "row-0250"
   },
   {
-    "name": "Lava Lair ? Coin 1-Up Reward",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - ? Coin 1-Up Reward",
+    "requires": "",
+    "region": "Lava Lair - Firebar",
     "category": [
       "World 2",
       "1-Ups"
@@ -2533,9 +2533,9 @@
     "sort-key": "row-0251"
   },
   {
-    "name": "Lava Lair Green Star 1",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Spin|)} AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Green Star 1",
+    "requires": "|Lava Lair Green Stars| and (|Has Long Jump| or |Medium Logic|)",
+    "region": "Lava Lair - Whomp Path",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -2543,9 +2543,9 @@
     "sort-key": "row-0252"
   },
   {
-    "name": "Lava Lair Comet Medal",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Comet Medal",
+    "requires": "|Can Climb Whomps|",
+    "region": "Lava Lair - Whomp Path",
     "category": [
       "World 2",
       "Comet Medal Locations"
@@ -2553,9 +2553,9 @@
     "sort-key": "row-0253"
   },
   {
-    "name": "Lava Lair Mattermouths Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Mattermouths Checkpoint Flag",
+    "requires": "",
+    "region": "Lava Lair - Mattermouths",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2563,9 +2563,9 @@
     "sort-key": "row-0254"
   },
   {
-    "name": "Lava Lair Mattermouths 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Mattermouths 1-Up",
+    "requires": "",
+    "region": "Lava Lair - Mattermouths",
     "category": [
       "World 2",
       "1-Ups"
@@ -2573,9 +2573,9 @@
     "sort-key": "row-0255"
   },
   {
-    "name": "Lava Lair Green Star 2",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Spin|)} AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Green Star 2",
+    "requires": "|Lava Lair Green Stars|",
+    "region": "Lava Lair - Mattermouths",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -2583,9 +2583,9 @@
     "sort-key": "row-0256"
   },
   {
-    "name": "Lava Lair Snake Block Life Mushroom",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Snake Block Life Mushroom",
+    "requires": "",
+    "region": "Lava Lair - Snake Blocks",
     "category": [
       "World 2",
       "Life Mushrooms"
@@ -2593,9 +2593,9 @@
     "sort-key": "row-0257"
   },
   {
-    "name": "Lava Lair Meteor Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Meteor Checkpoint Flag",
+    "requires": "",
+    "region": "Lava Lair - Snake Blocks",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2603,9 +2603,9 @@
     "sort-key": "row-0258"
   },
   {
-    "name": "Lava Lair Flag Pole Life Mushroom",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Flag Pole Life Mushroom",
+    "requires": "",
+    "region": "Lava Lair - Snake Blocks",
     "category": [
       "World 2",
       "Life Mushrooms"
@@ -2613,9 +2613,9 @@
     "sort-key": "row-0259"
   },
   {
-    "name": "Lava Lair Speed Run",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND {OptOne(|Lava Lair Clock:14|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair - Speed Run",
+    "requires": "",
+    "region": "Lava Lair C - Snake Blocks",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -2623,9 +2623,9 @@
     "sort-key": "row-0260"
   },
   {
-    "name": "Lava Lair Comet Magikoopa Clock",
-    "requires": "{OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Magikoopa Clock",
+    "requires": "",
+    "region": "Lava Lair C - Start",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2633,9 +2633,9 @@
     "sort-key": "row-0261"
   },
   {
-    "name": "Lava Lair Comet Ground Pound Spring Clock",
-    "requires": "({OptOne(|Pull Stars|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Ground Pound Spring Clock",
+    "requires": "",
+    "region": "Lava Lair C - Cylinder #1",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2643,9 +2643,9 @@
     "sort-key": "row-0262"
   },
   {
-    "name": "Lava Lair Comet Clock by Crystal",
-    "requires": "({OptOne(|Pull Stars|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}))) AND ({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}))) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Clock by Crystal",
+    "requires": "",
+    "region": "Lava Lair C - Cylinder #2",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2653,9 +2653,9 @@
     "sort-key": "row-0263"
   },
   {
-    "name": "Lava Lair Comet Flomp Clock #1",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Flomp Clock #1",
+    "requires": "",
+    "region": "Lava Lair C - Flomps",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2663,9 +2663,9 @@
     "sort-key": "row-0264"
   },
   {
-    "name": "Lava Lair Comet Flomp Clock #2",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Flomp Clock #2",
+    "requires": "",
+    "region": "Lava Lair C - Flomps",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2673,9 +2673,9 @@
     "sort-key": "row-0265"
   },
   {
-    "name": "Lava Lair Comet Sling Star Clock",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Sling Star Clock",
+    "requires": "",
+    "region": "Lava Lair C - Flomps",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2683,9 +2683,9 @@
     "sort-key": "row-0266"
   },
   {
-    "name": "Lava Lair Comet Firebar Clock",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Firebar Clock",
+    "requires": "",
+    "region": "Lava Lair C - Firebar",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2693,9 +2693,9 @@
     "sort-key": "row-0267"
   },
   {
-    "name": "Lava Lair Comet Whomps Clock #1",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Whomps Clock #1",
+    "requires": "",
+    "region": "Lava Lair C - Whomp Path",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2703,9 +2703,9 @@
     "sort-key": "row-0268"
   },
   {
-    "name": "Lava Lair Comet Whomps Clock #2",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Whomps Clock #2",
+    "requires": "",
+    "region": "Lava Lair C - Whomp Path",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2713,9 +2713,9 @@
     "sort-key": "row-0269"
   },
   {
-    "name": "Lava Lair Comet 1-Up Above Whomps",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - 1-Up Above Whomps",
+    "requires": "|Can Climb Whomps|",
+    "region": "Lava Lair C - Whomp Path",
     "category": [
       "World 2",
       "1-Ups"
@@ -2723,9 +2723,9 @@
     "sort-key": "row-0270"
   },
   {
-    "name": "Lava Lair Comet Meteor Clock",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Ground Pound|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Meteor Clock",
+    "requires": "",
+    "region": "Lava Lair C - Whomp Path",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2733,9 +2733,9 @@
     "sort-key": "row-0271"
   },
   {
-    "name": "Lava Lair Comet Mattermouths Clock #1",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Mattermouths Clock #1",
+    "requires": "",
+    "region": "Lava Lair C - Mattermouths",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2743,9 +2743,9 @@
     "sort-key": "row-0272"
   },
   {
-    "name": "Lava Lair Comet Mattermouths Clock #2",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Mattermouths Clock #2",
+    "requires": "",
+    "region": "Lava Lair C - Mattermouths",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2753,9 +2753,9 @@
     "sort-key": "row-0273"
   },
   {
-    "name": "Lava Lair Comet Firebar Snake Block Clock",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Firebar Snake Block Clock",
+    "requires": "",
+    "region": "Lava Lair C - Snake Blocks",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2763,9 +2763,9 @@
     "sort-key": "row-0274"
   },
   {
-    "name": "Lava Lair Comet Statues Snake Block Clock",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - Statues Snake Block Clock",
+    "requires": "",
+    "region": "Lava Lair C - Snake Blocks",
     "category": [
       "World 2",
       "Comet Clocks"
@@ -2773,9 +2773,9 @@
     "sort-key": "row-0275"
   },
   {
-    "name": "Lava Lair Comet 1-Up Behind the Star",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})) AND {OptOne(|Lava Lair Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Lava Lair (16)",
+    "name": "Lava Lair C - 1-Up Behind Star",
+    "requires": "",
+    "region": "Lava Lair C - Snake Blocks",
     "category": [
       "World 2",
       "1-Ups"

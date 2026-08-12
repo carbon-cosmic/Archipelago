@@ -219,6 +219,10 @@
     "name": "Can Complete Bonus Room ?-Coins",
     "requires": "|Has Back or Sideflip| or |Has Double Jump| or |Has Air Spin|"
   },
+  {
+    "name": "Can Climb Whomps",
+    "requires": "|Has Wall Spin| or (|Has Air Spin| and |Medium Logic|) or |Hard Logic|"
+  },
 
 
 

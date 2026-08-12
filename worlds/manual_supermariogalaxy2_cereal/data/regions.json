@@ -510,7 +510,75 @@
     "entrance_requires": "|Can Wall Spin| or (|Has Wall Jump| and |Hard Logic|)"
   },
   "Bowser's Lava Lair": {
-    "connects_to": []
+    "connects_to": ["Lava Lair - Start", "Lava Lair C - Start"]
+  },
+  "Lava Lair - Start": {
+    "connects_to": ["Lava Lair - Cylinder #1"],
+    "exit_requires": "|Has Pull Stars| or (|Has Long Jump| and |Medium Logic|)"
+  },
+  "Lava Lair - Cylinder #1": {
+    "connects_to": ["Lava Lair - Cylinder #2"],
+    "exit_requires": "|Has Ground Pound| or (|Medium Logic| and (|Needs Testing|)) or |Hard Logic|"
+  },
+  "Lava Lair - Cylinder #2": {
+    "connects_to": ["Lava Lair - Flomps"],
+    "exit_requires": "|Has Ground Spin|"
+  },
+  "Lava Lair - Flomps": {
+    "connects_to": ["Lava Lair - Firebar"],
+    "exit_requires": ""
+  },
+  "Lava Lair - Firebar": {
+    "connects_to": ["Lava Lair - Whomp Path"],
+    "exit_requires": "|Has Ground Pound| or |Medium Logic|"
+  },
+  "Lava Lair - Whomp Path": {
+    "connects_to": ["Lava Lair - Mattermouths"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Lava Lair - Mattermouths": {
+    "connects_to": ["Lava Lair - Snake Blocks"],
+    "exit_requires": ""
+  },
+  "Lava Lair - Snake Blocks": {
+    "connects_to": ["Lava Lair - Bowser"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Lava Lair - Bowser": {
+
+  },
+  "Lava Lair C - Start": {
+    "connects_to": ["Lava Lair - Cylinder #1"],
+    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Lava Lair Comet Medal|)}",
+    "exit_requires": "|Has Pull Stars| or (|Has Long Jump| and |Medium Logic|)"
+  },
+  "Lava Lair C - Cylinder #1": {
+    "connects_to": ["Lava Lair - Cylinder #2"],
+    "exit_requires": "|Has Ground Pound| or (|Medium Logic| and (|Needs Testing|)) or |Hard Logic|"
+  },
+  "Lava Lair C - Cylinder #2": {
+    "connects_to": ["Lava Lair - Flomps"],
+    "exit_requires": "|Has Ground Spin|"
+  },
+  "Lava Lair C - Flomps": {
+    "connects_to": ["Lava Lair - Firebar"],
+    "exit_requires": ""
+  },
+  "Lava Lair C - Firebar": {
+    "connects_to": ["Lava Lair - Whomp Path"],
+    "exit_requires": "|Has Ground Pound| or |Medium Logic|"
+  },
+  "Lava Lair C - Whomp Path": {
+    "connects_to": ["Lava Lair - Mattermouths"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Lava Lair C - Mattermouths": {
+    "connects_to": ["Lava Lair - Snake Blocks"],
+    "exit_requires": ""
+  },
+  "Lava Lair C - Snake Blocks": {
+    "connects_to": ["Lava Lair - Bowser"],
+    "exit_requires": "|Has Ground Pound|"
   },
   "World 3": {
     "requires": "|Grand Star (World 3 Access)|",
