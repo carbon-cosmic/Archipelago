@@ -483,7 +483,31 @@
     "entrance_requires": "|Has Fluzzard|"
   },
   "Honeybloom Galaxy": {
-    "connects_to": []
+    "connects_to": ["Honeybloom - Start"]
+  },
+  "Honeybloom - Start": {
+    "connects_to": ["Honeybloom - Rainy Wall Jumps", "Honeybloom S - Climb"]
+  },
+  "Honeybloom - Rainy Wall Jumps": {
+    "connects_to": ["Honeybloom - Stream"],
+    "entrance_requires": "|Has Wall Jump|"
+  },
+  "Honeybloom - Stream": {
+    "connects_to": ["Honeybloom - Fruit"],
+    "entrance_requires": "|Has Bee| or (|Has Wall Jump| and |Medium Logic|)"
+  },
+  "Honeybloom - Fruit": {
+    "connects_to": ["Honeybloom - Fuzzies"],
+    "entrance_requires": "|Has Bee|"
+  },
+  "Honeybloom - Fuzzies": {
+    "connects_to": ["Honeybloom - Wooden Blocks"]
+  },
+  "Honeybloom - Wooden Blocks": {
+
+  },
+  "Honeybloom S - Climb": {
+    "entrance_requires": "|Can Wall Spin| or (|Has Wall Jump| and |Hard Logic|)"
   },
   "Bowser's Lava Lair": {
     "connects_to": []

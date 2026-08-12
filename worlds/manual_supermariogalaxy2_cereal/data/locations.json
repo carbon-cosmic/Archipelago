@@ -2313,7 +2313,7 @@
     "sort-key": "row-0229"
   },
   {
-    "name": "Wild Glide Green Star 1",
+    "name": "Wild Glide - Green Star 1",
     "requires": "|Wild Glide Green Stars|",
     "region": "Wild Glide 1 - Flight",
     "category": [
@@ -2323,7 +2323,7 @@
     "sort-key": "row-0230"
   },
   {
-    "name": "Wild Glide 1-Up",
+    "name": "Wild Glide - 1-Up",
     "requires": "",
     "region": "Wild Glide 1 - Flight",
     "category": [
@@ -2333,7 +2333,7 @@
     "sort-key": "row-0231"
   },
   {
-    "name": "Wild Glide Green Star 2",
+    "name": "Wild Glide - Green Star 2",
     "requires": "|Wild Glide Green Stars|",
     "region": "Wild Glide 1 - Flight",
     "category": [
@@ -2343,7 +2343,7 @@
     "sort-key": "row-0232"
   },
   {
-    "name": "Wild Glide Comet Medal",
+    "name": "Wild Glide - Comet Medal",
     "requires": "",
     "region": "Wild Glide 1 - Flight",
     "category": [
@@ -2364,8 +2364,8 @@
   },
   {
     "name": "Bumble Beginnings",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Bee Mushroom|)}",
-    "region": "Honeybloom Galaxy (7)",
+    "requires": "|Has Bee|",
+    "region": "Honeybloom - Wooden Blocks",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -2373,9 +2373,9 @@
     "sort-key": "row-0235"
   },
   {
-    "name": "Honeybloom Stream Checkpoint Flag",
-    "requires": "{OptOne(|Wall Jump|)}",
-    "region": "Honeybloom Galaxy (7)",
+    "name": "Honeybloom - Stream Checkpoint Flag",
+    "requires": "",
+    "region": "Honeybloom - Stream",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2383,9 +2383,9 @@
     "sort-key": "row-0236"
   },
   {
-    "name": "Honeybloom Comet Medal",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Bee Mushroom|)}",
-    "region": "Honeybloom Galaxy (7)",
+    "name": "Honeybloom - Comet Medal",
+    "requires": "(|Can Wall Spin| and |Medium Logic|) or |Has Bee|",
+    "region": "Honeybloom - Stream",
     "category": [
       "World 2",
       "Comet Medal Locations"
@@ -2393,9 +2393,9 @@
     "sort-key": "row-0237"
   },
   {
-    "name": "Honeybloom ? Coin Above Berries",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Bee Mushroom|)}",
-    "region": "Honeybloom Galaxy (7)",
+    "name": "Honeybloom - ? Coin Above Berries",
+    "requires": "",
+    "region": "Honeybloom - Fruit",
     "category": [
       "World 2",
       "? Coins"
@@ -2403,9 +2403,9 @@
     "sort-key": "row-0238"
   },
   {
-    "name": "Honeybloom ? Coin 1-Up Reward",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Bee Mushroom|)}",
-    "region": "Honeybloom Galaxy (7)",
+    "name": "Honeybloom - ? Coin 1-Up Reward",
+    "requires": "",
+    "region": "Honeybloom - Fruit",
     "category": [
       "World 2",
       "1-Ups"
@@ -2413,9 +2413,9 @@
     "sort-key": "row-0239"
   },
   {
-    "name": "Honeybloom Green Star 1",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Bee Mushroom|)} AND {OptOne(|Honeybloom Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Honeybloom Galaxy (7)",
+    "name": "Honeybloom - Green Star 1",
+    "requires": "|Honeybloom Green Stars|",
+    "region": "Honeybloom - Fruit",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -2423,9 +2423,9 @@
     "sort-key": "row-0240"
   },
   {
-    "name": "Honeybloom Fuzzies Checkpoint Flag",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Bee Mushroom|)}",
-    "region": "Honeybloom Galaxy (7)",
+    "name": "Honeybloom - Fuzzies Checkpoint Flag",
+    "requires": "",
+    "region": "Honeybloom - Fuzzies",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2433,9 +2433,9 @@
     "sort-key": "row-0241"
   },
   {
-    "name": "Honeybloom Green Star 2",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Bee Mushroom|)} AND {OptOne(|Honeybloom Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Honeybloom Galaxy (7)",
+    "name": "Honeybloom - Green Star 2",
+    "requires": "|Honeybloom Green Stars|",
+    "region": "Honeybloom - Fuzzies",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -2443,9 +2443,9 @@
     "sort-key": "row-0242"
   },
   {
-    "name": "Honeybloom Wooden Blocks Checkpoint Flag",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Bee Mushroom|)}",
-    "region": "Honeybloom Galaxy (7)",
+    "name": "Honeybloom - Wooden Blocks Checkpoint Flag",
+    "requires": "",
+    "region": "Honeybloom - Wooden Blocks",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2454,8 +2454,8 @@
   },
   {
     "name": "The Secret Wall Jump",
-    "requires": "{OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Honeybloom Galaxy (7)",
+    "requires": "",
+    "region": "Honeybloom S - Climb",
     "category": [
       "World 2",
       "Power Star Locations"
