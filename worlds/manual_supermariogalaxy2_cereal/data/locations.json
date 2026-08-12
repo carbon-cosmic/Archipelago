@@ -1914,8 +1914,8 @@
   },
   {
     "name": "Rock and Rollodillo",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "|Has Rock|",
+    "region": "Boulder Bowl - Metal Planet",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -1924,8 +1924,8 @@
   },
   {
     "name": "Boulder Bowl Comet Medal",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "|Has Rock|",
+    "region": "Boulder Bowl - Start",
     "category": [
       "World 2",
       "Comet Medal Locations"
@@ -1934,8 +1934,8 @@
   },
   {
     "name": "Boulder Bowl 1-Up Behind Comet Medal",
-    "requires": "{OptOne(|Rock Mushroom|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "|Has Rock| or |Medium Logic|",
+    "region": "Boulder Bowl - Start",
     "category": [
       "World 2",
       "1-Ups"
@@ -1944,8 +1944,8 @@
   },
   {
     "name": "Boulder Bowl Green Star 1",
-    "requires": "({OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) AND {OptOne(|Boulder Bowl Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "|Boulder Bowl Green Stars| and |Can Wall Spin| and |Can Back or Sideflip|",
+    "region": "Boulder Bowl - Start",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -1954,8 +1954,8 @@
   },
   {
     "name": "Boulder Bowl Green Star 2",
-    "requires": "({OptOne(|Rock Mushroom|)} OR ({OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND {OptOne(|Long Jump|)})) AND {OptOne(|Boulder Bowl Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "|Boulder Bowl Green Stars| and (|Has Rock| or (|Can Long Spin| and |Medium Logic| and (|Hard Logic| or |Has Wall Jump|)))",
+    "region": "Boulder Bowl - Start",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -1963,9 +1963,9 @@
     "sort-key": "row-0197"
   },
   {
-    "name": "Boulder Bowl Octoomba Planet Checkpoint Flag",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "name": "Boulder Bowl Rolling Rocks Checkpoint Flag",
+    "requires": "",
+    "region": "Boulder Bowl - Rolling Rocks",
     "category": [
       "World 2",
       "Checkpoints"
@@ -1974,8 +1974,8 @@
   },
   {
     "name": "Boulder Bowl Green Star 3",
-    "requires": "{OptOne(|Rock Mushroom|)} AND {OptOne(|Boulder Bowl Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "|Boulder Bowl Green Stars|",
+    "region": "Boulder Bowl - Rolling Rocks",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -1984,8 +1984,8 @@
   },
   {
     "name": "Boulder Bowl Bonus Room Chance Cube #1",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "",
+    "region": "Boulder Bowl - Bonus Room",
     "category": [
       "World 2",
       "Chance Cubes"
@@ -1994,8 +1994,8 @@
   },
   {
     "name": "Boulder Bowl Bonus Room Chance Cube #2",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "",
+    "region": "Boulder Bowl - Bonus Room",
     "category": [
       "World 2",
       "Chance Cubes"
@@ -2004,8 +2004,8 @@
   },
   {
     "name": "Boulder Bowl Bonus Room Chance Cube #3",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "",
+    "region": "Boulder Bowl - Bonus Room",
     "category": [
       "World 2",
       "Chance Cubes"
@@ -2014,8 +2014,8 @@
   },
   {
     "name": "Boulder Bowl Bonus Room Chance Cube #4",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "",
+    "region": "Boulder Bowl - Bonus Room",
     "category": [
       "World 2",
       "Chance Cubes"
@@ -2024,8 +2024,8 @@
   },
   {
     "name": "Boulder Bowl Bonus Room Chance Cube #5",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "",
+    "region": "Boulder Bowl - Bonus Room",
     "category": [
       "World 2",
       "Chance Cubes"
@@ -2034,8 +2034,8 @@
   },
   {
     "name": "Boulder Bowl Bonus Room Chance Cube #6",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "",
+    "region": "Boulder Bowl - Bonus Room",
     "category": [
       "World 2",
       "Chance Cubes"
@@ -2044,8 +2044,8 @@
   },
   {
     "name": "Boulder Bowl Luma Shop",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "",
+    "region": "Boulder Bowl - Amber Planet",
     "category": [
       "World 2",
       "Luma Shops"
@@ -2054,8 +2054,8 @@
   },
   {
     "name": "Boulder Bowl Amber Planet Checkpoint Flag",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "",
+    "region": "Boulder Bowl - Amber Planet",
     "category": [
       "World 2",
       "Checkpoints"
@@ -2064,8 +2064,8 @@
   },
   {
     "name": "Rolling Crabber Romp",
-    "requires": "{OptOne(|Rock Mushroom|)} AND {OptOne(|Boulder Bowl Comet Medal|)} AND {OptOne(|Romp Comets|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "|Has Rock|",
+    "region": "Boulder Bowl C - Metal Planet",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -2073,9 +2073,9 @@
     "sort-key": "row-0208"
   },
   {
-    "name": "Boulder Bowl Comet 1-Up Beneath Starting Planet",
-    "requires": "{OptOne(|Boulder Bowl Comet Medal|)} AND {OptOne(|Romp Comets|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "name": "Boulder Bowl C Asteroid 1-Up",
+    "requires": "",
+    "region": "Boulder Bowl C - Asteroid",
     "category": [
       "World 2",
       "1-Ups"
@@ -2083,9 +2083,9 @@
     "sort-key": "row-0209"
   },
   {
-    "name": "Boulder Bowl Comet Blue Crabber 1-Up #1",
-    "requires": "{OptOne(|Boulder Bowl Comet Medal|)} AND {OptOne(|Romp Comets|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "name": "Boulder Bowl C Blue Crabber 1-Up #1",
+    "requires": "|Has Rock| or (|Has Ground Spin| and |Medium Logic|)",
+    "region": "Boulder Bowl C - Metal Planet",
     "category": [
       "World 2",
       "1-Ups"
@@ -2094,8 +2094,8 @@
   },
   {
     "name": "Boulder Bowl Comet Blue Crabber 1-Up #2",
-    "requires": "{OptOne(|Boulder Bowl Comet Medal|)} AND {OptOne(|Romp Comets|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "|Has Rock| or (|Has Ground Spin| and |Medium Logic|)",
+    "region": "Boulder Bowl C - Metal Planet",
     "category": [
       "World 2",
       "1-Ups"
@@ -2104,8 +2104,8 @@
   },
   {
     "name": "Boulder Bowl Comet Blue Crabber 1-Up #3",
-    "requires": "{OptOne(|Boulder Bowl Comet Medal|)} AND {OptOne(|Romp Comets|)}",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "|Has Rock| or (|Has Ground Spin| and |Medium Logic|)",
+    "region": "Boulder Bowl C - Metal Planet",
     "category": [
       "World 2",
       "1-Ups"
@@ -2114,8 +2114,8 @@
   },
   {
     "name": "C'mere, Goomba",
-    "requires": "{OptOne(|Rock Mushroom|)} AND |Gearmo Letter Boulder Bowl|",
-    "region": "Boulder Bowl Galaxy (7)",
+    "requires": "|Boulder Bowl Gearmo Letter| and |Has Rock|",
+    "region": "Boulder Bowl - Muddy Chomps",
     "category": [
       "World 2",
       "Power Star Locations"

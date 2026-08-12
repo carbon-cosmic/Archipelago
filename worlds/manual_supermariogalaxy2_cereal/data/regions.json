@@ -389,7 +389,38 @@
 
   },
   "Boulder Bowl Galaxy": {
-    "connects_to": []
+    "connects_to": ["Boulder Bowl - Start", "Boulder Bowl C - Asteroid"]
+  },
+  "Boulder Bowl - Start": {
+    "connects_to": ["Boulder Bowl - Rolling Rocks", "Boulder Bowl - Muddy Chomps Intermediate"]
+  },
+  "Boulder Bowl - Rolling Rocks": {
+    "connects_to": ["Boulder Bowl - Muddy Chomps"],
+    "entrance_requires": "|Has Rock|"
+  },
+  "Boulder Bowl - Muddy Chomps Intermediate": {
+    "connects_to": ["Boulder Bowl - Muddy Chomps"],
+    "entrance_requires": "|Hard Logic| and (|Has Rock| or |Can Long Spin|)"
+  },
+  "Boulder Bowl - Muddy Chomps": {
+    "connects_to": ["Boulder Bowl - Bonus Room", "Boulder Bowl - Amber Planet"],
+    "exit_requires": "|Has Rock|"
+  },
+  "Boulder Bowl - Bonus Room": {
+
+  },
+  "Boulder Bowl - Amber Planet": {
+    "connects_to": ["Boulder Bowl - Metal Planet"]
+  },
+  "Boulder Bowl - Metal Planet": {
+
+  },
+  "Boulder Bowl C - Asteroid": {
+    "connects_to": ["Boulder Bowl C - Metal Planet"],
+    "entrance_requires": "|Has Romp Comets| and {OptOne(|Boulder Bowl Comet Medal|)}"
+  },
+  "Boulder Bowl C - Metal Planet": {
+
   },
   "Cosmic Cove Galaxy": {
     "connects_to": []
