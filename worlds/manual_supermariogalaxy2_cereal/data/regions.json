@@ -467,7 +467,20 @@
 
   },
   "Wild Glide Galaxy": {
-    "connects_to": []
+    "connects_to": ["Wild Glide 1 - Start", "Wild Glide 2 - Start"]
+  },
+  "Wild Glide 1 - Start": {
+    "connects_to": ["Wild Glide 1 - Flight"]
+  },
+  "Wild Glide 1 - Flight": {
+    "entrance_requires": "|Has Fluzzard|"
+  },
+  "Wild Glide 2 - Start": {
+    "connects_to": ["Wild Glide 1 - Flight"],
+    "entrance_requires": "|Wild Glide Jibberjay Letter|"
+  },
+  "Wild Glide 2 - Flight": {
+    "entrance_requires": "|Has Fluzzard|"
   },
   "Honeybloom Galaxy": {
     "connects_to": []

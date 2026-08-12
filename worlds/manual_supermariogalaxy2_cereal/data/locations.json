@@ -2304,8 +2304,8 @@
   },
   {
     "name": "Fluzzard's First Flight",
-    "requires": "{OptOne(|Fluzzard|)}",
-    "region": "Wild Glide Galaxy (7)",
+    "requires": "",
+    "region": "Wild Glide 1 - Flight",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -2314,8 +2314,8 @@
   },
   {
     "name": "Wild Glide Green Star 1",
-    "requires": "{OptOne(|Fluzzard|)} AND {OptOne(|Wild Glide Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Wild Glide Galaxy (7)",
+    "requires": "|Wild Glide Green Stars|",
+    "region": "Wild Glide 1 - Flight",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -2324,8 +2324,8 @@
   },
   {
     "name": "Wild Glide 1-Up",
-    "requires": "{OptOne(|Fluzzard|)}",
-    "region": "Wild Glide Galaxy (7)",
+    "requires": "",
+    "region": "Wild Glide 1 - Flight",
     "category": [
       "World 2",
       "1-Ups"
@@ -2334,8 +2334,8 @@
   },
   {
     "name": "Wild Glide Green Star 2",
-    "requires": "{OptOne(|Fluzzard|)} AND {OptOne(|Wild Glide Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Wild Glide Galaxy (7)",
+    "requires": "|Wild Glide Green Stars|",
+    "region": "Wild Glide 1 - Flight",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -2344,8 +2344,8 @@
   },
   {
     "name": "Wild Glide Comet Medal",
-    "requires": "{OptOne(|Fluzzard|)}",
-    "region": "Wild Glide Galaxy (7)",
+    "requires": "",
+    "region": "Wild Glide 1 - Flight",
     "category": [
       "World 2",
       "Comet Medal Locations"
@@ -2354,8 +2354,8 @@
   },
   {
     "name": "Jungle Fluzzard Race",
-    "requires": "{OptOne(|Fluzzard|)} AND |Jibberjay Letter Wild Glide|",
-    "region": "Wild Glide Galaxy (7)",
+    "requires": "",
+    "region": "Wild Glide 2 - Flight",
     "category": [
       "World 2",
       "Power Star Locations"
