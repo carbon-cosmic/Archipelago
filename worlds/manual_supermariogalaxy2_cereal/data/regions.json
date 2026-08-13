@@ -586,7 +586,49 @@
       "Freezy Flake Galaxy", "Rolling Masterpiece Galaxy", "Beat Block Galaxy", "Bowser Jr.'s Fearsome Fleet"]
   },
   "Tall Trunk Galaxy": {
-    "connects_to": ["Tall Trunk Purple Coins"]
+    "connects_to": ["Tall Trunk 1 - Big Tree", "Tall Trunk 2 - Big Tree", "Tall Trunk C - Slide Start"]
+  },
+  "Tall Trunk 1 - Big Tree": {
+    "connects_to": ["Tall Trunk 1 - Carved Log Start"],
+    "exit_requires": "|Can Use Blimp| or (|Hard Logic| and |Can Wall Spin| and |Has Backflip|) "
+  },
+  "Tall Trunk 1 - Carved Log Start": {
+    "connects_to": ["Tall Trunk 1 - Carved Log Star Chips"],
+    "exit_requires": "|Can Use Blimp|"
+  },
+  "Tall Trunk 1 - Carved Log Star Chips": {
+    "connects_to": ["Tall Trunk 1 - Wooden Circle"],
+    "exit_requires": "|Can Use Blimp|"
+  },
+  "Tall Trunk 1 - Wooden Circle": {
+
+  },
+  "Tall Trunk 2 - Big Tree": {
+    "connects_to": ["Tall Trunk 2 - Slide Start"],
+    "exit_requires": ""
+  },
+  "Tall Trunk 2 - Slide Start": {
+    "connects_to": ["Tall Trunk 2 - Slide"],
+    "exit_requires": ""
+  },
+  "Tall Trunk 2 - Slide": {
+    "connects_to": ["Tall Trunk 2 - Slide End"],
+    "exit_requires": ""
+  },
+  "Tall Trunk 2 - Slide End": {
+
+  },
+  "Tall Trunk C - Slide Start": {
+    "connects_to": ["Tall Trunk C - Slide"],
+    "entrance_requires": "|Has Purple Comets| and {OptOne(|Tall Trunk Comet Medal|)}",
+    "exit_requires": ""
+  },
+  "Tall Trunk C - Slide": {
+    "connects_to": ["Tall Trunk C - Slide End"],
+    "exit_requires": ""
+  },
+  "Tall Trunk C - Slide End": {
+
   },
   "Cloudy Court Galaxy": {
     "connects_to": []
