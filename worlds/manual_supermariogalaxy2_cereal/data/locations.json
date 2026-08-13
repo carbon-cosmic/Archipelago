@@ -2793,7 +2793,7 @@
     "sort-key": "row-0277"
   },
   {
-    "name": "Tall Trunk 1 First Planet Crystal 1-Up",
+    "name": "Tall Trunk 1 - First Planet Crystal 1-Up",
     "requires": "{OptOne(|Spin|)}",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2803,7 +2803,7 @@
     "sort-key": "row-0278"
   },
   {
-    "name": "Tall Trunk 1 Teleporter 1-Up #1",
+    "name": "Tall Trunk 1 - Teleporter 1-Up #1",
     "requires": "",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2813,7 +2813,7 @@
     "sort-key": "row-0279"
   },
   {
-    "name": "Tall Trunk 1 Teleporter 1-Up #2",
+    "name": "Tall Trunk 1 - Teleporter 1-Up #2",
     "requires": "",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2823,7 +2823,7 @@
     "sort-key": "row-0280"
   },
   {
-    "name": "Tall Trunk 1 Teleporter 1-Up #3",
+    "name": "Tall Trunk 1 - Teleporter 1-Up #3",
     "requires": "",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2833,7 +2833,7 @@
     "sort-key": "row-0281"
   },
   {
-    "name": "Tall Trunk 1 Tree Top Life Mushroom",
+    "name": "Tall Trunk 1 - Tree Top Life Mushroom",
     "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}) OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2843,7 +2843,7 @@
     "sort-key": "row-0282"
   },
   {
-    "name": "Tall Trunk Green Star 1",
+    "name": "Tall Trunk - Green Star 1",
     "requires": "(({OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}) OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Tall Trunk Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2853,7 +2853,7 @@
     "sort-key": "row-0283"
   },
   {
-    "name": "Tall Trunk 1 Carved Log Checkpoint Flag",
+    "name": "Tall Trunk 1 - Carved Log Checkpoint Flag",
     "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}) OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2863,7 +2863,7 @@
     "sort-key": "row-0284"
   },
   {
-    "name": "Tall Trunk 1 1-Up Below First Checkpoint",
+    "name": "Tall Trunk 1 - 1-Up Below First Checkpoint",
     "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}) OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2873,7 +2873,7 @@
     "sort-key": "row-0285"
   },
   {
-    "name": "Tall Trunk Green Star 2",
+    "name": "Tall Trunk - Green Star 2",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)} AND {OptOne(|Tall Trunk Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2883,7 +2883,7 @@
     "sort-key": "row-0286"
   },
   {
-    "name": "Tall Trunk 1 Bonus Room Chance Cube #1",
+    "name": "Tall Trunk 1 - Bonus Room Chance Cube #1",
     "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}) OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2893,7 +2893,7 @@
     "sort-key": "row-0287"
   },
   {
-    "name": "Tall Trunk 1 Bonus Room Chance Cube #2",
+    "name": "Tall Trunk 1 - Bonus Room Chance Cube #2",
     "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}) OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2903,7 +2903,7 @@
     "sort-key": "row-0288"
   },
   {
-    "name": "Tall Trunk 1 Bonus Room Chance Cube #3",
+    "name": "Tall Trunk 1 - Bonus Room Chance Cube #3",
     "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}) OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2913,7 +2913,7 @@
     "sort-key": "row-0289"
   },
   {
-    "name": "Tall Trunk Comet Medal",
+    "name": "Tall Trunk - Comet Medal",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2923,7 +2923,7 @@
     "sort-key": "row-0290"
   },
   {
-    "name": "Tall Trunk 1 Carved Log ? Coin",
+    "name": "Tall Trunk 1 - Carved Log ? Coin",
     "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}) OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2933,7 +2933,7 @@
     "sort-key": "row-0291"
   },
   {
-    "name": "Tall Trunk 1 ? Coin 1-Up Reward",
+    "name": "Tall Trunk 1 - ? Coin 1-Up Reward",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2943,7 +2943,7 @@
     "sort-key": "row-0292"
   },
   {
-    "name": "Tall Trunk 1 Wood Circle Checkpoint Flag",
+    "name": "Tall Trunk 1 - Wood Circle Checkpoint Flag",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2963,7 +2963,7 @@
     "sort-key": "row-0294"
   },
   {
-    "name": "Tall Trunk 2 Checkpoint Flag",
+    "name": "Tall Trunk 2 - Checkpoint Flag",
     "requires": "",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2973,7 +2973,7 @@
     "sort-key": "row-0295"
   },
   {
-    "name": "Tall Trunk 2 Slide 1-Up Beteween Spikes",
+    "name": "Tall Trunk 2 - Slide 1-Up Beteween Spikes",
     "requires": "",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2983,7 +2983,7 @@
     "sort-key": "row-0296"
   },
   {
-    "name": "Tall Trunk 2 Slide 1-Up After Gap",
+    "name": "Tall Trunk 2 - Slide 1-Up After Gap",
     "requires": "{OptOne(|Spin|)}",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -2993,7 +2993,7 @@
     "sort-key": "row-0297"
   },
   {
-    "name": "Tall Trunk Green Star 3",
+    "name": "Tall Trunk - Green Star 3",
     "requires": "{OptOne(|Tall Trunk Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -3003,7 +3003,7 @@
     "sort-key": "row-0298"
   },
   {
-    "name": "Tall Trunk 2 Star Area 1-Up",
+    "name": "Tall Trunk 2 - Star Area 1-Up",
     "requires": "",
     "region": "Tall Trunk Galaxy (16)",
     "category": [
@@ -3033,7 +3033,7 @@
     "sort-key": "row-0301"
   },
   {
-    "name": "Cloudy Court 1-Up Beneath Dino Hedge",
+    "name": "Cloudy Court - 1-Up Beneath Dino Hedge",
     "requires": "",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3043,7 +3043,7 @@
     "sort-key": "row-0302"
   },
   {
-    "name": "Cloudy Court Green Star 1",
+    "name": "Cloudy Court - Green Star 1",
     "requires": "({OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) AND {OptOne(|Cloudy Court Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3053,7 +3053,7 @@
     "sort-key": "row-0303"
   },
   {
-    "name": "Cloudy Court Moving Cloud Life Mushroom",
+    "name": "Cloudy Court - Moving Cloud Life Mushroom",
     "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Sideflip|)} AND {YamlEnabled(Advanced_Logic)}))",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3063,7 +3063,7 @@
     "sort-key": "row-0304"
   },
   {
-    "name": "Cloudy Court ? Coin Above Block",
+    "name": "Cloudy Court - ? Coin Above Block",
     "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3073,7 +3073,7 @@
     "sort-key": "row-0305"
   },
   {
-    "name": "Cloudy Court Drum ? Coin",
+    "name": "Cloudy Court - Drum ? Coin",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3083,7 +3083,7 @@
     "sort-key": "row-0306"
   },
   {
-    "name": "Cloudy Court ? Coin 1-Up Reward",
+    "name": "Cloudy Court - ? Coin 1-Up Reward",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3093,7 +3093,7 @@
     "sort-key": "row-0307"
   },
   {
-    "name": "Cloudy Court Updraft Checkpoint Flag",
+    "name": "Cloudy Court - Updraft Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3103,7 +3103,7 @@
     "sort-key": "row-0308"
   },
   {
-    "name": "Cloudy Court Teleporter 1-Up #1",
+    "name": "Cloudy Court - Teleporter 1-Up #1",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3113,7 +3113,7 @@
     "sort-key": "row-0309"
   },
   {
-    "name": "Cloudy Court Teleporter 1-Up #2",
+    "name": "Cloudy Court - Teleporter 1-Up #2",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3123,7 +3123,7 @@
     "sort-key": "row-0310"
   },
   {
-    "name": "Cloudy Court Teleporter 1-Up #3",
+    "name": "Cloudy Court - Teleporter 1-Up #3",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3133,7 +3133,7 @@
     "sort-key": "row-0311"
   },
   {
-    "name": "Cloudy Court Grassy Dome 1-Up",
+    "name": "Cloudy Court - Grassy Dome 1-Up",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3143,7 +3143,7 @@
     "sort-key": "row-0312"
   },
   {
-    "name": "Cloudy Court Green Star 2",
+    "name": "Cloudy Court - Green Star 2",
     "requires": "{OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} Or {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Cloud Flower|)} AND {OptOne(|Cloudy Court Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3153,7 +3153,7 @@
     "sort-key": "row-0307a"
   },
   {
-    "name": "Cloudy Court 2D Checkpoint Flag",
+    "name": "Cloudy Court - 2D Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3163,7 +3163,7 @@
     "sort-key": "row-0314"
   },
   {
-    "name": "Cloudy Court 2D Left Platform 1-Up #1",
+    "name": "Cloudy Court - 2D Left Platform 1-Up #1",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3173,7 +3173,7 @@
     "sort-key": "row-0315"
   },
   {
-    "name": "Cloudy Court 2D Left Platform 1-Up #2",
+    "name": "Cloudy Court - 2D Left Platform 1-Up #2",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3183,7 +3183,7 @@
     "sort-key": "row-0316"
   },
   {
-    "name": "Cloudy Court 2D Left Platform 1-Up #3",
+    "name": "Cloudy Court - 2D Left Platform 1-Up #3",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3193,7 +3193,7 @@
     "sort-key": "row-0317"
   },
   {
-    "name": "Cloudy Court Comet Medal",
+    "name": "Cloudy Court - Comet Medal",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3203,7 +3203,7 @@
     "sort-key": "row-0318"
   },
   {
-    "name": "Cloudy Court Green Star 3",
+    "name": "Cloudy Court - Green Star 3",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Cloudy Court Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3233,7 +3233,7 @@
     "sort-key": "row-0321"
   },
   {
-    "name": "Cloudy Court Secret Checkpoint Flag",
+    "name": "Cloudy Court - S Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
@@ -3253,7 +3253,7 @@
     "sort-key": "row-0323"
   },
   {
-    "name": "Haunty Halls Green Star 1",
+    "name": "Haunty Halls - Green Star 1",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Haunty Halls Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3263,7 +3263,7 @@
     "sort-key": "row-0324"
   },
   {
-    "name": "Haunty Halls Teleporter 1-Up #1",
+    "name": "Haunty Halls - Teleporter 1-Up #1",
     "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3273,7 +3273,7 @@
     "sort-key": "row-0325"
   },
   {
-    "name": "Haunty Halls Teleporter 1-Up #2",
+    "name": "Haunty Halls - Teleporter 1-Up #2",
     "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3283,7 +3283,7 @@
     "sort-key": "row-0326"
   },
   {
-    "name": "Haunty Halls Teleporter 1-Up #3",
+    "name": "Haunty Halls - Teleporter 1-Up #3",
     "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3293,7 +3293,7 @@
     "sort-key": "row-0327"
   },
   {
-    "name": "Haunty Halls Green Star 2",
+    "name": "Haunty Halls - Green Star 2",
     "requires": "({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})) AND {OptOne(|Haunty Halls Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3303,7 +3303,7 @@
     "sort-key": "row-0328"
   },
   {
-    "name": "Haunty Halls 1 Moving Halls Checkpoint Flag",
+    "name": "Haunty Halls 1 - Moving Halls Checkpoint Flag",
     "requires": "",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3313,7 +3313,7 @@
     "sort-key": "row-0329"
   },
   {
-    "name": "Haunty Halls 1 Long Carpet Platform 1-Up",
+    "name": "Haunty Halls 1 - Long Carpet Platform 1-Up",
     "requires": "",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3323,7 +3323,7 @@
     "sort-key": "row-0330"
   },
   {
-    "name": "Haunty Halls Comet Medal",
+    "name": "Haunty Halls - Comet Medal",
     "requires": "",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3333,7 +3333,7 @@
     "sort-key": "row-0331"
   },
   {
-    "name": "Haunty Halls 1 Bulb Berry Checkpoint Flag",
+    "name": "Haunty Halls 1 - Bulb Berry Checkpoint Flag",
     "requires": "",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3343,7 +3343,7 @@
     "sort-key": "row-0332"
   },
   {
-    "name": "Haunty Halls 1 Bulb Berry 1-Up",
+    "name": "Haunty Halls 1 - Bulb Berry 1-Up",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3363,7 +3363,7 @@
     "sort-key": "row-0334"
   },
   {
-    "name": "Haunty Halls 2 Moving Platforms Checkpoint Flag",
+    "name": "Haunty Halls 2 - Moving Platforms Checkpoint Flag",
     "requires": "",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3373,7 +3373,7 @@
     "sort-key": "row-0335"
   },
   {
-    "name": "Haunty Halls 2 Mattermouths Checkpoint Flag",
+    "name": "Haunty Halls 2 - Mattermouths Checkpoint Flag",
     "requires": "",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3383,7 +3383,7 @@
     "sort-key": "row-0336"
   },
   {
-    "name": "Haunty Halls Green Star 3",
+    "name": "Haunty Halls - Green Star 3",
     "requires": "({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) AND {OptOne(|Haunty Halls Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
@@ -3413,7 +3413,7 @@
     "sort-key": "row-0339"
   },
   {
-    "name": "Freezy Flake Snowy Hill Chance Cube",
+    "name": "Freezy Flake - Snowy Hill Chance Cube",
     "requires": "{OptOne(|Fire Flower|)} OR {OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3423,7 +3423,7 @@
     "sort-key": "row-0340"
   },
   {
-    "name": "Freezy Flake 1-Up on Snowy Hill",
+    "name": "Freezy Flake - 1-Up on Snowy Hill",
     "requires": "{OptOne(|Fire Flower|)} OR {OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3433,7 +3433,7 @@
     "sort-key": "row-0341"
   },
   {
-    "name": "Freezy Flake 1 1-Up in Snow Tree",
+    "name": "Freezy Flake 1 - 1-Up in Snow Tree",
     "requires": "{OptOne(|Fire Flower|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3443,7 +3443,7 @@
     "sort-key": "row-0342"
   },
   {
-    "name": "Freezy Flake 1 Checkpoint Flag Behind Bowser Sculpture",
+    "name": "Freezy Flake 1 - Checkpoint Flag Behind Bowser Sculpture",
     "requires": "{OptOne(|Fire Flower|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3453,7 +3453,7 @@
     "sort-key": "row-0343"
   },
   {
-    "name": "Freezy Flake Green Star 1",
+    "name": "Freezy Flake - Green Star 1",
     "requires": "{OptOne(|Fire Flower|)} AND {OptOne(|Freezy Flake Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3463,7 +3463,7 @@
     "sort-key": "row-0344"
   },
   {
-    "name": "Freezy Flake Comet Medal",
+    "name": "Freezy Flake - Comet Medal",
     "requires": "{OptOne(|Fire Flower|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3473,7 +3473,7 @@
     "sort-key": "row-0345"
   },
   {
-    "name": "Freezy Flake 1 Lava Planet Checkpoint Flag",
+    "name": "Freezy Flake 1 - Lava Planet Checkpoint Flag",
     "requires": "{OptOne(|Fire Flower|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3483,7 +3483,7 @@
     "sort-key": "row-0346"
   },
   {
-    "name": "Freezy Flake Green Star 2",
+    "name": "Freezy Flake - Green Star 2",
     "requires": "{OptOne(|Fire Flower|)} AND {OptOne(|Freezy Flake Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3503,7 +3503,7 @@
     "sort-key": "row-0348"
   },
   {
-    "name": "Freezy Flake 2 Snowstorm Start Checkpoint Flag",
+    "name": "Freezy Flake 2 - Snowstorm Start Checkpoint Flag",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3513,7 +3513,7 @@
     "sort-key": "row-0349"
   },
   {
-    "name": "Freezy Flake 2 Bonus Room Chance Cube #1",
+    "name": "Freezy Flake 2 - Bonus Room Chance Cube #1",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3523,7 +3523,7 @@
     "sort-key": "row-0350"
   },
   {
-    "name": "Freezy Flake 2 Bonus Room Chance Cube #2",
+    "name": "Freezy Flake 2 - Bonus Room Chance Cube #2",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3533,7 +3533,7 @@
     "sort-key": "row-0351"
   },
   {
-    "name": "Freezy Flake 2 Bonus Room Chance Cube #3",
+    "name": "Freezy Flake 2 - Bonus Room Chance Cube #3",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3543,7 +3543,7 @@
     "sort-key": "row-0352"
   },
   {
-    "name": "Freezy Flake 2 Snowstorm Star Platform 1-Up #1",
+    "name": "Freezy Flake 2 - Snowstorm Star Platform 1-Up #1",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3553,7 +3553,7 @@
     "sort-key": "row-0353"
   },
   {
-    "name": "Freezy Flake 2 Snowstorm Star Platform 1-Up #2",
+    "name": "Freezy Flake 2 - Snowstorm Star Platform 1-Up #2",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3563,7 +3563,7 @@
     "sort-key": "row-0354"
   },
   {
-    "name": "Freezy Flake 2 Snowstorm Star Platform 1-Up #3",
+    "name": "Freezy Flake 2 - Snowstorm Star Platform 1-Up #3",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3573,7 +3573,7 @@
     "sort-key": "row-0355"
   },
   {
-    "name": "Freezy Flake Green Star 3",
+    "name": "Freezy Flake - Green Star 3",
     "requires": "{OptOne(|Rock Mushroom|)} AND {OptOne(|Freezy Flake Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3583,7 +3583,7 @@
     "sort-key": "row-0356"
   },
   {
-    "name": "Freezy Flake 2 Snowstorm End Checkpoint Flag",
+    "name": "Freezy Flake 2 - Snowstorm End Checkpoint Flag",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3593,7 +3593,7 @@
     "sort-key": "row-0357"
   },
   {
-    "name": "Freezy Flake 2 Luma Shop",
+    "name": "Freezy Flake 2 - Luma Shop",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Freezy Flake Galaxy (16)",
     "category": [
@@ -3623,7 +3623,7 @@
     "sort-key": "row-0360"
   },
   {
-    "name": "Rolling Masterpiece Paintbrush Planet 1-Up",
+    "name": "Rolling Masterpiece - Paintbrush Planet 1-Up",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3633,7 +3633,7 @@
     "sort-key": "row-0361"
   },
   {
-    "name": "Rolling Masterpiece Pallete Checkpoint Flag",
+    "name": "Rolling Masterpiece - Pallete Checkpoint Flag",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3643,7 +3643,7 @@
     "sort-key": "row-0362"
   },
   {
-    "name": "Rolling Masterpiece Space Junk 1-Up",
+    "name": "Rolling Masterpiece - Space Junk 1-Up",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3653,7 +3653,7 @@
     "sort-key": "row-0363"
   },
   {
-    "name": "Rolling Masterpiece Green Star 1",
+    "name": "Rolling Masterpiece - Green Star 1",
     "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3663,7 +3663,7 @@
     "sort-key": "row-0364"
   },
   {
-    "name": "Rolling Masterpiece Wooden Planet Checkpoint Flag",
+    "name": "Rolling Masterpiece - Wooden Planet Checkpoint Flag",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3673,7 +3673,7 @@
     "sort-key": "row-0365"
   },
   {
-    "name": "Rolling Masterpiece Comet Medal",
+    "name": "Rolling Masterpiece - Comet Medal",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3683,7 +3683,7 @@
     "sort-key": "row-0366"
   },
   {
-    "name": "Rolling Masterpiece Wooden Planet ? Coin",
+    "name": "Rolling Masterpiece - Wooden Planet ? Coin",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3693,7 +3693,7 @@
     "sort-key": "row-0367"
   },
   {
-    "name": "Rolling Masterpiece Wooden Planet Notes 1-Up #1",
+    "name": "Rolling Masterpiece - Wooden Planet Notes 1-Up #1",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3703,7 +3703,7 @@
     "sort-key": "row-0368"
   },
   {
-    "name": "Rolling Masterpiece Wooden Planet Notes 1-Up #2",
+    "name": "Rolling Masterpiece - Wooden Planet Notes 1-Up #2",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3713,7 +3713,7 @@
     "sort-key": "row-0369"
   },
   {
-    "name": "Rolling Masterpiece Wooden Planet Notes 1-Up #3",
+    "name": "Rolling Masterpiece - Wooden Planet Notes 1-Up #3",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3723,7 +3723,7 @@
     "sort-key": "row-0370"
   },
   {
-    "name": "Rolling Masterpiece Green Star 2",
+    "name": "Rolling Masterpiece - Green Star 2",
     "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3743,7 +3743,7 @@
     "sort-key": "row-0372"
   },
   {
-    "name": "Rolling Masterpiece Comet Grassy Planet ? Coin",
+    "name": "Rolling Masterpiece C - Grassy Planet ? Coin",
     "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3753,7 +3753,7 @@
     "sort-key": "row-0373"
   },
   {
-    "name": "Rolling Masterpiece Comet Grassy Planet Notes 1-Up #1",
+    "name": "Rolling Masterpiece C - Grassy Planet Notes 1-Up #1",
     "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3763,7 +3763,7 @@
     "sort-key": "row-0374"
   },
   {
-    "name": "Rolling Masterpiece Comet Grassy Planet Notes 1-Up #2",
+    "name": "Rolling Masterpiece C - Grassy Planet Notes 1-Up #2",
     "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3773,7 +3773,7 @@
     "sort-key": "row-0375"
   },
   {
-    "name": "Rolling Masterpiece Comet Grassy Planet Notes 1-Up #3",
+    "name": "Rolling Masterpiece C - Grassy Planet Notes 1-Up #3",
     "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Rolling Masterpiece Galaxy (16)",
     "category": [
@@ -3793,7 +3793,7 @@
     "sort-key": "row-0377"
   },
   {
-    "name": "Beat Block Green Star 1",
+    "name": "Beat Block - Green Star 1",
     "requires": "{OptAll(|Triple Jump| OR |Backflip|)} AND {OptOne(|Spin|)} AND {OptOne(|Beat Block Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Beat Block Galaxy (16)",
     "category": [
@@ -3803,7 +3803,7 @@
     "sort-key": "row-0378"
   },
   {
-    "name": "Beat Block 1-Up on Main Path",
+    "name": "Beat Block - 1-Up on Main Path",
     "requires": "",
     "region": "Beat Block Galaxy (16)",
     "category": [
@@ -3813,7 +3813,7 @@
     "sort-key": "row-0379"
   },
   {
-    "name": "Beat Block Comet Medal",
+    "name": "Beat Block - Comet Medal",
     "requires": "",
     "region": "Beat Block Galaxy (16)",
     "category": [
@@ -3823,7 +3823,7 @@
     "sort-key": "row-0380"
   },
   {
-    "name": "Beat Block Crystal 1-Up",
+    "name": "Beat Block - Crystal 1-Up",
     "requires": "{OptOne(|Spin|)}",
     "region": "Beat Block Galaxy (16)",
     "category": [
@@ -3833,7 +3833,7 @@
     "sort-key": "row-0381"
   },
   {
-    "name": "Beat Block Checkpoint Flag",
+    "name": "Beat Block - Checkpoint Flag",
     "requires": "",
     "region": "Beat Block Galaxy (16)",
     "category": [
@@ -3843,7 +3843,7 @@
     "sort-key": "row-0382"
   },
   {
-    "name": "Beat Block Green Star 2",
+    "name": "Beat Block - Green Star 2",
     "requires": "({OptOne(|Spin|)} OR ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Beat Block Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Beat Block Galaxy (16)",
     "category": [
@@ -3863,7 +3863,7 @@
     "sort-key": "row-0384"
   },
   {
-    "name": "Beat Block Comet First Checkpoint Flag",
+    "name": "Beat Block C - First Checkpoint Flag",
     "requires": "{OptOne(|Beat Block Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
     "region": "Beat Block Galaxy (16)",
     "category": [
@@ -3871,16 +3871,6 @@
       "Checkpoints"
     ],
     "sort-key": "row-0385"
-  },
-    {
-    "name": "Beat Block Comet Second Checkpoint Flag",
-    "requires": "{OptOne(|Beat Block Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Beat Block Galaxy (16)",
-    "category": [
-      "World 3",
-      "Checkpoints"
-    ],
-    "sort-key": "row-0385a"
   },
   {
     "name": "Beat Block Comet 1-Up Behind Block Pyramid",
@@ -3903,7 +3893,7 @@
     "sort-key": "row-0387"
   },
   {
-    "name": "Fearsome Fleet Green Star 1",
+    "name": "Fearsome Fleet - Green Star 1",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Fearsome Fleet Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Bowser Jr.'s Fearsome Fleet (28)",
     "category": [
@@ -3913,7 +3903,7 @@
     "sort-key": "row-0388"
   },
   {
-    "name": "Fearsome Fleet Bullet Bill Launcher Checkpoint Flag",
+    "name": "Fearsome Fleet - Bullet Bill Launcher Checkpoint Flag",
     "requires": "{OptOne(|Yoshi|)}",
     "region": "Bowser Jr.'s Fearsome Fleet (28)",
     "category": [
@@ -3923,7 +3913,7 @@
     "sort-key": "row-0389"
   },
   {
-    "name": "Fearsome Fleet Bowser Jr. Statue Near Electricity 1-Up",
+    "name": "Fearsome Fleet - Bowser Jr. Statue Near Electricity 1-Up",
     "requires": "{OptOne(|Yoshi|)}",
     "region": "Bowser Jr.'s Fearsome Fleet (28)",
     "category": [
@@ -3933,7 +3923,7 @@
     "sort-key": "row-0390"
   },
   {
-    "name": "Fearsome Fleet Life Mushroom Between Airships",
+    "name": "Fearsome Fleet - Life Mushroom Between Airships",
     "requires": "{OptOne(|Yoshi|)}",
     "region": "Bowser Jr.'s Fearsome Fleet (28)",
     "category": [
@@ -3943,7 +3933,7 @@
     "sort-key": "row-0391"
   },
   {
-    "name": "Fearsome Fleet Comet Medal",
+    "name": "Fearsome Fleet - Comet Medal",
     "requires": "{OptOne(|Yoshi|)}",
     "region": "Bowser Jr.'s Fearsome Fleet (28)",
     "category": [
@@ -3953,7 +3943,7 @@
     "sort-key": "row-0392"
   },
   {
-    "name": "Fearsome Fleet Green Star 2",
+    "name": "Fearsome Fleet - Green Star 2",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Fearsome Fleet Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Bowser Jr.'s Fearsome Fleet (28)",
     "category": [
@@ -3963,7 +3953,7 @@
     "sort-key": "row-0393"
   },
   {
-    "name": "Fearsome Fleet Checkpoint Flag Before Boss",
+    "name": "Fearsome Fleet - Checkpoint Flag Before Boss",
     "requires": "{OptOne(|Yoshi|)}",
     "region": "Bowser Jr.'s Fearsome Fleet (28)",
     "category": [
@@ -3973,7 +3963,7 @@
     "sort-key": "row-0394"
   },
   {
-    "name": "Fearsome Fleet Luma Shop",
+    "name": "Fearsome Fleet - Luma Shop",
     "requires": "{OptOne(|Yoshi|)}",
     "region": "Bowser Jr.'s Fearsome Fleet (28)",
     "category": [
@@ -4003,7 +3993,7 @@
     "sort-key": "row-0397"
   },
   {
-    "name": "Supermassive Comet Medal",
+    "name": "Supermassive - Comet Medal",
     "requires": "",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4013,7 +4003,7 @@
     "sort-key": "row-0398"
   },
   {
-    "name": "Supermassive Green Star 1",
+    "name": "Supermassive - Green Star 1",
     "requires": "({OptOne(|Spin|)} AND {OptOne(|Triple Jump|)} AND ({OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Supermassive Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4023,7 +4013,7 @@
     "sort-key": "row-0399"
   },
   {
-    "name": "Supermassive Long Jump Tutorial 1-Up",
+    "name": "Supermassive - Long Jump Tutorial 1-Up",
     "requires": "({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)})",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4033,7 +4023,7 @@
     "sort-key": "row-0400"
   },
   {
-    "name": "Supermassive 1-Up Atop Thwomp",
+    "name": "Supermassive - 1-Up Atop Thwomp",
     "requires": "{OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4043,7 +4033,7 @@
     "sort-key": "row-0401"
   },
   {
-    "name": "Supermassive Green Star 2",
+    "name": "Supermassive - Green Star 2",
     "requires": "({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) AND {OptOne(|Supermassive Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4053,7 +4043,7 @@
     "sort-key": "row-0402"
   },
   {
-    "name": "Supermassive Thwomp Checkpoint Flag",
+    "name": "Supermassive - Thwomp Checkpoint Flag",
     "requires": "({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)})",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4063,7 +4053,7 @@
     "sort-key": "row-0403"
   },
   {
-    "name": "Supermassive Green Star 3",
+    "name": "Supermassive - Green Star 3",
     "requires": "({OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)}) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))) AND {OptOne(|Supermassive Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4073,7 +4063,7 @@
     "sort-key": "row-0404"
   },
   {
-    "name": "Supermassive Star Chips Checkpoint Flag",
+    "name": "Supermassive - Star Chips Checkpoint Flag",
     "requires": "{OptOne(|Spin-Drill|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4083,7 +4073,7 @@
     "sort-key": "row-0405"
   },
   {
-    "name": "Supermassive Giant Brick Block ? Coin",
+    "name": "Supermassive - Giant Brick Block ? Coin",
     "requires": "{OptOne(|Spin-Drill|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4093,7 +4083,7 @@
     "sort-key": "row-0406"
   },
   {
-    "name": "Supermassive Brick Block ? Coin 1-Up Reward",
+    "name": "Supermassive - Brick Block ? Coin 1-Up Reward",
     "requires": "{OptOne(|Spin-Drill|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4103,7 +4093,7 @@
     "sort-key": "row-0407"
   },
   {
-    "name": "Supermassive Big Wigglers Checkpoint Flag",
+    "name": "Supermassive - Big Wigglers Checkpoint Flag",
     "requires": "{OptOne(|Spin-Drill|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4113,7 +4103,7 @@
     "sort-key": "row-0408"
   },
   {
-    "name": "Supermassive Big Wigglers 1-Up",
+    "name": "Supermassive - Big Wigglers 1-Up",
     "requires": "{OptOne(|Spin-Drill|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4123,7 +4113,7 @@
     "sort-key": "row-0409"
   },
   {
-    "name": "Supermassive Above Flagpole ? Coin",
+    "name": "Supermassive - Above Flagpole ? Coin",
     "requires": "{OptOne(|Spin-Drill|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4133,7 +4123,7 @@
     "sort-key": "row-0410"
   },
   {
-    "name": "Supermassive Above Flagpole ? Coin 1-Up Reward",
+    "name": "Supermassive - Above Flagpole ? Coin 1-Up Reward",
     "requires": "{OptOne(|Spin-Drill|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
     "region": "Supermassive Galaxy (28)",
     "category": [
@@ -4173,7 +4163,7 @@
     "sort-key": "row-0414"
   },
   {
-    "name": "Flipsville Teleporter 1-Up #1",
+    "name": "Flipsville - Teleporter 1-Up #1",
     "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4183,7 +4173,7 @@
     "sort-key": "row-0415"
   },
   {
-    "name": "Flipsville Teleporter 1-Up #2",
+    "name": "Flipsville - Teleporter 1-Up #2",
     "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4193,7 +4183,7 @@
     "sort-key": "row-0416"
   },
   {
-    "name": "Flipsville Teleporter 1-Up #3",
+    "name": "Flipsville - Teleporter 1-Up #3",
     "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4203,7 +4193,7 @@
     "sort-key": "row-0417"
   },
   {
-    "name": "Flipsville Comet Medal",
+    "name": "Flipsville - Comet Medal",
     "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4213,7 +4203,7 @@
     "sort-key": "row-0418"
   },
   {
-    "name": "Flipsville 1 Corner Crate 1-Up",
+    "name": "Flipsville 1 - Corner Crate 1-Up",
     "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4223,7 +4213,7 @@
     "sort-key": "row-0419"
   },
   {
-    "name": "Flipsville Green Star 1",
+    "name": "Flipsville - Green Star 1",
     "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Flipsville Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4233,7 +4223,7 @@
     "sort-key": "row-0420"
   },
   {
-    "name": "Flipsville 1 Chomp Checkpoint Flag",
+    "name": "Flipsville 1 - Chomp Checkpoint Flag",
     "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4243,7 +4233,7 @@
     "sort-key": "row-0421"
   },
   {
-    "name": "Flipsville Green Star 2",
+    "name": "Flipsville - Green Star 2",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Flipsville Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4253,7 +4243,7 @@
     "sort-key": "row-0422"
   },
   {
-    "name": "Flipsville 1 Chomp Pit Life Mushroom",
+    "name": "Flipsville 1 - Chomp Pit Life Mushroom",
     "requires": "{OptOne(|Ground Pound|)}",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4263,7 +4253,7 @@
     "sort-key": "row-0423"
   },
   {
-    "name": "Flipsville 1 Lawn Checkpoint Flag",
+    "name": "Flipsville 1 - Lawn Checkpoint Flag",
     "requires": "{OptOne(|Ground Pound|)}",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4273,7 +4263,7 @@
     "sort-key": "row-0424"
   },
   {
-    "name": "Flipsville Green Star 3",
+    "name": "Flipsville - Green Star 3",
     "requires": "({OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Flipsville Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4283,7 +4273,7 @@
     "sort-key": "row-0425"
   },
   {
-    "name": "Flipsville 1 Starshroom Checkpoint Flag",
+    "name": "Flipsville 1 - Starshroom Checkpoint Flag",
     "requires": "{OptOne(|Ground Pound|)}",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4293,7 +4283,7 @@
     "sort-key": "row-0426"
   },
   {
-    "name": "Flipsville 1 Luma Shop",
+    "name": "Flipsville 1 - Luma Shop",
     "requires": "{OptOne(|Ground Pound|)}",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4313,7 +4303,7 @@
     "sort-key": "row-0428"
   },
   {
-    "name": "Flipsville 2 1-Up Below Launch Star",
+    "name": "Flipsville 2 - 1-Up Below Launch Star",
     "requires": "{OptOne(|Spin-Drill|)}l",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4323,7 +4313,7 @@
     "sort-key": "row-0429"
   },
   {
-    "name": "Flipsville 2 Dirt Tower Checkpoint Flag",
+    "name": "Flipsville 2 - Dirt Tower Checkpoint Flag",
     "requires": "{OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}))",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4333,7 +4323,7 @@
     "sort-key": "row-0430"
   },
   {
-    "name": "Flipsville 2 Silver Stars ? Coin",
+    "name": "Flipsville 2 - Silver Stars ? Coin",
     "requires": "{OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4343,7 +4333,7 @@
     "sort-key": "row-0431"
   },
   {
-    "name": "Flipsville 2 Silver Stars ? Coin 1-Up Reward",
+    "name": "Flipsville 2 - Silver Stars ? Coin 1-Up Reward",
     "requires": "{OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4353,7 +4343,7 @@
     "sort-key": "row-0432"
   },
   {
-    "name": "Flipsville 2 Silver Stars 1-Up on Right",
+    "name": "Flipsville 2 - Silver Stars 1-Up on Right",
     "requires": "{OptOne(|Spin-Drill|)}",
     "region": "Flipsville Galaxy (28)",
     "category": [
@@ -4383,7 +4373,7 @@
     "sort-key": "row-0435"
   },
   {
-    "name": "Starshine Beach 1-Up on Hut Roof",
+    "name": "Starshine Beach - 1-Up on Hut Roof",
     "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND (({OptOne(|Backflip|)} AND ({OptOne(|Yoshi|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Yoshi|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}))))",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4393,7 +4383,7 @@
     "sort-key": "row-0436"
   },
   {
-    "name": "Starshine Beach Bonus Room ? Coin",
+    "name": "Starshine Beach - Bonus Room ? Coin",
     "requires": "{OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4403,7 +4393,7 @@
     "sort-key": "row-0437"
   },
   {
-    "name": "Starshine Beach Bonus Room ? Coin 1-Up Reward",
+    "name": "Starshine Beach - Bonus Room ? Coin 1-Up Reward",
     "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4413,7 +4403,7 @@
     "sort-key": "row-0438"
   },
   {
-    "name": "Starshine Beach 1 Teleporter 1-Up #1",
+    "name": "Starshine Beach 1 - Teleporter 1-Up #1",
     "requires": "{OptOne(|Yoshi|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4423,7 +4413,7 @@
     "sort-key": "row-0439"
   },
   {
-    "name": "Starshine Beach 1 Teleporter 1-Up #2",
+    "name": "Starshine Beach 1 - Teleporter 1-Up #2",
     "requires": "{OptOne(|Yoshi|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4433,7 +4423,7 @@
     "sort-key": "row-0440"
   },
   {
-    "name": "Starshine Beach 1 Teleporter 1-Up #3",
+    "name": "Starshine Beach 1 - Teleporter 1-Up #3",
     "requires": "{OptOne(|Yoshi|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4443,7 +4433,7 @@
     "sort-key": "row-0441"
   },
   {
-    "name": "Starshine Beach Green Star 1",
+    "name": "Starshine Beach - Green Star 1",
     "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND (({OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}) OR (({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND {OptOne(|Spin|)})) AND {OptOne(|Starshine Beach Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4453,7 +4443,7 @@
     "sort-key": "row-0442"
   },
   {
-    "name": "Starshine Beach 1 1-Up High Above Blimp Fruit",
+    "name": "Starshine Beach 1 - 1-Up High Above Blimp Fruit",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4463,7 +4453,7 @@
     "sort-key": "row-0443"
   },
   {
-    "name": "Starshine Beach Green Star 2",
+    "name": "Starshine Beach - Green Star 2",
     "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND ({OptOne(|Backflip|)} OR {YamlEnabled(Advanced_Logic)} OR ({OptOne(|Dash Pepper|)} AND {OptOne(|Sideflip|)}))) AND {OptOne(|Starshine Beach Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4473,7 +4463,7 @@
     "sort-key": "row-0444"
   },
   {
-    "name": "Starshine Beach Comet Medal",
+    "name": "Starshine Beach - Comet Medal",
     "requires": "{OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4483,7 +4473,7 @@
     "sort-key": "row-0445"
   },
   {
-    "name": "Starshine Beach 1 1-Up At Bottom of Ocean",
+    "name": "Starshine Beach 1 - 1-Up At Bottom of Ocean",
     "requires": "{OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4503,7 +4493,7 @@
     "sort-key": "row-0447"
   },
   {
-    "name": "Starshine Beach 2 Yellow Chuckster 1-Up",
+    "name": "Starshine Beach 2 - Yellow Chuckster 1-Up",
     "requires": "{OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4513,7 +4503,7 @@
     "sort-key": "row-0448"
   },
   {
-    "name": "Starshine Beach 2 1-Up Above Ocean Spring Platform",
+    "name": "Starshine Beach 2 - 1-Up Above Ocean Spring Platform",
     "requires": "{OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4523,7 +4513,7 @@
     "sort-key": "row-0449"
   },
   {
-    "name": "Starshine Beach 2 1-Up Between Gringills",
+    "name": "Starshine Beach 2 - 1-Up Between Gringills",
     "requires": "{OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4533,7 +4523,7 @@
     "sort-key": "row-0450"
   },
   {
-    "name": "Starshine Beach Green Star 3",
+    "name": "Starshine Beach - Green Star 3",
     "requires": "(({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)}) AND {OptOne(|Ground Pound|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}) AND {OptOne(|Starshine Beach Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Starshine Beach Galaxy (28)",
     "category": [
@@ -4563,7 +4553,7 @@
     "sort-key": "row-0453"
   },
   {
-    "name": "Chompworks Comet Medal",
+    "name": "Chompworks - Comet Medal",
     "requires": "{OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4573,7 +4563,7 @@
     "sort-key": "row-0454"
   },
   {
-    "name": "Chompworks 1-Up Below Start Chomp Dispenser",
+    "name": "Chompworks - 1-Up Below Start Chomp Dispenser",
     "requires": "{OptOne(|Backflip|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Spin|)} OR {OptOne(|Spring Mushroom|)}))",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4583,7 +4573,7 @@
     "sort-key": "row-0455"
   },
   {
-    "name": "Chompworks Green Star 1",
+    "name": "Chompworks - Green Star 1",
     "requires": "({OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Chompworks Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4593,7 +4583,7 @@
     "sort-key": "row-0456"
   },
   {
-    "name": "Chompworks Mini-Chomps Planet Checkpoint Flag",
+    "name": "Chompworks - Mini-Chomps Planet Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} OR {OptOne(|Spring Mushroom|)} OR {YamlEnabled(Advanced_Logic)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4603,7 +4593,7 @@
     "sort-key": "row-0457"
   },
   {
-    "name": "Chompworks 1 Bonus Room Chance Cube #1",
+    "name": "Chompworks 1 - Bonus Room Chance Cube #1",
     "requires": "{OptOne(|Spin|)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4613,7 +4603,7 @@
     "sort-key": "row-0458"
   },
   {
-    "name": "Chompworks 1 Bonus Room Chance Cube #2",
+    "name": "Chompworks 1 - Bonus Room Chance Cube #2",
     "requires": "{OptOne(|Spin|)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4623,7 +4613,7 @@
     "sort-key": "row-0459"
   },
   {
-    "name": "Chompworks 1 Bonus Room Chance Cube #3",
+    "name": "Chompworks 1 - Bonus Room Chance Cube #3",
     "requires": "{OptOne(|Spin|)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4633,7 +4623,7 @@
     "sort-key": "row-0460"
   },
   {
-    "name": "Chompworks 1 1-Up Atop Mini Chomp Dispenser",
+    "name": "Chompworks 1 - 1-Up Atop Mini Chomp Dispenser",
     "requires": "{OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)})",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4643,7 +4633,7 @@
     "sort-key": "row-0461"
   },
   {
-    "name": "Chompworks 1 1-Up Above Tilting Platform",
+    "name": "Chompworks 1 - 1-Up Above Tilting Platform",
     "requires": "{OptOne(|Spin|)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4653,7 +4643,7 @@
     "sort-key": "row-0462"
   },
   {
-    "name": "Chompworks Green Star 2",
+    "name": "Chompworks - Green Star 2",
     "requires": "({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Chompworks Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4663,7 +4653,7 @@
     "sort-key": "row-0463"
   },
   {
-    "name": "Chompworks 1 Lava Chomp Planet Checkpoint Flag",
+    "name": "Chompworks 1 - Lava Chomp Planet Checkpoint Flag",
     "requires": "{OptOne(|Spin|)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4683,7 +4673,7 @@
     "sort-key": "row-0465"
   },
   {
-    "name": "Chompworks 2 1-Up High Above Checkpoint",
+    "name": "Chompworks 2 - 1-Up High Above Checkpoint",
     "requires": "{OptOne(|Spring Mushroom|)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4693,7 +4683,7 @@
     "sort-key": "row-0466"
   },
   {
-    "name": "Chompworks 2 Tower Checkpoint Flag",
+    "name": "Chompworks 2 - Tower Checkpoint Flag",
     "requires": "{OptOne(|Spring Mushroom|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Long Jump|)}))",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4703,7 +4693,7 @@
     "sort-key": "row-0467"
   },
   {
-    "name": "Chompworks 2 Tower ? Coin",
+    "name": "Chompworks 2 - Tower ? Coin",
     "requires": "{OptOne(|Spring Mushroom|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR ({OptOne(|Sideflip|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Long Jump|)}))))",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4713,7 +4703,7 @@
     "sort-key": "row-0468"
   },
   {
-    "name": "Chompworks 2 Tower ? Coin 1-Up Reward",
+    "name": "Chompworks 2 - Tower ? Coin 1-Up Reward",
     "requires": "{OptOne(|Spring Mushroom|)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4723,7 +4713,7 @@
     "sort-key": "row-0469"
   },
   {
-    "name": "Chompworks 2 Tower 1-Up on Spinning Bar",
+    "name": "Chompworks 2 - Tower 1-Up on Spinning Bar",
     "requires": "{OptOne(|Spring Mushroom|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR ({OptOne(|Sideflip|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Long Jump|)}))))",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4733,7 +4723,7 @@
     "sort-key": "row-0470"
   },
   {
-    "name": "Chompworks Green Star 3",
+    "name": "Chompworks - Green Star 3",
     "requires": "({OptOne(|Spring Mushroom|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))) AND {OptOne(|Chompworks Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Chompworks Galaxy (28)",
     "category": [
@@ -4763,7 +4753,7 @@
     "sort-key": "row-0473"
   },
   {
-    "name": "Sweet Mystery Start Checkpoint Flag",
+    "name": "Sweet Mystery - Start Checkpoint Flag",
     "requires": "{OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Sweet Mystery Galaxy (28)",
     "category": [
@@ -4773,7 +4763,7 @@
     "sort-key": "row-0474"
   },
   {
-    "name": "Sweet Mystery Green Star 1",
+    "name": "Sweet Mystery - Green Star 1",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)} AND {OptOne(|Sweet Mystery Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Sweet Mystery Galaxy (28)",
     "category": [
@@ -4783,7 +4773,7 @@
     "sort-key": "row-0475"
   },
   {
-    "name": "Sweet Mystery Second Path 1-Up",
+    "name": "Sweet Mystery - Second Path 1-Up",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
     "region": "Sweet Mystery Galaxy (28)",
     "category": [
@@ -4793,7 +4783,7 @@
     "sort-key": "row-0476"
   },
   {
-    "name": "Sweet Mystery Green Star 2",
+    "name": "Sweet Mystery - Green Star 2",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)} AND {OptOne(|Sweet Mystery Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Sweet Mystery Galaxy (28)",
     "category": [
@@ -4803,7 +4793,7 @@
     "sort-key": "row-0477"
   },
   {
-    "name": "Sweet Mystery Comet Medal",
+    "name": "Sweet Mystery - Comet Medal",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
     "region": "Sweet Mystery Galaxy (28)",
     "category": [
@@ -4813,7 +4803,7 @@
     "sort-key": "row-0478"
   },
   {
-    "name": "Sweet Mystery Shrinking Platform 1-Up",
+    "name": "Sweet Mystery - Shrinking Platform 1-Up",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
     "region": "Sweet Mystery Galaxy (28)",
     "category": [
@@ -4823,7 +4813,7 @@
     "sort-key": "row-0479"
   },
   {
-    "name": "Sweet Mystery Shrinking Platform Section Checkpoint Flag",
+    "name": "Sweet Mystery - Shrinking Platform Section Checkpoint Flag",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
     "region": "Sweet Mystery Galaxy (28)",
     "category": [
@@ -4833,7 +4823,7 @@
     "sort-key": "row-0480"
   },
   {
-    "name": "Sweet Mystery Gift Box Checkpoint Flag",
+    "name": "Sweet Mystery - Gift Box Checkpoint Flag",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
     "region": "Sweet Mystery Galaxy (28)",
     "category": [
@@ -4863,7 +4853,7 @@
     "sort-key": "row-0483"
   },
   {
-    "name": "Honeyhop 1 Bonus Room Chance Cube #1",
+    "name": "Honeyhop 1 - Bonus Room Chance Cube #1",
     "requires": "{OptOne(|Bee Mushroom|)}",
     "region": "Honeyhop Galaxy (28)",
     "category": [
@@ -4873,7 +4863,7 @@
     "sort-key": "row-0484"
   },
   {
-    "name": "Honeyhop 1 Bonus Room Chance Cube #2",
+    "name": "Honeyhop 1 - Bonus Room Chance Cube #2",
     "requires": "{OptOne(|Bee Mushroom|)}",
     "region": "Honeyhop Galaxy (28)",
     "category": [
@@ -4883,7 +4873,7 @@
     "sort-key": "row-0485"
   },
   {
-    "name": "Honeyhop 1 Bonus Room Chance Cube #3",
+    "name": "Honeyhop 1 - Bonus Room Chance Cube #3",
     "requires": "{OptOne(|Bee Mushroom|)}",
     "region": "Honeyhop Galaxy (28)",
     "category": [
@@ -4893,7 +4883,7 @@
     "sort-key": "row-0486"
   },
   {
-    "name": "Honeyhop 1 Hidden 1-Up in Water",
+    "name": "Honeyhop 1 - Hidden 1-Up in Water",
     "requires": "{OptOne(|Bee Mushroom|)}",
     "region": "Honeyhop Galaxy (28)",
     "category": [
@@ -4903,7 +4893,7 @@
     "sort-key": "row-0487"
   },
   {
-    "name": "Honeyhop Green Star 1",
+    "name": "Honeyhop - Green Star 1",
     "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)})) AND {OptOne(|Honeyhop Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Honeyhop Galaxy (28)",
     "category": [
@@ -4913,7 +4903,7 @@
     "sort-key": "row-0488"
   },
   {
-    "name": "Honeyhop 1 Main Planet Checkpoint Flag",
+    "name": "Honeyhop 1 - Main Planet Checkpoint Flag",
     "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}))",
     "region": "Honeyhop Galaxy (28)",
     "category": [
@@ -4923,7 +4913,7 @@
     "sort-key": "row-0489"
   },
   {
-    "name": "Honeyhop 1 Life Mushroom Over Flower",
+    "name": "Honeyhop 1 - Life Mushroom Over Flower",
     "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}))",
     "region": "Honeyhop Galaxy (28)",
     "category": [
@@ -4933,7 +4923,7 @@
     "sort-key": "row-0490"
   },
   {
-    "name": "Honeyhop Comet Medal",
+    "name": "Honeyhop - Comet Medal",
     "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}))",
     "region": "Honeyhop Galaxy (28)",
     "category": [
@@ -4943,7 +4933,7 @@
     "sort-key": "row-0491"
   },
   {
-    "name": "Honeyhop Green Star 2",
+    "name": "Honeyhop - Green Star 2",
     "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)})) AND {OptOne(|Honeyhop Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Honeyhop Galaxy (28)",
     "category": [
@@ -4963,7 +4953,7 @@
     "sort-key": "row-0493"
   },
   {
-    "name": "Honeyhop 2 Top ? Coin",
+    "name": "Honeyhop 2 - Top ? Coin",
     "requires": "|Chimp Letter Honeyhop|",
     "region": "Honeyhop Galaxy (28)",
     "category": [
@@ -4983,7 +4973,7 @@
     "sort-key": "row-0495"
   },
   {
-    "name": "Gravity Gauntlet Life Mushroom Near Firebar",
+    "name": "Gravity Gauntlet - Life Mushroom Near Firebar",
     "requires": "",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -4993,7 +4983,7 @@
     "sort-key": "row-0496"
   },
   {
-    "name": "Gravity Gauntlet Green Star 1",
+    "name": "Gravity Gauntlet - Green Star 1",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5003,7 +4993,7 @@
     "sort-key": "row-0497"
   },
   {
-    "name": "Gravity Gauntlet 2D Checkpoint Flag",
+    "name": "Gravity Gauntlet - 2D Checkpoint Flag",
     "requires": "",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5013,7 +5003,7 @@
     "sort-key": "row-0498"
   },
   {
-    "name": "Gravity Gauntlet Underwater 1-Up",
+    "name": "Gravity Gauntlet - Underwater 1-Up",
     "requires": "",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5023,7 +5013,7 @@
     "sort-key": "row-0499"
   },
   {
-    "name": "Gravity Gauntlet Underwater ? Coin",
+    "name": "Gravity Gauntlet - Underwater ? Coin",
     "requires": "",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5033,7 +5023,7 @@
     "sort-key": "row-0500"
   },
   {
-    "name": "Gravity Gauntlet Underwater ? Coin 1-Up Reward",
+    "name": "Gravity Gauntlet - Underwater ? Coin 1-Up Reward",
     "requires": "",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5043,7 +5033,7 @@
     "sort-key": "row-0501"
   },
   {
-    "name": "Gravity Gauntlet Whomp Checkpoint Flag",
+    "name": "Gravity Gauntlet - Whomp Checkpoint Flag",
     "requires": "",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5053,7 +5043,7 @@
     "sort-key": "row-0502"
   },
   {
-    "name": "Gravity Gauntlet 1-Up High Above Checkpoint",
+    "name": "Gravity Gauntlet - 1-Up High Above Checkpoint",
     "requires": "{OptOne(|Spin|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)}))",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5063,7 +5053,7 @@
     "sort-key": "row-0503"
   },
   {
-    "name": "Gravity Gauntlet Green Star 2",
+    "name": "Gravity Gauntlet - Green Star 2",
     "requires": "(({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND {OptOne(|Spin|)}) AND {OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5073,7 +5063,7 @@
     "sort-key": "row-0504"
   },
   {
-    "name": "Gravity Gauntlet 1-Up Among Whomps",
+    "name": "Gravity Gauntlet - 1-Up Among Whomps",
     "requires": "",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5093,7 +5083,7 @@
     "sort-key": "row-0498a"
   },
   {
-    "name": "Gravity Gauntlet 1-Up Behind Grate",
+    "name": "Gravity Gauntlet - 1-Up Behind Grate",
     "requires": "",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5103,7 +5093,7 @@
     "sort-key": "row-0507"
   },
   {
-    "name": "Gravity Gauntlet Bowser Checkpoint Flag",
+    "name": "Gravity Gauntlet - Bowser Checkpoint Flag",
     "requires": "",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5113,7 +5103,7 @@
     "sort-key": "row-0508"
   },
   {
-    "name": "Gravity Gauntlet Crystal Life Mushroom Before Bowser",
+    "name": "Gravity Gauntlet - Crystal Life Mushroom Before Bowser",
     "requires": "{OptOne(|Spin|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5133,7 +5123,7 @@
     "sort-key": "row-0510"
   },
   {
-    "name": "Gravity Gauntlet Comet Clock on Crate at Start",
+    "name": "Gravity Gauntlet C - Clock on Crate at Start",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5143,7 +5133,7 @@
     "sort-key": "row-0511"
   },
   {
-    "name": "Gravity Gauntlet Comet Clock on Lava Bubble Grate",
+    "name": "Gravity Gauntlet C - Clock on Lava Bubble Grate",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5153,7 +5143,7 @@
     "sort-key": "row-0512"
   },
   {
-    "name": "Gravity Gauntlet Comet Clock on Block in 2D",
+    "name": "Gravity Gauntlet C - Clock on Block in 2D",
     "requires": "({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5163,7 +5153,7 @@
     "sort-key": "row-0513"
   },
   {
-    "name": "Gravity Gauntlet Comet Clock Over 2D Lava Bubble",
+    "name": "Gravity Gauntlet C - Clock Over 2D Lava Bubble",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5173,7 +5163,7 @@
     "sort-key": "row-0514"
   },
   {
-    "name": "Gravity Gauntlet Comet Clock on Wall Jump Blocks",
+    "name": "Gravity Gauntlet C - Clock on Wall Jump Blocks",
     "requires": "{OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)} OR ({OptOne(|Backflip|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5183,7 +5173,7 @@
     "sort-key": "row-0515"
   },
   {
-    "name": "Gravity Gauntlet Comet Underwater Clock #1",
+    "name": "Gravity Gauntlet C - Underwater Clock #1",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5193,7 +5183,7 @@
     "sort-key": "row-0516"
   },
   {
-    "name": "Gravity Gauntlet Comet Underwater Clock #2",
+    "name": "Gravity Gauntlet C - Underwater Clock #2",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5203,7 +5193,7 @@
     "sort-key": "row-0517"
   },
   {
-    "name": "Gravity Gauntlet Comet Clock by Exit of Water",
+    "name": "Gravity Gauntlet C - Clock by Exit of Water",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5213,7 +5203,7 @@
     "sort-key": "row-0518"
   },
   {
-    "name": "Gravity Gauntlet Comet Clock Among Whomps",
+    "name": "Gravity Gauntlet C - Clock Among Whomps",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5223,7 +5213,7 @@
     "sort-key": "row-0519"
   },
   {
-    "name": "Gravity Gauntlet Comet Clock at Entrance to Final Section",
+    "name": "Gravity Gauntlet C - Clock at Entrance to Final Section",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5233,7 +5223,7 @@
     "sort-key": "row-0520"
   },
   {
-    "name": "Gravity Gauntlet Comet Clock Firebar Wheel Clock #1",
+    "name": "Gravity Gauntlet C - Clock Firebar Wheel Clock #1",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5243,7 +5233,7 @@
     "sort-key": "row-0521"
   },
   {
-    "name": "Gravity Gauntlet Comet Clock Firebar Wheel Clock #2",
+    "name": "Gravity Gauntlet C - Clock Firebar Wheel Clock #2",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
@@ -5253,7 +5243,7 @@
     "sort-key": "row-0522"
   },
     {
-    "name": "Gravity Gauntlet Comet Spinning Platforms Clock",
+    "name": "Gravity Gauntlet C - Spinning Platforms Clock",
     "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Gravity Gauntlet (40)",
     "category": [
