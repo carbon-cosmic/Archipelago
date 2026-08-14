@@ -631,7 +631,19 @@
 
   },
   "Cloudy Court Galaxy": {
-    "connects_to": []
+    "connects_to": ["Cloudy Court - Start", "Cloudy Court C - Star Chips"]
+  },
+  "Cloudy Court - Start": {
+    "connects_to": ["Cloudy Court - Beginning Clouds"],
+    "exit_requires": "|Has Cloud|"
+  },
+  "Cloudy Court - Beginning Clouds": {
+    "connects_to": ["Cloudy Court - Instruments"],
+    "exit_requires": "|Can Make Ground Clouds|"
+  },
+  "Cloudy Court - Instruments": {
+    "connects_to": ["Cloudy Court - Towers"],
+    "exit_requires": "|Can Make Air Clouds|"
   },
   "Haunty Halls Galaxy": {
     "connects_to": []
