@@ -3795,7 +3795,7 @@
   {
     "name": "Step to the Beep",
     "requires": "",
-    "region": "Beat Block Galaxy (16)",
+    "region": "Beat Block - Main",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3804,8 +3804,8 @@
   },
   {
     "name": "Beat Block - Green Star 1",
-    "requires": "{OptAll(|Triple Jump| OR |Backflip|)} AND {OptOne(|Spin|)} AND {OptOne(|Beat Block Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Beat Block Galaxy (16)",
+    "requires": "|Beat Block Green Stars| and (|Jump Height 6| or (|Has Backflip| and |Has Air Spin|))",
+    "region": "Beat Block - Main",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3815,7 +3815,7 @@
   {
     "name": "Beat Block - 1-Up on Main Path",
     "requires": "",
-    "region": "Beat Block Galaxy (16)",
+    "region": "Beat Block - Main",
     "category": [
       "World 3",
       "1-Ups"
@@ -3825,7 +3825,7 @@
   {
     "name": "Beat Block - Comet Medal",
     "requires": "",
-    "region": "Beat Block Galaxy (16)",
+    "region": "Beat Block - Main",
     "category": [
       "World 3",
       "Comet Medal Locations"
@@ -3834,8 +3834,8 @@
   },
   {
     "name": "Beat Block - Crystal 1-Up",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Beat Block Galaxy (16)",
+    "requires": "|Has Ground Spin|",
+    "region": "Beat Block - Main",
     "category": [
       "World 3",
       "1-Ups"
@@ -3845,7 +3845,7 @@
   {
     "name": "Beat Block - Checkpoint Flag",
     "requires": "",
-    "region": "Beat Block Galaxy (16)",
+    "region": "Beat Block - Main",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3854,8 +3854,8 @@
   },
   {
     "name": "Beat Block - Green Star 2",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Beat Block Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Beat Block Galaxy (16)",
+    "requires": "|Beat Block Green Stars| and (|Has Air Spin| or |Has Back or Sideflip| or (|Has Triple Jump| and |Hard Logic|))",
+    "region": "Beat Block - Main",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3864,8 +3864,8 @@
   },
   {
     "name": "Silver Stars in Double Time",
-    "requires": "{OptOne(|Beat Block Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Beat Block Galaxy (16)",
+    "requires": "",
+    "region": "Beat Block C - Main",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3874,8 +3874,8 @@
   },
   {
     "name": "Beat Block C - First Checkpoint Flag",
-    "requires": "{OptOne(|Beat Block Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Beat Block Galaxy (16)",
+    "requires": "",
+    "region": "Beat Block C - Main",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3883,9 +3883,9 @@
     "sort-key": "row-0385"
   },
   {
-    "name": "Beat Block Comet 1-Up Behind Block Pyramid",
-    "requires": "{OptOne(|Beat Block Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Beat Block Galaxy (16)",
+    "name": "Beat Block C - 1-Up Behind Block Pyramid",
+    "requires": "",
+    "region": "Beat Block C - Main",
     "category": [
       "World 3",
       "1-Ups"

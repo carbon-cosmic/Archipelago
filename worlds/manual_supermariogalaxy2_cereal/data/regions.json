@@ -774,7 +774,13 @@
 
   },
   "Beat Block Galaxy": {
-    "connects_to": []
+    "connects_to": ["Beat Block - Main", "Beat Block C - Main"]
+  },
+  "Beat Block - Main": {
+
+  },
+  "Beat Block C - Main": {
+    "entrance_requires": "|Has Double Time Comets| and {OptOne(|Beat Block Comet Medal|)}"
   },
   "Bowser Jr.'s Fearsome Fleet": {
     "connects_to": []
