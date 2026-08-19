@@ -3994,8 +3994,8 @@
   },
   {
     "name": "Huge Trouble with Big Wigglers",
-    "requires": "{OptOne(|Spin-Drill|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "|Has Long Jump| or |Medium Logic|",
+    "region": "Supermassive - Wigglers",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -4005,7 +4005,7 @@
   {
     "name": "Supermassive - Comet Medal",
     "requires": "",
-    "region": "Supermassive Galaxy (28)",
+    "region": "Supermassive - Start",
     "category": [
       "World 4",
       "Comet Medal Locations"
@@ -4014,8 +4014,8 @@
   },
   {
     "name": "Supermassive - Green Star 1",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Triple Jump|)} AND ({OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Supermassive Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "|Supermassive Green Stars| and |Jump Height 6|",
+    "region": "Supermassive - Pipes",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4024,8 +4024,8 @@
   },
   {
     "name": "Supermassive - Long Jump Tutorial 1-Up",
-    "requires": "({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)})",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "",
+    "region": "Supermassive - Thwomps",
     "category": [
       "World 4",
       "1-Ups"
@@ -4034,8 +4034,8 @@
   },
   {
     "name": "Supermassive - 1-Up Atop Thwomp",
-    "requires": "{OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "|Has Wall Jump|",
+    "region": "Supermassive - Thwomps",
     "category": [
       "World 4",
       "1-Ups"
@@ -4044,8 +4044,8 @@
   },
   {
     "name": "Supermassive - Green Star 2",
-    "requires": "({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) AND {OptOne(|Supermassive Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "|Supermassive Green Stars|",
+    "region": "Supermassive - Thowmps",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4054,8 +4054,8 @@
   },
   {
     "name": "Supermassive - Thwomp Checkpoint Flag",
-    "requires": "({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)})",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "",
+    "region": "Supermassive - Thwomps",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4064,8 +4064,8 @@
   },
   {
     "name": "Supermassive - Green Star 3",
-    "requires": "({OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)}) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))) AND {OptOne(|Supermassive Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "|Has Long Jump| or |Medium Logic|",
+    "region": "Supermassive - Koopas",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4074,8 +4074,8 @@
   },
   {
     "name": "Supermassive - Star Chips Checkpoint Flag",
-    "requires": "{OptOne(|Spin-Drill|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "",
+    "region": "Supermassive - Star Chips",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4084,8 +4084,8 @@
   },
   {
     "name": "Supermassive - Giant Brick Block ? Coin",
-    "requires": "{OptOne(|Spin-Drill|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "",
+    "region": "Supermassive - Star Chips",
     "category": [
       "World 4",
       "? Coins"
@@ -4094,8 +4094,8 @@
   },
   {
     "name": "Supermassive - Brick Block ? Coin 1-Up Reward",
-    "requires": "{OptOne(|Spin-Drill|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "|Has Long Jump|",
+    "region": "Supermassive - Star Chips",
     "category": [
       "World 4",
       "1-Ups"
@@ -4104,8 +4104,8 @@
   },
   {
     "name": "Supermassive - Big Wigglers Checkpoint Flag",
-    "requires": "{OptOne(|Spin-Drill|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "",
+    "region": "Supermassive - Wigglers",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4114,8 +4114,8 @@
   },
   {
     "name": "Supermassive - Big Wigglers 1-Up",
-    "requires": "{OptOne(|Spin-Drill|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "|Has Long Jump| or |Has Air Spin|",
+    "region": "Supermassive - Wigglers",
     "category": [
       "World 4",
       "1-Ups"
@@ -4124,8 +4124,8 @@
   },
   {
     "name": "Supermassive - Above Flagpole ? Coin",
-    "requires": "{OptOne(|Spin-Drill|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "|Has Long Jump| or |Medium Logic|",
+    "region": "Supermassive - Wigglers",
     "category": [
       "World 4",
       "? Coins"
@@ -4134,8 +4134,8 @@
   },
   {
     "name": "Supermassive - Above Flagpole ? Coin 1-Up Reward",
-    "requires": "{OptOne(|Spin-Drill|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "|Has Long Jump| or |Medium Logic|",
+    "region": "Supermassive - Wigglers",
     "category": [
       "World 4",
       "1-Ups"
@@ -4144,8 +4144,8 @@
   },
   {
     "name": "Big Wigglers Speed Run",
-    "requires": "({OptOne(|Spin-Drill|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))) AND {OptOne(|Supermassive Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "|Has Long Jump| or |Medium Logic|",
+    "region": "Supermassive C - Wigglers",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -4153,9 +4153,18 @@
     "sort-key": "row-0412"
   },
   {
+    "name": "Supermassive C - Giant Brick Block ? Coin",
+    "requires": "",
+    "region": "Supermassive C - Star Chips",
+    "category": [
+      "World 4",
+      "? Coins"
+    ]
+  },
+  {
     "name": "In Full Bloom",
-    "requires": "{OptOne(|Spin-Drill|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Spin|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
-    "region": "Supermassive Galaxy (28)",
+    "requires": "",
+    "region": "Supermassive - Garden Planet",
     "category": [
       "World 4",
       "Power Star Locations"

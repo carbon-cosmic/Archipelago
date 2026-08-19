@@ -810,7 +810,58 @@
       "Honeyhop Galaxy", "Starshine Beach Galaxy", "Chompworks Galaxy", "Bowser's Gravity Gauntlet"]
   },
   "Supermassive Galaxy": {
-    "connects_to": []
+    "connects_to": ["Supermassive - Start", "Supermassive C - Start"]
+  },
+  "Supermassive - Start": {
+    "connects_to": ["Supermassive - Pipes"]
+  },
+  "Supermassive - Pipes": {
+    "connects_to": ["Supermassive - Thwomps"],
+    "entrance_requires": "|Has Wall Jump| or (|Jump Height 6| and |Hard Logic|)"
+  },
+  "Supermassive - Thowmps": {
+    "connects_to": ["Supermassive - Koopas"],
+    "entrance_requires": "|Has Long Jump| or |Has Air Spin|"
+  },
+  "Supermassive - Koopas": {
+    "connects_to": ["Supermassive - Star Chips"],
+    "entrance_requires": "|Jump Height 4| or |Has Wall Jump|",
+    "exit_requires": "|Has Spin-Drill|"
+  },
+  "Supermassive - Star Chips": {
+    "connects_to": ["Supermassive - Garden Planet"]
+  },
+  "Supermassive - Garden Planet": {
+    "connects_to": ["Supermassive - Wigglers"]
+  },
+  "Supermassive - Wigglers": {
+
+  },
+  "Supermassive C - Start": {
+    "connects_to": ["Supermassive C - Pipes"],
+    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Supermassive Comet Medal|)}"
+  },
+  "Supermassive C - Pipes": {
+    "connects_to": ["Supermassive C - Thwomps"],
+    "entrance_requires": "|Has Wall Jump| or (|Jump Height 6| and |Hard Logic|)"
+  },
+  "Supermassive C - Thowmps": {
+    "connects_to": ["Supermassive C - Koopas"],
+    "entrance_requires": "|Has Long Jump| or |Has Air Spin|"
+  },
+  "Supermassive C - Koopas": {
+    "connects_to": ["Supermassive C - Star Chips"],
+    "entrance_requires": "|Jump Height 4| or |Has Wall Jump|",
+    "exit_requires": "|Has Spin-Drill|"
+  },
+  "Supermassive C - Star Chips": {
+    "connects_to": ["Supermassive C - Garden Planet"]
+  },
+  "Supermassive C - Garden Planet": {
+    "connects_to": ["Supermassive C - Wigglers"]
+  },
+  "Supermassive C - Wigglers": {
+
   },
   "Sweet Mystery Galaxy": {
     "connects_to": ["Sweet Mystery Purple Coins"]
