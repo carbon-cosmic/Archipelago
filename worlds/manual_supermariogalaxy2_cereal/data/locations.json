@@ -3024,8 +3024,8 @@
   },
   {
     "name": "Head in the Clouds",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "|Can Make Clouds|",
+    "region": "Cloudy Court - Castle",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3035,7 +3035,7 @@
   {
     "name": "Cloudy Court - 1-Up Beneath Dino Hedge",
     "requires": "",
-    "region": "Cloudy Court Galaxy (16)",
+    "region": "Cloudy Court - Start",
     "category": [
       "World 3",
       "1-Ups"
@@ -3044,7 +3044,7 @@
   },
   {
     "name": "Cloudy Court - Green Star 1",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) AND {OptOne(|Cloudy Court Comet Medal|)} AND {OptOne(|Green Comets|)}",
+    "requires": "|Cloudy Court Green Stars| and ((|Can Make Clouds| and |Jump Height 4|) or (|Can Make Ground Clouds| and |Has Sideflip| and |Hard Logic|))",
     "region": "Cloudy Court Galaxy (16)",
     "category": [
       "World 3",
@@ -3054,8 +3054,8 @@
   },
   {
     "name": "Cloudy Court - Moving Cloud Life Mushroom",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Sideflip|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Medium Logic|) or (|Has Cloud| and |Has Long Jump| and |Has Sideflip| and |Hard Logic|)",
+    "region": "Cloudy Court - Start",
     "category": [
       "World 3",
       "Life Mushrooms"
@@ -3064,8 +3064,8 @@
   },
   {
     "name": "Cloudy Court - ? Coin Above Block",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Medium Logic|) or (|Has Cloud| and |Has Back or Sideflip| and |Has Long Jump| and |Hard Logic|)",
+    "region": "Cloudy Court - Start",
     "category": [
       "World 3",
       "? Coins"
@@ -3074,8 +3074,8 @@
   },
   {
     "name": "Cloudy Court - Drum ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "",
+    "region": "Cloudy Court - Instruments",
     "category": [
       "World 3",
       "? Coins"
@@ -3084,8 +3084,8 @@
   },
   {
     "name": "Cloudy Court - ? Coin 1-Up Reward",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "|Has Ground Pound| or |Medium Logic|",
+    "region": "Cloudy Court - Instruments",
     "category": [
       "World 3",
       "1-Ups"
@@ -3094,8 +3094,8 @@
   },
   {
     "name": "Cloudy Court - Updraft Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "",
+    "region": "Cloudy Court - Towers",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3104,8 +3104,8 @@
   },
   {
     "name": "Cloudy Court - Teleporter 1-Up #1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "",
+    "region": "Cloudy Court - Towers",
     "category": [
       "World 3",
       "1-Ups"
@@ -3114,8 +3114,8 @@
   },
   {
     "name": "Cloudy Court - Teleporter 1-Up #2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "",
+    "region": "Cloudy Court - Towers",
     "category": [
       "World 3",
       "1-Ups"
@@ -3124,8 +3124,8 @@
   },
   {
     "name": "Cloudy Court - Teleporter 1-Up #3",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "",
+    "region": "Cloudy Court- Towers",
     "category": [
       "World 3",
       "1-Ups"
@@ -3134,8 +3134,8 @@
   },
   {
     "name": "Cloudy Court - Grassy Dome 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "",
+    "region": "Cloudy Court - Towers",
     "category": [
       "World 3",
       "1-Ups"
@@ -3144,8 +3144,8 @@
   },
   {
     "name": "Cloudy Court - Green Star 2",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} Or {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Cloud Flower|)} AND {OptOne(|Cloudy Court Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "|Cloudy Court Green Stars| and |Can Make Clouds| and (|Has Long Jump| or |Medium Logic|)",
+    "region": "Cloudy Court - Instruments",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3153,9 +3153,9 @@
     "sort-key": "row-0307a"
   },
   {
-    "name": "Cloudy Court - 2D Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "name": "Cloudy Court - Castle Checkpoint Flag",
+    "requires": "",
+    "region": "Cloudy Court - Castle",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3163,9 +3163,9 @@
     "sort-key": "row-0314"
   },
   {
-    "name": "Cloudy Court - 2D Left Platform 1-Up #1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "name": "Cloudy Court - Castle Left Platform 1-Up #1",
+    "requires": "",
+    "region": "Cloudy Court - Castle",
     "category": [
       "World 3",
       "1-Ups"
@@ -3173,9 +3173,9 @@
     "sort-key": "row-0315"
   },
   {
-    "name": "Cloudy Court - 2D Left Platform 1-Up #2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "name": "Cloudy Court - Castle Left Platform 1-Up #2",
+    "requires": "",
+    "region": "Cloudy Court - Castle",
     "category": [
       "World 3",
       "1-Ups"
@@ -3183,19 +3183,29 @@
     "sort-key": "row-0316"
   },
   {
-    "name": "Cloudy Court - 2D Left Platform 1-Up #3",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "name": "Cloudy Court - Castle Left Platform 1-Up #3",
+    "requires": "",
+    "region": "Cloudy Court - Castle",
     "category": [
       "World 3",
       "1-Ups"
     ],
-    "sort-key": "row-0317"
+    "sort-key": "row-0317a"
+  },
+  {
+    "name": "Cloudy Court - 1-Up Past Castle Updraft",
+    "requires": "",
+    "region": "Cloudy Court - Castle",
+    "category": [
+      "World 3",
+      "1-Ups"
+    ],
+    "sort-key": "row-0317b"
   },
   {
     "name": "Cloudy Court - Comet Medal",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "",
+    "region": "Cloudy Court - Castle",
     "category": [
       "World 3",
       "Comet Medal Locations"
@@ -3204,8 +3214,8 @@
   },
   {
     "name": "Cloudy Court - Green Star 3",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Cloudy Court Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "|Cloudy Court Green Stars|",
+    "region": "Cloudy Court - Castle",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3214,8 +3224,8 @@
   },
   {
     "name": "The Shadow Lining",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Cloudy Court Comet Medal|)} AND {OptOne(|Cosmic Clone Comets|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "|Has Ground Spin|",
+    "region": "Cloudy Court C - End",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3224,8 +3234,8 @@
   },
   {
     "name": "Silver Stars in the Purple Pond",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "|Has Cloud|",
+    "region": "Cloudy Court S - Purple Pond",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3234,8 +3244,8 @@
   },
   {
     "name": "Cloudy Court - S Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Cloudy Court Galaxy (16)",
+    "requires": "",
+    "region": "Cloudy Court S - Purple Pond",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3244,7 +3254,7 @@
   },
   {
     "name": "A Glimmer of Bulb Berry",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
+    "requires": "",
     "region": "Haunty Halls Galaxy (16)",
     "category": [
       "World 3",

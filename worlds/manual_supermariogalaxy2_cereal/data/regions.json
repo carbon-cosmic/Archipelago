@@ -643,7 +643,31 @@
   },
   "Cloudy Court - Instruments": {
     "connects_to": ["Cloudy Court - Towers"],
-    "exit_requires": "|Can Make Air Clouds|"
+    "exit_requires": "|Can Make Clouds|"
+  },
+  "Cloudy Court - Towers": {
+    "connects_to": ["Cloudy Court - Castle", "Cloudy Court S - Purple Pond"],
+    "exit_requires": "|Can Make Ground Clouds|"
+  },
+  "Cloudy Court - Castle": {
+
+  },
+  "Cloudy Court C - Star Chips": {
+    "connects_to": ["Cloudy Court C - Castle Start"],
+    "entrance_requires": "|Has Clone Comets| and {OptOne(|Cloudy Court Comet Medal|)}"
+  },
+  "Cloudy Court C - Castle Start": {
+    "connects_to": ["Cloudy Court C - Castle"],
+    "exit_requires": "|Has Wall Jump|"
+  },
+  "Cloudy Court C - Castle": {
+    "connects_to": ["Cloudy Court C - End"]
+  },
+  "Cloudy Court C - End": {
+
+  },
+  "Cloudy Court S - Purple Pond": {
+
   },
   "Haunty Halls Galaxy": {
     "connects_to": []
