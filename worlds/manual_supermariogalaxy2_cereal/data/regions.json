@@ -783,7 +783,26 @@
     "entrance_requires": "|Has Double Time Comets| and {OptOne(|Beat Block Comet Medal|)}"
   },
   "Bowser Jr.'s Fearsome Fleet": {
-    "connects_to": []
+    "connects_to": ["Fearsome Fleet - Start", "Fearsome Fleet C - Megahammer"]
+  },
+  "Fearsome Fleet - Start": {
+    "connects_to": ["Fearsome Fleet - Barrage Platform"],
+    "exit_requires": "|Has Yoshi|"
+  },
+  "Fearsome Fleet - Barrage Platform": {
+    "connects_to": ["Fearsome Fleet - Hammer Bro."]
+  },
+  "Fearsome Fleet - Hammer Bro.": {
+    "connects_to": ["Fearsome Fleet - Airships"]
+  },
+  "Fearsome Fleet - Airships": {
+    "connects_to": ["Fearsome Fleet - Megahammer"]
+  },
+  "Fearsome Fleet - Megahammer": {
+
+  },
+  "Fearsome Fleet C - Megahammer": {
+    "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Fearsome Fleet Comet Medal|)}"
   },
     "World 4": {
     "requires": "|Grand Star (World 4 Access)|",

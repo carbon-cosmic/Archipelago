@@ -3894,8 +3894,8 @@
   },
   {
     "name": "Bowser Jr.'s Mighty Megahammer",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Bowser Jr.'s Fearsome Fleet (28)",
+    "requires": "",
+    "region": "Fearsome Fleet - Megahammer",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3904,8 +3904,8 @@
   },
   {
     "name": "Fearsome Fleet - Green Star 1",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Fearsome Fleet Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser Jr.'s Fearsome Fleet (28)",
+    "requires": "|Fearsome Fleet Green Stars|",
+    "region": "Fearsome Fleet - Barrage Platform",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3914,8 +3914,8 @@
   },
   {
     "name": "Fearsome Fleet - Bullet Bill Launcher Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Bowser Jr.'s Fearsome Fleet (28)",
+    "requires": "",
+    "region": "Fearsome Fleet - Hammer Bro.",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3924,8 +3924,8 @@
   },
   {
     "name": "Fearsome Fleet - Bowser Jr. Statue Near Electricity 1-Up",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Bowser Jr.'s Fearsome Fleet (28)",
+    "requires": "",
+    "region": "Fearsome Fleet - Hammer Bro.",
     "category": [
       "World 3",
       "1-Ups"
@@ -3934,8 +3934,8 @@
   },
   {
     "name": "Fearsome Fleet - Life Mushroom Between Airships",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Bowser Jr.'s Fearsome Fleet (28)",
+    "requires": "",
+    "region": "Fearsome Fleet - Airships",
     "category": [
       "World 3",
       "Life Mushrooms"
@@ -3944,8 +3944,8 @@
   },
   {
     "name": "Fearsome Fleet - Comet Medal",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Bowser Jr.'s Fearsome Fleet (28)",
+    "requires": "",
+    "region": "Fearsome Fleet - Airships",
     "category": [
       "World 3",
       "Comet Medal Locations"
@@ -3954,8 +3954,8 @@
   },
   {
     "name": "Fearsome Fleet - Green Star 2",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Fearsome Fleet Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser Jr.'s Fearsome Fleet (28)",
+    "requires": "|Fearsome Fleet Green Stars|",
+    "region": "Fearsome Fleet - Airships",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3964,8 +3964,8 @@
   },
   {
     "name": "Fearsome Fleet - Checkpoint Flag Before Boss",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Bowser Jr.'s Fearsome Fleet (28)",
+    "requires": "",
+    "region": "Fearsome Fleet - Airships",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3974,8 +3974,8 @@
   },
   {
     "name": "Fearsome Fleet - Luma Shop",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Bowser Jr.'s Fearsome Fleet (28)",
+    "requires": "",
+    "region": "Fearsome Fleet - Airships",
     "category": [
       "World 3",
       "Luma Shops"
@@ -3984,8 +3984,8 @@
   },
   {
     "name": "Megahammer's Daredevil Bash",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Fearsome Fleet Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Bowser Jr.'s Fearsome Fleet (28)",
+    "requires": "|Has Yoshi|",
+    "region": "Fearsome Fleet C - Megahammer",
     "category": [
       "World 3",
       "Power Star Locations"
