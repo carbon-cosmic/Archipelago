@@ -3255,7 +3255,7 @@
   {
     "name": "A Glimmer of Bulb Berry",
     "requires": "",
-    "region": "Haunty Halls Galaxy (16)",
+    "region": "Haunty Halls 1 - Bulb Berry",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3264,8 +3264,8 @@
   },
   {
     "name": "Haunty Halls - Green Star 1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Haunty Halls Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Haunty Halls Galaxy (16)",
+    "requires": "|Haunty Halls Green Stars| and |Has Air Spin|",
+    "region": "Haunty Halls 1 - Start",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3274,8 +3274,8 @@
   },
   {
     "name": "Haunty Halls - Teleporter 1-Up #1",
-    "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Haunty Halls Galaxy (16)",
+    "requires": "|Has Ground Pound| or (|Has Ground Spin| and |Hard Logic|)",
+    "region": "Haunty Halls 1 - Start",
     "category": [
       "World 3",
       "1-Ups"
@@ -3284,8 +3284,8 @@
   },
   {
     "name": "Haunty Halls - Teleporter 1-Up #2",
-    "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Haunty Halls Galaxy (16)",
+    "requires": "|Has Ground Pound| or (|Has Ground Spin| and |Hard Logic|)",
+    "region": "Haunty Halls - Start",
     "category": [
       "World 3",
       "1-Ups"
@@ -3294,8 +3294,8 @@
   },
   {
     "name": "Haunty Halls - Teleporter 1-Up #3",
-    "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Haunty Halls Galaxy (16)",
+    "requires": "|Has Ground Pound| or (|Has Ground Spin| and |Hard Logic|)",
+    "region": "Haunty Halls 1 - Start",
     "category": [
       "World 3",
       "1-Ups"
@@ -3304,8 +3304,8 @@
   },
   {
     "name": "Haunty Halls - Green Star 2",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})) AND {OptOne(|Haunty Halls Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Haunty Halls Galaxy (16)",
+    "requires": "|Haunty Halls Green Stars| and |Jump Height 5| and |Has Air Spin|",
+    "region": "Haunty Halls 1 - Moving Halls",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3315,7 +3315,7 @@
   {
     "name": "Haunty Halls 1 - Moving Halls Checkpoint Flag",
     "requires": "",
-    "region": "Haunty Halls Galaxy (16)",
+    "region": "Haunty Halls 1 - Moving Halls",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3325,7 +3325,7 @@
   {
     "name": "Haunty Halls 1 - Long Carpet Platform 1-Up",
     "requires": "",
-    "region": "Haunty Halls Galaxy (16)",
+    "region": "Haunty Halls 1 - Moving Halls",
     "category": [
       "World 3",
       "1-Ups"
@@ -3335,7 +3335,7 @@
   {
     "name": "Haunty Halls - Comet Medal",
     "requires": "",
-    "region": "Haunty Halls Galaxy (16)",
+    "region": "Haunty Halls 1 - Moving Halls",
     "category": [
       "World 3",
       "Comet Medal Locations"
@@ -3345,7 +3345,7 @@
   {
     "name": "Haunty Halls 1 - Bulb Berry Checkpoint Flag",
     "requires": "",
-    "region": "Haunty Halls Galaxy (16)",
+    "region": "Haunty Halls 1 - Bulb Berry Start",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3354,8 +3354,8 @@
   },
   {
     "name": "Haunty Halls 1 - Bulb Berry 1-Up",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
-    "region": "Haunty Halls Galaxy (16)",
+    "requires": "",
+    "region": "Haunty Halls 1 - Bulb Berry",
     "category": [
       "World 3",
       "1-Ups"
@@ -3365,7 +3365,7 @@
   {
     "name": "Sneaking Down the Creepy Corridor",
     "requires": "",
-    "region": "Haunty Halls Galaxy (16)",
+    "region": "Haunty Halls 2 - Creepy Corridor",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3375,7 +3375,7 @@
   {
     "name": "Haunty Halls 2 - Corridor Platforms Checkpoint Flag",
     "requires": "",
-    "region": "Haunty Halls Galaxy (16)",
+    "region": "Haunty Halls 2 - Corridor Platforms",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3385,7 +3385,7 @@
   {
     "name": "Haunty Halls 2 - Creepy Corridor Checkpoint Flag",
     "requires": "",
-    "region": "Haunty Halls Galaxy (16)",
+    "region": "Haunty Halls 2 - Creepy Corridor",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3394,8 +3394,8 @@
   },
   {
     "name": "Haunty Halls - Green Star 3",
-    "requires": "({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) AND {OptOne(|Haunty Halls Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Haunty Halls Galaxy (16)",
+    "requires": "|Haunty Halls Green Stars| and |Jump Height 5|",
+    "region": "Haunty Halls 2 - Creepy Corridor",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3404,8 +3404,8 @@
   },
   {
     "name": "Spooky Cosmic Clone Chase",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Haunty Halls Comet Medal|)} AND {OptOne(|Cosmic Clone Comets|)}",
-    "region": "Haunty Halls Galaxy (16)",
+    "requires": "|Has Ground Spin|",
+    "region": "Haunty Halls C - Creepy Corridor",
     "category": [
       "World 3",
       "Power Star Locations"
