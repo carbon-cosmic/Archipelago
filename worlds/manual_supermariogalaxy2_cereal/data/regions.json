@@ -732,7 +732,46 @@
 
   },
   "Rolling Masterpiece Galaxy": {
-    "connects_to": []
+    "connects_to": ["Rolling Masterpiece - Start", "Rolling Masterpiece C - Start"]
+  },
+  "Rolling Masterpiece - Start": {
+    "connects_to": ["Rolling Masterpiece - Paintbrush Planet"],
+    "exit_requires": "|Has Star Ball|"
+  },
+  "Rolling Masterpiece - Paintbrush Planet": {
+    "connects_to": ["Rolling Masterpiece - Space Junk"]
+  },
+  "Rolling Masterpiece - Space Junk": {
+    "connects_to": ["Rolling Masterpiece - Saw Planet"]
+  },
+  "Rolling Masterpiece - Saw Planet": {
+    "connects_to": ["Rolling Masterpiece - Silver Chomp"]
+  },
+  "Rolling Masterpiece - Silver Chomp": {
+    "connects_to": ["Rolling Masterpiece - End"]
+  },
+  "Rolling Masterpiece - End": {
+
+  },
+  "Rolling Masterpiece C - Start": {
+    "connects_to": ["Rolling Masterpiece C - Paintbrush Planet"],
+    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Rolling Masterpiece Comet Medal|)}",
+    "exit_requires": "|Has Star Ball|"
+  },
+  "Rolling Masterpiece C - Paintbrush Planet": {
+    "connects_to": ["Rolling Masterpiece C - Space Junk"]
+  },
+  "Rolling Masterpiece C - Space Junk": {
+    "connects_to": ["Rolling Masterpiece C - Grassy Planet"]
+  },
+  "Rolling Masterpiece C - Grassy Planet": {
+    "connects_to": ["Rolling Masterpiece C - Silver Chomp"]
+  },
+  "Rolling Masterpiece C - Silver Chomp": {
+    "connects_to": ["Rolling Masterpiece C - End"]
+  },
+  "Rolling Masterpiece C - End": {
+
   },
   "Beat Block Galaxy": {
     "connects_to": []

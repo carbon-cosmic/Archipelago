@@ -3624,8 +3624,8 @@
   },
   {
     "name": "Silver Chomp Grudge Match",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece - End",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3634,8 +3634,8 @@
   },
   {
     "name": "Rolling Masterpiece - Paintbrush Planet 1-Up",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece - Paintbrush Planet",
     "category": [
       "World 3",
       "1-Ups"
@@ -3644,8 +3644,8 @@
   },
   {
     "name": "Rolling Masterpiece - Pallete Checkpoint Flag",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece - Space Junk",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3654,8 +3654,8 @@
   },
   {
     "name": "Rolling Masterpiece - Space Junk 1-Up",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece - Space Junk",
     "category": [
       "World 3",
       "1-Ups"
@@ -3664,8 +3664,8 @@
   },
   {
     "name": "Rolling Masterpiece - Green Star 1",
-    "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "|Rolling Masterpiece Green Stars|",
+    "region": "Rolling Masterpiece- Space Junk",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3673,9 +3673,9 @@
     "sort-key": "row-0364"
   },
   {
-    "name": "Rolling Masterpiece - Wooden Planet Checkpoint Flag",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "name": "Rolling Masterpiece - Saw Planet Checkpoint Flag",
+    "requires": "",
+    "region": "Rolling Masterpiece - Saw Planet",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3684,8 +3684,8 @@
   },
   {
     "name": "Rolling Masterpiece - Comet Medal",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece - Saw Planet",
     "category": [
       "World 3",
       "Comet Medal Locations"
@@ -3694,8 +3694,8 @@
   },
   {
     "name": "Rolling Masterpiece - Wooden Planet ? Coin",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece - Saw Planet",
     "category": [
       "World 3",
       "? Coins"
@@ -3704,8 +3704,8 @@
   },
   {
     "name": "Rolling Masterpiece - Wooden Planet Notes 1-Up #1",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece - Saw Planet",
     "category": [
       "World 3",
       "1-Ups"
@@ -3714,8 +3714,8 @@
   },
   {
     "name": "Rolling Masterpiece - Wooden Planet Notes 1-Up #2",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece - Saw Planet",
     "category": [
       "World 3",
       "1-Ups"
@@ -3724,8 +3724,8 @@
   },
   {
     "name": "Rolling Masterpiece - Wooden Planet Notes 1-Up #3",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece - Saw Planet",
     "category": [
       "World 3",
       "1-Ups"
@@ -3734,8 +3734,8 @@
   },
   {
     "name": "Rolling Masterpiece - Green Star 2",
-    "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece - Silver Chomp",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3744,8 +3744,8 @@
   },
   {
     "name": "Masterpiece Speed Run",
-    "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece C - End",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3754,8 +3754,8 @@
   },
   {
     "name": "Rolling Masterpiece C - Grassy Planet ? Coin",
-    "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece C - Grassy Planet",
     "category": [
       "World 3",
       "? Coins"
@@ -3764,8 +3764,8 @@
   },
   {
     "name": "Rolling Masterpiece C - Grassy Planet Notes 1-Up #1",
-    "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece C - Grassy Planet",
     "category": [
       "World 3",
       "1-Ups"
@@ -3774,8 +3774,8 @@
   },
   {
     "name": "Rolling Masterpiece C - Grassy Planet Notes 1-Up #2",
-    "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece C - Grassy Planet",
     "category": [
       "World 3",
       "1-Ups"
@@ -3784,8 +3784,8 @@
   },
   {
     "name": "Rolling Masterpiece C - Grassy Planet Notes 1-Up #3",
-    "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Masterpiece Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Rolling Masterpiece Galaxy (16)",
+    "requires": "",
+    "region": "Rolling Masterpiece C - Grassy Planet",
     "category": [
       "World 3",
       "1-Ups"
