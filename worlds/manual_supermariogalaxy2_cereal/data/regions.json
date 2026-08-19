@@ -697,7 +697,39 @@
     "entrance_requires": "|Has Clone Comets| and {OptOne(|Haunty Halls Comet Medal|)}"
   },
   "Freezy Flake Galaxy": {
-    "connects_to": []
+    "connects_to": ["Freezy Flake 1 - Log Cabin", "Freezy Flake 2 - Log Cabin"]
+  },
+  "Freezy Flake 1 - Log Cabin": {
+    "connects_to": ["Freezy Flake - Snowy Hill"],
+    "exit_requires": "|Has Fire|"
+  },
+  "Freezy Flake - Snowy Hill": {
+    "connects_to": ["Freezy Flake 1 - Slide", "Freezy Flake 2 - Snowstorm", "Freezy Flake S - Chimp Room"]
+  },
+  "Freezy Flake 1 - Slide": {
+    "connects_to": ["Freezy Flake 1 - Snow Blocks"],
+    "entrance_requires": "|Has Fire|"
+  },
+  "Freezy Flake 1 - Snow Blocks": {
+    "connects_to": ["Freezy Flake 1 - Lava Pool"],
+    "exit_requires": "|Has Fire|"
+  },
+  "Freezy Flake 1 - Lava Pool": {
+
+  },
+  "Freezy Flake 2 - Log Cabin": {
+    "connects_to": ["Freezy Flake - Snowy Hill"],
+    "exit_requires": "|Has Rock|"
+  },
+  "Freezy Flake 2 - Snowstorm": {
+    "connects_to": ["Freezy Flake 2 - Sorbetti"],
+    "entrance_requires": "|Has Rock|"
+  },
+  "Freezy Flake 2 - Sorbetti": {
+
+  },
+  "Freezy Flake S - Chimp Room": {
+
   },
   "Rolling Masterpiece Galaxy": {
     "connects_to": []

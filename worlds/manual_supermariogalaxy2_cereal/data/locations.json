@@ -3414,8 +3414,8 @@
   },
   {
     "name": "Bowser on Ice",
-    "requires": "{OptOne(|Fire Flower|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 1 - Lava Pool",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3424,8 +3424,8 @@
   },
   {
     "name": "Freezy Flake - Snowy Hill Chance Cube",
-    "requires": "{OptOne(|Fire Flower|)} OR {OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake - Snowy Hill",
     "category": [
       "World 3",
       "Chance Cubes"
@@ -3434,8 +3434,8 @@
   },
   {
     "name": "Freezy Flake - 1-Up on Snowy Hill",
-    "requires": "{OptOne(|Fire Flower|)} OR {OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake - Snowy Hill",
     "category": [
       "World 3",
       "1-Ups"
@@ -3444,8 +3444,8 @@
   },
   {
     "name": "Freezy Flake 1 - 1-Up in Snow Tree",
-    "requires": "{OptOne(|Fire Flower|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "|Has Fire|",
+    "region": "Freezy Flake - Snowy Hill",
     "category": [
       "World 3",
       "1-Ups"
@@ -3454,8 +3454,8 @@
   },
   {
     "name": "Freezy Flake 1 - Checkpoint Flag Behind Bowser Sculpture",
-    "requires": "{OptOne(|Fire Flower|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 1 - Slide",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3464,8 +3464,8 @@
   },
   {
     "name": "Freezy Flake - Green Star 1",
-    "requires": "{OptOne(|Fire Flower|)} AND {OptOne(|Freezy Flake Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "|Freezy Flake Green Stars|",
+    "region": "Freezy Flake 1 - Slide",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3474,8 +3474,8 @@
   },
   {
     "name": "Freezy Flake - Comet Medal",
-    "requires": "{OptOne(|Fire Flower|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 1 - Snow Blocks",
     "category": [
       "World 3",
       "Comet Medal Locations"
@@ -3483,9 +3483,9 @@
     "sort-key": "row-0345"
   },
   {
-    "name": "Freezy Flake 1 - Lava Planet Checkpoint Flag",
-    "requires": "{OptOne(|Fire Flower|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "name": "Freezy Flake 1 - Lava Pools Checkpoint Flag",
+    "requires": "",
+    "region": "Freezy Flake 1 - Lava Pool",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3494,8 +3494,8 @@
   },
   {
     "name": "Freezy Flake - Green Star 2",
-    "requires": "{OptOne(|Fire Flower|)} AND {OptOne(|Freezy Flake Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "|Freezy Flake Green Stars|",
+    "region": "Freezy Flake 1 - Lava Pool",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3504,8 +3504,8 @@
   },
   {
     "name": "Sorbetti's Chilly Reception",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "|Has Air Spin| or (|Has Ground Spin| and |Medium Logic|)",
+    "region": "Freezy Flake 2 - Sorbetti",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3514,8 +3514,8 @@
   },
   {
     "name": "Freezy Flake 2 - Snowstorm Start Checkpoint Flag",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 2 - Snowstorm",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3524,8 +3524,8 @@
   },
   {
     "name": "Freezy Flake 2 - Bonus Room Chance Cube #1",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 2 - Snowstorm",
     "category": [
       "World 3",
       "Chance Cubes"
@@ -3534,8 +3534,8 @@
   },
   {
     "name": "Freezy Flake 2 - Bonus Room Chance Cube #2",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 2 - Snowstorm",
     "category": [
       "World 3",
       "Chance Cubes"
@@ -3544,8 +3544,8 @@
   },
   {
     "name": "Freezy Flake 2 - Bonus Room Chance Cube #3",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 2 - Snowstorm",
     "category": [
       "World 3",
       "Chance Cubes"
@@ -3554,8 +3554,8 @@
   },
   {
     "name": "Freezy Flake 2 - Snowstorm Star Platform 1-Up #1",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 2 - Snowstorm",
     "category": [
       "World 3",
       "1-Ups"
@@ -3564,8 +3564,8 @@
   },
   {
     "name": "Freezy Flake 2 - Snowstorm Star Platform 1-Up #2",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 2 - Snowstorm",
     "category": [
       "World 3",
       "1-Ups"
@@ -3574,8 +3574,8 @@
   },
   {
     "name": "Freezy Flake 2 - Snowstorm Star Platform 1-Up #3",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 2 - Snowstorm",
     "category": [
       "World 3",
       "1-Ups"
@@ -3584,8 +3584,8 @@
   },
   {
     "name": "Freezy Flake - Green Star 3",
-    "requires": "{OptOne(|Rock Mushroom|)} AND {OptOne(|Freezy Flake Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "|Freezy Flake Green Stars|",
+    "region": "Freezy Flake 2 - Snowstorm",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -3594,8 +3594,8 @@
   },
   {
     "name": "Freezy Flake 2 - Snowstorm End Checkpoint Flag",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 2 - Snowstorm",
     "category": [
       "World 3",
       "Checkpoints"
@@ -3604,8 +3604,8 @@
   },
   {
     "name": "Freezy Flake 2 - Luma Shop",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "",
+    "region": "Freezy Flake 2 - Snowstorm",
     "category": [
       "World 3",
       "Luma Shops"
@@ -3614,8 +3614,8 @@
   },
   {
     "name": "The Chimp's Skating Challenge",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Fire Flower|)} OR {OptOne(|Rock Mushroom|)})",
-    "region": "Freezy Flake Galaxy (16)",
+    "requires": "|Has Ground Spin| or |Hard Logic|",
+    "region": "Freezy Flake S - Chimp Room",
     "category": [
       "World 3",
       "Power Star Locations"
