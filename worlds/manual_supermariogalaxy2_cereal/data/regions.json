@@ -670,7 +670,31 @@
 
   },
   "Haunty Halls Galaxy": {
-    "connects_to": []
+    "connects_to": ["Haunty Halls 1 - Start", "Haunty Halls 2 - Start", "Haunty Halls C - Creepy Corridor"]
+  },
+  "Haunty Halls 1 - Start": {
+    "connects_to": ["Haunty Halls 1 - Moving Halls"]
+  },
+  "Haunty Halls 1 - Moving Halls": {
+    "connects_to": ["Haunty Halls 1 - Bulb Berry Start"]
+  },
+  "Haunty Halls 1 - Bulb Berry Start": {
+    "connects_to": ["Haunty Halls - Bulb Berry"]
+  },
+  "Haunty Halls 1 - Bulb Berry ": {
+    "entrance_requires": "|Can Use Bulb|"
+  },
+  "Haunty Halls 2 - Start": {
+    "connects_to": ["Haunty Halls 2 - Corridor Platforms"]
+  },
+  "Haunty Halls 2 - Corridor Platforms": {
+    "connects_to": ["Haunty Halls 2 - Creepy Corridor"]
+  },
+  "Haunty Halls 2 - Creepy Corridor": {
+
+  },
+  "Haunty Halls C - Creepy Corridor": {
+    "entrance_requires": "|Has Clone Comets| and {OptOne(|Haunty Halls Comet Medal|)}"
   },
   "Freezy Flake Galaxy": {
     "connects_to": []
