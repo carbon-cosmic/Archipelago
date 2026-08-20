@@ -4373,7 +4373,7 @@
   },
   {
     "name": "Purple Coin Spin Speed Run",
-    "requires": "|Has Spin-Drill| and (|Has Wall Jump| or |Hard Logic|)",
+    "requires": "(|Has Wall Jump| or |Hard Logic|) and {OptOne(|Flipsville Purple Coin:100|)}",
     "region": "Flipsville C - Purple Coins",
     "category": [
       "World 4",
@@ -11635,7 +11635,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #1",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11645,7 +11645,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #2",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11655,7 +11655,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #3",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11665,7 +11665,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #4",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11675,7 +11675,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #5",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11685,7 +11685,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #6",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11695,7 +11695,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #7",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11705,7 +11705,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #8",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11715,7 +11715,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #9",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11725,7 +11725,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #10",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11735,7 +11735,7 @@
   {
     "name": "Flipsville - Bottom Left Block Purple Coin #11",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins Start",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11744,8 +11744,8 @@
   },
   {
     "name": "Flipsville - Bottom Center Block Purple Coin #1",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11754,8 +11754,8 @@
   },
   {
     "name": "Flipsville - Bottom Center Block Purple Coin #2",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11764,8 +11764,8 @@
   },
   {
     "name": "Flipsville - Bottom Center Block Purple Coin #3",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11774,8 +11774,8 @@
   },
   {
     "name": "Flipsville - Bottom Center Block Purple Coin #4",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11784,8 +11784,8 @@
   },
   {
     "name": "Flipsville - Bottom Center Block Purple Coin #5",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11794,8 +11794,8 @@
   },
   {
     "name": "Flipsville - Bottom Center Block Purple Coin #6",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11804,8 +11804,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #1",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11814,8 +11814,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #2",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11824,8 +11824,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #3",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11834,8 +11834,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #4",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11844,8 +11844,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #5",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11854,8 +11854,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #6",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11864,8 +11864,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #7",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11874,8 +11874,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #8",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11884,8 +11884,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #9",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11894,8 +11894,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #10",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11904,8 +11904,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #11",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11914,8 +11914,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #12",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11924,8 +11924,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #13",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11934,8 +11934,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #14",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11944,8 +11944,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #15",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11954,8 +11954,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #16",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11964,8 +11964,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #17",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11974,8 +11974,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #18",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11984,8 +11984,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #19",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -11994,8 +11994,8 @@
   },
   {
     "name": "Flipsville - Bottom Right Block Purple Coin #20",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12004,8 +12004,8 @@
   },
   {
     "name": "Flipsville - Middle Right Block Purple Coin #1",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12014,8 +12014,8 @@
   },
   {
     "name": "Flipsville - Middle Right Block Purple Coin #2",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12024,8 +12024,8 @@
   },
   {
     "name": "Flipsville - Middle Right Block Purple Coin #3",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12034,8 +12034,8 @@
   },
   {
     "name": "Flipsville - Middle Right Block Purple Coin #4",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12044,8 +12044,8 @@
   },
   {
     "name": "Flipsville - Middle Right Block Purple Coin #5",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12054,8 +12054,8 @@
   },
   {
     "name": "Flipsville - Middle Right Block Purple Coin #6",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12064,8 +12064,8 @@
   },
   {
     "name": "Flipsville - Middle Right Block Purple Coin #7",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12074,8 +12074,8 @@
   },
   {
     "name": "Flipsville - Middle Right Block Purple Coin #8",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12084,8 +12084,8 @@
   },
   {
     "name": "Flipsville - Middle Right Block Purple Coin #9",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12094,8 +12094,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #1",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12104,8 +12104,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #2",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12114,8 +12114,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #3",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12124,8 +12124,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #4",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12134,8 +12134,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #5",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12144,8 +12144,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #6",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12154,8 +12154,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #7",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12164,8 +12164,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #8",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12174,8 +12174,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #9",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12184,8 +12184,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #10",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12194,8 +12194,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #11",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12204,8 +12204,8 @@
   },
   {
     "name": "Flipsville - Center Block Purple Coin #12",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12214,8 +12214,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #1",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12224,8 +12224,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #2",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12234,8 +12234,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #3",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12244,8 +12244,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #4",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12254,8 +12254,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #5",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12264,8 +12264,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #6",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12274,8 +12274,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #7",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12284,8 +12284,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #8",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12294,8 +12294,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #9",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12304,8 +12304,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #10",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12314,8 +12314,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #11",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12324,8 +12324,8 @@
   },
   {
     "name": "Flipsville - Upper Center Block Purple Coin #12",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12334,8 +12334,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #1",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12344,8 +12344,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #2",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12354,8 +12354,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #3",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12364,8 +12364,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #4",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12374,8 +12374,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #5",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12384,8 +12384,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #6",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12394,8 +12394,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #7",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12404,8 +12404,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #8",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12414,8 +12414,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #9",
-    "requires": "({OptOne(|Spin-Drill|)} AND ({OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Flipsville Purple Coins",
+    "requires": "|Has Wall Jump| or |Hard Logic|",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12424,8 +12424,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #10",
-    "requires": "({OptOne(|Spin-Drill|)} AND ({OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Flipsville Purple Coins",
+    "requires": "|Has Wall Jump| or |Hard Logic|",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12434,8 +12434,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #11",
-    "requires": "({OptOne(|Spin-Drill|)} AND ({OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Flipsville Purple Coins",
+    "requires": "|Has Wall Jump| or |Hard Logic|",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12444,8 +12444,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #12",
-    "requires": "({OptOne(|Spin-Drill|)} AND ({OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Flipsville Purple Coins",
+    "requires": "|Has Wall Jump| or |Hard Logic|",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12454,8 +12454,8 @@
   },
   {
     "name": "Flipsville - Upper Right Block Purple Coin #13",
-    "requires": "({OptOne(|Spin-Drill|)} AND ({OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Flipsville Purple Coins",
+    "requires": "|Has Wall Jump| or |Hard Logic|",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12464,8 +12464,8 @@
   },
   {
     "name": "Flipsville - Upper Left Block Purple Coin #1",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12474,8 +12474,8 @@
   },
   {
     "name": "Flipsville - Upper Left Block Purple Coin #2",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12484,8 +12484,8 @@
   },
   {
     "name": "Flipsville - Upper Left Block Purple Coin #3",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12494,8 +12494,8 @@
   },
   {
     "name": "Flipsville - Upper Left Block Purple Coin #4",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12504,8 +12504,8 @@
   },
   {
     "name": "Flipsville - Upper Left Block Purple Coin #5",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12514,8 +12514,8 @@
   },
   {
     "name": "Flipsville - Upper Left Block Purple Coin #6",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12524,8 +12524,8 @@
   },
   {
     "name": "Flipsville - Upper Left Block Purple Coin #7",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12534,8 +12534,8 @@
   },
   {
     "name": "Flipsville - Upper Left Block Purple Coin #8",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12544,8 +12544,8 @@
   },
   {
     "name": "Flipsville - Upper Left Block Purple Coin #9",
-    "requires": "({OptOne(|Spin-Drill|)})",
-    "region": "Flipsville Purple Coins",
+    "requires": "",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12555,7 +12555,7 @@
   {
     "name": "Flipsville - Middle Left Block Purple Coin #1",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12565,7 +12565,7 @@
   {
     "name": "Flipsville - Middle Left Block Purple Coin #2",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12575,7 +12575,7 @@
   {
     "name": "Flipsville - Middle Left Block Purple Coin #3",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12585,7 +12585,7 @@
   {
     "name": "Flipsville - Middle Left Block Purple Coin #4",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12595,7 +12595,7 @@
   {
     "name": "Flipsville - Middle Left Block Purple Coin #5",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12605,7 +12605,7 @@
   {
     "name": "Flipsville - Middle Left Block Purple Coin #6",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12615,7 +12615,7 @@
   {
     "name": "Flipsville - Middle Left Block Purple Coin #7",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"
@@ -12625,7 +12625,7 @@
   {
     "name": "Flipsville - Middle Left Block Purple Coin #8",
     "requires": "",
-    "region": "Flipsville Purple Coins",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "Flipsville Purple Coins",
       "Purple Coin Locations"

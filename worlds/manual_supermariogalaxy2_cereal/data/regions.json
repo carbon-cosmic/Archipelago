@@ -932,8 +932,12 @@
   "Flipsville 2 - Silver Stars": {
 
   },
+  "Flipsville C - Purple Coins Start": {
+    "entrance_requires": "|Has Purple Comets| and {OptOne(|Flipsville Comet Medal|)}",
+    "connects_to": ["Flipsville C - Purple Coins"]
+  },
   "Flipsville C - Purple Coins": {
-    "entrance_requires": "|Has Purple Comets| and {OptOne(|Flipsville Comet Medal|)}"
+    "entrance_requires": "|Has Spin-Drill|"
   },
   "Starshine Beach Galaxy": {
     "connects_to": ["Starshine Beach Purple Coins"]
