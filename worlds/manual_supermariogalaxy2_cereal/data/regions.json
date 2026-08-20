@@ -940,7 +940,66 @@
     "entrance_requires": "|Has Spin-Drill|"
   },
   "Starshine Beach Galaxy": {
-    "connects_to": ["Starshine Beach Purple Coins"]
+    "connects_to": ["Starshine Beach 1 - Start", "Starshine Beach 2 - Start", "Starshine Beach C - Beginning"]
+  },
+  "Starshine Beach 1 - Start": {
+    "connects_to": ["Starshine Beach 1 - Beach"],
+    "exit_requires": "|Can Swim|"
+  },
+  "Starshine Beach 1 - Beach": {
+    "connects_to": ["Starshine Beach 1 - Underwater", "Starshine Beach 1 - High Up", "Starshine Beach 1 - Hut Intermediate"]
+  },
+  "Starshine Beach 1 - Underwater": {
+    "entrance_requires": "|Can Swim|"
+  },
+  "Starshine Beach 1 - High Up": {
+    "entrance_requires": "|Can Use Blimp|"
+  },
+  "Starshine Beach 1 - Hut Intermediate": {
+    "entrance_requires": "|Has Yoshi| and |Medium Logic|"
+  },
+  "Starshine Beach - Hut Roof": {
+
+  },
+  "Starshine Beach 2 - Start": {
+    "connects_to": ["Starshine Beach 2 - Beach"],
+    "exit_requires": "|Can Swim|"
+  },
+  "Starshine Beach 2 - Beach": {
+    "connects_to": ["Starshine Beach 2 - Underwater"]
+  },
+  "Starshine Beach 2 - Underwater": {
+    "connects_to": ["Starshine Beach 2 - Beach w. Clouds"],
+    "entrance_requires": "|Can Swim|"
+  },
+  "Starshine Beach 2 - Beach w. Clouds": {
+    "connects_to": ["Starshine Beach 2 - Tower", "Starshine Beach 2 - Hut Intermediate"],
+    "entrance_requires": "|Has Ground Pound|"
+  },
+  "Starshine Beach 2 - Hut Intermediate": {
+    "connects_to": ["Starshine Beach - Hut Roof"],
+    "entrance_requires": "|Can Make Ground Clouds|"
+  },
+  "Starshine Beach 2 - Tower": {
+    "entrance_requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Can Back or Sideflip| and |Can Wall Jump| and |Medium Logic|)"
+  },
+  "Starshine Beach C - Shallows": {
+    "connects_to": ["Starshine Beach C - Tower", "Starshine Beach C - Ocean Tower Triples"],
+    "entrance_requires": "|Has Purple Comets| and {OptOne(|Starshine Beach Comet Medal|)}"
+  },
+  "Starshine Beach C - Tower": {
+    "connects_to": ["Starshine Beach C - Gringills"]
+  },
+  "Starshine Beach C - Gringills": {
+    "connects_to": ["Starshine Beach C - Ocean"],
+    "entrance_requires": "|Can Use Dash| or (|Has Long Jump| and |Hard Logic|)"
+  },
+  "Starshine Beach C - Ocean": {
+    "connects_to": ["Starshine Beach C - Ocean Tower Triples"],
+    "entrance_requires": "|Can Use Dash|"
+  },
+  "Starshine Beach C - Ocean Tower Triples": {
+    "entrance_requires": "|Can Use Dash| or (Hard Logic and (|Can Long Jump| or |Has Yoshi|))"
   },
   "Chompworks Galaxy": {
     "connects_to": []
