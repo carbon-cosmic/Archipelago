@@ -4173,8 +4173,8 @@
   },
   {
     "name": "Flip-Flopping in Flipsville",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "|Has Ground Pound|",
+    "region": "Flipsville 1 - Glamdozer",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -4183,8 +4183,8 @@
   },
   {
     "name": "Flipsville - Teleporter 1-Up #1",
-    "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville - Teleporter",
     "category": [
       "World 4",
       "1-Ups"
@@ -4193,8 +4193,8 @@
   },
   {
     "name": "Flipsville - Teleporter 1-Up #2",
-    "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville - Teleporter",
     "category": [
       "World 4",
       "1-Ups"
@@ -4203,8 +4203,8 @@
   },
   {
     "name": "Flipsville - Teleporter 1-Up #3",
-    "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville - Teleporter",
     "category": [
       "World 4",
       "1-Ups"
@@ -4213,8 +4213,8 @@
   },
   {
     "name": "Flipsville - Comet Medal",
-    "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "|Has Ground Pound| or (|Has Air Spin| and |Hard Logic|)",
+    "region": "Flipsville 1 - Start",
     "category": [
       "World 4",
       "Comet Medal Locations"
@@ -4223,7 +4223,7 @@
   },
   {
     "name": "Flipsville 1 - Corner Crate 1-Up",
-    "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))",
+    "requires": "|Has Ground Pound| or (|Has Air Spin| and |Hard Logic|)",
     "region": "Flipsville Galaxy (28)",
     "category": [
       "World 4",
@@ -4233,8 +4233,8 @@
   },
   {
     "name": "Flipsville - Green Star 1",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Flipsville Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 1 - Start Below",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4243,8 +4243,8 @@
   },
   {
     "name": "Flipsville 1 - Chomp Checkpoint Flag",
-    "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 1 - Chomps",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4253,8 +4253,8 @@
   },
   {
     "name": "Flipsville - Green Star 2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Flipsville Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "|Has Wall Jump|",
+    "region": "Flipsville 1 - Chomps Back",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4263,8 +4263,8 @@
   },
   {
     "name": "Flipsville 1 - Chomp Pit Life Mushroom",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 1 - Chomps Back",
     "category": [
       "World 4",
       "Life Mushrooms"
@@ -4272,9 +4272,9 @@
     "sort-key": "row-0423"
   },
   {
-    "name": "Flipsville 1 - Lawn Checkpoint Flag",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Flipsville Galaxy (28)",
+    "name": "Flipsville 1 - Lifts Checkpoint Flag",
+    "requires": "",
+    "region": "Flipsville 1 - Lifts",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4283,8 +4283,8 @@
   },
   {
     "name": "Flipsville - Green Star 3",
-    "requires": "({OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Flipsville Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "|Can Homing Ground Pound| or |Hard Logic|",
+    "region": "Flipsville 1 - Lifts",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4293,8 +4293,8 @@
   },
   {
     "name": "Flipsville 1 - Starshroom Checkpoint Flag",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 1 - Starshroom",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4303,8 +4303,8 @@
   },
   {
     "name": "Flipsville 1 - Luma Shop",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 1 - Starshroom",
     "category": [
       "World 4",
       "Luma Shops"
@@ -4313,8 +4313,8 @@
   },
   {
     "name": "Flipsville's New Digs",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 2 - Silver Stars",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -4323,7 +4323,7 @@
   },
   {
     "name": "Flipsville 2 - 1-Up Below Launch Star",
-    "requires": "{OptOne(|Spin-Drill|)}l",
+    "requires": "Flipsville 2 - Start Below",
     "region": "Flipsville Galaxy (28)",
     "category": [
       "World 4",
@@ -4333,8 +4333,8 @@
   },
   {
     "name": "Flipsville 2 - Dirt Tower Checkpoint Flag",
-    "requires": "{OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}))",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 2 - Dirt Tower",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4343,8 +4343,8 @@
   },
   {
     "name": "Flipsville 2 - Silver Stars ? Coin",
-    "requires": "{OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 2 - Silver Stars Start",
     "category": [
       "World 4",
       "? Coins"
@@ -4353,8 +4353,8 @@
   },
   {
     "name": "Flipsville 2 - Silver Stars ? Coin 1-Up Reward",
-    "requires": "{OptOne(|Spin-Drill|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 2 - Silver Stars Start",
     "category": [
       "World 4",
       "1-Ups"
@@ -4363,8 +4363,8 @@
   },
   {
     "name": "Flipsville 2 - Silver Stars 1-Up on Right",
-    "requires": "{OptOne(|Spin-Drill|)}",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 2 - Silver Stars",
     "category": [
       "World 4",
       "1-Ups"
@@ -4373,8 +4373,8 @@
   },
   {
     "name": "Purple Coin Spin Speed Run",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin-Drill|)} AND {OptOne(|Flipsville Comet Medal|)} AND {OptOne(|Purple Comets|)} AND {OptOne(|Flipsville Purple Coin:100|)}",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "|Has Spin-Drill| and (|Has Wall Jump| or |Hard Logic|)",
+    "region": "Flipsville C - Purple Coins",
     "category": [
       "World 4",
       "Power Star Locations"

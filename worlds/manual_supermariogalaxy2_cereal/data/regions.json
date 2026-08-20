@@ -863,19 +863,88 @@
   "Supermassive C - Wigglers": {
 
   },
-  "Sweet Mystery Galaxy": {
-    "connects_to": ["Sweet Mystery Purple Coins"]
-  },
   "Flipsville Galaxy": {
-    "connects_to": ["Flipsville Purple Coins"]
+    "connects_to": ["Flipsville 1 - Start", "Flipsville 2 - Start", "Flipsville C - Purple Coins"]
   },
-  "Honeyhop Galaxy": {
-    "connects_to": []
+  "Flipsville 1 - Start": {
+    "connects_to": ["Flipsville 1 - Below Start", "Flipsville 1 - Chomps", "Flipsville 1 - Tele Intermediate"],
+    "exit_requires": "|Has Ground Pound| or (|Hard Logic| and |Can Wall Spin| and |Has Back or Sideflip|)"
+  },
+  "Flipsville 1 - Tele Intermediate": {
+    "connects_to": ["Flipsville - Teleporter"],
+    "exit_requires": "|Has Ground Pound| or (|Has Air Spin| and |Hard Logic|)"
+  },
+  "Flipsville - Teleporter": {
+
+  },
+  "Flipsville 1 - Below Start": {
+    "connects_to": ["Flipsville 1 - Chomps"],
+    "entrance_requires": "|Has Ground Pound|"
+  },
+  "Flipsville 1 - Chomps": {
+    "connects_to": ["Flipsville 1 - Chomps Below", "Flipsville - Chomps Intermediate"]
+  },
+  "Flipsville 1 - Chomps Below": {
+    "connects_to": ["Flipsville 1 - Chomps Back"],
+    "entrance_requires": "|Has Ground Pound|"
+  },
+  "Flipsville 1 - Chomps Intermediate": {
+    "connects_to": ["Flipsville 1 - Chomps Back"],
+    "exit_requires": "|Can Wall Spin| and |Can Back or Sideflip| and |Hard Logic|"
+  },
+  "Flipsville 1 - Chomps Back": {
+    "connects_to": ["Flipsville 1 - Lifts"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Flipsville 1 - Lifts": {
+    "connects_to": ["Flipsville 1 - Starshroom"],
+    "exit_requires": "|Has Ground Pound| or (|Has Wall Spin| and |Hard Logic|)"
+  },
+  "Flipsville 1 - Starshroom": {
+    "connects_to": ["Flipsville 1 - Glamdozer"]
+  },
+  "Flipsville 1 - Glamdozer": {
+
+  },
+  "Flipsville 2 - Start": {
+    "connects_to": ["Flipsville 2 - Start Below", "Flipsville 2 - Dirt Intermediate", "Flipsville 2 - Tele Intermediate"]
+  },
+  "Flipsville 2 - Tele Intermediate": {
+    "connects_to": ["Flipsville - Teleporter"],
+    "exit_requires": "|Has Spin-Drill| or (|Has Air Spin| and |Hard Logic|)"
+  },
+  "Flipsville 2 - Start Below": {
+    "connects_to": ["Flipsville 2 - Dirt Tower"],
+    "entrance_requires": "|Has Spin-Drill|"
+  },
+  "Flipsville 2 - Dirt Intermediate": {
+    "connects_to": ["Flipsville 2 - Dirt Tower"],
+    "exit_requires": "(|Jump Height 4| and |Can Wall Spin| and |Medium Logic|) or (|Has Air Spin| and |Hard Logic|)"
+  },
+  "Flipsville 2 - Dirt Tower": {
+    "connects_to": ["Flipsville 2 - Silver Stars Start"],
+    "exit_requires": "|Has Spin-Drill| or (|Has Wall Spin| and |Jump Height 4| and |Medium Logic|)"
+  },
+  "Flipsville 2 - Silver Stars Start": {
+    "connects_to": ["Flipsville 2 - Silver Stars"],
+    "exit_requires": "|Has Spin-Drill|"
+  },
+  "Flipsville 2 - Silver Stars": {
+
+  },
+  "Flipsville C - Purple Coins": {
+    "entrance_requires": "|Has Purple Comets| and {OptOne(|Flipsville Comet Medal|)}"
   },
   "Starshine Beach Galaxy": {
     "connects_to": ["Starshine Beach Purple Coins"]
   },
   "Chompworks Galaxy": {
+    "connects_to": []
+  },
+  "Sweet Mystery Galaxy": {
+    "connects_to": ["Sweet Mystery Purple Coins"]
+  },
+  "Honeyhop Galaxy": {
     "connects_to": []
   },
   "Bowser's Gravity Gauntlet": {
