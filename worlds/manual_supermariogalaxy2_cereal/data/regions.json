@@ -247,7 +247,7 @@
   },
   "Rightside Down - Gearmo": {
     "connects_to": ["Rightside Down - Slide"],
-    "entrance_requires": "|Has Fire| and (|Has Ground Spin| or (|Has Back or Sideflip| and |Has Wall Jump| and |Medium Logic|) or (|Has Wall Jump| and |Has Triple Jump| and |Hard Logic|))"
+    "entrance_requires": "|Has Fire| and (|Has Ground Spin| or (|Can Back or Sideflip| and |Has Wall Jump| and |Medium Logic|) or (|Has Wall Jump| and |Has Triple Jump| and |Hard Logic|))"
   },
   "Rightside Down - Slide Intermediate": {
     "connects_to": ["Rightside Down - Slide"],
@@ -868,7 +868,7 @@
   },
   "Flipsville 1 - Start": {
     "connects_to": ["Flipsville 1 - Below Start", "Flipsville 1 - Chomps", "Flipsville 1 - Tele Intermediate"],
-    "exit_requires": "|Has Ground Pound| or (|Hard Logic| and |Can Wall Spin| and |Has Back or Sideflip|)"
+    "exit_requires": "|Has Ground Pound| or (|Hard Logic| and |Can Wall Spin| and |Can Back or Sideflip|)"
   },
   "Flipsville 1 - Tele Intermediate": {
     "connects_to": ["Flipsville - Teleporter"],
@@ -1002,7 +1002,42 @@
     "entrance_requires": "|Can Use Dash| or (Hard Logic and (|Can Long Jump| or |Has Yoshi|))"
   },
   "Chompworks Galaxy": {
-    "connects_to": []
+    "connects_to": ["Chompworks 1 - Start", "Chompworks 2 - Start", "Chompworks C - Lava Chomp Planet"]
+  },
+  "Chompworks 1 - Start": {
+    "connects_to": ["Chompworks 1 - Rolling Chomps", "Chompworks - Dispenser 1-Up"],
+    "exit_requires": ""
+  },
+  "Chompworks - Dispenser 1-Up": {
+    "entrance_requires": "|Has Backflip| or (|Medium Logic| and (|Has Sideflip| or |Has Air Spin|)) or (|Hard Logic| and |Has Spring|)"
+  },
+  "Chompworks 1 - Rolling Chomps": {
+    "connects_to": ["Chompworks - Rolling Checkpoint", "Chompworks 1 - Flip-Swap Panels"],
+    "entrance_requires": "|Has Ground Spin|"
+  },
+  "Chompworks 1 - Flip-Swap Panels": {
+    "connects_to": ["Chompworks 1 - Lava Chomp Planet"],
+    "exit_requires": "|Has Ground Spin|"
+  },
+  "Chompworks 1 - Lava Chomp Planet": {
+
+  },
+  "Chompworks - Rolling Checkpoint": {
+
+  },
+  "Chompworks 2 - Start": {
+    "connects_to": ["Chompworks 2 - Rolling Chomps", "Chompworks - Dispenser 1-Up"],
+    "exit_requires": "|Has Spring| or (|Has Wall Spin| and |Medium Logic| and (|Has Triple Jump| or |Has Backflip| or |Has Long Jump|)) or |Hard Logic|"
+  },
+  "Chompworks 2 - Rolling Chomps": {
+    "connects_to": ["Chompworks 2 - Tower", "Chompworks - Rolling Checkpoint"],
+    "exit_requires": "|Can Wall Spin| or (|Can Air Spin| and |Jump Height 5|)"
+  },
+  "Chompworks 2 - Tower": {
+
+  },
+  "Chompworks C - Lava Chomp Planet": {
+    "entrance_requires": "|Has Clone Comets| and {OptOne(|Chompworks Comet Medal|)}"
   },
   "Sweet Mystery Galaxy": {
     "connects_to": ["Sweet Mystery Purple Coins"]

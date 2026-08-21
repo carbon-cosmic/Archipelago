@@ -200,6 +200,14 @@
     "requires": "|Jump Height 3| or |Has Double Jump|"
   },
   {
+    "name": "Narrow Jump 3",
+    "requires": "|Can Back or Sideflip| or |Can Air Spin|"
+  },
+  {
+    "name": "Narrow Jump 5",
+    "requires": "|Can Back or Sideflip| and |Can Air Spin|"
+  },
+  {
     "name": "Can Swim",
     "requires": "|Has Ground Pound| or |Medium Logic|"
   },

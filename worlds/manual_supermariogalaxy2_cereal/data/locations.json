@@ -544,7 +544,7 @@
   },
   {
     "name": "Yoshi Star - Green Star 1",
-    "requires": "|Yoshi Star Green Stars| and (|Has Yoshi| or (|Has Air Spin| and |Has Back or Sideflip|))",
+    "requires": "|Yoshi Star Green Stars| and (|Has Yoshi| or (|Narrow Jump 5|))",
     "region": "Yoshi Star 1 - Start",
     "category": [
       "World 1",
@@ -1674,7 +1674,7 @@
   },
   {
     "name": "Puzzle Plank - Green Star 2",
-    "requires": "|Puzzle Plank Green Stars| and (|Needs Testing|)",
+    "requires": "|Puzzle Plank Green Stars| and (|Narrow Jump 5| or |Can Wall Spin| or (|Hard Logic| and |Has Triple Jump| and |Has Air Spin|))",
     "region": "Puzzle Plank - Planks",
     "category": [
       "World 2",
@@ -3064,7 +3064,7 @@
   },
   {
     "name": "Cloudy Court - ? Coin Above Block",
-    "requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Medium Logic|) or (|Has Cloud| and |Has Back or Sideflip| and |Has Long Jump| and |Hard Logic|)",
+    "requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Medium Logic|) or (|Has Cloud| and |Has Sideflip| and |Has Long Jump| and |Hard Logic|)",
     "region": "Cloudy Court - Start",
     "category": [
       "World 3",
@@ -3854,7 +3854,7 @@
   },
   {
     "name": "Beat Block - Green Star 2",
-    "requires": "|Beat Block Green Stars| and (|Has Air Spin| or |Has Back or Sideflip| or (|Has Triple Jump| and |Hard Logic|))",
+    "requires": "|Beat Block Green Stars| and (|Narrow Jump 5| or (|Has Triple Jump| and |Hard Logic|))",
     "region": "Beat Block - Main",
     "category": [
       "World 3",
@@ -4583,8 +4583,8 @@
   },
   {
     "name": "Where the Chomps Are Made of Gold",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "|Has Ground Pound|",
+    "region": "Chompworks 1 - Lava Chomp Planet",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -4593,8 +4593,8 @@
   },
   {
     "name": "Chompworks - Comet Medal",
-    "requires": "{OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Spin|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "|Narrow Jump 5| or (|Has Triple Jump| and |Hard Logic|)",
+    "region": "Chompworks 1 - Start",
     "category": [
       "World 4",
       "Comet Medal Locations"
@@ -4603,8 +4603,8 @@
   },
   {
     "name": "Chompworks - 1-Up Below Start Chomp Dispenser",
-    "requires": "{OptOne(|Backflip|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Spin|)} OR {OptOne(|Spring Mushroom|)}))",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "",
+    "region": "Chompworks - Dispenser 1-Up",
     "category": [
       "World 4",
       "1-Ups"
@@ -4613,8 +4613,8 @@
   },
   {
     "name": "Chompworks - Green Star 1",
-    "requires": "({OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Chompworks Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "|Chompworks Green Stars| and |Can Air Spin| and (|Can Long Jump| or (|Can Backflip| and |Hard Logic|))",
+    "region": "Chompworks 1 - Dispenser Intermediate",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4623,8 +4623,8 @@
   },
   {
     "name": "Chompworks - Mini-Chomps Planet Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Spring Mushroom|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "",
+    "region": "Chompworks - Rolling Checkpoint",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4633,8 +4633,8 @@
   },
   {
     "name": "Chompworks 1 - Bonus Room Chance Cube #1",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "",
+    "region": "Chompworks 1 - Rolling Chomps",
     "category": [
       "World 4",
       "Chance Cubes"
@@ -4643,8 +4643,8 @@
   },
   {
     "name": "Chompworks 1 - Bonus Room Chance Cube #2",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "",
+    "region": "Chompworks 1 - Rolling Chomps",
     "category": [
       "World 4",
       "Chance Cubes"
@@ -4653,8 +4653,8 @@
   },
   {
     "name": "Chompworks 1 - Bonus Room Chance Cube #3",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "",
+    "region": "Chompworks 1 - Rolling Chomps",
     "category": [
       "World 4",
       "Chance Cubes"
@@ -4663,7 +4663,7 @@
   },
   {
     "name": "Chompworks 1 - 1-Up Atop Mini Chomp Dispenser",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)})",
+    "requires": "(|Jump Height 5| and |Can Air Spin|) or |Can Wall Spin|",
     "region": "Chompworks Galaxy (28)",
     "category": [
       "World 4",
@@ -4673,8 +4673,8 @@
   },
   {
     "name": "Chompworks 1 - 1-Up Above Tilting Platform",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "",
+    "region": "Chompworks 1 - Flip-Swap Panels",
     "category": [
       "World 4",
       "1-Ups"
@@ -4683,7 +4683,7 @@
   },
   {
     "name": "Chompworks - Green Star 2",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Chompworks Comet Medal|)} AND {OptOne(|Green Comets|)}",
+    "requires": "|Chompworks Green Star 2| and |Needs Testing|",
     "region": "Chompworks Galaxy (28)",
     "category": [
       "World 4",
@@ -4693,8 +4693,8 @@
   },
   {
     "name": "Chompworks 1 - Lava Chomp Planet Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "",
+    "region": "Chompworks 1 - Lava Chomp Planet",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4703,8 +4703,8 @@
   },
   {
     "name": "Spring into the Chompworks",
-    "requires": "{OptOne(|Spring Mushroom|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR ({OptOne(|Sideflip|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Long Jump|)}))))",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "|Has Spring| or (|Can Wall Spin| and |Hard Logic| and |Can Back or Sideflip|)",
+    "region": "Chompworks 2 - Tower",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -4713,8 +4713,8 @@
   },
   {
     "name": "Chompworks 2 - 1-Up High Above Checkpoint",
-    "requires": "{OptOne(|Spring Mushroom|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "|Has Spring|",
+    "region": "Chompworks 2 - Rolling Chomp",
     "category": [
       "World 4",
       "1-Ups"
@@ -4723,8 +4723,8 @@
   },
   {
     "name": "Chompworks 2 - Tower Checkpoint Flag",
-    "requires": "{OptOne(|Spring Mushroom|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Long Jump|)}))",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "",
+    "region": "Chompworks 2 - Tower",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4733,8 +4733,8 @@
   },
   {
     "name": "Chompworks 2 - Tower ? Coin",
-    "requires": "{OptOne(|Spring Mushroom|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR ({OptOne(|Sideflip|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Long Jump|)}))))",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "|Has Spring| or (|Can Wall Spin| and |Hard Logic| and |Can Back or Sideflip|)",
+    "region": "Chompworks 2 - Tower",
     "category": [
       "World 4",
       "? Coins"
@@ -4743,8 +4743,8 @@
   },
   {
     "name": "Chompworks 2 - Tower ? Coin 1-Up Reward",
-    "requires": "{OptOne(|Spring Mushroom|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "|Has Spring|",
+    "region": "Chompworks 2 - Tower",
     "category": [
       "World 4",
       "1-Ups"
@@ -4753,8 +4753,8 @@
   },
   {
     "name": "Chompworks 2 - Tower 1-Up on Spinning Bar",
-    "requires": "{OptOne(|Spring Mushroom|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR ({OptOne(|Sideflip|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Long Jump|)}))))",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "|Has Spring| or (|Can Wall Spin| and |Hard Logic| and |Can Back or Sideflip|)",
+    "region": "Chompworks 2 - Tower",
     "category": [
       "World 4",
       "1-Ups"
@@ -4763,8 +4763,8 @@
   },
   {
     "name": "Chompworks - Green Star 3",
-    "requires": "({OptOne(|Spring Mushroom|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Triple Jump|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))) AND {OptOne(|Chompworks Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "|Chompworks Green Stars| and (|Has Spring| or (|Can Wall Spin| and |Hard Logic| and |Can Back or Sideflip| and |Can Long Jump|))",
+    "region": "Chompworks 2 - Tower",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4773,8 +4773,8 @@
   },
   {
     "name": "Cosmic Clones in the Chompworks",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Chompworks Comet Medal|)} AND {OptOne(|Cosmic Clone Comets|)}",
-    "region": "Chompworks Galaxy (28)",
+    "requires": "|Has Ground Pound|",
+    "region": "Chompworks 3 - Lava Chomp Planet",
     "category": [
       "World 4",
       "Power Star Locations"
