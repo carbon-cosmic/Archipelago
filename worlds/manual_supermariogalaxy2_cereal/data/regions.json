@@ -1205,7 +1205,34 @@
     "entrance_requires": "|Has Ground Pound| or |Hard Logic|"
   },
   "Slipsand Galaxy": {
-    "connects_to": []
+    "connects_to": ["Slipsand 1 - Sand Tube", "Slipsand 2 - Sand Tube Start", "Slipsand C - Squizzard"]
+  },
+  "Slipsand 1 - Sand Tube": {
+    "connects_to": ["Slipsand 1 - Sand River"]
+  },
+  "Slipsand 1 - Sand River": {
+    "connects_to": ["Slipsand 1 - Sand Slide"]
+  },
+  "Slipsand 1 - Sand Slide": {
+    "connects_to": ["Slipsand 1 - Squizzard"]
+  },
+  "Slipsand 1 - Squizzard": {
+
+  },
+  "Slipsand 2 - Sand Tube Start": {
+    "connects_to": ["Slipsand 2 - 2D Room"]
+  },
+  "Slipsand 2 - 2D Room": {
+    "connects_to": ["Slipsand 2 - Sand Tube End"]
+  },
+  "Slipsand 2 - Sand Tube End": {
+    "connects_to": ["Slipsand 2 - Sandy Sea"]
+  },
+  "Slipsand 2 - Sandy Sea": {
+
+  },
+  "Slipsand C - Squizzard": {
+    "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Slipsand Comet Medal|)}"
   },
   "Shiverburn Galaxy": {
     "connects_to": []

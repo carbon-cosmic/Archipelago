@@ -5453,8 +5453,8 @@
   },
   {
     "name": "Squizzard's Sandy Sinkhole",
-    "requires": "{OptOne(|Fire Flower|)}",
-    "region": "Slipsand Galaxy (40)",
+    "requires": "|Has Fire|",
+    "region": "Slipsand 1 - Squizzard",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -5464,7 +5464,7 @@
   {
     "name": "Slipsand 1 Bonus Room ? Coin",
     "requires": "",
-    "region": "Slipsand Galaxy (40)",
+    "region": "Slipsand 1 - Sand Tube",
     "category": [
       "World 5",
       "? Coins"
@@ -5474,7 +5474,7 @@
   {
     "name": "Slipsand 1 Bonus Room 1-Up Reward",
     "requires": "",
-    "region": "Slipsand Galaxy (40)",
+    "region": "Slipsand 1 - Sand Tube",
     "category": [
       "World 5",
       "1-Ups"
@@ -5484,7 +5484,7 @@
   {
     "name": "Slipsand Comet Medal",
     "requires": "",
-    "region": "Slipsand Galaxy (40)",
+    "region": "Slipsand 1 - Sand River",
     "category": [
       "World 5",
       "Comet Medal Locations"
@@ -5493,8 +5493,8 @@
   },
   {
     "name": "Slipsand 1 Torch 1-Up",
-    "requires": "{OptOne(|Fire Flower|)}",
-    "region": "Slipsand Galaxy (40)",
+    "requires": "|Has Fire|",
+    "region": "Slipsand 1 - Sand River",
     "category": [
       "World 5",
       "1-Ups"
@@ -5503,8 +5503,8 @@
   },
   {
     "name": "Slipsand Green Star 1",
-    "requires": "{OptOne(|Slipsand Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Slipsand Galaxy (40)",
+    "requires": "|Slipsand Green Stars|",
+    "region": "Slipsand 1 - Sand River",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -5514,7 +5514,7 @@
   {
     "name": "Slipsand 1 Sand Stream Checkpoint Flag",
     "requires": "",
-    "region": "Slipsand Galaxy (40)",
+    "region": "Slipsand 1 - Sand River",
     "category": [
       "World 5",
       "Checkpoints"
@@ -5523,8 +5523,8 @@
   },
   {
     "name": "Slipsand Green Star 2",
-    "requires": "{OptOne(|Slipsand Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Slipsand Galaxy (40)",
+    "requires": "|Slipsand Green Stars|",
+    "region": "Slipsand 1 - Sand Slide",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -5533,8 +5533,8 @@
   },
   {
     "name": "Slipsand Green Star 3",
-    "requires": "{OptOne(|Slipsand Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Slipsand Galaxy (40)",
+    "requires": "|Slipsand Green Stars|",
+    "region": "Slipsand 1 - Sand Slide",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -5544,7 +5544,7 @@
   {
     "name": "Slipsand 1 Slipsand Checkpoint Flag",
     "requires": "",
-    "region": "Slipsand Galaxy (40)",
+    "region": "Slipsand 1 - Sand Slide",
     "category": [
       "World 5",
       "Checkpoints"
@@ -5554,7 +5554,7 @@
   {
     "name": "Slipsand 1 Luma Shop",
     "requires": "",
-    "region": "Slipsand Galaxy (40)",
+    "region": "Slipsand 1 - Sand Slide",
     "category": [
       "World 5",
       "Luma Shops"
@@ -5564,7 +5564,7 @@
   {
     "name": "Sailing the Sandy Seas",
     "requires": "",
-    "region": "Slipsand Galaxy (40)",
+    "region": "Slipsand 2 - Sandy Sea",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -5574,7 +5574,7 @@
   {
     "name": "Slipsand 2 Start Life Mushroom",
     "requires": "",
-    "region": "Slipsand Galaxy (40)",
+    "region": "Slipsand 2 - Sandy Tube Start",
     "category": [
       "World 5",
       "Life Mushrooms"
@@ -5583,8 +5583,8 @@
   },
   {
     "name": "Slipsand 2 Sand Tube End 1-Up #1",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Slipsand Galaxy (40)",
+    "requires": "|Has Air Spin|",
+    "region": "Slipsand 2 - Sandy Tube End",
     "category": [
       "World 5",
       "1-Ups"
@@ -5593,8 +5593,8 @@
   },
   {
     "name": "Slipsand 2 Sand Tube End 1-Up #2",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Slipsand Galaxy (40)",
+    "requires": "|Has Air Spin|",
+    "region": "Slipsand 2 - Sandy Tube End",
     "category": [
       "World 5",
       "1-Ups"
@@ -5603,8 +5603,8 @@
   },
   {
     "name": "Slipsand 2 Sand Tube End 1-Up #3",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Slipsand Galaxy (40)",
+    "requires": "|Has Air Spin|",
+    "region": "Slipsand 2 - Sandy Tube End",
     "category": [
       "World 5",
       "1-Ups"
@@ -5614,7 +5614,7 @@
   {
     "name": "Slipsand 2 Sandy Sea Checkpoint Flag",
     "requires": "",
-    "region": "Slipsand Galaxy (40)",
+    "region": "Slipsand 2 - Sandy Sea",
     "category": [
       "World 5",
       "Checkpoints"
@@ -5624,7 +5624,7 @@
   {
     "name": "Slipsand 2 Sandy Sea 1-Up",
     "requires": "",
-    "region": "Slipsand Galaxy (40)",
+    "region": "Slipsand 2 - Sandy Sea",
     "category": [
       "World 5",
       "1-Ups"
@@ -5633,8 +5633,8 @@
   },
   {
     "name": "Squizzard's Daredevil Run",
-    "requires": "{OptOne(|Fire Flower|)} AND {OptOne(|Slipsand Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Slipsand Galaxy (40)",
+    "requires": "|Has Fire|",
+    "region": "Slipsand C - Squizzard",
     "category": [
       "World 5",
       "Power Star Locations"
