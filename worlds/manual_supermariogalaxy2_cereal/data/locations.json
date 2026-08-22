@@ -5293,18 +5293,28 @@
   },
   {
     "name": "Follow Me, Bob-omb",
-    "requires": "{OptOne(|Bob-Ombs|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "",
+    "region": "Space Storm 1 - Storm Path",
     "category": [
       "World 5",
       "Power Star Locations"
     ],
-    "sort-key": "row-0523"
+    "sort-key": "row-0523a"
+  },
+  {
+    "name": "Space Storm 1 - 1-Up Behind Start",
+    "requires": "",
+    "region": "Space Storm 1 - Start",
+    "category": [
+      "World 5",
+      "1-Ups"
+    ],
+    "sort-key": "row-0523b"
   },
   {
     "name": "Space Storm Green Star 1",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Space Storm Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "|Space Storm Green Stars| and |Has Pull Stars|",
+    "region": "Space Storm 1 - Start",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -5313,8 +5323,8 @@
   },
   {
     "name": "Space Storm Comet Medal",
-    "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)}) AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "|Has Long Jump| or |Has Air Spin| or |Medium Logic|",
+    "region": "Space Storm 1 - Satellite",
     "category": [
       "World 5",
       "Comet Medal Locations"
@@ -5323,8 +5333,8 @@
   },
   {
     "name": "Space Storm 1 Caged Life Mushroom",
-    "requires": "{OptOne(|Bob-Ombs|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "|Has Bob-ombs|",
+    "region": "Space Storm 1 - Bob-omb Planet",
     "category": [
       "World 5",
       "Life Mushrooms"
@@ -5333,8 +5343,8 @@
   },
   {
     "name": "Space Storm 1 Topman Planet Checkpoint Flag",
-    "requires": "{OptOne(|Bob-Ombs|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "",
+    "region": "Space Storm 1 - Topman Planet",
     "category": [
       "World 5",
       "Checkpoints"
@@ -5343,8 +5353,8 @@
   },
   {
     "name": "Space Storm 1 Topman Planet Caged 1-Up",
-    "requires": "{OptOne(|Bob-Ombs|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "|Has Bob-ombs|",
+    "region": "Space Storm 1 - Topman Planet",
     "category": [
       "World 5",
       "1-Ups"
@@ -5353,8 +5363,8 @@
   },
   {
     "name": "To the Top of Topman's Tower",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "",
+    "region": "Space Storm 2 - Tower Top",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -5363,8 +5373,8 @@
   },
   {
     "name": "Space Storm Green Star 2",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Space Storm Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "|Space Storm Green Stars",
+    "region": "Space Storm 2 - Tower",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -5373,8 +5383,8 @@
   },
   {
     "name": "Space Storm Green Star 3",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Space Storm Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "|Has Ground Spin| and (|Has Ground Pound| or |Medium Logic|)",
+    "region": "Space Storm 2 - Tower Base",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -5383,8 +5393,8 @@
   },
   {
     "name": "Space Storm 2 Topman Tower Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "",
+    "region": "Space Storm 2 - Tower",
     "category": [
       "World 5",
       "Checkpoints"
@@ -5393,8 +5403,8 @@
   },
   {
     "name": "Space Storm 2 Bonus Room ? Coin",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "",
+    "region": "Space Storm 2 - Tower",
     "category": [
       "World 5",
       "? Coins"
@@ -5402,9 +5412,29 @@
     "sort-key": "row-0533"
   },
   {
-    "name": "Space Storm 2 Bonus Room 1-Up Reward",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Space Storm Galaxy (40)",
+    "name": "Space Storm 2 Bonus Room ? Coin 1-Up #1",
+    "requires": "",
+    "region": "Space Storm 2 - Tower",
+    "category": [
+      "World 5",
+      "1-Ups"
+    ],
+    "sort-key": "row-0534"
+  },
+  {
+    "name": "Space Storm 2 Bonus Room ? Coin 1-Up #2",
+    "requires": "",
+    "region": "Space Storm 2 - Tower",
+    "category": [
+      "World 5",
+      "1-Ups"
+    ],
+    "sort-key": "row-0534"
+  },
+  {
+    "name": "Space Storm 2 Bonus Room ? Coin 1-Up #3",
+    "requires": "",
+    "region": "Space Storm 2 - Tower",
     "category": [
       "World 5",
       "1-Ups"
@@ -5413,8 +5443,8 @@
   },
   {
     "name": "C'mere, Topman",
-    "requires": "({OptOne(|Bob-Ombs|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))) AND |Gearmo Letter Space Storm|",
-    "region": "Space Storm Galaxy (40)",
+    "requires": "|Space Storm Gearmo Letter|",
+    "region": "Space Storm 1 - Topman Planet",
     "category": [
       "World 5",
       "Power Star Locations"

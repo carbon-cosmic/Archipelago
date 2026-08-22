@@ -1169,7 +1169,40 @@
       "Upside Dizzy Galaxy", "Fleet Glide Galaxy", "Bowser Jr.'s Boom Bunker"]
   },
   "Space Storm Galaxy": {
-    "connects_to": []
+    "connects_to": ["Space Storm 1 - Start", "Space Storm 2 - Start"]
+  },
+  "Space Storm 1 - Start": {
+    "connects_to": ["Space Storm 1 - Satellite"],
+    "exit_requires": "|Has Pull Stars| or (|Jump Height 6| and |Hard Logic)"
+  },
+  "Space Storm 1 - Satellite": {
+    "connects_to": ["Space Storm 1 - Bob-omb Planet"],
+    "exit_requires": "|Has Long Jump| or |Has Air Spin| or |Medium Logic|"
+  },
+  "Space Storm 1 - Bob-omb Planet": {
+    "connects_to": ["Space Storm 1 - Topman Planet"],
+    "exit_requires": "|Has Bob-ombs|"
+  },
+  "Space Storm 1 - Topman Planet": {
+    "connects_to": ["Space Storm 1 - Storm Path"],
+    "exit_requires": "|Has Pull Stars|"
+  },
+  "Space Storm 1 - Storm Path": {
+
+  },
+  "Space Storm 2 - Start": {
+    "connects_to": ["Space Storm 2 - Tower Base"],
+    "exit_requires": "|Has Pull Stars| or (|Has Triple Jump| and |Hard Logic|)"
+  },
+  "Space Storm 2 - Tower Base": {
+    "connects_to": ["Space Storm 2 - Tower"],
+    "exit_requires": "|Has Ground Spin| and (|Has Ground Pound| or |Medium Logic|)"
+  },
+  "Space Storm 2 - Tower": {
+    "connects_to": ["Space Storm 2 - Tower Top"]
+  },
+  "Space Storm 2 - Tower Top": {
+    "entrance_requires": "|Has Ground Pound| or |Hard Logic|"
   },
   "Slipsand Galaxy": {
     "connects_to": []
