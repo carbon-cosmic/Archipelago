@@ -5312,7 +5312,7 @@
     "sort-key": "row-0523b"
   },
   {
-    "name": "Space Storm Green Star 1",
+    "name": "Space Storm - Green Star 1",
     "requires": "|Space Storm Green Stars| and |Has Pull Stars|",
     "region": "Space Storm 1 - Start",
     "category": [
@@ -5322,7 +5322,7 @@
     "sort-key": "row-0524"
   },
   {
-    "name": "Space Storm Comet Medal",
+    "name": "Space Storm - Comet Medal",
     "requires": "|Has Long Jump| or |Has Air Spin| or |Medium Logic|",
     "region": "Space Storm 1 - Satellite",
     "category": [
@@ -5332,7 +5332,7 @@
     "sort-key": "row-0525"
   },
   {
-    "name": "Space Storm 1 Caged Life Mushroom",
+    "name": "Space Storm 1 - Caged Life Mushroom",
     "requires": "|Has Bob-ombs|",
     "region": "Space Storm 1 - Bob-omb Planet",
     "category": [
@@ -5342,7 +5342,7 @@
     "sort-key": "row-0526"
   },
   {
-    "name": "Space Storm 1 Topman Planet Checkpoint Flag",
+    "name": "Space Storm 1 - Topman Planet Checkpoint Flag",
     "requires": "",
     "region": "Space Storm 1 - Topman Planet",
     "category": [
@@ -5352,7 +5352,7 @@
     "sort-key": "row-0527"
   },
   {
-    "name": "Space Storm 1 Topman Planet Caged 1-Up",
+    "name": "Space Storm 1 - Topman Planet Caged 1-Up",
     "requires": "|Has Bob-ombs|",
     "region": "Space Storm 1 - Topman Planet",
     "category": [
@@ -5372,7 +5372,7 @@
     "sort-key": "row-0529"
   },
   {
-    "name": "Space Storm Green Star 2",
+    "name": "Space Storm - Green Star 2",
     "requires": "|Space Storm Green Stars",
     "region": "Space Storm 2 - Tower",
     "category": [
@@ -5382,7 +5382,7 @@
     "sort-key": "row-0530"
   },
   {
-    "name": "Space Storm Green Star 3",
+    "name": "Space Storm - Green Star 3",
     "requires": "|Has Ground Spin| and (|Has Ground Pound| or |Medium Logic|)",
     "region": "Space Storm 2 - Tower Base",
     "category": [
@@ -5392,7 +5392,7 @@
     "sort-key": "row-0531"
   },
   {
-    "name": "Space Storm 2 Topman Tower Checkpoint Flag",
+    "name": "Space Storm 2 - Topman Tower Checkpoint Flag",
     "requires": "",
     "region": "Space Storm 2 - Tower",
     "category": [
@@ -5402,7 +5402,7 @@
     "sort-key": "row-0532"
   },
   {
-    "name": "Space Storm 2 Bonus Room ? Coin",
+    "name": "Space Storm 2 - Bonus Room ? Coin",
     "requires": "",
     "region": "Space Storm 2 - Tower",
     "category": [
@@ -5412,7 +5412,7 @@
     "sort-key": "row-0533"
   },
   {
-    "name": "Space Storm 2 Bonus Room ? Coin 1-Up #1",
+    "name": "Space Storm 2 - Bonus Room ? Coin 1-Up #1",
     "requires": "",
     "region": "Space Storm 2 - Tower",
     "category": [
@@ -5422,7 +5422,7 @@
     "sort-key": "row-0534"
   },
   {
-    "name": "Space Storm 2 Bonus Room ? Coin 1-Up #2",
+    "name": "Space Storm 2 - Bonus Room ? Coin 1-Up #2",
     "requires": "",
     "region": "Space Storm 2 - Tower",
     "category": [
@@ -5432,7 +5432,7 @@
     "sort-key": "row-0534"
   },
   {
-    "name": "Space Storm 2 Bonus Room ? Coin 1-Up #3",
+    "name": "Space Storm 2 - Bonus Room ? Coin 1-Up #3",
     "requires": "",
     "region": "Space Storm 2 - Tower",
     "category": [
@@ -5462,7 +5462,7 @@
     "sort-key": "row-0536"
   },
   {
-    "name": "Slipsand 1 Bonus Room ? Coin",
+    "name": "Slipsand 1 - Bonus Room ? Coin",
     "requires": "",
     "region": "Slipsand 1 - Sand Tube",
     "category": [
@@ -5472,7 +5472,7 @@
     "sort-key": "row-0537"
   },
   {
-    "name": "Slipsand 1 Bonus Room 1-Up Reward",
+    "name": "Slipsand 1 - Bonus Room 1-Up Reward",
     "requires": "",
     "region": "Slipsand 1 - Sand Tube",
     "category": [
@@ -5482,7 +5482,7 @@
     "sort-key": "row-0538"
   },
   {
-    "name": "Slipsand Comet Medal",
+    "name": "Slipsand - Comet Medal",
     "requires": "",
     "region": "Slipsand 1 - Sand River",
     "category": [
@@ -5492,7 +5492,7 @@
     "sort-key": "row-0539"
   },
   {
-    "name": "Slipsand 1 Torch 1-Up",
+    "name": "Slipsand 1 - Torch 1-Up",
     "requires": "|Has Fire|",
     "region": "Slipsand 1 - Sand River",
     "category": [
@@ -5502,7 +5502,7 @@
     "sort-key": "row-0540"
   },
   {
-    "name": "Slipsand Green Star 1",
+    "name": "Slipsand - Green Star 1",
     "requires": "|Slipsand Green Stars|",
     "region": "Slipsand 1 - Sand River",
     "category": [
@@ -5512,7 +5512,7 @@
     "sort-key": "row-0541"
   },
   {
-    "name": "Slipsand 1 Sand Stream Checkpoint Flag",
+    "name": "Slipsand 1 - Sand Stream Checkpoint Flag",
     "requires": "",
     "region": "Slipsand 1 - Sand River",
     "category": [
@@ -5522,7 +5522,7 @@
     "sort-key": "row-0542"
   },
   {
-    "name": "Slipsand Green Star 2",
+    "name": "Slipsand - Green Star 2",
     "requires": "|Slipsand Green Stars|",
     "region": "Slipsand 1 - Sand Slide",
     "category": [
@@ -5532,7 +5532,7 @@
     "sort-key": "row-0543"
   },
   {
-    "name": "Slipsand Green Star 3",
+    "name": "Slipsand - Green Star 3",
     "requires": "|Slipsand Green Stars|",
     "region": "Slipsand 1 - Sand Slide",
     "category": [
@@ -5542,7 +5542,7 @@
     "sort-key": "row-0544"
   },
   {
-    "name": "Slipsand 1 Slipsand Checkpoint Flag",
+    "name": "Slipsand 1 - Sand Slide Checkpoint Flag",
     "requires": "",
     "region": "Slipsand 1 - Sand Slide",
     "category": [
@@ -5552,7 +5552,7 @@
     "sort-key": "row-0545"
   },
   {
-    "name": "Slipsand 1 Luma Shop",
+    "name": "Slipsand 1 - Luma Shop",
     "requires": "",
     "region": "Slipsand 1 - Sand Slide",
     "category": [
@@ -5572,7 +5572,7 @@
     "sort-key": "row-0547"
   },
   {
-    "name": "Slipsand 2 Start Life Mushroom",
+    "name": "Slipsand 2 - Start Life Mushroom",
     "requires": "",
     "region": "Slipsand 2 - Sandy Tube Start",
     "category": [
@@ -5582,7 +5582,7 @@
     "sort-key": "row-0548"
   },
   {
-    "name": "Slipsand 2 Sand Tube End 1-Up #1",
+    "name": "Slipsand 2 - Sand Tube End 1-Up #1",
     "requires": "|Has Air Spin|",
     "region": "Slipsand 2 - Sandy Tube End",
     "category": [
@@ -5592,7 +5592,7 @@
     "sort-key": "row-0549"
   },
   {
-    "name": "Slipsand 2 Sand Tube End 1-Up #2",
+    "name": "Slipsand 2 - Sand Tube End 1-Up #2",
     "requires": "|Has Air Spin|",
     "region": "Slipsand 2 - Sandy Tube End",
     "category": [
@@ -5602,7 +5602,7 @@
     "sort-key": "row-0550"
   },
   {
-    "name": "Slipsand 2 Sand Tube End 1-Up #3",
+    "name": "Slipsand 2 - Sand Tube End 1-Up #3",
     "requires": "|Has Air Spin|",
     "region": "Slipsand 2 - Sandy Tube End",
     "category": [
@@ -5612,7 +5612,7 @@
     "sort-key": "row-0551"
   },
   {
-    "name": "Slipsand 2 Sandy Sea Checkpoint Flag",
+    "name": "Slipsand 2 - Sandy Sea Checkpoint Flag",
     "requires": "",
     "region": "Slipsand 2 - Sandy Sea",
     "category": [
@@ -5622,7 +5622,7 @@
     "sort-key": "row-0552"
   },
   {
-    "name": "Slipsand 2 Sandy Sea 1-Up",
+    "name": "Slipsand 2 - Sandy Sea 1-Up",
     "requires": "",
     "region": "Slipsand 2 - Sandy Sea",
     "category": [
@@ -5652,7 +5652,7 @@
     "sort-key": "row-0555"
   },
   {
-    "name": "Shiverburn Volcano Planet Life Mushroom",
+    "name": "Shiverburn - Volcano Planet Life Mushroom",
     "requires": "({OptOne(|Cloud Flower|)} AND {OptAll(|Spin| AND |Ground Pound|)}) OR {YamlEnabled(Advanced_Logic)}",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5662,7 +5662,7 @@
     "sort-key": "row-0556"
   },
   {
-    "name": "Shiverburn Volcano Planet 1-Up Mushroom",
+    "name": "Shiverburn - Volcano Planet 1-Up Mushroom",
     "requires": "({OptOne(|Cloud Flower|)} AND {OptAll(|Spin| AND |Ground Pound|)}) OR {YamlEnabled(Advanced_Logic)}",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5672,7 +5672,7 @@
     "sort-key": "row-0557"
   },
   {
-    "name": "Shiverburn Green Star 1",
+    "name": "Shiverburn - Green Star 1",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Shiverburn Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5682,7 +5682,7 @@
     "sort-key": "row-0558"
   },
   {
-    "name": "Shiverburn Spinning Stones Checkpoint Flag",
+    "name": "Shiverburn - Spinning Stones Checkpoint Flag",
     "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5692,7 +5692,7 @@
     "sort-key": "row-0559"
   },
   {
-    "name": "Shiverburn Spinning Stones Chest 1-Up",
+    "name": "Shiverburn - Spinning Stones Chest 1-Up",
     "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5702,7 +5702,7 @@
     "sort-key": "row-0560"
   },
   {
-    "name": "Shiverburn Comet Medal",
+    "name": "Shiverburn - Comet Medal",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5712,7 +5712,7 @@
     "sort-key": "row-0561"
   },
   {
-    "name": "Shiverburn Spinning Stones Far Side 1-Up",
+    "name": "Shiverburn - Spinning Stones Far Side 1-Up",
     "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5722,7 +5722,7 @@
     "sort-key": "row-0562"
   },
   {
-    "name": "Shiverburn Green Star 2",
+    "name": "Shiverburn - Green Star 2",
     "requires": "({OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})) AND {OptOne(|Shiverburn Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5732,7 +5732,7 @@
     "sort-key": "row-0563"
   },
   {
-    "name": "Shiverburn Meteor Rain Checkpoint Flag",
+    "name": "Shiverburn - Meteor Rain Checkpoint Flag",
     "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5742,7 +5742,7 @@
     "sort-key": "row-0564"
   },
   {
-    "name": "Shiverburn Meteor Rain Cloud 1-Up",
+    "name": "Shiverburn - Meteor Rain Cloud 1-Up",
     "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5752,7 +5752,7 @@
     "sort-key": "row-0565"
   },
   {
-    "name": "Shiverburn Green Star 3",
+    "name": "Shiverburn - Green Star 3",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Shiverburn Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5762,7 +5762,7 @@
     "sort-key": "row-0566"
   },
   {
-    "name": "Shiverburn Meteor Rain Crystal Life Mushroom",
+    "name": "Shiverburn - Meteor Rain Crystal Life Mushroom",
     "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5772,7 +5772,7 @@
     "sort-key": "row-0567"
   },
   {
-    "name": "Shiverburn Icicle Rain 1-Up",
+    "name": "Shiverburn - Icicle Rain 1-Up",
     "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5782,7 +5782,7 @@
     "sort-key": "row-0568"
   },
   {
-    "name": "Shiverburn Luma Shop",
+    "name": "Shiverburn - Luma Shop",
     "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5792,7 +5792,7 @@
     "sort-key": "row-0569"
   },
    {
-    "name": "Shiverburn Starshroom Checkpoint Flag",
+    "name": "Shiverburn - Starshroom Checkpoint Flag",
     "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
     "region": "Shiverburn Galaxy (40)",
     "category": [
@@ -5832,7 +5832,7 @@
     "sort-key": "row-0572"
   },
   {
-    "name": "Boo Moon 1 Teleporter 1-Up #1",
+    "name": "Boo Moon 1 - Teleporter 1-Up #1",
     "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5842,7 +5842,7 @@
     "sort-key": "row-0573"
   },
   {
-    "name": "Boo Moon 1 Teleporter 1-Up #2",
+    "name": "Boo Moon 1 - Teleporter 1-Up #2",
     "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5852,7 +5852,7 @@
     "sort-key": "row-0574"
   },
   {
-    "name": "Boo Moon 1 Teleporter 1-Up #3",
+    "name": "Boo Moon 1 - Teleporter 1-Up #3",
     "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5862,7 +5862,7 @@
     "sort-key": "row-0575"
   },
   {
-    "name": "Boo Moon 1 Sinking Swamp Checkpoint Flag",
+    "name": "Boo Moon 1 - Sinking Swamp Checkpoint Flag",
     "requires": "",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5872,7 +5872,7 @@
     "sort-key": "row-0576"
   },
   {
-    "name": "Boo Moon 1 Snake Block Notes ? Coin",
+    "name": "Boo Moon 1 - Snake Block Notes ? Coin",
     "requires": "",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5882,7 +5882,7 @@
     "sort-key": "row-0577"
   },
   {
-    "name": "Boo Moon 1 Snake Block Notes 1-Up #1",
+    "name": "Boo Moon 1 - Snake Block Notes 1-Up #1",
     "requires": "",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5892,7 +5892,7 @@
     "sort-key": "row-0578"
   },
   {
-    "name": "Boo Moon 1 Snake Block Notes 1-Up #2",
+    "name": "Boo Moon 1 - Snake Block Notes 1-Up #2",
     "requires": "",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5902,7 +5902,7 @@
     "sort-key": "row-0579"
   },
   {
-    "name": "Boo Moon 1 Snake Block Notes 1-Up #3",
+    "name": "Boo Moon 1 - Snake Block Notes 1-Up #3",
     "requires": "",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5912,7 +5912,7 @@
     "sort-key": "row-0580"
   },
   {
-    "name": "Boo Moon Comet Medal",
+    "name": "Boo Moon - Comet Medal",
     "requires": "",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5922,7 +5922,7 @@
     "sort-key": "row-0581"
   },
   {
-    "name": "Boo Moon Green Star 2",
+    "name": "Boo Moon - Green Star 2",
     "requires": "({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Boo Moon Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5932,7 +5932,7 @@
     "sort-key": "row-0582"
   },
   {
-    "name": "Boo Moon 1 Pop-Up Book 1-Up",
+    "name": "Boo Moon 1 - Pop-Up Book 1-Up",
     "requires": "{OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5942,7 +5942,7 @@
     "sort-key": "row-0583"
   },
   {
-    "name": "Boo Moon Green Star 3",
+    "name": "Boo Moon - Green Star 3",
     "requires": "{OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Boo Moon Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5962,7 +5962,7 @@
     "sort-key": "row-0585"
   },
   {
-    "name": "Boo Moon 2 Starting Planet Crystal 1-Up #1",
+    "name": "Boo Moon 2 - Starting Planet Crystal 1-Up #1",
     "requires": "{OptOne(|Spin|)}",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5972,7 +5972,7 @@
     "sort-key": "row-0586"
   },
   {
-    "name": "Boo Moon 2 Starting Planet Crystal 1-Up #2",
+    "name": "Boo Moon 2 - Starting Planet Crystal 1-Up #2",
     "requires": "{OptOne(|Spin|)}",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5982,7 +5982,7 @@
     "sort-key": "row-0587"
   },
   {
-    "name": "Boo Moon 2 Checkpoint Flag",
+    "name": "Boo Moon 2 - Checkpoint Flag",
     "requires": "",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -5992,7 +5992,7 @@
     "sort-key": "row-0588"
   },
   {
-    "name": "Boo Moon 2 Windy Hallway 1-Up",
+    "name": "Boo Moon 2 - Windy Hallway 1-Up",
     "requires": "{OptOne(|Boo Mushroom|)}",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -6012,7 +6012,7 @@
     "sort-key": "row-0590"
   },
   {
-    "name": "Boo Moon Green Star 1",
+    "name": "Boo Moon - Green Star 1",
     "requires": "{OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {OptOne(|Boo Moon Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Boo Moon Galaxy (40)",
     "category": [
@@ -6032,7 +6032,7 @@
     "sort-key": "row-0592"
   },
   {
-    "name": "Upside Dizzy 1-Up Next to Secret Pipe",
+    "name": "Upside Dizzy - 1-Up Next to Secret Pipe",
     "requires": "",
     "region": "Upside Dizzy Galaxy (40)",
     "category": [
@@ -6042,7 +6042,7 @@
     "sort-key": "row-0593"
   },
   {
-    "name": "Upside Dizzy Green Star 1",
+    "name": "Upside Dizzy - Green Star 1",
     "requires": "({OptOne(|Spin|)} OR ({OptOne(|Backflip|)} AND ({OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)})) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Long Jump|)}))) AND {OptOne(|Upside Dizzy Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Upside Dizzy Galaxy (40)",
     "category": [
@@ -6052,7 +6052,7 @@
     "sort-key": "row-0594"
   },
   {
-    "name": "Upside Dizzy Life Mushroom Above ? Block",
+    "name": "Upside Dizzy - Life Mushroom Above ? Block",
     "requires": "{OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)})",
     "region": "Upside Dizzy Galaxy (40)",
     "category": [
@@ -6062,7 +6062,7 @@
     "sort-key": "row-0595"
   },
   {
-    "name": "Upside Dizzy Green Star 2",
+    "name": "Upside Dizzy - Green Star 2",
     "requires": "({OptOne(|Spin|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))) AND {OptOne(|Upside Dizzy Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Upside Dizzy Galaxy (40)",
     "category": [
@@ -6072,7 +6072,7 @@
     "sort-key": "row-0596"
   },
   {
-    "name": "Upside Dizzy Checkpoint Flag",
+    "name": "Upside Dizzy - Checkpoint Flag",
     "requires": "{OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)})",
     "region": "Upside Dizzy Galaxy (40)",
     "category": [
@@ -6082,7 +6082,7 @@
     "sort-key": "row-0597"
   },
   {
-    "name": "Upside Dizzy Comet Medal",
+    "name": "Upside Dizzy - Comet Medal",
     "requires": "(|Ground Pound| AND (|Sideflip| OR |Backflip| OR |Spin|)) OR ({YamlEnabled(Advanced Logic)} AND (|Spin| OR |Backflip|))",
     "region": "Upside Dizzy Galaxy (40)",
     "category": [
@@ -6112,7 +6112,7 @@
     "sort-key": "row-0600"
   },
   {
-    "name": "Fleet Glide Green Star 1",
+    "name": "Fleet Glide - Green Star 1",
     "requires": "{OptOne(|Fluzzard|)} AND {OptOne(|Fleet Glide Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Fleet Glide Galaxy (40)",
     "category": [
@@ -6122,7 +6122,7 @@
     "sort-key": "row-0601"
   },
   {
-    "name": "Fleet Glide First Wall Life Mushroom",
+    "name": "Fleet Glide - First Wall Life Mushroom",
     "requires": "{OptOne(|Fluzzard|)}",
     "region": "Fleet Glide Galaxy (40)",
     "category": [
@@ -6132,7 +6132,7 @@
     "sort-key": "row-0602"
   },
   {
-    "name": "Fleet Glide Third Wall 1-Up",
+    "name": "Fleet Glide - Third Wall 1-Up",
     "requires": "{OptOne(|Fluzzard|)}",
     "region": "Fleet Glide Galaxy (40)",
     "category": [
@@ -6142,7 +6142,7 @@
     "sort-key": "row-0603"
   },
   {
-    "name": "Fleet Glide 1-Up Before Second Comet Gate",
+    "name": "Fleet Glide - 1-Up Before Second Comet Gate",
     "requires": "{OptOne(|Fluzzard|)}",
     "region": "Fleet Glide Galaxy (40)",
     "category": [
@@ -6152,7 +6152,7 @@
     "sort-key": "row-0604"
   },
   {
-    "name": "Fleet Glide Green Star 2",
+    "name": "Fleet Glide - Green Star 2",
     "requires": "{OptOne(|Fluzzard|)} AND {OptOne(|Fleet Glide Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Fleet Glide Galaxy (40)",
     "category": [
@@ -6162,7 +6162,7 @@
     "sort-key": "row-0605"
   },
   {
-    "name": "Fleet Glide Comet Medal",
+    "name": "Fleet Glide - Comet Medal",
     "requires": "{OptOne(|Fluzzard|)}",
     "region": "Fleet Glide Galaxy (40)",
     "category": [
@@ -6192,7 +6192,7 @@
     "sort-key": "row-0608"
   },
   {
-    "name": "Boom Bunker Start Chance Cube",
+    "name": "Boom Bunker - Start Chance Cube",
     "requires": "",
     "region": "Bowser Jr.'s Boom Bunker (55)",
     "category": [
@@ -6202,7 +6202,7 @@
     "sort-key": "row-0609"
   },
   {
-    "name": "Boom Bunker Green Star 1",
+    "name": "Boom Bunker - Green Star 1",
     "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Bowser Jr.'s Boom Bunker (55)",
     "category": [
@@ -6212,7 +6212,7 @@
     "sort-key": "row-0610"
   },
   {
-    "name": "Boom Bunker Start Cannon Bullseye 1-Up",
+    "name": "Boom Bunker - Start Cannon Bullseye 1-Up",
     "requires": "{OptOne(|Cannon Permit|)}",
     "region": "Bowser Jr.'s Boom Bunker (55)",
     "category": [
@@ -6222,7 +6222,7 @@
     "sort-key": "row-0611"
   },
   {
-    "name": "Boom Bunker Boomerang Bro Pole Life Mushroom",
+    "name": "Boom Bunker - Boomerang Bro Pole Life Mushroom",
     "requires": "{OptOne(|Cannon Permit|)}",
     "region": "Bowser Jr.'s Boom Bunker (55)",
     "category": [
@@ -6232,7 +6232,7 @@
     "sort-key": "row-0612"
   },
   {
-    "name": "Boom Bunker Checkpoint Flag",
+    "name": "Boom Bunker - Checkpoint Flag",
     "requires": "{OptOne(|Cannon Permit|)}",
     "region": "Bowser Jr.'s Boom Bunker (55)",
     "category": [
@@ -6242,7 +6242,7 @@
     "sort-key": "row-0613"
   },
   {
-    "name": "Boom Bunker Green Star 2",
+    "name": "Boom Bunker - Green Star 2",
     "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Bowser Jr.'s Boom Bunker (55)",
     "category": [
@@ -6262,7 +6262,7 @@
     "sort-key": "row-0615"
   },
   {
-    "name": "Boom Bunker Comet Medal",
+    "name": "Boom Bunker - Comet Medal",
     "requires": "{OptOne(|Cannon Permit|)}",
     "region": "Bowser Jr.'s Boom Bunker (55)",
     "category": [
@@ -6282,7 +6282,7 @@
     "sort-key": "row-0617"
   },
   {
-    "name": "Boom Bunker Comet Dark Matter Bullseye 1-Up",
+    "name": "Boom Bunker C - Dark Matter Bullseye 1-Up",
     "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
     "region": "Bowser Jr.'s Boom Bunker (55)",
     "category": [
@@ -6292,7 +6292,7 @@
     "sort-key": "row-0618"
   },
   {
-    "name": "Boom Bunker Comet Checkpoint Flag",
+    "name": "Boom Bunker C - Checkpoint Flag",
     "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
     "region": "Bowser Jr.'s Boom Bunker (55)",
     "category": [
@@ -6302,7 +6302,7 @@
     "sort-key": "row-0619"
   },
   {
-    "name": "Boom Bunker Comet 1-Up Before Boss",
+    "name": "Boom Bunker C - 1-Up Before Boss",
     "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
     "region": "Bowser Jr.'s Boom Bunker (55)",
     "category": [
@@ -6322,7 +6322,7 @@
     "sort-key": "row-0621"
   },
   {
-    "name": "Melty Monster 1 Life Mushroom Among Pull Stars",
+    "name": "Melty Monster 1 - Life Mushroom Among Pull Stars",
     "requires": "{OptOne(|Pull Stars|)}",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6332,7 +6332,7 @@
     "sort-key": "row-0622"
   },
   {
-    "name": "Melty Monster Green Star 1",
+    "name": "Melty Monster - Green Star 1",
     "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Melty Monster Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6342,7 +6342,7 @@
     "sort-key": "row-0623"
   },
   {
-    "name": "Melty Monster 1 Lava Sea Checkpoint Flag #1",
+    "name": "Melty Monster 1 - Lava Sea Checkpoint Flag #1",
     "requires": "{OptOne(|Pull Stars|)}",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6352,7 +6352,7 @@
     "sort-key": "row-0624"
   },
   {
-    "name": "Melty Monster 1 Life Mushroom Between Poles",
+    "name": "Melty Monster 1 - Life Mushroom Between Poles",
     "requires": "{OptOne(|Pull Stars|)}",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6362,7 +6362,7 @@
     "sort-key": "row-0625"
   },
   {
-    "name": "Melty Monster 1 Lava Sea Checkpoint Flag #2",
+    "name": "Melty Monster 1 - Lava Sea Checkpoint Flag #2",
     "requires": "{OptOne(|Pull Stars|)}",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6372,7 +6372,7 @@
     "sort-key": "row-0626"
   },
   {
-    "name": "Melty Monster Comet Medal",
+    "name": "Melty Monster - Comet Medal",
     "requires": "{OptOne(|Tornado Soaring|)} AND {OptOne(|Pull Stars|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6382,7 +6382,7 @@
     "sort-key": "row-0627"
   },
   {
-    "name": "Melty Monster Green Star 2",
+    "name": "Melty Monster - Green Star 2",
     "requires": "{OptOne(|Tornado Soaring|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Melty Monster Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6402,7 +6402,7 @@
     "sort-key": "row-0629"
   },
   {
-    "name": "Melty Monster 2 Checkpoint Flag",
+    "name": "Melty Monster 2 - Checkpoint Flag",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6412,7 +6412,7 @@
     "sort-key": "row-0630"
   },
   {
-    "name": "Melty Monster 2 1-Up",
+    "name": "Melty Monster 2 - Rolling Lane 1-Up",
     "requires": "{OptOne(|Rock Mushroom|)}",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6422,7 +6422,7 @@
     "sort-key": "row-0631"
   },
   {
-    "name": "Melty Monster Green Star 3",
+    "name": "Melty Monster - Green Star 3",
     "requires": "{OptOne(|Rock Mushroom|)} AND {OptOne(|Melty Monster Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6442,7 +6442,7 @@
     "sort-key": "row-0633"
   },
   {
-    "name": "Melty Monster Secret Checkpoint Flag",
+    "name": "Melty Monster S - Checkpoint Flag",
     "requires": "",
     "region": "Melty Monster Galaxy (55)",
     "category": [
@@ -6462,7 +6462,7 @@
     "sort-key": "row-0635"
   },
   {
-    "name": "Clockwork Ruins Green Star 1",
+    "name": "Clockwork Ruins - Green Star 1",
     "requires": "(({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND ({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)}) AND {OptOne(|Clockwork Ruins Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6472,7 +6472,7 @@
     "sort-key": "row-0636"
   },
   {
-    "name": "Clockwork Ruins Pusher Walls Checkpoint Flag",
+    "name": "Clockwork Ruins - Pusher Walls Checkpoint Flag",
     "requires": "",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6482,7 +6482,7 @@
     "sort-key": "row-0637"
   },
   {
-    "name": "Clockwork Ruins Pusher Walls Lower Right Life Mushroom",
+    "name": "Clockwork Ruins - Pusher Walls Lower Right Life Mushroom",
     "requires": "",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6492,7 +6492,7 @@
     "sort-key": "row-0638"
   },
   {
-    "name": "Clockwork Ruins Pusher Walls 1-Up",
+    "name": "Clockwork Ruins - Pusher Walls 1-Up",
     "requires": "",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6502,7 +6502,7 @@
     "sort-key": "row-0639"
   },
   {
-    "name": "Clockwork Ruins Green Star 2",
+    "name": "Clockwork Ruins - Green Star 2",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Clockwork Ruins Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6512,7 +6512,7 @@
     "sort-key": "row-0640"
   },
   {
-    "name": "Clockwork Ruins Comet Medal",
+    "name": "Clockwork Ruins - Comet Medal",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6522,7 +6522,7 @@
     "sort-key": "row-0641"
   },
   {
-    "name": "Clockwork Ruins Rolling Drums Checkpoint Flag",
+    "name": "Clockwork Ruins - Rolling Drums Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6532,7 +6532,7 @@
     "sort-key": "row-0642"
   },
   {
-    "name": "Clockwork Ruins Rolling Drums Alcove 1-Up",
+    "name": "Clockwork Ruins - Rolling Drums Alcove 1-Up",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6542,7 +6542,7 @@
     "sort-key": "row-0643"
   },
   {
-    "name": "Clockwork Ruins 1-Up Outside Spinning Stones",
+    "name": "Clockwork Ruins - 1-Up Outside Spinning Stones",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)}",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6552,7 +6552,7 @@
     "sort-key": "row-0644"
   },
   {
-    "name": "Clockwork Ruins Bonus Room Above Spinning Stones ? Coin",
+    "name": "Clockwork Ruins - Bonus Room Above Spinning Stones ? Coin",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)}",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6562,7 +6562,7 @@
     "sort-key": "row-0645"
   },
   {
-    "name": "Clockwork Ruins Bonus Room 1-Up Reward",
+    "name": "Clockwork Ruins - Bonus Room 1-Up Reward",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)}",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6572,7 +6572,7 @@
     "sort-key": "row-0646"
   },
   {
-    "name": "Clockwork Ruins Upper Rolling Drums Hill 1-Up",
+    "name": "Clockwork Ruins - Upper Rolling Drums Hill 1-Up",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)}",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6582,7 +6582,7 @@
     "sort-key": "row-0647"
   },
   {
-    "name": "Clockwork Ruins Green Star 3",
+    "name": "Clockwork Ruins - Green Star 3",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Clockwork Ruins Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6612,7 +6612,7 @@
     "sort-key": "row-0650"
   },
   {
-    "name": "Clockwork Ruins Secret Checkpoint Flag",
+    "name": "Clockwork Ruins S - Checkpoint Flag",
     "requires": "",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6622,7 +6622,7 @@
     "sort-key": "row-0651"
   },
   {
-    "name": "Clockwork Ruins Secret 1-Up on Hammer",
+    "name": "Clockwork Ruins S - 1-Up on Hammer",
     "requires": "",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6632,7 +6632,7 @@
     "sort-key": "row-0652"
   },
   {
-    "name": "Clockwork Ruins Secret 1-Up on Top Ledge",
+    "name": "Clockwork Ruins S - 1-Up on Top Ledge",
     "requires": "{OptOne(|Spin|)} OR {OptOne(|Sideflip|)} OR ({OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)})",
     "region": "Clockwork Ruins Galaxy (55)",
     "category": [
@@ -6652,7 +6652,7 @@
     "sort-key": "row-0654"
   },
   {
-    "name": "Throwback 1 Start Chance Cube",
+    "name": "Throwback 1 - Start Chance Cube",
     "requires": "",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6662,7 +6662,7 @@
     "sort-key": "row-0655"
   },
   {
-    "name": "Throwback Teleporter 1-Up #1",
+    "name": "Throwback - Teleporter 1-Up #1",
     "requires": "",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6672,7 +6672,7 @@
     "sort-key": "row-0656"
   },
   {
-    "name": "Throwback Teleporter 1-Up #2",
+    "name": "Throwback - Teleporter 1-Up #2",
     "requires": "",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6682,7 +6682,7 @@
     "sort-key": "row-0657"
   },
   {
-    "name": "Throwback Teleporter 1-Up #3",
+    "name": "Throwback - Teleporter 1-Up #3",
     "requires": "",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6692,7 +6692,7 @@
     "sort-key": "row-0658"
   },
   {
-    "name": "Throwback Green Star 1",
+    "name": "Throwback - Green Star 1",
     "requires": "{OptOne(|Throwback Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6702,7 +6702,7 @@
     "sort-key": "row-0659"
   },
   {
-    "name": "Throwback Slope Behind Mountain Crate Notes 1-Up #1",
+    "name": "Throwback - Behind Mountain Crate Notes 1-Up #1",
     "requires": "{OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6712,7 +6712,7 @@
     "sort-key": "row-0660"
   },
   {
-    "name": "Throwback Slope Behind Mountain Crate Notes 1-Up #2",
+    "name": "Throwback - Behind Mountain Crate Notes 1-Up #2",
     "requires": "{OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6722,7 +6722,7 @@
     "sort-key": "row-0661"
   },
   {
-    "name": "Throwback Slope Behind Mountain Crate Notes 1-Up #3",
+    "name": "Throwback - Behind Mountain Crate Notes 1-Up #3",
     "requires": "{OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6732,7 +6732,7 @@
     "sort-key": "row-0662"
   },
   {
-    "name": "Throwback 1-Up on Top of Thwomp",
+    "name": "Throwback - 1-Up on Top of Thwomp",
     "requires": "",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6742,7 +6742,7 @@
     "sort-key": "row-0663"
   },
   {
-    "name": "Throwback Comet Medal",
+    "name": "Throwback - Comet Medal",
     "requires": "{OptOne(|Spin|)}",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6752,7 +6752,7 @@
     "sort-key": "row-0664"
   },
   {
-    "name": "Throwback 1-Up on Flagpole",
+    "name": "Throwback - 1-Up on Flagpole",
     "requires": "",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6762,7 +6762,7 @@
     "sort-key": "row-0665"
   },
   {
-    "name": "Throwback Mountaintop Checkpoint Flag",
+    "name": "Throwback 1 - Mountaintop Checkpoint Flag",
     "requires": "",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6772,7 +6772,7 @@
     "sort-key": "row-0666"
   },
   {
-    "name": "Throwback Green Star 2",
+    "name": "Throwback - Green Star 2",
     "requires": "({OptOne(|Spin|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Wall Jump|)})) AND {OptOne(|Throwback Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6792,7 +6792,7 @@
     "sort-key": "row-0668"
   },
   {
-    "name": "Throwback Green Star 3",
+    "name": "Throwback - Green Star 3",
     "requires": "{OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Throwback Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Throwback Galaxy (60)",
     "category": [
@@ -6822,7 +6822,7 @@
     "sort-key": "row-0671"
   },
   {
-    "name": "Battle Belt Comet Medal",
+    "name": "Battle Belt - Comet Medal",
     "requires": "",
     "region": "Battle Belt Galaxy (65)",
     "category": [
@@ -6832,7 +6832,7 @@
     "sort-key": "row-0672"
   },
   {
-    "name": "Battle Belt Blue Crabber 1-Up",
+    "name": "Battle Belt - Blue Crabber 1-Up",
     "requires": "{OptOne(|Spin|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
     "region": "Battle Belt Galaxy (65)",
     "category": [
@@ -6842,7 +6842,7 @@
     "sort-key": "row-0673"
   },
   {
-    "name": "Battle Belt Purple Starshroom Checkpoint Flag",
+    "name": "Battle Belt - Purple Starshroom Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
     "region": "Battle Belt Galaxy (65)",
     "category": [
@@ -6852,7 +6852,7 @@
     "sort-key": "row-0674"
   },
   {
-    "name": "Battle Belt Green Star 1",
+    "name": "Battle Belt - Green Star 1",
     "requires": "({OptOne(|Spin|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Battle Belt Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Battle Belt Galaxy (65)",
     "category": [
@@ -6862,7 +6862,7 @@
     "sort-key": "row-0675"
   },
   {
-    "name": "Battle Belt Red Starshroom Checkpoint Flag",
+    "name": "Battle Belt - Red Starshroom Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Koopa Shell|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
     "region": "Battle Belt Galaxy (65)",
     "category": [
@@ -6872,7 +6872,7 @@
     "sort-key": "row-0676"
   },
   {
-    "name": "Battle Belt Red Starshroom Luma Shop",
+    "name": "Battle Belt - Red Starshroom Luma Shop",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Koopa Shell|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
     "region": "Battle Belt Galaxy (65)",
     "category": [
@@ -6882,7 +6882,7 @@
     "sort-key": "row-0677"
   },
   {
-    "name": "Battle Belt Green Star 2",
+    "name": "Battle Belt - Green Star 2",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Koopa Shell|)} AND (({OptOne(|Fire Flower|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Battle Belt Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Battle Belt Galaxy (65)",
     "category": [
@@ -6892,7 +6892,7 @@
     "sort-key": "row-0678"
   },
   {
-    "name": "Battle Belt Green Star 3",
+    "name": "Battle Belt - Green Star 3",
     "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Battle Belt Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Battle Belt Galaxy (65)",
     "category": [
@@ -6912,7 +6912,7 @@
     "sort-key": "row-0680"
   },
   {
-    "name": "Battle Belt Comet 1-Up Over Lava Pool",
+    "name": "Battle Belt C - 1-Up Over Lava Pool",
     "requires": "{OptOne(|Battle Belt Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
     "region": "Battle Belt Galaxy (65)",
     "category": [
@@ -6943,7 +6943,7 @@
     "sort-key": "row-0683"
   },
   {
-    "name": "Flash Black Life Mushroom Under Mine",
+    "name": "Flash Black - Life Mushroom Under Mine",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
     "region": "Flash Black Galaxy (55)",
     "category": [
@@ -6953,7 +6953,7 @@
     "sort-key": "row-0684"
   },
   {
-    "name": "Flash Black Overhang 1-Up",
+    "name": "Flash Black - Overhang 1-Up",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
     "region": "Flash Black Galaxy (55)",
     "category": [
@@ -6963,7 +6963,7 @@
     "sort-key": "row-0685"
   },
   {
-    "name": "Flash Black Comet Medal",
+    "name": "Flash Black - Comet Medal",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
     "region": "Flash Black Galaxy (55)",
     "category": [
@@ -6973,7 +6973,7 @@
     "sort-key": "row-0686"
   },
   {
-    "name": "Flash Black Green Star 1",
+    "name": "Flash Black - Green Star 1",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)} AND {OptOne(|Flash Black Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Flash Black Galaxy (55)",
     "category": [
@@ -6983,7 +6983,7 @@
     "sort-key": "row-0687"
   },
   {
-    "name": "Flash Black Checkpoint Flag",
+    "name": "Flash Black - Checkpoint Flag",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
     "region": "Flash Black Galaxy (55)",
     "category": [
@@ -6993,7 +6993,7 @@
     "sort-key": "row-0688"
   },
   {
-    "name": "Flash Black Final Area Crystal 1-Up",
+    "name": "Flash Black - Final Area Crystal 1-Up",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)} AND {OptOne(|Spin|)}",
     "region": "Flash Black Galaxy (55)",
     "category": [
@@ -7003,7 +7003,7 @@
     "sort-key": "row-0689"
   },
   {
-    "name": "Flash Black Green Star 2",
+    "name": "Flash Black - Green Star 2",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)} AND {OptOne(|Flash Black Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Flash Black Galaxy (55)",
     "category": [
@@ -7033,7 +7033,7 @@
     "sort-key": "row-0692"
   },
   {
-    "name": "Slimy Spring 1 Bonus Room Bottom Left Chest 1-Up",
+    "name": "Slimy Spring 1 - Bonus Room Bottom Left Chest 1-Up",
     "requires": "{OptOne(|Koopa Shell|)}",
     "region": "Slimy Spring Galaxy (55)",
     "category": [
@@ -7043,7 +7043,7 @@
     "sort-key": "row-0693"
   },
   {
-    "name": "Slimy Spring 1 Bonus Room Middle Chest 1-Up",
+    "name": "Slimy Spring 1 - Bonus Room Middle Chest 1-Up",
     "requires": "{OptOne(|Koopa Shell|)}",
     "region": "Slimy Spring Galaxy (55)",
     "category": [
@@ -7053,7 +7053,7 @@
     "sort-key": "row-0694"
   },
   {
-    "name": "Slimy Spring 1 Bonus Room Top Right Chest 1-Up",
+    "name": "Slimy Spring 1 - Bonus Room Top Right Chest 1-Up",
     "requires": "{OptOne(|Koopa Shell|)}",
     "region": "Slimy Spring Galaxy (55)",
     "category": [
@@ -7063,7 +7063,7 @@
     "sort-key": "row-0695"
   },
   {
-    "name": "Slimy Spring Comet Medal",
+    "name": "Slimy Spring - Comet Medal",
     "requires": "{YamlEnabled(Advanced_Logic)} OR ({OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)})",
     "region": "Slimy Spring Galaxy (55)",
     "category": [
@@ -7073,7 +7073,7 @@
     "sort-key": "row-0696"
   },
   {
-    "name": "Slimy Spring Green Star 1",
+    "name": "Slimy Spring - Green Star 1",
     "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)})) AND {OptOne(|Slimy Spring Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Slimy Spring Galaxy (55)",
     "category": [
@@ -7083,7 +7083,7 @@
     "sort-key": "row-0697"
   },
   {
-    "name": "Slimy Spring 1 1-Up Below Launch Star",
+    "name": "Slimy Spring 1 - 1-Up Below Launch Star",
     "requires": "({OptOne(|Koopa Shell|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)})",
     "region": "Slimy Spring Galaxy (55)",
     "category": [
@@ -7093,7 +7093,7 @@
     "sort-key": "row-0698"
   },
   {
-    "name": "Slimy Spring Green Star 2",
+    "name": "Slimy Spring - Green Star 2",
     "requires": "(({OptOne(|Koopa Shell|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)})) AND {OptAll(|Green Comets| AND |Slimy Spring Comet Medal|)}",
     "region": "Slimy Spring Galaxy (55)",
     "category": [
@@ -7103,7 +7103,7 @@
     "sort-key": "row-0699"
   },
   {
-    "name": "Slimy Spring 1 Checkpoint Flag",
+    "name": "Slimy Spring 1 - Checkpoint Flag",
     "requires": "({OptOne(|Koopa Shell|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)})",
     "region": "Slimy Spring Galaxy (55)",
     "category": [
@@ -7113,7 +7113,7 @@
     "sort-key": "row-0700"
   },
   {
-    "name": "Slimy Spring 1 1-Up by Checkpoint",
+    "name": "Slimy Spring 1 - 1-Up by Checkpoint",
     "requires": "({OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {OptOne(|Long Jump|)})) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Spin|)} OR {OptOne(|Koopa Shell|)}))",
     "region": "Slimy Spring Galaxy (55)",
     "category": [
@@ -7133,7 +7133,7 @@
     "sort-key": "row-0702"
   },
   {
-    "name": "Slimy Spring 2 Side Tunnel 1-Up",
+    "name": "Slimy Spring 2 - Side Tunnel 1-Up",
     "requires": "|Chimp Letter Slimy Spring| AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)}))",
     "region": "Slimy Spring Galaxy (55)",
     "category": [
@@ -7153,7 +7153,7 @@
     "sort-key": "row-0703"
   },
   {
-    "name": "Galaxy Generator Life Mushroom on Pole at Start",
+    "name": "Galaxy Generator - Life Mushroom on Pole at Start",
     "requires": "({OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}) OR ({OptAll(|Speedy Comets| AND |Galaxy Generator Comet Medal|)})",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7163,7 +7163,7 @@
     "sort-key": "row-0704"
   },
   {
-    "name": "Galaxy Generator Green Star 1",
+    "name": "Galaxy Generator - Green Star 1",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7173,7 +7173,7 @@
     "sort-key": "row-0705"
   },
   {
-    "name": "Galaxy Generator Spin-Drill Section Checkpoint Flag",
+    "name": "Galaxy Generator - Spin-Drill Section Checkpoint Flag",
     "requires": "{OptAll(|Spin| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7183,7 +7183,7 @@
     "sort-key": "row-0706"
   },
   {
-    "name": "Galaxy Generator Spin-Drill Section 1-Up",
+    "name": "Galaxy Generator - Spin-Drill Section 1-Up",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7193,7 +7193,7 @@
     "sort-key": "row-0707"
   },
   {
-    "name": "Galaxy Generator Cloud Flower Section Checkpoint Flag",
+    "name": "Galaxy Generator - Cloud Flower Section Checkpoint Flag",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7203,7 +7203,7 @@
     "sort-key": "row-0708"
   },
   {
-    "name": "Galaxy Generator Cloud Flower Section Secret Path 1-Up",
+    "name": "Galaxy Generator - Cloud Flower Section Secret Path 1-Up",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced Logic)}))} AND (({OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}) OR ({OptAll(|Speedy Comets| AND |Galaxy Generator Comet Medal|)}))",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7213,7 +7213,7 @@
     "sort-key": "row-0709"
   },
   {
-    "name": "Galaxy Generator Cloud Flower Section Life Mushroom",
+    "name": "Galaxy Generator - Cloud Flower Section Life Mushroom",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7223,7 +7223,7 @@
     "sort-key": "row-0710"
   },
   {
-    "name": "Galaxy Generator Cloud Flower Section ? Coin",
+    "name": "Galaxy Generator - Cloud Flower Section ? Coin",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Cloud Flower| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7233,7 +7233,7 @@
     "sort-key": "row-0711"
   },
   {
-    "name": "Galaxy Generator Yoshi Section Checkpoint Flag",
+    "name": "Galaxy Generator - Yoshi Section Checkpoint Flag",
     "requires": "|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)})",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7243,7 +7243,7 @@
     "sort-key": "row-0712"
   },
   {
-    "name": "Galaxy Generator Green Star 2",
+    "name": "Galaxy Generator - Green Star 2",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})) AND ((|Cloud Flower| AND |Long Jump| AND (|Wall Jump| OR {YamlEnabled(Advanced Logic)})) OR (|Yoshi| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7253,7 +7253,7 @@
     "sort-key": "row-0713"
   },
   {
-    "name": "Galaxy Generator Yoshi Section Flowers 1-Up",
+    "name": "Galaxy Generator - Yoshi Section Flowers 1-Up",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})) AND ((|Cloud Flower| AND |Long Jump| AND (|Backflip| OR |Sideflip|) AND (|Wall Jump| OR {YamlEnabled(Advanced Logic)})) OR (|Yoshi| AND {YamlEnabled(Advanced Logic)})))} AND (({OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}) OR ({OptAll(|Speedy Comets| AND |Galaxy Generator Comet Medal|)}))",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7263,7 +7263,7 @@
     "sort-key": "row-0714"
   },
   {
-    "name": "Galaxy Generator Snake Block Section Life Mushroom",
+    "name": "Galaxy Generator - Snake Block Section Life Mushroom",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7273,7 +7273,7 @@
     "sort-key": "row-0715"
   },
   {
-    "name": "Galaxy Generator Comet Medal",
+    "name": "Galaxy Generator - Comet Medal",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7283,7 +7283,7 @@
     "sort-key": "row-0716"
   },
   {
-    "name": "Galaxy Generator Final Checkpoint Flag",
+    "name": "Galaxy Generator - Final Checkpoint Flag",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7293,7 +7293,7 @@
     "sort-key": "row-0717"
   },
   {
-    "name": "Galaxy Generator Final Area Life Mushroom Behind Meteor",
+    "name": "Galaxy Generator - Final Area Life Mushroom Behind Meteor",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))}",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
@@ -7313,7 +7313,7 @@
     "sort-key": "row-0719"
   },
   {
-    "name": "Galaxy Generator Comet Clock over Firebar",
+    "name": "Galaxy Generator C - Clock over Firebar",
     "requires": "({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7323,7 +7323,7 @@
     "sort-key": "row-0720"
   },
   {
-    "name": "Galaxy Generator Comet Clock by Floaty Fluff #1",
+    "name": "Galaxy Generator C - Clock by Floaty Fluff #1",
     "requires": "{OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7333,7 +7333,7 @@
     "sort-key": "row-0721"
   },
   {
-    "name": "Galaxy Generator Comet Clock by Floaty Fluff #2",
+    "name": "Galaxy Generator C - Clock by Floaty Fluff #2",
     "requires": "{OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7343,7 +7343,7 @@
     "sort-key": "row-0722"
   },
   {
-    "name": "Galaxy Generator Comet Clock in Floaty Fluff Section",
+    "name": "Galaxy Generator C - Clock in Floaty Fluff Section",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7353,7 +7353,7 @@
     "sort-key": "row-0723"
   },
   {
-    "name": "Galaxy Generator Comet Clock at End of Floaty Fluff Section",
+    "name": "Galaxy Generator C - Clock at End of Floaty Fluff Section",
     "requires": "{OptAll(|Spin| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7363,7 +7363,7 @@
     "sort-key": "row-0724"
   },
   {
-    "name": "Galaxy Generator Comet Spin-Drill Section Start Clock",
+    "name": "Galaxy Generator C - Spin-Drill Section Start Clock",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7373,7 +7373,7 @@
     "sort-key": "row-0725"
   },
   {
-    "name": "Galaxy Generator Comet Spin-Drill Section Clock by Octoomba",
+    "name": "Galaxy Generator C - Spin-Drill Section Clock by Octoomba",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7383,7 +7383,7 @@
     "sort-key": "row-0726"
   },
   {
-    "name": "Galaxy Generator Comet Spin-Drill Section Isolated Clock",
+    "name": "Galaxy Generator C - Spin-Drill Section Isolated Clock",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7393,7 +7393,7 @@
     "sort-key": "row-0727"
   },
   {
-    "name": "Galaxy Generator Comet Spin-Drill Section Clock at End",
+    "name": "Galaxy Generator C - Spin-Drill Section Clock at End",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7403,7 +7403,7 @@
     "sort-key": "row-0728"
   },
   {
-    "name": "Galaxy Generator Comet Spin-Drill Section Launch Star Clock",
+    "name": "Galaxy Generator C - Spin-Drill Section Launch Star Clock",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7413,7 +7413,7 @@
     "sort-key": "row-0729"
   },
   {
-    "name": "Galaxy Generator Comet Cloud Flower Section Start Clock",
+    "name": "Galaxy Generator C - Cloud Flower Section Start Clock",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7423,7 +7423,7 @@
     "sort-key": "row-0730"
   },
   {
-    "name": "Galaxy Generator Comet Cloud Flower Section Moving Platforms Clock",
+    "name": "Galaxy Generator C - Cloud Flower Section Moving Platforms Clock",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7433,7 +7433,7 @@
     "sort-key": "row-0731"
   },
   {
-    "name": "Galaxy Generator Comet Cloud Flower Section Secret Path Clock",
+    "name": "Galaxy Generator C - Cloud Flower Section Secret Path Clock",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced Logic)}))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7443,7 +7443,7 @@
     "sort-key": "row-0732"
   },
   {
-    "name": "Galaxy Generator Comet Cloud Flower Section Clock Above Dry Bones",
+    "name": "Galaxy Generator C - Cloud Flower Section Clock Above Dry Bones",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7453,7 +7453,7 @@
     "sort-key": "row-0733"
   },
   {
-    "name": "Galaxy Generator Comet Cloud Flower Section Clock Above Lava",
+    "name": "Galaxy Generator C - Cloud Flower Section Clock Above Lava",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7463,7 +7463,7 @@
     "sort-key": "row-0734"
   },
   {
-    "name": "Galaxy Generator Comet Cloud Flower Section Big Drop Top Clock",
+    "name": "Galaxy Generator C - Cloud Flower Section Big Drop Top Clock",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Cloud Flower| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7473,7 +7473,7 @@
     "sort-key": "row-0735"
   },
   {
-    "name": "Galaxy Generator Comet Cloud Flower Section Big Drop Bottom Clock",
+    "name": "Galaxy Generator C - Cloud Flower Section Big Drop Bottom Clock",
     "requires": "({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Spin-Drill|)} AND ({OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7483,7 +7483,7 @@
     "sort-key": "row-0736"
   },
   {
-    "name": "Galaxy Generator Comet Cloud Flower Section Climb Clock",
+    "name": "Galaxy Generator C - Cloud Flower Section Climb Clock",
     "requires": "({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Spin-Drill|)} AND ({OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7493,7 +7493,7 @@
     "sort-key": "row-0737"
   },
   {
-    "name": "Galaxy Generator Comet Cloud Flower Section Launch Star Clock",
+    "name": "Galaxy Generator C - Cloud Flower Section Launch Star Clock",
     "requires": "({OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)}))}) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7503,7 +7503,7 @@
     "sort-key": "row-0738"
   },
   {
-    "name": "Galaxy Generator Comet Checkpoint Flag",
+    "name": "Galaxy Generator C - Checkpoint Flag",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)}))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7513,7 +7513,7 @@
     "sort-key": "row-0739"
   },
   {
-    "name": "Galaxy Generator Comet Yoshi Section Start Clock",
+    "name": "Galaxy Generator C - Yoshi Section Start Clock",
     "requires": "({OptOne(|Spin|)} AND ({OptOne(|Floaty Fluff|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Spin-Drill|)} AND (({OptOne(|Yoshi|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Cloud Flower|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7523,7 +7523,7 @@
     "sort-key": "row-0740"
   },
   {
-    "name": "Galaxy Generator Comet Dash Pepper Section Clock #1",
+    "name": "Galaxy Generator C - Dash Pepper Section Clock #1",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7533,7 +7533,7 @@
     "sort-key": "row-0741"
   },
   {
-    "name": "Galaxy Generator Comet Dash Pepper Section Clock #2",
+    "name": "Galaxy Generator C - Dash Pepper Section Clock #2",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7543,7 +7543,7 @@
     "sort-key": "row-0742"
   },
   {
-    "name": "Galaxy Generator Comet Snake Block Section Clock #1",
+    "name": "Galaxy Generator C - Snake Block Section Clock #1",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7553,7 +7553,7 @@
     "sort-key": "row-0743"
   },
   {
-    "name": "Galaxy Generator Comet Snake Block Section Clock #2",
+    "name": "Galaxy Generator C - Snake Block Section Clock #2",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7563,7 +7563,7 @@
     "sort-key": "row-0744"
   },
   {
-    "name": "Galaxy Generator Comet Snake Block Section Clock #3",
+    "name": "Galaxy Generator C - Snake Block Section Clock #3",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7573,7 +7573,7 @@
     "sort-key": "row-0745"
   },
   {
-    "name": "Galaxy Generator Comet Snake Block Section Clock #4",
+    "name": "Galaxy Generator C - Snake Block Section Clock #4",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7583,7 +7583,7 @@
     "sort-key": "row-0746"
   },
   {
-    "name": "Galaxy Generator Comet Comet Medal 1-Up",
+    "name": "Galaxy Generator C - Comet Medal 1-Up",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7593,7 +7593,7 @@
     "sort-key": "row-0747"
   },
   {
-    "name": "Galaxy Generator Comet Snake Block Section Clock #5",
+    "name": "Galaxy Generator C - Snake Block Section Clock #5",
     "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Bowser's Galaxy Generator Comet (70)",
     "category": [
@@ -7613,7 +7613,7 @@
     "sort-key": "row-0749"
   },
   {
-    "name": "Mario Squared 1-Up",
+    "name": "Mario Squared - 1-Up",
     "requires": "",
     "region": "Mario Squared Galaxy (70)",
     "category": [
@@ -7623,7 +7623,7 @@
     "sort-key": "row-0750"
   },
   {
-    "name": "Mario Squared Green Star 1",
+    "name": "Mario Squared - Green Star 1",
     "requires": "{OptOne(|Mario Squared Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Mario Squared Galaxy (70)",
     "category": [
@@ -7633,7 +7633,7 @@
     "sort-key": "row-0751"
   },
   {
-    "name": "Mario Squared Comet Medal",
+    "name": "Mario Squared - Comet Medal",
     "requires": "",
     "region": "Mario Squared Galaxy (70)",
     "category": [
@@ -7643,7 +7643,7 @@
     "sort-key": "row-0752"
   },
   {
-    "name": "Mario Squared Green Star 2",
+    "name": "Mario Squared - Green Star 2",
     "requires": "{OptOne(|Mario Squared Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Mario Squared Galaxy (70)",
     "category": [
@@ -7673,7 +7673,7 @@
     "sort-key": "row-0755"
   },
   {
-    "name": "Rolling Coaster Left Path 1-Up",
+    "name": "Rolling Coaster - Left Path 1-Up",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Coaster Galaxy (75)",
     "category": [
@@ -7683,7 +7683,7 @@
     "sort-key": "row-0756"
   },
   {
-    "name": "Rolling Coaster Green Star 1",
+    "name": "Rolling Coaster - Green Star 1",
     "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Coaster Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Rolling Coaster Galaxy (75)",
     "category": [
@@ -7693,7 +7693,7 @@
     "sort-key": "row-0757"
   },
   {
-    "name": "Rolling Coaster Right Path 1-Up",
+    "name": "Rolling Coaster - Right Path 1-Up",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Coaster Galaxy (75)",
     "category": [
@@ -7703,7 +7703,7 @@
     "sort-key": "row-0758"
   },
   {
-    "name": "Rolling Coaster Comet Medal",
+    "name": "Rolling Coaster - Comet Medal",
     "requires": "{OptOne(|Star Ball|)}",
     "region": "Rolling Coaster Galaxy (75)",
     "category": [
@@ -7713,7 +7713,7 @@
     "sort-key": "row-0759"
   },
   {
-    "name": "Rolling Coaster Green Star 2",
+    "name": "Rolling Coaster - Green Star 2",
     "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Coaster Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Rolling Coaster Galaxy (75)",
     "category": [
@@ -7743,7 +7743,7 @@
     "sort-key": "row-0762"
   },
   {
-    "name": "Twisty Trials Green Star 1",
+    "name": "Twisty Trials - Green Star 1",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7753,7 +7753,7 @@
     "sort-key": "row-0763"
   },
   {
-    "name": "Twisty Trials 1-Up Between Planks",
+    "name": "Twisty Trials - 1-Up Between Planks",
     "requires": "{OptOne(|Spin|)} OR (({OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)}) AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Triple Jump|)}))",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7763,7 +7763,7 @@
     "sort-key": "row-0764"
   },
   {
-    "name": "Twisty Trials 1-Up on Block Near Gears",
+    "name": "Twisty Trials - 1-Up on Block Near Gears",
     "requires": "{OptOne(|Spin|)} OR {OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)}",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7773,7 +7773,7 @@
     "sort-key": "row-0765"
   },
   {
-    "name": "Twisty Trials Comet Medal",
+    "name": "Twisty Trials - Comet Medal",
     "requires": "{OptOne(|Spin|)} OR {OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)}",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7783,7 +7783,7 @@
     "sort-key": "row-0766"
   },
   {
-    "name": "Twisty Trials Green Star 2",
+    "name": "Twisty Trials - Green Star 2",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7803,7 +7803,7 @@
     "sort-key": "row-0768"
   },
   {
-    "name": "Twisty Trials Comet 1-Up on Block Near Start",
+    "name": "Twisty Trials C - 1-Up on Block Near Start",
     "requires": "({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7813,7 +7813,7 @@
     "sort-key": "row-0769"
   },
   {
-    "name": "Twisty Trials Comet 1-Up on Block Before Checkpoint",
+    "name": "Twisty Trials C - 1-Up on Block Before Checkpoint",
     "requires": "({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7823,7 +7823,7 @@
     "sort-key": "row-0769a"
   },
   {
-    "name": "Twisty Trials Comet Checkpoint Flag",
+    "name": "Twisty Trials C - Checkpoint Flag",
     "requires": "({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7833,7 +7833,7 @@
     "sort-key": "row-0770"
   },
   {
-    "name": "Twisty Trials Comet 1-Up on Block Near Old End",
+    "name": "Twisty Trials C - 1-Up on Block Near Old End",
     "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Yoshi|)})) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7843,7 +7843,7 @@
     "sort-key": "row-0771"
   },
   {
-    "name": "Twisty Trials Comet 1-Up on Block in New Area #1",
+    "name": "Twisty Trials C - 1-Up on Block in New Area #1",
     "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Yoshi|)})) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7853,7 +7853,7 @@
     "sort-key": "row-0772"
   },
   {
-    "name": "Twisty Trials Comet 1-Up on Block in New Area #2",
+    "name": "Twisty Trials C - 1-Up on Block in New Area #2",
     "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Yoshi|)})) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
@@ -7873,7 +7873,7 @@
     "sort-key": "row-0774"
   },
   {
-    "name": "Stone Cyclone Comet Medal",
+    "name": "Stone Cyclone - Comet Medal",
     "requires": "",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7883,7 +7883,7 @@
     "sort-key": "row-0775"
   },
   {
-    "name": "Stone Cyclone 1-Up After Spinning Platforms",
+    "name": "Stone Cyclone - 1-Up After Spinning Platforms",
     "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}) OR {YamlEnabled(Advanced_Logic)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7893,7 +7893,7 @@
     "sort-key": "row-0776"
   },
   {
-    "name": "Stone Cyclone Green Star 1",
+    "name": "Stone Cyclone - Green Star 1",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Triple Jump|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7903,7 +7903,7 @@
     "sort-key": "row-0777"
   },
   {
-    "name": "Stone Cyclone Green Star 2",
+    "name": "Stone Cyclone - Green Star 2",
     "requires": "{OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7913,7 +7913,7 @@
     "sort-key": "row-0778"
   },
   {
-    "name": "Stone Cyclone Shrinking Platforms 1-Up",
+    "name": "Stone Cyclone - Shrinking Platforms 1-Up",
     "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}) OR {YamlEnabled(Advanced_Logic)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7933,7 +7933,7 @@
     "sort-key": "row-0780"
   },
   {
-    "name": "Stone Cyclone Comet Clock at Start",
+    "name": "Stone Cyclone C - Clock at Start",
     "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7943,7 +7943,7 @@
     "sort-key": "row-0781"
   },
   {
-    "name": "Stone Cyclone Comet Clock by First Thwomp",
+    "name": "Stone Cyclone C - Clock by First Thwomp",
     "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7953,7 +7953,7 @@
     "sort-key": "row-0782"
   },
   {
-    "name": "Stone Cyclone Comet Clock on Ledge by Spinning Platforms",
+    "name": "Stone Cyclone C - Clock on Ledge by Spinning Platforms",
     "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7963,7 +7963,7 @@
     "sort-key": "row-0783"
   },
    {
-    "name": "Stone Cyclone Comet 1-Up on Sliding Stone Blocks",
+    "name": "Stone Cyclone C - 1-Up on Sliding Stone Blocks",
     "requires": "{OptOne(|Speedy Comets|)} AND {OptOne(|Stone Cyclone Comet Medal)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7973,7 +7973,7 @@
     "sort-key": "row-0783a"
   },
   {
-    "name": "Stone Cyclone Comet Clock After Spinning Platforms",
+    "name": "Stone Cyclone C - Clock After Spinning Platforms",
     "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7983,7 +7983,7 @@
     "sort-key": "row-0784"
   },
   {
-    "name": "Stone Cyclone Comet 1-Up on Tox Box Path",
+    "name": "Stone Cyclone C - 1-Up on Tox Box Path",
     "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -7993,7 +7993,7 @@
     "sort-key": "row-0785"
   },
   {
-    "name": "Stone Cyclone Comet Clock at Corner",
+    "name": "Stone Cyclone C - Clock at Corner",
     "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -8003,7 +8003,7 @@
     "sort-key": "row-0786"
   },
   {
-    "name": "Stone Cyclone Comet Clock Before End",
+    "name": "Stone Cyclone C - Clock Before End",
     "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
     "region": "Stone Cyclone Galaxy (90)",
     "category": [
@@ -8023,7 +8023,7 @@
     "sort-key": "row-0788"
   },
   {
-    "name": "Boss Blitz Life Mushroom Under King Kaliente",
+    "name": "Boss Blitz - Life Mushroom Under King Kaliente",
     "requires": "{OptOne(|Spin|)}",
     "region": "Boss Blitz Galaxy (100)",
     "category": [
@@ -8033,7 +8033,7 @@
     "sort-key": "row-0789"
   },
   {
-    "name": "Boss Blitz Comet Medal",
+    "name": "Boss Blitz - Comet Medal",
     "requires": "{OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})",
     "region": "Boss Blitz Galaxy (100)",
     "category": [
@@ -8043,7 +8043,7 @@
     "sort-key": "row-0790"
   },
   {
-    "name": "Boss Blitz Green Star 1",
+    "name": "Boss Blitz - Green Star 1",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Boss Blitz Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Boss Blitz Galaxy (100)",
     "category": [
@@ -8053,7 +8053,7 @@
     "sort-key": "row-0791"
   },
   {
-    "name": "Boss Blitz Checkpoint Flag",
+    "name": "Boss Blitz - Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
     "region": "Boss Blitz Galaxy (100)",
     "category": [
@@ -8063,7 +8063,7 @@
     "sort-key": "row-0792"
   },
   {
-    "name": "Boss Blitz Luma Shop",
+    "name": "Boss Blitz - Luma Shop",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
     "region": "Boss Blitz Galaxy (100)",
     "category": [
@@ -8073,7 +8073,7 @@
     "sort-key": "row-0793"
   },
   {
-    "name": "Boss Blitz Green Star 2",
+    "name": "Boss Blitz - Green Star 2",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Boss Blitz Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Boss Blitz Galaxy (100)",
     "category": [
@@ -8103,7 +8103,7 @@
     "sort-key": "row-0796"
   },
   {
-    "name": "Flip-Out 1-Up Above Start",
+    "name": "Flip-Out - 1-Up Above Start",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
     "region": "Flip-Out Galaxy (110)",
     "category": [
@@ -8113,7 +8113,7 @@
     "sort-key": "row-0797"
   },
   {
-    "name": "Flip-Out Green Star 1",
+    "name": "Flip-Out - Green Star 1",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Flip-Out Comet Medal|)} AND {OptOne(|Green Comets|)}",
     "region": "Flip-Out Galaxy (110)",
     "category": [
@@ -8123,7 +8123,7 @@
     "sort-key": "row-0798"
   },
   {
-    "name": "Flip-Out First Checkpoint Flag",
+    "name": "Flip-Out - First Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
     "region": "Flip-Out Galaxy (110)",
     "category": [
@@ -8133,7 +8133,7 @@
     "sort-key": "row-0799"
   },
   {
-    "name": "Flip-Out Second Checkpoint Flag",
+    "name": "Flip-Out - Second Checkpoint Flag",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
     "region": "Flip-Out Galaxy (110)",
     "category": [
@@ -8143,7 +8143,7 @@
     "sort-key": "row-0800"
   },
   {
-    "name": "Flip-Out Final Section 1-Up",
+    "name": "Flip-Out - Final Section 1-Up",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
     "region": "Flip-Out Galaxy (110)",
     "category": [
@@ -8153,7 +8153,7 @@
     "sort-key": "row-0801"
   },
   {
-    "name": "Flip-Out Comet Medal",
+    "name": "Flip-Out - Comet Medal",
     "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Flip-Out Galaxy (110)",
     "category": [
@@ -8173,7 +8173,7 @@
     "sort-key": "row-0803"
   },
   {
-    "name": "Flip-Out Comet 1-Up Replacing Comet Medal",
+    "name": "Flip-Out C - 1-Up Replacing Comet Medal",
     "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Flip-Out Comet Medal|)} AND {OptOne(|Cosmic Clone Comets|)}",
     "region": "Flip-Out Galaxy (110)",
     "category": [
@@ -8183,7 +8183,7 @@
     "sort-key": "row-0804"
   },
   {
-    "name": "Flip-Out Green Star 2",
+    "name": "Flip-Out - Green Star 2",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Flip-Out Comet Medal|)} AND {OptOne(|Green Comets|)} AND {OptOne(|Cosmic Clone Comets|)}",
     "region": "Flip-Out Galaxy (110)",
     "category": [
@@ -8203,7 +8203,7 @@
     "sort-key": "row-0806"
   },
   {
-    "name": "Grandmaster Cloud Checkpoint Flag",
+    "name": "Grandmaster - Cloud Checkpoint Flag",
     "requires": "{OptOne(|Yoshi|)}",
     "region": "Grandmaster Galaxy (240)",
     "category": [
@@ -8213,7 +8213,7 @@
     "sort-key": "row-0807"
   },
   {
-    "name": "Grandmaster 1-Up Above Cloud Checkpoint",
+    "name": "Grandmaster - 1-Up Above Cloud Checkpoint",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Grandmaster Galaxy (240)",
     "category": [
@@ -8223,7 +8223,7 @@
     "sort-key": "row-0808"
   },
   {
-    "name": "Grandmaster Laser Rings Checkpoint Flag",
+    "name": "Grandmaster - Laser Rings Checkpoint Flag",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
     "region": "Grandmaster Galaxy (240)",
     "category": [
@@ -8233,7 +8233,7 @@
     "sort-key": "row-0809"
   },
   {
-    "name": "Grandmaster Pull Stars Checkpoint Flag",
+    "name": "Grandmaster - Pull Stars Checkpoint Flag",
     "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
     "region": "Grandmaster Galaxy (240)",
     "category": [
@@ -8243,7 +8243,7 @@
     "sort-key": "row-0810"
   },
   {
-    "name": "Grandmaster Comet Medal",
+    "name": "Grandmaster - Comet Medal",
     "requires": "{OptOne(|Spin|)} AND {OptOne(|Yoshi|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Pull Stars|)} AND ({YamlEnabled(Advanced_Logic)} OR (({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND {OptOne(|Long Jump|)}))",
     "region": "Grandmaster Galaxy (240)",
     "category": [
@@ -8263,7 +8263,7 @@
     "sort-key": "row-0812"
   },
   {
-    "name": "Grandmaster Comet 1-Up Replacing Comet Medal",
+    "name": "Grandmaster C - 1-Up Replacing Comet Medal",
     "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Pull Stars|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))) AND {OptOne(|Grandmaster Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
     "region": "Grandmaster Galaxy (240)",
     "category": [
@@ -8273,7 +8273,7 @@
     "sort-key": "row-0813"
   },
   {
-    "name": "Grandmaster Comet 1-Up Behind the Gate",
+    "name": "Grandmaster C - 1-Up Behind the Gate",
     "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Pull Stars|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))) AND {OptOne(|Grandmaster Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
     "region": "Grandmaster Galaxy (240)",
     "category": [
@@ -14093,7 +14093,7 @@
     "sort-key": "row-1399"
   },
   {
-    "name": "Sweet Mystery Start Platform Purple Coin #2",
+    "name": "Sweet Mystery - Start Platform Purple Coin #2",
     "requires": "",
     "region": "Sweet Mystery C - Start",
     "category": [
@@ -14103,7 +14103,7 @@
     "sort-key": "row-1400"
   },
   {
-    "name": "Sweet Mystery Start Platform Purple Coin #3",
+    "name": "Sweet Mystery - Start Platform Purple Coin #3",
     "requires": "",
     "region": "Sweet Mystery C - Start",
     "category": [
@@ -14113,7 +14113,7 @@
     "sort-key": "row-1401"
   },
   {
-    "name": "Sweet Mystery Start Platform Purple Coin #4",
+    "name": "Sweet Mystery - Start Platform Purple Coin #4",
     "requires": "",
     "region": "Sweet Mystery C - Start",
     "category": [
@@ -14123,7 +14123,7 @@
     "sort-key": "row-1402"
   },
   {
-    "name": "Sweet Mystery Start Platform Purple Coin #5",
+    "name": "Sweet Mystery - Start Platform Purple Coin #5",
     "requires": "",
     "region": "Sweet Mystery C - Start",
     "category": [
@@ -14133,7 +14133,7 @@
     "sort-key": "row-1403"
   },
   {
-    "name": "Sweet Mystery Start Platform Purple Coin #6",
+    "name": "Sweet Mystery - Start Platform Purple Coin #6",
     "requires": "",
     "region": "Sweet Mystery C - Start",
     "category": [
@@ -14143,7 +14143,7 @@
     "sort-key": "row-1404"
   },
   {
-    "name": "Sweet Mystery Start Platform Purple Coin #7",
+    "name": "Sweet Mystery - Start Platform Purple Coin #7",
     "requires": "",
     "region": "Sweet Mystery C - Start",
     "category": [
@@ -14153,7 +14153,7 @@
     "sort-key": "row-1405"
   },
   {
-    "name": "Sweet Mystery Start Platform Purple Coin #8",
+    "name": "Sweet Mystery - Start Platform Purple Coin #8",
     "requires": "",
     "region": "Sweet Mystery C - Start",
     "category": [
@@ -14163,7 +14163,7 @@
     "sort-key": "row-1406"
   },
   {
-    "name": "Sweet Mystery Start Platform Purple Coin #9",
+    "name": "Sweet Mystery - Start Platform Purple Coin #9",
     "requires": "",
     "region": "Sweet Mystery C - Start",
     "category": [
@@ -14173,7 +14173,7 @@
     "sort-key": "row-1407"
   },
   {
-    "name": "Sweet Mystery Start Platform Purple Coin #10",
+    "name": "Sweet Mystery - Start Platform Purple Coin #10",
     "requires": "",
     "region": "Sweet Mystery C - Start",
     "category": [
@@ -14183,7 +14183,7 @@
     "sort-key": "row-1408"
   },
   {
-    "name": "Sweet Mystery First Bulb Berry Purple Coin #1",
+    "name": "Sweet Mystery - First Bulb Berry Purple Coin #1",
     "requires": "",
     "region": "Sweet Mystery C - First Path 1st Set",
     "category": [
@@ -14193,7 +14193,7 @@
     "sort-key": "row-1409"
   },
   {
-    "name": "Sweet Mystery First Bulb Berry Purple Coin #2",
+    "name": "Sweet Mystery - First Bulb Berry Purple Coin #2",
     "requires": "",
     "region": "Sweet Mystery C - First Path 1st Set",
     "category": [
@@ -14203,7 +14203,7 @@
     "sort-key": "row-1410"
   },
   {
-    "name": "Sweet Mystery First Bulb Berry Purple Coin #3",
+    "name": "Sweet Mystery - First Bulb Berry Purple Coin #3",
     "requires": "",
     "region": "Sweet Mystery C - First Path 1st Set",
     "category": [
@@ -14213,7 +14213,7 @@
     "sort-key": "row-1411"
   },
   {
-    "name": "Sweet Mystery First Bulb Berry Purple Coin #4",
+    "name": "Sweet Mystery - First Bulb Berry Purple Coin #4",
     "requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Backflip| or |Has Long Jump| or |Has Air Spin| or |Has Yoshi|))",
     "region": "Sweet Mystery - First Path 1st Set",
     "category": [
@@ -14223,7 +14223,7 @@
     "sort-key": "row-1412"
   },
   {
-    "name": "Sweet Mystery First Bulb Berry Purple Coin #5",
+    "name": "Sweet Mystery - First Bulb Berry Purple Coin #5",
     "requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Long Jump| or |Has Yoshi| or |Has Air Spin|))",
     "region": "Sweet Mystery - First Path 1st Set",
     "category": [
@@ -14233,7 +14233,7 @@
     "sort-key": "row-1413"
   },
   {
-    "name": "Sweet Mystery First Bulb Berry Purple Coin #6",
+    "name": "Sweet Mystery - First Bulb Berry Purple Coin #6",
     "requires": "",
     "region": "Sweet Mystery C - First Path 2nd Set",
     "category": [
@@ -14243,7 +14243,7 @@
     "sort-key": "row-1414"
   },
   {
-    "name": "Sweet Mystery First Bulb Berry Purple Coin #7",
+    "name": "Sweet Mystery - First Bulb Berry Purple Coin #7",
     "requires": "",
     "region": "Sweet Mystery C - First Path 2nd Set",
     "category": [
@@ -14253,7 +14253,7 @@
     "sort-key": "row-1415"
   },
   {
-    "name": "Sweet Mystery First Bulb Berry Purple Coin #8",
+    "name": "Sweet Mystery - First Bulb Berry Purple Coin #8",
     "requires": "",
     "region": "Sweet Mystery C - First Path 3rd Set",
     "category": [
@@ -14263,7 +14263,7 @@
     "sort-key": "row-1416"
   },
   {
-    "name": "Sweet Mystery First Bulb Berry Purple Coin #9",
+    "name": "Sweet Mystery - First Bulb Berry Purple Coin #9",
     "requires": "",
     "region": "Sweet Mystery C - First Path 3rd Set",
     "category": [
@@ -14273,7 +14273,7 @@
     "sort-key": "row-1417"
   },
   {
-    "name": "Sweet Mystery First Bulb Berry Purple Coin #10",
+    "name": "Sweet Mystery - First Bulb Berry Purple Coin #10",
     "requires": "",
     "region": "Sweet Mystery C - First Path 3rd Set",
     "category": [
@@ -14283,7 +14283,7 @@
     "sort-key": "row-1418"
   },
   {
-    "name": "Sweet Mystery Cookie Boxes Purple Coin #1",
+    "name": "Sweet Mystery - Cookie Boxes Purple Coin #1",
     "requires": "",
     "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
@@ -14293,7 +14293,7 @@
     "sort-key": "row-1419"
   },
   {
-    "name": "Sweet Mystery Cookie Boxes Purple Coin #2",
+    "name": "Sweet Mystery - Cookie Boxes Purple Coin #2",
     "requires": "",
     "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
@@ -14303,7 +14303,7 @@
     "sort-key": "row-1420"
   },
   {
-    "name": "Sweet Mystery Cookie Boxes Purple Coin #3",
+    "name": "Sweet Mystery - Cookie Boxes Purple Coin #3",
     "requires": "",
     "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
@@ -14313,7 +14313,7 @@
     "sort-key": "row-1421"
   },
   {
-    "name": "Sweet Mystery Cookie Boxes Purple Coin #4",
+    "name": "Sweet Mystery - Cookie Boxes Purple Coin #4",
     "requires": "",
     "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
@@ -14323,7 +14323,7 @@
     "sort-key": "row-1422"
   },
   {
-    "name": "Sweet Mystery Cookie Boxes Purple Coin #5",
+    "name": "Sweet Mystery - Cookie Boxes Purple Coin #5",
     "requires": "",
     "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
@@ -14703,7 +14703,7 @@
     "sort-key": "row-1460"
   },
   {
-    "name": "Sweet Mystery Chocolate Bars Purple Coin",
+    "name": "Sweet Mystery - Chocolate Bars Purple Coin",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14713,7 +14713,7 @@
     "sort-key": "row-1461"
   },
   {
-    "name": "Sweet Mystery Purple Coin Before Moving Gifts #1",
+    "name": "Sweet Mystery - Purple Coin Before Moving Gifts #1",
     "requires": "",
     "region": "Sweet Mystery Purple Coins",
     "category": [
@@ -14723,7 +14723,7 @@
     "sort-key": "row-1462"
   },
   {
-    "name": "Sweet Mystery Purple Coin Before Moving Gifts #2",
+    "name": "Sweet Mystery - Purple Coin Before Moving Gifts #2",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14733,7 +14733,7 @@
     "sort-key": "row-1463"
   },
   {
-    "name": "Sweet Mystery Purple Coin Before Moving Gifts #3",
+    "name": "Sweet Mystery - Purple Coin Before Moving Gifts #3",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14743,7 +14743,7 @@
     "sort-key": "row-1464"
   },
   {
-    "name": "Sweet Mystery Purple Coin Before Moving Gifts #4",
+    "name": "Sweet Mystery - Purple Coin Before Moving Gifts #4",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14753,7 +14753,7 @@
     "sort-key": "row-1465"
   },
   {
-    "name": "Sweet Mystery Purple Coin Before Moving Gifts #5",
+    "name": "Sweet Mystery - Purple Coin Before Moving Gifts #5",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14763,7 +14763,7 @@
     "sort-key": "row-1466"
   },
   {
-    "name": "Sweet Mystery Purple Coin Before Moving Gifts #6",
+    "name": "Sweet Mystery - Purple Coin Before Moving Gifts #6",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14773,7 +14773,7 @@
     "sort-key": "row-1467"
   },
   {
-    "name": "Sweet Mystery Purple Coin Before Moving Gifts #7",
+    "name": "Sweet Mystery - Purple Coin Before Moving Gifts #7",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14783,7 +14783,7 @@
     "sort-key": "row-1468"
   },
   {
-    "name": "Sweet Mystery Purple Coin Before Moving Gifts #8",
+    "name": "Sweet Mystery - Purple Coin Before Moving Gifts #8",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14793,7 +14793,7 @@
     "sort-key": "row-1469"
   },
   {
-    "name": "Sweet Mystery Purple Coin Before Moving Gifts #9",
+    "name": "Sweet Mystery - Purple Coin Before Moving Gifts #9",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14803,7 +14803,7 @@
     "sort-key": "row-1470"
   },
   {
-    "name": "Sweet Mystery Purple Coin Before Moving Gifts #10",
+    "name": "Sweet Mystery - Purple Coin Before Moving Gifts #10",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14813,7 +14813,7 @@
     "sort-key": "row-1471"
   },
   {
-    "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #1",
+    "name": "Sweet Mystery - Boxes Around Shrinking Platforms Purple Coin #1",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14823,7 +14823,7 @@
     "sort-key": "row-1472"
   },
   {
-    "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #2",
+    "name": "Sweet Mystery - Boxes Around Shrinking Platforms Purple Coin #2",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14833,7 +14833,7 @@
     "sort-key": "row-1473"
   },
   {
-    "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #3",
+    "name": "Sweet Mystery - Boxes Around Shrinking Platforms Purple Coin #3",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14843,7 +14843,7 @@
     "sort-key": "row-1474"
   },
   {
-    "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #4",
+    "name": "Sweet Mystery - Boxes Around Shrinking Platforms Purple Coin #4",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14853,7 +14853,7 @@
     "sort-key": "row-1475"
   },
   {
-    "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #5",
+    "name": "Sweet Mystery - Boxes Around Shrinking Platforms Purple Coin #5",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14863,7 +14863,7 @@
     "sort-key": "row-1476"
   },
   {
-    "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #6",
+    "name": "Sweet Mystery - Boxes Around Shrinking Platforms Purple Coin #6",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14873,7 +14873,7 @@
     "sort-key": "row-1477"
   },
   {
-    "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #7",
+    "name": "Sweet Mystery - Boxes Around Shrinking Platforms Purple Coin #7",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14883,7 +14883,7 @@
     "sort-key": "row-1478"
   },
   {
-    "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #8",
+    "name": "Sweet Mystery - Boxes Around Shrinking Platforms Purple Coin #8",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14893,7 +14893,7 @@
     "sort-key": "row-1479"
   },
   {
-    "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #9",
+    "name": "Sweet Mystery - Boxes Around Shrinking Platforms Purple Coin #9",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14903,7 +14903,7 @@
     "sort-key": "row-1480"
   },
   {
-    "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #10",
+    "name": "Sweet Mystery - Boxes Around Shrinking Platforms Purple Coin #10",
     "requires": "",
     "region": "Sweet Mystery C - Moving Gifts",
     "category": [
@@ -14913,7 +14913,7 @@
     "sort-key": "row-1481"
   },
   {
-    "name": "Sweet Mystery Cake Steps Purple Coin #1",
+    "name": "Sweet Mystery - Cake Steps Purple Coin #1",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -14923,7 +14923,7 @@
     "sort-key": "row-1482"
   },
   {
-    "name": "Sweet Mystery Cake Steps Purple Coin #2",
+    "name": "Sweet Mystery - Cake Steps Purple Coin #2",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -14933,7 +14933,7 @@
     "sort-key": "row-1483"
   },
   {
-    "name": "Sweet Mystery Cake Steps Purple Coin #3",
+    "name": "Sweet Mystery - Cake Steps Purple Coin #3",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -14943,7 +14943,7 @@
     "sort-key": "row-1484"
   },
   {
-    "name": "Sweet Mystery Cake Steps Purple Coin #4",
+    "name": "Sweet Mystery - Cake Steps Purple Coin #4",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -14953,7 +14953,7 @@
     "sort-key": "row-1485"
   },
   {
-    "name": "Sweet Mystery Cake Steps Purple Coin #5",
+    "name": "Sweet Mystery - Cake Steps Purple Coin #5",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -14963,7 +14963,7 @@
     "sort-key": "row-1486"
   },
   {
-    "name": "Sweet Mystery Purple Coin Near Flower Grapples #1",
+    "name": "Sweet Mystery - Purple Coin Near Flower Grapples #1",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -14973,7 +14973,7 @@
     "sort-key": "row-1487"
   },
   {
-    "name": "Sweet Mystery Purple Coin Near Flower Grapples #2",
+    "name": "Sweet Mystery - Purple Coin Near Flower Grapples #2",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -14983,7 +14983,7 @@
     "sort-key": "row-1488"
   },
   {
-    "name": "Sweet Mystery Purple Coin Near Flower Grapples #3",
+    "name": "Sweet Mystery - Purple Coin Near Flower Grapples #3",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -14993,7 +14993,7 @@
     "sort-key": "row-1489"
   },
   {
-    "name": "Sweet Mystery Purple Coin Near Flower Grapples #4",
+    "name": "Sweet Mystery - Purple Coin Near Flower Grapples #4",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -15003,7 +15003,7 @@
     "sort-key": "row-1490"
   },
   {
-    "name": "Sweet Mystery Purple Coin Near Flower Grapples #5",
+    "name": "Sweet Mystery - Purple Coin Near Flower Grapples #5",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -15013,7 +15013,7 @@
     "sort-key": "row-1491"
   },
   {
-    "name": "Sweet Mystery Purple Coin After Flower Grapples #1",
+    "name": "Sweet Mystery - Purple Coin After Flower Grapples #1",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -15023,7 +15023,7 @@
     "sort-key": "row-1492"
   },
   {
-    "name": "Sweet Mystery Purple Coin After Flower Grapples #2",
+    "name": "Sweet Mystery - Purple Coin After Flower Grapples #2",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -15033,7 +15033,7 @@
     "sort-key": "row-1493"
   },
   {
-    "name": "Sweet Mystery Purple Coin After Flower Grapples #3",
+    "name": "Sweet Mystery - Purple Coin After Flower Grapples #3",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -15043,7 +15043,7 @@
     "sort-key": "row-1494"
   },
   {
-    "name": "Sweet Mystery Purple Coin After Flower Grapples #4",
+    "name": "Sweet Mystery - Purple Coin After Flower Grapples #4",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -15053,7 +15053,7 @@
     "sort-key": "row-1495"
   },
   {
-    "name": "Sweet Mystery Purple Coin After Flower Grapples #5",
+    "name": "Sweet Mystery - Purple Coin After Flower Grapples #5",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -15063,7 +15063,7 @@
     "sort-key": "row-1496"
   },
   {
-    "name": "Sweet Mystery Purple Coin After Flower Grapples #6",
+    "name": "Sweet Mystery - Purple Coin After Flower Grapples #6",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -15073,7 +15073,7 @@
     "sort-key": "row-1497"
   },
   {
-    "name": "Sweet Mystery Purple Coin After Flower Grapples #7",
+    "name": "Sweet Mystery - Purple Coin After Flower Grapples #7",
     "requires": "",
     "region": "Sweet Mystery C - Flower Grapples",
     "category": [
@@ -15083,7 +15083,7 @@
     "sort-key": "row-1498"
   },
   {
-    "name": "Clockwork Ruins Starting Area Purple Coin #1",
+    "name": "Clockwork Ruins - Starting Area Purple Coin #1",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15093,7 +15093,7 @@
     "sort-key": "row-1499"
   },
   {
-    "name": "Clockwork Ruins Starting Area Purple Coin #2",
+    "name": "Clockwork Ruins - Starting Area Purple Coin #2",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15103,7 +15103,7 @@
     "sort-key": "row-1500"
   },
   {
-    "name": "Clockwork Ruins Starting Area Purple Coin #3",
+    "name": "Clockwork Ruins - Starting Area Purple Coin #3",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15113,7 +15113,7 @@
     "sort-key": "row-1501"
   },
   {
-    "name": "Clockwork Ruins Starting Area Purple Coin #4",
+    "name": "Clockwork Ruins - Starting Area Purple Coin #4",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15123,7 +15123,7 @@
     "sort-key": "row-1502"
   },
   {
-    "name": "Clockwork Ruins Starting Area Purple Coin #5",
+    "name": "Clockwork Ruins - Starting Area Purple Coin #5",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15133,7 +15133,7 @@
     "sort-key": "row-1503"
   },
   {
-    "name": "Clockwork Ruins Starting Area Purple Coin #6",
+    "name": "Clockwork Ruins - Starting Area Purple Coin #6",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15143,7 +15143,7 @@
     "sort-key": "row-1504"
   },
   {
-    "name": "Clockwork Ruins Starting Area Purple Coin #7",
+    "name": "Clockwork Ruins - Starting Area Purple Coin #7",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15153,7 +15153,7 @@
     "sort-key": "row-1505"
   },
   {
-    "name": "Clockwork Ruins Starting Area Purple Coin #8",
+    "name": "Clockwork Ruins - Starting Area Purple Coin #8",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15163,7 +15163,7 @@
     "sort-key": "row-1506"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #1",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #1",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15173,7 +15173,7 @@
     "sort-key": "row-1507"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #2",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #2",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15183,7 +15183,7 @@
     "sort-key": "row-1508"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #3",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #3",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15193,7 +15193,7 @@
     "sort-key": "row-1509"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #4",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #4",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15203,7 +15203,7 @@
     "sort-key": "row-1510"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #5",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #5",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15213,7 +15213,7 @@
     "sort-key": "row-1511"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #6",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #6",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15223,7 +15223,7 @@
     "sort-key": "row-1512"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #7",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #7",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15233,7 +15233,7 @@
     "sort-key": "row-1513"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #8",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #8",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15243,7 +15243,7 @@
     "sort-key": "row-1514"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #9",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #9",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15253,7 +15253,7 @@
     "sort-key": "row-1515"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #10",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #10",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15263,7 +15263,7 @@
     "sort-key": "row-1516"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #11",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #11",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15273,7 +15273,7 @@
     "sort-key": "row-1517"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #12",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #12",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15283,7 +15283,7 @@
     "sort-key": "row-1518"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #13",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #13",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15293,7 +15293,7 @@
     "sort-key": "row-1519"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #14",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #14",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15303,7 +15303,7 @@
     "sort-key": "row-1520"
   },
   {
-    "name": "Clockwork Ruins First Wheel Purple Coin #15",
+    "name": "Clockwork Ruins - First Wheel Purple Coin #15",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15313,7 +15313,7 @@
     "sort-key": "row-1521"
   },
   {
-    "name": "Clockwork Ruins Second Wheel Purple Coin #1",
+    "name": "Clockwork Ruins - Second Wheel Purple Coin #1",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15323,7 +15323,7 @@
     "sort-key": "row-1522"
   },
   {
-    "name": "Clockwork Ruins Second Wheel Purple Coin #2",
+    "name": "Clockwork Ruins - Second Wheel Purple Coin #2",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15333,7 +15333,7 @@
     "sort-key": "row-1523"
   },
   {
-    "name": "Clockwork Ruins Second Wheel Purple Coin #3",
+    "name": "Clockwork Ruins - Second Wheel Purple Coin #3",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15343,7 +15343,7 @@
     "sort-key": "row-1524"
   },
   {
-    "name": "Clockwork Ruins Second Wheel Purple Coin #4",
+    "name": "Clockwork Ruins - Second Wheel Purple Coin #4",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15353,7 +15353,7 @@
     "sort-key": "row-1525"
   },
   {
-    "name": "Clockwork Ruins Second Wheel Purple Coin #5",
+    "name": "Clockwork Ruins - Second Wheel Purple Coin #5",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15363,7 +15363,7 @@
     "sort-key": "row-1526"
   },
   {
-    "name": "Clockwork Ruins Second Wheel Purple Coin #6",
+    "name": "Clockwork Ruins - Second Wheel Purple Coin #6",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15373,7 +15373,7 @@
     "sort-key": "row-1527"
   },
   {
-    "name": "Clockwork Ruins Second Wheel Purple Coin #7",
+    "name": "Clockwork Ruins - Second Wheel Purple Coin #7",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15383,7 +15383,7 @@
     "sort-key": "row-1528"
   },
   {
-    "name": "Clockwork Ruins Second Wheel Purple Coin #8",
+    "name": "Clockwork Ruins - Second Wheel Purple Coin #8",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15393,7 +15393,7 @@
     "sort-key": "row-1529"
   },
   {
-    "name": "Clockwork Ruins Steps Purple Coin #1",
+    "name": "Clockwork Ruins - Steps Purple Coin #1",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15403,7 +15403,7 @@
     "sort-key": "row-1530"
   },
   {
-    "name": "Clockwork Ruins Steps Purple Coin #2",
+    "name": "Clockwork Ruins - Steps Purple Coin #2",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15413,7 +15413,7 @@
     "sort-key": "row-1531"
   },
   {
-    "name": "Clockwork Ruins Steps Purple Coin #3",
+    "name": "Clockwork Ruins - Steps Purple Coin #3",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15423,7 +15423,7 @@
     "sort-key": "row-1532"
   },
   {
-    "name": "Clockwork Ruins Steps Purple Coin #4",
+    "name": "Clockwork Ruins - Steps Purple Coin #4",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15433,7 +15433,7 @@
     "sort-key": "row-1533"
   },
   {
-    "name": "Clockwork Ruins Steps Purple Coin #5",
+    "name": "Clockwork Ruins - Steps Purple Coin #5",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15443,7 +15443,7 @@
     "sort-key": "row-1534"
   },
   {
-    "name": "Clockwork Ruins Steps Purple Coin #6",
+    "name": "Clockwork Ruins - Steps Purple Coin #6",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15453,7 +15453,7 @@
     "sort-key": "row-1535"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #1",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #1",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15463,7 +15463,7 @@
     "sort-key": "row-1536"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #2",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #2",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15473,7 +15473,7 @@
     "sort-key": "row-1537"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #3",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #3",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15483,7 +15483,7 @@
     "sort-key": "row-1538"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #4",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #4",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15493,7 +15493,7 @@
     "sort-key": "row-1539"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #5",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #5",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15503,7 +15503,7 @@
     "sort-key": "row-1540"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #6",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #6",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15513,7 +15513,7 @@
     "sort-key": "row-1541"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #7",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #7",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15523,7 +15523,7 @@
     "sort-key": "row-1542"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #8",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #8",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15533,7 +15533,7 @@
     "sort-key": "row-1543"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #9",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #9",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15543,7 +15543,7 @@
     "sort-key": "row-1544"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #10",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #10",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15553,7 +15553,7 @@
     "sort-key": "row-1545"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #11",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #11",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15563,7 +15563,7 @@
     "sort-key": "row-1546"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #12",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #12",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15573,7 +15573,7 @@
     "sort-key": "row-1547"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #13",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #13",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15583,7 +15583,7 @@
     "sort-key": "row-1548"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #14",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #14",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15593,7 +15593,7 @@
     "sort-key": "row-1549"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #15",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #15",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15603,7 +15603,7 @@
     "sort-key": "row-1550"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #16",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #16",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15613,7 +15613,7 @@
     "sort-key": "row-1551"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #17",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #17",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15623,7 +15623,7 @@
     "sort-key": "row-1552"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #18",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #18",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15633,7 +15633,7 @@
     "sort-key": "row-1553"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #19",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #19",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15643,7 +15643,7 @@
     "sort-key": "row-1554"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #20",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #20",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15653,7 +15653,7 @@
     "sort-key": "row-1555"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #21",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #21",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15663,7 +15663,7 @@
     "sort-key": "row-1556"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #22",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #22",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15673,7 +15673,7 @@
     "sort-key": "row-1557"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #23",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #23",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15683,7 +15683,7 @@
     "sort-key": "row-1558"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #24",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #24",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15693,7 +15693,7 @@
     "sort-key": "row-1559"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #25",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #25",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15703,7 +15703,7 @@
     "sort-key": "row-1560"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #26",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #26",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15713,7 +15713,7 @@
     "sort-key": "row-1561"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #27",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #27",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15723,7 +15723,7 @@
     "sort-key": "row-1562"
   },
   {
-    "name": "Clockwork Ruins Third Wheel Purple Coin #28",
+    "name": "Clockwork Ruins - Third Wheel Purple Coin #28",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15733,7 +15733,7 @@
     "sort-key": "row-1563"
   },
   {
-    "name": "Clockwork Ruins Final Platform Purple Coin #1",
+    "name": "Clockwork Ruins - Final Platform Purple Coin #1",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15743,7 +15743,7 @@
     "sort-key": "row-1564"
   },
   {
-    "name": "Clockwork Ruins Final Platform Purple Coin #2",
+    "name": "Clockwork Ruins - Final Platform Purple Coin #2",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15753,7 +15753,7 @@
     "sort-key": "row-1565"
   },
   {
-    "name": "Clockwork Ruins Final Platform Purple Coin #3",
+    "name": "Clockwork Ruins - Final Platform Purple Coin #3",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15763,7 +15763,7 @@
     "sort-key": "row-1566"
   },
   {
-    "name": "Clockwork Ruins Final Platform Purple Coin #4",
+    "name": "Clockwork Ruins - Final Platform Purple Coin #4",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15773,7 +15773,7 @@
     "sort-key": "row-1567"
   },
   {
-    "name": "Clockwork Ruins Final Platform Purple Coin #5",
+    "name": "Clockwork Ruins - Final Platform Purple Coin #5",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15783,7 +15783,7 @@
     "sort-key": "row-1568"
   },
   {
-    "name": "Clockwork Ruins Final Platform Purple Coin #6",
+    "name": "Clockwork Ruins - Final Platform Purple Coin #6",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15793,7 +15793,7 @@
     "sort-key": "row-1569"
   },
   {
-    "name": "Clockwork Ruins Final Platform Purple Coin #7",
+    "name": "Clockwork Ruins - Final Platform Purple Coin #7",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15803,7 +15803,7 @@
     "sort-key": "row-1570"
   },
   {
-    "name": "Clockwork Ruins Final Platform Purple Coin #8",
+    "name": "Clockwork Ruins - Final Platform Purple Coin #8",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15813,7 +15813,7 @@
     "sort-key": "row-1571"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #1",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #1",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15823,7 +15823,7 @@
     "sort-key": "row-1572"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #2",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #2",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15833,7 +15833,7 @@
     "sort-key": "row-1573"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #3",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #3",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15843,7 +15843,7 @@
     "sort-key": "row-1574"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #4",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #4",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15853,7 +15853,7 @@
     "sort-key": "row-1575"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #5",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #5",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15863,7 +15863,7 @@
     "sort-key": "row-1576"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #6",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #6",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15873,7 +15873,7 @@
     "sort-key": "row-1577"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #7",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #7",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15883,7 +15883,7 @@
     "sort-key": "row-1578"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #8",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #8",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15893,7 +15893,7 @@
     "sort-key": "row-1579"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #9",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #9",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15903,7 +15903,7 @@
     "sort-key": "row-1580"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #10",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #10",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15913,7 +15913,7 @@
     "sort-key": "row-1581"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #11",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #11",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15923,7 +15923,7 @@
     "sort-key": "row-1582"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #12",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #12",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15933,7 +15933,7 @@
     "sort-key": "row-1583"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #13",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #13",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15943,7 +15943,7 @@
     "sort-key": "row-1584"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #14",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #14",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15953,7 +15953,7 @@
     "sort-key": "row-1585"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #15",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #15",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15963,7 +15963,7 @@
     "sort-key": "row-1586"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #16",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #16",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15973,7 +15973,7 @@
     "sort-key": "row-1587"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #17",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #17",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15983,7 +15983,7 @@
     "sort-key": "row-1588"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #18",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #18",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -15993,7 +15993,7 @@
     "sort-key": "row-1589"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #19",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #19",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -16003,7 +16003,7 @@
     "sort-key": "row-1590"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #20",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #20",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -16013,7 +16013,7 @@
     "sort-key": "row-1591"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #21",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #21",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -16023,7 +16023,7 @@
     "sort-key": "row-1592"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #22",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #22",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -16033,7 +16033,7 @@
     "sort-key": "row-1593"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #23",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #23",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -16043,7 +16043,7 @@
     "sort-key": "row-1594"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #24",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #24",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -16053,7 +16053,7 @@
     "sort-key": "row-1595"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #25",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #25",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -16063,7 +16063,7 @@
     "sort-key": "row-1596"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #26",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #26",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -16073,7 +16073,7 @@
     "sort-key": "row-1597"
   },
   {
-    "name": "Clockwork Ruins Final Wheel Purple Coin #27",
+    "name": "Clockwork Ruins - Final Wheel Purple Coin #27",
     "requires": "",
     "region": "Clockwork Ruins Purple Coins",
     "category": [
@@ -16083,7 +16083,7 @@
     "sort-key": "row-1598"
   },
   {
-    "name": "Mario Squared Left Leg Purple Coin #1",
+    "name": "Mario Squared - Left Leg Purple Coin #1",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16093,7 +16093,7 @@
     "sort-key": "row-1599"
   },
   {
-    "name": "Mario Squared Left Leg Purple Coin #2",
+    "name": "Mario Squared - Left Leg Purple Coin #2",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16103,7 +16103,7 @@
     "sort-key": "row-1600"
   },
   {
-    "name": "Mario Squared Left Leg Purple Coin #3",
+    "name": "Mario Squared - Left Leg Purple Coin #3",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16113,7 +16113,7 @@
     "sort-key": "row-1601"
   },
   {
-    "name": "Mario Squared Left Leg Purple Coin #4",
+    "name": "Mario Squared - Left Leg Purple Coin #4",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16123,7 +16123,7 @@
     "sort-key": "row-1602"
   },
   {
-    "name": "Mario Squared Left Leg Purple Coin #5",
+    "name": "Mario Squared - Left Leg Purple Coin #5",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16133,7 +16133,7 @@
     "sort-key": "row-1603"
   },
   {
-    "name": "Mario Squared Left Leg Purple Coin #6",
+    "name": "Mario Squared - Left Leg Purple Coin #6",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16143,7 +16143,7 @@
     "sort-key": "row-1604"
   },
   {
-    "name": "Mario Squared Left Leg Purple Coin #7",
+    "name": "Mario Squared - Left Leg Purple Coin #7",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16153,7 +16153,7 @@
     "sort-key": "row-1605"
   },
   {
-    "name": "Mario Squared Left Leg Purple Coin #8",
+    "name": "Mario Squared - Left Leg Purple Coin #8",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16163,7 +16163,7 @@
     "sort-key": "row-1606"
   },
   {
-    "name": "Mario Squared Left Hand Purple Coin #1",
+    "name": "Mario Squared - Left Hand Purple Coin #1",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16173,7 +16173,7 @@
     "sort-key": "row-1607"
   },
   {
-    "name": "Mario Squared Left Hand Purple Coin #2",
+    "name": "Mario Squared - Left Hand Purple Coin #2",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16183,7 +16183,7 @@
     "sort-key": "row-1608"
   },
   {
-    "name": "Mario Squared Left Hand Purple Coin #3",
+    "name": "Mario Squared - Left Hand Purple Coin #3",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16193,7 +16193,7 @@
     "sort-key": "row-1609"
   },
   {
-    "name": "Mario Squared Left Hand Purple Coin #4",
+    "name": "Mario Squared - Left Hand Purple Coin #4",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16203,7 +16203,7 @@
     "sort-key": "row-1610"
   },
   {
-    "name": "Mario Squared Left Hand Purple Coin #5",
+    "name": "Mario Squared - Left Hand Purple Coin #5",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16213,7 +16213,7 @@
     "sort-key": "row-1611"
   },
   {
-    "name": "Mario Squared Left Hand Purple Coin #6",
+    "name": "Mario Squared - Left Hand Purple Coin #6",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16223,7 +16223,7 @@
     "sort-key": "row-1612"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin #1",
+    "name": "Mario Squared - Left Arm Purple Coin #1",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16233,7 +16233,7 @@
     "sort-key": "row-1613"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin #2",
+    "name": "Mario Squared - Left Arm Purple Coin #2",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16243,7 +16243,7 @@
     "sort-key": "row-1614"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin #3",
+    "name": "Mario Squared - Left Arm Purple Coin #3",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16253,7 +16253,7 @@
     "sort-key": "row-1615"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin #4",
+    "name": "Mario Squared - Left Arm Purple Coin #4",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16263,7 +16263,7 @@
     "sort-key": "row-1616"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin #5",
+    "name": "Mario Squared - Left Arm Purple Coin #5",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16273,7 +16273,7 @@
     "sort-key": "row-1617"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin #6",
+    "name": "Mario Squared - Left Arm Purple Coin #6",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16283,7 +16283,7 @@
     "sort-key": "row-1618"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin #7",
+    "name": "Mario Squared - Left Arm Purple Coin #7",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16293,7 +16293,7 @@
     "sort-key": "row-1619"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin #8",
+    "name": "Mario Squared - Left Arm Purple Coin #8",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16303,7 +16303,7 @@
     "sort-key": "row-1620"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin #9",
+    "name": "Mario Squared - Left Arm Purple Coin #9",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16313,7 +16313,7 @@
     "sort-key": "row-1621"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin #10",
+    "name": "Mario Squared - Left Arm Purple Coin #10",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16323,7 +16323,7 @@
     "sort-key": "row-1622"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin in Air #1",
+    "name": "Mario Squared - Left Arm Purple Coin in Air #1",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16333,7 +16333,7 @@
     "sort-key": "row-1623"
   },
   {
-    "name": "Mario Squared Left Arm Purple Coin in Air #2",
+    "name": "Mario Squared - Left Arm Purple Coin in Air #2",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16343,7 +16343,7 @@
     "sort-key": "row-1624"
   },
   {
-    "name": "Mario Squared Back of Head Purple Coin #1",
+    "name": "Mario Squared - Back of Head Purple Coin #1",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16353,7 +16353,7 @@
     "sort-key": "row-1625"
   },
   {
-    "name": "Mario Squared Back of Head Purple Coin #2",
+    "name": "Mario Squared - Back of Head Purple Coin #2",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16363,7 +16363,7 @@
     "sort-key": "row-1626"
   },
   {
-    "name": "Mario Squared Back of Head Purple Coin #3",
+    "name": "Mario Squared - Back of Head Purple Coin #3",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16373,7 +16373,7 @@
     "sort-key": "row-1627"
   },
   {
-    "name": "Mario Squared Back of Head Purple Coin #4",
+    "name": "Mario Squared - Back of Head Purple Coin #4",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16383,7 +16383,7 @@
     "sort-key": "row-1628"
   },
   {
-    "name": "Mario Squared Back of Head Purple Coin #5",
+    "name": "Mario Squared - Back of Head Purple Coin #5",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16393,7 +16393,7 @@
     "sort-key": "row-1629"
   },
   {
-    "name": "Mario Squared Back of Head Purple Coin #6",
+    "name": "Mario Squared - Back of Head Purple Coin #6",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16403,7 +16403,7 @@
     "sort-key": "row-1630"
   },
   {
-    "name": "Mario Squared Back of Head Purple Coin #7",
+    "name": "Mario Squared - Back of Head Purple Coin #7",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16413,7 +16413,7 @@
     "sort-key": "row-1631"
   },
   {
-    "name": "Mario Squared Face Purple Coin #1",
+    "name": "Mario Squared - Face Purple Coin #1",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16423,7 +16423,7 @@
     "sort-key": "row-1632"
   },
   {
-    "name": "Mario Squared Face Purple Coin #2",
+    "name": "Mario Squared - Face Purple Coin #2",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16433,7 +16433,7 @@
     "sort-key": "row-1633"
   },
   {
-    "name": "Mario Squared Face Purple Coin #3",
+    "name": "Mario Squared - Face Purple Coin #3",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16443,7 +16443,7 @@
     "sort-key": "row-1634"
   },
   {
-    "name": "Mario Squared Face Purple Coin #4",
+    "name": "Mario Squared - Face Purple Coin #4",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16453,7 +16453,7 @@
     "sort-key": "row-1635"
   },
   {
-    "name": "Mario Squared Face Purple Coin #5",
+    "name": "Mario Squared - Face Purple Coin #5",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16463,7 +16463,7 @@
     "sort-key": "row-1636"
   },
   {
-    "name": "Mario Squared Face Purple Coin #6",
+    "name": "Mario Squared - Face Purple Coin #6",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16473,7 +16473,7 @@
     "sort-key": "row-1637"
   },
   {
-    "name": "Mario Squared Face Purple Coin #7",
+    "name": "Mario Squared - Face Purple Coin #7",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16483,7 +16483,7 @@
     "sort-key": "row-1638"
   },
   {
-    "name": "Mario Squared Face Purple Coin #8",
+    "name": "Mario Squared - Face Purple Coin #8",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16493,7 +16493,7 @@
     "sort-key": "row-1639"
   },
   {
-    "name": "Mario Squared Face Purple Coin #9",
+    "name": "Mario Squared - Face Purple Coin #9",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16503,7 +16503,7 @@
     "sort-key": "row-1640"
   },
   {
-    "name": "Mario Squared Face Purple Coin #10",
+    "name": "Mario Squared - Face Purple Coin #10",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16513,7 +16513,7 @@
     "sort-key": "row-1641"
   },
   {
-    "name": "Mario Squared Face Purple Coin #11",
+    "name": "Mario Squared - Face Purple Coin #11",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16523,7 +16523,7 @@
     "sort-key": "row-1642"
   },
   {
-    "name": "Mario Squared Face Purple Coin #12",
+    "name": "Mario Squared - Face Purple Coin #12",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16533,7 +16533,7 @@
     "sort-key": "row-1643"
   },
   {
-    "name": "Mario Squared Face Purple Coin #13",
+    "name": "Mario Squared - Face Purple Coin #13",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16543,7 +16543,7 @@
     "sort-key": "row-1644"
   },
   {
-    "name": "Mario Squared Face Purple Coin #14",
+    "name": "Mario Squared - Face Purple Coin #14",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16553,7 +16553,7 @@
     "sort-key": "row-1645"
   },
   {
-    "name": "Mario Squared Face Purple Coin #15",
+    "name": "Mario Squared - Face Purple Coin #15",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16563,7 +16563,7 @@
     "sort-key": "row-1646"
   },
   {
-    "name": "Mario Squared Face Purple Coin #16",
+    "name": "Mario Squared - Face Purple Coin #16",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16573,7 +16573,7 @@
     "sort-key": "row-1647"
   },
   {
-    "name": "Mario Squared Face Purple Coin #17",
+    "name": "Mario Squared - Face Purple Coin #17",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16583,7 +16583,7 @@
     "sort-key": "row-1648"
   },
   {
-    "name": "Mario Squared Face Purple Coin #18",
+    "name": "Mario Squared - Face Purple Coin #18",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16593,7 +16593,7 @@
     "sort-key": "row-1649"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #1",
+    "name": "Mario Squared - Right Arm Purple Coin #1",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16603,7 +16603,7 @@
     "sort-key": "row-1650"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #2",
+    "name": "Mario Squared - Right Arm Purple Coin #2",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16613,7 +16613,7 @@
     "sort-key": "row-1651"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #3",
+    "name": "Mario Squared - Right Arm Purple Coin #3",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16623,7 +16623,7 @@
     "sort-key": "row-1652"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #4",
+    "name": "Mario Squared - Right Arm Purple Coin #4",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16633,7 +16633,7 @@
     "sort-key": "row-1653"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #5",
+    "name": "Mario Squared - Right Arm Purple Coin #5",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16643,7 +16643,7 @@
     "sort-key": "row-1654"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #6",
+    "name": "Mario Squared - Right Arm Purple Coin #6",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16653,7 +16653,7 @@
     "sort-key": "row-1655"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #7",
+    "name": "Mario Squared - Right Arm Purple Coin #7",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16663,7 +16663,7 @@
     "sort-key": "row-1656"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #8",
+    "name": "Mario Squared - Right Arm Purple Coin #8",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16673,7 +16673,7 @@
     "sort-key": "row-1657"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #9",
+    "name": "Mario Squared - Right Arm Purple Coin #9",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16683,7 +16683,7 @@
     "sort-key": "row-1658"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #10",
+    "name": "Mario Squared - Right Arm Purple Coin #10",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16693,7 +16693,7 @@
     "sort-key": "row-1659"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #11",
+    "name": "Mario Squared - Right Arm Purple Coin #11",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16703,7 +16703,7 @@
     "sort-key": "row-1660"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #12",
+    "name": "Mario Squared - Right Arm Purple Coin #12",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16713,7 +16713,7 @@
     "sort-key": "row-1661"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #13",
+    "name": "Mario Squared - Right Arm Purple Coin #13",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16723,7 +16723,7 @@
     "sort-key": "row-1662"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #14",
+    "name": "Mario Squared - Right Arm Purple Coin #14",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16733,7 +16733,7 @@
     "sort-key": "row-1663"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #15",
+    "name": "Mario Squared - Right Arm Purple Coin #15",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16743,7 +16743,7 @@
     "sort-key": "row-1664"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #16",
+    "name": "Mario Squared - Right Arm Purple Coin #16",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16753,7 +16753,7 @@
     "sort-key": "row-1665"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #17",
+    "name": "Mario Squared - Right Arm Purple Coin #17",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16763,7 +16763,7 @@
     "sort-key": "row-1666"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #18",
+    "name": "Mario Squared - Right Arm Purple Coin #18",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16773,7 +16773,7 @@
     "sort-key": "row-1667"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #19",
+    "name": "Mario Squared - Right Arm Purple Coin #19",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16783,7 +16783,7 @@
     "sort-key": "row-1668"
   },
   {
-    "name": "Mario Squared Right Arm Purple Coin #20",
+    "name": "Mario Squared - Right Arm Purple Coin #20",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16793,7 +16793,7 @@
     "sort-key": "row-1669"
   },
   {
-    "name": "Mario Squared Chest Purple Coin #1",
+    "name": "Mario Squared - Chest Purple Coin #1",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16803,7 +16803,7 @@
     "sort-key": "row-1670"
   },
   {
-    "name": "Mario Squared Chest Purple Coin #2",
+    "name": "Mario Squared - Chest Purple Coin #2",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16813,7 +16813,7 @@
     "sort-key": "row-1671"
   },
   {
-    "name": "Mario Squared Chest Purple Coin #3",
+    "name": "Mario Squared - Chest Purple Coin #3",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16823,7 +16823,7 @@
     "sort-key": "row-1672"
   },
   {
-    "name": "Mario Squared Chest Purple Coin #4",
+    "name": "Mario Squared - Chest Purple Coin #4",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16833,7 +16833,7 @@
     "sort-key": "row-1673"
   },
   {
-    "name": "Mario Squared Button Purple Coin #1",
+    "name": "Mario Squared - Button Purple Coin #1",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16843,7 +16843,7 @@
     "sort-key": "row-1674"
   },
   {
-    "name": "Mario Squared Button Purple Coin #2",
+    "name": "Mario Squared - Button Purple Coin #2",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16853,7 +16853,7 @@
     "sort-key": "row-1675"
   },
   {
-    "name": "Mario Squared Button Purple Coin #3",
+    "name": "Mario Squared - Button Purple Coin #3",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16863,7 +16863,7 @@
     "sort-key": "row-1676"
   },
   {
-    "name": "Mario Squared Button Purple Coin #4",
+    "name": "Mario Squared - Button Purple Coin #4",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16873,7 +16873,7 @@
     "sort-key": "row-1677"
   },
   {
-    "name": "Mario Squared Button Purple Coin #5",
+    "name": "Mario Squared - Button Purple Coin #5",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16883,7 +16883,7 @@
     "sort-key": "row-1678"
   },
   {
-    "name": "Mario Squared Button Purple Coin #6",
+    "name": "Mario Squared - Button Purple Coin #6",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16893,7 +16893,7 @@
     "sort-key": "row-1679"
   },
   {
-    "name": "Mario Squared Button Purple Coin #7",
+    "name": "Mario Squared - Button Purple Coin #7",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16903,7 +16903,7 @@
     "sort-key": "row-1680"
   },
   {
-    "name": "Mario Squared Button Purple Coin #8",
+    "name": "Mario Squared - Button Purple Coin #8",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16913,7 +16913,7 @@
     "sort-key": "row-1681"
   },
   {
-    "name": "Mario Squared Button Long Jump Purple Coin #1",
+    "name": "Mario Squared - Button Long Jump Purple Coin #1",
     "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16923,7 +16923,7 @@
     "sort-key": "row-1682"
   },
   {
-    "name": "Mario Squared Button Long Jump Purple Coin #2",
+    "name": "Mario Squared - Button Long Jump Purple Coin #2",
     "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16933,7 +16933,7 @@
     "sort-key": "row-1683"
   },
   {
-    "name": "Mario Squared Button Long Jump Purple Coin #3",
+    "name": "Mario Squared - Button Long Jump Purple Coin #3",
     "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16943,7 +16943,7 @@
     "sort-key": "row-1684"
   },
   {
-    "name": "Mario Squared Button Long Jump Purple Coin #4",
+    "name": "Mario Squared - Button Long Jump Purple Coin #4",
     "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16953,7 +16953,7 @@
     "sort-key": "row-1685"
   },
   {
-    "name": "Mario Squared Button Long Jump Purple Coin #5",
+    "name": "Mario Squared - Button Long Jump Purple Coin #5",
     "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16963,7 +16963,7 @@
     "sort-key": "row-1686"
   },
   {
-    "name": "Mario Squared Button Long Jump Purple Coin #6",
+    "name": "Mario Squared - Button Long Jump Purple Coin #6",
     "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16973,7 +16973,7 @@
     "sort-key": "row-1687"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #1",
+    "name": "Mario Squared - Right Leg Purple Coin #1",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16983,7 +16983,7 @@
     "sort-key": "row-1688"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #2",
+    "name": "Mario Squared - Right Leg Purple Coin #2",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -16993,7 +16993,7 @@
     "sort-key": "row-1689"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #3",
+    "name": "Mario Squared - Right Leg Purple Coin #3",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -17003,7 +17003,7 @@
     "sort-key": "row-1690"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #4",
+    "name": "Mario Squared - Right Leg Purple Coin #4",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -17013,7 +17013,7 @@
     "sort-key": "row-1691"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #5",
+    "name": "Mario Squared - Right Leg Purple Coin #5",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -17023,7 +17023,7 @@
     "sort-key": "row-1692"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #6",
+    "name": "Mario Squared - Right Leg Purple Coin #6",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -17033,7 +17033,7 @@
     "sort-key": "row-1693"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #7",
+    "name": "Mario Squared - Right Leg Purple Coin #7",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -17043,7 +17043,7 @@
     "sort-key": "row-1694"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #8",
+    "name": "Mario Squared - Right Leg Purple Coin #8",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -17053,7 +17053,7 @@
     "sort-key": "row-1695"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #9",
+    "name": "Mario Squared - Right Leg Purple Coin #9",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -17063,7 +17063,7 @@
     "sort-key": "row-1696"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #10",
+    "name": "Mario Squared - Right Leg Purple Coin #10",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -17073,7 +17073,7 @@
     "sort-key": "row-1697"
   },
   {
-    "name": "Mario Squared Right Leg Purple Coin #11",
+    "name": "Mario Squared - Right Leg Purple Coin #11",
     "requires": "",
     "region": "Mario Squared Purple Coins",
     "category": [
@@ -17083,7 +17083,7 @@
     "sort-key": "row-1698"
   },
   {
-    "name": "Rolling Coaster Start Purple Coin #1",
+    "name": "Rolling Coaster - Start Purple Coin #1",
     "requires": "",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17093,7 +17093,7 @@
     "sort-key": "row-1699"
   },
   {
-    "name": "Rolling Coaster Start Purple Coin #2",
+    "name": "Rolling Coaster - Start Purple Coin #2",
     "requires": "",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17103,7 +17103,7 @@
     "sort-key": "row-1700"
   },
   {
-    "name": "Rolling Coaster Start Purple Coin #3",
+    "name": "Rolling Coaster - Start Purple Coin #3",
     "requires": "",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17113,7 +17113,7 @@
     "sort-key": "row-1701"
   },
   {
-    "name": "Rolling Coaster Start Purple Coin #4",
+    "name": "Rolling Coaster - Start Purple Coin #4",
     "requires": "",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17123,7 +17123,7 @@
     "sort-key": "row-1702"
   },
   {
-    "name": "Rolling Coaster Start Purple Coin #5",
+    "name": "Rolling Coaster - Start Purple Coin #5",
     "requires": "",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17133,7 +17133,7 @@
     "sort-key": "row-1703"
   },
   {
-    "name": "Rolling Coaster First Rail Purple Coin #1",
+    "name": "Rolling Coaster - First Rail Purple Coin #1",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17143,7 +17143,7 @@
     "sort-key": "row-1704"
   },
   {
-    "name": "Rolling Coaster First Rail Purple Coin #2",
+    "name": "Rolling Coaster - First Rail Purple Coin #2",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17153,7 +17153,7 @@
     "sort-key": "row-1705"
   },
   {
-    "name": "Rolling Coaster First Rail Purple Coin #3",
+    "name": "Rolling Coaster - First Rail Purple Coin #3",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17163,7 +17163,7 @@
     "sort-key": "row-1706"
   },
   {
-    "name": "Rolling Coaster First Rail Purple Coin #4",
+    "name": "Rolling Coaster - First Rail Purple Coin #4",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17173,7 +17173,7 @@
     "sort-key": "row-1707"
   },
   {
-    "name": "Rolling Coaster First Rail Purple Coin #5",
+    "name": "Rolling Coaster - First Rail Purple Coin #5",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17183,7 +17183,7 @@
     "sort-key": "row-1708"
   },
   {
-    "name": "Rolling Coaster First Rail Purple Coin #6",
+    "name": "Rolling Coaster - First Rail Purple Coin #6",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17193,7 +17193,7 @@
     "sort-key": "row-1709"
   },
   {
-    "name": "Rolling Coaster First Rail Purple Coin #7",
+    "name": "Rolling Coaster - First Rail Purple Coin #7",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17203,7 +17203,7 @@
     "sort-key": "row-1710"
   },
   {
-    "name": "Rolling Coaster First Rail Purple Coin #8",
+    "name": "Rolling Coaster - First Rail Purple Coin #8",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17213,7 +17213,7 @@
     "sort-key": "row-1711"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #1",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #1",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17223,7 +17223,7 @@
     "sort-key": "row-1712"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #2",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #2",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17233,7 +17233,7 @@
     "sort-key": "row-1713"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #3",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #3",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17243,7 +17243,7 @@
     "sort-key": "row-1714"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #4",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #4",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17253,7 +17253,7 @@
     "sort-key": "row-1715"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #5",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #5",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17263,7 +17263,7 @@
     "sort-key": "row-1716"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #6",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #6",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17273,7 +17273,7 @@
     "sort-key": "row-1717"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #7",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #7",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17283,7 +17283,7 @@
     "sort-key": "row-1718"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #8",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #8",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17293,7 +17293,7 @@
     "sort-key": "row-1719"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #9",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #9",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17303,7 +17303,7 @@
     "sort-key": "row-1720"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #10",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #10",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17313,7 +17313,7 @@
     "sort-key": "row-1721"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #11",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #11",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17323,7 +17323,7 @@
     "sort-key": "row-1722"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #12",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #12",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17333,7 +17333,7 @@
     "sort-key": "row-1723"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #13",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #13",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17343,7 +17343,7 @@
     "sort-key": "row-1724"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #14",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #14",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17353,7 +17353,7 @@
     "sort-key": "row-1725"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #15",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #15",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17363,7 +17363,7 @@
     "sort-key": "row-1726"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #16",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #16",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17373,7 +17373,7 @@
     "sort-key": "row-1727"
   },
   {
-    "name": "Rolling Coaster First Rainbow Purple Coin #17",
+    "name": "Rolling Coaster - First Rainbow Purple Coin #17",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17383,7 +17383,7 @@
     "sort-key": "row-1728"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #1",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #1",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17393,7 +17393,7 @@
     "sort-key": "row-1729"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #2",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #2",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17403,7 +17403,7 @@
     "sort-key": "row-1730"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #3",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #3",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17413,7 +17413,7 @@
     "sort-key": "row-1731"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #4",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #4",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17423,7 +17423,7 @@
     "sort-key": "row-1732"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #5",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #5",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17433,7 +17433,7 @@
     "sort-key": "row-1733"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #6",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #6",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17443,7 +17443,7 @@
     "sort-key": "row-1734"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #7",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #7",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17453,7 +17453,7 @@
     "sort-key": "row-1735"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #8",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #8",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17463,7 +17463,7 @@
     "sort-key": "row-1736"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #9",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #9",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17473,7 +17473,7 @@
     "sort-key": "row-1737"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #10",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #10",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17483,7 +17483,7 @@
     "sort-key": "row-1738"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #11",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #11",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17493,7 +17493,7 @@
     "sort-key": "row-1739"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #12",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #12",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17503,7 +17503,7 @@
     "sort-key": "row-1740"
   },
   {
-    "name": "Rolling Coaster Platform Before Expert Path Purple Coin #13",
+    "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #13",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17513,7 +17513,7 @@
     "sort-key": "row-1741"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #1",
+    "name": "Rolling Coaster - Expert Path Purple Coin #1",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17523,7 +17523,7 @@
     "sort-key": "row-1742"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #2",
+    "name": "Rolling Coaster - Expert Path Purple Coin #2",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17533,7 +17533,7 @@
     "sort-key": "row-1743"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #3",
+    "name": "Rolling Coaster - Expert Path Purple Coin #3",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17543,7 +17543,7 @@
     "sort-key": "row-1744"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #4",
+    "name": "Rolling Coaster - Expert Path Purple Coin #4",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17553,7 +17553,7 @@
     "sort-key": "row-1745"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #5",
+    "name": "Rolling Coaster - Expert Path Purple Coin #5",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17563,7 +17563,7 @@
     "sort-key": "row-1746"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #6",
+    "name": "Rolling Coaster - Expert Path Purple Coin #6",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17573,7 +17573,7 @@
     "sort-key": "row-1747"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #7",
+    "name": "Rolling Coaster - Expert Path Purple Coin #7",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17583,7 +17583,7 @@
     "sort-key": "row-1748"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #8",
+    "name": "Rolling Coaster - Expert Path Purple Coin #8",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17593,7 +17593,7 @@
     "sort-key": "row-1749"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #9",
+    "name": "Rolling Coaster - Expert Path Purple Coin #9",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17603,7 +17603,7 @@
     "sort-key": "row-1750"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #10",
+    "name": "Rolling Coaster - Expert Path Purple Coin #10",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17613,7 +17613,7 @@
     "sort-key": "row-1751"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #11",
+    "name": "Rolling Coaster - Expert Path Purple Coin #11",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17623,7 +17623,7 @@
     "sort-key": "row-1752"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #12",
+    "name": "Rolling Coaster - Expert Path Purple Coin #12",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17633,7 +17633,7 @@
     "sort-key": "row-1753"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #13",
+    "name": "Rolling Coaster - Expert Path Purple Coin #13",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17643,7 +17643,7 @@
     "sort-key": "row-1754"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #14",
+    "name": "Rolling Coaster - Expert Path Purple Coin #14",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17653,7 +17653,7 @@
     "sort-key": "row-1755"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #15",
+    "name": "Rolling Coaster - Expert Path Purple Coin #15",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17663,7 +17663,7 @@
     "sort-key": "row-1756"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #16",
+    "name": "Rolling Coaster - Expert Path Purple Coin #16",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17673,7 +17673,7 @@
     "sort-key": "row-1757"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #17",
+    "name": "Rolling Coaster - Expert Path Purple Coin #17",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17683,7 +17683,7 @@
     "sort-key": "row-1758"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #18",
+    "name": "Rolling Coaster - Expert Path Purple Coin #18",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17693,7 +17693,7 @@
     "sort-key": "row-1759"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #19",
+    "name": "Rolling Coaster - Expert Path Purple Coin #19",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17703,7 +17703,7 @@
     "sort-key": "row-1760"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #20",
+    "name": "Rolling Coaster - Expert Path Purple Coin #20",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17713,7 +17713,7 @@
     "sort-key": "row-1761"
   },
   {
-    "name": "Rolling Coaster Expert Path Purple Coin #21",
+    "name": "Rolling Coaster - Expert Path Purple Coin #21",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17723,7 +17723,7 @@
     "sort-key": "row-1762"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #1",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #1",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17733,7 +17733,7 @@
     "sort-key": "row-1763"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #2",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #2",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17743,7 +17743,7 @@
     "sort-key": "row-1764"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #3",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #3",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17753,7 +17753,7 @@
     "sort-key": "row-1765"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #4",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #4",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17763,7 +17763,7 @@
     "sort-key": "row-1766"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #5",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #5",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17773,7 +17773,7 @@
     "sort-key": "row-1767"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #6",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #6",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17783,7 +17783,7 @@
     "sort-key": "row-1768"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #7",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #7",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17793,7 +17793,7 @@
     "sort-key": "row-1769"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #8",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #8",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17803,7 +17803,7 @@
     "sort-key": "row-1770"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #9",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #9",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17813,7 +17813,7 @@
     "sort-key": "row-1771"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #10",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #10",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17823,7 +17823,7 @@
     "sort-key": "row-1772"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #11",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #11",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17833,7 +17833,7 @@
     "sort-key": "row-1773"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #12",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #12",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17843,7 +17843,7 @@
     "sort-key": "row-1774"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #13",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #13",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17853,7 +17853,7 @@
     "sort-key": "row-1775"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #14",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #14",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17863,7 +17863,7 @@
     "sort-key": "row-1776"
   },
   {
-    "name": "Rolling Coaster Rainbow Spiral Purple Coin #15",
+    "name": "Rolling Coaster - Rainbow Spiral Purple Coin #15",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17873,7 +17873,7 @@
     "sort-key": "row-1777"
   },
   {
-    "name": "Rolling Coaster Platform Before Rail Purple Coin #1",
+    "name": "Rolling Coaster - Platform Before Rail Purple Coin #1",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17883,7 +17883,7 @@
     "sort-key": "row-1778"
   },
   {
-    "name": "Rolling Coaster Platform Before Rail Purple Coin #2",
+    "name": "Rolling Coaster - Platform Before Rail Purple Coin #2",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17893,7 +17893,7 @@
     "sort-key": "row-1779"
   },
   {
-    "name": "Rolling Coaster Platform Before Rail Purple Coin #3",
+    "name": "Rolling Coaster - Platform Before Rail Purple Coin #3",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17903,7 +17903,7 @@
     "sort-key": "row-1780"
   },
   {
-    "name": "Rolling Coaster Platform Before Rail Purple Coin #4",
+    "name": "Rolling Coaster - Platform Before Rail Purple Coin #4",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17913,7 +17913,7 @@
     "sort-key": "row-1781"
   },
   {
-    "name": "Rolling Coaster Jump Purple Coin #1",
+    "name": "Rolling Coaster - Jump Purple Coin #1",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17923,7 +17923,7 @@
     "sort-key": "row-1782"
   },
   {
-    "name": "Rolling Coaster Jump Purple Coin #2",
+    "name": "Rolling Coaster - Jump Purple Coin #2",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17933,7 +17933,7 @@
     "sort-key": "row-1783"
   },
   {
-    "name": "Rolling Coaster Jump Purple Coin #3",
+    "name": "Rolling Coaster - Jump Purple Coin #3",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17943,7 +17943,7 @@
     "sort-key": "row-1784"
   },
   {
-    "name": "Rolling Coaster Jump Purple Coin #4",
+    "name": "Rolling Coaster - Jump Purple Coin #4",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17953,7 +17953,7 @@
     "sort-key": "row-1785"
   },
   {
-    "name": "Rolling Coaster Jump Purple Coin #5",
+    "name": "Rolling Coaster - Jump Purple Coin #5",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17963,7 +17963,7 @@
     "sort-key": "row-1786"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #1",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #1",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17973,7 +17973,7 @@
     "sort-key": "row-1787"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #2",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #2",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17983,7 +17983,7 @@
     "sort-key": "row-1788"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #3",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #3",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -17993,7 +17993,7 @@
     "sort-key": "row-1789"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #4",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #4",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18003,7 +18003,7 @@
     "sort-key": "row-1790"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #5",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #5",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18013,7 +18013,7 @@
     "sort-key": "row-1791"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #6",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #6",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18023,7 +18023,7 @@
     "sort-key": "row-1792"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #7",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #7",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18033,7 +18033,7 @@
     "sort-key": "row-1793"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #8",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #8",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18043,7 +18043,7 @@
     "sort-key": "row-1794"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #9",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #9",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18053,7 +18053,7 @@
     "sort-key": "row-1795"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #10",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #10",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18063,7 +18063,7 @@
     "sort-key": "row-1796"
   },
   {
-    "name": "Rolling Coaster Final Rainbow Purple Coin #11",
+    "name": "Rolling Coaster - Final Rainbow Purple Coin #11",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18073,7 +18073,7 @@
     "sort-key": "row-1797"
   },
   {
-    "name": "Rolling Coaster Final Platform Purple Coin #1",
+    "name": "Rolling Coaster - Final Platform Purple Coin #1",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18083,7 +18083,7 @@
     "sort-key": "row-1798"
   },
   {
-    "name": "Rolling Coaster Final Platform Purple Coin #2",
+    "name": "Rolling Coaster - Final Platform Purple Coin #2",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18093,7 +18093,7 @@
     "sort-key": "row-1799"
   },
   {
-    "name": "Rolling Coaster Final Platform Purple Coin #3",
+    "name": "Rolling Coaster - Final Platform Purple Coin #3",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18103,7 +18103,7 @@
     "sort-key": "row-1800"
   },
   {
-    "name": "Rolling Coaster Final Platform Purple Coin #4",
+    "name": "Rolling Coaster - Final Platform Purple Coin #4",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18113,7 +18113,7 @@
     "sort-key": "row-1801"
   },
   {
-    "name": "Rolling Coaster Final Platform Purple Coin #5",
+    "name": "Rolling Coaster - Final Platform Purple Coin #5",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18123,7 +18123,7 @@
     "sort-key": "row-1802"
   },
   {
-    "name": "Rolling Coaster Final Platform Purple Coin #6",
+    "name": "Rolling Coaster - Final Platform Purple Coin #6",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18133,7 +18133,7 @@
     "sort-key": "row-1803"
   },
   {
-    "name": "Rolling Coaster Final Rail Purple Coin #1",
+    "name": "Rolling Coaster - Final Rail Purple Coin #1",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18143,7 +18143,7 @@
     "sort-key": "row-1804"
   },
   {
-    "name": "Rolling Coaster Final Rail Purple Coin #2",
+    "name": "Rolling Coaster - Final Rail Purple Coin #2",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18153,7 +18153,7 @@
     "sort-key": "row-1805"
   },
   {
-    "name": "Rolling Coaster Final Rail Purple Coin #3",
+    "name": "Rolling Coaster - Final Rail Purple Coin #3",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18163,7 +18163,7 @@
     "sort-key": "row-1806"
   },
   {
-    "name": "Rolling Coaster Final Rail Purple Coin #4",
+    "name": "Rolling Coaster - Final Rail Purple Coin #4",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
@@ -18173,7 +18173,7 @@
     "sort-key": "row-1807"
   },
   {
-    "name": "Rolling Coaster Purple Coin Ball Purple Coin",
+    "name": "Rolling Coaster - Purple Coin Ball Purple Coin",
     "requires": "({OptOne(|Star Ball|)})",
     "region": "Rolling Coaster Purple Coins",
     "category": [
