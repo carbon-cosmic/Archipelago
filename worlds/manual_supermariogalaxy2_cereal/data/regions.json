@@ -1040,7 +1040,51 @@
     "entrance_requires": "|Has Clone Comets| and {OptOne(|Chompworks Comet Medal|)}"
   },
   "Sweet Mystery Galaxy": {
-    "connects_to": ["Sweet Mystery Purple Coins"]
+    "connects_to": ["Sweet Mystery - Start", "Sweet Mystery C - Start"]
+  },
+  "Sweet Mystery - Start": {
+    "connects_to": ["Sweet Mystery - First Checkpoint"]
+  },
+  "Sweet Mystery - First Checkpoint": {
+    "connects_to": ["Sweet Mystery - Chocolate Bars"],
+    "entrance_requires": "|Can Use Bulb| or (|Has Yoshi| and |Hard Logic|)"
+  },
+  "Sweet Mystery - Chocolate Bars": {
+    "connects_to": ["Sweet Mystery - Flipswitch Panels"],
+    "entrance_requires": "|Can Use Bulb|"
+  },
+  "Sweet Mystery - Flipswitch Panels": {
+    "connects_to": ["Sweet Mystery - Candle Box"]
+  },
+  "Sweet Mystery - Candle Box": {
+
+  },
+  "Sweet Mystery C - Start": {
+    "connects_to": ["Sweet Mystery C - First Path 1st Set", "Sweet Mystery C - First Path 2nd Set", "Sweet Mystery C - First Path 3rd Set", "Sweet Mystery C - Cookie Boxes"],
+    "entrance_requires": "|Has Purple Comets| and {OptOne(|Sweet Mystery Comet Medal|)}"
+  },
+  "Sweet Mystery C - First Path 1st Set": {
+    "entrance_requires": "|Can Use Bulb| or |Hard Logic|"
+  },
+  "Sweet Mystery C - First Path 2nd Set": {
+    "entrance_requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Yoshi| or (|Has Air Spin| and |Has Long Jump|)))"
+  },
+  "Sweet Mystery C - First Path 3rd Set": {
+    "entrance_requires": "|Can Use Bulb| or (|Hard Logic| and |Has Yoshi|)"
+  },
+  "Sweet Mystery C - Cookie Boxes": {
+    "connects_to": ["Sweet Mystery C - Cookie Path"],
+    "entrance_requires": "|Can Use Bulb| or (|Has Yoshi| and |Hard Logic|)"
+  },
+  "Sweet Mystery C - Cookie Path": {
+    "connects_to": ["Sweet Mystery C - Moving Gifts"],
+    "entrance_requires": "|Can Use Bulb|"
+  },
+  "Sweet Mystery C - Moving Gifts": {
+    "connects_to": ["Sweet Mystery C - Flower Grapples"]
+  },
+  "Sweet Mystery C - Flower Grapples": {
+
   },
   "Honeyhop Galaxy": {
     "connects_to": []

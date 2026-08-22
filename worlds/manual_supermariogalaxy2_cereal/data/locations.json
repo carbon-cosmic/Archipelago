@@ -4573,7 +4573,7 @@
   },
   {
     "name": "Purple Coin Beach Dash",
-    "requires": "",
+    "requires": "{OptOne(|Starshine Beach Purple Coin:100|)}",
     "region": "Starshine Beach C - Ocean",
     "category": [
       "World 4",
@@ -4614,7 +4614,7 @@
   {
     "name": "Chompworks - Green Star 1",
     "requires": "|Chompworks Green Stars| and |Can Air Spin| and (|Can Long Jump| or (|Can Backflip| and |Hard Logic|))",
-    "region": "Chompworks 1 - Dispenser Intermediate",
+    "region": "Chompworks - Dispenser 1-Up",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4683,7 +4683,7 @@
   },
   {
     "name": "Chompworks - Green Star 2",
-    "requires": "|Chompworks Green Star 2| and |Needs Testing|",
+    "requires": "|Chompworks Green Stars| and |Needs Testing|",
     "region": "Chompworks Galaxy (28)",
     "category": [
       "World 4",
@@ -4783,8 +4783,8 @@
   },
   {
     "name": "Bulb Berry's Mysterious Glow",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
-    "region": "Sweet Mystery Galaxy (28)",
+    "requires": "",
+    "region": "Sweet Mystery - Candle Box",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -4793,8 +4793,8 @@
   },
   {
     "name": "Sweet Mystery - Start Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Sweet Mystery Galaxy (28)",
+    "requires": "",
+    "region": "Sweet Mystery - First Checkpoint",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4803,8 +4803,8 @@
   },
   {
     "name": "Sweet Mystery - Green Star 1",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)} AND {OptOne(|Sweet Mystery Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Sweet Mystery Galaxy (28)",
+    "requires": "|Sweet Mystery Green Stars|",
+    "region": "Sweet Mystery - Chocolate Bars",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4812,9 +4812,9 @@
     "sort-key": "row-0475"
   },
   {
-    "name": "Sweet Mystery - Second Path 1-Up",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
-    "region": "Sweet Mystery Galaxy (28)",
+    "name": "Sweet Mystery - Split Path 1-Up",
+    "requires": "",
+    "region": "Sweet Mystery - Chocolate Bars",
     "category": [
       "World 4",
       "1-Ups"
@@ -4823,8 +4823,8 @@
   },
   {
     "name": "Sweet Mystery - Green Star 2",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)} AND {OptOne(|Sweet Mystery Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Sweet Mystery Galaxy (28)",
+    "requires": "|Sweet Mystery Green Stars|",
+    "region": "Sweet Mystery - Chocolate Bars",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4833,8 +4833,8 @@
   },
   {
     "name": "Sweet Mystery - Comet Medal",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
-    "region": "Sweet Mystery Galaxy (28)",
+    "requires": "",
+    "region": "Sweet Mystery - Chocolate Bars",
     "category": [
       "World 4",
       "Comet Medal Locations"
@@ -4843,8 +4843,8 @@
   },
   {
     "name": "Sweet Mystery - Shrinking Platform 1-Up",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
-    "region": "Sweet Mystery Galaxy (28)",
+    "requires": "",
+    "region": "Sweet Mystery - Chocolate Bars",
     "category": [
       "World 4",
       "1-Ups"
@@ -4852,9 +4852,9 @@
     "sort-key": "row-0479"
   },
   {
-    "name": "Sweet Mystery - Shrinking Platform Section Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
-    "region": "Sweet Mystery Galaxy (28)",
+    "name": "Sweet Mystery - Flipswitch Panels Checkpoint Flag",
+    "requires": "",
+    "region": "Sweet Mystery - Flipswitch Panels",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4863,8 +4863,8 @@
   },
   {
     "name": "Sweet Mystery - Gift Box Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}",
-    "region": "Sweet Mystery Galaxy (28)",
+    "requires": "",
+    "region": "Sweet Mystery - Candle Box",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4873,7 +4873,7 @@
   },
   {
     "name": "Bulb Berry's Purple Coin Glow",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)} AND {OptOne(|Sweet Mystery Comet Medal|)} AND {OptOne(|Purple Comets|)} AND {OptOne(|Sweet Mystery Purple Coin:100|)}",
+    "requires": "{OptOne(|Sweet Mystery Purple Coin:100|)}",
     "region": "Sweet Mystery Galaxy (28)",
     "category": [
       "World 4",
@@ -14055,7 +14055,7 @@
   {
     "name": "Sweet Mystery Start Platform Purple Coin #1",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Start",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14065,7 +14065,7 @@
   {
     "name": "Sweet Mystery Start Platform Purple Coin #2",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Start",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14075,7 +14075,7 @@
   {
     "name": "Sweet Mystery Start Platform Purple Coin #3",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Start",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14085,7 +14085,7 @@
   {
     "name": "Sweet Mystery Start Platform Purple Coin #4",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Start",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14095,7 +14095,7 @@
   {
     "name": "Sweet Mystery Start Platform Purple Coin #5",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Start",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14105,7 +14105,7 @@
   {
     "name": "Sweet Mystery Start Platform Purple Coin #6",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Start",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14115,7 +14115,7 @@
   {
     "name": "Sweet Mystery Start Platform Purple Coin #7",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Start",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14125,7 +14125,7 @@
   {
     "name": "Sweet Mystery Start Platform Purple Coin #8",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Start",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14135,7 +14135,7 @@
   {
     "name": "Sweet Mystery Start Platform Purple Coin #9",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Start",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14145,7 +14145,7 @@
   {
     "name": "Sweet Mystery Start Platform Purple Coin #10",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Start",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14154,8 +14154,8 @@
   },
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #1",
-    "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - First Path 1st Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14164,8 +14164,8 @@
   },
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #2",
-    "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - First Path 1st Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14174,8 +14174,8 @@
   },
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #3",
-    "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - First Path 1st Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14184,17 +14184,17 @@
   },
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #4",
-    "requires": "(({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Spin|)} OR {OptOne(|Yoshi|)} OR {OptOne(|Backflip|)} OR {OptOne(|Long Jump|)})))",
+    "requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Backflip| or |Has Long Jump| or |Has Air Spin| or |Has Yoshi|))",
     "region": "Sweet Mystery Purple Coins",
     "category": [
-      "Sweet Mystery Purple Coins",
+      "Sweet Mystery C - First Path 1st Set",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1412"
   },
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #5",
-    "requires": "(({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Spin|)} OR {OptOne(|Yoshi|)} OR {OptOne(|Long Jump|)})))",
+    "requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Long Jump| or |Has Yoshi| or |Has Air Spin|))",
     "region": "Sweet Mystery Purple Coins",
     "category": [
       "Sweet Mystery Purple Coins",
@@ -14204,8 +14204,8 @@
   },
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #6",
-    "requires": "(({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Yoshi|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Spin|)}))))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - First Path 2nd Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14214,8 +14214,8 @@
   },
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #7",
-    "requires": "(({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)}) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Yoshi|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Spin|)}))))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - First Path 2nd Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14224,8 +14224,8 @@
   },
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #8",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - First Path 3rd Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14234,8 +14234,8 @@
   },
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #9",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - First Path 3rd Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14244,8 +14244,8 @@
   },
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #10",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - First Path 3rd Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14254,8 +14254,8 @@
   },
   {
     "name": "Sweet Mystery Cookie Boxes Purple Coin #1",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14264,8 +14264,8 @@
   },
   {
     "name": "Sweet Mystery Cookie Boxes Purple Coin #2",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14274,8 +14274,8 @@
   },
   {
     "name": "Sweet Mystery Cookie Boxes Purple Coin #3",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14284,8 +14284,8 @@
   },
   {
     "name": "Sweet Mystery Cookie Boxes Purple Coin #4",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14294,8 +14294,8 @@
   },
   {
     "name": "Sweet Mystery Cookie Boxes Purple Coin #5",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14303,9 +14303,9 @@
     "sort-key": "row-1423"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #1",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #1",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14313,9 +14313,9 @@
     "sort-key": "row-1424"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #2",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #2",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14323,9 +14323,9 @@
     "sort-key": "row-1425"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #3",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #3",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14333,9 +14333,9 @@
     "sort-key": "row-1426"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #4",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #4",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14343,9 +14343,9 @@
     "sort-key": "row-1427"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #5",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #5",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14353,9 +14353,9 @@
     "sort-key": "row-1428"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #6",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #6",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14363,9 +14363,9 @@
     "sort-key": "row-1429"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #7",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #7",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14373,9 +14373,9 @@
     "sort-key": "row-1430"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #8",
-    "requires": "({OptOne(|Yoshi|)} AND ({OptOne(|Bulb Berry|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #8",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Boxes",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14383,9 +14383,9 @@
     "sort-key": "row-1431"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #9",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #9",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14393,9 +14393,9 @@
     "sort-key": "row-1432"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #10",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #10",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14403,9 +14403,9 @@
     "sort-key": "row-1433"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #11",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #11",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14413,9 +14413,9 @@
     "sort-key": "row-1434"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #12",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #12",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14423,9 +14423,9 @@
     "sort-key": "row-1435"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #13",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #13",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14433,9 +14433,9 @@
     "sort-key": "row-1436"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #14",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #14",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14443,9 +14443,9 @@
     "sort-key": "row-1437"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #15",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #15",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14453,9 +14453,9 @@
     "sort-key": "row-1438"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #16",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #16",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14463,9 +14463,9 @@
     "sort-key": "row-1439"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #17",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #17",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14473,9 +14473,9 @@
     "sort-key": "row-1440"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #18",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #18",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14483,9 +14483,9 @@
     "sort-key": "row-1441"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #19",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #19",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14493,9 +14493,9 @@
     "sort-key": "row-1442"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #20",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #20",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14503,9 +14503,9 @@
     "sort-key": "row-1443"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #21",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #21",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14513,9 +14513,9 @@
     "sort-key": "row-1444"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #22",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #22",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14523,9 +14523,9 @@
     "sort-key": "row-1445"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #23",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #23",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14533,9 +14533,9 @@
     "sort-key": "row-1446"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #24",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #24",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14543,9 +14543,9 @@
     "sort-key": "row-1447"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #25",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #25",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14553,9 +14553,9 @@
     "sort-key": "row-1448"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #26",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #26",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14563,9 +14563,9 @@
     "sort-key": "row-1449"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #27",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #27",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14573,9 +14573,9 @@
     "sort-key": "row-1450"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #28",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #28",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14583,9 +14583,9 @@
     "sort-key": "row-1451"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #29",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #29",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14593,9 +14593,9 @@
     "sort-key": "row-1452"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #30",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #30",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14603,9 +14603,9 @@
     "sort-key": "row-1453"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #31",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #31",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14613,9 +14613,9 @@
     "sort-key": "row-1454"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #32",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #32",
+    "requires": ")",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14623,9 +14623,9 @@
     "sort-key": "row-1455"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #33",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #33",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14633,9 +14633,9 @@
     "sort-key": "row-1456"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #34",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #34",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14643,9 +14643,9 @@
     "sort-key": "row-1457"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #35",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #35",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14653,9 +14653,9 @@
     "sort-key": "row-1458"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #36",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #36",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14663,9 +14663,9 @@
     "sort-key": "row-1459"
   },
   {
-    "name": "Sweet Mystery Invisible Cookies Purple Coin #37",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery - Cookie Path Purple Coin #37",
+    "requires": "",
+    "region": "Sweet Mystery C - Cookie Path",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14674,8 +14674,8 @@
   },
   {
     "name": "Sweet Mystery Chocolate Bars Purple Coin",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14684,18 +14684,18 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Before Moving Gifts #1",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
+    "requires": "",
     "region": "Sweet Mystery Purple Coins",
     "category": [
-      "Sweet Mystery Purple Coins",
+      "Sweet Mystery C - Moving Gifts",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1462"
   },
   {
     "name": "Sweet Mystery Purple Coin Before Moving Gifts #2",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14704,8 +14704,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Before Moving Gifts #3",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14714,8 +14714,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Before Moving Gifts #4",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14724,8 +14724,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Before Moving Gifts #5",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14734,8 +14734,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Before Moving Gifts #6",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14744,8 +14744,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Before Moving Gifts #7",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14754,8 +14754,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Before Moving Gifts #8",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14764,8 +14764,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Before Moving Gifts #9",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14774,8 +14774,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Before Moving Gifts #10",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14784,8 +14784,8 @@
   },
   {
     "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #1",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14794,8 +14794,8 @@
   },
   {
     "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #2",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14804,8 +14804,8 @@
   },
   {
     "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #3",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14814,8 +14814,8 @@
   },
   {
     "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #4",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14824,8 +14824,8 @@
   },
   {
     "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #5",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14834,8 +14834,8 @@
   },
   {
     "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #6",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14844,8 +14844,8 @@
   },
   {
     "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #7",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14854,8 +14854,8 @@
   },
   {
     "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #8",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14864,8 +14864,8 @@
   },
   {
     "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #9",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14874,8 +14874,8 @@
   },
   {
     "name": "Sweet Mystery Boxes Around Shrinking Platforms Purple Coin #10",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14883,9 +14883,9 @@
     "sort-key": "row-1481"
   },
   {
-    "name": "Sweet Mystery Invisible Steps Purple Coin #1",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery Cake Steps Purple Coin #1",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14893,9 +14893,9 @@
     "sort-key": "row-1482"
   },
   {
-    "name": "Sweet Mystery Invisible Steps Purple Coin #2",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery Cake Steps Purple Coin #2",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14903,9 +14903,9 @@
     "sort-key": "row-1483"
   },
   {
-    "name": "Sweet Mystery Invisible Steps Purple Coin #3",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery Cake Steps Purple Coin #3",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14913,9 +14913,9 @@
     "sort-key": "row-1484"
   },
   {
-    "name": "Sweet Mystery Invisible Steps Purple Coin #4",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery Cake Steps Purple Coin #4",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14923,9 +14923,9 @@
     "sort-key": "row-1485"
   },
   {
-    "name": "Sweet Mystery Invisible Steps Purple Coin #5",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "name": "Sweet Mystery Cake Steps Purple Coin #5",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14934,8 +14934,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Near Flower Grapples #1",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14944,8 +14944,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Near Flower Grapples #2",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14954,8 +14954,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Near Flower Grapples #3",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14964,8 +14964,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Near Flower Grapples #4",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14974,8 +14974,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin Near Flower Grapples #5",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14984,8 +14984,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin After Flower Grapples #1",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14994,8 +14994,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin After Flower Grapples #2",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -15004,8 +15004,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin After Flower Grapples #3",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -15014,8 +15014,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin After Flower Grapples #4",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -15024,8 +15024,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin After Flower Grapples #5",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -15034,8 +15034,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin After Flower Grapples #6",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -15044,8 +15044,8 @@
   },
   {
     "name": "Sweet Mystery Purple Coin After Flower Grapples #7",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Bulb Berry|)})",
-    "region": "Sweet Mystery Purple Coins",
+    "requires": "",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
