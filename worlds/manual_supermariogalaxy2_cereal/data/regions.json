@@ -1122,9 +1122,47 @@
 
   },
   "Bowser's Gravity Gauntlet": {
-    "connects_to": []
+    "connects_to": ["Gravity Gauntlet - Start", "Gravity Gauntlet C - Start"]
   },
-    "World 5": {
+  "Gravity Gauntlet - Start": {
+    "connects_to": ["Gravity Gauntlet - Lava Bubbles"]
+  },
+  "Gravity Gauntlet - Lava Bubbles": {
+    "connects_to": ["Gravity Gauntlet - Underwater"]
+  },
+  "Gravity Gauntlet - Underwater": {
+    "connects_to": ["Gravity Gauntlet - Whomps"]
+  },
+  "Gravity Gauntlet - Whomps": {
+    "connects_to": ["Gravity Gauntlet - Firebar Wheels"]
+  },
+  "Gravity Gauntlet - Firebar Wheels": {
+    "connects_to": ["Gravity Gauntlet - Castle Top"]
+  },
+  "Gravity Gauntlet - Castle Top": {
+    "connects_to": ["Gravity Gauntlet - Bowser"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Gravity Gauntlet - Bowser": {
+
+  },
+  "Gravity Gauntlet C - Start": {
+    "connects_to": ["Gravity Gauntlet C - Lava Bubbles"],
+    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Gravity Gauntlet Comet Medal|)}"
+  },
+  "Gravity Gauntlet C - Lava Bubbles": {
+    "connects_to": ["Gravity Gauntlet C - Underwater"]
+  },
+  "Gravity Gauntlet C - Underwater": {
+    "connects_to": ["Gravity Gauntlet C - Whomps"]
+  },
+  "Gravity Gauntlet C - Whomps": {
+    "connects_to": ["Gravity Gauntlet C - Firebar Wheels"]
+  },
+  "Gravity Gauntlet C - Firebar Wheels": {
+
+  },
+  "World 5": {
     "requires": "|Grand Star (World 5 Access)|",
     "connects_to": ["Space Storm Galaxy", "Slipsand Galaxy", "Shiverburn Galaxy", "Boo Moon Galaxy",
       "Upside Dizzy Galaxy", "Fleet Glide Galaxy", "Bowser Jr.'s Boom Bunker"]

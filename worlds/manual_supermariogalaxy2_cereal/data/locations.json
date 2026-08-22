@@ -5003,8 +5003,8 @@
   },
   {
     "name": "Breaking into Bowser's Castle",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "",
+    "region": "Gravity Gauntlet - Bowser",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -5014,7 +5014,7 @@
   {
     "name": "Gravity Gauntlet - Life Mushroom Near Firebar",
     "requires": "",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "region": "Gravity Gauntlet - Start",
     "category": [
       "World 4",
       "Life Mushrooms"
@@ -5023,8 +5023,8 @@
   },
   {
     "name": "Gravity Gauntlet - Green Star 1",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "|Gravity Gauntlet Green Stars|",
+    "region": "Gravity Gauntlet - Start",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -5034,7 +5034,7 @@
   {
     "name": "Gravity Gauntlet - 2D Checkpoint Flag",
     "requires": "",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "region": "Gravity Gauntlet - Lava Bubbles",
     "category": [
       "World 4",
       "Checkpoints"
@@ -5044,7 +5044,7 @@
   {
     "name": "Gravity Gauntlet - Underwater 1-Up",
     "requires": "",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "region": "Gravity Gauntlet - Underwater",
     "category": [
       "World 4",
       "1-Ups"
@@ -5054,7 +5054,7 @@
   {
     "name": "Gravity Gauntlet - Underwater ? Coin",
     "requires": "",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "region": "Gravity Gauntlet - Underwater",
     "category": [
       "World 4",
       "? Coins"
@@ -5064,7 +5064,7 @@
   {
     "name": "Gravity Gauntlet - Underwater ? Coin 1-Up Reward",
     "requires": "",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "region": "Gravity Gauntlet - Underwater",
     "category": [
       "World 4",
       "1-Ups"
@@ -5074,7 +5074,7 @@
   {
     "name": "Gravity Gauntlet - Whomp Checkpoint Flag",
     "requires": "",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "region": "Gravity Gauntlet - Whomps",
     "category": [
       "World 4",
       "Checkpoints"
@@ -5083,8 +5083,8 @@
   },
   {
     "name": "Gravity Gauntlet - 1-Up High Above Checkpoint",
-    "requires": "{OptOne(|Spin|)} AND (({OptOne(|Wall Jump|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "(|Can Wall Spin| and (|Has Sideflip| or |Has Triple Jump| or (|Hard Logic| and |Has Long Jump|))) or (|Has Air Spin| and |Has Backflip|)",
+    "region": "Gravity Gauntlet - Whomps",
     "category": [
       "World 4",
       "1-Ups"
@@ -5093,8 +5093,8 @@
   },
   {
     "name": "Gravity Gauntlet - Green Star 2",
-    "requires": "(({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND {OptOne(|Spin|)}) AND {OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "|Narrow Jump 5| and |Gravity Gauntlet Green Stars|",
+    "region": "Gravity Gauntlet - Whomps",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -5104,7 +5104,7 @@
   {
     "name": "Gravity Gauntlet - 1-Up Among Whomps",
     "requires": "",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "region": "Gravity Gauntlet - Whomps",
     "category": [
       "World 4",
       "1-Ups"
@@ -5113,8 +5113,8 @@
   },
   {
     "name": "Gravity Gauntlet Comet Medal",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "|Jump Height 2| or |Has Wall Jump|",
+    "region": "Gravity Gauntlet - Lava Bubbles",
     "category": [
       "World 4",
       "Comet Medal Locations"
@@ -5124,7 +5124,7 @@
   {
     "name": "Gravity Gauntlet - 1-Up Behind Grate",
     "requires": "",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "region": "Gravity Gauntlet - Firebar Wheels",
     "category": [
       "World 4",
       "1-Ups"
@@ -5134,7 +5134,7 @@
   {
     "name": "Gravity Gauntlet - Bowser Checkpoint Flag",
     "requires": "",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "region": "Gravity Gauntlet - Castle Top",
     "category": [
       "World 4",
       "Checkpoints"
@@ -5143,8 +5143,8 @@
   },
   {
     "name": "Gravity Gauntlet - Crystal Life Mushroom Before Bowser",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "|Has Ground Spin|",
+    "region": "Gravity Gauntlet - Castle Top",
     "category": [
       "World 4",
       "Life Mushrooms"
@@ -5153,8 +5153,8 @@
   },
   {
     "name": "Gravity Star Speed Run",
-    "requires": "((({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Spin|)}) OR (({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Wall Jump|)})) AND {OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)} AND {OptOne(|Gravity Gauntlet Clock:12|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "(((|Can Back or Sideflip| or |Has Wall Jump| or (|Has Triple Jump| and |Hard Logic)) and |Has Air Spin|) OR ((|Can Back or Sideflip| or (|Has Triple Jump| and |Hard Logic)) AND |Has Wall Jump|))",
+    "region": "Gravity Gauntlet C - Firebar Wheels",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -5163,8 +5163,8 @@
   },
   {
     "name": "Gravity Gauntlet C - Clock on Crate at Start",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Start ",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5173,8 +5173,8 @@
   },
   {
     "name": "Gravity Gauntlet C - Clock on Lava Bubble Grate",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Start",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5183,8 +5183,8 @@
   },
   {
     "name": "Gravity Gauntlet C - Clock on Block in 2D",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "|Jump Height 2| or |Has Wall Jump|",
+    "region": "Gravity Gauntlet C - Lava Bubbles",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5192,9 +5192,9 @@
     "sort-key": "row-0513"
   },
   {
-    "name": "Gravity Gauntlet C - Clock Over 2D Lava Bubble",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "name": "Gravity Gauntlet C - Clock Over Lava Bubble",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Lava Bubbles",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5203,8 +5203,8 @@
   },
   {
     "name": "Gravity Gauntlet C - Clock on Wall Jump Blocks",
-    "requires": "{OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)} OR ({OptOne(|Backflip|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "|Has Wall Jump| or |Has Sidefip| or (|Has Backflip| and (|Hard Logic| or |Has Air Spin|)) or (|Can Double Jump| AND |Can Air Spin|)",
+    "region": "Gravity Gauntlet C - Lava Bubbles",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5213,8 +5213,8 @@
   },
   {
     "name": "Gravity Gauntlet C - Underwater Clock #1",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Underwater",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5223,8 +5223,8 @@
   },
   {
     "name": "Gravity Gauntlet C - Underwater Clock #2",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Underwater",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5233,8 +5233,8 @@
   },
   {
     "name": "Gravity Gauntlet C - Clock by Exit of Water",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Whomps",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5243,8 +5243,8 @@
   },
   {
     "name": "Gravity Gauntlet C - Clock Among Whomps",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Whomps",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5252,9 +5252,9 @@
     "sort-key": "row-0519"
   },
   {
-    "name": "Gravity Gauntlet C - Clock at Entrance to Final Section",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "name": "Gravity Gauntlet C - Clock at Entrance to Fireball Wheels",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Firebar Wheels",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5262,9 +5262,9 @@
     "sort-key": "row-0520"
   },
   {
-    "name": "Gravity Gauntlet C - Clock Firebar Wheel Clock #1",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "name": "Gravity Gauntlet C - Firebar Wheel Clock #1",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Firebar Wheels",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5272,9 +5272,9 @@
     "sort-key": "row-0521"
   },
   {
-    "name": "Gravity Gauntlet C - Clock Firebar Wheel Clock #2",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "name": "Gravity Gauntlet C - Firebar Wheel Clock #2",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Firebar Wheels",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5283,8 +5283,8 @@
   },
     {
     "name": "Gravity Gauntlet C - Spinning Platforms Clock",
-    "requires": "{OptOne(|Gravity Gauntlet Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Gravity Gauntlet (40)",
+    "requires": "",
+    "region": "Gravity Gauntlet C - Firebar Wheels",
     "category": [
       "World 4",
       "Comet Clocks"
