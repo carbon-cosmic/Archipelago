@@ -4874,7 +4874,7 @@
   {
     "name": "Bulb Berry's Purple Coin Glow",
     "requires": "{OptOne(|Sweet Mystery Purple Coin:100|)}",
-    "region": "Sweet Mystery Galaxy (28)",
+    "region": "Sweet Mystery C - Flower Grapples",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -4883,8 +4883,8 @@
   },
   {
     "name": "The Sweetest Silver Stars",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}))",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "",
+    "region": "Honeyhop 1 - Queen Bee",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -4893,8 +4893,8 @@
   },
   {
     "name": "Honeyhop 1 - Bonus Room Chance Cube #1",
-    "requires": "{OptOne(|Bee Mushroom|)}",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "",
+    "region": "Honeyhop 1 - Start Water",
     "category": [
       "World 4",
       "Chance Cubes"
@@ -4903,8 +4903,8 @@
   },
   {
     "name": "Honeyhop 1 - Bonus Room Chance Cube #2",
-    "requires": "{OptOne(|Bee Mushroom|)}",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "",
+    "region": "Honeyhop 1 - Start Water",
     "category": [
       "World 4",
       "Chance Cubes"
@@ -4913,8 +4913,8 @@
   },
   {
     "name": "Honeyhop 1 - Bonus Room Chance Cube #3",
-    "requires": "{OptOne(|Bee Mushroom|)}",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "",
+    "region": "Honeyhop 1 - Start Water",
     "category": [
       "World 4",
       "Chance Cubes"
@@ -4923,8 +4923,8 @@
   },
   {
     "name": "Honeyhop 1 - Hidden 1-Up in Water",
-    "requires": "{OptOne(|Bee Mushroom|)}",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "",
+    "region": "Honeyhop 1 - Start Water",
     "category": [
       "World 4",
       "1-Ups"
@@ -4933,8 +4933,8 @@
   },
   {
     "name": "Honeyhop - Green Star 1",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)})) AND {OptOne(|Honeyhop Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "|Honeyhop Green Stars|",
+    "region": "Honeyhop 1 - Floaty Fluff",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4942,9 +4942,9 @@
     "sort-key": "row-0488"
   },
   {
-    "name": "Honeyhop 1 - Main Planet Checkpoint Flag",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}))",
-    "region": "Honeyhop Galaxy (28)",
+    "name": "Honeyhop 1 - Base Lake Checkpoint Flag",
+    "requires": "",
+    "region": "Honeyhop 1 - Base Lake",
     "category": [
       "World 4",
       "Checkpoints"
@@ -4953,8 +4953,8 @@
   },
   {
     "name": "Honeyhop 1 - Life Mushroom Over Flower",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}))",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "",
+    "region": "Honeyhop 1 - Base Lake",
     "category": [
       "World 4",
       "Life Mushrooms"
@@ -4963,8 +4963,8 @@
   },
   {
     "name": "Honeyhop - Comet Medal",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}))",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "",
+    "region": "Honeyhop 1 - Bubble Shooters",
     "category": [
       "World 4",
       "Comet Medal Locations"
@@ -4973,8 +4973,8 @@
   },
   {
     "name": "Honeyhop - Green Star 2",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)})) AND {OptOne(|Honeyhop Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "|Honeyhop Green Stars|",
+    "region": "Honeyhop 1 - Queen Bee",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4983,8 +4983,8 @@
   },
   {
     "name": "The Chimp's Score Challenge",
-    "requires": "({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}) AND |Chimp Letter Honeyhop|",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "|Has Air Spin| or |Hard Logic|",
+    "region": "Honeyhop 2 - Queen Bee",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -4993,8 +4993,8 @@
   },
   {
     "name": "Honeyhop 2 - Top ? Coin",
-    "requires": "|Chimp Letter Honeyhop|",
-    "region": "Honeyhop Galaxy (28)",
+    "requires": "",
+    "region": "Honeyhop 2 - Queen Bee",
     "category": [
       "World 4",
       "? Coins"
@@ -14185,9 +14185,9 @@
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #4",
     "requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Backflip| or |Has Long Jump| or |Has Air Spin| or |Has Yoshi|))",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery - First Path 1st Set",
     "category": [
-      "Sweet Mystery C - First Path 1st Set",
+      "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1412"
@@ -14195,7 +14195,7 @@
   {
     "name": "Sweet Mystery First Bulb Berry Purple Coin #5",
     "requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Long Jump| or |Has Yoshi| or |Has Air Spin|))",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery - First Path 1st Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"

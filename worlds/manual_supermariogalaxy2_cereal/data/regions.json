@@ -1087,7 +1087,39 @@
 
   },
   "Honeyhop Galaxy": {
-    "connects_to": []
+    "connects_to": ["Honeyhop 1 - Start", "Honeyhop 2 - Base Lake"]
+  },
+  "Honeyhop 1 - Start": {
+    "connects_to": ["Honeyhop 1 - Start Water"],
+    "exit_requires": "|Has Bee|"
+  },
+  "Honeyhop 1 - Start Water": {
+    "connects_to": ["Honeyhop 1 - Start 2D"]
+  },
+  "Honeyhop 1 - Start 2D": {
+    "connects_to": ["Honeyhop 1 - Floaty Fluff"],
+    "exit_requires": "(|Has Floaty Fluff| and |Has Ground Spin|) or |Medium Logic|"
+  },
+  "Honeyhop 1 - Floaty Fluff": {
+    "connects_to": ["Honeyhop 1 - Base Lake"]
+  },
+  "Honeyhop 1 - Base Lake": {
+    "connects_to": ["Honeyhop 1 - Bubble Shooters"]
+  },
+  "Honeyhop 1 - Bubble Shooters": {
+    "connects_to": ["Honeyhop 1 - Queen Bee"]
+  },
+  "Honeyhop 1 - Queen Bee": {
+
+  },
+  "Honeyhop 2 - Start": {
+    "connects_to": ["Honeyhop 2 - Bubble Shooters"]
+  },
+  "Honeyhop 2 - Bubble Shooters": {
+    "connects_to": ["Honeyhop 2 - Queen Bee"]
+  },
+  "Honeyhop 2 - Queen Bee": {
+
   },
   "Bowser's Gravity Gauntlet": {
     "connects_to": []
