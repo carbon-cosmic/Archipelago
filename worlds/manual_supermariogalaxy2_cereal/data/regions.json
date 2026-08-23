@@ -1284,7 +1284,29 @@
 
   },
   "Boo Moon Galaxy": {
-    "connects_to": []
+    "connects_to": ["Boo Moon 1 - Dark Maze", "Boo Moon 2 - Dark Maze"]
+  },
+  "Boo Moon 1 - Dark Maze": {
+    "connects_to": ["Boo Moon 1 - Swamp"]
+  },
+  "Boo Moon 1 - Swamp": {
+    "connects_to": ["Boo Moon 1 - Crescent Moon"]
+  },
+  "Boo Moon 1 - Crescent Moon": {
+    "connects_to": ["Boo Moon 1 - Pop-Up Book"],
+    "exit_requires": "|Jump Height 3| or |Medium Logic|"
+  },
+  "Boo Moon 1 - Pop-Up Book": {
+
+  },
+  "Boo Moon 2 - Dark Maze": {
+    "connects_to": ["Boo Moon 2 - Howling Tower Start"]
+  },
+  "Boo Moon 2 - Howling Tower Start": {
+    "connects_to": ["Boo Moon 2 - Howling Tower"]
+  },
+  "Boo Moon 2 - Howling Tower": {
+    "entrance_requires": "|Has Boo|"
   },
   "Upside Dizzy Galaxy": {
     "connects_to": []

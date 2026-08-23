@@ -3274,7 +3274,7 @@
   },
   {
     "name": "Haunty Halls - Teleporter 1-Up #1",
-    "requires": "|Has Ground Pound| or (|Has Ground Spin| and |Hard Logic|)",
+    "requires": "|Jack o'Goomba Teleporter|",
     "region": "Haunty Halls 1 - Start",
     "category": [
       "World 3",
@@ -3284,7 +3284,7 @@
   },
   {
     "name": "Haunty Halls - Teleporter 1-Up #2",
-    "requires": "|Has Ground Pound| or (|Has Ground Spin| and |Hard Logic|)",
+    "requires": "|Jack o'Goomba Teleporter|",
     "region": "Haunty Halls - Start",
     "category": [
       "World 3",
@@ -3294,7 +3294,7 @@
   },
   {
     "name": "Haunty Halls - Teleporter 1-Up #3",
-    "requires": "|Has Ground Pound| or (|Has Ground Spin| and |Hard Logic|)",
+    "requires": "|Jack o'Goomba Teleporter|",
     "region": "Haunty Halls 1 - Start",
     "category": [
       "World 3",
@@ -5823,8 +5823,8 @@
   },
   {
     "name": "Silver Stars Pop-Up",
-    "requires": "{OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "|Has Ground Pound|",
+    "region": "Boo Moon - Pop-Up Book",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -5833,8 +5833,8 @@
   },
   {
     "name": "Boo Moon 1 - Teleporter 1-Up #1",
-    "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "|Jack o'Goomba Teleporter|",
+    "region": "Boo Moon 1 - Dark Maze)",
     "category": [
       "World 5",
       "1-Ups"
@@ -5843,8 +5843,8 @@
   },
   {
     "name": "Boo Moon 1 - Teleporter 1-Up #2",
-    "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "|Jack o'Goomba Teleporter|",
+    "region": "Boo Moon 1 - Dark Maze",
     "category": [
       "World 5",
       "1-Ups"
@@ -5853,8 +5853,8 @@
   },
   {
     "name": "Boo Moon 1 - Teleporter 1-Up #3",
-    "requires": "{OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "|Jack o'Goomba Teleporter|",
+    "region": "Boo Moon 1 - Dark Maze",
     "category": [
       "World 5",
       "1-Ups"
@@ -5864,7 +5864,7 @@
   {
     "name": "Boo Moon 1 - Sinking Swamp Checkpoint Flag",
     "requires": "",
-    "region": "Boo Moon Galaxy (40)",
+    "region": "Boo Moon 1 - Swamp",
     "category": [
       "World 5",
       "Checkpoints"
@@ -5874,7 +5874,7 @@
   {
     "name": "Boo Moon 1 - Snake Block Notes ? Coin",
     "requires": "",
-    "region": "Boo Moon Galaxy (40)",
+    "region": "Boo Moon 1 - Swamp",
     "category": [
       "World 5",
       "? Coins"
@@ -5884,7 +5884,7 @@
   {
     "name": "Boo Moon 1 - Snake Block Notes 1-Up #1",
     "requires": "",
-    "region": "Boo Moon Galaxy (40)",
+    "region": "Boo Moon 1 - Swamp",
     "category": [
       "World 5",
       "1-Ups"
@@ -5894,7 +5894,7 @@
   {
     "name": "Boo Moon 1 - Snake Block Notes 1-Up #2",
     "requires": "",
-    "region": "Boo Moon Galaxy (40)",
+    "region": "Boo Moon 1 - Swamp",
     "category": [
       "World 5",
       "1-Ups"
@@ -5904,7 +5904,7 @@
   {
     "name": "Boo Moon 1 - Snake Block Notes 1-Up #3",
     "requires": "",
-    "region": "Boo Moon Galaxy (40)",
+    "region": "Boo Moon 1 - Swamp",
     "category": [
       "World 5",
       "1-Ups"
@@ -5914,7 +5914,7 @@
   {
     "name": "Boo Moon - Comet Medal",
     "requires": "",
-    "region": "Boo Moon Galaxy (40)",
+    "region": "Boo Moon 1 - Swamp",
     "category": [
       "World 5",
       "Comet Medal Locations"
@@ -5923,8 +5923,8 @@
   },
   {
     "name": "Boo Moon - Green Star 2",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Boo Moon Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "|Boo Moon Green Stars|",
+    "region": "Boo Moon 1 - Crescent Moon",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -5933,8 +5933,8 @@
   },
   {
     "name": "Boo Moon 1 - Pop-Up Book 1-Up",
-    "requires": "{OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "|Has Ground Pound|",
+    "region": "Boo Moon 1 - Pop-Up Book",
     "category": [
       "World 5",
       "1-Ups"
@@ -5943,7 +5943,7 @@
   },
   {
     "name": "Boo Moon - Green Star 3",
-    "requires": "{OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Boo Moon Comet Medal|)} AND {OptOne(|Green Comets|)}",
+    "requires": "|Has Ground Pound| and |Can Long Spin|",
     "region": "Boo Moon Galaxy (40)",
     "category": [
       "World 5",
@@ -5953,8 +5953,8 @@
   },
   {
     "name": "Haunting the Howling Tower",
-    "requires": "{OptOne(|Boo Mushroom|)}",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "",
+    "region": "Boo Moon 2 - Howling Tower",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -5963,8 +5963,8 @@
   },
   {
     "name": "Boo Moon 2 - Starting Planet Crystal 1-Up #1",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "|Has Ground Spin|",
+    "region": "Boo Moon 2 - Dark Maze",
     "category": [
       "World 5",
       "1-Ups"
@@ -5973,8 +5973,8 @@
   },
   {
     "name": "Boo Moon 2 - Starting Planet Crystal 1-Up #2",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "|Has Ground Spin|",
+    "region": "Boo Moon 2 - Dark Maze",
     "category": [
       "World 5",
       "1-Ups"
@@ -5984,7 +5984,7 @@
   {
     "name": "Boo Moon 2 - Checkpoint Flag",
     "requires": "",
-    "region": "Boo Moon Galaxy (40)",
+    "region": "Boo Moon 2 - Howling Tower Start",
     "category": [
       "World 5",
       "Checkpoints"
@@ -5993,8 +5993,8 @@
   },
   {
     "name": "Boo Moon 2 - Windy Hallway 1-Up",
-    "requires": "{OptOne(|Boo Mushroom|)}",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "",
+    "region": "Boo Moon 2 - Howling Tower",
     "category": [
       "World 5",
       "1-Ups"
@@ -6004,7 +6004,7 @@
   {
     "name": "The Star in the Sinking Swamp",
     "requires": "",
-    "region": "Boo Moon Galaxy (40)",
+    "region": "Boo Moon 1 - Swamp",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -6013,8 +6013,8 @@
   },
   {
     "name": "Boo Moon - Green Star 1",
-    "requires": "{OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {OptOne(|Boo Moon Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Boo Moon Galaxy (40)",
+    "requires": "|Boo Moon Green Stars| and |Can Long Spin|",
+    "region": "Boo Moon 1 - Swamp",
     "category": [
       "World 5",
       "Green Star Locations"
