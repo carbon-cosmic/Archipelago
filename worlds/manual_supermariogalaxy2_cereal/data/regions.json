@@ -163,7 +163,7 @@
   },
   "Fluffy Bluff 1 - Clifftops Intermediate": {
     "connects_to": ["Fluffy Bluff 1 - Clifftops"],
-    "entrance_requires": "|Has Cloud| or (|Jump Height 6| and |Hard Logic|)"
+    "exit_requires": "|Has Cloud| or (|Jump Height 6| and |Hard Logic|)"
   },
   "Fluffy Bluff 1 - Clifftops": {
     "connects_to": ["Fluffy Bluff 1 - Fountain Planet"],
@@ -400,7 +400,7 @@
   },
   "Boulder Bowl - Muddy Chomps Intermediate": {
     "connects_to": ["Boulder Bowl - Muddy Chomps"],
-    "entrance_requires": "|Hard Logic| and (|Has Rock| or |Can Long Spin|)"
+    "exit_requires": "|Hard Logic| and (|Has Rock| or |Can Long Spin|)"
   },
   "Boulder Bowl - Muddy Chomps": {
     "connects_to": ["Boulder Bowl - Bonus Room", "Boulder Bowl - Amber Planet"],
@@ -956,7 +956,7 @@
     "entrance_requires": "|Can Use Blimp|"
   },
   "Starshine Beach 1 - Hut Intermediate": {
-    "entrance_requires": "|Has Yoshi| and |Medium Logic|"
+    "exit_requires": "|Has Yoshi| and |Medium Logic|"
   },
   "Starshine Beach - Hut Roof": {
 
@@ -978,7 +978,7 @@
   },
   "Starshine Beach 2 - Hut Intermediate": {
     "connects_to": ["Starshine Beach - Hut Roof"],
-    "entrance_requires": "|Can Make Ground Clouds|"
+    "exit_requires": "|Can Make Ground Clouds|"
   },
   "Starshine Beach 2 - Tower": {
     "entrance_requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Can Back or Sideflip| and |Can Wall Jump| and |Medium Logic|)"
@@ -1235,7 +1235,53 @@
     "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Slipsand Comet Medal|)}"
   },
   "Shiverburn Galaxy": {
-    "connects_to": []
+    "connects_to": ["Shiverburn - Volcano Planet Fire", "Shiverburn C - Starshroom"]
+  },
+  "Shiverburn - Volcano Planet Fire": {
+    "connects_to": ["Shiverburn - Volcano Planet Ice", "Shiverburn - Stones Intermediate", "Shiverburn - Mushrooms Intermediate"]
+  },
+  "Shiverburn - Volcano Planet Ice": {
+    "connects_to": ["Shiverburn - Lava Stones", "Shiverburn - Volcano Planet Mushrooms", "Shiverburn S - Chimp Room"],
+    "entrance_requires": "|Has Ground Pound| and (|Can Make Clouds| or |Hard Logic|)"
+  },
+  "Shiverburn - Mushrooms Intermediate": {
+    "connects_to": ["Shiverburn - Volcano Planet Mushrooms"],
+    "exit_requires": "|Hard Logic|"
+  },
+  "Shiverburn - Volcano Planet Mushrooms": {
+
+  },
+  "Shiverburn - Stones Intermediate": {
+    "connects_to": ["Shiverburn - Lava Stones", "Shiverburn S - Chimp Room"],
+    "exit_requires": "|Can Make Clouds| and |Medium Logic| and |Can Long Jump|"
+  },
+  "Shiverburn - Lava Stones": {
+    "connects_to": ["Shiverburn - Fire Rain"],
+    "exit_requires": ""
+  },
+  "Shiverburn - Fire Rain": {
+    "connects_to": ["Shiverburn - Ice Rain"],
+    "exit_requires": "|Has Ground Spin| or |Hard Logic|"
+  },
+  "Shiverburn - Ice Rain": {
+    "connects_to": ["Shiverburn - Starshroom"],
+    "exit_requires": ""
+  },
+  "Shiverburn - Starshroom": {
+    "connects_to": ["Shiverburn - Arena"],
+    "exit_requires": ""
+  },
+  "Shiverburn - Arena": {
+
+  },
+  "Shiverburn C - Starshroom": {
+    "connects_to": ["Shiverburn C - Arena"]
+  },
+  "Shiverburn C - Arena": {
+
+  },
+  "Shiverburn S - Chimp Room": {
+
   },
   "Boo Moon Galaxy": {
     "connects_to": []

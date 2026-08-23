@@ -5643,8 +5643,8 @@
   },
   {
     "name": "Prince Pikante's Peppery Mood",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Long Jump|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "|Has Ground Spin|",
+    "region": "Shiverburn - Arena",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -5653,8 +5653,8 @@
   },
   {
     "name": "Shiverburn - Volcano Planet Life Mushroom",
-    "requires": "({OptOne(|Cloud Flower|)} AND {OptAll(|Spin| AND |Ground Pound|)}) OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "",
+    "region": "Shiverburn - Volcano Planet Mushrooms",
     "category": [
       "World 5",
       "Life Mushrooms"
@@ -5663,8 +5663,8 @@
   },
   {
     "name": "Shiverburn - Volcano Planet 1-Up Mushroom",
-    "requires": "({OptOne(|Cloud Flower|)} AND {OptAll(|Spin| AND |Ground Pound|)}) OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "",
+    "region": "Shiverburn - Volcano Planet Mushrooms",
     "category": [
       "World 5",
       "1-Ups"
@@ -5673,8 +5673,8 @@
   },
   {
     "name": "Shiverburn - Green Star 1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Shiverburn Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "|Shiverburn Green Stars|",
+    "region": "Shiverburn - Volcano Planet Ice",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -5682,9 +5682,9 @@
     "sort-key": "row-0558"
   },
   {
-    "name": "Shiverburn - Spinning Stones Checkpoint Flag",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "name": "Shiverburn - Lava Stones Checkpoint Flag",
+    "requires": "",
+    "region": "Shiverburn - Lava Stones",
     "category": [
       "World 5",
       "Checkpoints"
@@ -5692,9 +5692,9 @@
     "sort-key": "row-0559"
   },
   {
-    "name": "Shiverburn - Spinning Stones Chest 1-Up",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "name": "Shiverburn - Lava Stones Chest 1-Up",
+    "requires": "|Has Ground Spin|",
+    "region": "Shiverburn - Lava Stones",
     "category": [
       "World 5",
       "1-Ups"
@@ -5703,8 +5703,8 @@
   },
   {
     "name": "Shiverburn - Comet Medal",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "",
+    "region": "Shiverburn - Lava Stones",
     "category": [
       "World 5",
       "Comet Medal Locations"
@@ -5712,9 +5712,9 @@
     "sort-key": "row-0561"
   },
   {
-    "name": "Shiverburn - Spinning Stones Far Side 1-Up",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "name": "Shiverburn - Lava Stones Far Side 1-Up",
+    "requires": "",
+    "region": "Shiverburn - Lava Stones",
     "category": [
       "World 5",
       "1-Ups"
@@ -5723,8 +5723,8 @@
   },
   {
     "name": "Shiverburn - Green Star 2",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})) AND {OptOne(|Shiverburn Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "|Shiverburn Green Stars|",
+    "region": "Shiverburn - Lava Stones",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -5733,8 +5733,8 @@
   },
   {
     "name": "Shiverburn - Meteor Rain Checkpoint Flag",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "",
+    "region": "Shiverburn - Fire Rain",
     "category": [
       "World 5",
       "Checkpoints"
@@ -5743,8 +5743,8 @@
   },
   {
     "name": "Shiverburn - Meteor Rain Cloud 1-Up",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "|Has Cloud| or |Medium Logic|",
+    "region": "Shiverburn - Fire Rain",
     "category": [
       "World 5",
       "1-Ups"
@@ -5753,8 +5753,8 @@
   },
   {
     "name": "Shiverburn - Green Star 3",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Shiverburn Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "|Can Make Clouds| and |Shiverburn Green Stars|",
+    "region": "Shiverburn - Fire Rain",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -5763,8 +5763,8 @@
   },
   {
     "name": "Shiverburn - Meteor Rain Crystal Life Mushroom",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "|Has Ground Spin|",
+    "region": "Shiverburn - Fire Rain",
     "category": [
       "World 5",
       "Life Mushrooms"
@@ -5773,8 +5773,8 @@
   },
   {
     "name": "Shiverburn - Icicle Rain 1-Up",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "",
+    "region": "Shiverburn - Ice Rain",
     "category": [
       "World 5",
       "1-Ups"
@@ -5783,8 +5783,8 @@
   },
   {
     "name": "Shiverburn - Luma Shop",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "",
+    "region": "Shiverburn - Starshroom",
     "category": [
       "World 5",
       "Luma Shops"
@@ -5793,8 +5793,8 @@
   },
    {
     "name": "Shiverburn - Starshroom Checkpoint Flag",
-    "requires": "{OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "",
+    "region": "Shiverburn - Starshroom",
     "category": [
       "World 5",
       "Checkpoints"
@@ -5803,8 +5803,8 @@
   },
   {
     "name": "Octo-Army Icy Rainbow Romp",
-    "requires": "({OptOne(|Rainbow Star|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Shiverburn Comet Medal|)} AND {OptOne(|Romp Comets|)}",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "|Has Rainbow Star| and (|Has Ground Spin| or |Medium Logic|)",
+    "region": "Shiverburn C - Arena",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -5813,8 +5813,8 @@
   },
   {
     "name": "The Chimp's Ultimate Skating Challenge",
-    "requires": "{OptOne(|Cloud Flower|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Long Jump|)}) AND ({OptOne(|Spin|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Long Jump|)} AND {OptOne(|Ground Pound|)}))",
-    "region": "Shiverburn Galaxy (40)",
+    "requires": "|Has Ground Spin| or |Hard Logic|",
+    "region": "Shiverburn S - Chimp Room",
     "category": [
       "World 5",
       "Power Star Locations"
