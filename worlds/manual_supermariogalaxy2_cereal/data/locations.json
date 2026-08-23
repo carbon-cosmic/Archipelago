@@ -6103,8 +6103,8 @@
   },
   {
     "name": "Fluzzard's Wild Battlefield Glide",
-    "requires": "{OptOne(|Fluzzard|)}",
-    "region": "Fleet Glide Galaxy (40)",
+    "requires": "",
+    "region": "Fleet Glide 1 - Flight",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -6113,8 +6113,8 @@
   },
   {
     "name": "Fleet Glide - Green Star 1",
-    "requires": "{OptOne(|Fluzzard|)} AND {OptOne(|Fleet Glide Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Fleet Glide Galaxy (40)",
+    "requires": "|Fleet Glide Green Stars|",
+    "region": "Fleet Glide 1 - Flight",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -6123,8 +6123,8 @@
   },
   {
     "name": "Fleet Glide - First Wall Life Mushroom",
-    "requires": "{OptOne(|Fluzzard|)}",
-    "region": "Fleet Glide Galaxy (40)",
+    "requires": "",
+    "region": "Fleet Glide 1 - Flight",
     "category": [
       "World 5",
       "Life Mushrooms"
@@ -6133,8 +6133,8 @@
   },
   {
     "name": "Fleet Glide - Third Wall 1-Up",
-    "requires": "{OptOne(|Fluzzard|)}",
-    "region": "Fleet Glide Galaxy (40)",
+    "requires": "",
+    "region": "Fleet Glide 1 - Flight",
     "category": [
       "World 5",
       "1-Ups"
@@ -6143,8 +6143,8 @@
   },
   {
     "name": "Fleet Glide - 1-Up Before Second Comet Gate",
-    "requires": "{OptOne(|Fluzzard|)}",
-    "region": "Fleet Glide Galaxy (40)",
+    "requires": "",
+    "region": "Fleet Glide 1 - Flight",
     "category": [
       "World 5",
       "1-Ups"
@@ -6153,8 +6153,8 @@
   },
   {
     "name": "Fleet Glide - Green Star 2",
-    "requires": "{OptOne(|Fluzzard|)} AND {OptOne(|Fleet Glide Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Fleet Glide Galaxy (40)",
+    "requires": "|Fleet Glide Green Stars|",
+    "region": "Fleet Glide 1 - Flight",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -6163,8 +6163,8 @@
   },
   {
     "name": "Fleet Glide - Comet Medal",
-    "requires": "{OptOne(|Fluzzard|)}",
-    "region": "Fleet Glide Galaxy (40)",
+    "requires": "",
+    "region": "Fleet Glide 1 - Flight",
     "category": [
       "World 5",
       "Comet Medal Locations"
@@ -6173,8 +6173,8 @@
   },
   {
     "name": "Fastest Feathers in the Galaxy",
-    "requires": "{OptOne(|Fluzzard|)} AND |Jibberjay Letter Fleet Glide|",
-    "region": "Fleet Glide Galaxy (40)",
+    "requires": "",
+    "region": "Fleet Glide 2 - Flight",
     "category": [
       "World 5",
       "Power Star Locations"

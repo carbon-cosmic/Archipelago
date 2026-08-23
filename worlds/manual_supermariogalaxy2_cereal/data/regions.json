@@ -1275,7 +1275,8 @@
 
   },
   "Shiverburn C - Starshroom": {
-    "connects_to": ["Shiverburn C - Arena"]
+    "connects_to": ["Shiverburn C - Arena"],
+    "entrance_requires": "|Has Romp Comets| and {OptOne(|Shiverburn Comet Medal|)}"
   },
   "Shiverburn C - Arena": {
 
@@ -1312,7 +1313,22 @@
     "connects_to": []
   },
   "Fleet Glide Galaxy": {
-    "connects_to": []
+    "connects_to": ["Fleet Glide 1 - Start", "Fleet Glide 2 - Start"]
+  },
+  "Fleet Glide 1 - Start": {
+    "connects_to": ["Fleet Glide 1 - Flight"],
+    "exit_requires": "|Has Fluzzard|"
+  },
+  "Fleet Glide 1 - Flight": {
+
+  },
+  "Fleet Glide 2 - Start": {
+    "connects_to": ["Fleet Glide 2 - Flight"],
+    "entrance_requires": "|Fleet Glide Jibberjay Letter|",
+    "exit_requires": "|Has Fluzzard|"
+  },
+  "Fleet Glide 2 - Flight": {
+
   },
   "Bowser Jr.'s Boom Bunker": {
     "connects_to": []
