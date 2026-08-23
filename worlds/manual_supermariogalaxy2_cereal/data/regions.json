@@ -1310,7 +1310,20 @@
     "entrance_requires": "|Has Boo|"
   },
   "Upside Dizzy Galaxy": {
-    "connects_to": []
+    "connects_to": ["Upside Dizzy - Start"]
+  },
+  "Upside Dizzy - Start": {
+    "connects_to": ["Upside Dizzy - Gearmo", "Upside Dizzy - Moving Platform"]
+  },
+  "Upside Dizzy - Moving Platform": {
+    "connects_to": ["Upside Dizzy - Gravity Swap"],
+    "entrance_requires": "|Jump Height 3| or ((|Has Long Jump| or |Has Wall Jump|) and |Hard Logic|)"
+  },
+  "Upside Dizzy - Gravity Swap": {
+    "entrance_requires": "|Has Ground Pound| or (|Hard Logic| and (|Has Air Spin| or (|Has Backflip| and |Has Wall Jump)))"
+  },
+  "Upside Dizzy S - Gearmo": {
+    "entrance_requires": "|Has Fire|"
   },
   "Fleet Glide Galaxy": {
     "connects_to": ["Fleet Glide 1 - Start", "Fleet Glide 2 - Start"]

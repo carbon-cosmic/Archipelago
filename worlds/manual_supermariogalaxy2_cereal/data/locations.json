@@ -6023,8 +6023,8 @@
   },
   {
     "name": "A Walk on the Weird Side",
-    "requires": "(|Ground Pound| AND (|Sideflip| OR |Backflip| OR |Spin|)) OR ({YamlEnabled(Advanced Logic)} AND (|Spin| OR |Backflip|))",
-    "region": "Upside Dizzy Galaxy (40)",
+    "requires": "",
+    "region": "Upside Dizzy - Gravity Swap",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -6034,7 +6034,7 @@
   {
     "name": "Upside Dizzy - 1-Up Next to Secret Pipe",
     "requires": "",
-    "region": "Upside Dizzy Galaxy (40)",
+    "region": "Upside Dizzy - Start",
     "category": [
       "World 5",
       "1-Ups"
@@ -6043,8 +6043,8 @@
   },
   {
     "name": "Upside Dizzy - Green Star 1",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Backflip|)} AND ({OptOne(|Wall Jump|)} OR {YamlEnabled(Advanced_Logic)})) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Long Jump|)}))) AND {OptOne(|Upside Dizzy Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Upside Dizzy Galaxy (40)",
+    "requires": "|Upside Dizzy Green Stars| and (|Has Air Spin| or (|Has Backflip| and (|Has Wall Jump| OR |Hard Logic|)) or (|Hard Logic| and (|Has Triple Jump| or |Has Long Jump|)))",
+    "region": "Upside Dizzy - Start",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -6053,8 +6053,8 @@
   },
   {
     "name": "Upside Dizzy - Life Mushroom Above ? Block",
-    "requires": "{OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)})",
-    "region": "Upside Dizzy Galaxy (40)",
+    "requires": "|Narrow Jump 3| or |Has Wall Jump| or (|Hard Logic| and |Has Triple Jump|)",
+    "region": "Upside Dizzy - Start",
     "category": [
       "World 5",
       "Life Mushrooms"
@@ -6063,8 +6063,8 @@
   },
   {
     "name": "Upside Dizzy - Green Star 2",
-    "requires": "({OptOne(|Spin|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)}))) AND {OptOne(|Upside Dizzy Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Upside Dizzy Galaxy (40)",
+    "requires": "|Upside Dizzy Green Stars| and (|Has Air Spin| or (|Hard Logic| and |Jump Height 2|))", #needs testing
+    "region": "Upside Dizzy Moving - Platform",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -6073,8 +6073,8 @@
   },
   {
     "name": "Upside Dizzy - Checkpoint Flag",
-    "requires": "{OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Triple Jump|)})",
-    "region": "Upside Dizzy Galaxy (40)",
+    "requires": "",
+    "region": "Upside Dizzy - Moving Platform",
     "category": [
       "World 5",
       "Checkpoints"
@@ -6083,8 +6083,8 @@
   },
   {
     "name": "Upside Dizzy - Comet Medal",
-    "requires": "(|Ground Pound| AND (|Sideflip| OR |Backflip| OR |Spin|)) OR ({YamlEnabled(Advanced Logic)} AND (|Spin| OR |Backflip|))",
-    "region": "Upside Dizzy Galaxy (40)",
+    "requires": "",
+    "region": "Upside Dizzy - Gravity Swap",
     "category": [
       "World 5",
       "Comet Medal Locations"
@@ -6093,8 +6093,8 @@
   },
   {
     "name": "Burning Upside Dizzy",
-    "requires": "{OptOne(|Fire Flower|)}",
-    "region": "Upside Dizzy Galaxy (40)",
+    "requires": "",
+    "region": "Upside Dizzy S - Gearmo",
     "category": [
       "World 5",
       "Power Star Locations"
