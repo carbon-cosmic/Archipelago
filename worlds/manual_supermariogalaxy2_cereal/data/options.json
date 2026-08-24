@@ -23,7 +23,8 @@
   "user": {
     "Unlockable_Luigi": {
       "description": [
-        "Include Luigi as an item for unlock."
+        "Include Luigi as an item for unlock.",
+        "Note: Luigi's extra high jumps are currently not accounted for in logic."
       ],
       "display_name": "Unlockable Luigi",
       "type": "Toggle",
@@ -31,50 +32,76 @@
       "group": "Item Options"
     },
 
-    "Advanced_Logic": {
+    "Logic_Difficulty": {
       "description": [
-        "Logic will include advanced tricks and technical jumps."
+        "The expected difficulty of tricks by logic.",
+        "",
+        "easy: Logic will only include simple, likely developer-intended strategies.",
+        "medium: Includes a number of unintended, but relatively easy, strategies, as well as generally more precise movement.",
+        "hard: Requires some difficult, obscure, or glitched strategies. While not requiring speedrunner-level knowledge, ",
+        "      make sure you're comfortable with the game."
       ],
-      "display_name": "Advanced Logic",
-      "type": "Toggle",
+      "display_name": "Logic Difficulty",
+      "type": "Choice",
+      "values": {
+        "easy": 0,
+        "medium": 1,
+        "hard": 2
+      },
+      "aliases": {
+        "false": 0,
+        "true": 2
+      },
+      "default": 0,
+      "group": "Randomization Options"
+    },
+    "1-Upsanity": {
+      "description": [
+        "Receive checks for collecting 1-Ups.",
+        "",
+        "off: 1-Up locations will be disabled.",
+        "mushrooms_only: All 1-Up Mushrooms will be included.",
+        "all: In addition to mushrooms, the 1-Ups from collecting timed coins ",
+        "     from a ? coin and eating fruit with Yoshi will be included"
+      ],
+      "display_name": "1-Upsanity",
+      "type": "Choice",
+      "values": {
+        "off": 0,
+        "mushrooms_only": 1,
+        "all": 2
+      },
+      "aliases": {
+        "false": 0,
+        "true": 2
+      },
       "default": false,
       "group": "Randomization Options"
     },
-
-    "1UPsanity": {
-      "description": [
-        "Receive checks for collecting 1-Ups."
-      ],
-      "display_name": "1-UPsanity",
-      "type": "Toggle",
-      "default": false,
-      "group": "Randomization Options"
-    },
-
     "Life_Shroomsanity": {
       "description": [
         "Receive checks for collecting Life Mushrooms."
       ],
-      "display_name": "Life Shroomsanity",
+      "display_name": "Life Mushroom-sanity",
+      "type": "Toggle",
+      "default": false,
+      "group": "Randomization Options"
+    },
+    "Luma_Shopsanity": {
+      "description": [
+        "Receive checks for purchasing from Luma Shops."
+      ],
+      "display_name": "Luma Shop-sanity",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
     },
 
-    "Luma_Shopsanity": {
-      "description": [
-        "Receive checks for purchasing from Luma Shops."
-      ],
-      "display_name": "Luma Shopsanity",
-      "type": "Toggle",
-      "default": false,
-      "group": "Randomization Options"
-    },
     "Chance_Cubesanity": {
       "description": [
         "Receive checks for spinning chance cubes."
       ],
-      "display_name": "Chance Cubesanity",
+      "display_name": "Chance Cube-sanity",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -84,7 +111,7 @@
       "description": [
         "Receive checks for reaching checkpoint flags."
       ],
-      "display_name": "Flagsanity",
+      "display_name": "Checkpoint-sanity",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -92,10 +119,9 @@
 
     "Clocksanity": {
       "description": [
-        "Receive checks for collecting speedrun clocks.",
-        "Speedrun levels will require all of their clock items before the star unlocks."
+        "Receive checks for collecting speedrun clocks."
       ],
-      "display_name": "Clocksanity",
+      "display_name": "Clock-sanity",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -139,11 +165,16 @@
     },
     "Movement_Randomization": {
       "description": [
-        "Mario's movement abilities will be randomized."
+        "Mario's movement abilities will be randomized. These are: Spin,",
+        "Backflip, Sideflip, Triple Jump, Wall Jump, Long Jump, and Ground Pound.",
+        "",
+        "off: Mario's moveset will be unlocked from the start.",
+        "spin_start: Mario's moveset will be randomized, except for Spin.",
+        "full: All of Mario's moves will be randomized."
       ],
       "display_name": "Movement Randomization",
-      "type": "Toggle",
-      "default": false,
+      "type": "Choice",
+      "default": "full",
       "group": "Item Options"
     },
      "Comet_Medal_Items": {
@@ -157,13 +188,30 @@
     },
     "Comet_Category_Items": {
       "description": [
-        "Randomizes Comet Categories (such as Speedy Comets or Purple Comets) into the Multiworld."
+        "Randomizes Comet Categories (such as Speedy Comets or Purple Comets) into the Multiworld. OLD OPTION PLEASE REMOVE"
       ],
       "display_name": "Comet Category Items",
       "type": "Toggle",
       "default": true,
       "group": "Item Options"
     },
+    "Comet_Randomization": {
+      "description": [
+        "How Prankster Comet randomization will be handled.",
+        "off: Prankster Comets will be available from the start.",
+        "category: Prankster Comets will be randomized by type of comet.",
+        "combined: Prankster Comets will all be unlocked by a single item."
+      ],
+      "display_name": "Comet Randomization",
+      "type": "Choice",
+      "values": {
+        "off": 0,
+        "category": 1,
+        "combined": 2
+      },
+      "default": "category",
+      "group": "Comet Options"
+       },
     "Mechanic_Randomization": {
       "description": [
         "Access to Pull Stars, Star Balls, and Tornadoes will be randomized."
@@ -210,13 +258,13 @@
       "group": "Randomization Options"
     },
     "Purple_Coinsanity": {
-            "description": [
-                "Receive checks for collecting Purple Coins. For sickos only."
-            ],
-            "display_name": "Purple Coinsanity",
-            "type": "Toggle",
-            "default": false,
-            "group": "Randomization Options"
+      "description": [
+          "Receive checks for collecting Purple Coins. For sickos only."
+      ],
+      "display_name": "Purple Coinsanity",
+      "type": "Toggle",
+      "default": false,
+      "group": "Randomization Options"
         }
   }
 }
