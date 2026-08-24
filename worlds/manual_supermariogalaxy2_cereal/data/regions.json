@@ -1452,16 +1452,29 @@
   "Clockwork Ruins S - Hammer Ledges": {
 
   },
-  "Flash Black Galaxy": {
-    "connects_to": []
-  },
-  "Slimy Spring Galaxy": {
-    "connects_to": []
-  },
   "Throwback Galaxy": {
     "connects_to": []
   },
   "Battle Belt Galaxy": {
+    "connects_to": []
+  },
+  "Flash Black Galaxy": {
+    "connects_to": ["Flash Black - Outside Manor", "Flash Black C - Dark Path"]
+  },
+  "Flash Black - Outside Manor": {
+    "connects_to": ["Flash Black - Inside Manor"]
+  },
+  "Flash Black - Inside Manor": {
+    "connects_to": ["Flash Black - Dark Path"],
+    "entrance_requires": "|Can Use Blimp|"
+  },
+  "Flash Black - Dark Path": {
+
+  },
+  "Flash Black C - Dark Path": {
+    "entrance_requires": "|Has Romp Comets| and {OptOne(|Flash Black Comet Medal|)}"
+  },
+  "Slimy Spring Galaxy": {
     "connects_to": []
   },
   "Bowser's Galaxy Generator": {

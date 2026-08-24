@@ -6954,8 +6954,8 @@
   },
   {
     "name": "Jumping Around in the Dark",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
-    "region": "Flash Black Galaxy (55)",
+    "requires": "",
+    "region": "Flash Black - Dark Path",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -6964,8 +6964,8 @@
   },
   {
     "name": "Flash Black - Life Mushroom Under Mine",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
-    "region": "Flash Black Galaxy (55)",
+    "requires": "",
+    "region": "Flash Black - Inside Manor",
     "category": [
       "World 6",
       "Life Mushrooms"
@@ -6974,8 +6974,8 @@
   },
   {
     "name": "Flash Black - Overhang 1-Up",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
-    "region": "Flash Black Galaxy (55)",
+    "requires": "",
+    "region": "Flash Black - Inside Manor",
     "category": [
       "World 6",
       "1-Ups"
@@ -6984,8 +6984,8 @@
   },
   {
     "name": "Flash Black - Comet Medal",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
-    "region": "Flash Black Galaxy (55)",
+    "requires": "",
+    "region": "Flash Black - Inside Manor",
     "category": [
       "World 6",
       "Comet Medal Locations"
@@ -6994,8 +6994,8 @@
   },
   {
     "name": "Flash Black - Green Star 1",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)} AND {OptOne(|Flash Black Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Flash Black Galaxy (55)",
+    "requires": "|Flash Black Green Stars|",
+    "region": "Flash Black - Inside Manor",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -7004,8 +7004,8 @@
   },
   {
     "name": "Flash Black - Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)}",
-    "region": "Flash Black Galaxy (55)",
+    "requires": "",
+    "region": "Flash Black - Dark Path",
     "category": [
       "World 6",
       "Checkpoints"
@@ -7014,8 +7014,8 @@
   },
   {
     "name": "Flash Black - Final Area Crystal 1-Up",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)} AND {OptOne(|Spin|)}",
-    "region": "Flash Black Galaxy (55)",
+    "requires": "|Has Ground Spin|",
+    "region": "Flash Black - Dark Path",
     "category": [
       "World 6",
       "1-Ups"
@@ -7024,8 +7024,8 @@
   },
   {
     "name": "Flash Black - Green Star 2",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Blimp Fruit|)} AND {OptOne(|Flash Black Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Flash Black Galaxy (55)",
+    "requires": "|Flash Black Green Stars|",
+    "region": "Flash Black - Dark Path",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -7034,8 +7034,8 @@
   },
   {
     "name": "Dark Octo-Army Romp",
-    "requires": "({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Flash Black Comet Medal|)} AND {OptOne(|Romp Comets|)}",
-    "region": "Flash Black Galaxy (55)",
+    "requires": "|Has Ground Spin| or |Hard Logic|",
+    "region": "Flash Black C - Dark Path",
     "category": [
       "World 6",
       "Power Star Locations"
