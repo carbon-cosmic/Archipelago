@@ -1417,10 +1417,40 @@
     "entrance_requires": "|Has Rock|"
   },
   "Melty Monster S - Chimp Room": {
-    
+
   },
   "Clockwork Ruins Galaxy": {
-    "connects_to": ["Clockwork Ruins Purple Coins"]
+    "connects_to": ["Clockwork Ruins - Start", "Clockwork Ruins C - First Wheel"]
+  },
+  "Clockwork Ruins - Start": {
+    "connects_to": ["Clockwork Ruins - Pusher Walls", "Clockwork Ruins S - Hammer Ledges"]
+  },
+  "Clockwork Ruins - Pusher Walls": {
+    "connects_to": ["Clockwork Ruins - Rolling Drums"],
+    "exit_requires": "|Has Ground Spin| and |Has Ground Pound|"
+  },
+  "Clockwork Ruins - Rolling Drums": {
+    "connects_to": ["Clockwork Ruins - Rolling Drums Top"],
+    "exit_requires": "|Has Wall Jump|"
+  },
+  "Clockwork Ruins - Rolling Drums Top": {
+
+  },
+  "Clockwork Ruins C - First Wheel": {
+    "connects_to": ["Clockwork Ruins C - Second Wheel"],
+    "entrance_requires": "|Has Purple Comets| and {OptOne(|Clockwork Ruins Comet Medal|)}"
+  },
+  "Clockwork Ruins C - Second Wheel": {
+    "connects_to": ["Clockwork Ruins C - Third Wheel"]
+  },
+  "Clockwork Ruins C - Third Wheel": {
+    "connects_to": ["Clockwork Ruins C - Fourth Wheel"]
+  },
+  "Clockwork Ruins C - Fourth Wheel": {
+
+  },
+  "Clockwork Ruins S - Hammer Ledges": {
+
   },
   "Flash Black Galaxy": {
     "connects_to": []
