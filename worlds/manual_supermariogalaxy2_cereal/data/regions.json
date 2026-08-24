@@ -1453,7 +1453,19 @@
 
   },
   "Throwback Galaxy": {
-    "connects_to": []
+    "connects_to": ["Throwback 1 - Fortress", "Throwback 2 - Fortress", "Throwback C - Fortress"]
+  },
+  "Throwback 1 - Fortress": {
+    "connects_to": ["Throwback 1 - Under Fortress"]
+  },
+  "Throwback 1 - Under Fortress": {
+    "entrance_requires": "|Has Ground Pound|"
+  },
+  "Throwback 2 - Fortress": {
+
+  },
+  "Throwback C - Fortress": {
+    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Throwback Comet Medal|)}"
   },
   "Battle Belt Galaxy": {
     "connects_to": []

@@ -6674,7 +6674,7 @@
   {
     "name": "Throwback 1 - Start Chance Cube",
     "requires": "",
-    "region": "Throwback Galaxy (60)",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "Chance Cubes"
@@ -6684,7 +6684,7 @@
   {
     "name": "Throwback - Teleporter 1-Up #1",
     "requires": "",
-    "region": "Throwback Galaxy (60)",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "1-Ups"
@@ -6694,7 +6694,7 @@
   {
     "name": "Throwback - Teleporter 1-Up #2",
     "requires": "",
-    "region": "Throwback Galaxy (60)",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "1-Ups"
@@ -6704,7 +6704,7 @@
   {
     "name": "Throwback - Teleporter 1-Up #3",
     "requires": "",
-    "region": "Throwback Galaxy (60)",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "1-Ups"
@@ -6713,8 +6713,8 @@
   },
   {
     "name": "Throwback - Green Star 1",
-    "requires": "{OptOne(|Throwback Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Throwback Galaxy (60)",
+    "requires": "|Throwback Green Stars|",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -6723,8 +6723,8 @@
   },
   {
     "name": "Throwback - Behind Mountain Crate Notes 1-Up #1",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}",
-    "region": "Throwback Galaxy (60)",
+    "requires": "|Can Break Crates|",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "1-Ups"
@@ -6733,8 +6733,8 @@
   },
   {
     "name": "Throwback - Behind Mountain Crate Notes 1-Up #2",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}",
-    "region": "Throwback Galaxy (60)",
+    "requires": "|Can Break Crates|",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "1-Ups"
@@ -6743,8 +6743,8 @@
   },
   {
     "name": "Throwback - Behind Mountain Crate Notes 1-Up #3",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}",
-    "region": "Throwback Galaxy (60)",
+    "requires": "|Can Break Crates|",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "1-Ups"
@@ -6754,7 +6754,7 @@
   {
     "name": "Throwback - 1-Up on Top of Thwomp",
     "requires": "",
-    "region": "Throwback Galaxy (60)",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "1-Ups"
@@ -6763,8 +6763,8 @@
   },
   {
     "name": "Throwback - Comet Medal",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Throwback Galaxy (60)",
+    "requires": "|Has Air Spin|",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "Comet Medal Locations"
@@ -6774,7 +6774,7 @@
   {
     "name": "Throwback - 1-Up on Flagpole",
     "requires": "",
-    "region": "Throwback Galaxy (60)",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "1-Ups"
@@ -6784,7 +6784,7 @@
   {
     "name": "Throwback 1 - Mountaintop Checkpoint Flag",
     "requires": "",
-    "region": "Throwback Galaxy (60)",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "Checkpoints"
@@ -6793,7 +6793,7 @@
   },
   {
     "name": "Throwback - Green Star 2",
-    "requires": "({OptOne(|Spin|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Wall Jump|)})) AND {OptOne(|Throwback Comet Medal|)} AND {OptOne(|Green Comets|)}",
+    "requires": "|Throwback Green Stars| and |Has Air Spin| and (|Has Wall Jump| or |Medium Logic|",
     "region": "Throwback Galaxy (60)",
     "category": [
       "World 6",
@@ -6803,8 +6803,8 @@
   },
   {
     "name": "Silver Stars in the Whomp Fortress",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Throwback Galaxy (60)",
+    "requires": "|Can Make Clouds|",
+    "region": "Throwback 2 - Fortress",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -6813,8 +6813,8 @@
   },
   {
     "name": "Throwback - Green Star 3",
-    "requires": "{OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Throwback Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Throwback Galaxy (60)",
+    "requires": "|Throwback Green Stars| and |Can Make Clouds| and |Has Long Jump|",
+    "region": "Throwback 2 - Fortress",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -6823,8 +6823,8 @@
   },
   {
     "name": "Whomp Silver Star Speed Run",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Throwback Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Throwback Galaxy (60)",
+    "requires": "|Can Make Clouds|",
+    "region": "Throwback C - Fortress",
     "category": [
       "World 6",
       "Power Star Locations"
