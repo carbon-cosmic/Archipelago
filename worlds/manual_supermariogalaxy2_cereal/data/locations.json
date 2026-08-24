@@ -5673,7 +5673,7 @@
   },
   {
     "name": "Shiverburn - Green Star 1",
-    "requires": "|Shiverburn Green Stars|",
+    "requires": "|Shiverburn Green Stars| & |Can Make Clouds|",
     "region": "Shiverburn - Volcano Planet Ice",
     "category": [
       "World 5",
@@ -6313,8 +6313,8 @@
   },
   {
     "name": "The Magnificent Magma Sea",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Tornado Soaring|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "|Has Ground Spin|",
+    "region": "Melty Monster 1 - Magmaws",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -6323,8 +6323,8 @@
   },
   {
     "name": "Melty Monster 1 - Life Mushroom Among Pull Stars",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "",
+    "region": "Melty Monster 1 - Pull Stars",
     "category": [
       "World 6",
       "Life Mushrooms"
@@ -6333,8 +6333,8 @@
   },
   {
     "name": "Melty Monster - Green Star 1",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Melty Monster Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "|Melty Monster Green Stars|",
+    "region": "Melty Monster 1 - Pull Stars",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -6343,8 +6343,8 @@
   },
   {
     "name": "Melty Monster 1 - Lava Sea Checkpoint Flag #1",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "",
+    "region": "Melty Monster 1 - Magma Sea",
     "category": [
       "World 6",
       "Checkpoints"
@@ -6353,8 +6353,8 @@
   },
   {
     "name": "Melty Monster 1 - Life Mushroom Between Poles",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "",
+    "region": "Melty Monster 1 - Magma Sea",
     "category": [
       "World 6",
       "Life Mushrooms"
@@ -6363,8 +6363,8 @@
   },
   {
     "name": "Melty Monster 1 - Lava Sea Checkpoint Flag #2",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "",
+    "region": "Melty Monster 1 - Magma Sea",
     "category": [
       "World 6",
       "Checkpoints"
@@ -6373,28 +6373,28 @@
   },
   {
     "name": "Melty Monster - Comet Medal",
-    "requires": "{OptOne(|Tornado Soaring|)} AND {OptOne(|Pull Stars|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "|Jump Height 3| or |Medium Logic|",
+    "region": "Melty Monster 1 - Magmaws",
     "category": [
       "World 6",
       "Comet Medal Locations"
     ],
-    "sort-key": "row-0627"
+    "sort-key": "row-0628"
   },
   {
     "name": "Melty Monster - Green Star 2",
-    "requires": "{OptOne(|Tornado Soaring|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Melty Monster Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "|Melty Monster Green Stars|",
+    "region": "Melty Monster 1 - Magma Falls",
     "category": [
       "World 6",
       "Green Star Locations"
     ],
-    "sort-key": "row-0628"
+    "sort-key": "row-0627"
   },
   {
     "name": "A Stroll Down Rolling Lane",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "",
+    "region": "Melty Monster 2 - Rolling Lane)",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -6403,8 +6403,8 @@
   },
   {
     "name": "Melty Monster 2 - Checkpoint Flag",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "",
+    "region": "Melty Monster 2 - Rolling Lane",
     "category": [
       "World 6",
       "Checkpoints"
@@ -6413,8 +6413,8 @@
   },
   {
     "name": "Melty Monster 2 - Rolling Lane 1-Up",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "",
+    "region": "Melty Monster 2 - Rolling Lane",
     "category": [
       "World 6",
       "1-Ups"
@@ -6423,8 +6423,8 @@
   },
   {
     "name": "Melty Monster - Green Star 3",
-    "requires": "{OptOne(|Rock Mushroom|)} AND {OptOne(|Melty Monster Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "|Melty Monster Green Stars|",
+    "region": "Melty Monster 2 - Rolling Lane",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -6433,8 +6433,8 @@
   },
   {
     "name": "The Chimp's Bowling Challenge",
-    "requires": "{OptOne(|Rock Mushroom|)}",
-    "region": "Melty Monster Galaxy (55)",
+    "requires": "|Has Rock|",
+    "region": "Melty Monster S - Chimp Room",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -6444,7 +6444,7 @@
   {
     "name": "Melty Monster S - Checkpoint Flag",
     "requires": "",
-    "region": "Melty Monster Galaxy (55)",
+    "region": "Melty Monster S - Chimp Room",
     "category": [
       "World 6",
       "Checkpoints"

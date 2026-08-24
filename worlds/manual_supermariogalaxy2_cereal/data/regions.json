@@ -1382,7 +1382,7 @@
     "exit_requires": "|Can Make Clouds|"
   },
   "Boom Bunker C - Boss": {
-    
+
   },
     "World 6": {
     "requires": "|Grand Star (World 6 Access)|",
@@ -1391,7 +1391,33 @@
       "Bowser's Galaxy Generator Comet"]
   },
   "Melty Monster Galaxy": {
-    "connects_to": []
+    "connects_to": ["Melty Monster 1 - Start", "Melty Monster 2 - Start"]
+  },
+  "Melty Monster 1 - Start": {
+    "connects_to": ["Melty Monster 1 - Pull Stars", "Melty Monster S - Chimp Room"]
+  },
+  "Melty Monster 1 - Pull Stars": {
+    "connects_to": ["Melty Monster 1 - Magma Sea"],
+    "entrance_requires": "|Has Pull Stars|"
+  },
+  "Melty Monster 1 - Magma Sea": {
+    "connects_to": ["Melty Monster 1 - Magma Falls"]
+  },
+  "Melty Monster 1 - Magma Falls": {
+    "connects_to": ["Melty Monster 1 - Magmaws"],
+    "entrance_requires": "|Has Tornadoes|"
+  },
+  "Melty Monster 1 - Magmaws": {
+
+  },
+  "Melty Monster 2 - Start": {
+    "connects_to": ["Melty Monster 2 - Rolling Lane", "Melty Monster S - Chimp Room"]
+  },
+  "Melty Monster 2 - Rolling Lane": {
+    "entrance_requires": "|Has Rock|"
+  },
+  "Melty Monster S - Chimp Room": {
+    
   },
   "Clockwork Ruins Galaxy": {
     "connects_to": ["Clockwork Ruins Purple Coins"]
