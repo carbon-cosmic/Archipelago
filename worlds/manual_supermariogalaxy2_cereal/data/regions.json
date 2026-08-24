@@ -1344,7 +1344,45 @@
 
   },
   "Bowser Jr.'s Boom Bunker": {
-    "connects_to": []
+    "connects_to": ["Boom Bunker - Crash Site", "Boom Bunker C - Crash Site"]
+  },
+  "Boom Bunker - Crash Site": {
+    "connects_to": ["Boom Bunker - Boomerang Bros."],
+    "exit_requires": "|Has Cannon Permit|"
+  },
+  "Boom Bunker - Boomerang Bros.": {
+    "connects_to": ["Boom Bunker - Mini Cannon Planet"]
+  },
+  "Boom Bunker - Mini Cannon Planet": {
+    "connects_to": ["Boom Bunker - Spinning Platforms"],
+    "exit_requires": "|Has Cannon Permit|"
+  },
+  "Boom Bunker - Spinning Platforms": {
+    "connects_to": ["Boom Bunker - Boss"],
+    "exit_requires": "|Has Ground Pound| and (|Can Make Clouds| or |Hard Logic|)"
+  },
+  "Boom Bunker - Boss": {
+
+  },
+  "Boom Bunker C - Crash Site": {
+    "connects_to": ["Boom Bunker C - Boomerang Bros."],
+    "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Boom Bunker Comet Medal|)}",
+    "exit_requires": "|Has Cannon Permit|"
+  },
+  "Boom Bunker C - Boomerang Bros.": {
+    "connects_to": ["Boom Bunker C - Mini Cannon Planet"],
+    "exit_requires": ""
+  },
+  "Boom Bunker C - Mini Cannon Planet": {
+    "connects_to": ["Boom Bunker C - Dark Matter"],
+    "exit_requires": "|Has Cannon Permit|"
+  },
+  "Boom Bunker C - Dark Matter": {
+    "connects_to": ["Boom Bunker C - Boss"],
+    "exit_requires": "|Can Make Clouds|"
+  },
+  "Boom Bunker C - Boss": {
+    
   },
     "World 6": {
     "requires": "|Grand Star (World 6 Access)|",

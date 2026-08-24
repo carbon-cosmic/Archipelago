@@ -6063,8 +6063,8 @@
   },
   {
     "name": "Upside Dizzy - Green Star 2",
-    "requires": "|Upside Dizzy Green Stars| and (|Has Air Spin| or (|Hard Logic| and |Jump Height 2|))", #needs testing
-    "region": "Upside Dizzy Moving - Platform",
+    "requires": "|Upside Dizzy Green Stars| and (|Has Air Spin| or (|Hard Logic| and |Jump Height 2|))",
+    "region": "Upside Dizzy - Moving Platform",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -6183,8 +6183,8 @@
   },
   {
     "name": "Bowser Jr.'s Boomsday Machine",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Cannon Permit|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "|Can Make Clouds| and |Has Ground Pound|",
+    "region": "Boom Bunker - Boss",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -6194,7 +6194,7 @@
   {
     "name": "Boom Bunker - Start Chance Cube",
     "requires": "",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "region": "Boom Bunker - Crash Site",
     "category": [
       "World 5",
       "Chance Cubes"
@@ -6203,8 +6203,8 @@
   },
   {
     "name": "Boom Bunker - Green Star 1",
-    "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "|Boom Bunker Green Stars|",
+    "region": "Boom Bunker - Boomerang Bros.",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -6213,8 +6213,8 @@
   },
   {
     "name": "Boom Bunker - Start Cannon Bullseye 1-Up",
-    "requires": "{OptOne(|Cannon Permit|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "",
+    "region": "Boom Bunker - Boomerang Bros.",
     "category": [
       "World 5",
       "1-Ups"
@@ -6223,8 +6223,8 @@
   },
   {
     "name": "Boom Bunker - Boomerang Bro Pole Life Mushroom",
-    "requires": "{OptOne(|Cannon Permit|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "",
+    "region": "Boom Bunker - Boomerang Bros.",
     "category": [
       "World 5",
       "Life Mushrooms"
@@ -6233,8 +6233,8 @@
   },
   {
     "name": "Boom Bunker - Checkpoint Flag",
-    "requires": "{OptOne(|Cannon Permit|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "",
+    "region": "Boom Bunker - Mini Cannon Planet",
     "category": [
       "World 5",
       "Checkpoints"
@@ -6243,8 +6243,8 @@
   },
   {
     "name": "Boom Bunker - Green Star 2",
-    "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "|Boom Bunker Green Stars|",
+    "region": "Boom Bunker - Mini Cannon Planet",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -6253,8 +6253,8 @@
   },
   {
     "name": "Boom Bunker Spinning Platforms Bullseye 1-Up",
-    "requires": "{OptOne(|Cannon Permit|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "",
+    "region": "Boom Bunker - Spinning Platforms",
     "category": [
       "World 5",
       "1-Ups"
@@ -6263,8 +6263,8 @@
   },
   {
     "name": "Boom Bunker - Comet Medal",
-    "requires": "{OptOne(|Cannon Permit|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "",
+    "region": "Boom Bunker - Spinning Platforms",
     "category": [
       "World 5",
       "Comet Medal Locations"
@@ -6273,8 +6273,8 @@
   },
   {
     "name": "Boomsday Machine Daredevil Run",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Cannon Permit|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "|Can Make Clouds| and |Has Ground Pound|",
+    "region": "Boom Bunker C - Boss",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -6283,8 +6283,8 @@
   },
   {
     "name": "Boom Bunker C - Dark Matter Bullseye 1-Up",
-    "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "",
+    "region": "Boom Bunker C - Dark Matter",
     "category": [
       "World 5",
       "1-Ups"
@@ -6293,8 +6293,8 @@
   },
   {
     "name": "Boom Bunker C - Checkpoint Flag",
-    "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "",
+    "region": "Boom Bunker C - Dark Matter",
     "category": [
       "World 5",
       "Checkpoints"
@@ -6303,8 +6303,8 @@
   },
   {
     "name": "Boom Bunker C - 1-Up Before Boss",
-    "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Spin|)} AND {OptOne(|Boom Bunker Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Bowser Jr.'s Boom Bunker (55)",
+    "requires": "|Can Make Clouds| or (|Hard Logic| and |Can Make Ground Clouds|)",
+    "region": "Boom Bunker C - Dark Matter",
     "category": [
       "World 5",
       "1-Ups"
