@@ -1008,7 +1008,8 @@
     "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0104a"
   },
@@ -1018,17 +1019,19 @@
     "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0104b"
   },
   {
     "name": "Fluffy Bluff 1 - Bonus Room ? Coin 1-Up #3",
-    "requires": "|Can Complete Bonus Room ?-Coins|",
+    "requires": "|Can Complete Bonus Room ? Coins|",
     "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0104c"
   },
@@ -1053,12 +1056,13 @@
     "sort-key": "row-0106"
   },
   {
-    "name": "Fluffy Bluff 1 - Cloud ? Coin 1-Up Reward",
+    "name": "Fluffy Bluff 1 - Cloud ? Coin 1-Up",
     "requires": "",
     "region": "Fluffy Bluff 1 - Hungry Luma Cloud",
     "category": [
       "World 1",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0107"
   },
@@ -1633,12 +1637,13 @@
     "sort-key": "row-0164"
   },
   {
-    "name": "Puzzle Plank - Bonus Room ? Coin 1-Up Reward",
+    "name": "Puzzle Plank - Bonus Room ? Coin 1-Up",
     "requires": "",
     "region": "Puzzle Plank - Grassy Planet",
     "category": [
       "World 2",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0165"
   },
@@ -2403,12 +2408,13 @@
     "sort-key": "row-0238"
   },
   {
-    "name": "Honeybloom - ? Coin 1-Up Reward",
+    "name": "Honeybloom - ? Coin 1-Up",
     "requires": "",
     "region": "Honeybloom - Fruit",
     "category": [
       "World 2",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0239"
   },
@@ -2523,12 +2529,13 @@
     "sort-key": "row-0250"
   },
   {
-    "name": "Lava Lair - ? Coin 1-Up Reward",
+    "name": "Lava Lair - ? Coin 1-Up",
     "requires": "",
     "region": "Lava Lair - Firebar",
     "category": [
       "World 2",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0251"
   },
@@ -2933,12 +2940,13 @@
     "sort-key": "row-0291"
   },
   {
-    "name": "Tall Trunk 1 - ? Coin 1-Up Reward",
+    "name": "Tall Trunk 1 - ? Coin 1-Up",
     "requires": "",
     "region": "Tall Trunk 1 - Carved Log Star Chips",
     "category": [
       "World 3",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0292"
   },
@@ -3083,12 +3091,13 @@
     "sort-key": "row-0306"
   },
   {
-    "name": "Cloudy Court - ? Coin 1-Up Reward",
+    "name": "Cloudy Court - ? Coin 1-Up",
     "requires": "|Has Ground Pound| or |Medium Logic|",
     "region": "Cloudy Court - Instruments",
     "category": [
       "World 3",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0307"
   },
@@ -4093,12 +4102,13 @@
     "sort-key": "row-0406"
   },
   {
-    "name": "Supermassive - Brick Block ? Coin 1-Up Reward",
+    "name": "Supermassive - Brick Block ? Coin 1-Up",
     "requires": "|Has Long Jump|",
     "region": "Supermassive - Star Chips",
     "category": [
       "World 4",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0407"
   },
@@ -4133,7 +4143,7 @@
     "sort-key": "row-0410"
   },
   {
-    "name": "Supermassive - Above Flagpole ? Coin 1-Up Reward",
+    "name": "Supermassive - Above Flagpole ? Coin 1-Up",
     "requires": "|Has Long Jump| or |Medium Logic|",
     "region": "Supermassive - Wigglers",
     "category": [
@@ -4352,12 +4362,13 @@
     "sort-key": "row-0431"
   },
   {
-    "name": "Flipsville 2 - Silver Stars ? Coin 1-Up Reward",
+    "name": "Flipsville 2 - Silver Stars ? Coin 1-Up",
     "requires": "",
     "region": "Flipsville 2 - Silver Stars Start",
     "category": [
       "World 4",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0432"
   },
@@ -4417,7 +4428,8 @@
     "region": "Starshine Beach 1 - Beach",
     "category": [
       "World 4",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0438a"
   },
@@ -4427,17 +4439,19 @@
     "region": "Starshine Beach 1 - Beach",
     "category": [
       "World 4",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0438b"
   },
   {
     "name": "Starshine Beach - Bonus Room ? Coin 1-Up #3",
-    "requires": "|Can Complete Bonus Room ?-Coins|",
+    "requires": "|Can Complete Bonus Room ? Coins|",
     "region": "Starshine Beach 1 - Beach",
     "category": [
       "World 4",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0438c"
   },
@@ -4742,12 +4756,13 @@
     "sort-key": "row-0468"
   },
   {
-    "name": "Chompworks 2 - Tower ? Coin 1-Up Reward",
+    "name": "Chompworks 2 - Tower ? Coin 1-Up",
     "requires": "|Has Spring|",
     "region": "Chompworks 2 - Tower",
     "category": [
       "World 4",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0469"
   },
@@ -5062,12 +5077,13 @@
     "sort-key": "row-0500"
   },
   {
-    "name": "Gravity Gauntlet - Underwater ? Coin 1-Up Reward",
+    "name": "Gravity Gauntlet - Underwater ? Coin 1-Up",
     "requires": "",
     "region": "Gravity Gauntlet - Underwater",
     "category": [
       "World 4",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0501"
   },
@@ -5417,7 +5433,8 @@
     "region": "Space Storm 2 - Tower",
     "category": [
       "World 5",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0534a"
   },
@@ -5427,7 +5444,8 @@
     "region": "Space Storm 2 - Tower",
     "category": [
       "World 5",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0534b"
   },
@@ -5437,7 +5455,8 @@
     "region": "Space Storm 2 - Tower",
     "category": [
       "World 5",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0534c"
   },
@@ -5472,12 +5491,13 @@
     "sort-key": "row-0537"
   },
   {
-    "name": "Slipsand 1 - Bonus Room 1-Up Reward",
+    "name": "Slipsand 1 - Bonus Room ? Coin 1-Up",
     "requires": "",
     "region": "Slipsand 1 - Sand Tube",
     "category": [
       "World 5",
-      "1-Ups"
+      "1-Ups",
+      "Not 1-Up Mushroom"
     ],
     "sort-key": "row-0538"
   },

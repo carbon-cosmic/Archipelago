@@ -61,14 +61,14 @@
   },
 
   "1-Ups": {
-    "yaml_option": [
-      "1UPsanity"
-    ],
+    "hidden": true
+  },
+  "Not 1-Up Mushroom": {
     "hidden": true
   },
   "? Coins": {
     "yaml_option": [
-      "Coinsanity"
+      "QCoinsanity"
     ],
     "hidden": true
   },
@@ -85,9 +85,6 @@
     "hidden": true
   },
   "Power Stars": {
-    "yaml_option": [
-      "Power_Star_Locations"
-    ],
     "hidden": true
   },
   "Luigi": {
