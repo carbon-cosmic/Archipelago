@@ -145,11 +145,11 @@
       "default": true,
       "group": "Randomization Options"
     },
-     "Green_Stars_Enabled": {
+     "Green_Stars_Locations": {
       "description": [
         "Enable or disable regular Green Star locations."
       ],
-      "display_name": "Green Stars Enabled",
+      "display_name": "Green Stars Locations",
       "type": "Toggle",
       "default": true,
       "group": "Randomization Options"
@@ -231,27 +231,38 @@
       "default": false,
       "group": "Item Options"
     },
-
-    "Power_Stars_Required_to_Reach_Goal": {
+    "Galaxy_Generator_Star_Count": {
       "type": "Range",
       "description": [
-        "Select the number of stars required to reach the goal.",
-        "Default: 70 stars."
+        "The number of stars needed to access Bowser's Galaxy Generator.",
+        "Default is 70 stars, maximum is 122 stars."
       ],
-      "display_name": "Power Stars Required to Reach Goal",
-      "range_start": 1,
+      "display_name": "Galaxy Generator Star Count",
+      "range_start": 0,
       "default": 70,
-      "range_end": 120,
+      "range_end": 122
+    },
+    "Grandmaster_Star_Count": {
+      "type": "Range",
+      "description": [
+        "The number of stars needed to access Grandmaster Galaxy.",
+        "Default and maximum is 122 stars. If set to -1, Grandmaster Galaxy will be removed."
+      ],
+      "display_name": "Grandmaster Power Star Count",
+      "range_start": -1,
+      "default": 122,
+      "range_end": 122,
       "group": "Randomization Options"
     },
 
-    "Green_Stars_Required_to_Reach_Goal": {
+    "Grandmaster_Green_Count": {
       "type": "Range",
       "description": [
-        "Select the number of green stars required to reach the goal.",
-        "If set to zero, green stars will be filler."
+        "The number of green stars need to access Grandmaster Galaxy.",
+        "Only does something if Green Stars are enabled.",
+        "Maximum is 120, default is 0."
       ],
-      "display_name": "Green Stars Required to Reach Goal",
+      "display_name": "Grandmaster Green Star Count",
       "range_start": 0,
       "default": 0,
       "range_end": 120,

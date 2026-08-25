@@ -240,6 +240,29 @@
 
 
 
+  {
+    "name": "Can Enter Galaxy Generator",
+    "requires": "{OptionCount(@Power_and_Grand_Stars, Galaxy_Generator_Star_Count)}"
+  },
+  {
+    "name": "Has Grandmaster Greens",
+    "requires": "{YamlCompare(Grandmaster_Greens_Count <= 0)} or {YamlDisabled(Green_Star_Locations)} or {OptionCount(Green Star, Grandmaster_Greens_Count)}"
+  },
+  {
+    "name": "Can Enter Grandmaster Galaxy",
+    "requires": "{OptionCount(@Power_and_Grand_Stars, Grandmaster_Star_Count)} and |Has Grandmaster Greens|"
+  },
+
+
+
+
+
+
+
+
+
+
+
 
   {
     "name": "Sky Station Green Stars",
