@@ -1739,7 +1739,20 @@
     "entrance_requires": "|Has Long Jump| or |Hard Logic|"
   },
   "Rolling Coaster Galaxy": {
-    "connects_to": [""]
+    "connects_to": ["Rolling Coaster - Start", "Rolling Coaster C - Start"]
+  },
+  "Rolling Coaster - Start": {
+    "connects_to": ["Rolling Coaster - Rainbow Road"]
+  },
+  "Rolling Coaster - Rainbow Road": {
+    "entrance_requires": "|Has Star Ball|"
+  },
+  "Rolling Coaster C - Start": {
+    "connects_to": ["Rolling Coaster - Rainbow Road"],
+    "entrance_requires": "|Has Purple Comets| and {OptOne(|Rolling Coaster Comet Medal|)}"
+  },
+  "Rolling Coaster C - Rainbow Road": {
+    "entrance_requires": "|Has Star Ball|"
   },
   "Twisty Trials Galaxy": {
     "connects_to": []

@@ -7674,7 +7674,7 @@
   },
   {
     "name": "Luigi's Purple Coin Chaos",
-    "requires": "|Has Long Jump|",
+    "requires": "|Has Long Jump| and {OptOne(|Mario Squared Purple Coin:100|)}",
     "region": "Mario Squared C - Long Jump Coins",
     "category": [
       "World S",
@@ -7684,8 +7684,8 @@
   },
   {
     "name": "The Rainbow Road Roll",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Coaster Galaxy (75)",
+    "requires": "",
+    "region": "Rolling Coaster - Rainbow Road",
     "category": [
       "World S",
       "Power Star Locations"
@@ -7694,8 +7694,8 @@
   },
   {
     "name": "Rolling Coaster - Left Path 1-Up",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Coaster Galaxy (75)",
+    "requires": "",
+    "region": "Rolling Coaster - Rainbow Road",
     "category": [
       "World S",
       "1-Ups"
@@ -7704,8 +7704,8 @@
   },
   {
     "name": "Rolling Coaster - Green Star 1",
-    "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Coaster Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Rolling Coaster Galaxy (75)",
+    "requires": "|Rolling Coaster Green Stars|",
+    "region": "Rolling Coaster - Rainbow Road",
     "category": [
       "World S",
       "Green Star Locations"
@@ -7714,8 +7714,8 @@
   },
   {
     "name": "Rolling Coaster - Right Path 1-Up",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Coaster Galaxy (75)",
+    "requires": "",
+    "region": "Rolling Coaster - Rainbow Road",
     "category": [
       "World S",
       "1-Ups"
@@ -7724,8 +7724,8 @@
   },
   {
     "name": "Rolling Coaster - Comet Medal",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Coaster Galaxy (75)",
+    "requires": "",
+    "region": "Rolling Coaster - Rainbow Road",
     "category": [
       "World S",
       "Comet Medal Locations"
@@ -7734,8 +7734,8 @@
   },
   {
     "name": "Rolling Coaster - Green Star 2",
-    "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Coaster Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Rolling Coaster Galaxy (75)",
+    "requires": "|Rolling Coaster Green Stars|",
+    "region": "Rolling Coaster - Rainbow Road)",
     "category": [
       "World S",
       "Green Star Locations"
@@ -7744,8 +7744,8 @@
   },
   {
     "name": "Purple Coins on the Rainbow Road",
-    "requires": "{OptOne(|Star Ball|)} AND {OptOne(|Rolling Coaster Comet Medal|)} AND {OptOne(|Purple Comets|)} AND {OptOne(|Rolling Coaster Purple Coin:100|)}",
-    "region": "Rolling Coaster Galaxy (75)",
+    "requires": "{OptOne(|Rolling Coaster Purple Coin:100|)}",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "World S",
       "Power Star Locations"
@@ -17105,7 +17105,7 @@
   {
     "name": "Rolling Coaster - Start Purple Coin #1",
     "requires": "",
-    "region": "Rolling Coaster Purple Coins",
+    "region": "Rolling Coaster C - Start",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17115,7 +17115,7 @@
   {
     "name": "Rolling Coaster - Start Purple Coin #2",
     "requires": "",
-    "region": "Rolling Coaster Purple Coins",
+    "region": "Rolling Coaster C - Start",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17125,7 +17125,7 @@
   {
     "name": "Rolling Coaster - Start Purple Coin #3",
     "requires": "",
-    "region": "Rolling Coaster Purple Coins",
+    "region": "Rolling Coaster C - Start",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17135,7 +17135,7 @@
   {
     "name": "Rolling Coaster - Start Purple Coin #4",
     "requires": "",
-    "region": "Rolling Coaster Purple Coins",
+    "region": "Rolling Coaster C - Start",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17145,7 +17145,7 @@
   {
     "name": "Rolling Coaster - Start Purple Coin #5",
     "requires": "",
-    "region": "Rolling Coaster Purple Coins",
+    "region": "Rolling Coaster C - Start",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17154,8 +17154,8 @@
   },
   {
     "name": "Rolling Coaster - First Rail Purple Coin #1",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17164,8 +17164,8 @@
   },
   {
     "name": "Rolling Coaster - First Rail Purple Coin #2",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17174,8 +17174,8 @@
   },
   {
     "name": "Rolling Coaster - First Rail Purple Coin #3",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17184,8 +17184,8 @@
   },
   {
     "name": "Rolling Coaster - First Rail Purple Coin #4",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17194,8 +17194,8 @@
   },
   {
     "name": "Rolling Coaster - First Rail Purple Coin #5",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17204,8 +17204,8 @@
   },
   {
     "name": "Rolling Coaster - First Rail Purple Coin #6",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17214,8 +17214,8 @@
   },
   {
     "name": "Rolling Coaster - First Rail Purple Coin #7",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17224,8 +17224,8 @@
   },
   {
     "name": "Rolling Coaster - First Rail Purple Coin #8",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17234,8 +17234,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #1",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17244,8 +17244,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #2",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17254,8 +17254,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #3",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17264,8 +17264,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #4",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17274,8 +17274,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #5",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17284,8 +17284,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #6",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17294,8 +17294,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #7",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17304,8 +17304,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #8",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17314,8 +17314,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #9",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17324,8 +17324,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #10",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17334,8 +17334,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #11",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17344,8 +17344,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #12",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17354,8 +17354,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #13",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17364,8 +17364,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #14",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17374,8 +17374,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #15",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17384,8 +17384,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #16",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17394,8 +17394,8 @@
   },
   {
     "name": "Rolling Coaster - First Rainbow Purple Coin #17",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17404,8 +17404,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #1",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17414,8 +17414,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #2",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17424,8 +17424,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #3",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17434,8 +17434,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #4",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17444,8 +17444,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #5",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17454,8 +17454,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #6",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17464,8 +17464,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #7",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17474,8 +17474,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #8",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17484,8 +17484,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #9",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17494,8 +17494,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #10",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17504,8 +17504,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #11",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17514,8 +17514,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #12",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17524,8 +17524,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #13",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17534,8 +17534,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #1",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17544,8 +17544,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #2",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17554,8 +17554,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #3",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17564,8 +17564,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #4",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17574,8 +17574,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #5",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17584,8 +17584,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #6",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17594,8 +17594,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #7",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17604,8 +17604,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #8",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17614,8 +17614,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #9",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17624,8 +17624,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #10",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17634,8 +17634,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #11",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17644,8 +17644,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #12",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17654,8 +17654,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #13",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17664,8 +17664,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #14",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17674,8 +17674,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #15",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17684,8 +17684,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #16",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17694,8 +17694,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #17",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17704,8 +17704,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #18",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17714,8 +17714,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #19",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17724,8 +17724,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #20",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17734,8 +17734,8 @@
   },
   {
     "name": "Rolling Coaster - Expert Path Purple Coin #21",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17744,8 +17744,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #1",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17754,8 +17754,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #2",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17764,8 +17764,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #3",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17774,8 +17774,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #4",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17784,8 +17784,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #5",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17794,8 +17794,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #6",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17804,8 +17804,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #7",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17814,8 +17814,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #8",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17824,8 +17824,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #9",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17834,8 +17834,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #10",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17844,8 +17844,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #11",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17854,8 +17854,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #12",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17864,8 +17864,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #13",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17874,8 +17874,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #14",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17884,8 +17884,8 @@
   },
   {
     "name": "Rolling Coaster - Rainbow Spiral Purple Coin #15",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17894,8 +17894,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Rail Purple Coin #1",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17904,8 +17904,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Rail Purple Coin #2",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17914,8 +17914,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Rail Purple Coin #3",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17924,8 +17924,8 @@
   },
   {
     "name": "Rolling Coaster - Platform Before Rail Purple Coin #4",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17934,8 +17934,8 @@
   },
   {
     "name": "Rolling Coaster - Jump Purple Coin #1",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17944,8 +17944,8 @@
   },
   {
     "name": "Rolling Coaster - Jump Purple Coin #2",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17954,8 +17954,8 @@
   },
   {
     "name": "Rolling Coaster - Jump Purple Coin #3",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17964,8 +17964,8 @@
   },
   {
     "name": "Rolling Coaster - Jump Purple Coin #4",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17974,8 +17974,8 @@
   },
   {
     "name": "Rolling Coaster - Jump Purple Coin #5",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17984,8 +17984,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #1",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -17994,8 +17994,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #2",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18004,8 +18004,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #3",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18014,8 +18014,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #4",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18024,8 +18024,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #5",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18034,8 +18034,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #6",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18044,8 +18044,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #7",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18054,8 +18054,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #8",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18064,8 +18064,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #9",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18074,8 +18074,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #10",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18084,8 +18084,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rainbow Purple Coin #11",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18094,8 +18094,8 @@
   },
   {
     "name": "Rolling Coaster - Final Platform Purple Coin #1",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18104,8 +18104,8 @@
   },
   {
     "name": "Rolling Coaster - Final Platform Purple Coin #2",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18114,8 +18114,8 @@
   },
   {
     "name": "Rolling Coaster - Final Platform Purple Coin #3",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18124,8 +18124,8 @@
   },
   {
     "name": "Rolling Coaster - Final Platform Purple Coin #4",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18134,8 +18134,8 @@
   },
   {
     "name": "Rolling Coaster - Final Platform Purple Coin #5",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18144,8 +18144,8 @@
   },
   {
     "name": "Rolling Coaster - Final Platform Purple Coin #6",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18154,8 +18154,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rail Purple Coin #1",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18164,8 +18164,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rail Purple Coin #2",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18174,8 +18174,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rail Purple Coin #3",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18184,8 +18184,8 @@
   },
   {
     "name": "Rolling Coaster - Final Rail Purple Coin #4",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
@@ -18194,8 +18194,8 @@
   },
   {
     "name": "Rolling Coaster - Purple Coin Ball Purple Coin",
-    "requires": "({OptOne(|Star Ball|)})",
-    "region": "Rolling Coaster Purple Coins",
+    "requires": "",
+    "region": "Rolling Coaster C - Rainbow Road",
     "category": [
       "Rolling Coaster Purple Coins",
       "Purple Coin Locations"
