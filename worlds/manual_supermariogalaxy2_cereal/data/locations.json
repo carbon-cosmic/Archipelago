@@ -7754,8 +7754,8 @@
   },
   {
     "name": "Spinning and Spinning and Spinning",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "requires": "",
+    "region": "Twisty Trials - Final",
     "category": [
       "World S",
       "Power Star Locations"
@@ -7764,8 +7764,8 @@
   },
   {
     "name": "Twisty Trials - Green Star 1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "requires": "|Can Make Clouds|",
+    "region": "Twisty Trials - Start",
     "category": [
       "World S",
       "Green Star Locations"
@@ -7774,8 +7774,8 @@
   },
   {
     "name": "Twisty Trials - 1-Up Between Planks",
-    "requires": "{OptOne(|Spin|)} OR (({OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)}) AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Triple Jump|)}))",
-    "region": "Twisty Trials Galaxy (80)",
+    "requires": "|Jump Height 3| or |Has Wall Jump|",
+    "region": "Twisty Trials - Planks",
     "category": [
       "World S",
       "1-Ups"
@@ -7784,8 +7784,8 @@
   },
   {
     "name": "Twisty Trials - 1-Up on Block Near Gears",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "requires": "",
+    "region": "Twisty Trials - Final",
     "category": [
       "World S",
       "1-Ups"
@@ -7794,8 +7794,8 @@
   },
   {
     "name": "Twisty Trials - Comet Medal",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "requires": "",
+    "region": "Twisty Trials - Final",
     "category": [
       "World S",
       "Comet Medal Locations"
@@ -7804,7 +7804,7 @@
   },
   {
     "name": "Twisty Trials - Green Star 2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Green Comets|)}",
+    "requires": "|Can Make Clouds|",
     "region": "Twisty Trials Galaxy (80)",
     "category": [
       "World S",
@@ -7814,8 +7814,8 @@
   },
   {
     "name": "Turning Turning Double Time",
-    "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Yoshi|)})) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "requires": "",
+    "region": "Twisty Trials C - Final",
     "category": [
       "World S",
       "Power Star Locations"
@@ -7824,8 +7824,8 @@
   },
   {
     "name": "Twisty Trials C - 1-Up on Block Near Start",
-    "requires": "({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "requires": "",
+    "region": "Twisty Trials C - Planks",
     "category": [
       "World S",
       "1-Ups"
@@ -7834,8 +7834,8 @@
   },
   {
     "name": "Twisty Trials C - 1-Up on Block Before Checkpoint",
-    "requires": "({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "requires": "",
+    "region": "Twisty Trials C - Planks",
     "category": [
       "World S",
       "1-Ups"
@@ -7844,8 +7844,8 @@
   },
   {
     "name": "Twisty Trials C - Checkpoint Flag",
-    "requires": "({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "requires": "",
+    "region": "Twisty Trials C - Planks",
     "category": [
       "World S",
       "Checkpoints"
@@ -7854,8 +7854,8 @@
   },
   {
     "name": "Twisty Trials C - 1-Up on Block Near Old End",
-    "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Yoshi|)})) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "requires": "",
+    "region": "Twisty Trials C - Before Final Platform",
     "category": [
       "World S",
       "1-Ups"
@@ -7863,9 +7863,9 @@
     "sort-key": "row-0771"
   },
   {
-    "name": "Twisty Trials C - 1-Up on Block in New Area #1",
-    "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Yoshi|)})) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "name": "Twisty Trials C - Final Area 1-Up #1",
+    "requires": "",
+    "region": "Twisty Trials C - Final",
     "category": [
       "World S",
       "1-Ups"
@@ -7873,9 +7873,9 @@
     "sort-key": "row-0772"
   },
   {
-    "name": "Twisty Trials C - 1-Up on Block in New Area #2",
-    "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Yoshi|)})) AND {OptOne(|Twisty Trials Comet Medal|)} AND {OptOne(|Double Time Comets|)}",
-    "region": "Twisty Trials Galaxy (80)",
+    "name": "Twisty Trials C - Final Area 1-Up #2",
+    "requires": "",
+    "region": "Twisty Trials C - Final",
     "category": [
       "World S",
       "1-Ups"

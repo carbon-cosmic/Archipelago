@@ -1755,7 +1755,32 @@
     "entrance_requires": "|Has Star Ball|"
   },
   "Twisty Trials Galaxy": {
-    "connects_to": []
+    "connects_to": ["Twisty Trials - Start", "Twisty Trials C - Start"]
+  },
+  "Twisty Trials - Start": {
+    "connects_to": ["Twisty Trials - Planks"]
+  },
+  "Twisty Trials - Planks": {
+    "connects_to": ["Twisty Trials - Final"],
+    "entrance_requires": "|Has Air Spin| or |Medium Logic|"
+  },
+  "Twisty Trials - Final": {
+
+  },
+  "Twisty Trials C - Start": {
+    "connects_to": ["Twisty Trials C - Planks"],
+    "entrance_requires": "|Has Double Time Comets| and {OptOne(|Twisty Trials Comet Medal|)}"
+  },
+  "Twisty Trials C - Planks": {
+    "connects_to": ["Twisty Trials C - Before Final Platform"],
+    "entrance_requires": "|Has Air Spin| or |Hard Logic|"
+  },
+  "Twisty Trials C - Before Final Platform": {
+    "connects_to": ["Twisty Trials C - Final"],
+    "entrance_requires": "|Has Yoshi| or |Medium Logic|"
+  },
+  "Twisty Trials C - Final": {
+
   },
   "Stone Cyclone Galaxy": {
     "connects_to": []
