@@ -8034,8 +8034,8 @@
   },
   {
     "name": "Throwback Throwdown",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Boss Blitz Galaxy (100)",
+    "requires": "",
+    "region": "Boss Blitz - Fiery Dino Piranha",
     "category": [
       "World S",
       "Power Star Locations"
@@ -8044,8 +8044,8 @@
   },
   {
     "name": "Boss Blitz - Life Mushroom Under King Kaliente",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Boss Blitz Galaxy (100)",
+    "requires": "",
+    "region": "Boss Blitz - King Kaliente",
     "category": [
       "World S",
       "Life Mushrooms"
@@ -8054,8 +8054,8 @@
   },
   {
     "name": "Boss Blitz - Comet Medal",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})",
-    "region": "Boss Blitz Galaxy (100)",
+    "requires": "|Has Air Spin| and |Jump Height 5|",
+    "region": "Boss Blitz - King Kaliente",
     "category": [
       "World S",
       "Comet Medal Locations"
@@ -8064,8 +8064,8 @@
   },
   {
     "name": "Boss Blitz - Green Star 1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Boss Blitz Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Boss Blitz Galaxy (100)",
+    "requires": "|Boss Blitz Green Stars| and |Jump Height 2|",
+    "region": "Boss Blitz - Major Burrows",
     "category": [
       "World S",
       "Green Star Locations"
@@ -8074,8 +8074,8 @@
   },
   {
     "name": "Boss Blitz - Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Boss Blitz Galaxy (100)",
+    "requires": "",
+    "region": "Boss Blitz - Bouldergeist",
     "category": [
       "World S",
       "Checkpoints"
@@ -8084,8 +8084,8 @@
   },
   {
     "name": "Boss Blitz - Luma Shop",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Boss Blitz Galaxy (100)",
+    "requires": "",
+    "region": "Boss Blitz - Bouldergeist",
     "category": [
       "World S",
       "Luma Shops"
@@ -8094,8 +8094,8 @@
   },
   {
     "name": "Boss Blitz - Green Star 2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Boss Blitz Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Boss Blitz Galaxy (100)",
+    "requires": "|Boss Blitz Green Stars|",
+    "region": "Boss Blitz - Bouldergeist",
     "category": [
       "World S",
       "Green Star Locations"
@@ -8104,8 +8104,8 @@
   },
   {
     "name": "Throwback Throwdown Speed Run",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Boss Blitz Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Boss Blitz Galaxy (100)",
+    "requires": "",
+    "region": "Boss Blitz C - Fiery Dino Piranha",
     "category": [
       "World S",
       "Power Star Locations"

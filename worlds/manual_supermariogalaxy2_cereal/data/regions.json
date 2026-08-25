@@ -1786,7 +1786,48 @@
     "connects_to": []
   },
   "Boss Blitz Galaxy": {
-    "connects_to": []
+    "connects_to": ["Boss Blitz - Dino Piranha", "Boss Blitz C - Dino Piranha"]
+  },
+  "Boss Blitz - Dino Piranha": {
+    "connects_to": ["Boss Blitz - King Kaliente"],
+    "exit_requires": "|Has Ground Spin|"
+  },
+  "Boss Blitz - King Kaliente": {
+    "connects_to": ["Boss Blitz - Major Burrows"]
+  },
+  "Boss Blitz - Major Burrows": {
+    "connects_to": ["Boss Blitz - Bouldergeist"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Boss Blitz - Bouldergeist": {
+    "connects_to": ["Boss Blitz - Asteroid"]
+  },
+  "Boss Blitz - Asteroid": {
+    "connects_to": ["Boss Blitz - Fiery Dino Piranha"]
+  },
+  "Boss Blitz - Fiery Dino Piranha": {
+
+  },
+  "Boss Blitz C - Dino Piranha": {
+    "connects_to": ["Boss Blitz C - King Kaliente"],
+    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Boss Blitz Comet Medal|)}",
+    "exit_requires": "|Has Ground Spin|"
+  },
+  "Boss Blitz C - King Kaliente": {
+    "connects_to": ["Boss Blitz C - Major Burrows"]
+  },
+  "Boss Blitz C - Major Burrows": {
+    "connects_to": ["Boss Blitz C - Bouldergeist"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Boss Blitz C - Bouldergeist": {
+    "connects_to": ["Boss Blitz C - Asteroid"]
+  },
+  "Boss Blitz C - Asteroid": {
+    "connects_to": ["Boss Blitz C - Fiery Dino Piranha"]
+  },
+  "Boss Blitz C - Fiery Dino Piranha": {
+
   },
   "Flip-Out Galaxy": {
     "connects_to": []
@@ -1796,3 +1837,17 @@
     "requires": "|Can Enter Grandmaster Galaxy|"
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
