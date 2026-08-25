@@ -8114,8 +8114,8 @@
   },
   {
     "name": "Wicked Wall Jumps",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Flip-Out Galaxy (110)",
+    "requires": "",
+    "region": "Flip-Out - Second Checkpoint",
     "category": [
       "World S",
       "Power Star Locations"
@@ -8124,8 +8124,8 @@
   },
   {
     "name": "Flip-Out - 1-Up Above Start",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Flip-Out Galaxy (110)",
+    "requires": "|Can Wall Spin|",
+    "region": "Flip-Out - Start",
     "category": [
       "World S",
       "1-Ups"
@@ -8134,8 +8134,8 @@
   },
   {
     "name": "Flip-Out - Green Star 1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Flip-Out Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Flip-Out Galaxy (110)",
+    "requires": "|Flip-Out Green Stars| and |Can Wall Spin|",
+    "region": "Flip-Out - Start",
     "category": [
       "World S",
       "Green Star Locations"
@@ -8144,8 +8144,8 @@
   },
   {
     "name": "Flip-Out - First Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Flip-Out Galaxy (110)",
+    "requires": "",
+    "region": "Flip-Out - First Checkpoint",
     "category": [
       "World S",
       "Checkpoints"
@@ -8154,8 +8154,8 @@
   },
   {
     "name": "Flip-Out - Second Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Flip-Out Galaxy (110)",
+    "requires": "",
+    "region": "Flip-Out - Second Checkpoint",
     "category": [
       "World S",
       "Checkpoints"
@@ -8164,8 +8164,8 @@
   },
   {
     "name": "Flip-Out - Final Section 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Flip-Out Galaxy (110)",
+    "requires": "",
+    "region": "Flip-Out - Second Checkpoint",
     "category": [
       "World S",
       "1-Ups"
@@ -8174,8 +8174,8 @@
   },
   {
     "name": "Flip-Out - Comet Medal",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Flip-Out Galaxy (110)",
+    "requires": "|Has Long Jump| or |Hard Logic|",
+    "region": "Flip-Out - Second Checkpoint",
     "category": [
       "World S",
       "Comet Medal Locations"
@@ -8184,8 +8184,8 @@
   },
   {
     "name": "Cosmic Clone Wall Jumpers",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Flip-Out Comet Medal|)} AND {OptOne(|Cosmic Clone Comets|)}",
-    "region": "Flip-Out Galaxy (110)",
+    "requires": "",
+    "region": "Flip-Out C - Second Checkpoint",
     "category": [
       "World S",
       "Power Star Locations"
@@ -8194,8 +8194,8 @@
   },
   {
     "name": "Flip-Out C - 1-Up Replacing Comet Medal",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Flip-Out Comet Medal|)} AND {OptOne(|Cosmic Clone Comets|)}",
-    "region": "Flip-Out Galaxy (110)",
+    "requires": "|Can Long Jump| or |Hard Logic|",
+    "region": "Flip-Out C - Second Checkpoint",
     "category": [
       "World S",
       "1-Ups"
@@ -8204,8 +8204,8 @@
   },
   {
     "name": "Flip-Out - Green Star 2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Flip-Out Comet Medal|)} AND {OptOne(|Green Comets|)} AND {OptOne(|Cosmic Clone Comets|)}",
-    "region": "Flip-Out Galaxy (110)",
+    "requires": "|Flip-Out Green Stars|",
+    "region": "Flip-Out C - Second Checkpoint",
     "category": [
       "World S",
       "Green Star Locations"

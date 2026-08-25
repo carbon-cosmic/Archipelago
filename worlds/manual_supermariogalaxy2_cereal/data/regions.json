@@ -1849,7 +1849,29 @@
 
   },
   "Flip-Out Galaxy": {
-    "connects_to": []
+    "connects_to": ["Flip-Out - Start", "Flip-Out C - Start"]
+  },
+  "Flip-Out - Start": {
+    "connects_to": ["Flip-Out - First Checkpoint"],
+    "exit_requires": "|Can Wall Spin| or (|Can Wall Jump| and |Can Ground Spin| and |Hard Logic|)"
+  },
+  "Flip-Out - First Checkpoint": {
+    "connects_to": ["Flip-Out - Second Checkpoint"],
+    "exit_requires": "|Can Wall Spin|"
+  },
+  "Flip-Out - Second Checkpoint": {
+
+  },
+  "Flip-Out C - Start": {
+    "connects_to": ["Flip-Out C - First Checkpoint"],
+    "exit_requires": "|Can Wall Spin| or (|Can Wall Jump| and |Can Ground Spin| and |Hard Logic|)"
+  },
+  "Flip-Out C - First Checkpoint": {
+    "connects_to": ["Flip-Out C - Second Checkpoint"],
+    "exit_requires": "|Can Wall Spin|"
+  },
+  "Flip-Out C - Second Checkpoint": {
+
   },
   "Grandmaster Galaxy": {
     "connects_to": [],
