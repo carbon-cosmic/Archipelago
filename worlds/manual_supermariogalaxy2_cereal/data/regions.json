@@ -7,7 +7,7 @@
   "World 1": {
     "requires": "|Grand Star (World 1 Access)|",
     "connects_to": ["Sky Station Galaxy", "Yoshi Star Galaxy", "Spin-Dig Galaxy", "Flip-Swap Galaxy",
-    "Fluffy Bluff Galaxy", "Rightside Down Galaxy", "Bowser Jr.'s Fiery Flotilla"]
+      "Fluffy Bluff Galaxy", "Rightside Down Galaxy", "Bowser Jr.'s Fiery Flotilla"]
   },
   "Sky Station Galaxy": {
     "connects_to": ["Sky Station 1 - Start Planet", "Sky Station 2 - Start Planet", "Sky Station C - Start Planet"]
@@ -583,7 +583,7 @@
   "World 3": {
     "requires": "|Grand Star (World 3 Access)|",
     "connects_to": ["Tall Trunk Galaxy", "Cloudy Court Galaxy", "Haunty Halls Galaxy",
-      "Freezy Flake Galaxy", "Rolling Masterpiece Galaxy", "Beat Block Galaxy", "Bowser Jr.'s Fearsome Fleet"]
+     "Freezy Flake Galaxy", "Rolling Masterpiece Galaxy", "Beat Block Galaxy", "Bowser Jr.'s Fearsome Fleet"]
   },
   "Tall Trunk Galaxy": {
     "connects_to": ["Tall Trunk 1 - Big Tree", "Tall Trunk 2 - Big Tree", "Tall Trunk C - Slide Start"]
@@ -804,10 +804,10 @@
   "Fearsome Fleet C - Megahammer": {
     "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Fearsome Fleet Comet Medal|)}"
   },
-    "World 4": {
-    "requires": "|Grand Star (World 4 Access)|",
-    "connects_to": ["Supermassive Galaxy", "Sweet Mystery Galaxy", "Flipsville Galaxy",
-      "Honeyhop Galaxy", "Starshine Beach Galaxy", "Chompworks Galaxy", "Bowser's Gravity Gauntlet"]
+  "World 4": {
+   "requires": "|Grand Star (World 4 Access)|",
+   "connects_to": ["Supermassive Galaxy", "Sweet Mystery Galaxy", "Flipsville Galaxy",
+     "Honeyhop Galaxy", "Starshine Beach Galaxy", "Chompworks Galaxy", "Bowser's Gravity Gauntlet"]
   },
   "Supermassive Galaxy": {
     "connects_to": ["Supermassive - Start", "Supermassive C - Start"]
@@ -1098,7 +1098,7 @@
   },
   "Honeyhop 1 - Start 2D": {
     "connects_to": ["Honeyhop 1 - Floaty Fluff"],
-    "exit_requires": "(|Has Floaty Fluff| and |Has Ground Spin|) or |Medium Logic|"
+    "exit_requires": "|Can Use Floaty Fluff| or |Medium Logic|"
   },
   "Honeyhop 1 - Floaty Fluff": {
     "connects_to": ["Honeyhop 1 - Base Lake"]
@@ -1384,11 +1384,10 @@
   "Boom Bunker C - Boss": {
 
   },
-    "World 6": {
-    "requires": "|Grand Star (World 6 Access)|",
-    "connects_to": ["Melty Monster Galaxy", "Clockwork Ruins Galaxy", "Flash Black Galaxy",
-      "Slimy Spring Galaxy", "Throwback Galaxy", "Battle Belt Galaxy", "Bowser's Galaxy Generator",
-      "Bowser's Galaxy Generator Comet"]
+  "World 6": {
+   "requires": "|Grand Star (World 6 Access)|",
+   "connects_to": ["Melty Monster Galaxy", "Clockwork Ruins Galaxy", "Flash Black Galaxy",
+     "Slimy Spring Galaxy", "Throwback Galaxy", "Battle Belt Galaxy", "Bowser's Galaxy Generator"]
   },
   "Melty Monster Galaxy": {
     "connects_to": ["Melty Monster 1 - Start", "Melty Monster 2 - Start"]
@@ -1619,16 +1618,112 @@
 
   },
   "Bowser's Galaxy Generator": {
-    "requires": "{OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}",
-    "connects_to": []
+    "entrance_requires": "|Can Enter Galaxy Generator|",
+    "connects_to": ["Galaxy Generator - Start", "Galaxy Generator C - Start"]
   },
-  "Bowser's Galaxy Generator Comet": {
-    "connects_to": []
+  "Galaxy Generator - Start": {
+    "connects_to": ["Galaxy Generator - Volcano Top"]
   },
-    "World S": {
-    "requires": "|Grand Star (World S Access)|",
-    "connects_to": ["Mario Squared Galaxy", "Rolling Coaster Galaxy", "Twisty Trials Galaxy",
-      "Stone Cyclone Galaxy", "Boss Blitz Galaxy", "Flip-Out Galaxy", "Grandmaster Galaxy"]
+  "Galaxy Generator - Volcano Top": {
+    "connects_to": ["Galaxy Generator - Volcano"],
+    "exit_requires": "|Can Use Floaty Fluff| or (|Has Long Spin| and |Hard Logic|)"
+  },
+  "Galaxy Generator - Volcano": {
+    "connects_to": ["Galaxy Generator - Spin-Drill Planet"],
+    "exit_requires": "|Has Spin-Drill|"
+  },
+  "Galaxy Generator - Spin-Drill Planet": {
+    "connects_to": ["Galaxy Generator - Cloud Cylinder Start"],
+    "exit_requires": "|Has Spin-Drill|"
+  },
+  "Galaxy Generator - Cloud Cylinder Start": {
+    "connects_to": ["Galaxy Generator - Cloud Cylinder Main", "Galaxy Generator - Cloud Cylinder Secret Path"]
+  },
+  "Galaxy Generator - Cloud Cylinder Main": {
+    "connects_to": ["Galaxy Generator - Cloud Cylinder End"],
+    "entrance_requires": "|Can Make Clouds|"
+  },
+  "Galaxy Generator - Cloud Cylinder Secret": {
+    "connects_to": ["Galaxy Generator - Cloud Cylinder End"],
+    "entrance_requires": "|Has Wall Spin| or |Has Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
+  },
+  "Galaxy Generator - Cloud Cylinder End": {
+    "connects_to": ["Galaxy Generator - Yoshi Start"]
+  },
+  "Galaxy Generator - Yoshi Start": {
+    "connects_to": ["Galaxy Generator - Yoshi Lava"],
+    "exit_requires": "|Has Yoshi| or (|Can Make Clouds| and |Has Wall Jump| and |Has Long Jump| and |Hard Logic|)"
+  },
+  "Galaxy Generator - Yoshi Lava": {
+    "connects_to": ["Galaxy Generator - Yoshi Crusher Walls"],
+    "exit_requires": "|Can Use Dash|"
+  },
+  "Galaxy Generator - Yoshi Crusher Walls": {
+    "connects_to": ["Galaxy Generator - Snake Blocks"],
+    "exit_requires": "|Can Use Dash|"
+  },
+  "Galaxy Generator - Snake Blocks": {
+    "connects_to": ["Galaxy Generator - Bowser Door"]
+  },
+  "Galaxy Generator - Bowser Door": {
+    "connects_to": ["Galaxy Generator - Bowser"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Galaxy Generator - Bowser": {
+
+  },
+  "Galaxy Generator C - Start": {
+    "connects_to": ["Galaxy Generator C - Volcano Top"],
+    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Galaxy Generator Comet Medal|)}"
+  },
+  "Galaxy Generator C - Volcano Top": {
+    "connects_to": ["Galaxy Generator C - Volcano"],
+    "exit_requires": "|Can Use Floaty Fluff| or (|Has Long Spin| and |Hard Logic|)"
+  },
+  "Galaxy Generator C - Volcano": {
+    "connects_to": ["Galaxy Generator C - Spin-Drill Planet"],
+    "exit_requires": "|Has Spin-Drill|"
+  },
+  "Galaxy Generator C - Spin-Drill Planet": {
+    "connects_to": ["Galaxy Generator C - Cloud Cylinder Start"],
+    "exit_requires": "|Has Spin-Drill|"
+  },
+  "Galaxy Generator C - Cloud Cylinder Start": {
+    "connects_to": ["Galaxy Generator C - Cloud Cylinder Main", "Galaxy Generator - Cloud Cylinder Secret Path"]
+  },
+  "Galaxy Generator C - Cloud Cylinder Main": {
+    "connects_to": ["Galaxy Generator C - Cloud Cylinder End"],
+    "entrance_requires": "|Can Make Clouds|"
+  },
+  "Galaxy Generator C - Cloud Cylinder Secret": {
+    "connects_to": ["Galaxy Generator C - Cloud Cylinder End"],
+    "entrance_requires": "|Has Wall Spin| or |Has Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
+  },
+  "Galaxy Generator C - Cloud Cylinder End": {
+    "connects_to": ["Galaxy Generator - Yoshi Start"]
+  },
+  "Galaxy Generator C - Yoshi Start": {
+    "connects_to": ["Galaxy Generator C - Yoshi Lava"],
+    "exit_requires": "|Has Yoshi| or (|Can Make Clouds| and |Has Wall Jump| and |Has Long Jump| and |Hard Logic|)"
+  },
+  "Galaxy Generator C - Yoshi Lava": {
+    "connects_to": ["Galaxy Generator C - Yoshi Crusher Walls"],
+    "exit_requires": "|Can Use Dash|"
+  },
+  "Galaxy Generator C - Yoshi Crusher Walls": {
+    "connects_to": ["Galaxy Generator C - Snake Blocks"],
+    "exit_requires": "|Can Use Dash|"
+  },
+  "Galaxy Generator C - Snake Blocks": {
+    "connects_to": ["Galaxy Generator C - Bowser Door"]
+  },
+  "Galaxy Generator C - Bowser Door": {
+
+  },
+  "World S": {
+   "requires": "|Grand Star (World S Access)|",
+   "connects_to": ["Mario Squared Galaxy", "Rolling Coaster Galaxy", "Twisty Trials Galaxy",
+     "Stone Cyclone Galaxy", "Boss Blitz Galaxy", "Flip-Out Galaxy", "Grandmaster Galaxy"]
   },
   "Mario Squared Galaxy": {
     "connects_to": ["Mario Squared Purple Coins"]

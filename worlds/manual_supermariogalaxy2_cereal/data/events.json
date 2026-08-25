@@ -144,6 +144,10 @@
     "requires": "{OptOne(|Floaty Fluff|)}"
   },
   {
+    "name": "Can Use Floaty Fluff",
+    "requires": "|Has Floaty Fluff| and |Has Ground Spin|"
+  },
+  {
     "name": "Medium Logic",
     "requires": "{YamlCompare(Logic_Difficulty >= 1)}"
   },

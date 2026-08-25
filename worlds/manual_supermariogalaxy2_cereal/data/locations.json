@@ -7165,7 +7165,7 @@
   {
     "name": "Bowser's Fortified Fortress",
     "requires": "|Has Ground Pound|",
-    "region": "Bowser's Galaxy Generator (70)",
+    "region": "Galaxy Generator - Bowser",
     "category": [
       "World 6"
     ],
@@ -7174,8 +7174,8 @@
   },
   {
     "name": "Galaxy Generator - Life Mushroom on Pole at Start",
-    "requires": "({OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}) OR ({OptAll(|Speedy Comets| AND |Galaxy Generator Comet Medal|)})",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "requires": "",
+    "region": "Galaxy Generator - Start",
     "category": [
       "World 6",
       "Life Mushrooms"
@@ -7184,8 +7184,8 @@
   },
   {
     "name": "Galaxy Generator - Green Star 1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "requires": "|Galaxy Generator Green Stars| and |Can Use Floaty Fluff|",
+    "region": "Galaxy Generator - Volcano",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -7193,9 +7193,9 @@
     "sort-key": "row-0705"
   },
   {
-    "name": "Galaxy Generator - Spin-Drill Section Checkpoint Flag",
-    "requires": "{OptAll(|Spin| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
-    "region": "Bowser's Galaxy Generator (70)",
+    "name": "Galaxy Generator - Spin-Drill Planet Checkpoint Flag",
+    "requires": "",
+    "region": "Galaxy Generator - ",
     "category": [
       "World 6",
       "Checkpoints"
@@ -7203,9 +7203,9 @@
     "sort-key": "row-0706"
   },
   {
-    "name": "Galaxy Generator - Spin-Drill Section 1-Up",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
-    "region": "Bowser's Galaxy Generator (70)",
+    "name": "Galaxy Generator - Spin-Drill Planet 1-Up",
+    "requires": "",
+    "region": "Galaxy Generator - Spin-Drill Planet",
     "category": [
       "World 6",
       "1-Ups"
@@ -7213,9 +7213,9 @@
     "sort-key": "row-0707"
   },
   {
-    "name": "Galaxy Generator - Cloud Flower Section Checkpoint Flag",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
-    "region": "Bowser's Galaxy Generator (70)",
+    "name": "Galaxy Generator - Cloud Cylinder Checkpoint Flag",
+    "requires": "",
+    "region": "Galaxy Generator - Cloud Cylinder Start",
     "category": [
       "World 6",
       "Checkpoints"
@@ -7223,9 +7223,9 @@
     "sort-key": "row-0708"
   },
   {
-    "name": "Galaxy Generator - Cloud Flower Section Secret Path 1-Up",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced Logic)}))} AND (({OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}) OR ({OptAll(|Speedy Comets| AND |Galaxy Generator Comet Medal|)}))",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator - Cloud Cylinder Secret Path 1-Up",
+    "requires": "",
+    "region": "Galaxy Generator - Cloud Cylinder Secret",
     "category": [
       "World 6",
       "1-Ups"
@@ -7234,8 +7234,8 @@
   },
   {
     "name": "Galaxy Generator - Cloud Flower Section Life Mushroom",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
-    "region": "Bowser's Galaxy Generator (70)",
+    "requires": "|Can Make Clouds| or |Medium Logic|",
+    "region": "Galaxy Generator - Cloud Cylinder Start",
     "category": [
       "World 6",
       "Life Mushrooms"
@@ -7244,8 +7244,8 @@
   },
   {
     "name": "Galaxy Generator - Cloud Flower Section ? Coin",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Cloud Flower| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
-    "region": "Bowser's Galaxy Generator (70)",
+    "requires": "",
+    "region": "Galaxy Generator - Cloud Cylinder Main",
     "category": [
       "World 6",
       "? Coins"
@@ -7253,9 +7253,9 @@
     "sort-key": "row-0711"
   },
   {
-    "name": "Galaxy Generator - Yoshi Section Checkpoint Flag",
-    "requires": "|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser's Galaxy Generator (70)",
+    "name": "Galaxy Generator - Yoshi Castle Checkpoint Flag",
+    "requires": "",
+    "region": "Galaxy Generator - Yoshi Start",
     "category": [
       "World 6",
       "Checkpoints"
@@ -7264,8 +7264,8 @@
   },
   {
     "name": "Galaxy Generator - Green Star 2",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})) AND ((|Cloud Flower| AND |Long Jump| AND (|Wall Jump| OR {YamlEnabled(Advanced Logic)})) OR (|Yoshi| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Bowser's Galaxy Generator (70)",
+    "requires": "|Galaxy Generator Green Stars| and |Can Make Clouds| and (|Has Long Jump| or |Hard Logic) and (|Has Wall Jump| or |Hard Logic|)",
+    "region": "Galaxy Generator - Yoshi Start",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -7273,9 +7273,9 @@
     "sort-key": "row-0713"
   },
   {
-    "name": "Galaxy Generator - Yoshi Section Flowers 1-Up",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})) AND ((|Cloud Flower| AND |Long Jump| AND (|Backflip| OR |Sideflip|) AND (|Wall Jump| OR {YamlEnabled(Advanced Logic)})) OR (|Yoshi| AND {YamlEnabled(Advanced Logic)})))} AND (({OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}) OR ({OptAll(|Speedy Comets| AND |Galaxy Generator Comet Medal|)}))",
-    "region": "Bowser's Galaxy Generator (70)",
+    "name": "Galaxy Generator - Yoshi Castle Flower Grapples 1-Up",
+    "requires": "|Has Yoshi|",
+    "region": "Galaxy Generator - Yoshi Lava",
     "category": [
       "World 6",
       "1-Ups"
@@ -7283,9 +7283,9 @@
     "sort-key": "row-0714"
   },
   {
-    "name": "Galaxy Generator - Snake Block Section Life Mushroom",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))}",
-    "region": "Bowser's Galaxy Generator (70)",
+    "name": "Galaxy Generator - Snake Blocks Life Mushroom",
+    "requires": "",
+    "region": "Galaxy Generator - Snake Blocks",
     "category": [
       "World 6",
       "Life Mushrooms"
@@ -7294,8 +7294,8 @@
   },
   {
     "name": "Galaxy Generator - Comet Medal",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))}",
-    "region": "Bowser's Galaxy Generator (70)",
+    "requires": "|Has Yoshi| or |Hard Logic|",
+    "region": "Galaxy Generator - Snake Blocks",
     "category": [
       "World 6",
       "Comet Medal Locations"
@@ -7304,8 +7304,8 @@
   },
   {
     "name": "Galaxy Generator - Final Checkpoint Flag",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))}",
-    "region": "Bowser's Galaxy Generator (70)",
+    "requires": "",
+    "region": "Galaxy Generator - Snake Blocks",
     "category": [
       "World 6",
       "Checkpoints"
@@ -7314,8 +7314,8 @@
   },
   {
     "name": "Galaxy Generator - Final Area Life Mushroom Behind Meteor",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))}",
-    "region": "Bowser's Galaxy Generator (70)",
+    "requires": "",
+    "region": "Galaxy Generator - Bowser Door",
     "category": [
       "World 6",
       "Life Mushrooms"
@@ -7324,8 +7324,8 @@
   },
   {
     "name": "Bowser's Big Bad Speed Run",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND |Ground Pound| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "requires": "",
+    "region": "Galaxy Generator C - Bowser Door",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -7334,8 +7334,8 @@
   },
   {
     "name": "Galaxy Generator C - Clock over Firebar",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "requires": "|Jump Height 2|",
+    "region": "Galaxy Generator C - Start",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7344,8 +7344,8 @@
   },
   {
     "name": "Galaxy Generator C - Clock by Floaty Fluff #1",
-    "requires": "{OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "requires": "",
+    "region": "Galaxy Generator C - Volcano Top",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7354,8 +7354,8 @@
   },
   {
     "name": "Galaxy Generator C - Clock by Floaty Fluff #2",
-    "requires": "{OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "requires": "",
+    "region": "Galaxy Generator C - Volcano Top",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7363,9 +7363,9 @@
     "sort-key": "row-0722"
   },
   {
-    "name": "Galaxy Generator C - Clock in Floaty Fluff Section",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Floating Volcano Clock",
+    "requires": "|Can Use Floaty Fluff|",
+    "region": "Galaxy Generator C - Volcano",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7373,9 +7373,9 @@
     "sort-key": "row-0723"
   },
   {
-    "name": "Galaxy Generator C - Clock at End of Floaty Fluff Section",
-    "requires": "{OptAll(|Spin| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Volcano End Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Volcano",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7383,9 +7383,9 @@
     "sort-key": "row-0724"
   },
   {
-    "name": "Galaxy Generator C - Spin-Drill Section Start Clock",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Spin-Drill Planet Start Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Spin-Drill Planet",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7393,9 +7393,9 @@
     "sort-key": "row-0725"
   },
   {
-    "name": "Galaxy Generator C - Spin-Drill Section Clock by Octoomba",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Spin-Drill Planet Clock by Octoomba",
+    "requires": "",
+    "region": "Galaxy Generator C - Spin-Drill Planet",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7403,9 +7403,9 @@
     "sort-key": "row-0726"
   },
   {
-    "name": "Galaxy Generator C - Spin-Drill Section Isolated Clock",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Spin-Drill Planet Isolated Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Spin-Drill Planet",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7413,9 +7413,9 @@
     "sort-key": "row-0727"
   },
   {
-    "name": "Galaxy Generator C - Spin-Drill Section Clock at End",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Spin-Drill Planet End Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Spin-Drill Planet",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7423,9 +7423,9 @@
     "sort-key": "row-0728"
   },
   {
-    "name": "Galaxy Generator C - Spin-Drill Section Launch Star Clock",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Spin-Drill Planet Launch Star Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Spin-Drill Planet",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7433,9 +7433,9 @@
     "sort-key": "row-0729"
   },
   {
-    "name": "Galaxy Generator C - Cloud Flower Section Start Clock",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Cloud Cylinder Start Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Cloud Cylinder Start",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7443,9 +7443,9 @@
     "sort-key": "row-0730"
   },
   {
-    "name": "Galaxy Generator C - Cloud Flower Section Moving Platforms Clock",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Cloud Cylinder Moving Platforms Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Cloud Cylinder Start",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7453,9 +7453,9 @@
     "sort-key": "row-0731"
   },
   {
-    "name": "Galaxy Generator C - Cloud Flower Section Secret Path Clock",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced Logic)}))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Cloud Cylinder Secret Path Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Cloud Cylinder Secret",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7463,9 +7463,9 @@
     "sort-key": "row-0732"
   },
   {
-    "name": "Galaxy Generator C - Cloud Flower Section Clock Above Dry Bones",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Cloud Cylinder Clock Above Dry Bones",
+    "requires": "",
+    "region": "Galaxy Generator C - Cloud Cylinder Start",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7473,9 +7473,9 @@
     "sort-key": "row-0733"
   },
   {
-    "name": "Galaxy Generator C - Cloud Flower Section Clock Above Lava",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Cloud Cylinder Clock Above Lava",
+    "requires": "|Can Make Clouds| or |Medium Logic|",
+    "region": "Galaxy Generator C - Cloud Cylinder Start",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7483,9 +7483,9 @@
     "sort-key": "row-0734"
   },
   {
-    "name": "Galaxy Generator C - Cloud Flower Section Big Drop Top Clock",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Cloud Flower| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Cloud Cylinder Big Drop Top Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Cloud Cylinder Main",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7493,9 +7493,9 @@
     "sort-key": "row-0735"
   },
   {
-    "name": "Galaxy Generator C - Cloud Flower Section Big Drop Bottom Clock",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Spin-Drill|)} AND ({OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Cloud Cylinder Big Drop Bottom Clock",
+    "requires": "|Can Make Clouds| or |Hard Logic|",
+    "region": "Galaxy Generator C - Cloud Cylinder End",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7503,9 +7503,9 @@
     "sort-key": "row-0736"
   },
   {
-    "name": "Galaxy Generator C - Cloud Flower Section Climb Clock",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Spin-Drill|)} AND ({OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Cloud Cylinder Climb Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Cloud Cylinder End",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7513,9 +7513,9 @@
     "sort-key": "row-0737"
   },
   {
-    "name": "Galaxy Generator C - Cloud Flower Section Launch Star Clock",
-    "requires": "({OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)}))}) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Cloud Cylinder Launch Star Clock",
+    "requires": "",
+    "region": "Galaxy Generator C - Cloud Cylinder End",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7524,8 +7524,8 @@
   },
   {
     "name": "Galaxy Generator C - Checkpoint Flag",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})) AND (|Cloud Flower| OR |Wall Jump| OR {YamlEnabled(Advanced_Logic)}))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "requires": "",
+    "region": "Galaxy Generator C - Yoshi Start",
     "category": [
       "World 6",
       "Checkpoints"
@@ -7533,9 +7533,9 @@
     "sort-key": "row-0739"
   },
   {
-    "name": "Galaxy Generator C - Yoshi Section Start Clock",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Floaty Fluff|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Spin-Drill|)} AND (({OptOne(|Yoshi|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Cloud Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Cloud Flower|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Yoshi Castle Start Clock",
+    "requires": "|Has Yoshi| or (|Can Make Clouds| and |Hard Logic|)",
+    "region": "Galaxy Generator C - Yoshi Start",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7543,9 +7543,9 @@
     "sort-key": "row-0740"
   },
   {
-    "name": "Galaxy Generator C - Dash Pepper Section Clock #1",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Yoshi Castle Dash Clock #1",
+    "requires": "|Can Use Dash| or ((|Has Yoshi| or |Has Long Jump|) and |Hard Logic|)",
+    "region": "Galaxy Generator C - Yoshi Lava",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7553,9 +7553,9 @@
     "sort-key": "row-0741"
   },
   {
-    "name": "Galaxy Generator C - Dash Pepper Section Clock #2",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Yoshi Castle Dash Clock #2",
+    "requires": "",
+    "region": "Galaxy Generator C - Yoshi Crusher Walls",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7563,9 +7563,9 @@
     "sort-key": "row-0742"
   },
   {
-    "name": "Galaxy Generator C - Snake Block Section Clock #1",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Snake Blocks Clock #1",
+    "requires": "",
+    "region": "Galaxy Generator C - Snake Blocks",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7573,9 +7573,9 @@
     "sort-key": "row-0743"
   },
   {
-    "name": "Galaxy Generator C - Snake Block Section Clock #2",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Snake Blocks Clock #2",
+    "requires": "",
+    "region": "Galaxy Generator C - Snake Blocks",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7583,9 +7583,9 @@
     "sort-key": "row-0744"
   },
   {
-    "name": "Galaxy Generator C - Snake Block Section Clock #3",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Snake Blocks Clock #3",
+    "requires": "",
+    "region": "Galaxy Generator C - Snake Blocks",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7593,9 +7593,9 @@
     "sort-key": "row-0745"
   },
   {
-    "name": "Galaxy Generator C - Snake Block Section Clock #4",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Snake Blocks Clock #4",
+    "requires": "",
+    "region": "Galaxy Generator C - Snake Blocks",
     "category": [
       "World 6",
       "Comet Clocks"
@@ -7604,8 +7604,8 @@
   },
   {
     "name": "Galaxy Generator C - Comet Medal 1-Up",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "requires": "",
+    "region": "Galaxy Generator C - Snake Blocks",
     "category": [
       "World 6",
       "1-Ups"
@@ -7613,9 +7613,9 @@
     "sort-key": "row-0747"
   },
   {
-    "name": "Galaxy Generator C - Snake Block Section Clock #5",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced Logic)})))} AND {OptOne(|Galaxy Generator Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Bowser's Galaxy Generator Comet (70)",
+    "name": "Galaxy Generator C - Snake Blocks Clock #5",
+    "requires": "",
+    "region": "Galaxy Generator C - Snake Blocks",
     "category": [
       "World 6",
       "Comet Clocks"
