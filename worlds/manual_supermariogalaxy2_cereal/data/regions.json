@@ -1874,8 +1874,56 @@
 
   },
   "Grandmaster Galaxy": {
-    "connects_to": [],
+    "connects_to": ["Grandmaster - Yoshi Minefield", "Grandmaster C - Yoshi Minefield"],
     "requires": "|Can Enter Grandmaster Galaxy|"
+  },
+  "Grandmaster - Yoshi Minefield": {
+    "connects_to": ["Grandmaster - Flipswitch Panels"],
+    "exit_requires": "|Has Yoshi|"
+  },
+  "Grandmaster - Flipswitch Panels": {
+    "connects_to": ["Grandmaster - Electric Maze"]
+  },
+  "Grandmaster - Electric Maze": {
+    "connects_to": ["Grandmaster - Flip-Swap Panels"],
+    "exit_requires": "|Can Make Clouds|"
+  },
+  "Grandmaster - Flip-Swap Panels": {
+    "connects_to": ["Grandmaster - Pull Stars"],
+    "exit_requires": "|Jump Height 4| or |Medium Logic|"
+  },
+  "Grandmaster - Pull Stars": {
+    "connects_to": ["Grandmaster - Hammer Bros."],
+    "exit_requires": "|Has Pull Stars|"
+  },
+  "Grandmaster - Hammer Bros.": {
+
+  },
+  "Grandmaster C - Yoshi Minefield": {
+    "connects_to": ["Grandmaster C - Flipswitch Panels"],
+    "exit_requires": "|Has Yoshi|"
+  },
+  "Grandmaster C - Flipswitch Panels": {
+    "connects_to": ["Grandmaster C - Electric Maze"]
+  },
+  "Grandmaster C - Electric Maze": {
+    "connects_to": ["Grandmaster C - Flip-Swap Panels"],
+    "exit_requires": "|Can Make Clouds|"
+  },
+  "Grandmaster C - Flip-Swap Panels": {
+    "connects_to": ["Grandmaster C - Pull Stars"],
+    "exit_requires": "|Jump Height 4| or |Medium Logic|"
+  },
+  "Grandmaster C - Pull Stars": {
+    "connects_to": ["Grandmaster C - Hammer Bros."],
+    "exit_requires": "|Has Pull Stars|"
+  },
+  "Grandmaster C - Hammer Bros.": {
+    "connects_to": ["Grandmaster C - Gate"],
+    "exit_requires": "|Has Long Jump| or |Hard Logic|"
+  },
+  "Grandmaster C - Gate": {
+
   }
 }
 

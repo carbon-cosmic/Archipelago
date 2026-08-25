@@ -8214,8 +8214,8 @@
   },
   {
     "name": "The Ultimate Test",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Yoshi|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Pull Stars|)} AND ({YamlEnabled(Advanced_Logic)} OR (({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND {OptOne(|Long Jump|)}))",
-    "region": "Grandmaster Galaxy (240)",
+    "requires": "|Has Long Jump| or |Medium Logic|",
+    "region": "Grandmaster - Hammer Bros.",
     "category": [
       "World S",
       "Power Star Locations"
@@ -8223,9 +8223,9 @@
     "sort-key": "row-0806"
   },
   {
-    "name": "Grandmaster - Cloud Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)}",
-    "region": "Grandmaster Galaxy (240)",
+    "name": "Grandmaster - Electric Maze Checkpoint Flag",
+    "requires": "",
+    "region": "Grandmaster - Electric Maze",
     "category": [
       "World S",
       "Checkpoints"
@@ -8233,9 +8233,9 @@
     "sort-key": "row-0807"
   },
   {
-    "name": "Grandmaster - 1-Up Above Cloud Checkpoint",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Grandmaster Galaxy (240)",
+    "name": "Grandmaster - 1-Up Above Electric Maze Checkpoint",
+    "requires": "|Can Make Clouds|",
+    "region": "Grandmaster - Electric Maze",
     "category": [
       "World S",
       "1-Ups"
@@ -8244,8 +8244,8 @@
   },
   {
     "name": "Grandmaster - Laser Rings Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)}",
-    "region": "Grandmaster Galaxy (240)",
+    "requires": "",
+    "region": "Grandmaster - Flip-Swap Panels",
     "category": [
       "World S",
       "Checkpoints"
@@ -8254,8 +8254,8 @@
   },
   {
     "name": "Grandmaster - Pull Stars Checkpoint Flag",
-    "requires": "{OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Grandmaster Galaxy (240)",
+    "requires": "",
+    "region": "Grandmaster - Pull Stars",
     "category": [
       "World S",
       "Checkpoints"
@@ -8264,8 +8264,8 @@
   },
   {
     "name": "Grandmaster - Comet Medal",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Yoshi|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Pull Stars|)} AND ({YamlEnabled(Advanced_Logic)} OR (({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND {OptOne(|Long Jump|)}))",
-    "region": "Grandmaster Galaxy (240)",
+    "requires": "",
+    "region": "Grandmaster - Hammer Bros.",
     "category": [
       "World S",
       "Comet Medal Locations"
@@ -8274,8 +8274,8 @@
   },
   {
     "name": "The Perfect Run",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Yoshi|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Pull Stars|)} AND ({YamlEnabled(Advanced_Logic)} OR (({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND {OptOne(|Long Jump|)}))) AND {OptOne(|Grandmaster Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Grandmaster Galaxy (240)",
+    "requires": "",
+    "region": "Grandmaster C - Gate",
     "category": [
       "World S"
     ],
@@ -8284,8 +8284,8 @@
   },
   {
     "name": "Grandmaster C - 1-Up Replacing Comet Medal",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Pull Stars|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))) AND {OptOne(|Grandmaster Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Grandmaster Galaxy (240)",
+    "requires": "|Has Long Jump| or |Hard Logic|",
+    "region": "Grandmaster C - Hammer Bros.",
     "category": [
       "World S",
       "1-Ups"
@@ -8294,8 +8294,8 @@
   },
   {
     "name": "Grandmaster C - 1-Up Behind the Gate",
-    "requires": "({OptOne(|Yoshi|)} AND {OptOne(|Spin|)} AND {OptOne(|Cloud Flower|)} AND {OptOne(|Pull Stars|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Long Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))) AND {OptOne(|Grandmaster Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Grandmaster Galaxy (240)",
+    "requires": "",
+    "region": "Grandmaster C - Gate",
     "category": [
       "World S",
       "1-Ups"
