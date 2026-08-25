@@ -7625,7 +7625,7 @@
   {
     "name": "Make Mario a Star",
     "requires": "",
-    "region": "Mario Squared Galaxy (70)",
+    "region": "Mario Squared - Main",
     "category": [
       "World S",
       "Power Star Locations"
@@ -7635,7 +7635,7 @@
   {
     "name": "Mario Squared - 1-Up",
     "requires": "",
-    "region": "Mario Squared Galaxy (70)",
+    "region": "Mario Squared - Main",
     "category": [
       "World S",
       "1-Ups"
@@ -7644,8 +7644,8 @@
   },
   {
     "name": "Mario Squared - Green Star 1",
-    "requires": "{OptOne(|Mario Squared Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Mario Squared Galaxy (70)",
+    "requires": "|Mario Squared Green Stars|",
+    "region": "Mario Squared - Main",
     "category": [
       "World S",
       "Green Star Locations"
@@ -7655,7 +7655,7 @@
   {
     "name": "Mario Squared - Comet Medal",
     "requires": "",
-    "region": "Mario Squared Galaxy (70)",
+    "region": "Mario Squared - Main",
     "category": [
       "World S",
       "Comet Medal Locations"
@@ -7664,8 +7664,8 @@
   },
   {
     "name": "Mario Squared - Green Star 2",
-    "requires": "{OptOne(|Mario Squared Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Mario Squared Galaxy (70)",
+    "requires": "|Mario Squared Green Stars|",
+    "region": "Mario Squared - Main",
     "category": [
       "World S",
       "Green Star Locations"
@@ -7674,8 +7674,8 @@
   },
   {
     "name": "Luigi's Purple Coin Chaos",
-    "requires": "{OptOne(|Long Jump|)} AND {OptOne(|Mario Squared Comet Medal|)} AND {OptOne(|Cosmic Clone Comets|)} AND {OptOne(|Purple Comets|)}",
-    "region": "Mario Squared Galaxy (70)",
+    "requires": "|Has Long Jump|",
+    "region": "Mario Squared C - Long Jump Coins",
     "category": [
       "World S",
       "Power Star Locations"
@@ -16105,7 +16105,7 @@
   {
     "name": "Mario Squared - Left Leg Purple Coin #1",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16115,7 +16115,7 @@
   {
     "name": "Mario Squared - Left Leg Purple Coin #2",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16125,7 +16125,7 @@
   {
     "name": "Mario Squared - Left Leg Purple Coin #3",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16135,7 +16135,7 @@
   {
     "name": "Mario Squared - Left Leg Purple Coin #4",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16145,7 +16145,7 @@
   {
     "name": "Mario Squared - Left Leg Purple Coin #5",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16155,7 +16155,7 @@
   {
     "name": "Mario Squared - Left Leg Purple Coin #6",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16165,7 +16165,7 @@
   {
     "name": "Mario Squared - Left Leg Purple Coin #7",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16175,7 +16175,7 @@
   {
     "name": "Mario Squared - Left Leg Purple Coin #8",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16185,7 +16185,7 @@
   {
     "name": "Mario Squared - Left Hand Purple Coin #1",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16195,7 +16195,7 @@
   {
     "name": "Mario Squared - Left Hand Purple Coin #2",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16205,7 +16205,7 @@
   {
     "name": "Mario Squared - Left Hand Purple Coin #3",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16215,7 +16215,7 @@
   {
     "name": "Mario Squared - Left Hand Purple Coin #4",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16225,7 +16225,7 @@
   {
     "name": "Mario Squared - Left Hand Purple Coin #5",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16235,7 +16235,7 @@
   {
     "name": "Mario Squared - Left Hand Purple Coin #6",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16245,7 +16245,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin #1",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16255,7 +16255,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin #2",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16265,7 +16265,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin #3",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16275,7 +16275,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin #4",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16285,7 +16285,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin #5",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16295,7 +16295,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin #6",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16305,7 +16305,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin #7",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16315,7 +16315,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin #8",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16325,7 +16325,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin #9",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16335,7 +16335,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin #10",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16345,7 +16345,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin in Air #1",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16355,7 +16355,7 @@
   {
     "name": "Mario Squared - Left Arm Purple Coin in Air #2",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16365,7 +16365,7 @@
   {
     "name": "Mario Squared - Back of Head Purple Coin #1",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16375,7 +16375,7 @@
   {
     "name": "Mario Squared - Back of Head Purple Coin #2",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16385,7 +16385,7 @@
   {
     "name": "Mario Squared - Back of Head Purple Coin #3",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16395,7 +16395,7 @@
   {
     "name": "Mario Squared - Back of Head Purple Coin #4",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16405,7 +16405,7 @@
   {
     "name": "Mario Squared - Back of Head Purple Coin #5",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16415,7 +16415,7 @@
   {
     "name": "Mario Squared - Back of Head Purple Coin #6",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16425,7 +16425,7 @@
   {
     "name": "Mario Squared - Back of Head Purple Coin #7",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16435,7 +16435,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #1",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16445,7 +16445,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #2",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16455,7 +16455,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #3",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16465,7 +16465,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #4",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16475,7 +16475,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #5",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16485,7 +16485,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #6",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16495,7 +16495,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #7",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16505,7 +16505,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #8",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16515,7 +16515,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #9",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16525,7 +16525,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #10",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16535,7 +16535,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #11",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16545,7 +16545,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #12",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16555,7 +16555,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #13",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16565,7 +16565,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #14",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16575,7 +16575,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #15",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16585,7 +16585,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #16",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16595,7 +16595,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #17",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16605,7 +16605,7 @@
   {
     "name": "Mario Squared - Face Purple Coin #18",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16615,7 +16615,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #1",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16625,7 +16625,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #2",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16635,7 +16635,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #3",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16645,7 +16645,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #4",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16655,7 +16655,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #5",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16665,7 +16665,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #6",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16675,7 +16675,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #7",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16685,7 +16685,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #8",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16695,7 +16695,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #9",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16705,7 +16705,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #10",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16715,7 +16715,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #11",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16725,7 +16725,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #12",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16735,7 +16735,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #13",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16745,7 +16745,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #14",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16755,7 +16755,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #15",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16765,7 +16765,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #16",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16775,7 +16775,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #17",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16785,7 +16785,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #18",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16795,7 +16795,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #19",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16805,7 +16805,7 @@
   {
     "name": "Mario Squared - Right Arm Purple Coin #20",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16815,7 +16815,7 @@
   {
     "name": "Mario Squared - Chest Purple Coin #1",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16825,7 +16825,7 @@
   {
     "name": "Mario Squared - Chest Purple Coin #2",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16835,7 +16835,7 @@
   {
     "name": "Mario Squared - Chest Purple Coin #3",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16845,7 +16845,7 @@
   {
     "name": "Mario Squared - Chest Purple Coin #4",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16855,7 +16855,7 @@
   {
     "name": "Mario Squared - Button Purple Coin #1",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16865,7 +16865,7 @@
   {
     "name": "Mario Squared - Button Purple Coin #2",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16875,7 +16875,7 @@
   {
     "name": "Mario Squared - Button Purple Coin #3",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16885,7 +16885,7 @@
   {
     "name": "Mario Squared - Button Purple Coin #4",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16895,7 +16895,7 @@
   {
     "name": "Mario Squared - Button Purple Coin #5",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16905,7 +16905,7 @@
   {
     "name": "Mario Squared - Button Purple Coin #6",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16915,7 +16915,7 @@
   {
     "name": "Mario Squared - Button Purple Coin #7",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16925,7 +16925,7 @@
   {
     "name": "Mario Squared - Button Purple Coin #8",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16934,8 +16934,8 @@
   },
   {
     "name": "Mario Squared - Button Long Jump Purple Coin #1",
-    "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Mario Squared Purple Coins",
+    "requires": "",
+    "region": "Mario Squared C - Long Jump Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16944,8 +16944,8 @@
   },
   {
     "name": "Mario Squared - Button Long Jump Purple Coin #2",
-    "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Mario Squared Purple Coins",
+    "requires": "",
+    "region": "Mario Squared C - Long Jump Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16954,8 +16954,8 @@
   },
   {
     "name": "Mario Squared - Button Long Jump Purple Coin #3",
-    "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Mario Squared Purple Coins",
+    "requires": "",
+    "region": "Mario Squared C - Long Jump Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16964,8 +16964,8 @@
   },
   {
     "name": "Mario Squared - Button Long Jump Purple Coin #4",
-    "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Mario Squared Purple Coins",
+    "requires": "",
+    "region": "Mario Squared C - Long Jump Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16974,8 +16974,8 @@
   },
   {
     "name": "Mario Squared - Button Long Jump Purple Coin #5",
-    "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Mario Squared Purple Coins",
+    "requires": "",
+    "region": "Mario Squared C - Long Jump Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16984,8 +16984,8 @@
   },
   {
     "name": "Mario Squared - Button Long Jump Purple Coin #6",
-    "requires": "({OptOne(|Long Jump|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Mario Squared Purple Coins",
+    "requires": "",
+    "region": "Mario Squared C - Long Jump Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -16995,7 +16995,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #1",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -17005,7 +17005,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #2",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -17015,7 +17015,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #3",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -17025,7 +17025,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #4",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -17035,7 +17035,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #5",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -17045,7 +17045,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #6",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -17055,7 +17055,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #7",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -17065,7 +17065,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #8",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -17075,7 +17075,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #9",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -17085,7 +17085,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #10",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"
@@ -17095,7 +17095,7 @@
   {
     "name": "Mario Squared - Right Leg Purple Coin #11",
     "requires": "",
-    "region": "Mario Squared Purple Coins",
+    "region": "Mario Squared C - Grounded Coins",
     "category": [
       "Mario Squared Purple Coins",
       "Purple Coin Locations"

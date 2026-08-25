@@ -1726,10 +1726,20 @@
      "Stone Cyclone Galaxy", "Boss Blitz Galaxy", "Flip-Out Galaxy", "Grandmaster Galaxy"]
   },
   "Mario Squared Galaxy": {
-    "connects_to": ["Mario Squared Purple Coins"]
+    "connects_to": ["Mario Squared - Main", "Mario Squared C - Grounded Coins"]
+  },
+  "Mario Squared - Main": {
+
+  },
+  "Mario Squared C - Grounded Coins": {
+    "connect_to": ["Mario Squared C - Long Jump Coins"],
+    "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and {OptOne(|Mario Squared Comet Medal|)}"
+  },
+  "Mario Squared C - Long Jump Coins": {
+    "entrance_requires": "|Has Long Jump| or |Hard Logic|"
   },
   "Rolling Coaster Galaxy": {
-    "connects_to": ["Rolling Coaster Purple Coins"]
+    "connects_to": [""]
   },
   "Twisty Trials Galaxy": {
     "connects_to": []
@@ -1745,6 +1755,6 @@
   },
   "Grandmaster Galaxy": {
     "connects_to": [],
-    "requires": "{OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}"
+    "requires": "|Can Enter Grandmaster Galaxy|"
   }
 }
