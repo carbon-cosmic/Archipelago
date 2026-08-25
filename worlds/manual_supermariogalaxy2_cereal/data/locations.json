@@ -5673,7 +5673,7 @@
   },
   {
     "name": "Shiverburn - Green Star 1",
-    "requires": "|Shiverburn Green Stars| & |Can Make Clouds|",
+    "requires": "|Shiverburn Green Stars| and |Can Make Clouds|",
     "region": "Shiverburn - Volcano Planet Ice",
     "category": [
       "World 5",
@@ -7044,8 +7044,8 @@
   },
   {
     "name": "The Deep Shell Well",
-    "requires": "{OptOne(|Koopa Shell|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "|Has Koopa Shell|",
+    "region": "Slimy Spring 1 - Sunset",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -7054,8 +7054,8 @@
   },
   {
     "name": "Slimy Spring 1 - Bonus Room Bottom Left Chest 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "|Has Koopa Shell|",
+    "region": "Slimy Spring 1 - Cave Entrance",
     "category": [
       "World 6",
       "1-Ups"
@@ -7064,8 +7064,8 @@
   },
   {
     "name": "Slimy Spring 1 - Bonus Room Middle Chest 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "|Has Koopa Shell|",
+    "region": "Slimy Spring 1 - Cave Entrance",
     "category": [
       "World 6",
       "1-Ups"
@@ -7074,8 +7074,8 @@
   },
   {
     "name": "Slimy Spring 1 - Bonus Room Top Right Chest 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "|Has Koopa Shell|",
+    "region": "Slimy Spring 1 - Cave Entrance",
     "category": [
       "World 6",
       "1-Ups"
@@ -7084,8 +7084,8 @@
   },
   {
     "name": "Slimy Spring - Comet Medal",
-    "requires": "{YamlEnabled(Advanced_Logic)} OR ({OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)})",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "",
+    "region": "Slimy Spring 1 - Underwater Cave",
     "category": [
       "World 6",
       "Comet Medal Locations"
@@ -7094,8 +7094,8 @@
   },
   {
     "name": "Slimy Spring - Green Star 1",
-    "requires": "({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)})) AND {OptOne(|Slimy Spring Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "|Slimy Spring Green Stars| and (|Hard Logic| or (|Medium Logic| and |Has Ground Spin|) or |Has Koopa Shell|)",
+    "region": "Slimy Spring 1 - Underwater Cave",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -7104,8 +7104,8 @@
   },
   {
     "name": "Slimy Spring 1 - 1-Up Below Launch Star",
-    "requires": "({OptOne(|Koopa Shell|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)})",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "",
+    "region": "Slimy Spring 1 - Underwater Cave End",
     "category": [
       "World 6",
       "1-Ups"
@@ -7114,8 +7114,8 @@
   },
   {
     "name": "Slimy Spring - Green Star 2",
-    "requires": "(({OptOne(|Koopa Shell|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)})) AND {OptAll(|Green Comets| AND |Slimy Spring Comet Medal|)}",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "|Slimy Spring Green Stars|",
+    "region": "Slimy Spring 1 - Underwater Cave End",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -7124,8 +7124,8 @@
   },
   {
     "name": "Slimy Spring 1 - Checkpoint Flag",
-    "requires": "({OptOne(|Koopa Shell|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)})",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "",
+    "region": "Slimy Spring 1 - Well Entrance",
     "category": [
       "World 6",
       "Checkpoints"
@@ -7134,8 +7134,8 @@
   },
   {
     "name": "Slimy Spring 1 - 1-Up by Checkpoint",
-    "requires": "({OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {OptOne(|Long Jump|)})) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Spin|)} OR {OptOne(|Koopa Shell|)}))",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "|Has Air Spin| or |Medium Logic|",
+    "region": "Slimy Spring 1 - Well Entrance",
     "category": [
       "World 6",
       "1-Ups"
@@ -7144,8 +7144,8 @@
   },
   {
     "name": "The Chimp's Coin Challenge",
-    "requires": "{OptOne(|Koopa Shell|)} AND |Chimp Letter Slimy Spring| AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "|Has Koopa Shell|",
+    "region": "Slimy Spring 2 - Well",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -7154,17 +7154,17 @@
   },
   {
     "name": "Slimy Spring 2 - Side Tunnel 1-Up",
-    "requires": "|Chimp Letter Slimy Spring| AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)}))",
-    "region": "Slimy Spring Galaxy (55)",
+    "requires": "",
+    "region": "Slimy Spring 2 - Underwater Cave",
     "category": [
       "World 6",
       "1-Ups"
     ],
-    "sort-key": "row-0702"
+    "sort-key": "row-0702a"
   },
   {
     "name": "Bowser's Fortified Fortress",
-    "requires": "{OptAll(|Spin| AND |Spin-Drill| AND |Yoshi| AND |Dash Pepper| AND |Ground Pound| AND (|Wall Jump| OR |Cloud Flower| OR {YamlEnabled(Advanced_Logic)}) AND (|Floaty Fluff| OR (|Long Jump| AND {YamlEnabled(Advanced_Logic)})))}",
+    "requires": "|Has Ground Pound|",
     "region": "Bowser's Galaxy Generator (70)",
     "category": [
       "World 6"

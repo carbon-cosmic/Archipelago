@@ -1573,7 +1573,50 @@
     "entrance_requires": "|Has Romp Comets| and {OptOne(|Flash Black Comet Medal|)}"
   },
   "Slimy Spring Galaxy": {
-    "connects_to": []
+    "connects_to": ["Slimy Spring 1 - Cave Entrance", "Slimy Spring 2 - Cave Entrance"]
+  },
+  "Slimy Spring 1 - Cave Entrance": {
+    "connects_to": ["Slimy Spring 1 - Underwater Cave"]
+  },
+  "Slimy Spring 1 - Underwater Cave": {
+    "connects_to": ["Slimy Spring 1 - Underwater Cave End"],
+    "entrance_requires": "|Can Swim| and (|Has Koopa Shell| or |Medium Logic|)"
+  },
+  "Slimy Spring 1 - Underwater Cave End": {
+    "connects_to": ["Slimy Spring 1 - Well Entrance"],
+    "entrance_requires": "|Has Koopa Shell| or (|Hard Logic| and |Has Ground Spin|)"
+  },
+  "Slimy Spring 1 - Well Entrance": {
+    "connects_to": ["Slimy Spring 1 - Well"]
+  },
+  "Slimy Spring 1 - Well": {
+    "connects_to": ["Slimy Spring 1 - Sunset"],
+    "entrance_requires": "|Can Swim|"
+  },
+  "Slimy Spring 1 - Sunset": {
+
+  },
+  "Slimy Spring 2 - Cave Entrance": {
+    "connects_to": ["Slimy Spring 2 - Underwater Cave"],
+    "entrance_requires": "|Slimy Spring Chimp Letter|"
+  },
+  "Slimy Spring 2 - Underwater Cave": {
+    "connects_to": ["Slimy Spring 2 - Underwater Cave End"],
+    "entrance_requires": "|Can Swim| and (|Has Koopa Shell| or |Medium Logic|)"
+  },
+  "Slimy Spring 2 - Underwater Cave End": {
+    "connects_to": ["Slimy Spring 2 - Well Entrance"],
+    "entrance_requires": "|Has Koopa Shell| or (|Hard Logic| and |Has Ground Spin|)"
+  },
+  "Slimy Spring 2 - Well Entrance": {
+    "connects_to": ["Slimy Spring 2 - Well"]
+  },
+  "Slimy Spring 2 - Well": {
+    "connects_to": ["Slimy Spring 2 - Sunset"],
+    "entrance_requires": "|Can Swim|"
+  },
+  "Slimy Spring 2 - Sunset": {
+
   },
   "Bowser's Galaxy Generator": {
     "requires": "{OptionCount(@Power and Grand Stars,Power_Stars_Required_to_Reach_Goal)} AND {OptionCount(@Green Stars,Green_Stars_Required_to_Reach_Goal)}",
