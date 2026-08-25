@@ -1783,7 +1783,26 @@
 
   },
   "Stone Cyclone Galaxy": {
-    "connects_to": []
+    "connects_to": ["Stone Cyclone - Start", "Stone Cyclone - Start"]
+  },
+  "Stone Cyclone - Start": {
+    "connects_to": ["Stone Cyclone - Circling Stones"]
+  },
+  "Stone Cyclone - Circling Stones": {
+    "connects_to": ["Stone Cyclone - Tox Box Paths"],
+    "entrance_requires": "|Has Ground Pound| or |Medium Logic|"
+  },
+  "Stone Cyclone - Tox Box Paths": {
+    "entrance_requires": "|Has Air Spin| or |Medium Logic|"
+  },
+  "Stone Cyclone C - Start": {
+    "connects_to": ["Stone Cyclone C - Circling Stones"]
+  },
+  "Stone Cyclone C - Circling Stones": {
+    "connects_to": ["Stone Cyclone C - Tox Box Paths"]
+  },
+  "Stone Cyclone C - Tox Box Paths": {
+
   },
   "Boss Blitz Galaxy": {
     "connects_to": ["Boss Blitz - Dino Piranha", "Boss Blitz C - Dino Piranha"]

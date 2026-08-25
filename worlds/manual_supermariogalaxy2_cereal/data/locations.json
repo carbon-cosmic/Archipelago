@@ -7884,8 +7884,8 @@
   },
   {
     "name": "Silver Stars on the Cyclone",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}) OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "",
+    "region": "Stone Cyclone - Tox Box Paths",
     "category": [
       "World S",
       "Power Star Locations"
@@ -7895,7 +7895,7 @@
   {
     "name": "Stone Cyclone - Comet Medal",
     "requires": "",
-    "region": "Stone Cyclone Galaxy (90)",
+    "region": "Stone Cyclone - Circling Stones",
     "category": [
       "World S",
       "Comet Medal Locations"
@@ -7903,9 +7903,9 @@
     "sort-key": "row-0775"
   },
   {
-    "name": "Stone Cyclone - 1-Up After Spinning Platforms",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}) OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "name": "Stone Cyclone - 1-Up After Circling Stones",
+    "requires": "",
+    "region": "Stone Cyclone - Tox Box Paths",
     "category": [
       "World S",
       "1-Ups"
@@ -7914,8 +7914,8 @@
   },
   {
     "name": "Stone Cyclone - Green Star 1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Triple Jump|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "|Jump Height 6| and |Stone Cyclone Green Stars|",
+    "region": "Stone Cyclone - Tox Box Paths",
     "category": [
       "World S",
       "Green Star Locations"
@@ -7924,8 +7924,8 @@
   },
   {
     "name": "Stone Cyclone - Green Star 2",
-    "requires": "{OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}) AND {OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "|Stone Cyclone Green Stars| and |Can Long Spin|",
+    "region": "Stone Cyclone - Tox Box Paths",
     "category": [
       "World S",
       "Green Star Locations"
@@ -7934,8 +7934,8 @@
   },
   {
     "name": "Stone Cyclone - Shrinking Platforms 1-Up",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}) OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "",
+    "region": "Stone Cyclone - Tox Box Paths",
     "category": [
       "World S",
       "1-Ups"
@@ -7944,8 +7944,8 @@
   },
   {
     "name": "Tox Box Speed Run",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)} AND {OptOne(|Stone Cyclone Clock:6|)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "|Has Ground Spin|",
+    "region": "Stone Cyclone C - Tox Box Paths",
     "category": [
       "World S",
       "Power Star Locations"
@@ -7954,8 +7954,8 @@
   },
   {
     "name": "Stone Cyclone C - Clock at Start",
-    "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "",
+    "region": "Stone Cyclone C - Start",
     "category": [
       "World S",
       "Comet Clocks"
@@ -7964,8 +7964,8 @@
   },
   {
     "name": "Stone Cyclone C - Clock by First Thwomp",
-    "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "",
+    "region": "Stone Cyclone C - Start",
     "category": [
       "World S",
       "Comet Clocks"
@@ -7973,9 +7973,9 @@
     "sort-key": "row-0782"
   },
   {
-    "name": "Stone Cyclone C - Clock on Ledge by Spinning Platforms",
-    "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "name": "Stone Cyclone C - Clock on Platform by Circling Stones",
+    "requires": "",
+    "region": "Stone Cyclone C - Circling Stones",
     "category": [
       "World S",
       "Comet Clocks"
@@ -7984,8 +7984,8 @@
   },
    {
     "name": "Stone Cyclone C - 1-Up on Sliding Stone Blocks",
-    "requires": "{OptOne(|Speedy Comets|)} AND {OptOne(|Stone Cyclone Comet Medal)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "",
+    "region": "Stone Cyclone C - Circling Stones",
     "category": [
       "World S",
       "1-Ups"
@@ -7993,9 +7993,9 @@
     "sort-key": "row-0783a"
   },
   {
-    "name": "Stone Cyclone C - Clock After Spinning Platforms",
-    "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "name": "Stone Cyclone C - Clock After Circling Stones",
+    "requires": "",
+    "region": "Stone Cyclone C - Tox Box Paths",
     "category": [
       "World S",
       "Comet Clocks"
@@ -8004,8 +8004,8 @@
   },
   {
     "name": "Stone Cyclone C - 1-Up on Tox Box Path",
-    "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "",
+    "region": "Stone Cyclone C - Tox Box Paths",
     "category": [
       "World S",
       "1-Ups"
@@ -8014,8 +8014,8 @@
   },
   {
     "name": "Stone Cyclone C - Clock at Corner",
-    "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "",
+    "region": "Stone Cyclone C - Tox Box Paths",
     "category": [
       "World S",
       "Comet Clocks"
@@ -8024,8 +8024,8 @@
   },
   {
     "name": "Stone Cyclone C - Clock Before End",
-    "requires": "{OptOne(|Stone Cyclone Comet Medal|)} AND {OptOne(|Speedy Comets|)}",
-    "region": "Stone Cyclone Galaxy (90)",
+    "requires": "",
+    "region": "Stone Cyclone C - Tox Box Paths",
     "category": [
       "World S",
       "Comet Clocks"
