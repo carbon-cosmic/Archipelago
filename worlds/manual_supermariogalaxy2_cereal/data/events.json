@@ -232,7 +232,7 @@
     "requires": "|Has Wall Spin| or (|Has Air Spin| and |Medium Logic|) or |Hard Logic|"
   },
   {
-    "name": "Jack o'Goomba Teleporter",
+    "name": "Jack O'Goomba Teleporter",
     "requires": "|Has Ground Pound| or (|Hard Logic| and |Has Ground Spin|)"
   },
 

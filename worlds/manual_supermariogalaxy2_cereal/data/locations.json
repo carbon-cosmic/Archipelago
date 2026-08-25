@@ -3274,7 +3274,7 @@
   },
   {
     "name": "Haunty Halls - Teleporter 1-Up #1",
-    "requires": "|Jack o'Goomba Teleporter|",
+    "requires": "|Jack O'Goomba Teleporter|",
     "region": "Haunty Halls 1 - Start",
     "category": [
       "World 3",
@@ -3284,7 +3284,7 @@
   },
   {
     "name": "Haunty Halls - Teleporter 1-Up #2",
-    "requires": "|Jack o'Goomba Teleporter|",
+    "requires": "|Jack O'Goomba Teleporter|",
     "region": "Haunty Halls - Start",
     "category": [
       "World 3",
@@ -3294,7 +3294,7 @@
   },
   {
     "name": "Haunty Halls - Teleporter 1-Up #3",
-    "requires": "|Jack o'Goomba Teleporter|",
+    "requires": "|Jack O'Goomba Teleporter|",
     "region": "Haunty Halls 1 - Start",
     "category": [
       "World 3",
@@ -5833,7 +5833,7 @@
   },
   {
     "name": "Boo Moon 1 - Teleporter 1-Up #1",
-    "requires": "|Jack o'Goomba Teleporter|",
+    "requires": "|Jack O'Goomba Teleporter|",
     "region": "Boo Moon 1 - Dark Maze)",
     "category": [
       "World 5",
@@ -5843,7 +5843,7 @@
   },
   {
     "name": "Boo Moon 1 - Teleporter 1-Up #2",
-    "requires": "|Jack o'Goomba Teleporter|",
+    "requires": "|Jack O'Goomba Teleporter|",
     "region": "Boo Moon 1 - Dark Maze",
     "category": [
       "World 5",
@@ -5853,7 +5853,7 @@
   },
   {
     "name": "Boo Moon 1 - Teleporter 1-Up #3",
-    "requires": "|Jack o'Goomba Teleporter|",
+    "requires": "|Jack O'Goomba Teleporter|",
     "region": "Boo Moon 1 - Dark Maze",
     "category": [
       "World 5",
@@ -6793,7 +6793,7 @@
   },
   {
     "name": "Throwback - Green Star 2",
-    "requires": "|Throwback Green Stars| and |Has Air Spin| and (|Has Wall Jump| or |Medium Logic|",
+    "requires": "|Throwback Green Stars| and |Can Climb Whomps|",
     "region": "Throwback Galaxy (60)",
     "category": [
       "World 6",
@@ -6833,8 +6833,8 @@
   },
   {
     "name": "Mini-Planet Mega-Run",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "",
+    "region": "Battle Belt - Silver Chomps",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -6844,7 +6844,7 @@
   {
     "name": "Battle Belt - Comet Medal",
     "requires": "",
-    "region": "Battle Belt Galaxy (65)",
+    "region": "Battle Belt - Lil' Cinders",
     "category": [
       "World 6",
       "Comet Medal Locations"
@@ -6853,8 +6853,8 @@
   },
   {
     "name": "Battle Belt - Blue Crabber 1-Up",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "",
+    "region": "Battle Belt - Crabbers",
     "category": [
       "World 6",
       "1-Ups"
@@ -6863,8 +6863,8 @@
   },
   {
     "name": "Battle Belt - Purple Starshroom Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "",
+    "region": "Battle Belt - Starshroom #1",
     "category": [
       "World 6",
       "Checkpoints"
@@ -6873,8 +6873,8 @@
   },
   {
     "name": "Battle Belt - Green Star 1",
-    "requires": "({OptOne(|Spin|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Battle Belt Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "|Battle Belt Green Stars| and |Jump Height 3|",
+    "region": "Battle Belt - Jack O'Goombas",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -6883,8 +6883,8 @@
   },
   {
     "name": "Battle Belt - Red Starshroom Checkpoint Flag",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Koopa Shell|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "",
+    "region": "Battle Belt - Starshroom #2",
     "category": [
       "World 6",
       "Checkpoints"
@@ -6893,8 +6893,8 @@
   },
   {
     "name": "Battle Belt - Red Starshroom Luma Shop",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Koopa Shell|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "|Has Fire Flower| or |Hard Logic|",
+    "region": "Battle Belt - Starshroom #2",
     "category": [
       "World 6",
       "Luma Shops"
@@ -6903,8 +6903,8 @@
   },
   {
     "name": "Battle Belt - Green Star 2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Koopa Shell|)} AND (({OptOne(|Fire Flower|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Battle Belt Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "|Narrow Jump 5| or (|Jump Height 6| and |Hard Logic|)",
+    "region": "Battle Belt - Undergrunts",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -6913,8 +6913,8 @@
   },
   {
     "name": "Battle Belt - Green Star 3",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Battle Belt Comet Medal|)} AND {OptOne(|Green Comets|)}",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "|Battle Belt Green Stars| and |Jump Height 3|",
+    "region": "Battle Belt - Silver Chomps",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -6923,8 +6923,8 @@
   },
   {
     "name": "Mini-Planet Daredevil Run",
-    "requires": "({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))) AND {OptOne(|Battle Belt Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "",
+    "region": "Battle Belt C - Silver Chomps",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -6933,8 +6933,8 @@
   },
   {
     "name": "Battle Belt C - 1-Up Over Lava Pool",
-    "requires": "{OptOne(|Battle Belt Comet Medal|)} AND {OptOne(|Daredevil Comets|)}",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "",
+    "region": "Battle Belt C - Lil' Cinders",
     "category": [
       "World 6",
       "1-Ups",
@@ -6944,8 +6944,8 @@
   },
   {
     "name": "Snacktime for Gobblegut",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Fire Flower|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Battle Belt Galaxy (65)",
+    "requires": "|Has Ground Spin|",
+    "region": "Battle Belt - Gobblegut",
     "category": [
       "World 6",
       "Power Star Locations"

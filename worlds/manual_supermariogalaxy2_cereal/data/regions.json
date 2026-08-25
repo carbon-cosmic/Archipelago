@@ -1468,7 +1468,93 @@
     "entrance_requires": "|Has Speedy Comets| and {OptOne(|Throwback Comet Medal|)}"
   },
   "Battle Belt Galaxy": {
-    "connects_to": []
+    "connects_to": ["Battle Belt - Goomba Planet", "Battle Belt C - Goomba Planet"]
+  },
+  "Battle Belt - Goomba": {
+    "connects_to": ["Battle Belt - Lil' Cinders"]
+  },
+  "Battle Belt - Lil' Cinders": {
+    "connects_to": ["Battle Belt - Urchins"],
+    "exit_requires": "|Has Ground Spin|"
+  },
+  "Battle Belt - Urchins Planet": {
+    "connects_to": ["Battle Belt - Crabbers"],
+    "exit_requires": "|Has Fire| or (|Jump Height 6| and |Hard Logic|)"
+  },
+  "Battle Belt - Crabbers": {
+    "connects_to": ["Battle Belt - Starshroom #1"]
+  },
+  "Battle Belt - Starshroom #1": {
+    "connects_to": ["Battle Belt - Jack O'Goombas"]
+  },
+  "Battle Belt - Jack O'Goombas": {
+    "connects_to": ["Battle Belt - Boos"],
+    "exit_requires": "|Has Ground Pound| or |Has Ground Spin|"
+  },
+  "Battle Belt - Boos": {
+    "connects_to": ["Battle Belt - Starshroom #2"],
+    "exit_requires": "|Can Swim| and |Has Koopa Shell|"
+  },
+  "Battle Belt - Starshroom #2": {
+    "connects_to": ["Battle Belt - Lil' Brrs"]
+  },
+  "Battle Belt - Lil' Brrs": {
+    "connects_to": ["Battle Belt - Undergrunts", "Battle Belt S - Gobblegut"]
+  },
+  "Battle Belt - Undergrunts": {
+    "connects_to": ["Battle Belt - Swaphoppers"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Battle Belt - Swaphoppers": {
+    "connects_to": ["Battle Belt - Silver Chomps"]
+  },
+  "Battle Belt - Silver Chomps": {
+
+  },
+  "Battle Belt C - Goomba": {
+    "connects_to": ["Battle Belt C - Lil' Cinders"],
+    "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Battle Belt Comet Medal|)}"
+  },
+  "Battle Belt C - Lil' Cinders": {
+    "connects_to": ["Battle Belt C - Urchins"],
+    "exit_requires": "|Has Ground Spin|"
+  },
+  "Battle Belt C - Urchins": {
+    "connects_to": ["Battle Belt C - Crabbers"],
+    "exit_requires": "|Has Fire| or (|Jump Height 6| and |Hard Logic|)"
+  },
+  "Battle Belt C - Crabbers": {
+    "connects_to": ["Battle Belt C - Starshroom #1"]
+  },
+  "Battle Belt C - Starshroom #1": {
+    "connects_to": ["Battle Belt C - Jack O'Goombas"]
+  },
+  "Battle Belt C - Jack O'Goombas": {
+    "connects_to": ["Battle Belt C - Boos"],
+    "exit_requires": "|Has Ground Pound| or |Has Ground Spin|"
+  },
+  "Battle Belt C - Boos": {
+    "connects_to": ["Battle Belt C - Starshroom #2"],
+    "exit_requires": "|Can Swim| and |Has Koopa Shell|"
+  },
+  "Battle Belt C - Starshroom #2": {
+    "connects_to": ["Battle Belt C - Lil' Brrs"]
+  },
+  "Battle Belt C - Lil' Brrs": {
+    "connects_to": ["Battle Belt C - Undergrunts Planet"]
+  },
+  "Battle Belt C - Undergrunts": {
+    "connects_to": ["Battle Belt C - Swaphoppers"],
+    "exit_requires": "|Has Ground Pound|"
+  },
+  "Battle Belt C - Swaphoppers": {
+    "connects_to": ["Battle Belt C - Silver Chomps"]
+  },
+  "Battle Belt C - Silver Chomps": {
+
+  },
+  "Battle Belt S - Gobblegut": {
+
   },
   "Flash Black Galaxy": {
     "connects_to": ["Flash Black - Outside Manor", "Flash Black C - Dark Path"]
