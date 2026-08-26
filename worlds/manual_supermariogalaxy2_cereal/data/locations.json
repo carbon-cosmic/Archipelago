@@ -4789,7 +4789,7 @@
   {
     "name": "Cosmic Clones in the Chompworks",
     "requires": "|Has Ground Pound|",
-    "region": "Chompworks 3 - Lava Chomp Planet",
+    "region": "Chompworks C - Lava Chomp Planet",
     "category": [
       "World 4",
       "Power Star Locations"
@@ -5180,7 +5180,7 @@
   {
     "name": "Gravity Gauntlet C - Clock on Crate at Start",
     "requires": "",
-    "region": "Gravity Gauntlet C - Start ",
+    "region": "Gravity Gauntlet C - Start",
     "category": [
       "World 4",
       "Comet Clocks"
@@ -5594,7 +5594,7 @@
   {
     "name": "Slipsand 2 - Start Life Mushroom",
     "requires": "",
-    "region": "Slipsand 2 - Sandy Tube Start",
+    "region": "Slipsand 2 - Sand Tube Start",
     "category": [
       "World 5",
       "Life Mushrooms"
@@ -5604,7 +5604,7 @@
   {
     "name": "Slipsand 2 - Sand Tube End 1-Up #1",
     "requires": "|Has Air Spin|",
-    "region": "Slipsand 2 - Sandy Tube End",
+    "region": "Slipsand 2 - Sand Tube End",
     "category": [
       "World 5",
       "1-Ups"
@@ -5614,7 +5614,7 @@
   {
     "name": "Slipsand 2 - Sand Tube End 1-Up #2",
     "requires": "|Has Air Spin|",
-    "region": "Slipsand 2 - Sandy Tube End",
+    "region": "Slipsand 2 - Sand Tube End",
     "category": [
       "World 5",
       "1-Ups"
@@ -5624,7 +5624,7 @@
   {
     "name": "Slipsand 2 - Sand Tube End 1-Up #3",
     "requires": "|Has Air Spin|",
-    "region": "Slipsand 2 - Sandy Tube End",
+    "region": "Slipsand 2 - Sand Tube End",
     "category": [
       "World 5",
       "1-Ups"
@@ -5844,7 +5844,7 @@
   {
     "name": "Silver Stars Pop-Up",
     "requires": "|Has Ground Pound|",
-    "region": "Boo Moon - Pop-Up Book",
+    "region": "Boo Moon 1 - Pop-Up Book",
     "category": [
       "World 5",
       "Power Star Locations"
@@ -5854,7 +5854,7 @@
   {
     "name": "Boo Moon 1 - Teleporter 1-Up #1",
     "requires": "|Jack O'Goomba Teleporter|",
-    "region": "Boo Moon 1 - Dark Maze)",
+    "region": "Boo Moon 1 - Dark Maze",
     "category": [
       "World 5",
       "1-Ups"
@@ -6414,7 +6414,7 @@
   {
     "name": "A Stroll Down Rolling Lane",
     "requires": "",
-    "region": "Melty Monster 2 - Rolling Lane)",
+    "region": "Melty Monster 2 - Rolling Lane",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -6965,7 +6965,7 @@
   {
     "name": "Snacktime for Gobblegut",
     "requires": "|Has Ground Spin|",
-    "region": "Battle Belt - Gobblegut",
+    "region": "Battle Belt S - Gobblegut",
     "category": [
       "World 6",
       "Power Star Locations"

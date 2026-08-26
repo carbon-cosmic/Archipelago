@@ -1640,7 +1640,7 @@
     "exit_requires": "|Has Spin-Drill|"
   },
   "Galaxy Generator - Cloud Cylinder Start": {
-    "connects_to": ["Galaxy Generator - Cloud Cylinder Main", "Galaxy Generator - Cloud Cylinder Secret Path"]
+    "connects_to": ["Galaxy Generator - Cloud Cylinder Main", "Galaxy Generator - Cloud Cylinder Secret"]
   },
   "Galaxy Generator - Cloud Cylinder Main": {
     "connects_to": ["Galaxy Generator - Cloud Cylinder End"],
@@ -1692,7 +1692,7 @@
     "exit_requires": "|Has Spin-Drill|"
   },
   "Galaxy Generator C - Cloud Cylinder Start": {
-    "connects_to": ["Galaxy Generator C - Cloud Cylinder Main", "Galaxy Generator - Cloud Cylinder Secret Path"]
+    "connects_to": ["Galaxy Generator C - Cloud Cylinder Main", "Galaxy Generator C - Cloud Cylinder Secret"]
   },
   "Galaxy Generator C - Cloud Cylinder Main": {
     "connects_to": ["Galaxy Generator C - Cloud Cylinder End"],
@@ -1703,7 +1703,7 @@
     "entrance_requires": "|Has Wall Spin| or |Has Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
   },
   "Galaxy Generator C - Cloud Cylinder End": {
-    "connects_to": ["Galaxy Generator - Yoshi Start"]
+    "connects_to": ["Galaxy Generator C - Yoshi Start"]
   },
   "Galaxy Generator C - Yoshi Start": {
     "connects_to": ["Galaxy Generator C - Yoshi Lava"],
@@ -1735,7 +1735,7 @@
 
   },
   "Mario Squared C - Grounded Coins": {
-    "connect_to": ["Mario Squared C - Long Jump Coins"],
+    "connects_to": ["Mario Squared C - Long Jump Coins"],
     "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and {OptOne(|Mario Squared Comet Medal|)}"
   },
   "Mario Squared C - Long Jump Coins": {
@@ -1751,7 +1751,7 @@
     "entrance_requires": "|Has Star Ball|"
   },
   "Rolling Coaster C - Start": {
-    "connects_to": ["Rolling Coaster - Rainbow Road"],
+    "connects_to": ["Rolling Coaster C - Rainbow Road"],
     "entrance_requires": "|Has Purple Comets| and {OptOne(|Rolling Coaster Comet Medal|)}"
   },
   "Rolling Coaster C - Rainbow Road": {
@@ -1786,7 +1786,7 @@
 
   },
   "Stone Cyclone Galaxy": {
-    "connects_to": ["Stone Cyclone - Start", "Stone Cyclone - Start"]
+    "connects_to": ["Stone Cyclone - Start", "Stone Cyclone C - Start"]
   },
   "Stone Cyclone - Start": {
     "connects_to": ["Stone Cyclone - Circling Stones"]
