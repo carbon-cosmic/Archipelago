@@ -863,7 +863,7 @@
 
   },
   "Flipsville Galaxy": {
-    "connects_to": ["Flipsville 1 - Start", "Flipsville 2 - Start", "Flipsville C - Purple Coins"]
+    "connects_to": ["Flipsville 1 - Start", "Flipsville 2 - Start", "Flipsville C - Purple Coins Start"]
   },
   "Flipsville 1 - Start": {
     "connects_to": ["Flipsville 1 - Below Start", "Flipsville 1 - Start Intermediate", "Flipsville 1 - Tele Intermediate"],
@@ -943,7 +943,7 @@
     "entrance_requires": "|Has Spin-Drill|"
   },
   "Starshine Beach Galaxy": {
-    "connects_to": ["Starshine Beach 1 - Start", "Starshine Beach 2 - Start", "Starshine Beach C - Beginning"]
+    "connects_to": ["Starshine Beach 1 - Start", "Starshine Beach 2 - Start", "Starshine Beach C - Shallows"]
   },
   "Starshine Beach 1 - Start": {
     "connects_to": ["Starshine Beach 1 - Beach"],
@@ -1115,7 +1115,7 @@
   "Honeyhop 1 - Queen Bee": {
 
   },
-  "Honeyhop 2 - Start": {
+  "Honeyhop 2 - Base Lake": {
     "connects_to": ["Honeyhop 2 - Bubble Shooters"],
     "entrance_requires": "Honeyhop Chimp Letter"
   },
@@ -1316,7 +1316,7 @@
     "connects_to": ["Upside Dizzy - Start"]
   },
   "Upside Dizzy - Start": {
-    "connects_to": ["Upside Dizzy - Gearmo", "Upside Dizzy - Moving Platform"]
+    "connects_to": ["Upside Dizzy S - Gearmo", "Upside Dizzy - Moving Platform"]
   },
   "Upside Dizzy - Moving Platform": {
     "connects_to": ["Upside Dizzy - Gravity Swap"],

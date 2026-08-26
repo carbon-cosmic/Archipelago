@@ -311,6 +311,14 @@
     "progression": true
   },
   {
+    "count": 2,
+    "name": "Progressive Spin",
+    "category": [
+      "Moves"
+    ],
+    "progression": true
+  },
+  {
     "count": 1,
     "name": "Pull Stars",
     "category": [
@@ -353,6 +361,14 @@
   {
     "count": 1,
     "name": "Triple Jump",
+    "category": [
+      "Moves"
+    ],
+    "progression": true
+  },
+  {
+    "count": 2,
+    "name": "Progressive Triple Jump",
     "category": [
       "Moves"
     ],

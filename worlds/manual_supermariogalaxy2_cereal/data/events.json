@@ -205,11 +205,11 @@
   },
   {
     "name": "Narrow Jump 3",
-    "requires": "|Can Back or Sideflip| or |Can Air Spin|"
+    "requires": "|Can Back or Sideflip| or |Has Air Spin|"
   },
   {
     "name": "Narrow Jump 5",
-    "requires": "|Can Back or Sideflip| and |Can Air Spin|"
+    "requires": "|Can Back or Sideflip| and |Has Air Spin|"
   },
   {
     "name": "Can Swim",

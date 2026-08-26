@@ -3674,7 +3674,7 @@
   {
     "name": "Rolling Masterpiece - Green Star 1",
     "requires": "|Rolling Masterpiece Green Stars|",
-    "region": "Rolling Masterpiece- Space Junk",
+    "region": "Rolling Masterpiece - Space Junk",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -4054,7 +4054,7 @@
   {
     "name": "Supermassive - Green Star 2",
     "requires": "|Supermassive Green Stars|",
-    "region": "Supermassive - Thowmps",
+    "region": "Supermassive - Thwomps",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4234,7 +4234,7 @@
   {
     "name": "Flipsville 1 - Corner Crate 1-Up",
     "requires": "|Has Ground Pound| or (|Has Air Spin| and |Hard Logic|)",
-    "region": "Flipsville - Start",
+    "region": "Flipsville 1 - Start",
     "category": [
       "World 4",
       "1-Ups"
@@ -7284,7 +7284,7 @@
   },
   {
     "name": "Galaxy Generator - Green Star 2",
-    "requires": "|Galaxy Generator Green Stars| and |Can Make Clouds| and (|Has Long Jump| or |Hard Logic) and (|Has Wall Jump| or |Hard Logic|)",
+    "requires": "|Galaxy Generator Green Stars| and |Can Make Clouds| and (|Has Long Jump| or |Hard Logic|) and (|Has Wall Jump| or |Hard Logic|)",
     "region": "Galaxy Generator - Yoshi Start",
     "category": [
       "World 6",
