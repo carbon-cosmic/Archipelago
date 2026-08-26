@@ -548,37 +548,36 @@
 
   },
   "Lava Lair C - Start": {
-    "connects_to": ["Lava Lair - Cylinder #1"],
+    "connects_to": ["Lava Lair C - Cylinder #1"],
     "entrance_requires": "|Has Speedy Comets| and {OptOne(|Lava Lair Comet Medal|)}",
     "exit_requires": "|Has Pull Stars| or (|Has Long Jump| and |Medium Logic|)"
   },
   "Lava Lair C - Cylinder #1": {
-    "connects_to": ["Lava Lair - Cylinder #2"],
+    "connects_to": ["Lava Lair C - Cylinder #2"],
     "exit_requires": "|Has Ground Pound| or (|Medium Logic| and (|Needs Testing|)) or |Hard Logic|"
   },
   "Lava Lair C - Cylinder #2": {
-    "connects_to": ["Lava Lair - Flomps"],
+    "connects_to": ["Lava Lair C - Flomps"],
     "exit_requires": "|Has Ground Spin|"
   },
   "Lava Lair C - Flomps": {
-    "connects_to": ["Lava Lair - Firebar"],
+    "connects_to": ["Lava Lair C - Firebar"],
     "exit_requires": ""
   },
   "Lava Lair C - Firebar": {
-    "connects_to": ["Lava Lair - Whomp Path"],
+    "connects_to": ["Lava Lair C - Whomp Path"],
     "exit_requires": "|Has Ground Pound| or |Medium Logic|"
   },
   "Lava Lair C - Whomp Path": {
-    "connects_to": ["Lava Lair - Mattermouths"],
+    "connects_to": ["Lava Lair C - Mattermouths"],
     "exit_requires": "|Has Ground Pound|"
   },
   "Lava Lair C - Mattermouths": {
-    "connects_to": ["Lava Lair - Snake Blocks"],
+    "connects_to": ["Lava Lair C - Snake Blocks"],
     "exit_requires": ""
   },
   "Lava Lair C - Snake Blocks": {
-    "connects_to": ["Lava Lair - Bowser"],
-    "exit_requires": "|Has Ground Pound|"
+
   },
   "World 3": {
     "requires": "|Grand Star (World 3 Access)|",
@@ -819,7 +818,7 @@
     "connects_to": ["Supermassive - Thwomps"],
     "entrance_requires": "|Has Wall Jump| or (|Jump Height 6| and |Hard Logic|)"
   },
-  "Supermassive - Thowmps": {
+  "Supermassive - Thwomps": {
     "connects_to": ["Supermassive - Koopas"],
     "entrance_requires": "|Has Long Jump| or |Has Air Spin|"
   },
@@ -845,7 +844,7 @@
     "connects_to": ["Supermassive C - Thwomps"],
     "entrance_requires": "|Has Wall Jump| or (|Jump Height 6| and |Hard Logic|)"
   },
-  "Supermassive C - Thowmps": {
+  "Supermassive C - Thwomps": {
     "connects_to": ["Supermassive C - Koopas"],
     "entrance_requires": "|Has Long Jump| or |Has Air Spin|"
   },
@@ -867,8 +866,8 @@
     "connects_to": ["Flipsville 1 - Start", "Flipsville 2 - Start", "Flipsville C - Purple Coins"]
   },
   "Flipsville 1 - Start": {
-    "connects_to": ["Flipsville 1 - Below Start", "Flipsville 1 - Chomps", "Flipsville 1 - Tele Intermediate"],
-    "exit_requires": "|Has Ground Pound| or (|Hard Logic| and |Can Wall Spin| and |Can Back or Sideflip|)"
+    "connects_to": ["Flipsville 1 - Below Start", "Flipsville 1 - Start Intermediate", "Flipsville 1 - Tele Intermediate"],
+    "exit_requires": "|Has Ground Pound| or (|Hard Logic| and |Has Air Spin|)"
   },
   "Flipsville 1 - Tele Intermediate": {
     "connects_to": ["Flipsville - Teleporter"],
@@ -881,8 +880,12 @@
     "connects_to": ["Flipsville 1 - Chomps"],
     "entrance_requires": "|Has Ground Pound|"
   },
+  "Flipsville 1 - Start Intermediate": {
+    "connects_to": ["Flipsville 1 - Chomps"],
+    "exit_requires": "|Hard Logic| and |Can Back or Sideflip| and |Can Wall Spin|"
+  },
   "Flipsville 1 - Chomps": {
-    "connects_to": ["Flipsville 1 - Chomps Below", "Flipsville - Chomps Intermediate"]
+    "connects_to": ["Flipsville 1 - Chomps Below", "Flipsville 1 - Chomps Intermediate"]
   },
   "Flipsville 1 - Chomps Below": {
     "connects_to": ["Flipsville 1 - Chomps Back"],

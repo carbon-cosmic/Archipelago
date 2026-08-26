@@ -3023,7 +3023,7 @@
   {
     "name": "Tall Trunk's Purple Coin Slide",
     "requires": "{OptOne(|Tall Trunk Purple Coin:100|)}",
-    "region": "Tall Trunk C - Slide End)",
+    "region": "Tall Trunk C - Slide End",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3134,7 +3134,7 @@
   {
     "name": "Cloudy Court - Teleporter 1-Up #3",
     "requires": "",
-    "region": "Cloudy Court- Towers",
+    "region": "Cloudy Court - Towers",
     "category": [
       "World 3",
       "1-Ups"
@@ -3294,7 +3294,7 @@
   {
     "name": "Haunty Halls - Teleporter 1-Up #2",
     "requires": "|Jack O'Goomba Teleporter|",
-    "region": "Haunty Halls - Start",
+    "region": "Haunty Halls 1 - Start",
     "category": [
       "World 3",
       "1-Ups"
@@ -5219,7 +5219,7 @@
   },
   {
     "name": "Gravity Gauntlet C - Clock on Wall Jump Blocks",
-    "requires": "|Has Wall Jump| or |Has Sidefip| or (|Has Backflip| and (|Hard Logic| or |Has Air Spin|)) or (|Has Double Jump| AND |Has Air Spin|)",
+    "requires": "|Has Wall Jump| or |Has Sideflip| or (|Has Backflip| and (|Hard Logic| or |Has Air Spin|)) or (|Has Double Jump| AND |Has Air Spin|)",
     "region": "Gravity Gauntlet C - Lava Bubbles",
     "category": [
       "World 4",
@@ -5823,7 +5823,7 @@
   },
   {
     "name": "Octo-Army Icy Rainbow Romp",
-    "requires": "|Has Rainbow Star| and (|Has Ground Spin| or |Medium Logic|)",
+    "requires": "|Has Invincibility| and (|Has Ground Spin| or |Medium Logic|)",
     "region": "Shiverburn C - Arena",
     "category": [
       "World 5",
@@ -6913,7 +6913,7 @@
   },
   {
     "name": "Battle Belt - Red Starshroom Luma Shop",
-    "requires": "|Has Fire Flower| or |Hard Logic|",
+    "requires": "|Has Fire| or |Hard Logic|",
     "region": "Battle Belt - Starshroom #2",
     "category": [
       "World 6",
