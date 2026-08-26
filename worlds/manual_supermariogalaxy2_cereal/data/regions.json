@@ -197,14 +197,14 @@
     "entrance_requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))"
   },
   "Flip-Swap Galaxy": {
-    "connects_to": ["Flip-Swap 1 - Start", "Flip-Swap C - Start"]
+    "connects_to": ["Flip-Swap - Start", "Flip-Swap C - Start"]
   },
   "Flip-Swap - Start": {
-    "connects_to": ["Flip-Swap 1 - Main"],
+    "connects_to": ["Flip-Swap - Main"],
     "exit_requires": "|Has Air Spin| or |Has Long Jump| or |Hard Logic|"
   },
   "Flip-Swap - Main": {
-    "connects_to": ["Flip-Swap 1 - Star"],
+    "connects_to": ["Flip-Swap - Star"],
     "exit_requires": "|Has Air Spin| or |Has Long Jump| or (|Has Ground Spin| and |Hard Logic|)"
   },
   "Flip-Swap - Star": {

@@ -1038,7 +1038,7 @@
   {
     "name": "Fluffy Bluff - Green Star 2",
     "requires": "|Fluffy Bluff Green Stars| and |Can Make Clouds|",
-    "region": "Fluffy Bluff 1 - Clifftop",
+    "region": "Fluffy Bluff 1 - Clifftops",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1158,7 +1158,7 @@
   },
   {
     "name": "Fluffy Bluff 2 - 1-Up Above Tree on Top Cliff",
-    "requires": "|Chimp Letter Fluffy Bluff|",
+    "requires": "",
     "region": "Fluffy Bluff 2 - Landing",
     "category": [
       "World 1",
