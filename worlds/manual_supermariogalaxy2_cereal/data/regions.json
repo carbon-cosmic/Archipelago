@@ -126,8 +126,8 @@
 
   },
   "Spin-Dig 2 - Start Planet": {
-    "connects_to": ["Spin-Dig 2 - First 2D Section"],
-    "exit_requires": "(|Can Ground Spin| or |Jump Height 3| or |Can Double| and |Medium Logic|)\n"
+    "connects_to": ["Spin-Dig 2 - First Canister Section"],
+    "exit_requires": "(|Can Ground Spin| or |Jump Height 3| or |Can Double| and |Medium Logic|)"
   },
   "Spin-Dig 2 - First Canister Section": {
     "connects_to": ["Spin-Dig 2 - Second Canister Section"],

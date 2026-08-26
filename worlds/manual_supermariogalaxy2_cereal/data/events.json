@@ -8,7 +8,7 @@
     "requires": "{OptAll(|Spin| and |Progressive Spin:2|)}"
   },
   {
-    "name": "Has Back or Sideflip",
+    "name": "Can Back or Sideflip",
     "requires": "{OptAll(|Backflip| or |Sideflip|)}"
   },
   {
@@ -153,7 +153,7 @@
   },
   {
     "name": "Hard Logic",
-    "requires": "{YamlCompare(Logic_Difficulty == 1)}"
+    "requires": "{YamlCompare(Logic_Difficulty == 2)}"
   },
   {
     "name": "Has Speedy Comets",
@@ -189,7 +189,7 @@
   },
   {
     "name": "Jump Height 5",
-    "requires": "|Jump Height 6| or |Has Triple Jump| or (|Has Air Spin| and |Has Back or Sideflip|)"
+    "requires": "|Jump Height 6| or |Has Triple Jump| or (|Has Air Spin| and |Can Back or Sideflip|)"
   },
   {
     "name": "Jump Height 4",
@@ -197,7 +197,7 @@
   },
   {
     "name": "Jump Height 3",
-    "requires": "|Jump Height 4| or |Has Back or Sideflip| or |Has Air Spin|"
+    "requires": "|Jump Height 4| or |Can Back or Sideflip| or |Has Air Spin|"
   },
   {
     "name": "Jump Height 2",
@@ -228,8 +228,8 @@
     "requires": "|Has Cloud| and |Has Ground Spin|"
   },
   {
-    "name": "Can Complete Bonus Room ?-Coins",
-    "requires": "|Has Back or Sideflip| or |Has Double Jump| or |Has Air Spin|"
+    "name": "Can Complete Bonus Room ? Coins",
+    "requires": "|Can Back or Sideflip| or |Has Double Jump| or |Has Air Spin|"
   },
   {
     "name": "Can Climb Whomps",
