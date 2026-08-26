@@ -75,7 +75,7 @@
         "false": 0,
         "true": 2
       },
-      "default": "off",
+      "default": 0,
       "group": "Randomization Options"
     },
     "Life_Shroomsanity": {
@@ -170,7 +170,7 @@
         "spin_start": 1,
         "full": 2
       },
-      "default": "full",
+      "default": 2,
       "group": "Item Options"
     },
     "Progressive_Movement": {
@@ -204,10 +204,10 @@
       "type": "Choice",
       "values": {
         "off": 0,
-        "category": 1,
-        "combined": 2
+        "combined": 1,
+        "category": 2
       },
-      "default": "category",
+      "default": 2,
       "group": "Comet Options"
        },
     "Mechanic_Randomization": {
@@ -216,7 +216,7 @@
       ],
       "display_name": "Mechanic Randomization",
       "type": "Toggle",
-      "default": false,
+      "default": true,
       "group": "Item Options"
     },
 
@@ -226,7 +226,7 @@
       ],
       "display_name": "Powerup Randomization",
       "type": "Toggle",
-      "default": false,
+      "default": true,
       "group": "Item Options"
     },
     "Galaxy_Generator_Star_Count": {
