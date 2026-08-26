@@ -55,7 +55,7 @@
       "default": 0,
       "group": "Randomization Options"
     },
-    "1-Upsanity": {
+    "_1Upsanity": {
       "description": [
         "Receive checks for collecting 1-Ups.",
         "",
@@ -75,14 +75,14 @@
         "false": 0,
         "true": 2
       },
-      "default": false,
+      "default": "off",
       "group": "Randomization Options"
     },
     "Life_Shroomsanity": {
       "description": [
         "Receive checks for collecting Life Mushrooms."
       ],
-      "display_name": "Life Mushroom-sanity",
+      "display_name": "Life Mushroomsanity",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -91,7 +91,7 @@
       "description": [
         "Receive checks for purchasing from Luma Shops."
       ],
-      "display_name": "Luma Shop-sanity",
+      "display_name": "Luma Shopsanity",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -101,7 +101,7 @@
       "description": [
         "Receive checks for spinning chance cubes."
       ],
-      "display_name": "Chance Cube-sanity",
+      "display_name": "Chance Cubesanity",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -111,7 +111,7 @@
       "description": [
         "Receive checks for reaching checkpoint flags."
       ],
-      "display_name": "Checkpoint-sanity",
+      "display_name": "Checkpointsanity",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -121,28 +121,19 @@
       "description": [
         "Receive checks for collecting speedrun clocks."
       ],
-      "display_name": "Clock-sanity",
+      "display_name": "Clocksanity",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
     },
 
-    "Coinsanity": {
+    "QCoinsanity": {
       "description": [
         "Receive checks for collecting ? Coins."
       ],
       "display_name": "?-Coinsanity",
       "type": "Toggle",
       "default": false,
-      "group": "Randomization Options"
-    },
-    "Power_Star_Locations": {
-      "description": [
-        "Enable or disable regular Power Star locations."
-      ],
-      "display_name": "Power Star Locations",
-      "type": "Toggle",
-      "default": true,
       "group": "Randomization Options"
     },
      "Green_Stars_Locations": {
@@ -174,7 +165,23 @@
       ],
       "display_name": "Movement Randomization",
       "type": "Choice",
+      "values": {
+        "off": 0,
+        "spin_start": 1,
+        "full": 2
+      },
       "default": "full",
+      "group": "Item Options"
+    },
+    "Progressive_Movement": {
+      "description": [
+        "Whether Spin and Triple Jump will be split into two Progressive items.",
+        "Spin splits into only spinning on the ground and underwater, and then Air Spin.",
+        "Triple Jump splits into Double Jump, then Triple Jump.",
+        "When Spin Start is on, it will start with only one Progressive Spin."
+      ],
+      "type": "Toggle",
+      "default": true,
       "group": "Item Options"
     },
      "Comet_Medal_Items": {
@@ -182,15 +189,6 @@
         "Each galaxy will have its own comet medal item in the multiworld."
       ],
       "display_name": "Comet Medal Items",
-      "type": "Toggle",
-      "default": true,
-      "group": "Item Options"
-    },
-    "Comet_Category_Items": {
-      "description": [
-        "Randomizes Comet Categories (such as Speedy Comets or Purple Comets) into the Multiworld. OLD OPTION PLEASE REMOVE"
-      ],
-      "display_name": "Comet Category Items",
       "type": "Toggle",
       "default": true,
       "group": "Item Options"
@@ -246,13 +244,12 @@
       "type": "Range",
       "description": [
         "The number of stars needed to access Grandmaster Galaxy.",
-        "Default and maximum is 122 stars. If set to -1, Grandmaster Galaxy will be removed."
+        "Default and maximum is 122 stars."
       ],
       "display_name": "Grandmaster Power Star Count",
-      "range_start": -1,
+      "range_start": 0,
       "default": 122,
-      "range_end": 122,
-      "group": "Randomization Options"
+      "range_end": 122
     },
 
     "Grandmaster_Green_Count": {
@@ -265,8 +262,7 @@
       "display_name": "Grandmaster Green Star Count",
       "range_start": 0,
       "default": 0,
-      "range_end": 120,
-      "group": "Randomization Options"
+      "range_end": 120
     },
     "Purple_Coinsanity": {
       "description": [

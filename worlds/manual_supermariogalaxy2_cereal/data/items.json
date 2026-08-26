@@ -1,7 +1,7 @@
 [
   {
     "name": "Power Star",
-    "count": "114",
+    "count": "115",
     "category": [
       "Power and Grand Stars"
     ],
@@ -185,6 +185,14 @@
   {
     "count": 1,
     "name": "Green Comets",
+    "category": [
+      "Prankster Comets"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Prankster Comets",
     "category": [
       "Prankster Comets"
     ],
@@ -842,61 +850,19 @@
   "progression": false,
   "useful": false
 },
-  {
-  "name": "Sky Station Clock",
-  "count": 10,
-  "category": [
-    "Speedrun Clocks"
-  ],
-  "progression": true,
-  "yaml_option": [
-    "Clocksanity"
-  ]
-},
-   {
-  "name": "Lava Lair Clock",
-  "count": 14,
-  "category": [
-    "Speedrun Clocks"
-  ],
-  "progression": true,
-  "yaml_option": [
-    "Clocksanity"
-  ]
-},
-   {
-  "name": "Gravity Gauntlet Clock",
-  "count": 12,
-  "category": [
-    "Speedrun Clocks"
-  ],
-  "progression": true,
-  "yaml_option": [
-    "Clocksanity"
-  ]
-},
-   {
-  "name": "Galaxy Generator Clock",
-  "count": 27,
-  "category": [
-    "Speedrun Clocks"
-  ],
-  "progression": true,
-  "yaml_option": [
-    "Clocksanity"
-  ]
-},
-   {
-  "name": "Stone Cyclone Clock",
-  "count": 6,
-  "category": [
-    "Speedrun Clocks"
-  ],
-  "progression": true,
-  "yaml_option": [
-    "Clocksanity"
-  ]
-},
+{
+    "name": "Clock",
+    "count": 69,
+    "category": [
+      "Filler",
+      "Speedrun Clocks"
+    ],
+    "progression": false,
+    "useful": false,
+    "yaml_option": [
+      "Clocksanity"
+    ]
+  },
   {
   "name": "Flip-Swap Purple Coin",
   "count": 100,

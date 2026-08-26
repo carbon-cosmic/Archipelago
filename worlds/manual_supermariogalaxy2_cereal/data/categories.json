@@ -6,9 +6,6 @@
   },
 
   "Power Star Locations": {
-    "yaml_option": [
-      "Power_Star_Locations"
-    ],
     "hidden": true
   },
   "Green Star Locations": {
@@ -105,13 +102,13 @@
     ],
     "hidden": false
   },
-"Mechanics": {
+  "Mechanics": {
     "yaml_option": [
       "Mechanic_Randomization"
     ],
     "hidden": false
   },
-"Purple Coin Locations": {
+  "Purple Coin Locations": {
     "yaml_option": [
       "Purple_Coinsanity"
     ],
