@@ -46,7 +46,7 @@
   },
   "Sky Station C - Start Planet": {
     "connects_to": ["Sky Station C - Rolling Carts"],
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Sky Station Comet Medal|)}",
+    "entrance_requires": "|Has Speedy Comets| and |Sky Station Comets|",
     "exit_requires": "|Has Ground Spin| or (|Hard Logic| and |Can Triple Jump| and |Can Wall Jump|)"
   },
   "Sky Station C - Rolling Carts": {
@@ -97,7 +97,7 @@
 
   },
   "Yoshi Star C - Start": {
-    "entrance_requires": "|Has Romp Comets| and {OptOne(|Yoshi Star Comet Medal|)}"
+    "entrance_requires": "|Has Romp Comets| and |Yoshi Star Comets|"
   },
   "Spin-Dig Galaxy": {
     "connects_to": ["Spin-Dig 1 - Start Planet", "Spin-Dig 2 - Start Planet", "Spin-Dig C - Digga-Leg"]
@@ -212,7 +212,7 @@
   },
   "Flip-Swap C - Start Blue Panels": {
     "connects_to": ["Flip-Swap C - Start Red Panels", "Flip-Swap C - 1-Up Platform"],
-    "entrance_requires": "|Has Purple Comets| and {OptOne(|Flip-Swap Comet Medal|)}"
+    "entrance_requires": "|Has Purple Comets| and |Flip-Swap Comets|"
   },
   "Flip-Swap C - Start Red Panels": {
     "connects_to": ["Flip-Swap C - 1-Up Platform"],
@@ -296,7 +296,7 @@
 
   },
   "Fiery Flotilla C - Gobblegut": {
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Fiery Flotilla Comet Medal|)}"
+    "entrance_requires": "|Has Speedy Comets| and |Fiery Flotilla Comets|"
   },
   "World 2": {
     "requires": "|Grand Star (World 2 Access)|",
@@ -334,7 +334,7 @@
 
   },
   "Puzzle Plank C - Shadow Vault": {
-    "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and {OptOne(|Puzzle Plank Comet Medal|)}"
+    "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and |Puzzle Plank Comets|"
   },
   "Puzzle Plank S - Checkpoint Islands": {
     "connects_to": ["Puzzle Plank S - Boss Planet"],
@@ -367,7 +367,7 @@
   },
   "Hightail Falls C - Start": {
     "connects_to": ["Hightail Falls C - Giant Ramp"],
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Hightail Falls Comet Medal|)}",
+    "entrance_requires": "|Has Speedy Comets| and |Hightail Falls Comets|",
     "exit_requires": "|Has Yoshi| and (|Has Dash Pepper| or |Medium Logic|)"
   },
   "Hightail Falls C - Giant Ramp": {
@@ -417,7 +417,7 @@
   },
   "Boulder Bowl C - Asteroid": {
     "connects_to": ["Boulder Bowl C - Metal Planet"],
-    "entrance_requires": "|Has Romp Comets| and {OptOne(|Boulder Bowl Comet Medal|)}"
+    "entrance_requires": "|Has Romp Comets| and |Boulder Bowl Comets|"
   },
   "Boulder Bowl C - Metal Planet": {
 
@@ -549,7 +549,7 @@
   },
   "Lava Lair C - Start": {
     "connects_to": ["Lava Lair C - Cylinder #1"],
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Lava Lair Comet Medal|)}",
+    "entrance_requires": "|Has Speedy Comets| and |Lava Lair Comets|",
     "exit_requires": "|Has Pull Stars| or (|Has Long Jump| and |Medium Logic|)"
   },
   "Lava Lair C - Cylinder #1": {
@@ -619,7 +619,7 @@
   },
   "Tall Trunk C - Slide Start": {
     "connects_to": ["Tall Trunk C - Slide"],
-    "entrance_requires": "|Has Purple Comets| and {OptOne(|Tall Trunk Comet Medal|)}",
+    "entrance_requires": "|Has Purple Comets| and |Tall Trunk Comets|",
     "exit_requires": ""
   },
   "Tall Trunk C - Slide": {
@@ -653,7 +653,7 @@
   },
   "Cloudy Court C - Star Chips": {
     "connects_to": ["Cloudy Court C - Castle Start"],
-    "entrance_requires": "|Has Clone Comets| and {OptOne(|Cloudy Court Comet Medal|)}"
+    "entrance_requires": "|Has Clone Comets| and |Cloudy Court Comets|"
   },
   "Cloudy Court C - Castle Start": {
     "connects_to": ["Cloudy Court C - Castle"],
@@ -693,7 +693,7 @@
 
   },
   "Haunty Halls C - Creepy Corridor": {
-    "entrance_requires": "|Has Clone Comets| and {OptOne(|Haunty Halls Comet Medal|)}"
+    "entrance_requires": "|Has Clone Comets| and |Haunty Halls Comets|"
   },
   "Freezy Flake Galaxy": {
     "connects_to": ["Freezy Flake 1 - Log Cabin", "Freezy Flake 2 - Log Cabin"]
@@ -754,7 +754,7 @@
   },
   "Rolling Masterpiece C - Start": {
     "connects_to": ["Rolling Masterpiece C - Paintbrush Planet"],
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Rolling Masterpiece Comet Medal|)}",
+    "entrance_requires": "|Has Speedy Comets| and |Rolling Masterpiece Comets|",
     "exit_requires": "|Has Star Ball|"
   },
   "Rolling Masterpiece C - Paintbrush Planet": {
@@ -779,7 +779,7 @@
 
   },
   "Beat Block C - Main": {
-    "entrance_requires": "|Has Double Time Comets| and {OptOne(|Beat Block Comet Medal|)}"
+    "entrance_requires": "|Has Double Time Comets| and |Beat Block Comets|"
   },
   "Bowser Jr.'s Fearsome Fleet": {
     "connects_to": ["Fearsome Fleet - Start", "Fearsome Fleet C - Megahammer"]
@@ -801,7 +801,7 @@
 
   },
   "Fearsome Fleet C - Megahammer": {
-    "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Fearsome Fleet Comet Medal|)}"
+    "entrance_requires": "|Has Daredevil Comets| and |Fearsome Fleet Comets|"
   },
   "World 4": {
    "requires": "|Grand Star (World 4 Access)|",
@@ -838,7 +838,7 @@
   },
   "Supermassive C - Start": {
     "connects_to": ["Supermassive C - Pipes"],
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Supermassive Comet Medal|)}"
+    "entrance_requires": "|Has Speedy Comets| and |Supermassive Comets|"
   },
   "Supermassive C - Pipes": {
     "connects_to": ["Supermassive C - Thwomps"],
@@ -936,7 +936,7 @@
 
   },
   "Flipsville C - Purple Coins Start": {
-    "entrance_requires": "|Has Purple Comets| and {OptOne(|Flipsville Comet Medal|)}",
+    "entrance_requires": "|Has Purple Comets| and |Flipsville Comets|",
     "connects_to": ["Flipsville C - Purple Coins"]
   },
   "Flipsville C - Purple Coins": {
@@ -988,7 +988,7 @@
   },
   "Starshine Beach C - Shallows": {
     "connects_to": ["Starshine Beach C - Tower", "Starshine Beach C - Ocean Tower Triples"],
-    "entrance_requires": "|Has Purple Comets| and {OptOne(|Starshine Beach Comet Medal|)}"
+    "entrance_requires": "|Has Purple Comets| and |Starshine Beach Comets|}"
   },
   "Starshine Beach C - Tower": {
     "connects_to": ["Starshine Beach C - Gringills"]
@@ -1040,7 +1040,7 @@
 
   },
   "Chompworks C - Lava Chomp Planet": {
-    "entrance_requires": "|Has Clone Comets| and {OptOne(|Chompworks Comet Medal|)}"
+    "entrance_requires": "|Has Clone Comets| and |Chompworks Comets|"
   },
   "Sweet Mystery Galaxy": {
     "connects_to": ["Sweet Mystery - Start", "Sweet Mystery C - Start"]
@@ -1064,7 +1064,7 @@
   },
   "Sweet Mystery C - Start": {
     "connects_to": ["Sweet Mystery C - First Path 1st Set", "Sweet Mystery C - First Path 2nd Set", "Sweet Mystery C - First Path 3rd Set", "Sweet Mystery C - Cookie Boxes"],
-    "entrance_requires": "|Has Purple Comets| and {OptOne(|Sweet Mystery Comet Medal|)}"
+    "entrance_requires": "|Has Purple Comets| and |Sweet Mystery Comets|"
   },
   "Sweet Mystery C - First Path 1st Set": {
     "entrance_requires": "|Can Use Bulb| or |Hard Logic|"
@@ -1152,7 +1152,7 @@
   },
   "Gravity Gauntlet C - Start": {
     "connects_to": ["Gravity Gauntlet C - Lava Bubbles"],
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Gravity Gauntlet Comet Medal|)}"
+    "entrance_requires": "|Has Speedy Comets| and |Gravity Gauntlet Comets|"
   },
   "Gravity Gauntlet C - Lava Bubbles": {
     "connects_to": ["Gravity Gauntlet C - Underwater"]
@@ -1235,7 +1235,7 @@
 
   },
   "Slipsand C - Squizzard": {
-    "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Slipsand Comet Medal|)}"
+    "entrance_requires": "|Has Daredevil Comets| and |Slipsand Comets|"
   },
   "Shiverburn Galaxy": {
     "connects_to": ["Shiverburn - Volcano Planet Fire", "Shiverburn C - Starshroom"]
@@ -1279,7 +1279,7 @@
   },
   "Shiverburn C - Starshroom": {
     "connects_to": ["Shiverburn C - Arena"],
-    "entrance_requires": "|Has Romp Comets| and {OptOne(|Shiverburn Comet Medal|)}"
+    "entrance_requires": "|Has Romp Comets| and |Shiverburn Comets|"
   },
   "Shiverburn C - Arena": {
 
@@ -1369,7 +1369,7 @@
   },
   "Boom Bunker C - Crash Site": {
     "connects_to": ["Boom Bunker C - Boomerang Bros."],
-    "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Boom Bunker Comet Medal|)}",
+    "entrance_requires": "|Has Daredevil Comets| and |Boom Bunker Comets|",
     "exit_requires": "|Has Cannon Permit|"
   },
   "Boom Bunker C - Boomerang Bros.": {
@@ -1440,7 +1440,7 @@
   },
   "Clockwork Ruins C - First Wheel": {
     "connects_to": ["Clockwork Ruins C - Second Wheel"],
-    "entrance_requires": "|Has Purple Comets| and {OptOne(|Clockwork Ruins Comet Medal|)}"
+    "entrance_requires": "|Has Purple Comets| and |Clockwork Ruins Comets|"
   },
   "Clockwork Ruins C - Second Wheel": {
     "connects_to": ["Clockwork Ruins C - Third Wheel"]
@@ -1467,7 +1467,7 @@
 
   },
   "Throwback C - Fortress": {
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Throwback Comet Medal|)}"
+    "entrance_requires": "|Has Speedy Comets| and |Throwback Comets|"
   },
   "Battle Belt Galaxy": {
     "connects_to": ["Battle Belt - Goomba", "Battle Belt C - Goomba"]
@@ -1515,7 +1515,7 @@
   },
   "Battle Belt C - Goomba": {
     "connects_to": ["Battle Belt C - Lil' Cinders"],
-    "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Battle Belt Comet Medal|)}"
+    "entrance_requires": "|Has Daredevil Comets| and |Battle Belt Comets|"
   },
   "Battle Belt C - Lil' Cinders": {
     "connects_to": ["Battle Belt C - Urchins"],
@@ -1572,7 +1572,7 @@
 
   },
   "Flash Black C - Dark Path": {
-    "entrance_requires": "|Has Romp Comets| and {OptOne(|Flash Black Comet Medal|)}"
+    "entrance_requires": "|Has Romp Comets| and |Flash Black Comets|"
   },
   "Slimy Spring Galaxy": {
     "connects_to": ["Slimy Spring 1 - Cave Entrance", "Slimy Spring 2 - Cave Entrance"]
@@ -1677,7 +1677,7 @@
   },
   "Galaxy Generator C - Start": {
     "connects_to": ["Galaxy Generator C - Volcano Top"],
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Galaxy Generator Comet Medal|)}"
+    "entrance_requires": "|Has Speedy Comets| and |Galaxy Generator Comets|"
   },
   "Galaxy Generator C - Volcano Top": {
     "connects_to": ["Galaxy Generator C - Volcano"],
@@ -1736,7 +1736,7 @@
   },
   "Mario Squared C - Grounded Coins": {
     "connects_to": ["Mario Squared C - Long Jump Coins"],
-    "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and {OptOne(|Mario Squared Comet Medal|)}"
+    "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and |Mario Squared Comets|"
   },
   "Mario Squared C - Long Jump Coins": {
     "entrance_requires": "|Has Long Jump| or |Hard Logic|"
@@ -1752,7 +1752,7 @@
   },
   "Rolling Coaster C - Start": {
     "connects_to": ["Rolling Coaster C - Rainbow Road"],
-    "entrance_requires": "|Has Purple Comets| and {OptOne(|Rolling Coaster Comet Medal|)}"
+    "entrance_requires": "|Has Purple Comets| and |Rolling Coaster Comets|"
   },
   "Rolling Coaster C - Rainbow Road": {
     "entrance_requires": "|Has Star Ball|"
@@ -1772,7 +1772,7 @@
   },
   "Twisty Trials C - Start": {
     "connects_to": ["Twisty Trials C - Planks"],
-    "entrance_requires": "|Has Double Time Comets| and {OptOne(|Twisty Trials Comet Medal|)}"
+    "entrance_requires": "|Has Double Time Comets| and |Twisty Trials Comets|"
   },
   "Twisty Trials C - Planks": {
     "connects_to": ["Twisty Trials C - Before Final Platform"],
@@ -1789,7 +1789,8 @@
     "connects_to": ["Stone Cyclone - Start", "Stone Cyclone C - Start"]
   },
   "Stone Cyclone - Start": {
-    "connects_to": ["Stone Cyclone - Circling Stones"]
+    "connects_to": ["Stone Cyclone - Circling Stones"],
+    "entrance_requires": "|Has Speedy Comets| and |Stone Cyclone Comets|"
   },
   "Stone Cyclone - Circling Stones": {
     "connects_to": ["Stone Cyclone - Tox Box Paths"],
@@ -1832,7 +1833,7 @@
   },
   "Boss Blitz C - Dino Piranha": {
     "connects_to": ["Boss Blitz C - King Kaliente"],
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Boss Blitz Comet Medal|)}",
+    "entrance_requires": "|Has Speedy Comets| and |Boss Blitz Comets|",
     "exit_requires": "|Has Ground Spin|"
   },
   "Boss Blitz C - King Kaliente": {
@@ -1867,6 +1868,7 @@
   },
   "Flip-Out C - Start": {
     "connects_to": ["Flip-Out C - First Checkpoint"],
+    "entrance_requires": "|Has Clone Comets| and |Flip-Out Comets|",
     "exit_requires": "|Can Wall Spin| or (|Can Wall Jump| and |Can Ground Spin| and |Hard Logic|)"
   },
   "Flip-Out C - First Checkpoint": {
@@ -1904,6 +1906,7 @@
   },
   "Grandmaster C - Yoshi Minefield": {
     "connects_to": ["Grandmaster C - Flipswitch Panels"],
+    "entrance_requires": "|Has Daredevil Comets| and |Grandmaster Comets|",
     "exit_requires": "|Has Yoshi|"
   },
   "Grandmaster C - Flipswitch Panels": {
