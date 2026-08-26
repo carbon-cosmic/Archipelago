@@ -1470,7 +1470,7 @@
     "entrance_requires": "|Has Speedy Comets| and {OptOne(|Throwback Comet Medal|)}"
   },
   "Battle Belt Galaxy": {
-    "connects_to": ["Battle Belt - Goomba Planet", "Battle Belt C - Goomba Planet"]
+    "connects_to": ["Battle Belt - Goomba", "Battle Belt C - Goomba"]
   },
   "Battle Belt - Goomba": {
     "connects_to": ["Battle Belt - Lil' Cinders"]
@@ -1479,7 +1479,7 @@
     "connects_to": ["Battle Belt - Urchins"],
     "exit_requires": "|Has Ground Spin|"
   },
-  "Battle Belt - Urchins Planet": {
+  "Battle Belt - Urchins": {
     "connects_to": ["Battle Belt - Crabbers"],
     "exit_requires": "|Has Fire| or (|Jump Height 6| and |Hard Logic|)"
   },
@@ -1543,7 +1543,7 @@
     "connects_to": ["Battle Belt C - Lil' Brrs"]
   },
   "Battle Belt C - Lil' Brrs": {
-    "connects_to": ["Battle Belt C - Undergrunts Planet"]
+    "connects_to": ["Battle Belt C - Undergrunts"]
   },
   "Battle Belt C - Undergrunts": {
     "connects_to": ["Battle Belt C - Swaphoppers"],

@@ -4243,8 +4243,8 @@
   },
   {
     "name": "Flipsville - Green Star 1",
-    "requires": "",
-    "region": "Flipsville 1 - Start Below",
+    "requires": "|Has Ground Pound| or (|Can Wall Spin| and |Can Back or Sideflip| and |Hard Logic|)",
+    "region": "Flipsville 1 - Start",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -4415,7 +4415,7 @@
   {
     "name": "Starshine Beach - Bonus Room ? Coin",
     "requires": "",
-    "region": "Starshine Beach - Beach",
+    "region": "Starshine Beach 1 - Beach",
     "category": [
       "World 4",
       "? Coins"
@@ -4728,7 +4728,7 @@
   {
     "name": "Chompworks 2 - 1-Up High Above Checkpoint",
     "requires": "|Has Spring|",
-    "region": "Chompworks 2 - Rolling Chomp",
+    "region": "Chompworks 2 - Rolling Chomps",
     "category": [
       "World 4",
       "1-Ups"
