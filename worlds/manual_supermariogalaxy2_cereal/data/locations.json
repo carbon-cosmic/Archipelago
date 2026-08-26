@@ -1309,7 +1309,7 @@
   {
     "name": "Breaking the Laws of Gravity",
     "requires": "",
-    "region": "Rightside Down 1 - Final Section",
+    "region": "Rightside Down - Final Section",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -1359,7 +1359,7 @@
   {
     "name": "Rightside Down - Teleporter 1-Up #3",
     "requires": "",
-    "region": "Rightside Down Galaxy - Slide",
+    "region": "Rightside Down - Slide",
     "category": [
       "World 1",
       "1-Ups"
@@ -1589,7 +1589,7 @@
   {
     "name": "Puzzle Plank - Green Star 1",
     "requires": "|Puzzle Plank Green Stars| and |Has Ground Pound| and |Can Wall Spin| and |Can Back or Sideflip|",
-    "region": "Puzzle Plank Galaxy (7)",
+    "region": "Puzzle Plank - Start",
     "category": [
       "World 2",
       "Green Star Locations"
@@ -3023,7 +3023,7 @@
   {
     "name": "Tall Trunk's Purple Coin Slide",
     "requires": "{OptOne(|Tall Trunk Purple Coin:100|)}",
-    "region": "Tall Trunk Galaxy (16)",
+    "region": "Tall Trunk C - Slide End)",
     "category": [
       "World 3",
       "Power Star Locations"
@@ -3053,7 +3053,7 @@
   {
     "name": "Cloudy Court - Green Star 1",
     "requires": "|Cloudy Court Green Stars| and ((|Can Make Clouds| and |Jump Height 4|) or (|Can Make Ground Clouds| and |Has Sideflip| and |Hard Logic|))",
-    "region": "Cloudy Court Galaxy (16)",
+    "region": "Cloudy Court - Start",
     "category": [
       "World 3",
       "Green Star Locations"
@@ -4234,7 +4234,7 @@
   {
     "name": "Flipsville 1 - Corner Crate 1-Up",
     "requires": "|Has Ground Pound| or (|Has Air Spin| and |Hard Logic|)",
-    "region": "Flipsville Galaxy (28)",
+    "region": "Flipsville - Start",
     "category": [
       "World 4",
       "1-Ups"
@@ -4333,8 +4333,8 @@
   },
   {
     "name": "Flipsville 2 - 1-Up Below Launch Star",
-    "requires": "Flipsville 2 - Start Below",
-    "region": "Flipsville Galaxy (28)",
+    "requires": "",
+    "region": "Flipsville 2 - Start Below",
     "category": [
       "World 4",
       "1-Ups"
@@ -4627,7 +4627,7 @@
   },
   {
     "name": "Chompworks - Green Star 1",
-    "requires": "|Chompworks Green Stars| and |Has Air Spin| and (|Has Long Jump| or (|Can Backflip| and |Hard Logic|))",
+    "requires": "|Chompworks Green Stars| and |Has Air Spin| and (|Has Long Jump| or (|Has Backflip| and |Hard Logic|))",
     "region": "Chompworks - Dispenser 1-Up",
     "category": [
       "World 4",
@@ -4678,7 +4678,7 @@
   {
     "name": "Chompworks 1 - 1-Up Atop Mini Chomp Dispenser",
     "requires": "(|Jump Height 5| and |Has Air Spin|) or |Can Wall Spin|",
-    "region": "Chompworks Galaxy (28)",
+    "region": "Chompworks 1 - Rolling Chomps",
     "category": [
       "World 4",
       "1-Ups"
@@ -4698,7 +4698,7 @@
   {
     "name": "Chompworks - Green Star 2",
     "requires": "|Chompworks Green Stars| and |Needs Testing|",
-    "region": "Chompworks Galaxy (28)",
+    "region": "Chompworks 1 - Flip-Swap Panels",
     "category": [
       "World 4",
       "Green Star Locations"
@@ -5964,7 +5964,7 @@
   {
     "name": "Boo Moon - Green Star 3",
     "requires": "|Has Ground Pound| and |Can Long Spin|",
-    "region": "Boo Moon Galaxy (40)",
+    "region": "Boo Moon 1 - Pop-Up Book",
     "category": [
       "World 5",
       "Green Star Locations"
@@ -6684,7 +6684,7 @@
   {
     "name": "Return of the Whomp King",
     "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Throwback Galaxy (60)",
+    "region": "Throwback 1 - Under Fortress",
     "category": [
       "World 6",
       "Power Star Locations"
@@ -6814,7 +6814,7 @@
   {
     "name": "Throwback - Green Star 2",
     "requires": "|Throwback Green Stars| and |Can Climb Whomps|",
-    "region": "Throwback Galaxy (60)",
+    "region": "Throwback 1 - Fortress",
     "category": [
       "World 6",
       "Green Star Locations"
@@ -7825,7 +7825,7 @@
   {
     "name": "Twisty Trials - Green Star 2",
     "requires": "|Can Make Clouds|",
-    "region": "Twisty Trials Galaxy (80)",
+    "region": "Twisty Trials - Final",
     "category": [
       "World S",
       "Green Star Locations"

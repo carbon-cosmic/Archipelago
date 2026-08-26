@@ -231,7 +231,7 @@
     "entrance_requires": "|Can Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
   },
   "Flip-Swap C - First Chomp Platform": {
-    "connects_to": ["Flip-Swap C - Chomp Panels"]
+    "connects_to": ["Flip-Swap C - Chomps"]
   },
   "Flip-Swap C - Chomps": {
     "connects_to": ["Flip-Swap C - Final Platform"]
@@ -300,8 +300,8 @@
   },
   "World 2": {
     "requires": "|Grand Star (World 2 Access)|",
-    "connects_to": ["Puzzle Plank Galaxy (7)", "Hightail Falls Galaxy (7)", "Boulder Bowl Galaxy (7)",
-      "Cosmic Cove Galaxy (7)", "Wild Glide Galaxy (7)", "Honeybloom Galaxy (7)", "Bowser's Lava Lair (16)"]
+    "connects_to": ["Puzzle Plank Galaxy", "Hightail Falls Galaxy", "Boulder Bowl Galaxy",
+      "Cosmic Cove Galaxy", "Wild Glide Galaxy", "Honeybloom Galaxy", "Bowser's Lava Lair"]
   },
   "Puzzle Plank Galaxy": {
     "connects_to": ["Puzzle Plank - Start", "Puzzle Plank C - Shadow Vault"]
