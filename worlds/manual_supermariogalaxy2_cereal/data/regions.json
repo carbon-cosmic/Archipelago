@@ -359,7 +359,7 @@
     "exit_requires": "|Has Yoshi|"
   },
   "Hightail Falls - Lamppost Wall": {
-    "connects_to": ["Hightail Falls - Final Walls"],
+    "connects_to": ["Hightail Falls - Final Walls", "Hightail Falls S - Kleptoads"],
     "exit_requires": "|Can Use Dash|"
   },
   "Hightail Falls - Final Walls": {
@@ -476,7 +476,7 @@
     "entrance_requires": "|Has Fluzzard|"
   },
   "Wild Glide 2 - Start": {
-    "connects_to": ["Wild Glide 1 - Flight"],
+    "connects_to": ["Wild Glide 2 - Flight"],
     "entrance_requires": "|Wild Glide Jibberjay Letter|"
   },
   "Wild Glide 2 - Flight": {
@@ -679,9 +679,9 @@
     "connects_to": ["Haunty Halls 1 - Bulb Berry Start"]
   },
   "Haunty Halls 1 - Bulb Berry Start": {
-    "connects_to": ["Haunty Halls - Bulb Berry"]
+    "connects_to": ["Haunty Halls 1 - Bulb Berry"]
   },
-  "Haunty Halls 1 - Bulb Berry ": {
+  "Haunty Halls 1 - Bulb Berry": {
     "entrance_requires": "|Can Use Bulb|"
   },
   "Haunty Halls 2 - Start": {

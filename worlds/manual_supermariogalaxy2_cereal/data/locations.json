@@ -1820,7 +1820,7 @@
   {
     "name": "Hightail Falls - Teleporter 1-Up #2",
     "requires": "",
-    "region": "Hightail Falls - Falling Road)",
+    "region": "Hightail Falls - Falling Road",
     "category": [
       "World 2",
       "1-Ups"
@@ -1890,7 +1890,7 @@
   {
     "name": "Hightail Falls Speed Run",
     "requires": "",
-    "region": "Hightail Falls C- Final Walls",
+    "region": "Hightail Falls C - Final Walls",
     "category": [
       "World 2",
       "Power Star Locations"
@@ -4697,7 +4697,7 @@
   },
   {
     "name": "Chompworks - Green Star 2",
-    "requires": "|Chompworks Green Stars| and |Needs Testing|",
+    "requires": "|Chompworks Green Stars| and (|Can Wall Spin| or (|Narrow Jump 5|) or (|Medium Logic| and |Has Triple Jump|)))",
     "region": "Chompworks 1 - Flip-Swap Panels",
     "category": [
       "World 4",
@@ -5169,7 +5169,7 @@
   },
   {
     "name": "Gravity Star Speed Run",
-    "requires": "(((|Can Back or Sideflip| or |Has Wall Jump| or (|Has Triple Jump| and |Hard Logic)) and |Has Air Spin|) OR ((|Can Back or Sideflip| or (|Has Triple Jump| and |Hard Logic)) AND |Has Wall Jump|))",
+    "requires": "(((|Can Back or Sideflip| or |Has Wall Jump| or (|Has Triple Jump| and |Hard Logic|)) and |Has Air Spin|) OR ((|Can Back or Sideflip| or (|Has Triple Jump| and |Hard Logic|)) AND |Has Wall Jump|))",
     "region": "Gravity Gauntlet C - Firebar Wheels",
     "category": [
       "World 4",
