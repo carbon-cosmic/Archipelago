@@ -1079,7 +1079,7 @@
   {
     "name": "Fluffy Bluff - Comet Medal",
     "requires": "",
-    "region": "Fluffy Bluff 1 - Fountain Planet)",
+    "region": "Fluffy Bluff 1 - Fountain Planet",
     "category": [
       "World 1",
       "Comet Medal Locations"
@@ -1219,7 +1219,7 @@
   {
     "name": "Think Before You Shake",
     "requires": "",
-    "region": "Flip-Swap 1 - Star",
+    "region": "Flip-Swap - Star",
     "category": [
       "World 1",
       "Power Star Locations"
@@ -1229,7 +1229,7 @@
   {
     "name": "Flip-Swap - Green Star 1",
     "requires": "|Flip-Swap Green Stars| and (|Jump Height 6| or |Hard Logic|)",
-    "region": "Flip-Swap 1 - Main",
+    "region": "Flip-Swap - Main",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1239,7 +1239,7 @@
   {
     "name": "Flip-Swap - Electric Fences 1-Up",
     "requires": "",
-    "region": "Flip-Swap 1 - Main",
+    "region": "Flip-Swap - Main",
     "category": [
       "World 1",
       "1-Ups"
@@ -1249,7 +1249,7 @@
   {
     "name": "Flip-Swap - Checkpoint Flag",
     "requires": "",
-    "region": "Flip-Swap 1 - Main",
+    "region": "Flip-Swap - Main",
     "category": [
       "World 1",
       "Checkpoints"
@@ -1259,7 +1259,7 @@
   {
     "name": "Flip-Swap - Chomps 1-Up",
     "requires": "",
-    "region": "Flip-Swap 1 - Main",
+    "region": "Flip-Swap - Main",
     "category": [
       "World 1",
       "1-Ups"
@@ -1269,7 +1269,7 @@
   {
     "name": "Flip-Swap - Green Star 2",
     "requires": "|Flip-Swap Green Stars| and (|Jump Height 6| or |Hard Logic|",
-    "region": "Flip-Swap 1 - Main",
+    "region": "Flip-Swap - Main",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -1279,7 +1279,7 @@
   {
     "name": "Flip-Swap - Comet Medal",
     "requires": "",
-    "region": "Flip-Swap 1 - Main",
+    "region": "Flip-Swap - Main",
     "category": [
       "World 1",
       "Comet Medal Locations"
@@ -2921,7 +2921,7 @@
   },
   {
     "name": "Tall Trunk - Comet Medal",
-    "requires": "|Can Dino Blimp|",
+    "requires": "|Can Use Blimp|",
     "region": "Tall Trunk 1 - Carved Log Start",
     "category": [
       "World 3",

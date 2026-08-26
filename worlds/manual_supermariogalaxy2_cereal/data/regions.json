@@ -197,7 +197,7 @@
     "entrance_requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))"
   },
   "Flip-Swap Galaxy": {
-    "connects_to": ["Flip-Swap - Start", "Flip-Swap C - Start"]
+    "connects_to": ["Flip-Swap - Start", "Flip-Swap C - Start Blue Panels"]
   },
   "Flip-Swap - Start": {
     "connects_to": ["Flip-Swap - Main"],
@@ -223,7 +223,7 @@
     "entrance_requires": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|"
   },
   "Flip-Swap C - Electric Fences Blue Panels": {
-    "connects_to": ["Flip-Swap C - Electric Fences Red Panels", "Flip-Swap C - Chomp Panels"],
+    "connects_to": ["Flip-Swap C - Electric Fences Red Panels", "Flip-Swap C - First Chomp Platform"],
     "entrance_requires": "|Can Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
   },
 "Flip-Swap C - Electric Fences Red Panels": {
