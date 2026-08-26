@@ -7215,7 +7215,7 @@
   {
     "name": "Galaxy Generator - Spin-Drill Planet Checkpoint Flag",
     "requires": "",
-    "region": "Galaxy Generator - ",
+    "region": "Galaxy Generator - Spin-Drill Planet",
     "category": [
       "World 6",
       "Checkpoints"
@@ -7755,7 +7755,7 @@
   {
     "name": "Rolling Coaster - Green Star 2",
     "requires": "|Rolling Coaster Green Stars|",
-    "region": "Rolling Coaster - Rainbow Road)",
+    "region": "Rolling Coaster - Rainbow Road",
     "category": [
       "World S",
       "Green Star Locations"
@@ -14255,7 +14255,7 @@
   {
     "name": "Sweet Mystery - First Bulb Berry Purple Coin #4",
     "requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Backflip| or |Has Long Jump| or |Has Air Spin| or |Has Yoshi|))",
-    "region": "Sweet Mystery - First Path 1st Set",
+    "region": "Sweet Mystery C - First Path 1st Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14265,7 +14265,7 @@
   {
     "name": "Sweet Mystery - First Bulb Berry Purple Coin #5",
     "requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Long Jump| or |Has Yoshi| or |Has Air Spin|))",
-    "region": "Sweet Mystery - First Path 1st Set",
+    "region": "Sweet Mystery C - First Path 1st Set",
     "category": [
       "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
@@ -14755,9 +14755,9 @@
   {
     "name": "Sweet Mystery - Purple Coin Before Moving Gifts #1",
     "requires": "",
-    "region": "Sweet Mystery Purple Coins",
+    "region": "Sweet Mystery C - Moving Gifts",
     "category": [
-      "Sweet Mystery C - Moving Gifts",
+      "Sweet Mystery Purple Coins",
       "Purple Coin Locations"
     ],
     "sort-key": "row-1462"
