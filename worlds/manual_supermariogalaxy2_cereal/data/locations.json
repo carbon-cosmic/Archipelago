@@ -295,7 +295,7 @@
   {
     "name": "Sky Station 2 - Glass Planet Checkpoint Flag",
     "requires": "",
-    "region": "Sky Station 2 - Sky Fleet Planet",
+    "region": "Sky Station 2 - Sky Fleet Ship",
     "category": [
       "World 1",
       "Checkpoints"
@@ -305,7 +305,7 @@
   {
     "name": "Sky Station 2 - 1-Up Above Checkpoint Flag",
     "requires": "",
-    "region": "Sky Station 2 - Sky Fleet Planet",
+    "region": "Sky Station 2 - Sky Fleet Ship",
     "category": [
       "World 1",
       "1-Ups"
@@ -315,7 +315,7 @@
   {
     "name": "Sky Station 2 - Teleporter 1-Up #1",
     "requires": "",
-    "region": "Sky Station 2 - Sky Fleet Planet",
+    "region": "Sky Station 2 - Sky Fleet Ship",
     "category": [
       "World 1",
       "1-Ups"
@@ -325,7 +325,7 @@
   {
     "name": "Sky Station 2 - Teleporter 1-Up #2",
     "requires": "",
-    "region": "Sky Station 2 - Sky Fleet Planet",
+    "region": "Sky Station 2 - Sky Fleet Ship",
     "category": [
       "World 1",
       "1-Ups"
@@ -335,7 +335,7 @@
   {
     "name": "Sky Station 2 - Teleporter 1-Up #3",
     "requires": "",
-    "region": "Sky Station 2 - Sky Fleet Planet",
+    "region": "Sky Station 2 - Sky Fleet Ship",
     "category": [
       "World 1",
       "1-Ups"
@@ -345,7 +345,7 @@
   {
     "name": "Sky Station - Green Star 3",
     "requires": "|Sky Station Green Stars|",
-    "region": "Sky Station 2 - Sky Fleet Planet",
+    "region": "Sky Station 2 - Sky Fleet Ship",
     "category": [
       "World 1",
       "Green Star Locations"
@@ -355,7 +355,7 @@
   {
     "name": "Sky Station 2 - Wooden Alcove 1-Up",
     "requires": "",
-    "region": "Sky Station 2 - Sky Fleet Planet",
+    "region": "Sky Station 2 - Sky Fleet Ship",
     "category": [
       "World 1",
       "1-Ups"
@@ -984,7 +984,7 @@
   },
   {
     "name": "Fluffy Bluff - Green Star 1",
-    "requires": "|Fluffy Bluff Green Stars| and |Can Make Clouds| and (|Can Back or Sideflip| or (|Medium Logic| and |Can Double Jump|))",
+    "requires": "|Fluffy Bluff Green Stars| and |Can Make Clouds| and (|Can Back or Sideflip| or (|Medium Logic| and |Has Double Jump|))",
     "region": "Fluffy Bluff 1 - Landing",
     "category": [
       "World 1",
@@ -1739,7 +1739,7 @@
   },
   {
     "name": "Bugaboom's Back",
-    "requires": "|Can Ground Pound|",
+    "requires": "|Has Ground Pound|",
     "region": "Puzzle Plank S - Boss Planet",
     "category": [
       "World 2",
@@ -2289,7 +2289,7 @@
   },
   {
     "name": "Catch That Star Bunny",
-    "requires": "(|Can Ground Spin| and |Can Ground Pound|) or |Hard Logic|",
+    "requires": "(|Has Ground Spin| and |Has Ground Pound|) or |Hard Logic|",
     "region": "Cosmic Cove S - Star Bunny",
     "category": [
       "World 2",
@@ -2801,7 +2801,7 @@
   },
   {
     "name": "Tall Trunk 1 - First Planet Crystal 1-Up",
-    "requires": "|Can Ground Spin|",
+    "requires": "|Has Ground Spin|",
     "region": "Tall Trunk 1 - Big Tree",
     "category": [
       "World 3",
@@ -2841,7 +2841,7 @@
   },
   {
     "name": "Tall Trunk 1 - Tree Top Life Mushroom",
-    "requires": "|Can Use Blimp| or (|Hard Logic| and |Can Wall Spin| and |Can Backflip|)",
+    "requires": "|Can Use Blimp| or (|Hard Logic| and |Can Wall Spin| and |Has Backflip|)",
     "region": "Tall Trunk 1 - Big Tree",
     "category": [
       "World 3",
@@ -2851,7 +2851,7 @@
   },
   {
     "name": "Tall Trunk - Green Star 1",
-    "requires": "|Tall Trunk Green Stars| and (|Can Use Blimp| or (|Hard Logic| and |Can Wall Spin| and |Can Backflip|))",
+    "requires": "|Tall Trunk Green Stars| and (|Can Use Blimp| or (|Hard Logic| and |Can Wall Spin| and |Has Backflip|))",
     "region": "Tall Trunk 1 - Big Tree",
     "category": [
       "World 3",
@@ -2992,7 +2992,7 @@
   },
   {
     "name": "Tall Trunk 2 - Slide 1-Up After Gap",
-    "requires": "|Can Air Spin|",
+    "requires": "|Has Air Spin|",
     "region": "Tall Trunk 2 - Slide",
     "category": [
       "World 3",
@@ -4487,7 +4487,7 @@
   },
   {
     "name": "Starshine Beach - Green Star 1",
-    "requires": "|Starshine Beach Green Stars| and (|Can Use Blimp| or (|Can Back or Sideflip| and |Can Air Spin|))",
+    "requires": "|Starshine Beach Green Stars| and (|Can Use Blimp| or (|Can Back or Sideflip| and |Has Air Spin|))",
     "region": "Starshine Beach 1 - Beach",
     "category": [
       "World 4",
@@ -4507,7 +4507,7 @@
   },
   {
     "name": "Starshine Beach - Green Star 2",
-    "requires": "|Starshine Beach Green Stars| and ((|Can Use Dash| and |Can Sideflip|) or (|Has Yoshi| and |Medium Logic|))",
+    "requires": "|Starshine Beach Green Stars| and ((|Can Use Dash| and |Has Sideflip|) or (|Has Yoshi| and |Medium Logic|))",
     "region": "Starshine Beach 1 - Beach",
     "category": [
       "World 4",
@@ -4557,7 +4557,7 @@
   },
   {
     "name": "Starshine Beach 2 - 1-Up Above Ocean Spring Platform",
-    "requires": "|Can Air Spin|",
+    "requires": "|Has Air Spin|",
     "region": "Starshine Beach 2 - Beach",
     "category": [
       "World 4",
@@ -4627,7 +4627,7 @@
   },
   {
     "name": "Chompworks - Green Star 1",
-    "requires": "|Chompworks Green Stars| and |Can Air Spin| and (|Can Long Jump| or (|Can Backflip| and |Hard Logic|))",
+    "requires": "|Chompworks Green Stars| and |Has Air Spin| and (|Has Long Jump| or (|Can Backflip| and |Hard Logic|))",
     "region": "Chompworks - Dispenser 1-Up",
     "category": [
       "World 4",
@@ -4677,7 +4677,7 @@
   },
   {
     "name": "Chompworks 1 - 1-Up Atop Mini Chomp Dispenser",
-    "requires": "(|Jump Height 5| and |Can Air Spin|) or |Can Wall Spin|",
+    "requires": "(|Jump Height 5| and |Has Air Spin|) or |Can Wall Spin|",
     "region": "Chompworks Galaxy (28)",
     "category": [
       "World 4",
@@ -4778,7 +4778,7 @@
   },
   {
     "name": "Chompworks - Green Star 3",
-    "requires": "|Chompworks Green Stars| and (|Has Spring| or (|Can Wall Spin| and |Hard Logic| and |Can Back or Sideflip| and |Can Long Jump|))",
+    "requires": "|Chompworks Green Stars| and (|Has Spring| or (|Can Wall Spin| and |Hard Logic| and |Can Back or Sideflip| and |Has Long Jump|))",
     "region": "Chompworks 2 - Tower",
     "category": [
       "World 4",
@@ -5219,7 +5219,7 @@
   },
   {
     "name": "Gravity Gauntlet C - Clock on Wall Jump Blocks",
-    "requires": "|Has Wall Jump| or |Has Sidefip| or (|Has Backflip| and (|Hard Logic| or |Has Air Spin|)) or (|Can Double Jump| AND |Can Air Spin|)",
+    "requires": "|Has Wall Jump| or |Has Sidefip| or (|Has Backflip| and (|Hard Logic| or |Has Air Spin|)) or (|Has Double Jump| AND |Has Air Spin|)",
     "region": "Gravity Gauntlet C - Lava Bubbles",
     "category": [
       "World 4",
@@ -6673,7 +6673,7 @@
   },
   {
     "name": "Clockwork Ruins S - 1-Up on Top Ledge",
-    "requires": "|Can Air Spin| or (|Can Back or Sideflip| and |Medium Logic|)",
+    "requires": "|Has Air Spin| or (|Can Back or Sideflip| and |Medium Logic|)",
     "region": "Clockwork Ruins S - Hammer Ledges",
     "category": [
       "World 6",
@@ -8214,7 +8214,7 @@
   },
   {
     "name": "Flip-Out C - 1-Up Replacing Comet Medal",
-    "requires": "|Can Long Jump| or |Hard Logic|",
+    "requires": "|Has Long Jump| or |Hard Logic|",
     "region": "Flip-Out C - Second Checkpoint",
     "category": [
       "World S",

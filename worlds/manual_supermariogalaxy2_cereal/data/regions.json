@@ -158,7 +158,7 @@
     "connects_to": ["Fluffy Bluff 1 - Hungry Luma Cloud", "Fluffy Bluff 1 - Clifftops Intermediate"]
   },
   "Fluffy Bluff 1 - Hungry Luma Cloud": {
-    "connects_to": ["Fluffy Bluff 1 - Clifftops", "Fluffy Bluff S - Tower Planet"],
+    "connects_to": ["Fluffy Bluff 1 - Clifftops", "Fluffy Bluff S - Tower"],
     "entrance_requires": "|Can Make Clouds| or (|Has Cloud| and (|Has Long Jump| or |Has Ground Spin|) and |Medium Logic|)"
   },
   "Fluffy Bluff 1 - Clifftops Intermediate": {
