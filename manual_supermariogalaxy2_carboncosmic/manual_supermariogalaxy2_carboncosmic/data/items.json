@@ -1,0 +1,979 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data": [
+    {
+      "name": "Power Star",
+      "count": "115",
+      "category": [
+        "Power and Grand Stars"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "name": "Grand Star (World 1 Access)",
+      "count": 1,
+      "category": [
+        "Grand Stars",
+        "Power and Grand Stars"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Grand Star (World 2 Access)",
+      "count": 1,
+      "category": [
+        "Grand Stars",
+        "Power and Grand Stars"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Grand Star (World 3 Access)",
+      "count": 1,
+      "category": [
+        "Grand Stars",
+        "Power and Grand Stars"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Grand Star (World 4 Access)",
+      "count": 1,
+      "category": [
+        "Grand Stars",
+        "Power and Grand Stars"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Grand Star (World 5 Access)",
+      "count": 1,
+      "category": [
+        "Grand Stars",
+        "Power and Grand Stars"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Grand Star (World 6 Access)",
+      "count": 1,
+      "category": [
+        "Grand Stars",
+        "Power and Grand Stars"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Grand Star (World S Access)",
+      "category": [
+        "Grand Stars",
+        "Power and Grand Stars"
+      ],
+      "progression": true
+    },
+    {
+      "count": "120",
+      "name": "Green Star",
+      "category": [
+        "Green Stars"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Fluffy Bluff Chimp Letter",
+      "category": [
+        "Letters"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Boulder Bowl Gearmo Letter",
+      "category": [
+        "Letters"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Wild Glide Jibberjay Letter",
+      "category": [
+        "Letters"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Honeyhop Chimp Letter",
+      "category": [
+        "Letters"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Space Storm Gearmo Letter",
+      "category": [
+        "Letters"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Fleet Glide Jibberjay Letter",
+      "category": [
+        "Letters"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Slimy Spring Chimp Letter",
+      "category": [
+        "Letters"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Speedy Comets",
+      "category": [
+        "Prankster Comets"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Daredevil Comets",
+      "category": [
+        "Prankster Comets"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Purple Comets",
+      "category": [
+        "Prankster Comets"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Cosmic Clone Comets",
+      "category": [
+        "Prankster Comets"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Romp Comets",
+      "category": [
+        "Prankster Comets"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Double Time Comets",
+      "category": [
+        "Prankster Comets"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Green Comets",
+      "category": [
+        "Prankster Comets"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Prankster Comets",
+      "category": [
+        "Prankster Comets"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Bee Mushroom",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Dash Pepper",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Blimp Fruit",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Bulb Berry",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rainbow Star",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Boo Mushroom",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Yoshi",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Spin-Drill",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rock Mushroom",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Fire Flower",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Cloud Flower",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Spring Mushroom",
+      "count": 1,
+      "category": [
+        "Powerups"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Ground Pound",
+      "category": [
+        "Moves"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Spin",
+      "category": [
+        "Moves"
+      ],
+      "progression": true
+    },
+    {
+      "count": 2,
+      "name": "Progressive Spin",
+      "category": [
+        "Moves"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pull Stars",
+      "category": [
+        "Mechanics"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Fluzzard",
+      "category": [
+        "Mechanics"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Wall Jump",
+      "category": [
+        "Moves"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Backflip",
+      "category": [
+        "Moves"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sideflip",
+      "category": [
+        "Moves"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Triple Jump",
+      "category": [
+        "Moves"
+      ],
+      "progression": true
+    },
+    {
+      "count": 2,
+      "name": "Progressive Triple Jump",
+      "category": [
+        "Moves"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Koopa Shell",
+      "category": [
+        "Mechanics"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Bob-ombs",
+      "category": [
+        "Mechanics"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Cannon Permit",
+      "category": [
+        "Mechanics"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Star Ball",
+      "category": [
+        "Mechanics"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Floaty Fluff",
+      "category": [
+        "Mechanics"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Tornado Soaring",
+      "category": [
+        "Mechanics"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Long Jump",
+      "category": [
+        "Moves"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Luigi Character Unlock",
+      "category": [
+        "Luigi"
+      ],
+      "requires": "",
+      "useful": true
+    },
+    {
+      "name": "Sky Station Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Yoshi Star Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Flip-Swap Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Spin-Dig Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rightside Down Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Fluffy Bluff Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Fiery Flotilla Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Puzzle Plank Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Hightail Falls Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Boulder Bowl Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Wild Glide Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Cosmic Cove Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Honeybloom Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Lava Lair Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Tall Trunk Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Cloudy Court Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rolling Masterpiece Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Freezy Flake Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Haunty Halls Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Beat Block Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Fearsome Fleet Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Supermassive Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Flipsville Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Sweet Mystery Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Honeyhop Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Starshine Beach Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Chompworks Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Gravity Gauntlet Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Space Storm Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Boo Moon Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Upside Dizzy Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Slipsand Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Fleet Glide Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Shiverburn Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Boom Bunker Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Melty Monster Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Flash Black Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Clockwork Ruins Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Throwback Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Battle Belt Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Slimy Spring Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Galaxy Generator Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Mario Squared Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rolling Coaster Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Twisty Trials Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Stone Cyclone Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Boss Blitz Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Flip-Out Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Grandmaster Comet Medal",
+      "count": 1,
+      "category": [
+        "Comet Medals"
+      ],
+      "progression": true
+    },
+    {
+      "name": "1-Up",
+      "count": 164,
+      "category": [
+        "Filler"
+      ],
+      "yaml_option": [
+        "1UPsanity"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Life Mushroom",
+      "count": 74,
+      "category": [
+        "Filler"
+      ],
+      "yaml_option": [
+        "Life_Shroomsanity"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Checkpoint Flag",
+      "count": 91,
+      "category": [
+        "Filler",
+        "Checkpoint Flags"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Clock",
+      "count": 69,
+      "category": [
+        "Filler",
+        "Speedrun Clocks"
+      ],
+      "yaml_option": [
+        "Clocksanity"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Flip-Swap Purple Coin",
+      "count": 100,
+      "category": [
+        "Purple Coins"
+      ],
+      "yaml_option": [
+        "Purple_Coinsanity"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Puzzle Plank Purple Coin",
+      "count": 100,
+      "category": [
+        "Purple Coins"
+      ],
+      "yaml_option": [
+        "Purple_Coinsanity"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Tall Trunk Purple Coin",
+      "count": 140,
+      "category": [
+        "Purple Coins"
+      ],
+      "yaml_option": [
+        "Purple_Coinsanity"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Flipsville Purple Coin",
+      "count": 100,
+      "category": [
+        "Purple Coins"
+      ],
+      "yaml_option": [
+        "Purple_Coinsanity"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Starshine Beach Purple Coin",
+      "count": 100,
+      "category": [
+        "Purple Coins"
+      ],
+      "yaml_option": [
+        "Purple_Coinsanity"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Sweet Mystery Purple Coin",
+      "count": 100,
+      "category": [
+        "Purple Coins"
+      ],
+      "yaml_option": [
+        "Purple_Coinsanity"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Clockwork Ruins Purple Coin",
+      "count": 100,
+      "category": [
+        "Purple Coins"
+      ],
+      "yaml_option": [
+        "Purple_Coinsanity"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Mario Squared Purple Coin",
+      "count": 100,
+      "category": [
+        "Purple Coins"
+      ],
+      "yaml_option": [
+        "Purple_Coinsanity"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rolling Coaster Purple Coin",
+      "count": 110,
+      "category": [
+        "Purple Coins"
+      ],
+      "yaml_option": [
+        "Purple_Coinsanity"
+      ],
+      "progression": true
+    }
+  ]
+}
