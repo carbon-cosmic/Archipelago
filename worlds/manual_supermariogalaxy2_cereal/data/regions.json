@@ -1234,223 +1234,315 @@
     "requires": "|Has Daredevil Comets| and {OptOne(|Fearsome Fleet Comet Medal|)}"
   },
   "World 4": {
-   "requires": "|Grand Star (World 4 Access)|",
-   "connects_to": ["Supermassive Galaxy", "Sweet Mystery Galaxy", "Flipsville Galaxy",
-     "Honeyhop Galaxy", "Starshine Beach Galaxy", "Chompworks Galaxy", "Bowser's Gravity Gauntlet"]
+    "requires": "|Grand Star (World 4 Access)|",
+    "connects_to": [
+      "Supermassive Galaxy",
+      "Sweet Mystery Galaxy",
+      "Flipsville Galaxy",
+      "Honeyhop Galaxy",
+      "Starshine Beach Galaxy",
+      "Chompworks Galaxy",
+      "Bowser's Gravity Gauntlet"
+    ]
   },
   "Supermassive Galaxy": {
-    "connects_to": ["Supermassive - Start", "Supermassive C - Start"]
+    "connects_to": [
+      "Supermassive - Start",
+      "Supermassive C - Start"
+    ]
   },
   "Supermassive - Start": {
-    "connects_to": ["Supermassive - Pipes"]
+    "connects_to": [
+      "Supermassive - Pipes"
+    ]
   },
   "Supermassive - Pipes": {
-    "connects_to": ["Supermassive - Thwomps"],
-    "entrance_requires": "|Has Wall Jump| or (|Jump Height 6| and |Hard Logic|)"
+    "connects_to": [
+      "Supermassive - Thwomps"
+    ],
+    "requires": "|Has Wall Jump| or (|Jump Height 6| and |Hard Logic|)"
   },
   "Supermassive - Thwomps": {
-    "connects_to": ["Supermassive - Koopas"],
-    "entrance_requires": "|Has Long Jump| or |Has Air Spin|"
+    "connects_to": [
+      "Supermassive - Koopas"
+    ],
+    "requires": "|Has Long Jump| or |Has Air Spin|"
   },
   "Supermassive - Koopas": {
-    "connects_to": ["Supermassive - Star Chips"],
-    "entrance_requires": "|Jump Height 4| or |Has Wall Jump|",
-    "exit_requires": "|Has Spin-Drill|"
+    "connects_to": [
+      "Supermassive - Star Chips"
+    ],
+    "requires": "|Jump Height 4| or |Has Wall Jump|"
   },
   "Supermassive - Star Chips": {
-    "connects_to": ["Supermassive - Garden Planet"]
+    "connects_to": [
+      "Supermassive - Garden Planet"
+    ],
+    "requires": "|Has Spin-Drill|"
   },
   "Supermassive - Garden Planet": {
-    "connects_to": ["Supermassive - Wigglers"]
+    "connects_to": [
+      "Supermassive - Wigglers"
+    ]
   },
   "Supermassive - Wigglers": {
 
   },
   "Supermassive C - Start": {
-    "connects_to": ["Supermassive C - Pipes"],
-    "entrance_requires": "|Has Speedy Comets| and |Supermassive Comets|"
+    "connects_to": [
+      "Supermassive C - Pipes"
+    ],
+    "requires": "|Has Speedy Comets| and |Supermassive Comets|"
   },
   "Supermassive C - Pipes": {
-    "connects_to": ["Supermassive C - Thwomps"],
-    "entrance_requires": "|Has Wall Jump| or (|Jump Height 6| and |Hard Logic|)"
+    "connects_to": [
+      "Supermassive C - Thwomps"
+    ],
+    "requires": "|Has Wall Jump| or (|Jump Height 6| and |Hard Logic|)"
   },
   "Supermassive C - Thwomps": {
-    "connects_to": ["Supermassive C - Koopas"],
-    "entrance_requires": "|Has Long Jump| or |Has Air Spin|"
+    "connects_to": [
+      "Supermassive C - Koopas"
+    ],
+    "requires": "|Has Long Jump| or |Has Air Spin|"
   },
   "Supermassive C - Koopas": {
-    "connects_to": ["Supermassive C - Star Chips"],
-    "entrance_requires": "|Jump Height 4| or |Has Wall Jump|",
-    "exit_requires": "|Has Spin-Drill|"
+    "connects_to": [
+      "Supermassive C - Star Chips"
+    ],
+    "requires": "|Jump Height 4| or |Has Wall Jump|"
   },
   "Supermassive C - Star Chips": {
-    "connects_to": ["Supermassive C - Garden Planet"]
+    "connects_to": [
+      "Supermassive C - Garden Planet"
+    ],
+    "requires": "|Has Spin-Drill|"
   },
   "Supermassive C - Garden Planet": {
-    "connects_to": ["Supermassive C - Wigglers"]
+    "connects_to": [
+      "Supermassive C - Wigglers"
+    ]
   },
   "Supermassive C - Wigglers": {
 
   },
   "Flipsville Galaxy": {
-    "connects_to": ["Flipsville 1 - Start", "Flipsville 2 - Start", "Flipsville C - Purple Coins Start"]
+    "connects_to": [
+      "Flipsville 1 - Start",
+      "Flipsville 2 - Start",
+      "Flipsville C - Purple Coins Start"
+    ]
   },
   "Flipsville 1 - Start": {
-    "connects_to": ["Flipsville 1 - Below Start", "Flipsville 1 - Start Intermediate", "Flipsville 1 - Tele Intermediate"],
-    "exit_requires": "|Has Ground Pound| or (|Hard Logic| and |Has Air Spin|)"
-  },
-  "Flipsville 1 - Tele Intermediate": {
-    "connects_to": ["Flipsville - Teleporter"],
-    "exit_requires": "|Has Ground Pound| or (|Has Air Spin| and |Hard Logic|)"
+    "connects_to": [
+      "Flipsville 1 - Below Start",
+      "Flipsville 1 - Start Intermediate",
+      "Flipsville 1 - Tele Intermediate"
+    ],
+    "exit_requires": {
+      "Flipsville 1 - Below Start": "|Has Ground Pound|",
+      "Flipsville - Teleporter": "|Has Ground Pound| or (|Hard Logic| and |Has Air Spin|)",
+      "Flipsville 1 - Chomps": "|Hard Logic| and |Can Back or Sideflip| and |Can Wall Spin|"
+    }
   },
   "Flipsville - Teleporter": {
 
   },
   "Flipsville 1 - Below Start": {
-    "connects_to": ["Flipsville 1 - Chomps"],
-    "entrance_requires": "|Has Ground Pound|"
-  },
-  "Flipsville 1 - Start Intermediate": {
-    "connects_to": ["Flipsville 1 - Chomps"],
-    "exit_requires": "|Hard Logic| and |Can Back or Sideflip| and |Can Wall Spin|"
+    "connects_to": [
+      "Flipsville 1 - Chomps"
+    ],
+    "requires": "|Has Ground Pound|"
   },
   "Flipsville 1 - Chomps": {
-    "connects_to": ["Flipsville 1 - Chomps Below", "Flipsville 1 - Chomps Intermediate"]
+    "connects_to": [
+      "Flipsville 1 - Chomps Below",
+      "Flipsville 1 - Chomps Back"
+    ],
+    "exit_requires": {
+      "Flipsville 1 - Chomps Below": "|Has Ground Pound|",
+      "Flipsville 1 - Chomps Back": "|Can Wall Spin| and |Can Back or Sideflip| and |Hard Logic|"
+    }
   },
   "Flipsville 1 - Chomps Below": {
-    "connects_to": ["Flipsville 1 - Chomps Back"],
-    "entrance_requires": "|Has Ground Pound|"
-  },
-  "Flipsville 1 - Chomps Intermediate": {
-    "connects_to": ["Flipsville 1 - Chomps Back"],
-    "exit_requires": "|Can Wall Spin| and |Can Back or Sideflip| and |Hard Logic|"
+    "connects_to": [
+      "Flipsville 1 - Chomps Back"
+    ]
   },
   "Flipsville 1 - Chomps Back": {
-    "connects_to": ["Flipsville 1 - Lifts"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": ["Flipsville 1 - Lifts"]
   },
   "Flipsville 1 - Lifts": {
     "connects_to": ["Flipsville 1 - Starshroom"],
-    "exit_requires": "|Has Ground Pound| or (|Has Wall Spin| and |Hard Logic|)"
+    "requires": "|Has Ground Pound|"
   },
   "Flipsville 1 - Starshroom": {
-    "connects_to": ["Flipsville 1 - Glamdozer"]
+    "connects_to": ["Flipsville 1 - Glamdozer"],
+    "requires": "|Has Ground Pound| or (|Has Wall Spin| and |Hard Logic|)"
   },
   "Flipsville 1 - Glamdozer": {
 
   },
   "Flipsville 2 - Start": {
-    "connects_to": ["Flipsville 2 - Start Below", "Flipsville 2 - Dirt Intermediate", "Flipsville 2 - Tele Intermediate"]
-  },
-  "Flipsville 2 - Tele Intermediate": {
-    "connects_to": ["Flipsville - Teleporter"],
-    "exit_requires": "|Has Spin-Drill| or (|Has Air Spin| and |Hard Logic|)"
+    "connects_to": [
+      "Flipsville 2 - Start Below",
+      "Flipsville 2 - Dirt Tower",
+      "Flipsville - Teleporter"
+    ],
+    "exit_requires": {
+      "Flipsville 2 - Start Below": "|Has Spin-Drill|",
+      "Flipsville 2 - Dirt Tower": "(|Jump Height 4| and |Can Wall Spin| and |Medium Logic|) or (|Has Air Spin| and |Hard Logic|)",
+      "Flipsville 2 - Teleporter": "|Has Spin-Drill| or (|Jump Height 4| and |Can Wall Spin| and |Medium Logic|) or (|Has Air Spin| and |Hard Logic|)"
+    }
   },
   "Flipsville 2 - Start Below": {
-    "connects_to": ["Flipsville 2 - Dirt Tower"],
-    "entrance_requires": "|Has Spin-Drill|"
-  },
-  "Flipsville 2 - Dirt Intermediate": {
-    "connects_to": ["Flipsville 2 - Dirt Tower"],
-    "exit_requires": "(|Jump Height 4| and |Can Wall Spin| and |Medium Logic|) or (|Has Air Spin| and |Hard Logic|)"
+    "connects_to": [
+      "Flipsville 2 - Dirt Tower"
+    ]
   },
   "Flipsville 2 - Dirt Tower": {
-    "connects_to": ["Flipsville 2 - Silver Stars Start"],
+    "connects_to": [
+      "Flipsville 2 - Silver Stars Start"
+    ],
     "exit_requires": "|Has Spin-Drill| or (|Has Wall Spin| and |Jump Height 4| and |Medium Logic|)"
   },
   "Flipsville 2 - Silver Stars Start": {
-    "connects_to": ["Flipsville 2 - Silver Stars"],
-    "exit_requires": "|Has Spin-Drill|"
+    "connects_to": [
+      "Flipsville 2 - Silver Stars"
+    ],
+    "requires": "|Has Spin-Drill| or (|Has Wall Spin| and |Jump Height 4| and |Medium Logic|)"
   },
   "Flipsville 2 - Silver Stars": {
-
+    "requires": "|Has Spin-Drill|"
   },
   "Flipsville C - Purple Coins Start": {
-    "entrance_requires": "|Has Purple Comets| and |Flipsville Comets|",
-    "connects_to": ["Flipsville C - Purple Coins"]
+    "connects_to": [
+      "Flipsville C - Purple Coins"
+    ],
+    "requires": "|Has Purple Comets| and {OptOne(|Flipsville Comet Medal|)}"
   },
   "Flipsville C - Purple Coins": {
-    "entrance_requires": "|Has Spin-Drill|"
+    "requires": "|Has Spin-Drill|"
   },
   "Starshine Beach Galaxy": {
-    "connects_to": ["Starshine Beach 1 - Start", "Starshine Beach 2 - Start", "Starshine Beach C - Shallows"]
+    "connects_to": [
+      "Starshine Beach 1 - Start",
+      "Starshine Beach 2 - Start",
+      "Starshine Beach C - Shallows"
+    ]
   },
   "Starshine Beach 1 - Start": {
-    "connects_to": ["Starshine Beach 1 - Beach"],
-    "exit_requires": "|Can Swim|"
+    "connects_to": [
+      "Starshine Beach 1 - Beach"
+    ]
   },
   "Starshine Beach 1 - Beach": {
-    "connects_to": ["Starshine Beach 1 - Underwater", "Starshine Beach 1 - High Up", "Starshine Beach 1 - Hut Intermediate"]
+    "connects_to": [
+      "Starshine Beach 1 - Underwater",
+      "Starshine Beach 1 - High Up",
+      "Starshine Beach - Hut Roof"
+    ],
+    "requires": "|Can Swim|"
   },
   "Starshine Beach 1 - Underwater": {
-    "entrance_requires": "|Can Swim|"
+    "requires": "|Can Swim|"
   },
   "Starshine Beach 1 - High Up": {
-    "entrance_requires": "|Can Use Blimp|"
-  },
-  "Starshine Beach 1 - Hut Intermediate": {
-    "exit_requires": "|Has Yoshi| and |Medium Logic|"
+    "requires": "|Can Use Blimp|"
   },
   "Starshine Beach - Hut Roof": {
+    "entrance_requires": {
+      "Starshine Beach 1 - Beach": "|Has Yoshi| and |Medium Logic|",
+      "Starshine Beach 2 - Beach w. Clouds": "|Can Make Ground Clouds|"
+    }
 
   },
   "Starshine Beach 2 - Start": {
-    "connects_to": ["Starshine Beach 2 - Beach"],
-    "exit_requires": "|Can Swim|"
+    "connects_to": [
+      "Starshine Beach 2 - Beach"
+    ]
   },
   "Starshine Beach 2 - Beach": {
-    "connects_to": ["Starshine Beach 2 - Underwater"]
+    "connects_to": [
+      "Starshine Beach 2 - Underwater"
+    ],
+    "requires": "|Can Swim|"
   },
   "Starshine Beach 2 - Underwater": {
-    "connects_to": ["Starshine Beach 2 - Beach w. Clouds"],
-    "entrance_requires": "|Can Swim|"
+    "connects_to": [
+      "Starshine Beach 2 - Beach w. Clouds"
+    ],
+    "requires": "|Can Swim|"
   },
   "Starshine Beach 2 - Beach w. Clouds": {
-    "connects_to": ["Starshine Beach 2 - Tower", "Starshine Beach 2 - Hut Intermediate"],
-    "entrance_requires": "|Has Ground Pound|"
-  },
-  "Starshine Beach 2 - Hut Intermediate": {
-    "connects_to": ["Starshine Beach - Hut Roof"],
-    "exit_requires": "|Can Make Ground Clouds|"
+    "connects_to": [
+      "Starshine Beach 2 - Tower",
+      "Starshine Beach - Hut Roof"
+    ],
+    "requires": "|Has Ground Pound|"
   },
   "Starshine Beach 2 - Tower": {
-    "entrance_requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Can Back or Sideflip| and |Can Wall Jump| and |Medium Logic|)"
+    "requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Can Back or Sideflip| and |Can Wall Jump| and |Medium Logic|)"
   },
   "Starshine Beach C - Shallows": {
-    "connects_to": ["Starshine Beach C - Tower", "Starshine Beach C - Ocean Tower Triples"],
-    "entrance_requires": "|Has Purple Comets| and |Starshine Beach Comets|}"
+    "connects_to": [
+      "Starshine Beach C - Tower",
+      "Starshine Beach C - Ocean Tower Triples"
+    ],
+    "requires": "|Has Purple Comets| and {OptOne(|Starshine Beach Comet Medal|)}}"
   },
   "Starshine Beach C - Tower": {
-    "connects_to": ["Starshine Beach C - Gringills"]
+    "connects_to": [
+      "Starshine Beach C - Gringills"
+    ],
+    "requires": "|Can Use Dash| or (|Medium Logic| and |Has Long Jump|) or (|Hard Logic| and |Has Yoshi|)"
   },
   "Starshine Beach C - Gringills": {
-    "connects_to": ["Starshine Beach C - Ocean"],
-    "entrance_requires": "|Can Use Dash| or (|Has Long Jump| and |Hard Logic|)"
+    "connects_to": [
+      "Starshine Beach C - Ocean"
+    ],
+    "requires": "|Can Use Dash| or (|Has Long Jump| and |Hard Logic|)"
   },
   "Starshine Beach C - Ocean": {
-    "connects_to": ["Starshine Beach C - Ocean Tower Triples"],
-    "entrance_requires": "|Can Use Dash|"
+    "connects_to": [
+      "Starshine Beach C - Ocean Tower Triples"
+    ],
+    "requires": "|Can Use Dash|"
   },
   "Starshine Beach C - Ocean Tower Triples": {
-    "entrance_requires": "|Can Use Dash| or (Hard Logic and (|Can Long Jump| or |Has Yoshi|))"
+    "requires": "|Can Use Dash| or (|Hard Logic| and (|Can Long Jump| or |Has Yoshi|))"
   },
   "Chompworks Galaxy": {
-    "connects_to": ["Chompworks 1 - Start", "Chompworks 2 - Start", "Chompworks C - Lava Chomp Planet"]
+    "connects_to": [
+      "Chompworks 1 - Start",
+      "Chompworks 2 - Start",
+      "Chompworks C - Lava Chomp Planet"
+    ]
   },
   "Chompworks 1 - Start": {
-    "connects_to": ["Chompworks 1 - Rolling Chomps", "Chompworks - Dispenser 1-Up"],
-    "exit_requires": ""
+    "connects_to": [
+      "Chompworks 1 - Rolling Chomps",
+      "Chompworks - Dispenser 1-Up"
+    ]
   },
   "Chompworks - Dispenser 1-Up": {
-    "entrance_requires": "|Has Backflip| or (|Medium Logic| and (|Has Sideflip| or |Has Air Spin|)) or (|Hard Logic| and |Has Spring|)"
+    "entrance_requires": {
+      "Chompworks 1 - Start": "|Has Backflip| or (|Medium Logic| and (|Has Sideflip| or |Has Air Spin|))",
+      "Chompworks 2 - Start":  "|Hard Logic| and |Has Spring|"
+    }
   },
   "Chompworks 1 - Rolling Chomps": {
-    "connects_to": ["Chompworks - Rolling Checkpoint", "Chompworks 1 - Flip-Swap Panels"],
-    "entrance_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Chompworks - Rolling Checkpoint",
+      "Chompworks 1 - Flip-Swap Panels"
+    ],
+    "requires": "|Has Ground Spin|"
   },
   "Chompworks 1 - Flip-Swap Panels": {
-    "connects_to": ["Chompworks 1 - Lava Chomp Planet"],
-    "exit_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Chompworks 1 - Lava Chomp Planet"
+    ],
+    "requires": "|Has Ground Spin|"
   },
   "Chompworks 1 - Lava Chomp Planet": {
 
@@ -1459,139 +1551,202 @@
 
   },
   "Chompworks 2 - Start": {
-    "connects_to": ["Chompworks 2 - Rolling Chomps", "Chompworks - Dispenser 1-Up"],
-    "exit_requires": "|Has Spring| or (|Has Wall Spin| and |Medium Logic| and (|Has Triple Jump| or |Has Backflip| or |Has Long Jump|)) or |Hard Logic|"
+    "connects_to": [
+      "Chompworks 2 - Rolling Chomps",
+      "Chompworks - Dispenser 1-Up"
+    ]
   },
   "Chompworks 2 - Rolling Chomps": {
     "connects_to": ["Chompworks 2 - Tower", "Chompworks - Rolling Checkpoint"],
-    "exit_requires": "|Can Wall Spin| or (|Can Air Spin| and |Jump Height 5|)"
+    "requires": "|Has Spring| or (|Has Wall Spin| and |Medium Logic| and (|Has Triple Jump| or |Has Backflip| or |Has Long Jump|)) or |Hard Logic|"
   },
   "Chompworks 2 - Tower": {
-
+    "requires": "|Can Wall Spin| or (|Can Air Spin| and |Jump Height 5|)"
   },
   "Chompworks C - Lava Chomp Planet": {
-    "entrance_requires": "|Has Clone Comets| and |Chompworks Comets|"
+    "requires": "|Has Clone Comets| and {OptOne(|Chompworks Comet Medal|)}"
   },
   "Sweet Mystery Galaxy": {
-    "connects_to": ["Sweet Mystery - Start", "Sweet Mystery C - Start"]
+    "connects_to": [
+      "Sweet Mystery - Start",
+      "Sweet Mystery C - Start"
+    ]
   },
   "Sweet Mystery - Start": {
-    "connects_to": ["Sweet Mystery - First Checkpoint"]
+    "connects_to": [
+      "Sweet Mystery - First Checkpoint"
+    ]
   },
   "Sweet Mystery - First Checkpoint": {
-    "connects_to": ["Sweet Mystery - Chocolate Bars"],
-    "entrance_requires": "|Can Use Bulb| or (|Has Yoshi| and |Hard Logic|)"
+    "connects_to": [
+      "Sweet Mystery - Chocolate Bars"
+    ],
+    "requires": "|Can Use Bulb| or (|Has Yoshi| and |Hard Logic|)"
   },
   "Sweet Mystery - Chocolate Bars": {
-    "connects_to": ["Sweet Mystery - Flipswitch Panels"],
-    "entrance_requires": "|Can Use Bulb|"
+    "connects_to": [
+      "Sweet Mystery - Flipswitch Panels"
+    ],
+    "requires": "|Can Use Bulb|"
   },
   "Sweet Mystery - Flipswitch Panels": {
-    "connects_to": ["Sweet Mystery - Candle Box"]
+    "connects_to": [
+      "Sweet Mystery - Candle Box"
+    ]
   },
   "Sweet Mystery - Candle Box": {
 
   },
   "Sweet Mystery C - Start": {
-    "connects_to": ["Sweet Mystery C - First Path 1st Set", "Sweet Mystery C - First Path 2nd Set", "Sweet Mystery C - First Path 3rd Set", "Sweet Mystery C - Cookie Boxes"],
-    "entrance_requires": "|Has Purple Comets| and |Sweet Mystery Comets|"
+    "connects_to": [
+      "Sweet Mystery C - First Path 1st Set",
+      "Sweet Mystery C - First Path 2nd Set",
+      "Sweet Mystery C - First Path 3rd Set",
+      "Sweet Mystery C - Cookie Boxes"
+    ],
+    "requires": "|Has Purple Comets| and {OptOne(|Sweet Mystery Comet Medal|)}"
   },
   "Sweet Mystery C - First Path 1st Set": {
-    "entrance_requires": "|Can Use Bulb| or |Hard Logic|"
+    "requires": "|Can Use Bulb| or |Hard Logic|"
   },
   "Sweet Mystery C - First Path 2nd Set": {
-    "entrance_requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Yoshi| or (|Has Air Spin| and |Has Long Jump|)))"
+    "requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Yoshi| or (|Has Air Spin| and |Has Long Jump|)))"
   },
   "Sweet Mystery C - First Path 3rd Set": {
-    "entrance_requires": "|Can Use Bulb| or (|Hard Logic| and |Has Yoshi|)"
+    "requires": "|Can Use Bulb| or (|Hard Logic| and |Has Yoshi|)"
   },
   "Sweet Mystery C - Cookie Boxes": {
-    "connects_to": ["Sweet Mystery C - Cookie Path"],
-    "entrance_requires": "|Can Use Bulb| or (|Has Yoshi| and |Hard Logic|)"
+    "connects_to": [
+      "Sweet Mystery C - Cookie Path"
+    ],
+    "requires": "|Can Use Bulb| or (|Has Yoshi| and |Hard Logic|)"
   },
   "Sweet Mystery C - Cookie Path": {
-    "connects_to": ["Sweet Mystery C - Moving Gifts"],
-    "entrance_requires": "|Can Use Bulb|"
+    "connects_to": [
+      "Sweet Mystery C - Moving Gifts"
+    ],
+    "requires": "|Can Use Bulb|"
   },
   "Sweet Mystery C - Moving Gifts": {
-    "connects_to": ["Sweet Mystery C - Flower Grapples"]
+    "connects_to": [
+      "Sweet Mystery C - Flower Grapples"
+    ]
   },
   "Sweet Mystery C - Flower Grapples": {
 
   },
   "Honeyhop Galaxy": {
-    "connects_to": ["Honeyhop 1 - Start", "Honeyhop 2 - Base Lake"]
+    "connects_to": [
+      "Honeyhop 1 - Start",
+      "Honeyhop 2 - Base Lake"
+    ]
   },
   "Honeyhop 1 - Start": {
-    "connects_to": ["Honeyhop 1 - Start Water"],
-    "exit_requires": "|Has Bee|"
+    "connects_to": [
+      "Honeyhop 1 - Start Water"
+    ]
   },
   "Honeyhop 1 - Start Water": {
-    "connects_to": ["Honeyhop 1 - Start 2D"]
+    "connects_to": ["Honeyhop 1 - Start 2D"],
+    "requires": "|Has Bee|"
   },
   "Honeyhop 1 - Start 2D": {
-    "connects_to": ["Honeyhop 1 - Floaty Fluff"],
-    "exit_requires": "|Can Use Floaty Fluff| or |Medium Logic|"
+    "connects_to": [
+      "Honeyhop 1 - Floaty Fluff"
+    ]
   },
   "Honeyhop 1 - Floaty Fluff": {
-    "connects_to": ["Honeyhop 1 - Base Lake"]
+    "connects_to": [
+      "Honeyhop 1 - Base Lake"
+    ],
+    "requires": "|Can Use Floaty Fluff| or |Medium Logic|"
   },
   "Honeyhop 1 - Base Lake": {
-    "connects_to": ["Honeyhop 1 - Bubble Shooters"]
+    "connects_to": [
+      "Honeyhop 1 - Bubble Shooters"
+    ]
   },
   "Honeyhop 1 - Bubble Shooters": {
-    "connects_to": ["Honeyhop 1 - Queen Bee"]
+    "connects_to": [
+      "Honeyhop 1 - Queen Bee"
+    ]
   },
   "Honeyhop 1 - Queen Bee": {
 
   },
   "Honeyhop 2 - Base Lake": {
-    "connects_to": ["Honeyhop 2 - Bubble Shooters"],
-    "entrance_requires": "Honeyhop Chimp Letter"
+    "connects_to": [
+      "Honeyhop 2 - Bubble Shooters"
+    ],
+    "requires": "Honeyhop Chimp Letter"
   },
   "Honeyhop 2 - Bubble Shooters": {
-    "connects_to": ["Honeyhop 2 - Queen Bee"]
+    "connects_to": [
+      "Honeyhop 2 - Queen Bee"
+    ]
   },
   "Honeyhop 2 - Queen Bee": {
 
   },
   "Bowser's Gravity Gauntlet": {
-    "connects_to": ["Gravity Gauntlet - Start", "Gravity Gauntlet C - Start"]
+    "connects_to": [
+      "Gravity Gauntlet - Start",
+      "Gravity Gauntlet C - Start"
+    ]
   },
   "Gravity Gauntlet - Start": {
-    "connects_to": ["Gravity Gauntlet - Lava Bubbles"]
+    "connects_to": [
+      "Gravity Gauntlet - Lava Bubbles"
+    ]
   },
   "Gravity Gauntlet - Lava Bubbles": {
-    "connects_to": ["Gravity Gauntlet - Underwater"]
+    "connects_to": [
+      "Gravity Gauntlet - Underwater"
+    ]
   },
   "Gravity Gauntlet - Underwater": {
-    "connects_to": ["Gravity Gauntlet - Whomps"]
+    "connects_to": [
+      "Gravity Gauntlet - Whomps"
+    ]
   },
   "Gravity Gauntlet - Whomps": {
-    "connects_to": ["Gravity Gauntlet - Firebar Wheels"]
+    "connects_to": [
+      "Gravity Gauntlet - Firebar Wheels"
+    ]
   },
   "Gravity Gauntlet - Firebar Wheels": {
-    "connects_to": ["Gravity Gauntlet - Castle Top"]
+    "connects_to": [
+      "Gravity Gauntlet - Castle Top"
+    ]
   },
   "Gravity Gauntlet - Castle Top": {
-    "connects_to": ["Gravity Gauntlet - Bowser"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": [
+      "Gravity Gauntlet - Bowser"
+    ]
   },
   "Gravity Gauntlet - Bowser": {
-
+    "requires": "|Has Ground Pound|"
   },
   "Gravity Gauntlet C - Start": {
-    "connects_to": ["Gravity Gauntlet C - Lava Bubbles"],
+    "connects_to": [
+      "Gravity Gauntlet C - Lava Bubbles"
+    ],
     "entrance_requires": "|Has Speedy Comets| and |Gravity Gauntlet Comets|"
   },
   "Gravity Gauntlet C - Lava Bubbles": {
-    "connects_to": ["Gravity Gauntlet C - Underwater"]
+    "connects_to": [
+      "Gravity Gauntlet C - Underwater"
+    ]
   },
   "Gravity Gauntlet C - Underwater": {
-    "connects_to": ["Gravity Gauntlet C - Whomps"]
+    "connects_to": [
+      "Gravity Gauntlet C - Whomps"
+    ]
   },
   "Gravity Gauntlet C - Whomps": {
-    "connects_to": ["Gravity Gauntlet C - Firebar Wheels"]
+    "connects_to": [
+      "Gravity Gauntlet C - Firebar Wheels"
+    ]
   },
   "Gravity Gauntlet C - Firebar Wheels": {
 
