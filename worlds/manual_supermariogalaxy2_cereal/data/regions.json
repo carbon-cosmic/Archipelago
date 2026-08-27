@@ -6,381 +6,618 @@
   },
   "World 1": {
     "requires": "|Grand Star (World 1 Access)|",
-    "connects_to": ["Sky Station Galaxy", "Yoshi Star Galaxy", "Spin-Dig Galaxy", "Flip-Swap Galaxy",
-      "Fluffy Bluff Galaxy", "Rightside Down Galaxy", "Bowser Jr.'s Fiery Flotilla"]
+    "connects_to": [
+      "Sky Station Galaxy",
+      "Yoshi Star Galaxy",
+      "Spin-Dig Galaxy",
+      "Flip-Swap Galaxy",
+      "Fluffy Bluff Galaxy",
+      "Rightside Down Galaxy",
+      "Bowser Jr.'s Fiery Flotilla"
+    ]
   },
   "Sky Station Galaxy": {
-    "connects_to": ["Sky Station 1 - Start Planet", "Sky Station 2 - Start Planet", "Sky Station C - Start Planet"]
+    "connects_to": [
+      "Sky Station 1 - Start Planet",
+      "Sky Station 2 - Start Planet",
+      "Sky Station C - Start Planet"
+    ]
   },
   "Sky Station 1 - Start Planet": {
-    "connects_to": ["Sky Station 1 - Green Hill Planet"],
-    "exit_requires": "|Has Ground Spin| or (|Hard Logic| and |Has Triple Jump| and |Has Wall Jump|)"
+    "connects_to": [
+      "Sky Station 1 - Green Hill Planet"
+    ],
+    "exit_requires": {
+      "Sky Station 1 - Green Hill Planet": "|Has Ground Spin| or (|Hard Logic| and |Has Triple Jump| and |Has Wall Jump|)"
+    }
   },
   "Sky Station 1 - Green Hill Planet": {
-    "connects_to": ["Sky Station 1 - Planetoids"]
+    "connects_to": [
+      "Sky Station 1 - Planetoids"
+    ]
   },
   "Sky Station 1 - Planetoids": {
-    "connects_to": ["Sky Station 1 - Rolling Carts"]
+    "connects_to": [
+      "Sky Station 1 - Rolling Carts"
+    ]
   },
   "Sky Station 1 - Rolling Carts": {
-    "connects_to": ["Sky Station 1 - Grassy Octoomba Planet"]
+    "connects_to": [
+      "Sky Station 1 - Grassy Octoomba Planet"
+    ]
   },
   "Sky Station 1 - Grassy Octoomba Planet": {
-    "connects_to": ["Sky Station 1 - Boss Planet"]
+    "connects_to": [
+      "Sky Station 1 - Boss Planet"
+    ]
   },
   "Sky Station 1 - Boss Planet": {
 
   },
   "Sky Station 2 - Start Planet": {
-    "connects_to": ["Sky Station 2 - Sky Fleet Ship"],
-    "exit_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Sky Station 2 - Sky Fleet Ship"
+    ],
+    "exit_requires": {
+      "Sky Station 2 - Sky Fleet Ship": "|Has Ground Spin|"
+    }
   },
   "Sky Station 2 - Sky Fleet Ship": {
-    "connects_to": ["Sky Station 2 - Flipswitch Planet"]
+    "connects_to": [
+      "Sky Station 2 - Flipswitch Planet"
+    ]
   },
   "Sky Station 2 - Flipswitch Planet": {
-    "connects_to": ["Sky Station 2 - Bomber Bill Planet"]
+    "connects_to": [
+      "Sky Station 2 - Bomber Bill Planet"
+    ]
   },
   "Sky Station 2 - Bomber Bill Planet": {
 
   },
   "Sky Station C - Start Planet": {
-    "connects_to": ["Sky Station C - Rolling Carts"],
-    "entrance_requires": "|Has Speedy Comets| and |Sky Station Comets|",
-    "exit_requires": "|Has Ground Spin| or (|Hard Logic| and |Can Triple Jump| and |Can Wall Jump|)"
+    "connects_to": [
+      "Sky Station C - Rolling Carts"
+    ],
+    "entrance_requires": {
+      "Sky Station Galaxy": "|Has Speedy Comets| and {OptOne(|Sky Station Comet Medal|)}"
+    },
+    "exit_requires": {
+      "Sky Station C - Rolling Carts": "|Has Ground Spin| or (|Hard Logic| and |Can Triple Jump| and |Can Wall Jump|)"
+    }
   },
   "Sky Station C - Rolling Carts": {
-    "connects_to": ["Sky Station C - Boss Planet"]
+    "connects_to": [
+      "Sky Station C - Boss Planet"
+    ]
   },
   "Sky Station C - Boss Planet": {
 
   },
   "Yoshi Star Galaxy": {
-    "connects_to": ["Yoshi Star 1 - Start", "Yoshi Star 2 - Start", "Yoshi Star C - Start"]
+    "connects_to": [
+      "Yoshi Star 1 - Start",
+      "Yoshi Star 2 - Start",
+      "Yoshi Star C - Start"
+    ]
   },
   "Yoshi Star 1 - Start": {
-    "connects_to": ["Yoshi Star 1 - Volcano Front"],
-    "exit_requires": "|Has Yoshi| or (|Can Long Spin| and |Medium Logic|)"
+    "connects_to": [
+      "Yoshi Star 1 - Volcano Front"
+    ],
+    "exit_requires": {
+      "Yoshi Star 1 - Volcano Front": "|Has Yoshi| or (|Can Long Spin| and |Medium Logic|)"
+    }
   },
   "Yoshi Star 1 - Volcano Front": {
-    "connects_to": ["Yoshi Star 1 - Dirt Planet"],
-    "exit_requires": "|Has Yoshi|"
+    "connects_to": [
+      "Yoshi Star 1 - Dirt Planet"
+    ],
+    "exit_requires": {
+      "Yoshi Star 1 - Dirt Planet": "|Has Yoshi|"
+    }
   },
   "Yoshi Star 1 - Dirt Planet": {
-    "connects_to": ["Yoshi Star 1 - Tower Planet"],
-    "exit_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Yoshi Star 1 - Tower Planet"
+    ],
+    "exit_requires": {
+      "Yoshi Star 1 - Tower Planet": "|Has Ground Spin|"
+    }
   },
   "Yoshi Star 1 - Tower Planet": {
-    "connects_to": ["Yoshi Star 1 - Fossil Planet"],
-    "exit_requires": "|Has Yoshi|"
+    "connects_to": [
+      "Yoshi Star 1 - Fossil Planet"
+    ],
+    "exit_requires": {
+      "Yoshi Star 1 - Fossil Planet": "|Has Yoshi|"
+    }
   },
   "Yoshi Star 1 - Fossil Planet": {
 
   },
   "Yoshi Star 2 - Start": {
-    "connects_to": ["Yoshi Star 2 - Luma Planet"],
-    "exit_requires": "|Has Yoshi|"
+    "connects_to": [
+      "Yoshi Star 2 - Luma Planet"
+    ],
+    "exit_requires": {
+      "Yoshi Star 2 - Luma Planet": "|Has Yoshi|"
+    }
   },
   "Yoshi Star 2 - Luma Planet": {
-    "connects_to": ["Yoshi Star 2 - Stone Planet", "Yoshi Star 2 - Secret Planet"],
-    "exit_requires": "|Has Yoshi|"
+    "connects_to": [
+      "Yoshi Star 2 - Stone Planet",
+      "Yoshi Star 2 - Secret Planet"
+    ],
+    "exit_requires": {
+      "Yoshi Star 2 - Stone Planet": "|Has Yoshi|",
+      "Yoshi Star 2 - Secret Planet": "|Has Yoshi|"
+    }
   },
   "Yoshi Star 2 - Secret Planet": {
-    "connects_to": ["Yoshi Star 2 - Stone Planet"],
-    "exit_requires": ""
+    "connects_to": [
+      "Yoshi Star 2 - Stone Planet"
+    ]
   },
   "Yoshi Star 2 - Stone Planet": {
-    "connects_to": ["Yoshi Star 2 - Stormy Planet"],
-    "exit_requires": "|Has Yoshi|"
+    "connects_to": [
+      "Yoshi Star 2 - Stormy Planet"
+    ],
+    "requires": "|Has Yoshi|"
   },
   "Yoshi Star 2 - Stormy Planet": {
 
   },
   "Yoshi Star C - Start": {
-    "entrance_requires": "|Has Romp Comets| and |Yoshi Star Comets|"
+    "entrance_requires": {
+      "Yoshi Star Galaxy": "|Has Romp Comets| and {OptOne(|Yoshi Star Comet Medal|)}"
+    }
   },
   "Spin-Dig Galaxy": {
-    "connects_to": ["Spin-Dig 1 - Start Planet", "Spin-Dig 2 - Start Planet", "Spin-Dig C - Digga-Leg"]
+    "connects_to": [
+      "Spin-Dig 1 - Start Planet",
+      "Spin-Dig 2 - Start Planet",
+      "Spin-Dig C - Digga-Leg"
+    ]
   },
   "Spin-Dig 1 - Start Planet": {
-    "connects_to": ["Spin-Dig 1 - Dirt Tower Planet"],
-    "exit_requires": "|Has Spin Drill| or |Jump Height 6| or (|Medium Logic| and |Can Wall Spin| and (|Has Double Jump| or |Has Backflip|)) or (|Hard Logic| and |Can Long Spin| and |Can Wall Jump|)"
+    "connects_to": [
+      "Spin-Dig 1 - Dirt Tower Planet"
+    ],
+    "exit_requires": {
+      "Spin-Dig 1 - Dirt Tower Planet": "|Has Spin Drill| or |Jump Height 6| or (|Medium Logic| and |Can Wall Spin| and (|Has Double Jump| or |Has Backflip|)) or (|Hard Logic| and |Can Long Spin| and |Can Wall Jump|)"
+    }
   },
   "Spin-Dig 1 - Dirt Tower Planet": {
-    "connects_to": ["Spin-Dig 1 - Metal Ring Planet"],
-    "exit_requires": "|Has Spin-Drill|"
+    "connects_to": [
+      "Spin-Dig 1 - Metal Ring Planet"
+    ],
+    "exit_requires": {
+      "Spin-Dig 1 - Metal Ring Planet": "|Has Spin-Drill|"
+    }
   },
   "Spin-Dig 1 - Metal Ring Planet": {
-    "connects_to": ["Spin-Dig 1 - Hollow Planet"],
-    "exit_requires": ""
+    "connects_to": [
+      "Spin-Dig 1 - Hollow Planet"
+    ]
   },
   "Spin-Dig 1 - Hollow Planet": {
-    "connects_to": ["Spin-Dig 1 - Starshroom"],
-    "exit_requires": "Spin-Drill"
+    "connects_to": [
+      "Spin-Dig 1 - Starshroom"
+    ]
   },
   "Spin-Dig 1 - Starshroom": {
-    "connects_to": ["Spin-Dig 1 - Boss Planet"],
-    "exit_requires": ""
+    "connects_to": [
+      "Spin-Dig 1 - Boss Planet"
+    ]
   },
   "Spin-Dig 1 - Boss Planet": {
 
   },
   "Spin-Dig 2 - Start Planet": {
-    "connects_to": ["Spin-Dig 2 - First Canister Section"],
-    "exit_requires": "(|Can Ground Spin| or |Jump Height 3| or |Can Double| and |Medium Logic|)"
+    "connects_to": [
+      "Spin-Dig 2 - First Canister Section"
+    ],
+    "exit_requires": {
+      "Spin-Dig 2 - First Canister Section": "(|Can Ground Spin| or |Jump Height 3| or |Can Double| and |Medium Logic|)"
+    }
   },
   "Spin-Dig 2 - First Canister Section": {
-    "connects_to": ["Spin-Dig 2 - Second Canister Section"],
-    "exit_requires": "|Has Spin-Drill|"
+    "connects_to": [
+      "Spin-Dig 2 - Second Canister Section"
+    ],
+    "exit_requires": {
+      "Spin-Dig 2 - Second Canister Section": "|Has Spin-Drill|"
+    }
   },
   "Spin-Dig 2 - Second Canister Section": {
-    "connects_to": ["Spin-Dig 2 - Starshroom"],
-    "exit_requires": "|Has Spin-Drill| and |Has Ground Spin|"
+    "connects_to": [
+      "Spin-Dig 2 - Starshroom"
+    ],
+    "exit_requires": {
+      "Spin-Dig 2 - Starshroom": "|Has Spin-Drill| and |Has Ground Spin|"
+    }
   },
   "Spin-Dig 2 - Starshroom": {
-    "connects_to": ["Spin-Dig 2 - Silver Stars"],
-    "exit_requires": ""
+    "connects_to": [
+      "Spin-Dig 2 - Silver Stars"
+    ]
   },
   "Spin-Dig 2 - Silver Stars": {
 
   },
   "Spin-Dig C - Digga-Leg": {
-
+    "entrance_requires": {
+      "Spin-Dig Galaxy": "|Has Daredevil Comets| and {OptOne(|Spin-Dig Comet Medal|)}"
+    }
   },
   "Fluffy Bluff Galaxy": {
-    "connects_to": ["Fluffy Bluff 1 - Landing", "Fluffy Bluff 2 - Landing"]
+    "connects_to": [
+      "Fluffy Bluff 1 - Landing",
+      "Fluffy Bluff 2 - Landing"
+    ]
   },
   "Fluffy Bluff 1 - Landing": {
-    "connects_to": ["Fluffy Bluff 1 - Start Building"],
-    "exit_requires": "|Can Make Ground Clouds| or |Jump Height 3| or (|Has Double Jump| and |Has Cloud| and |Medium Logic|)"
+    "connects_to": [
+      "Fluffy Bluff 1 - Start Building"
+    ],
+    "exit_requires": {
+      "Fluffy Bluff 1 - Start Building": "|Can Make Ground Clouds| or |Jump Height 3| or (|Has Double Jump| and |Has Cloud| and |Medium Logic|)"
+    }
   },
   "Fluffy Bluff 1 - Start Building": {
-    "connects_to": ["Fluffy Bluff 1 - Hungry Luma Cloud", "Fluffy Bluff 1 - Clifftops Intermediate"]
+    "connects_to": [
+      "Fluffy Bluff 1 - Hungry Luma Cloud",
+      "Fluffy Bluff 1 - Clifftops"
+    ],
+    "exit_requires": {
+      "Fluffy Bluff 1 - Hungry Luma Cloud": "|Can Make Clouds| or (|Has Cloud| and (|Has Long Jump| or |Has Ground Spin|) and |Medium Logic|)",
+      "Fluffy Bluff 1 - CLifftops": "|Has Cloud| or (|Jump Height 6| and |Hard Logic|)"
+    }
   },
   "Fluffy Bluff 1 - Hungry Luma Cloud": {
-    "connects_to": ["Fluffy Bluff 1 - Clifftops", "Fluffy Bluff S - Tower"],
-    "entrance_requires": "|Can Make Clouds| or (|Has Cloud| and (|Has Long Jump| or |Has Ground Spin|) and |Medium Logic|)"
-  },
-  "Fluffy Bluff 1 - Clifftops Intermediate": {
-    "connects_to": ["Fluffy Bluff 1 - Clifftops"],
-    "exit_requires": "|Has Cloud| or (|Jump Height 6| and |Hard Logic|)"
+    "connects_to": [
+      "Fluffy Bluff 1 - Clifftops",
+      "Fluffy Bluff S - Tower"
+    ]
   },
   "Fluffy Bluff 1 - Clifftops": {
-    "connects_to": ["Fluffy Bluff 1 - Fountain Planet"],
-    "exit_requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Has Wall Jump| and |Medium Logic|) or (|Has Cloud| and |Has Long Jump| and |Has Wall Jump| and |Medium Logic|)"
+    "connects_to": [
+      "Fluffy Bluff 1 - Fountain Planet"
+    ],
+    "exit_requires": {
+      "Fluffy Bluff 1 - Fountain Planet": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Has Wall Jump| and |Medium Logic|) or (|Has Cloud| and |Has Long Jump| and |Has Wall Jump| and |Medium Logic|)"
+    }
   },
   "Fluffy Bluff 1 - Fountain Planet": {
-    "connects_to": ["Fluffy Bluff 1 - Waterfall"]
+    "connects_to": [
+      "Fluffy Bluff 1 - Waterfall"
+    ]
   },
   "Fluffy Bluff 1 - Waterfall": {
-    "connects_to": ["Fluffy Bluff 1 - Waterfall Top"],
-    "exit_requires": "|Can Make Clouds| or (|Can Wall Spin| and |Jump Height 4| and |Medium Logic|) or (|Has Cloud| and ((|Has Ground Spin| and |Medium Logic|) or (|Has Wall Jump| and |Hard Logic|)))"
+    "connects_to": [
+      "Fluffy Bluff 1 - Waterfall Top"
+    ],
+    "exit_requires": {
+      "Fluffy Bluff 1 - Waterfall Top": "|Can Make Clouds| or (|Can Wall Spin| and |Jump Height 4| and |Medium Logic|) or (|Has Cloud| and ((|Has Ground Spin| and |Medium Logic|) or (|Has Wall Jump| and |Hard Logic|)))"
+    }
   },
   "Fluffy Bluff 1 - Waterfall Top": {
-    "connects_to": ["Fluffy Bluff 1 - Treetops"],
-    "exit_requires": "|Can Make Clouds| or (|Has Cloud| and |Medium Logic|)"
+    "connects_to": [
+      "Fluffy Bluff 1 - Treetops"
+    ],
+    "exit_requires": {
+      "Fluffy Bluff 1 - Treetops": "|Can Make Clouds| or (|Has Cloud| and |Medium Logic|)"
+    }
   },
   "Fluffy Bluff 1 - Treetops": {
 
   },
   "Fluffy Bluff 2 - Landing": {
-    "connects_to": ["Fluffy Bluff 2 - Tree"],
-    "entrance_requires": "|Fluffy Bluff Chimp Letter|"
+    "connects_to": [
+      "Fluffy Bluff 2 - Tree"
+    ],
+    "entrance_requires": {
+      "Fluffy Bluff Galaxy": "|Fluffy Bluff Chimp Letter|"
+    }
   },
   "Fluffy Bluff 2 - Tree": {
-    "entrance_requires": "|Has Long Jump|"
+    "entrance_requires": {
+      "Fluffy Bluff 2 - Landing": "|Has Long Jump|"
+    }
   },
   "Fluffy Bluff S - Tower": {
-    "connects_to": ["Fluffy Bluff S - On Tower"]
+    "connects_to": [
+      "Fluffy Bluff S - On Tower"
+    ]
   },
   "Fluffy Bluff S - On Tower": {
-    "entrance_requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))"
+    "entrance_requires": {
+      "Fluffy Bluff S - Tower": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))"
+    }
   },
   "Flip-Swap Galaxy": {
-    "connects_to": ["Flip-Swap - Start", "Flip-Swap C - Start Blue Panels"]
+    "connects_to": [
+      "Flip-Swap - Start",
+      "Flip-Swap C - Start Blue Panels"
+    ]
   },
   "Flip-Swap - Start": {
-    "connects_to": ["Flip-Swap - Main"],
-    "exit_requires": "|Has Air Spin| or |Has Long Jump| or |Hard Logic|"
+    "connects_to": [
+      "Flip-Swap - Main"
+    ],
+    "exit_requires": {
+      "Flip-Swap - Main": "|Has Air Spin| or |Has Long Jump| or |Hard Logic|"
+    }
   },
   "Flip-Swap - Main": {
-    "connects_to": ["Flip-Swap - Star"],
-    "exit_requires": "|Has Air Spin| or |Has Long Jump| or (|Has Ground Spin| and |Hard Logic|)"
+    "connects_to": [
+      "Flip-Swap - Star"
+    ],
+    "exit_requires": {
+      "Flip-Swap - Star": "|Has Air Spin| or |Has Long Jump| or (|Has Ground Spin| and |Hard Logic|)"
+    }
   },
   "Flip-Swap - Star": {
 
   },
   "Flip-Swap C - Start Blue Panels": {
-    "connects_to": ["Flip-Swap C - Start Red Panels", "Flip-Swap C - 1-Up Platform"],
-    "entrance_requires": "|Has Purple Comets| and |Flip-Swap Comets|"
+    "connects_to": [
+      "Flip-Swap C - Start Red Panels",
+      "Flip-Swap C - 1-Up Platform"
+    ],
+    "entrance_requires": {
+      "Flip-Swap Galaxy": "|Has Purple Comets| and |Flip-Swap Comets|"
+    }
   },
   "Flip-Swap C - Start Red Panels": {
-    "connects_to": ["Flip-Swap C - 1-Up Platform"],
-    "entrance_requires": "|Can Air Spin| or |Hard Logic|"
+    "entrance_requires": {
+      "Flip-Swap C - Start Blue Panels": "|Can Air Spin| or |Hard Logic|"
+    }
   },
   "Flip-Swap C - 1-Up Platform": {
-    "connects_to": ["Flip-Swap C - Electric Fences Blue Panels"],
-    "entrance_requires": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|"
+    "connects_to": [
+      "Flip-Swap C - Electric Fences Blue Panels"
+    ],
+    "entrance_requires": {
+      "Flip-Swap C - Start Blue Panels": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|"
+    }
   },
   "Flip-Swap C - Electric Fences Blue Panels": {
-    "connects_to": ["Flip-Swap C - Electric Fences Red Panels", "Flip-Swap C - First Chomp Platform"],
-    "entrance_requires": "|Can Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
+    "connects_to": [
+      "Flip-Swap C - Electric Fences Red Panels",
+      "Flip-Swap C - First Chomp Platform"
+    ],
+    "entrance_requires": {
+      "Flip-Swap C - 1-Up Platform": "|Can Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
+    }
   },
-"Flip-Swap C - Electric Fences Red Panels": {
-    "connects_to": ["Flip-Swap C - First Chomp Platform"],
-    "entrance_requires": "|Can Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
+  "Flip-Swap C - Electric Fences Red Panels": {
+    "connects_to": [
+      "Flip-Swap C - First Chomp Platform"
+    ],
+    "requires": "|Can Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
   },
   "Flip-Swap C - First Chomp Platform": {
-    "connects_to": ["Flip-Swap C - Chomps"]
+    "connects_to": [
+      "Flip-Swap C - Chomps"
+    ]
   },
   "Flip-Swap C - Chomps": {
-    "connects_to": ["Flip-Swap C - Final Platform"]
+    "connects_to": [
+      "Flip-Swap C - Final Platform"
+    ]
   },
   "Flip-Swap C - Final Platform": {
 
   },
   "Rightside Down Galaxy": {
-    "connects_to": ["Rightside Down - Corridor"]
+    "connects_to": [
+      "Rightside Down - Corridor"
+    ]
   },
   "Rightside Down - Corridor": {
-    "connects_to": ["Rightside Down - Slide Intermediate", "Rightside Down - Gearmo"]
+    "connects_to": [
+      "Rightside Down - Slide Intermediate",
+      "Rightside Down - Gearmo"
+    ],
+    "exit_requires": {
+      "Rightside Down - Slide": "|Has Ground Spin|",
+      "Rightside Down - Gearmo": "|Has Fire| and (|Has Ground Spin| or (|Can Back or Sideflip| and |Has Wall Jump| and |Medium Logic|) or (|Has Wall Jump| and |Has Triple Jump| and |Hard Logic|))"
+    }
   },
   "Rightside Down - Gearmo": {
-    "connects_to": ["Rightside Down - Slide"],
-    "entrance_requires": "|Has Fire| and (|Has Ground Spin| or (|Can Back or Sideflip| and |Has Wall Jump| and |Medium Logic|) or (|Has Wall Jump| and |Has Triple Jump| and |Hard Logic|))"
-  },
-  "Rightside Down - Slide Intermediate": {
-    "connects_to": ["Rightside Down - Slide"],
-    "entrance_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Rightside Down - Slide"
+    ]
   },
   "Rightside Down - Slide": {
-    "connects_to": ["Rightside Down - Chomp Dispenser"],
-    "entrance_requires": ""
+    "connects_to": [
+      "Rightside Down - Chomp Dispenser"
+    ]
   },
   "Rightside Down - Chomp Dispenser": {
-    "connects_to": ["Rightside Down - Metal Crates"],
-    "entrance_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Rightside Down - Metal Crates"
+    ],
+    "requires": "|Has Ground Spin|"
   },
   "Rightside Down - Metal Crates": {
-    "connects_to": ["Rightside Down - Final Section"],
-    "entrance_requires": "|Has Fire| and (|Has Wall Jump| or (|Has Triple Jump| and |Medium Logic|))"
+    "connects_to": [
+      "Rightside Down - Final Section"
+    ],
+    "requires": "|Has Fire| and (|Has Wall Jump| or (|Has Triple Jump| and |Medium Logic|))"
   },
   "Rightside Down - Final Section": {
-    "connects_to": ["Rightside Down - Outside Final Section"],
-    "entrance_requires": ""
+    "connects_to": [
+      "Rightside Down - Outside Final Section"
+    ]
   },
   "Rightside Down - Outside Final Section": {
-    "entrance_requires": "|Jump Height 3|"
+    "requires": "|Jump Height 3|"
   },
   "Bowser Jr.'s Fiery Flotilla": {
-    "connects_to": ["Fiery Flotilla - Outside Castle", "Fiery Flotilla C - Gobblegut"]
+    "connects_to": [
+      "Fiery Flotilla - Outside Castle",
+      "Fiery Flotilla C - Gobblegut"
+    ]
   },
   "Fiery Flotilla - Outside Castle": {
-    "connects_to": ["Fiery Flotilla - Castle Intermediate", "Fiery Flotilla - Castle Walls"]
-  },
-  "Fiery Flotilla - Castle Intermediate": {
-    "connects_to": ["Fiery Flotilla - Inside Castle"],
-    "entrance_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Fiery Flotilla - Castle Intermediate",
+      "Fiery Flotilla - Castle Walls"
+    ],
+    "exit_requires": {
+      "Fiery Flotilla - Inside Castle": "|Has Ground Spin|",
+      "Fiery Flotilla - Castle Walls": "(|Has Air Spin| and |Has Backflip|) or (|Medium Logic| and (|Has Air Spin| or |Has Backflip|)) or (|Hard Logic| and |Has Sideflip|))"
+    }
   },
   "Fiery Flotilla - Castle Walls": {
-    "connects_to": ["Fiery Flotilla - Inside Castle"],
-    "entrance_requires": "(|Has Air Spin| and |Has Backflip|) or (|Medium Logic| and (|Has Air Spin| or |Has Backflip|)) or (|Hard Logic| and |Has Sideflip|))"
+    "connects_to": [
+      "Fiery Flotilla - Inside Castle"
+    ]
   },
   "Fiery Flotilla - Inside Castle": {
-    "connects_to": ["Fiery Flotilla - Fire Planet"]
+    "connects_to": [
+      "Fiery Flotilla - Fire Planet"
+    ]
   },
   "Fiery Flotilla - Fire Planet": {
-    "connects_to": ["Fiery Flotilla - Boss Planet"]
+    "connects_to": [
+      "Fiery Flotilla - Boss Planet"
+    ]
   },
   "Fiery Flotilla - Boss Planet": {
 
   },
   "Fiery Flotilla C - Gobblegut": {
-    "entrance_requires": "|Has Speedy Comets| and |Fiery Flotilla Comets|"
+    "entrance_requires": {
+      "Bowser Jr.'s Fiery Flotilla": "|Has Speedy Comets| and {OptOne(|Fiery Flotilla Comet Medal|)}"
+    }
   },
   "World 2": {
     "requires": "|Grand Star (World 2 Access)|",
-    "connects_to": ["Puzzle Plank Galaxy", "Hightail Falls Galaxy", "Boulder Bowl Galaxy",
-      "Cosmic Cove Galaxy", "Wild Glide Galaxy", "Honeybloom Galaxy", "Bowser's Lava Lair"]
+    "connects_to": [
+      "Puzzle Plank Galaxy",
+      "Hightail Falls Galaxy",
+      "Boulder Bowl Galaxy",
+      "Cosmic Cove Galaxy",
+      "Wild Glide Galaxy",
+      "Honeybloom Galaxy",
+      "Bowser's Lava Lair"
+    ]
   },
   "Puzzle Plank Galaxy": {
-    "connects_to": ["Puzzle Plank - Start", "Puzzle Plank C - Shadow Vault"]
+    "connects_to": [
+      "Puzzle Plank - Start",
+      "Puzzle Plank C - Shadow Vault"
+    ]
   },
   "Puzzle Plank - Start": {
-    "connects_to": ["Puzzle Plank - Wigglers"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": [
+      "Puzzle Plank - Wigglers"
+    ]
   },
   "Puzzle Plank - Wigglers": {
-    "connects_to": ["Puzzle Plank - Grassy Planet"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": [
+      "Puzzle Plank - Grassy Planet"
+    ],
+    "requires": "|Has Ground Pound|"
   },
   "Puzzle Plank - Grassy Planet": {
-    "connects_to": ["Puzzle Plank - Planks", "Puzzle Plank S - Checkpoint Islands"],
-    "exit_requires": ""
+    "connects_to": [
+      "Puzzle Plank - Planks",
+      "Puzzle Plank S - Checkpoint Islands"
+    ]
   },
   "Puzzle Plank - Planks": {
-    "connects_to": ["Puzzle Plank - Upper Planks"],
-    "exit_requires": "|Has Wall Jump|"
+    "connects_to": [
+      "Puzzle Plank - Upper Planks"
+    ]
   },
   "Puzzle Plank - Upper Planks": {
-    "connects_to": ["Puzzle Plank - Wooden Planet"],
-    "exit_requires": ""
+    "connects_to": [
+      "Puzzle Plank - Wooden Planet"
+    ],
+    "requires": "|Has Wall Jump|"
   },
   "Puzzle Plank - Wooden Planet": {
-    "connects_to": ["Puzzle Plank - Picture Block"],
-    "exit_requires": ""
+    "connects_to": [
+      "Puzzle Plank - Picture Block"
+    ]
   },
   "Puzzle Plank - Picture Block": {
 
   },
   "Puzzle Plank C - Shadow Vault": {
-    "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and |Puzzle Plank Comets|"
+    "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and {OptOne(|Puzzle Plank Comet Medal|)}"
   },
   "Puzzle Plank S - Checkpoint Islands": {
-    "connects_to": ["Puzzle Plank S - Boss Planet"],
-    "exit_requires": "|Can Make Clouds|"
+    "connects_to": [
+      "Puzzle Plank S - Boss Planet"
+    ]
   },
   "Puzzle Plank S - Boss Planet": {
-
+    "requires": "|Can Make Clouds|"
   },
   "Hightail Falls Galaxy": {
-    "connects_to": ["Hightail Falls - Start", "Hightail Falls C - Start"]
+    "connects_to": [
+      "Hightail Falls - Start",
+      "Hightail Falls C - Start"
+    ]
   },
   "Hightail Falls - Start": {
-    "connects_to": ["Hightail Falls - Giant Ramp"],
-    "exit_requires": "|Has Yoshi| and (|Has Dash Pepper| or |Medium Logic|)"
+    "connects_to": [
+      "Hightail Falls - Giant Ramp"
+    ]
   },
   "Hightail Falls - Giant Ramp": {
-    "connects_to": ["Hightail Falls - Falling Road"],
-    "exit_requires": "|Can Use Dash|"
+    "connects_to": [
+      "Hightail Falls - Falling Road"
+    ],
+    "requires": "|Has Yoshi| and (|Has Dash Pepper| or |Medium Logic|)"
   },
   "Hightail Falls - Falling Road": {
-    "connects_to": ["Hightail Falls - Lamppost Wall"],
-    "exit_requires": "|Has Yoshi|"
+    "connects_to": [
+      "Hightail Falls - Lamppost Wall"
+    ],
+    "requires": "|Can Use Dash|"
   },
   "Hightail Falls - Lamppost Wall": {
-    "connects_to": ["Hightail Falls - Final Walls", "Hightail Falls S - Kleptoads"],
-    "exit_requires": "|Can Use Dash|"
+    "connects_to": [
+      "Hightail Falls - Final Walls",
+      "Hightail Falls S - Kleptoads"
+    ],
+    "requires": "|Can Use Dash|"
   },
   "Hightail Falls - Final Walls": {
-
+    "requires": "|Can Use Dash|"
   },
   "Hightail Falls C - Start": {
-    "connects_to": ["Hightail Falls C - Giant Ramp"],
-    "entrance_requires": "|Has Speedy Comets| and |Hightail Falls Comets|",
-    "exit_requires": "|Has Yoshi| and (|Has Dash Pepper| or |Medium Logic|)"
+    "connects_to": [
+      "Hightail Falls C - Giant Ramp"
+    ],
+    "entrance_requires": {
+      "Hightail Falls Galaxy": "|Has Speedy Comets| and {OptOne(|Hightail Falls Comet Medal|)}"
+    }
   },
   "Hightail Falls C - Giant Ramp": {
-    "connects_to": ["Hightail Falls C - Falling Road"],
-    "exit_requires": "|Can Use Dash|"
+    "connects_to": [
+      "Hightail Falls C - Falling Road"
+    ],
+    "requires": "|Has Yoshi| and (|Has Dash Pepper| or |Medium Logic|)"
   },
   "Hightail Falls C - Falling Road": {
-    "connects_to": ["Hightail Falls C - Lamppost Wall"],
-    "exit_requires": "|Has Yoshi|"
+    "connects_to": [
+      "Hightail Falls C - Lamppost Wall"
+    ],
+    "requires": "|Can Use Dash|"
   },
   "Hightail Falls C - Lamppost Wall": {
-    "connects_to": ["Hightail Falls C - Final Walls"],
-    "exit_requires": "|Can Use Dash|"
+    "connects_to": [
+      "Hightail Falls C - Final Walls"
+    ],
+    "requires": "|Can Use Dash|"
   },
   "Hightail Falls C - Final Walls": {
 
@@ -389,195 +626,278 @@
 
   },
   "Boulder Bowl Galaxy": {
-    "connects_to": ["Boulder Bowl - Start", "Boulder Bowl C - Asteroid"]
+    "connects_to": [
+      "Boulder Bowl - Start",
+      "Boulder Bowl C - Asteroid"
+    ]
   },
   "Boulder Bowl - Start": {
-    "connects_to": ["Boulder Bowl - Rolling Rocks", "Boulder Bowl - Muddy Chomps Intermediate"]
+    "connects_to": [
+      "Boulder Bowl - Rolling Rocks",
+      "Boulder Bowl - Muddy Chomps"
+    ],
+    "exit_requires": {
+      "Boulder Bowl - Rolling Rocks": "|Has Rock|",
+      "Boulder Bowl - Muddy Chomps": "|Hard Logic| and (|Has Rock| or |Can Long Spin|)"
+    }
   },
   "Boulder Bowl - Rolling Rocks": {
-    "connects_to": ["Boulder Bowl - Muddy Chomps"],
-    "entrance_requires": "|Has Rock|"
-  },
-  "Boulder Bowl - Muddy Chomps Intermediate": {
-    "connects_to": ["Boulder Bowl - Muddy Chomps"],
-    "exit_requires": "|Hard Logic| and (|Has Rock| or |Can Long Spin|)"
+    "connects_to": [
+      "Boulder Bowl - Muddy Chomps"
+    ]
   },
   "Boulder Bowl - Muddy Chomps": {
-    "connects_to": ["Boulder Bowl - Bonus Room", "Boulder Bowl - Amber Planet"],
-    "exit_requires": "|Has Rock|"
+    "connects_to": [
+      "Boulder Bowl - Bonus Room",
+      "Boulder Bowl - Amber Planet"
+    ]
   },
   "Boulder Bowl - Bonus Room": {
-
+    "requires": "|Has Rock|"
   },
   "Boulder Bowl - Amber Planet": {
-    "connects_to": ["Boulder Bowl - Metal Planet"]
+    "connects_to": [
+      "Boulder Bowl - Metal Planet"
+    ],
+    "requires": "|Has Rock|"
   },
   "Boulder Bowl - Metal Planet": {
 
   },
   "Boulder Bowl C - Asteroid": {
-    "connects_to": ["Boulder Bowl C - Metal Planet"],
-    "entrance_requires": "|Has Romp Comets| and |Boulder Bowl Comets|"
+    "connects_to": [
+      "Boulder Bowl C - Metal Planet"
+    ],
+    "requires": "|Has Romp Comets| and {OptOne(|Boulder Bowl Comet Medal|)}"
   },
   "Boulder Bowl C - Metal Planet": {
 
   },
   "Cosmic Cove Galaxy": {
-    "connects_to": ["Cosmic Cove 1 - Start", "Cosmic Cove 2 - Start"]
+    "connects_to": [
+      "Cosmic Cove 1 - Start",
+      "Cosmic Cove 2 - Start"
+    ]
   },
   "Cosmic Cove 1 - Start": {
-    "connects_to": ["Cosmic Cove 1 - River"]
+    "connects_to": [
+      "Cosmic Cove 1 - River"
+    ]
   },
   "Cosmic Cove 1 - River": {
-    "connects_to": ["Cosmic Cove 1 - Main Area"],
-    "entrance_requires": "|Can Swim| or |Has Koopa Shell|"
+    "connects_to": [
+      "Cosmic Cove 1 - Main Area"
+    ],
+    "requires": "|Can Swim| or |Has Koopa Shell|"
   },
   "Cosmic Cove 1 - Main Area": {
-    "connects_to": ["Cosmic Cove 1 - Twin Falls", "Cosmic Cove S - Star Bunny"]
+    "connects_to": [
+      "Cosmic Cove 1 - Twin Falls",
+      "Cosmic Cove S - Star Bunny"
+    ]
   },
   "Cosmic Cove 1 - Twin Falls": {
-    "entrance_requires": "|Has Ground Pound| and |Has Wall Jump|"
+    "requires": "|Has Ground Pound| and |Has Wall Jump|"
   },
   "Cosmic Cove 2 - Start": {
-    "connects_to": ["Cosmic Cove 2 - Cavern Start"]
+    "connects_to": [
+      "Cosmic Cove 2 - Cavern Start"
+    ]
   },
   "Cosmic Cove 2 - Cavern Start": {
-    "connects_to": ["Cosmic Cove 2 - Cavern Water"],
-    "entrance_requires": "|Can Break Crates|",
-    "exit_requires": "|Has Wall Jump|"
+    "connects_to": [
+      "Cosmic Cove 2 - Cavern Water"
+    ],
+    "requires": "|Can Break Crates|"
   },
   "Cosmic Cove 2 - Cavern Water": {
-    "connects_to": ["Cosmic Cove 2 - Space Platforms"],
-    "exit_requires": "|Can Swim| and |Can Ground Spin|"
+    "connects_to": [
+      "Cosmic Cove 2 - Space Platforms"
+    ],
+    "requires": "|Has Wall Jump|"
   },
   "Cosmic Cove 2 - Space Platforms": {
-    "connects_to": ["Cosmic Cove 2 - Starshroom"]
+    "connects_to": [
+      "Cosmic Cove 2 - Starshroom"
+    ],
+    "requires": "|Can Swim| and |Has Ground Spin|"
   },
   "Cosmic Cove 2 - Starshroom": {
-    "connects_to": ["Cosmic Cove 2 - Rocky Planet Fizzlits"]
+    "connects_to": [
+      "Cosmic Cove 2 - Rocky Planet Fizzlits"
+    ]
   },
   "Cosmic Cove 2 - Rocky Planet Fizzlits": {
-    "connects_to": ["Cosmic Cove 2 - Rocky Planet Micro Mechas"],
-    "exit_requires": "|Has Spin-Drill|"
+    "connects_to": [
+      "Cosmic Cove 2 - Rocky Planet Micro Mechas"
+    ]
   },
   "Cosmic Cove 2 - Rocky Planet Micro Mechas": {
-
+    "requires": "|Has Spin-Drill|"
   },
   "Cosmic Cove S - Star Bunny": {
 
   },
   "Wild Glide Galaxy": {
-    "connects_to": ["Wild Glide 1 - Start", "Wild Glide 2 - Start"]
+    "connects_to": [
+      "Wild Glide 1 - Start",
+      "Wild Glide 2 - Start"
+    ]
   },
   "Wild Glide 1 - Start": {
-    "connects_to": ["Wild Glide 1 - Flight"]
+    "connects_to": [
+      "Wild Glide 1 - Flight"
+    ]
   },
   "Wild Glide 1 - Flight": {
-    "entrance_requires": "|Has Fluzzard|"
+    "requires": "|Has Fluzzard|"
   },
   "Wild Glide 2 - Start": {
-    "connects_to": ["Wild Glide 2 - Flight"],
-    "entrance_requires": "|Wild Glide Jibberjay Letter|"
+    "connects_to": [
+      "Wild Glide 2 - Flight"
+    ],
+    "requires": "|Wild Glide Jibberjay Letter|"
   },
   "Wild Glide 2 - Flight": {
-    "entrance_requires": "|Has Fluzzard|"
+    "requires": "|Has Fluzzard|"
   },
   "Honeybloom Galaxy": {
-    "connects_to": ["Honeybloom - Start"]
+    "connects_to": [
+      "Honeybloom - Start"
+    ]
   },
   "Honeybloom - Start": {
-    "connects_to": ["Honeybloom - Rainy Wall Jumps", "Honeybloom S - Climb"]
+    "connects_to": [
+      "Honeybloom - Rainy Wall Jumps",
+      "Honeybloom S - Climb"
+    ]
   },
   "Honeybloom - Rainy Wall Jumps": {
-    "connects_to": ["Honeybloom - Stream"],
-    "entrance_requires": "|Has Wall Jump|"
+    "connects_to": [
+      "Honeybloom - Stream"
+    ],
+    "requires": "|Has Wall Jump|"
   },
   "Honeybloom - Stream": {
-    "connects_to": ["Honeybloom - Fruit"],
-    "entrance_requires": "|Has Bee| or (|Has Wall Jump| and |Medium Logic|)"
+    "connects_to": [
+      "Honeybloom - Fruit"
+    ],
+    "requires": "|Has Bee| or (|Has Wall Jump| and |Medium Logic|)"
   },
   "Honeybloom - Fruit": {
-    "connects_to": ["Honeybloom - Fuzzies"],
-    "entrance_requires": "|Has Bee|"
+    "connects_to": [
+      "Honeybloom - Fuzzies"
+    ],
+    "requires": "|Has Bee|"
   },
   "Honeybloom - Fuzzies": {
-    "connects_to": ["Honeybloom - Wooden Blocks"]
+    "connects_to": [
+      "Honeybloom - Wooden Blocks"
+    ]
   },
   "Honeybloom - Wooden Blocks": {
 
   },
   "Honeybloom S - Climb": {
-    "entrance_requires": "|Can Wall Spin| or (|Has Wall Jump| and |Hard Logic|)"
+    "requires": "|Can Wall Spin| or (|Has Wall Jump| and |Hard Logic|)"
   },
   "Bowser's Lava Lair": {
-    "connects_to": ["Lava Lair - Start", "Lava Lair C - Start"]
+    "connects_to": [
+      "Lava Lair - Start",
+      "Lava Lair C - Start"
+    ]
   },
   "Lava Lair - Start": {
-    "connects_to": ["Lava Lair - Cylinder #1"],
-    "exit_requires": "|Has Pull Stars| or (|Has Long Jump| and |Medium Logic|)"
+    "connects_to": [
+      "Lava Lair - Cylinder #1"
+    ]
   },
   "Lava Lair - Cylinder #1": {
-    "connects_to": ["Lava Lair - Cylinder #2"],
-    "exit_requires": "|Has Ground Pound| or (|Medium Logic| and (|Needs Testing|)) or |Hard Logic|"
+    "connects_to": [
+      "Lava Lair - Cylinder #2"
+    ],
+    "requires": "|Has Pull Stars| or (|Has Long Jump| and |Medium Logic|)"
   },
   "Lava Lair - Cylinder #2": {
-    "connects_to": ["Lava Lair - Flomps"],
-    "exit_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Lava Lair - Flomps"
+    ],
+    "requires": "|Has Ground Pound| or (|Medium Logic| and (|Needs Testing|)) or |Hard Logic|"
   },
   "Lava Lair - Flomps": {
-    "connects_to": ["Lava Lair - Firebar"],
-    "exit_requires": ""
+    "connects_to": [
+      "Lava Lair - Firebar"
+    ],
+    "requires": "|Has Ground Spin|"
   },
   "Lava Lair - Firebar": {
-    "connects_to": ["Lava Lair - Whomp Path"],
-    "exit_requires": "|Has Ground Pound| or |Medium Logic|"
+    "connects_to": [
+      "Lava Lair - Whomp Path"
+    ]
   },
   "Lava Lair - Whomp Path": {
-    "connects_to": ["Lava Lair - Mattermouths"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": [
+      "Lava Lair - Mattermouths"
+    ],
+    "requires": "|Has Ground Pound| or |Medium Logic|"
   },
   "Lava Lair - Mattermouths": {
-    "connects_to": ["Lava Lair - Snake Blocks"],
-    "exit_requires": ""
+    "connects_to": [
+      "Lava Lair - Snake Blocks"
+    ],
+    "requires": "|Has Ground Pound|"
   },
   "Lava Lair - Snake Blocks": {
-    "connects_to": ["Lava Lair - Bowser"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": [
+      "Lava Lair - Bowser"
+    ]
   },
   "Lava Lair - Bowser": {
-
+    "requires": "|Has Ground Pound|"
   },
   "Lava Lair C - Start": {
-    "connects_to": ["Lava Lair C - Cylinder #1"],
-    "entrance_requires": "|Has Speedy Comets| and |Lava Lair Comets|",
-    "exit_requires": "|Has Pull Stars| or (|Has Long Jump| and |Medium Logic|)"
+    "connects_to": [
+      "Lava Lair C - Cylinder #1"
+    ],
+    "requires": "|Has Speedy Comets| and {OptOne(|Lava Lair Comet Medal|)}"
   },
   "Lava Lair C - Cylinder #1": {
-    "connects_to": ["Lava Lair C - Cylinder #2"],
-    "exit_requires": "|Has Ground Pound| or (|Medium Logic| and (|Needs Testing|)) or |Hard Logic|"
+    "connects_to": [
+      "Lava Lair C - Cylinder #2"
+    ],
+    "requires": "|Has Pull Stars| or (|Has Long Jump| and |Medium Logic|)"
   },
   "Lava Lair C - Cylinder #2": {
-    "connects_to": ["Lava Lair C - Flomps"],
-    "exit_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Lava Lair C - Flomps"
+    ],
+    "requires": "|Has Ground Pound| or (|Medium Logic| and (|Needs Testing|)) or |Hard Logic|"
   },
   "Lava Lair C - Flomps": {
-    "connects_to": ["Lava Lair C - Firebar"],
-    "exit_requires": ""
+    "connects_to": [
+      "Lava Lair C - Firebar"
+    ],
+    "requires": "|Has Ground Spin|"
   },
   "Lava Lair C - Firebar": {
-    "connects_to": ["Lava Lair C - Whomp Path"],
-    "exit_requires": "|Has Ground Pound| or |Medium Logic|"
+    "connects_to": [
+      "Lava Lair C - Whomp Path"
+    ]
   },
   "Lava Lair C - Whomp Path": {
-    "connects_to": ["Lava Lair C - Mattermouths"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": [
+      "Lava Lair C - Mattermouths"
+    ],
+    "requires": "|Has Ground Pound| or |Medium Logic|"
   },
   "Lava Lair C - Mattermouths": {
-    "connects_to": ["Lava Lair C - Snake Blocks"],
-    "exit_requires": ""
+    "connects_to": [
+      "Lava Lair C - Snake Blocks"
+    ],
+    "requires": "|Has Ground Pound|"
   },
   "Lava Lair C - Snake Blocks": {
-
+    
   },
   "World 3": {
     "requires": "|Grand Star (World 3 Access)|",
