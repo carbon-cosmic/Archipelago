@@ -83,7 +83,7 @@
       "Sky Station Galaxy": "|Has Speedy Comets| and {OptOne(|Sky Station Comet Medal|)}"
     },
     "exit_requires": {
-      "Sky Station C - Rolling Carts": "|Has Ground Spin| or (|Hard Logic| and |Can Triple Jump| and |Can Wall Jump|)"
+      "Sky Station C - Rolling Carts": "|Has Ground Spin| or (|Hard Logic| and |Can Triple Jump| and |Has Wall Jump|)"
     }
   },
   "Sky Station C - Rolling Carts": {
@@ -185,7 +185,7 @@
       "Spin-Dig 1 - Dirt Tower Planet"
     ],
     "exit_requires": {
-      "Spin-Dig 1 - Dirt Tower Planet": "|Has Spin Drill| or |Jump Height 6| or (|Medium Logic| and |Can Wall Spin| and (|Has Double Jump| or |Has Backflip|)) or (|Hard Logic| and |Can Long Spin| and |Can Wall Jump|)"
+      "Spin-Dig 1 - Dirt Tower Planet": "|Has Spin Drill| or |Jump Height 6| or (|Medium Logic| and |Can Wall Spin| and (|Has Double Jump| or |Has Backflip|)) or (|Hard Logic| and |Can Long Spin| and |Has Wall Jump|)"
     }
   },
   "Spin-Dig 1 - Dirt Tower Planet": {
@@ -219,7 +219,7 @@
       "Spin-Dig 2 - First Canister Section"
     ],
     "exit_requires": {
-      "Spin-Dig 2 - First Canister Section": "(|Can Ground Spin| or |Jump Height 3| or |Can Double| and |Medium Logic|)"
+      "Spin-Dig 2 - First Canister Section": "(|Has Ground Spin| or |Jump Height 3| or |Can Double| and |Medium Logic|)"
     }
   },
   "Spin-Dig 2 - First Canister Section": {
@@ -372,7 +372,7 @@
   },
   "Flip-Swap C - Start Red Panels": {
     "entrance_requires": {
-      "Flip-Swap C - Start Blue Panels": "|Can Air Spin| or |Hard Logic|"
+      "Flip-Swap C - Start Blue Panels": "|Has Air Spin| or |Hard Logic|"
     }
   },
   "Flip-Swap C - 1-Up Platform": {
@@ -389,14 +389,14 @@
       "Flip-Swap C - First Chomp Platform"
     ],
     "entrance_requires": {
-      "Flip-Swap C - 1-Up Platform": "|Has Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
+      "Flip-Swap C - 1-Up Platform": "|Has Air Spin| or (|Hard Logic| and |Has Ground Spin|)"
     }
   },
   "Flip-Swap C - Electric Fences Red Panels": {
     "connects_to": [
       "Flip-Swap C - First Chomp Platform"
     ],
-    "requires": "|Has Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
+    "requires": "|Has Air Spin| or (|Hard Logic| and |Has Ground Spin|)"
   },
   "Flip-Swap C - First Chomp Platform": {
     "connects_to": [
@@ -1482,7 +1482,7 @@
     "requires": "|Has Ground Pound|"
   },
   "Starshine Beach 2 - Tower": {
-    "requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Can Back or Sideflip| and |Can Wall Jump| and |Medium Logic|)"
+    "requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Can Back or Sideflip| and |Has Wall Jump| and |Medium Logic|)"
   },
   "Starshine Beach C - Shallows": {
     "connects_to": [
@@ -1510,7 +1510,7 @@
     "requires": "|Can Use Dash|"
   },
   "Starshine Beach C - Ocean Tower Triples": {
-    "requires": "|Can Use Dash| or (|Hard Logic| and (|Can Long Jump| or |Has Yoshi|))"
+    "requires": "|Can Use Dash| or (|Hard Logic| and (|Has Long Jump| or |Has Yoshi|))"
   },
   "Chompworks Galaxy": {
     "connects_to": [
@@ -1561,7 +1561,7 @@
     "requires": "|Has Spring| or (|Has Wall Spin| and |Medium Logic| and (|Has Triple Jump| or |Has Backflip| or |Has Long Jump|)) or |Hard Logic|"
   },
   "Chompworks 2 - Tower": {
-    "requires": "|Can Wall Spin| or (|Can Air Spin| and |Jump Height 5|)"
+    "requires": "|Can Wall Spin| or (|Has Air Spin| and |Jump Height 5|)"
   },
   "Chompworks C - Lava Chomp Planet": {
     "requires": "|Has Clone Comets| and {OptOne(|Chompworks Comet Medal|)}"
@@ -1860,7 +1860,7 @@
   "Shiverburn - Volcano Planet Fire": {
     "connects_to": [
       "Shiverburn - Volcano Planet Ice",
-      "Shiverburn - Stones Intermediate",
+      "Shiverburn - Lava Stones",
       "Shiverburn - Mushrooms"
     ]
   },
@@ -1883,7 +1883,7 @@
       "Shiverburn - Fire Rain"
     ],
     "entrance_requires": {
-      "Shiverburn - Volcano Planet Fire": "|Can Make Clouds| and |Medium Logic| and |Can Long Jump|",
+      "Shiverburn - Volcano Planet Fire": "|Can Make Clouds| and |Medium Logic| and |Has Long Jump|",
       "Shiverburn - Volcano Planet Ice": ""
     }
   },
@@ -1917,7 +1917,7 @@
   },
   "Shiverburn S - Chimp Room": {
     "entrance_requires": {
-      "Shiverburn - Volcano Planet Fire": "|Can Make Clouds| and |Medium Logic| and |Can Long Jump|",
+      "Shiverburn - Volcano Planet Fire": "|Can Make Clouds| and |Medium Logic| and |Has Long Jump|",
       "Shiverburn - Volcano Planet Ice": ""
     }
   },
@@ -2495,7 +2495,7 @@
     "connects_to": [
       "Galaxy Generator C - Volcano Top"
     ],
-    "requires": "|Has Speedy Comets| and |Galaxy Generator Comets|"
+    "requires": "|Has Speedy Comets| and {OptOne(|Galaxy Generator Comet Medal|)}"
   },
   "Galaxy Generator C - Volcano Top": {
     "connects_to": [
@@ -2551,212 +2551,301 @@
 
   },
   "World S": {
-   "requires": "|Grand Star (World S Access)|",
-   "connects_to": ["Mario Squared Galaxy", "Rolling Coaster Galaxy", "Twisty Trials Galaxy",
-     "Stone Cyclone Galaxy", "Boss Blitz Galaxy", "Flip-Out Galaxy", "Grandmaster Galaxy"]
+    "requires": "|Grand Star (World S Access)|",
+    "connects_to": [
+      "Mario Squared Galaxy",
+      "Rolling Coaster Galaxy",
+      "Twisty Trials Galaxy",
+      "Stone Cyclone Galaxy",
+      "Boss Blitz Galaxy",
+      "Flip-Out Galaxy",
+      "Grandmaster Galaxy"
+    ]
   },
   "Mario Squared Galaxy": {
-    "connects_to": ["Mario Squared - Main", "Mario Squared C - Grounded Coins"]
+    "connects_to": [
+      "Mario Squared - Main",
+      "Mario Squared C - Grounded Coins"
+    ]
   },
   "Mario Squared - Main": {
 
   },
   "Mario Squared C - Grounded Coins": {
-    "connects_to": ["Mario Squared C - Long Jump Coins"],
-    "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and |Mario Squared Comets|"
+    "connects_to": [
+      "Mario Squared C - Long Jump Coins"
+    ],
+    "requires": "|Has Purple Comets| and |Has Clone Comets| and {(OptOne|Mario Squared Comet Medal|)}"
   },
   "Mario Squared C - Long Jump Coins": {
-    "entrance_requires": "|Has Long Jump| or |Hard Logic|"
+    "requires": "|Has Long Jump| or |Hard Logic|"
   },
   "Rolling Coaster Galaxy": {
-    "connects_to": ["Rolling Coaster - Start", "Rolling Coaster C - Start"]
+    "connects_to": [
+      "Rolling Coaster - Start",
+      "Rolling Coaster C - Start"
+    ]
   },
   "Rolling Coaster - Start": {
-    "connects_to": ["Rolling Coaster - Rainbow Road"]
+    "connects_to": [
+      "Rolling Coaster - Rainbow Road"
+    ]
   },
   "Rolling Coaster - Rainbow Road": {
-    "entrance_requires": "|Has Star Ball|"
+    "requires": "|Has Star Ball|"
   },
   "Rolling Coaster C - Start": {
     "connects_to": ["Rolling Coaster C - Rainbow Road"],
-    "entrance_requires": "|Has Purple Comets| and |Rolling Coaster Comets|"
+    "requires": "|Has Purple Comets| and {OptOne(|Rolling Coaster Comet Medal|)}"
   },
   "Rolling Coaster C - Rainbow Road": {
-    "entrance_requires": "|Has Star Ball|"
+    "requires": "|Has Star Ball|"
   },
   "Twisty Trials Galaxy": {
-    "connects_to": ["Twisty Trials - Start", "Twisty Trials C - Start"]
+    "connects_to": [
+      "Twisty Trials - Start",
+      "Twisty Trials C - Start"
+    ]
   },
   "Twisty Trials - Start": {
-    "connects_to": ["Twisty Trials - Planks"]
+    "connects_to": [
+      "Twisty Trials - Planks"
+    ]
   },
   "Twisty Trials - Planks": {
-    "connects_to": ["Twisty Trials - Final"],
-    "entrance_requires": "|Has Air Spin| or |Medium Logic|"
+    "connects_to": [
+      "Twisty Trials - Final"
+    ],
+    "requires": "|Has Air Spin| or |Medium Logic|"
   },
   "Twisty Trials - Final": {
 
   },
   "Twisty Trials C - Start": {
-    "connects_to": ["Twisty Trials C - Planks"],
-    "entrance_requires": "|Has Double Time Comets| and |Twisty Trials Comets|"
+    "connects_to": [
+      "Twisty Trials C - Planks"
+    ],
+    "requires": "|Has Double Time Comets| and {OptOne(|Twisty Trials Comet Medal|)}"
   },
   "Twisty Trials C - Planks": {
-    "connects_to": ["Twisty Trials C - Before Final Platform"],
-    "entrance_requires": "|Has Air Spin| or |Hard Logic|"
+    "connects_to": [
+      "Twisty Trials C - Before Final Platform"
+    ],
+    "requires": "|Has Air Spin| or |Hard Logic|"
   },
   "Twisty Trials C - Before Final Platform": {
-    "connects_to": ["Twisty Trials C - Final"],
-    "entrance_requires": "|Has Yoshi| or |Medium Logic|"
+    "connects_to": [
+      "Twisty Trials C - Final"
+    ],
+    "requires": "|Has Yoshi| or |Medium Logic|"
   },
   "Twisty Trials C - Final": {
 
   },
   "Stone Cyclone Galaxy": {
-    "connects_to": ["Stone Cyclone - Start", "Stone Cyclone C - Start"]
+    "connects_to": [
+      "Stone Cyclone - Start",
+      "Stone Cyclone C - Start"
+    ]
   },
   "Stone Cyclone - Start": {
-    "connects_to": ["Stone Cyclone - Circling Stones"],
-    "entrance_requires": "|Has Speedy Comets| and |Stone Cyclone Comets|"
+    "connects_to": [
+      "Stone Cyclone - Circling Stones"
+    ]
   },
   "Stone Cyclone - Circling Stones": {
-    "connects_to": ["Stone Cyclone - Tox Box Paths"],
-    "entrance_requires": "|Has Ground Pound| or |Medium Logic|"
+    "connects_to": [
+      "Stone Cyclone - Tox Box Paths"
+    ],
+    "requires": "|Has Ground Pound| or |Medium Logic|"
   },
   "Stone Cyclone - Tox Box Paths": {
-    "entrance_requires": "|Has Air Spin| or |Medium Logic|"
+    "requires": "|Has Air Spin| or |Medium Logic|"
   },
   "Stone Cyclone C - Start": {
-    "connects_to": ["Stone Cyclone C - Circling Stones"]
+    "connects_to": [
+      "Stone Cyclone C - Circling Stones"
+    ],
+    "requires": "|Has Speedy Comets| and {OptOne(|Stone Cyclone Comet Medal|)}"
   },
   "Stone Cyclone C - Circling Stones": {
-    "connects_to": ["Stone Cyclone C - Tox Box Paths"]
+    "connects_to": [
+      "Stone Cyclone C - Tox Box Paths"
+    ]
   },
   "Stone Cyclone C - Tox Box Paths": {
 
   },
   "Boss Blitz Galaxy": {
-    "connects_to": ["Boss Blitz - Dino Piranha", "Boss Blitz C - Dino Piranha"]
+    "connects_to": [
+      "Boss Blitz - Dino Piranha",
+      "Boss Blitz C - Dino Piranha"
+    ]
   },
   "Boss Blitz - Dino Piranha": {
-    "connects_to": ["Boss Blitz - King Kaliente"],
-    "exit_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Boss Blitz - King Kaliente"
+    ]
   },
   "Boss Blitz - King Kaliente": {
-    "connects_to": ["Boss Blitz - Major Burrows"]
+    "connects_to": [
+      "Boss Blitz - Major Burrows"
+    ],
+    "requires": "|Has Ground Spin|"
   },
   "Boss Blitz - Major Burrows": {
-    "connects_to": ["Boss Blitz - Bouldergeist"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": [
+      "Boss Blitz - Bouldergeist"
+    ]
   },
   "Boss Blitz - Bouldergeist": {
-    "connects_to": ["Boss Blitz - Asteroid"]
+    "connects_to": [
+      "Boss Blitz - Asteroid"
+    ],
+    "requires": "|Has Ground Pound|"
   },
   "Boss Blitz - Asteroid": {
-    "connects_to": ["Boss Blitz - Fiery Dino Piranha"]
+    "connects_to": [
+      "Boss Blitz - Fiery Dino Piranha"
+    ]
   },
   "Boss Blitz - Fiery Dino Piranha": {
 
   },
   "Boss Blitz C - Dino Piranha": {
-    "connects_to": ["Boss Blitz C - King Kaliente"],
-    "entrance_requires": "|Has Speedy Comets| and |Boss Blitz Comets|",
-    "exit_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Boss Blitz C - King Kaliente"
+    ],
+    "requires": "|Has Speedy Comets| and {OptOne(|Boss Blitz Comet Medal|)}"
   },
   "Boss Blitz C - King Kaliente": {
-    "connects_to": ["Boss Blitz C - Major Burrows"]
+    "connects_to": ["Boss Blitz C - Major Burrows"],
+    "requires": "|Has Ground Spin|"
   },
   "Boss Blitz C - Major Burrows": {
-    "connects_to": ["Boss Blitz C - Bouldergeist"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": ["Boss Blitz C - Bouldergeist"]
   },
   "Boss Blitz C - Bouldergeist": {
-    "connects_to": ["Boss Blitz C - Asteroid"]
+    "connects_to": ["Boss Blitz C - Asteroid"],
+    "requires": "|Has Ground Pound|"
   },
   "Boss Blitz C - Asteroid": {
-    "connects_to": ["Boss Blitz C - Fiery Dino Piranha"]
+    "connects_to": [
+      "Boss Blitz C - Fiery Dino Piranha"
+    ]
   },
   "Boss Blitz C - Fiery Dino Piranha": {
 
   },
   "Flip-Out Galaxy": {
-    "connects_to": ["Flip-Out - Start", "Flip-Out C - Start"]
+    "connects_to": [
+      "Flip-Out - Start",
+      "Flip-Out C - Start"
+    ]
   },
   "Flip-Out - Start": {
-    "connects_to": ["Flip-Out - First Checkpoint"],
-    "exit_requires": "|Can Wall Spin| or (|Can Wall Jump| and |Can Ground Spin| and |Hard Logic|)"
+    "connects_to": [
+      "Flip-Out - First Checkpoint"
+    ]
   },
   "Flip-Out - First Checkpoint": {
-    "connects_to": ["Flip-Out - Second Checkpoint"],
-    "exit_requires": "|Can Wall Spin|"
+    "connects_to": [
+      "Flip-Out - Second Checkpoint"
+    ],
+    "requires": "|Can Wall Spin| or (|Has Wall Jump| and |Has Ground Spin| and |Hard Logic|)"
   },
   "Flip-Out - Second Checkpoint": {
-
+    "requires": "|Can Wall Spin|"
   },
   "Flip-Out C - Start": {
-    "connects_to": ["Flip-Out C - First Checkpoint"],
-    "entrance_requires": "|Has Clone Comets| and |Flip-Out Comets|",
-    "exit_requires": "|Can Wall Spin| or (|Can Wall Jump| and |Can Ground Spin| and |Hard Logic|)"
+    "connects_to": [
+      "Flip-Out C - First Checkpoint"
+    ],
+    "entrance_requires": "|Has Clone Comets| and {OptOne(|Flip-Out Comet Medal|)}"
   },
   "Flip-Out C - First Checkpoint": {
     "connects_to": ["Flip-Out C - Second Checkpoint"],
-    "exit_requires": "|Can Wall Spin|"
+    "requires": "|Can Wall Spin| or (|Has Wall Jump| and |Has Ground Spin| and |Hard Logic|)"
   },
   "Flip-Out C - Second Checkpoint": {
-
+    "requires": "|Can Wall Spin|"
   },
   "Grandmaster Galaxy": {
-    "connects_to": ["Grandmaster - Yoshi Minefield", "Grandmaster C - Yoshi Minefield"],
+    "connects_to": [
+      "Grandmaster - Yoshi Minefield",
+      "Grandmaster C - Yoshi Minefield"
+    ],
     "requires": "|Can Enter Grandmaster Galaxy|"
   },
   "Grandmaster - Yoshi Minefield": {
-    "connects_to": ["Grandmaster - Flipswitch Panels"],
-    "exit_requires": "|Has Yoshi|"
+    "connects_to": [
+      "Grandmaster - Flipswitch Panels"
+    ]
   },
   "Grandmaster - Flipswitch Panels": {
-    "connects_to": ["Grandmaster - Electric Maze"]
+    "connects_to": [
+      "Grandmaster - Electric Maze"
+    ],
+    "requires": "|Has Yoshi|"
   },
   "Grandmaster - Electric Maze": {
-    "connects_to": ["Grandmaster - Flip-Swap Panels"],
-    "exit_requires": "|Can Make Clouds|"
+    "connects_to": [
+      "Grandmaster - Flip-Swap Panels"
+    ]
   },
   "Grandmaster - Flip-Swap Panels": {
-    "connects_to": ["Grandmaster - Pull Stars"],
-    "exit_requires": "|Jump Height 4| or |Medium Logic|"
+    "connects_to": [
+      "Grandmaster - Pull Stars"
+    ],
+    "requires": "|Can Make Clouds|"
   },
   "Grandmaster - Pull Stars": {
-    "connects_to": ["Grandmaster - Hammer Bros."],
-    "exit_requires": "|Has Pull Stars|"
+    "connects_to": [
+      "Grandmaster - Hammer Bros."
+    ],
+    "requires": "|Jump Height 4| or |Medium Logic|"
   },
   "Grandmaster - Hammer Bros.": {
-
+    "requires": "|Has Pull Stars|"
   },
   "Grandmaster C - Yoshi Minefield": {
-    "connects_to": ["Grandmaster C - Flipswitch Panels"],
-    "entrance_requires": "|Has Daredevil Comets| and |Grandmaster Comets|",
-    "exit_requires": "|Has Yoshi|"
+    "connects_to": [
+      "Grandmaster C - Flipswitch Panels"
+    ],
+    "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Grandmaster Comet Medal|)}"
   },
   "Grandmaster C - Flipswitch Panels": {
-    "connects_to": ["Grandmaster C - Electric Maze"]
+    "connects_to": [
+      "Grandmaster C - Electric Maze"
+    ],
+    "requires": "|Has Yoshi|"
   },
   "Grandmaster C - Electric Maze": {
-    "connects_to": ["Grandmaster C - Flip-Swap Panels"],
+    "connects_to": [
+      "Grandmaster C - Flip-Swap Panels"
+    ],
     "exit_requires": "|Can Make Clouds|"
   },
   "Grandmaster C - Flip-Swap Panels": {
-    "connects_to": ["Grandmaster C - Pull Stars"],
-    "exit_requires": "|Jump Height 4| or |Medium Logic|"
+    "connects_to": [
+      "Grandmaster C - Pull Stars"
+    ],
+    "requires": "|Can Make Clouds|"
   },
   "Grandmaster C - Pull Stars": {
-    "connects_to": ["Grandmaster C - Hammer Bros."],
-    "exit_requires": "|Has Pull Stars|"
+    "connects_to": [
+      "Grandmaster C - Hammer Bros."
+    ],
+    "requires": "|Jump Height 4| or |Medium Logic|"
   },
   "Grandmaster C - Hammer Bros.": {
-    "connects_to": ["Grandmaster C - Gate"],
-    "exit_requires": "|Has Long Jump| or |Hard Logic|"
+    "connects_to": [
+      "Grandmaster C - Gate"
+    ],
+    "requires": "|Has Pull Stars|"
   },
   "Grandmaster C - Gate": {
-
+    "requires": "|Has Long Jump| or |Hard Logic|"
   }
 }
 
