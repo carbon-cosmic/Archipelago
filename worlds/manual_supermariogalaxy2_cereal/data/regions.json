@@ -272,7 +272,7 @@
     ],
     "exit_requires": {
       "Fluffy Bluff 1 - Hungry Luma Cloud": "|Can Make Clouds| or (|Has Cloud| and (|Has Long Jump| or |Has Ground Spin|) and |Medium Logic|)",
-      "Fluffy Bluff 1 - CLifftops": "|Has Cloud| or (|Jump Height 6| and |Hard Logic|)"
+      "Fluffy Bluff 1 - Clifftops": "|Has Cloud| or (|Jump Height 6| and |Hard Logic|)"
     }
   },
   "Fluffy Bluff 1 - Hungry Luma Cloud": {
@@ -464,7 +464,7 @@
   },
   "Fiery Flotilla - Outside Castle": {
     "connects_to": [
-      "Fiery Flotilla - Castle",
+      "Fiery Flotilla - Inside Castle",
       "Fiery Flotilla - Castle Walls"
     ],
     "exit_requires": {
@@ -550,7 +550,7 @@
 
   },
   "Puzzle Plank C - Shadow Vault": {
-    "entrance_requires": "|Has Purple Comets| and |Has Clone Comets| and {OptOne(|Puzzle Plank Comet Medal|)}"
+    "requires": "|Has Purple Comets| and |Has Clone Comets| and {OptOne(|Puzzle Plank Comet Medal|)}"
   },
   "Puzzle Plank S - Checkpoint Islands": {
     "connects_to": [
@@ -822,7 +822,7 @@
     "connects_to": [
       "Lava Lair - Flomps"
     ],
-    "requires": "|Has Ground Pound| or (|Medium Logic| and (|Needs Testing|)) or |Hard Logic|"
+    "requires": "|Has Ground Pound| or (|Medium Logic| and (|Jump Height 5|)) or |Hard Logic|"
   },
   "Lava Lair - Flomps": {
     "connects_to": [
@@ -871,7 +871,7 @@
     "connects_to": [
       "Lava Lair C - Flomps"
     ],
-    "requires": "|Has Ground Pound| or (|Medium Logic| and (|Needs Testing|)) or |Hard Logic|"
+    "requires": "|Has Ground Pound| or (|Medium Logic| and (|Jump Height 5|)) or |Hard Logic|"
   },
   "Lava Lair C - Flomps": {
     "connects_to": [
@@ -960,7 +960,7 @@
     "connects_to": [
       "Tall Trunk C - Slide"
     ],
-    "requires": "|Has Purple Comets| and {OptOne(|Tall Trunk Comet Medal|)}|"
+    "requires": "|Has Purple Comets| and {OptOne(|Tall Trunk Comet Medal|)}"
   },
   "Tall Trunk C - Slide": {
     "connects_to": [
@@ -1007,7 +1007,7 @@
     "connects_to": [
       "Cloudy Court C - Castle Start"
     ],
-    "entrance_requires": "|Has Clone Comets| and {OptOne(|Cloudy Court Comet Medal|)}"
+    "requires": "|Has Clone Comets| and {OptOne(|Cloudy Court Comet Medal|)}"
   },
   "Cloudy Court C - Castle Start": {
     "connects_to": [
@@ -1337,7 +1337,7 @@
     "connects_to": [
       "Flipsville 1 - Below Start",
       "Flipsville 1 - Chomps",
-      "Flipsville 1 - Teleporter"
+      "Flipsville - Teleporter"
     ],
     "exit_requires": {
       "Flipsville 1 - Below Start": "|Has Ground Pound|",
@@ -1378,7 +1378,7 @@
   },
   "Flipsville 1 - Starshroom": {
     "connects_to": ["Flipsville 1 - Glamdozer"],
-    "requires": "|Has Ground Pound| or (|Has Wall Spin| and |Hard Logic|)"
+    "requires": "|Has Ground Pound| or (|Can Wall Spin| and |Hard Logic|)"
   },
   "Flipsville 1 - Glamdozer": {
 
@@ -1392,7 +1392,7 @@
     "exit_requires": {
       "Flipsville 2 - Start Below": "|Has Spin-Drill|",
       "Flipsville 2 - Dirt Tower": "(|Jump Height 4| and |Can Wall Spin| and |Medium Logic|) or (|Has Air Spin| and |Hard Logic|)",
-      "Flipsville 2 - Teleporter": "|Has Spin-Drill| or (|Jump Height 4| and |Can Wall Spin| and |Medium Logic|) or (|Has Air Spin| and |Hard Logic|)"
+      "Flipsville - Teleporter": "|Has Spin-Drill| or (|Jump Height 4| and |Can Wall Spin| and |Medium Logic|) or (|Has Air Spin| and |Hard Logic|)"
     }
   },
   "Flipsville 2 - Start Below": {
@@ -1403,14 +1403,13 @@
   "Flipsville 2 - Dirt Tower": {
     "connects_to": [
       "Flipsville 2 - Silver Stars Start"
-    ],
-    "exit_requires": "|Has Spin-Drill| or (|Has Wall Spin| and |Jump Height 4| and |Medium Logic|)"
+    ]
   },
   "Flipsville 2 - Silver Stars Start": {
     "connects_to": [
       "Flipsville 2 - Silver Stars"
     ],
-    "requires": "|Has Spin-Drill| or (|Has Wall Spin| and |Jump Height 4| and |Medium Logic|)"
+    "requires": "|Has Spin-Drill| or (|Can Wall Spin| and |Jump Height 4| and |Medium Logic|)"
   },
   "Flipsville 2 - Silver Stars": {
     "requires": "|Has Spin-Drill|"
@@ -1558,7 +1557,7 @@
   },
   "Chompworks 2 - Rolling Chomps": {
     "connects_to": ["Chompworks 2 - Tower", "Chompworks - Rolling Checkpoint"],
-    "requires": "|Has Spring| or (|Has Wall Spin| and |Medium Logic| and (|Has Triple Jump| or |Has Backflip| or |Has Long Jump|)) or |Hard Logic|"
+    "requires": "|Has Spring| or (|Can Wall Spin| and |Medium Logic| and (|Has Triple Jump| or |Has Backflip| or |Has Long Jump|)) or |Hard Logic|"
   },
   "Chompworks 2 - Tower": {
     "requires": "|Can Wall Spin| or (|Has Air Spin| and |Jump Height 5|)"
@@ -1678,7 +1677,7 @@
     "connects_to": [
       "Honeyhop 2 - Bubble Shooters"
     ],
-    "requires": "Honeyhop Chimp Letter"
+    "requires": "|Honeyhop Chimp Letter|"
   },
   "Honeyhop 2 - Bubble Shooters": {
     "connects_to": [
@@ -1731,7 +1730,7 @@
     "connects_to": [
       "Gravity Gauntlet C - Lava Bubbles"
     ],
-    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Gravity Gauntlet Comet Medal|)}"
+    "requires": "|Has Speedy Comets| and {OptOne(|Gravity Gauntlet Comet Medal|)}"
   },
   "Gravity Gauntlet C - Lava Bubbles": {
     "connects_to": [
@@ -1861,7 +1860,8 @@
     "connects_to": [
       "Shiverburn - Volcano Planet Ice",
       "Shiverburn - Lava Stones",
-      "Shiverburn - Mushrooms"
+      "Shiverburn - Volcano Planet Mushrooms",
+      "Shiverburn S - Chimp Room"
     ]
   },
   "Shiverburn - Volcano Planet Ice": {
@@ -1870,7 +1870,7 @@
       "Shiverburn - Volcano Planet Mushrooms",
       "Shiverburn S - Chimp Room"
     ],
-    "entrance_requires": "|Has Ground Pound| and (|Can Make Clouds| or |Hard Logic|)"
+    "requires": "|Has Ground Pound| and (|Can Make Clouds| or |Hard Logic|)"
   },
   "Shiverburn - Volcano Planet Mushrooms": {
     "entrance_requires": {
@@ -1910,7 +1910,7 @@
     "connects_to": [
       "Shiverburn C - Arena"
     ],
-    "entrance_requires": "|Has Romp Comets| and {OptOne(|Shiverburn Comet Medal|)}"
+    "requires": "|Has Romp Comets| and {OptOne(|Shiverburn Comet Medal|)}"
   },
   "Shiverburn C - Arena": {
 
@@ -2428,7 +2428,7 @@
     "connects_to": [
       "Galaxy Generator - Spin-Drill Planet"
     ],
-    "requires": "|Can Use Floaty Fluff| or (|Has Long Spin| and |Hard Logic|)"
+    "requires": "|Can Use Floaty Fluff| or (|Can Long Spin| and |Hard Logic|)"
   },
   "Galaxy Generator - Spin-Drill Planet": {
     "connects_to": [
@@ -2453,7 +2453,7 @@
     "connects_to": [
       "Galaxy Generator - Cloud Cylinder End"
     ],
-    "requires": "|Has Wall Spin| or |Has Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
+    "requires": "|Can Wall Spin| or |Can Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
   },
   "Galaxy Generator - Cloud Cylinder End": {
     "connects_to": [
@@ -2506,7 +2506,7 @@
     "connects_to": [
       "Galaxy Generator C - Spin-Drill Planet"
     ],
-    "requires": "|Can Use Floaty Fluff| or (|Has Long Spin| and |Hard Logic|)"
+    "requires": "|Can Use Floaty Fluff| or (|Can Long Spin| and |Hard Logic|)"
   },
   "Galaxy Generator C - Spin-Drill Planet": {
     "connects_to": [
@@ -2527,7 +2527,7 @@
   },
   "Galaxy Generator C - Cloud Cylinder Secret": {
     "connects_to": ["Galaxy Generator C - Cloud Cylinder End"],
-    "requires": "|Has Wall Spin| or |Has Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
+    "requires": "|Can Wall Spin| or |Can Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
   },
   "Galaxy Generator C - Cloud Cylinder End": {
     "connects_to": ["Galaxy Generator C - Yoshi Start"]
@@ -2761,7 +2761,7 @@
     "connects_to": [
       "Flip-Out C - First Checkpoint"
     ],
-    "entrance_requires": "|Has Clone Comets| and {OptOne(|Flip-Out Comet Medal|)}"
+    "requires": "|Has Clone Comets| and {OptOne(|Flip-Out Comet Medal|)}"
   },
   "Flip-Out C - First Checkpoint": {
     "connects_to": ["Flip-Out C - Second Checkpoint"],
@@ -2812,7 +2812,7 @@
     "connects_to": [
       "Grandmaster C - Flipswitch Panels"
     ],
-    "entrance_requires": "|Has Daredevil Comets| and {OptOne(|Grandmaster Comet Medal|)}"
+    "requires": "|Has Daredevil Comets| and {OptOne(|Grandmaster Comet Medal|)}"
   },
   "Grandmaster C - Flipswitch Panels": {
     "connects_to": [
@@ -2823,8 +2823,7 @@
   "Grandmaster C - Electric Maze": {
     "connects_to": [
       "Grandmaster C - Flip-Swap Panels"
-    ],
-    "exit_requires": "|Can Make Clouds|"
+    ]
   },
   "Grandmaster C - Flip-Swap Panels": {
     "connects_to": [

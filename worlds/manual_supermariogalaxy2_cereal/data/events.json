@@ -250,7 +250,7 @@
   },
   {
     "name": "Has Grandmaster Greens",
-    "requires": "{YamlCompare(Grandmaster_Greens_Count <= 0)} or {YamlDisabled(Green_Star_Locations)} or {OptionCount(Green Star, Grandmaster_Greens_Count)}"
+    "requires": "{YamlCompare(Grandmaster_Green_Count == 0)} or {YamlDisabled(Green_Star_Locations)} or {OptionCount(Green Star, Grandmaster_Green_Count)}"
   },
   {
     "name": "Can Enter Grandmaster Galaxy",
