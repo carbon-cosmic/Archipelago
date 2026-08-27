@@ -389,14 +389,14 @@
       "Flip-Swap C - First Chomp Platform"
     ],
     "entrance_requires": {
-      "Flip-Swap C - 1-Up Platform": "|Can Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
+      "Flip-Swap C - 1-Up Platform": "|Has Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
     }
   },
   "Flip-Swap C - Electric Fences Red Panels": {
     "connects_to": [
       "Flip-Swap C - First Chomp Platform"
     ],
-    "requires": "|Can Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
+    "requires": "|Has Air Spin| or (|Hard Logic| and |Can Ground Spin|)"
   },
   "Flip-Swap C - First Chomp Platform": {
     "connects_to": [
@@ -418,7 +418,7 @@
   },
   "Rightside Down - Corridor": {
     "connects_to": [
-      "Rightside Down - Slide Intermediate",
+      "Rightside Down - Slide",
       "Rightside Down - Gearmo"
     ],
     "exit_requires": {
@@ -464,7 +464,7 @@
   },
   "Fiery Flotilla - Outside Castle": {
     "connects_to": [
-      "Fiery Flotilla - Castle Intermediate",
+      "Fiery Flotilla - Castle",
       "Fiery Flotilla - Castle Walls"
     ],
     "exit_requires": {
@@ -1336,8 +1336,8 @@
   "Flipsville 1 - Start": {
     "connects_to": [
       "Flipsville 1 - Below Start",
-      "Flipsville 1 - Start Intermediate",
-      "Flipsville 1 - Tele Intermediate"
+      "Flipsville 1 - Chomps",
+      "Flipsville 1 - Teleporter"
     ],
     "exit_requires": {
       "Flipsville 1 - Below Start": "|Has Ground Pound|",
@@ -1760,217 +1760,298 @@
     "connects_to": ["Space Storm 1 - Start", "Space Storm 2 - Start"]
   },
   "Space Storm 1 - Start": {
-    "connects_to": ["Space Storm 1 - Satellite"],
-    "exit_requires": "|Has Pull Stars| or (|Jump Height 6| and |Hard Logic)"
+    "connects_to": [
+      "Space Storm 1 - Satellite"
+    ]
   },
   "Space Storm 1 - Satellite": {
-    "connects_to": ["Space Storm 1 - Bob-omb Planet"],
-    "exit_requires": "|Has Long Jump| or |Has Air Spin| or |Medium Logic|"
+    "connects_to": [
+      "Space Storm 1 - Bob-omb Planet"
+    ],
+    "requires": "|Has Pull Stars| or (|Jump Height 6| and |Hard Logic)"
   },
   "Space Storm 1 - Bob-omb Planet": {
-    "connects_to": ["Space Storm 1 - Topman Planet"],
-    "exit_requires": "|Has Bob-ombs|"
+    "connects_to": [
+      "Space Storm 1 - Topman Planet"
+    ],
+    "requires": "|Has Long Jump| or |Has Air Spin| or |Medium Logic|"
   },
   "Space Storm 1 - Topman Planet": {
-    "connects_to": ["Space Storm 1 - Storm Path"],
-    "exit_requires": "|Has Pull Stars|"
+    "connects_to": [
+      "Space Storm 1 - Storm Path"
+    ],
+    "requires": "|Has Bob-ombs|"
   },
   "Space Storm 1 - Storm Path": {
-
+    "requires": "|Has Pull Stars|"
   },
   "Space Storm 2 - Start": {
-    "connects_to": ["Space Storm 2 - Tower Base"],
-    "exit_requires": "|Has Pull Stars| or (|Has Triple Jump| and |Hard Logic|)"
+    "connects_to": [
+      "Space Storm 2 - Tower Base"
+    ]
   },
   "Space Storm 2 - Tower Base": {
-    "connects_to": ["Space Storm 2 - Tower"],
-    "exit_requires": "|Has Ground Spin| and (|Has Ground Pound| or |Medium Logic|)"
+    "connects_to": [
+      "Space Storm 2 - Tower"
+    ],
+    "requires": "|Has Pull Stars| or (|Has Triple Jump| and |Hard Logic|)"
   },
   "Space Storm 2 - Tower": {
-    "connects_to": ["Space Storm 2 - Tower Top"]
+    "connects_to": [
+      "Space Storm 2 - Tower Top"
+    ],
+    "requires": "|Has Ground Spin| and (|Has Ground Pound| or |Medium Logic|)"
   },
   "Space Storm 2 - Tower Top": {
-    "entrance_requires": "|Has Ground Pound| or |Hard Logic|"
+    "requires": "|Has Ground Pound| or |Hard Logic|"
   },
   "Slipsand Galaxy": {
-    "connects_to": ["Slipsand 1 - Sand Tube", "Slipsand 2 - Sand Tube Start", "Slipsand C - Squizzard"]
+    "connects_to": [
+      "Slipsand 1 - Sand Tube",
+      "Slipsand 2 - Sand Tube Start",
+      "Slipsand C - Squizzard"
+    ]
   },
   "Slipsand 1 - Sand Tube": {
-    "connects_to": ["Slipsand 1 - Sand River"]
+    "connects_to": [
+      "Slipsand 1 - Sand River"
+    ]
   },
   "Slipsand 1 - Sand River": {
-    "connects_to": ["Slipsand 1 - Sand Slide"]
+    "connects_to": [
+      "Slipsand 1 - Sand Slide"
+    ]
   },
   "Slipsand 1 - Sand Slide": {
-    "connects_to": ["Slipsand 1 - Squizzard"]
+    "connects_to": [
+      "Slipsand 1 - Squizzard"
+    ]
   },
   "Slipsand 1 - Squizzard": {
 
   },
   "Slipsand 2 - Sand Tube Start": {
-    "connects_to": ["Slipsand 2 - 2D Room"]
+    "connects_to": [
+      "Slipsand 2 - 2D Room"
+    ]
   },
   "Slipsand 2 - 2D Room": {
-    "connects_to": ["Slipsand 2 - Sand Tube End"]
+    "connects_to": [
+      "Slipsand 2 - Sand Tube End"
+    ]
   },
   "Slipsand 2 - Sand Tube End": {
-    "connects_to": ["Slipsand 2 - Sandy Sea"]
+    "connects_to": [
+      "Slipsand 2 - Sandy Sea"
+    ]
   },
   "Slipsand 2 - Sandy Sea": {
 
   },
   "Slipsand C - Squizzard": {
-    "entrance_requires": "|Has Daredevil Comets| and |Slipsand Comets|"
+    "requires": "|Has Daredevil Comets| and {OptOne(|Slipsand Comet Medal|)}"
   },
   "Shiverburn Galaxy": {
-    "connects_to": ["Shiverburn - Volcano Planet Fire", "Shiverburn C - Starshroom"]
+    "connects_to": [
+      "Shiverburn - Volcano Planet Fire",
+      "Shiverburn C - Starshroom"
+    ]
   },
   "Shiverburn - Volcano Planet Fire": {
-    "connects_to": ["Shiverburn - Volcano Planet Ice", "Shiverburn - Stones Intermediate", "Shiverburn - Mushrooms Intermediate"]
+    "connects_to": [
+      "Shiverburn - Volcano Planet Ice",
+      "Shiverburn - Stones Intermediate",
+      "Shiverburn - Mushrooms"
+    ]
   },
   "Shiverburn - Volcano Planet Ice": {
-    "connects_to": ["Shiverburn - Lava Stones", "Shiverburn - Volcano Planet Mushrooms", "Shiverburn S - Chimp Room"],
+    "connects_to": [
+      "Shiverburn - Lava Stones",
+      "Shiverburn - Volcano Planet Mushrooms",
+      "Shiverburn S - Chimp Room"
+    ],
     "entrance_requires": "|Has Ground Pound| and (|Can Make Clouds| or |Hard Logic|)"
   },
-  "Shiverburn - Mushrooms Intermediate": {
-    "connects_to": ["Shiverburn - Volcano Planet Mushrooms"],
-    "exit_requires": "|Hard Logic|"
-  },
   "Shiverburn - Volcano Planet Mushrooms": {
-
-  },
-  "Shiverburn - Stones Intermediate": {
-    "connects_to": ["Shiverburn - Lava Stones", "Shiverburn S - Chimp Room"],
-    "exit_requires": "|Can Make Clouds| and |Medium Logic| and |Can Long Jump|"
+    "entrance_requires": {
+      "Shiverburn - Volcano Planet Ice": "",
+      "Shiverburn - Volcano Planet Fire": "|Hard Logic|"
+    }
   },
   "Shiverburn - Lava Stones": {
-    "connects_to": ["Shiverburn - Fire Rain"],
-    "exit_requires": ""
+    "connects_to": [
+      "Shiverburn - Fire Rain"
+    ],
+    "entrance_requires": {
+      "Shiverburn - Volcano Planet Fire": "|Can Make Clouds| and |Medium Logic| and |Can Long Jump|",
+      "Shiverburn - Volcano Planet Ice": ""
+    }
   },
   "Shiverburn - Fire Rain": {
-    "connects_to": ["Shiverburn - Ice Rain"],
-    "exit_requires": "|Has Ground Spin| or |Hard Logic|"
+    "connects_to": [
+      "Shiverburn - Ice Rain"
+    ]
   },
   "Shiverburn - Ice Rain": {
-    "connects_to": ["Shiverburn - Starshroom"],
-    "exit_requires": ""
+    "connects_to": [
+      "Shiverburn - Starshroom"
+    ],
+    "requires": "|Has Ground Spin| or |Hard Logic|"
   },
   "Shiverburn - Starshroom": {
-    "connects_to": ["Shiverburn - Arena"],
-    "exit_requires": ""
+    "connects_to": [
+      "Shiverburn - Arena"
+    ]
   },
   "Shiverburn - Arena": {
 
   },
   "Shiverburn C - Starshroom": {
-    "connects_to": ["Shiverburn C - Arena"],
-    "entrance_requires": "|Has Romp Comets| and |Shiverburn Comets|"
+    "connects_to": [
+      "Shiverburn C - Arena"
+    ],
+    "entrance_requires": "|Has Romp Comets| and {OptOne(|Shiverburn Comet Medal|)}"
   },
   "Shiverburn C - Arena": {
 
   },
   "Shiverburn S - Chimp Room": {
-
+    "entrance_requires": {
+      "Shiverburn - Volcano Planet Fire": "|Can Make Clouds| and |Medium Logic| and |Can Long Jump|",
+      "Shiverburn - Volcano Planet Ice": ""
+    }
   },
   "Boo Moon Galaxy": {
-    "connects_to": ["Boo Moon 1 - Dark Maze", "Boo Moon 2 - Dark Maze"]
+    "connects_to": [
+      "Boo Moon 1 - Dark Maze",
+      "Boo Moon 2 - Dark Maze"
+    ]
   },
   "Boo Moon 1 - Dark Maze": {
-    "connects_to": ["Boo Moon 1 - Swamp"]
+    "connects_to": [
+      "Boo Moon 1 - Swamp"
+    ]
   },
   "Boo Moon 1 - Swamp": {
-    "connects_to": ["Boo Moon 1 - Crescent Moon"]
+    "connects_to": [
+      "Boo Moon 1 - Crescent Moon"
+    ]
   },
   "Boo Moon 1 - Crescent Moon": {
-    "connects_to": ["Boo Moon 1 - Pop-Up Book"],
-    "exit_requires": "|Jump Height 3| or |Medium Logic|"
+    "connects_to": [
+      "Boo Moon 1 - Pop-Up Book"
+    ]
   },
   "Boo Moon 1 - Pop-Up Book": {
-
+    "requires": "|Jump Height 3| or |Medium Logic|"
   },
   "Boo Moon 2 - Dark Maze": {
-    "connects_to": ["Boo Moon 2 - Howling Tower Start"]
+    "connects_to": [
+      "Boo Moon 2 - Howling Tower Start"
+    ]
   },
   "Boo Moon 2 - Howling Tower Start": {
-    "connects_to": ["Boo Moon 2 - Howling Tower"]
+    "connects_to": [
+      "Boo Moon 2 - Howling Tower"
+    ]
   },
   "Boo Moon 2 - Howling Tower": {
-    "entrance_requires": "|Has Boo|"
+    "requires": "|Has Boo|"
   },
   "Upside Dizzy Galaxy": {
-    "connects_to": ["Upside Dizzy - Start"]
+    "connects_to": [
+      "Upside Dizzy - Start"
+    ]
   },
   "Upside Dizzy - Start": {
-    "connects_to": ["Upside Dizzy S - Gearmo", "Upside Dizzy - Moving Platform"]
+    "connects_to": [
+      "Upside Dizzy S - Gearmo",
+      "Upside Dizzy - Moving Platform"
+    ]
   },
   "Upside Dizzy - Moving Platform": {
-    "connects_to": ["Upside Dizzy - Gravity Swap"],
-    "entrance_requires": "|Jump Height 3| or ((|Has Long Jump| or |Has Wall Jump|) and |Hard Logic|)"
+    "connects_to": [
+      "Upside Dizzy - Gravity Swap"
+    ],
+    "requires": "|Jump Height 3| or ((|Has Long Jump| or |Has Wall Jump|) and |Hard Logic|)"
   },
   "Upside Dizzy - Gravity Swap": {
-    "entrance_requires": "|Has Ground Pound| or (|Hard Logic| and (|Has Air Spin| or (|Has Backflip| and |Has Wall Jump)))"
+    "requires": "|Has Ground Pound| or (|Hard Logic| and (|Has Air Spin| or (|Has Backflip| and |Has Wall Jump)))"
   },
   "Upside Dizzy S - Gearmo": {
-    "entrance_requires": "|Has Fire|"
+    "requires": "|Has Fire|"
   },
   "Fleet Glide Galaxy": {
-    "connects_to": ["Fleet Glide 1 - Start", "Fleet Glide 2 - Start"]
+    "connects_to": [
+      "Fleet Glide 1 - Start",
+      "Fleet Glide 2 - Start"
+    ]
   },
   "Fleet Glide 1 - Start": {
-    "connects_to": ["Fleet Glide 1 - Flight"],
-    "exit_requires": "|Has Fluzzard|"
+    "connects_to": [
+      "Fleet Glide 1 - Flight"
+    ]
   },
   "Fleet Glide 1 - Flight": {
-
+    "requires": "|Has Fluzzard|"
   },
   "Fleet Glide 2 - Start": {
     "connects_to": ["Fleet Glide 2 - Flight"],
-    "entrance_requires": "|Fleet Glide Jibberjay Letter|",
-    "exit_requires": "|Has Fluzzard|"
+    "requires": "|Fleet Glide Jibberjay Letter|"
   },
   "Fleet Glide 2 - Flight": {
-
+    "requires": "|Has Fluzzard|"
   },
   "Bowser Jr.'s Boom Bunker": {
-    "connects_to": ["Boom Bunker - Crash Site", "Boom Bunker C - Crash Site"]
+    "connects_to": [
+      "Boom Bunker - Crash Site",
+      "Boom Bunker C - Crash Site"
+    ]
   },
   "Boom Bunker - Crash Site": {
-    "connects_to": ["Boom Bunker - Boomerang Bros."],
-    "exit_requires": "|Has Cannon Permit|"
+    "connects_to": [
+      "Boom Bunker - Boomerang Bros."
+    ]
   },
   "Boom Bunker - Boomerang Bros.": {
-    "connects_to": ["Boom Bunker - Mini Cannon Planet"]
+    "connects_to": [
+      "Boom Bunker - Mini Cannon Planet"
+    ],
+    "requires": "|Has Cannon Permit|"
   },
   "Boom Bunker - Mini Cannon Planet": {
-    "connects_to": ["Boom Bunker - Spinning Platforms"],
-    "exit_requires": "|Has Cannon Permit|"
+    "connects_to": [
+      "Boom Bunker - Spinning Platforms"
+    ],
+    "requires": "|Has Cannon Permit|"
   },
   "Boom Bunker - Spinning Platforms": {
-    "connects_to": ["Boom Bunker - Boss"],
-    "exit_requires": "|Has Ground Pound| and (|Can Make Clouds| or |Hard Logic|)"
+    "connects_to": [
+      "Boom Bunker - Boss"
+    ]
   },
   "Boom Bunker - Boss": {
-
+    "requires": "|Has Ground Pound| and (|Can Make Clouds| or |Hard Logic|)"
   },
   "Boom Bunker C - Crash Site": {
-    "connects_to": ["Boom Bunker C - Boomerang Bros."],
-    "entrance_requires": "|Has Daredevil Comets| and |Boom Bunker Comets|",
-    "exit_requires": "|Has Cannon Permit|"
+    "connects_to": [
+      "Boom Bunker C - Boomerang Bros."
+    ],
+    "requires": "|Has Daredevil Comets| and {OptOne(|Boom Bunker Comet Medal|)}"
   },
   "Boom Bunker C - Boomerang Bros.": {
     "connects_to": ["Boom Bunker C - Mini Cannon Planet"],
-    "exit_requires": ""
+    "requires": "|Has Cannon Permit|"
   },
   "Boom Bunker C - Mini Cannon Planet": {
     "connects_to": ["Boom Bunker C - Dark Matter"],
-    "exit_requires": "|Has Cannon Permit|"
+    "requires": "|Has Cannon Permit|"
   },
   "Boom Bunker C - Dark Matter": {
-    "connects_to": ["Boom Bunker C - Boss"],
-    "exit_requires": "|Can Make Clouds|"
+    "connects_to": ["Boom Bunker C - Boss"]
   },
   "Boom Bunker C - Boss": {
-
+    "requires": "|Can Make Clouds|"
   },
   "World 6": {
    "requires": "|Grand Star (World 6 Access)|",
