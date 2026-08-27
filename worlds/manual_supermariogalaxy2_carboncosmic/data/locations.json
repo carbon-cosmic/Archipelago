@@ -2,11 +2,6 @@
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
   "data": [
     {
-      "name": "Search 'Needs Testing' ",
-      "category": [],
-      "requires": ""
-    },
-    {
       "name": "Starship Mario - Starshroom 1-Up",
       "requires": "",
       "region": "Starship Mario",

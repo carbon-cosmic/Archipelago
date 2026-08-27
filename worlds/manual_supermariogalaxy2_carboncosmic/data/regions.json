@@ -2046,7 +2046,7 @@
     "connects_to": [
       "Space Storm 1 - Bob-omb Planet"
     ],
-    "requires": "|Has Pull Stars| or (|Jump Height 6| and |Hard Logic)"
+    "requires": "|Has Pull Stars| or (|Jump Height 6| and |Hard Logic|)"
   },
   "Space Storm 1 - Bob-omb Planet": {
     "connects_to": [
