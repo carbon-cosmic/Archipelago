@@ -897,90 +897,128 @@
     "requires": "|Has Ground Pound|"
   },
   "Lava Lair C - Snake Blocks": {
-    
+
   },
   "World 3": {
     "requires": "|Grand Star (World 3 Access)|",
-    "connects_to": ["Tall Trunk Galaxy", "Cloudy Court Galaxy", "Haunty Halls Galaxy",
-     "Freezy Flake Galaxy", "Rolling Masterpiece Galaxy", "Beat Block Galaxy", "Bowser Jr.'s Fearsome Fleet"]
+    "connects_to": [
+      "Tall Trunk Galaxy",
+      "Cloudy Court Galaxy",
+      "Haunty Halls Galaxy",
+      "Freezy Flake Galaxy",
+      "Rolling Masterpiece Galaxy",
+      "Beat Block Galaxy",
+      "Bowser Jr.'s Fearsome Fleet"
+    ]
   },
   "Tall Trunk Galaxy": {
-    "connects_to": ["Tall Trunk 1 - Big Tree", "Tall Trunk 2 - Big Tree", "Tall Trunk C - Slide Start"]
+    "connects_to": [
+      "Tall Trunk 1 - Big Tree",
+      "Tall Trunk 2 - Big Tree",
+      "Tall Trunk C - Slide Start"
+    ]
   },
   "Tall Trunk 1 - Big Tree": {
-    "connects_to": ["Tall Trunk 1 - Carved Log Start"],
-    "exit_requires": "|Can Use Blimp| or (|Hard Logic| and |Can Wall Spin| and |Has Backflip|) "
+    "connects_to": [
+      "Tall Trunk 1 - Carved Log Start"
+    ]
   },
   "Tall Trunk 1 - Carved Log Start": {
-    "connects_to": ["Tall Trunk 1 - Carved Log Star Chips"],
-    "exit_requires": "|Can Use Blimp|"
+    "connects_to": [
+      "Tall Trunk 1 - Carved Log Star Chips"
+    ],
+    "requires": "|Can Use Blimp| or (|Hard Logic| and |Can Wall Spin| and |Has Backflip|)"
   },
   "Tall Trunk 1 - Carved Log Star Chips": {
-    "connects_to": ["Tall Trunk 1 - Wooden Circle"],
-    "exit_requires": "|Can Use Blimp|"
+    "connects_to": [
+      "Tall Trunk 1 - Wooden Circle"
+    ],
+    "requires": "|Can Use Blimp|"
   },
   "Tall Trunk 1 - Wooden Circle": {
 
   },
   "Tall Trunk 2 - Big Tree": {
-    "connects_to": ["Tall Trunk 2 - Slide Start"],
-    "exit_requires": ""
+    "connects_to": [
+      "Tall Trunk 2 - Slide Start"
+    ]
   },
   "Tall Trunk 2 - Slide Start": {
-    "connects_to": ["Tall Trunk 2 - Slide"],
-    "exit_requires": ""
+    "connects_to": [
+      "Tall Trunk 2 - Slide"
+    ]
   },
   "Tall Trunk 2 - Slide": {
-    "connects_to": ["Tall Trunk 2 - Slide End"],
-    "exit_requires": ""
+    "connects_to": [
+      "Tall Trunk 2 - Slide End"
+    ]
   },
   "Tall Trunk 2 - Slide End": {
 
   },
   "Tall Trunk C - Slide Start": {
-    "connects_to": ["Tall Trunk C - Slide"],
-    "entrance_requires": "|Has Purple Comets| and |Tall Trunk Comets|",
-    "exit_requires": ""
+    "connects_to": [
+      "Tall Trunk C - Slide"
+    ],
+    "requires": "|Has Purple Comets| and {OptOne(|Tall Trunk Comet Medal|)}|"
   },
   "Tall Trunk C - Slide": {
-    "connects_to": ["Tall Trunk C - Slide End"],
-    "exit_requires": ""
+    "connects_to": [
+      "Tall Trunk C - Slide End"
+    ]
   },
   "Tall Trunk C - Slide End": {
 
   },
   "Cloudy Court Galaxy": {
-    "connects_to": ["Cloudy Court - Start", "Cloudy Court C - Star Chips"]
+    "connects_to": [
+      "Cloudy Court - Start",
+      "Cloudy Court C - Star Chips"
+    ]
   },
   "Cloudy Court - Start": {
-    "connects_to": ["Cloudy Court - Beginning Clouds"],
-    "exit_requires": "|Has Cloud|"
+    "connects_to": [
+      "Cloudy Court - Beginning Clouds"
+    ]
   },
   "Cloudy Court - Beginning Clouds": {
-    "connects_to": ["Cloudy Court - Instruments"],
-    "exit_requires": "|Can Make Ground Clouds|"
+    "connects_to": [
+      "Cloudy Court - Instruments"
+    ],
+    "requires": "|Has Cloud|"
   },
   "Cloudy Court - Instruments": {
-    "connects_to": ["Cloudy Court - Towers"],
-    "exit_requires": "|Can Make Clouds|"
+    "connects_to": [
+      "Cloudy Court - Towers"
+    ],
+    "requires": "|Can Make Ground Clouds|"
   },
   "Cloudy Court - Towers": {
-    "connects_to": ["Cloudy Court - Castle", "Cloudy Court S - Purple Pond"],
-    "exit_requires": "|Can Make Ground Clouds|"
+    "connects_to": [
+      "Cloudy Court - Castle",
+      "Cloudy Court S - Purple Pond"
+    ],
+    "requires": "|Can Make Clouds|"
   },
   "Cloudy Court - Castle": {
-
+    "requires": "|Can Make Ground Clouds|"
   },
   "Cloudy Court C - Star Chips": {
-    "connects_to": ["Cloudy Court C - Castle Start"],
-    "entrance_requires": "|Has Clone Comets| and |Cloudy Court Comets|"
+    "connects_to": [
+      "Cloudy Court C - Castle Start"
+    ],
+    "entrance_requires": "|Has Clone Comets| and {OptOne(|Cloudy Court Comet Medal|)}"
   },
   "Cloudy Court C - Castle Start": {
-    "connects_to": ["Cloudy Court C - Castle"],
-    "exit_requires": "|Has Wall Jump|"
+    "connects_to": [
+      "Cloudy Court C - Castle"
+    ]
   },
   "Cloudy Court C - Castle": {
-    "connects_to": ["Cloudy Court C - End"]
+    "connects_to": [
+      "Cloudy Court C - End"
+    ],
+    "requires": "|Has Wall Jump|"
   },
   "Cloudy Court C - End": {
 
@@ -989,60 +1027,95 @@
 
   },
   "Haunty Halls Galaxy": {
-    "connects_to": ["Haunty Halls 1 - Start", "Haunty Halls 2 - Start", "Haunty Halls C - Creepy Corridor"]
+    "connects_to": [
+      "Haunty Halls 1 - Start",
+      "Haunty Halls 2 - Start",
+      "Haunty Halls C - Creepy Corridor"
+    ]
   },
   "Haunty Halls 1 - Start": {
-    "connects_to": ["Haunty Halls 1 - Moving Halls"]
+    "connects_to": [
+      "Haunty Halls 1 - Moving Halls"
+    ]
   },
   "Haunty Halls 1 - Moving Halls": {
-    "connects_to": ["Haunty Halls 1 - Bulb Berry Start"]
+    "connects_to": [
+      "Haunty Halls 1 - Bulb Berry Start"
+    ]
   },
   "Haunty Halls 1 - Bulb Berry Start": {
-    "connects_to": ["Haunty Halls 1 - Bulb Berry"]
+    "connects_to": [
+      "Haunty Halls 1 - Bulb Berry"
+    ]
   },
   "Haunty Halls 1 - Bulb Berry": {
-    "entrance_requires": "|Can Use Bulb|"
+    "requires": "|Can Use Bulb|"
   },
   "Haunty Halls 2 - Start": {
-    "connects_to": ["Haunty Halls 2 - Corridor Platforms"]
+    "connects_to": [
+      "Haunty Halls 2 - Corridor Platforms"
+    ]
   },
   "Haunty Halls 2 - Corridor Platforms": {
-    "connects_to": ["Haunty Halls 2 - Creepy Corridor"]
+    "connects_to": [
+      "Haunty Halls 2 - Creepy Corridor"
+    ]
   },
   "Haunty Halls 2 - Creepy Corridor": {
 
   },
   "Haunty Halls C - Creepy Corridor": {
-    "entrance_requires": "|Has Clone Comets| and |Haunty Halls Comets|"
+    "requires": "|Has Clone Comets| and {OptOne(|Haunty Halls Comet Medal|)}"
   },
   "Freezy Flake Galaxy": {
-    "connects_to": ["Freezy Flake 1 - Log Cabin", "Freezy Flake 2 - Log Cabin"]
+    "connects_to": [
+      "Freezy Flake 1 - Log Cabin",
+      "Freezy Flake 2 - Log Cabin"
+    ]
   },
   "Freezy Flake 1 - Log Cabin": {
     "connects_to": ["Freezy Flake - Snowy Hill"],
-    "exit_requires": "|Has Fire|"
+    "exit_requires": {
+      "Freezy Flake - Snowy Hill": "|Has Fire|"
+    }
   },
   "Freezy Flake - Snowy Hill": {
-    "connects_to": ["Freezy Flake 1 - Slide", "Freezy Flake 2 - Snowstorm", "Freezy Flake S - Chimp Room"]
+    "connects_to": [
+      "Freezy Flake 1 - Slide",
+      "Freezy Flake 2 - Snowstorm",
+      "Freezy Flake S - Chimp Room"
+    ],
+    "exit_requires": {
+      "Freezy Flake 1 - Slide": "|Has Fire|",
+      "Freezy Flake 2 - Snowstorm":  "|Has Rock|",
+      "Freezy Flake S - Chimp Room": "|Has Fire| or |Has Rock|"
+    }
   },
   "Freezy Flake 1 - Slide": {
-    "connects_to": ["Freezy Flake 1 - Snow Blocks"],
-    "entrance_requires": "|Has Fire|"
+    "connects_to": [
+      "Freezy Flake 1 - Snow Blocks"
+    ]
   },
   "Freezy Flake 1 - Snow Blocks": {
-    "connects_to": ["Freezy Flake 1 - Lava Pool"],
-    "exit_requires": "|Has Fire|"
+    "connects_to": [
+      "Freezy Flake 1 - Lava Pool"
+    ]
   },
   "Freezy Flake 1 - Lava Pool": {
-
+    "requires": "|Has Fire|"
   },
   "Freezy Flake 2 - Log Cabin": {
-    "connects_to": ["Freezy Flake - Snowy Hill"],
-    "exit_requires": "|Has Rock|"
+    "connects_to": [
+      "Freezy Flake - Snowy Hill"
+    ],
+    "exit_requires": {
+      "Freezy Flake - Snowy Hill": "|Has Rock|"
+    }
   },
   "Freezy Flake 2 - Snowstorm": {
-    "connects_to": ["Freezy Flake 2 - Sorbetti"],
-    "entrance_requires": "|Has Rock|"
+    "connects_to": [
+      "Freezy Flake 2 - Sorbetti"
+    ]
   },
   "Freezy Flake 2 - Sorbetti": {
 
@@ -1051,77 +1124,114 @@
 
   },
   "Rolling Masterpiece Galaxy": {
-    "connects_to": ["Rolling Masterpiece - Start", "Rolling Masterpiece C - Start"]
+    "connects_to": [
+      "Rolling Masterpiece - Start",
+      "Rolling Masterpiece C - Start"
+    ]
   },
   "Rolling Masterpiece - Start": {
-    "connects_to": ["Rolling Masterpiece - Paintbrush Planet"],
-    "exit_requires": "|Has Star Ball|"
+    "connects_to": [
+      "Rolling Masterpiece - Paintbrush Planet"
+    ]
   },
   "Rolling Masterpiece - Paintbrush Planet": {
-    "connects_to": ["Rolling Masterpiece - Space Junk"]
+    "connects_to": [
+      "Rolling Masterpiece - Space Junk"
+    ],
+    "requires": "|Has Star Ball|"
   },
   "Rolling Masterpiece - Space Junk": {
-    "connects_to": ["Rolling Masterpiece - Saw Planet"]
+    "connects_to": [
+      "Rolling Masterpiece - Saw Planet"
+    ]
   },
   "Rolling Masterpiece - Saw Planet": {
-    "connects_to": ["Rolling Masterpiece - Silver Chomp"]
+    "connects_to": [
+      "Rolling Masterpiece - Silver Chomp"
+    ]
   },
   "Rolling Masterpiece - Silver Chomp": {
-    "connects_to": ["Rolling Masterpiece - End"]
+    "connects_to": [
+      "Rolling Masterpiece - End"
+    ]
   },
   "Rolling Masterpiece - End": {
 
   },
   "Rolling Masterpiece C - Start": {
-    "connects_to": ["Rolling Masterpiece C - Paintbrush Planet"],
-    "entrance_requires": "|Has Speedy Comets| and |Rolling Masterpiece Comets|",
-    "exit_requires": "|Has Star Ball|"
+    "connects_to": [
+      "Rolling Masterpiece C - Paintbrush Planet"
+    ],
+    "requires": "|Has Speedy Comets| and {OptOne(|Rolling Masterpiece Comet Medal|)}"
   },
   "Rolling Masterpiece C - Paintbrush Planet": {
-    "connects_to": ["Rolling Masterpiece C - Space Junk"]
+    "connects_to": [
+      "Rolling Masterpiece C - Space Junk"
+    ],
+    "requires": "|Has Star Ball|"
   },
   "Rolling Masterpiece C - Space Junk": {
-    "connects_to": ["Rolling Masterpiece C - Grassy Planet"]
+    "connects_to": [
+      "Rolling Masterpiece C - Grassy Planet"
+    ]
   },
   "Rolling Masterpiece C - Grassy Planet": {
-    "connects_to": ["Rolling Masterpiece C - Silver Chomp"]
+    "connects_to": [
+      "Rolling Masterpiece C - Silver Chomp"
+    ]
   },
   "Rolling Masterpiece C - Silver Chomp": {
-    "connects_to": ["Rolling Masterpiece C - End"]
+    "connects_to": [
+      "Rolling Masterpiece C - End"
+    ]
   },
   "Rolling Masterpiece C - End": {
 
   },
   "Beat Block Galaxy": {
-    "connects_to": ["Beat Block - Main", "Beat Block C - Main"]
+    "connects_to": [
+      "Beat Block - Main",
+      "Beat Block C - Main"
+    ]
   },
   "Beat Block - Main": {
 
   },
   "Beat Block C - Main": {
-    "entrance_requires": "|Has Double Time Comets| and |Beat Block Comets|"
+    "requires": "|Has Double Time Comets| and |Beat Block Comets|"
   },
   "Bowser Jr.'s Fearsome Fleet": {
-    "connects_to": ["Fearsome Fleet - Start", "Fearsome Fleet C - Megahammer"]
+    "connects_to": [
+      "Fearsome Fleet - Start",
+      "Fearsome Fleet C - Megahammer"
+    ]
   },
   "Fearsome Fleet - Start": {
-    "connects_to": ["Fearsome Fleet - Barrage Platform"],
-    "exit_requires": "|Has Yoshi|"
+    "connects_to": [
+      "Fearsome Fleet - Barrage Platform"
+    ]
   },
   "Fearsome Fleet - Barrage Platform": {
-    "connects_to": ["Fearsome Fleet - Hammer Bro."]
+    "connects_to": [
+      "Fearsome Fleet - Hammer Bro."
+    ],
+    "requires": "|Has Yoshi|"
   },
   "Fearsome Fleet - Hammer Bro.": {
-    "connects_to": ["Fearsome Fleet - Airships"]
+    "connects_to": [
+      "Fearsome Fleet - Airships"
+    ]
   },
   "Fearsome Fleet - Airships": {
-    "connects_to": ["Fearsome Fleet - Megahammer"]
+    "connects_to": [
+      "Fearsome Fleet - Megahammer"
+    ]
   },
   "Fearsome Fleet - Megahammer": {
 
   },
   "Fearsome Fleet C - Megahammer": {
-    "entrance_requires": "|Has Daredevil Comets| and |Fearsome Fleet Comets|"
+    "requires": "|Has Daredevil Comets| and {OptOne(|Fearsome Fleet Comet Medal|)}"
   },
   "World 4": {
    "requires": "|Grand Star (World 4 Access)|",
