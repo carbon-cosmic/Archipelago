@@ -2054,65 +2054,102 @@
     "requires": "|Can Make Clouds|"
   },
   "World 6": {
-   "requires": "|Grand Star (World 6 Access)|",
-   "connects_to": ["Melty Monster Galaxy", "Clockwork Ruins Galaxy", "Flash Black Galaxy",
-     "Slimy Spring Galaxy", "Throwback Galaxy", "Battle Belt Galaxy", "Bowser's Galaxy Generator"]
+    "requires": "|Grand Star (World 6 Access)|",
+    "connects_to": [
+      "Melty Monster Galaxy",
+      "Clockwork Ruins Galaxy",
+      "Flash Black Galaxy",
+      "Slimy Spring Galaxy",
+      "Throwback Galaxy",
+      "Battle Belt Galaxy",
+      "Bowser's Galaxy Generator"
+    ]
   },
   "Melty Monster Galaxy": {
-    "connects_to": ["Melty Monster 1 - Start", "Melty Monster 2 - Start"]
+    "connects_to": [
+      "Melty Monster 1 - Start",
+      "Melty Monster 2 - Start"
+    ]
   },
   "Melty Monster 1 - Start": {
-    "connects_to": ["Melty Monster 1 - Pull Stars", "Melty Monster S - Chimp Room"]
+    "connects_to": [
+      "Melty Monster 1 - Pull Stars",
+      "Melty Monster S - Chimp Room"
+    ]
   },
   "Melty Monster 1 - Pull Stars": {
-    "connects_to": ["Melty Monster 1 - Magma Sea"],
-    "entrance_requires": "|Has Pull Stars|"
+    "connects_to": [
+      "Melty Monster 1 - Magma Sea"
+    ],
+    "requires": "|Has Pull Stars|"
   },
   "Melty Monster 1 - Magma Sea": {
-    "connects_to": ["Melty Monster 1 - Magma Falls"]
+    "connects_to": [
+      "Melty Monster 1 - Magma Falls"
+    ]
   },
   "Melty Monster 1 - Magma Falls": {
-    "connects_to": ["Melty Monster 1 - Magmaws"],
-    "entrance_requires": "|Has Tornadoes|"
+    "connects_to": [
+      "Melty Monster 1 - Magmaws"
+    ],
+    "requires": "|Has Tornadoes|"
   },
   "Melty Monster 1 - Magmaws": {
 
   },
   "Melty Monster 2 - Start": {
-    "connects_to": ["Melty Monster 2 - Rolling Lane", "Melty Monster S - Chimp Room"]
+    "connects_to": [
+      "Melty Monster 2 - Rolling Lane",
+      "Melty Monster S - Chimp Room"
+    ]
   },
   "Melty Monster 2 - Rolling Lane": {
-    "entrance_requires": "|Has Rock|"
+    "requires": "|Has Rock|"
   },
   "Melty Monster S - Chimp Room": {
 
   },
   "Clockwork Ruins Galaxy": {
-    "connects_to": ["Clockwork Ruins - Start", "Clockwork Ruins C - First Wheel"]
+    "connects_to": [
+      "Clockwork Ruins - Start",
+      "Clockwork Ruins C - First Wheel"
+    ]
   },
   "Clockwork Ruins - Start": {
-    "connects_to": ["Clockwork Ruins - Pusher Walls", "Clockwork Ruins S - Hammer Ledges"]
+    "connects_to": [
+      "Clockwork Ruins - Pusher Walls",
+      "Clockwork Ruins S - Hammer Ledges"
+    ]
   },
   "Clockwork Ruins - Pusher Walls": {
-    "connects_to": ["Clockwork Ruins - Rolling Drums"],
-    "exit_requires": "|Has Ground Spin| and |Has Ground Pound|"
+    "connects_to": [
+      "Clockwork Ruins - Rolling Drums"
+    ]
   },
   "Clockwork Ruins - Rolling Drums": {
-    "connects_to": ["Clockwork Ruins - Rolling Drums Top"],
-    "exit_requires": "|Has Wall Jump|"
+    "connects_to": [
+      "Clockwork Ruins - Rolling Drums Top"
+    ],
+    "requires": "|Has Ground Spin| and |Has Ground Pound|"
   },
   "Clockwork Ruins - Rolling Drums Top": {
-
+    "requires": "|Has Wall Jump|"
   },
   "Clockwork Ruins C - First Wheel": {
-    "connects_to": ["Clockwork Ruins C - Second Wheel"],
-    "entrance_requires": "|Has Purple Comets| and |Clockwork Ruins Comets|"
+    "connects_to": [
+      "Clockwork Ruins C - Second Wheel"
+    ],
+    "requires": "|Has Purple Comets| and {OptOne(|Clockwork Ruins Comet Medal|)}"
   },
   "Clockwork Ruins C - Second Wheel": {
-    "connects_to": ["Clockwork Ruins C - Third Wheel"]
+    "connects_to": [
+      "Clockwork Ruins C - Third Wheel"
+    ]
   },
   "Clockwork Ruins C - Third Wheel": {
-    "connects_to": ["Clockwork Ruins C - Fourth Wheel"]
+    "connects_to": [
+      "Clockwork Ruins C - Fourth Wheel"
+    ]
   },
   "Clockwork Ruins C - Fourth Wheel": {
 
@@ -2121,102 +2158,156 @@
 
   },
   "Throwback Galaxy": {
-    "connects_to": ["Throwback 1 - Fortress", "Throwback 2 - Fortress", "Throwback C - Fortress"]
+    "connects_to": [
+      "Throwback 1 - Fortress",
+      "Throwback 2 - Fortress",
+      "Throwback C - Fortress"
+    ]
   },
   "Throwback 1 - Fortress": {
-    "connects_to": ["Throwback 1 - Under Fortress"]
+    "connects_to": [
+      "Throwback 1 - Under Fortress"
+    ]
   },
   "Throwback 1 - Under Fortress": {
-    "entrance_requires": "|Has Ground Pound|"
+    "requires": "|Has Ground Pound|"
   },
   "Throwback 2 - Fortress": {
 
   },
   "Throwback C - Fortress": {
-    "entrance_requires": "|Has Speedy Comets| and |Throwback Comets|"
+    "requires": "|Has Speedy Comets| and {OptOne(|Throwback Comet Medal|)}"
   },
   "Battle Belt Galaxy": {
-    "connects_to": ["Battle Belt - Goomba", "Battle Belt C - Goomba"]
+    "connects_to": [
+      "Battle Belt - Goomba",
+      "Battle Belt C - Goomba"
+    ]
   },
   "Battle Belt - Goomba": {
-    "connects_to": ["Battle Belt - Lil' Cinders"]
+    "connects_to": [
+      "Battle Belt - Lil' Cinders"
+    ]
   },
   "Battle Belt - Lil' Cinders": {
-    "connects_to": ["Battle Belt - Urchins"],
-    "exit_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Battle Belt - Urchins"
+    ]
   },
   "Battle Belt - Urchins": {
-    "connects_to": ["Battle Belt - Crabbers"],
-    "exit_requires": "|Has Fire| or (|Jump Height 6| and |Hard Logic|)"
+    "connects_to": [
+      "Battle Belt - Crabbers"
+    ],
+    "requires": "|Has Ground Spin|"
   },
   "Battle Belt - Crabbers": {
-    "connects_to": ["Battle Belt - Starshroom #1"]
+    "connects_to": [
+      "Battle Belt - Starshroom #1"
+    ],
+    "requires": "|Has Fire| or (|Jump Height 6| and |Hard Logic|)"
   },
   "Battle Belt - Starshroom #1": {
-    "connects_to": ["Battle Belt - Jack O'Goombas"]
+    "connects_to": [
+      "Battle Belt - Jack O'Goombas"
+    ]
   },
   "Battle Belt - Jack O'Goombas": {
-    "connects_to": ["Battle Belt - Boos"],
-    "exit_requires": "|Has Ground Pound| or |Has Ground Spin|"
+    "connects_to": [
+      "Battle Belt - Boos"
+    ]
   },
   "Battle Belt - Boos": {
-    "connects_to": ["Battle Belt - Starshroom #2"],
-    "exit_requires": "|Can Swim| and |Has Koopa Shell|"
+    "connects_to": [
+      "Battle Belt - Starshroom #2"
+    ],
+    "requires": "|Has Ground Pound| or |Has Ground Spin|"
   },
   "Battle Belt - Starshroom #2": {
-    "connects_to": ["Battle Belt - Lil' Brrs"]
+    "connects_to": [
+      "Battle Belt - Lil' Brrs"
+    ],
+    "requires": "|Can Swim| and |Has Koopa Shell|"
   },
   "Battle Belt - Lil' Brrs": {
-    "connects_to": ["Battle Belt - Undergrunts", "Battle Belt S - Gobblegut"]
+    "connects_to": [
+      "Battle Belt - Undergrunts",
+      "Battle Belt S - Gobblegut"
+    ]
   },
   "Battle Belt - Undergrunts": {
-    "connects_to": ["Battle Belt - Swaphoppers"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": [
+      "Battle Belt - Swaphoppers"
+    ]
   },
   "Battle Belt - Swaphoppers": {
-    "connects_to": ["Battle Belt - Silver Chomps"]
+    "connects_to": [
+      "Battle Belt - Silver Chomps"
+    ],
+    "requires": "|Has Ground Pound|"
   },
   "Battle Belt - Silver Chomps": {
 
   },
   "Battle Belt C - Goomba": {
-    "connects_to": ["Battle Belt C - Lil' Cinders"],
-    "entrance_requires": "|Has Daredevil Comets| and |Battle Belt Comets|"
+    "connects_to": [
+      "Battle Belt C - Lil' Cinders"
+    ],
+    "requires": "|Has Daredevil Comets| and {OptOne(|Battle Belt Comet Medal|)}"
   },
   "Battle Belt C - Lil' Cinders": {
-    "connects_to": ["Battle Belt C - Urchins"],
-    "exit_requires": "|Has Ground Spin|"
+    "connects_to": [
+      "Battle Belt C - Urchins"
+    ]
   },
   "Battle Belt C - Urchins": {
-    "connects_to": ["Battle Belt C - Crabbers"],
-    "exit_requires": "|Has Fire| or (|Jump Height 6| and |Hard Logic|)"
+    "connects_to": [
+      "Battle Belt C - Crabbers"
+    ],
+    "requires": "|Has Ground Spin|"
   },
   "Battle Belt C - Crabbers": {
-    "connects_to": ["Battle Belt C - Starshroom #1"]
+    "connects_to": [
+      "Battle Belt C - Starshroom #1"
+    ],
+    "requires": "|Has Fire| or (|Jump Height 6| and |Hard Logic|)"
   },
   "Battle Belt C - Starshroom #1": {
-    "connects_to": ["Battle Belt C - Jack O'Goombas"]
+    "connects_to": [
+      "Battle Belt C - Jack O'Goombas"
+    ]
   },
   "Battle Belt C - Jack O'Goombas": {
-    "connects_to": ["Battle Belt C - Boos"],
-    "exit_requires": "|Has Ground Pound| or |Has Ground Spin|"
+    "connects_to": [
+      "Battle Belt C - Boos"
+    ]
   },
   "Battle Belt C - Boos": {
-    "connects_to": ["Battle Belt C - Starshroom #2"],
-    "exit_requires": "|Can Swim| and |Has Koopa Shell|"
+    "connects_to": [
+      "Battle Belt C - Starshroom #2"
+    ],
+    "requires": "|Has Ground Pound| or |Has Ground Spin|"
   },
   "Battle Belt C - Starshroom #2": {
-    "connects_to": ["Battle Belt C - Lil' Brrs"]
+    "connects_to": [
+      "Battle Belt C - Lil' Brrs"
+    ],
+    "requires": "|Can Swim| and |Has Koopa Shell|"
   },
   "Battle Belt C - Lil' Brrs": {
-    "connects_to": ["Battle Belt C - Undergrunts"]
+    "connects_to": [
+      "Battle Belt C - Undergrunts"
+    ]
   },
   "Battle Belt C - Undergrunts": {
-    "connects_to": ["Battle Belt C - Swaphoppers"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": [
+      "Battle Belt C - Swaphoppers"
+    ]
   },
   "Battle Belt C - Swaphoppers": {
-    "connects_to": ["Battle Belt C - Silver Chomps"]
+    "connects_to": [
+      "Battle Belt C - Silver Chomps"
+    ],
+    "requires": "|Has Ground Pound|"
   },
   "Battle Belt C - Silver Chomps": {
 
@@ -2225,166 +2316,236 @@
 
   },
   "Flash Black Galaxy": {
-    "connects_to": ["Flash Black - Outside Manor", "Flash Black C - Dark Path"]
+    "connects_to": [
+      "Flash Black - Outside Manor",
+      "Flash Black C - Dark Path"
+    ]
   },
   "Flash Black - Outside Manor": {
-    "connects_to": ["Flash Black - Inside Manor"]
+    "connects_to": [
+      "Flash Black - Inside Manor"
+    ]
   },
   "Flash Black - Inside Manor": {
-    "connects_to": ["Flash Black - Dark Path"],
-    "entrance_requires": "|Can Use Blimp|"
+    "connects_to": [
+      "Flash Black - Dark Path"
+    ],
+    "requires": "|Can Use Blimp|"
   },
   "Flash Black - Dark Path": {
 
   },
   "Flash Black C - Dark Path": {
-    "entrance_requires": "|Has Romp Comets| and |Flash Black Comets|"
+    "requires": "|Has Romp Comets| and {OptOne(|Flash Black Comet Medal|)}"
   },
   "Slimy Spring Galaxy": {
-    "connects_to": ["Slimy Spring 1 - Cave Entrance", "Slimy Spring 2 - Cave Entrance"]
+    "connects_to": [
+      "Slimy Spring 1 - Cave Entrance",
+      "Slimy Spring 2 - Cave Entrance"
+    ]
   },
   "Slimy Spring 1 - Cave Entrance": {
-    "connects_to": ["Slimy Spring 1 - Underwater Cave"]
+    "connects_to": [
+      "Slimy Spring 1 - Underwater Cave"
+    ]
   },
   "Slimy Spring 1 - Underwater Cave": {
-    "connects_to": ["Slimy Spring 1 - Underwater Cave End"],
-    "entrance_requires": "|Can Swim| and (|Has Koopa Shell| or |Medium Logic|)"
+    "connects_to": [
+      "Slimy Spring 1 - Underwater Cave End"
+    ],
+    "requires": "|Can Swim| and (|Has Koopa Shell| or |Medium Logic|)"
   },
   "Slimy Spring 1 - Underwater Cave End": {
-    "connects_to": ["Slimy Spring 1 - Well Entrance"],
-    "entrance_requires": "|Has Koopa Shell| or (|Hard Logic| and |Has Ground Spin|)"
+    "connects_to": [
+      "Slimy Spring 1 - Well Entrance"
+    ],
+    "requires": "|Has Koopa Shell| or (|Hard Logic| and |Has Ground Spin|)"
   },
   "Slimy Spring 1 - Well Entrance": {
-    "connects_to": ["Slimy Spring 1 - Well"]
+    "connects_to": [
+      "Slimy Spring 1 - Well"
+    ]
   },
   "Slimy Spring 1 - Well": {
-    "connects_to": ["Slimy Spring 1 - Sunset"],
-    "entrance_requires": "|Can Swim|"
+    "connects_to": [
+      "Slimy Spring 1 - Sunset"
+    ],
+    "requires": "|Can Swim|"
   },
   "Slimy Spring 1 - Sunset": {
 
   },
   "Slimy Spring 2 - Cave Entrance": {
-    "connects_to": ["Slimy Spring 2 - Underwater Cave"],
-    "entrance_requires": "|Slimy Spring Chimp Letter|"
+    "connects_to": [
+      "Slimy Spring 2 - Underwater Cave"
+    ],
+    "requires": "|Slimy Spring Chimp Letter|"
   },
   "Slimy Spring 2 - Underwater Cave": {
-    "connects_to": ["Slimy Spring 2 - Underwater Cave End"],
-    "entrance_requires": "|Can Swim| and (|Has Koopa Shell| or |Medium Logic|)"
+    "connects_to": [
+      "Slimy Spring 2 - Underwater Cave End"
+    ],
+    "requires": "|Can Swim| and (|Has Koopa Shell| or |Medium Logic|)"
   },
   "Slimy Spring 2 - Underwater Cave End": {
-    "connects_to": ["Slimy Spring 2 - Well Entrance"],
-    "entrance_requires": "|Has Koopa Shell| or (|Hard Logic| and |Has Ground Spin|)"
+    "connects_to": [
+      "Slimy Spring 2 - Well Entrance"
+    ],
+    "requires": "|Has Koopa Shell| or (|Hard Logic| and |Has Ground Spin|)"
   },
   "Slimy Spring 2 - Well Entrance": {
-    "connects_to": ["Slimy Spring 2 - Well"]
+    "connects_to": [
+      "Slimy Spring 2 - Well"
+    ]
   },
   "Slimy Spring 2 - Well": {
-    "connects_to": ["Slimy Spring 2 - Sunset"],
-    "entrance_requires": "|Can Swim|"
+    "connects_to": [
+      "Slimy Spring 2 - Sunset"
+    ],
+    "requires": "|Can Swim|"
   },
   "Slimy Spring 2 - Sunset": {
 
   },
   "Bowser's Galaxy Generator": {
-    "entrance_requires": "|Can Enter Galaxy Generator|",
-    "connects_to": ["Galaxy Generator - Start", "Galaxy Generator C - Start"]
+    "requires": "|Can Enter Galaxy Generator|",
+    "connects_to": [
+      "Galaxy Generator - Start",
+      "Galaxy Generator C - Start"
+    ]
   },
   "Galaxy Generator - Start": {
-    "connects_to": ["Galaxy Generator - Volcano Top"]
+    "connects_to": [
+      "Galaxy Generator - Volcano Top"
+    ]
   },
   "Galaxy Generator - Volcano Top": {
-    "connects_to": ["Galaxy Generator - Volcano"],
-    "exit_requires": "|Can Use Floaty Fluff| or (|Has Long Spin| and |Hard Logic|)"
+    "connects_to": [
+      "Galaxy Generator - Volcano"
+    ]
   },
   "Galaxy Generator - Volcano": {
-    "connects_to": ["Galaxy Generator - Spin-Drill Planet"],
-    "exit_requires": "|Has Spin-Drill|"
+    "connects_to": [
+      "Galaxy Generator - Spin-Drill Planet"
+    ],
+    "requires": "|Can Use Floaty Fluff| or (|Has Long Spin| and |Hard Logic|)"
   },
   "Galaxy Generator - Spin-Drill Planet": {
-    "connects_to": ["Galaxy Generator - Cloud Cylinder Start"],
-    "exit_requires": "|Has Spin-Drill|"
+    "connects_to": [
+      "Galaxy Generator - Cloud Cylinder Start"
+    ],
+    "requires": "|Has Spin-Drill|"
   },
   "Galaxy Generator - Cloud Cylinder Start": {
-    "connects_to": ["Galaxy Generator - Cloud Cylinder Main", "Galaxy Generator - Cloud Cylinder Secret"]
+    "connects_to": [
+      "Galaxy Generator - Cloud Cylinder Main",
+      "Galaxy Generator - Cloud Cylinder Secret"
+    ],
+    "requires": "|Has Spin-Drill|"
   },
   "Galaxy Generator - Cloud Cylinder Main": {
-    "connects_to": ["Galaxy Generator - Cloud Cylinder End"],
-    "entrance_requires": "|Can Make Clouds|"
+    "connects_to": [
+      "Galaxy Generator - Cloud Cylinder End"
+    ],
+    "requires": "|Can Make Clouds|"
   },
   "Galaxy Generator - Cloud Cylinder Secret": {
-    "connects_to": ["Galaxy Generator - Cloud Cylinder End"],
-    "entrance_requires": "|Has Wall Spin| or |Has Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
+    "connects_to": [
+      "Galaxy Generator - Cloud Cylinder End"
+    ],
+    "requires": "|Has Wall Spin| or |Has Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
   },
   "Galaxy Generator - Cloud Cylinder End": {
-    "connects_to": ["Galaxy Generator - Yoshi Start"]
+    "connects_to": [
+      "Galaxy Generator - Yoshi Start"
+    ]
   },
   "Galaxy Generator - Yoshi Start": {
-    "connects_to": ["Galaxy Generator - Yoshi Lava"],
-    "exit_requires": "|Has Yoshi| or (|Can Make Clouds| and |Has Wall Jump| and |Has Long Jump| and |Hard Logic|)"
+    "connects_to": [
+      "Galaxy Generator - Yoshi Lava"
+    ]
   },
   "Galaxy Generator - Yoshi Lava": {
-    "connects_to": ["Galaxy Generator - Yoshi Crusher Walls"],
-    "exit_requires": "|Can Use Dash|"
+    "connects_to": [
+      "Galaxy Generator - Yoshi Crusher Walls"
+    ],
+    "requires": "|Has Yoshi| or (|Can Make Clouds| and |Has Wall Jump| and |Has Long Jump| and |Hard Logic|)"
   },
   "Galaxy Generator - Yoshi Crusher Walls": {
-    "connects_to": ["Galaxy Generator - Snake Blocks"],
-    "exit_requires": "|Can Use Dash|"
+    "connects_to": [
+      "Galaxy Generator - Snake Blocks"
+    ],
+    "requires": "|Can Use Dash|"
   },
   "Galaxy Generator - Snake Blocks": {
-    "connects_to": ["Galaxy Generator - Bowser Door"]
+    "connects_to": [
+      "Galaxy Generator - Bowser Door"
+    ],
+    "requires": "|Can Use Dash|"
   },
   "Galaxy Generator - Bowser Door": {
-    "connects_to": ["Galaxy Generator - Bowser"],
-    "exit_requires": "|Has Ground Pound|"
+    "connects_to": [
+      "Galaxy Generator - Bowser"
+    ]
   },
   "Galaxy Generator - Bowser": {
-
+    "requires": "|Has Ground Pound|"
   },
   "Galaxy Generator C - Start": {
-    "connects_to": ["Galaxy Generator C - Volcano Top"],
-    "entrance_requires": "|Has Speedy Comets| and |Galaxy Generator Comets|"
+    "connects_to": [
+      "Galaxy Generator C - Volcano Top"
+    ],
+    "requires": "|Has Speedy Comets| and |Galaxy Generator Comets|"
   },
   "Galaxy Generator C - Volcano Top": {
-    "connects_to": ["Galaxy Generator C - Volcano"],
-    "exit_requires": "|Can Use Floaty Fluff| or (|Has Long Spin| and |Hard Logic|)"
+    "connects_to": [
+      "Galaxy Generator C - Volcano"
+    ]
   },
   "Galaxy Generator C - Volcano": {
-    "connects_to": ["Galaxy Generator C - Spin-Drill Planet"],
-    "exit_requires": "|Has Spin-Drill|"
+    "connects_to": [
+      "Galaxy Generator C - Spin-Drill Planet"
+    ],
+    "requires": "|Can Use Floaty Fluff| or (|Has Long Spin| and |Hard Logic|)"
   },
   "Galaxy Generator C - Spin-Drill Planet": {
-    "connects_to": ["Galaxy Generator C - Cloud Cylinder Start"],
-    "exit_requires": "|Has Spin-Drill|"
+    "connects_to": [
+      "Galaxy Generator C - Cloud Cylinder Start"
+    ],
+    "requires": "|Has Spin-Drill|"
   },
   "Galaxy Generator C - Cloud Cylinder Start": {
-    "connects_to": ["Galaxy Generator C - Cloud Cylinder Main", "Galaxy Generator C - Cloud Cylinder Secret"]
+    "connects_to": [
+      "Galaxy Generator C - Cloud Cylinder Main",
+      "Galaxy Generator C - Cloud Cylinder Secret"
+    ],
+    "requires": "|Has Spin-Drill|"
   },
   "Galaxy Generator C - Cloud Cylinder Main": {
     "connects_to": ["Galaxy Generator C - Cloud Cylinder End"],
-    "entrance_requires": "|Can Make Clouds|"
+    "requires": "|Can Make Clouds|"
   },
   "Galaxy Generator C - Cloud Cylinder Secret": {
     "connects_to": ["Galaxy Generator C - Cloud Cylinder End"],
-    "entrance_requires": "|Has Wall Spin| or |Has Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
+    "requires": "|Has Wall Spin| or |Has Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
   },
   "Galaxy Generator C - Cloud Cylinder End": {
     "connects_to": ["Galaxy Generator C - Yoshi Start"]
   },
   "Galaxy Generator C - Yoshi Start": {
-    "connects_to": ["Galaxy Generator C - Yoshi Lava"],
-    "exit_requires": "|Has Yoshi| or (|Can Make Clouds| and |Has Wall Jump| and |Has Long Jump| and |Hard Logic|)"
+    "connects_to": ["Galaxy Generator C - Yoshi Lava"]
   },
   "Galaxy Generator C - Yoshi Lava": {
     "connects_to": ["Galaxy Generator C - Yoshi Crusher Walls"],
-    "exit_requires": "|Can Use Dash|"
+    "requires": "|Has Yoshi| or (|Can Make Clouds| and |Has Wall Jump| and |Has Long Jump| and |Hard Logic|)"
   },
   "Galaxy Generator C - Yoshi Crusher Walls": {
     "connects_to": ["Galaxy Generator C - Snake Blocks"],
-    "exit_requires": "|Can Use Dash|"
+    "requires": "|Can Use Dash|"
   },
   "Galaxy Generator C - Snake Blocks": {
-    "connects_to": ["Galaxy Generator C - Bowser Door"]
+    "connects_to": ["Galaxy Generator C - Bowser Door"],
+    "requires": "|Can Use Dash|"
   },
   "Galaxy Generator C - Bowser Door": {
 
