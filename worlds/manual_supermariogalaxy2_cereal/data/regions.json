@@ -367,7 +367,7 @@
       "Flip-Swap C - 1-Up Platform"
     ],
     "entrance_requires": {
-      "Flip-Swap Galaxy": "|Has Purple Comets| and |Flip-Swap Comets|"
+      "Flip-Swap Galaxy": "|Has Purple Comets| and {OptOne(|Flip-Swap Comet Medal|)}"
     }
   },
   "Flip-Swap C - Start Red Panels": {
@@ -1198,7 +1198,7 @@
 
   },
   "Beat Block C - Main": {
-    "requires": "|Has Double Time Comets| and |Beat Block Comets|"
+    "requires": "|Has Double Time Comets| and {OptOne(|Beat Block Comet Medal|)}"
   },
   "Bowser Jr.'s Fearsome Fleet": {
     "connects_to": [
@@ -1292,7 +1292,7 @@
     "connects_to": [
       "Supermassive C - Pipes"
     ],
-    "requires": "|Has Speedy Comets| and |Supermassive Comets|"
+    "requires": "|Has Speedy Comets| and {OptOne(|Supermassive Comet Medal|)}"
   },
   "Supermassive C - Pipes": {
     "connects_to": [
@@ -1731,7 +1731,7 @@
     "connects_to": [
       "Gravity Gauntlet C - Lava Bubbles"
     ],
-    "entrance_requires": "|Has Speedy Comets| and |Gravity Gauntlet Comets|"
+    "entrance_requires": "|Has Speedy Comets| and {OptOne(|Gravity Gauntlet Comet Medal|)}"
   },
   "Gravity Gauntlet C - Lava Bubbles": {
     "connects_to": [
