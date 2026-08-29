@@ -148,14 +148,6 @@
     "requires": "|Has Floaty Fluff| and |Has Ground Spin|"
   },
   {
-    "name": "Medium Logic",
-    "requires": "{YamlCompare(Logic_Difficulty >= 1)}"
-  },
-  {
-    "name": "Hard Logic",
-    "requires": "{YamlCompare(Logic_Difficulty == 2)}"
-  },
-  {
     "name": "Has Speedy Comets",
     "requires": "{OptAll(|Prankster Comets| and |Speedy Comets|)}"
   },
@@ -213,7 +205,7 @@
   },
   {
     "name": "Can Swim",
-    "requires": "|Has Ground Pound| or |Medium Logic|"
+    "requires": "|Has Ground Pound| or {medium_logic()}"
   },
   {
     "name": "Can Break Crates",
@@ -233,11 +225,11 @@
   },
   {
     "name": "Can Climb Whomps",
-    "requires": "|Can Wall Spin| or (|Has Air Spin| and |Medium Logic|) or |Hard Logic|"
+    "requires": "|Can Wall Spin| or (|Has Air Spin| and {medium_logic()}) or {hard_logic()}"
   },
   {
     "name": "Jack O'Goomba Teleporter",
-    "requires": "|Has Ground Pound| or (|Hard Logic| and |Has Ground Spin|)"
+    "requires": "|Has Ground Pound| or ({hard_logic()} and |Has Ground Spin|)"
   },
   {
     "name": "Can Enter Galaxy Generator",

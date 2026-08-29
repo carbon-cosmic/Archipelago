@@ -24,6 +24,8 @@ def anyClassLevel(state: CollectionState, player: int, level: str):
     return False
 
 # You can also return a string from your function, and it will be evaluated as a requires string.
-def requiresMelee():
-    """Returns a requires string that checks if the player has unlocked the tank."""
-    return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
+def medium_logic():
+    """Returns a requires string that checks if the player has enabled a higher difficulty level."""
+    return "{YamlCompare(Logic_Difficulty >= 1)}"
+def hard_logic():
+    return "{YamlCompare(Logic_Difficulty == 2)}"

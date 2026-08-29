@@ -38,7 +38,7 @@
       "Sky Station 1 - Green Hill Planet"
     ],
     "exit_requires": {
-      "Sky Station 1 - Green Hill Planet": "|Has Ground Spin| or (|Hard Logic| and |Has Triple Jump| and |Has Wall Jump|)"
+      "Sky Station 1 - Green Hill Planet": "|Has Ground Spin| or ({hard_logic()} and |Has Triple Jump| and |Has Wall Jump|)"
     },
     "requires": ""
   },
@@ -103,7 +103,7 @@
       "Sky Station Galaxy": "|Has Speedy Comets| and {OptOne(|Sky Station Comet Medal|)}"
     },
     "exit_requires": {
-      "Sky Station C - Rolling Carts": "|Has Ground Spin| or (|Hard Logic| and |Can Triple Jump| and |Has Wall Jump|)"
+      "Sky Station C - Rolling Carts": "|Has Ground Spin| or ({hard_logic()} and |Can Triple Jump| and |Has Wall Jump|)"
     },
     "requires": ""
   },
@@ -130,7 +130,7 @@
       "Yoshi Star 1 - Volcano Front"
     ],
     "exit_requires": {
-      "Yoshi Star 1 - Volcano Front": "|Has Yoshi| or (|Can Long Spin| and |Medium Logic|)"
+      "Yoshi Star 1 - Volcano Front": "|Has Yoshi| or (|Can Long Spin| and {medium_logic()})"
     },
     "requires": ""
   },
@@ -221,7 +221,7 @@
       "Spin-Dig 1 - Dirt Tower Planet"
     ],
     "exit_requires": {
-      "Spin-Dig 1 - Dirt Tower Planet": "|Has Spin Drill| or |Jump Height 6| or (|Medium Logic| and |Can Wall Spin| and (|Has Double Jump| or |Has Backflip|)) or (|Hard Logic| and |Can Long Spin| and |Has Wall Jump|)"
+      "Spin-Dig 1 - Dirt Tower Planet": "|Has Spin Drill| or |Jump Height 6| or ({medium_logic()} and |Can Wall Spin| and (|Has Double Jump| or |Has Backflip|)) or ({hard_logic()} and |Can Long Spin| and |Has Wall Jump|)"
     },
     "requires": ""
   },
@@ -261,7 +261,7 @@
       "Spin-Dig 2 - First Canister Section"
     ],
     "exit_requires": {
-      "Spin-Dig 2 - First Canister Section": "(|Has Ground Spin| or |Jump Height 3| or |Can Double| and |Medium Logic|)"
+      "Spin-Dig 2 - First Canister Section": "(|Has Ground Spin| or |Jump Height 3| or (|Can Double| and {medium_logic()}))"
     },
     "requires": ""
   },
@@ -312,7 +312,7 @@
       "Fluffy Bluff 1 - Start Building"
     ],
     "exit_requires": {
-      "Fluffy Bluff 1 - Start Building": "|Can Make Ground Clouds| or |Jump Height 3| or (|Has Double Jump| and |Has Cloud| and |Medium Logic|)"
+      "Fluffy Bluff 1 - Start Building": "|Can Make Ground Clouds| or |Jump Height 3| or (|Has Double Jump| and |Has Cloud| and {medium_logic()})"
     },
     "requires": ""
   },
@@ -322,8 +322,8 @@
       "Fluffy Bluff 1 - Clifftops"
     ],
     "exit_requires": {
-      "Fluffy Bluff 1 - Hungry Luma Cloud": "|Can Make Clouds| or (|Has Cloud| and (|Has Long Jump| or |Has Ground Spin|) and |Medium Logic|)",
-      "Fluffy Bluff 1 - Clifftops": "|Has Cloud| or (|Jump Height 6| and |Hard Logic|)"
+      "Fluffy Bluff 1 - Hungry Luma Cloud": "|Can Make Clouds| or (|Has Cloud| and (|Has Long Jump| or |Has Ground Spin|) and {medium_logic()})",
+      "Fluffy Bluff 1 - Clifftops": "|Has Cloud| or (|Jump Height 6| and {hard_logic()})"
     },
     "requires": ""
   },
@@ -339,7 +339,7 @@
       "Fluffy Bluff 1 - Fountain Planet"
     ],
     "exit_requires": {
-      "Fluffy Bluff 1 - Fountain Planet": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Has Wall Jump| and |Medium Logic|) or (|Has Cloud| and |Has Long Jump| and |Has Wall Jump| and |Medium Logic|)"
+      "Fluffy Bluff 1 - Fountain Planet": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Has Wall Jump| and {medium_logic()}) or (|Has Cloud| and |Has Long Jump| and |Has Wall Jump| and {medium_logic()})"
     },
     "requires": ""
   },
@@ -354,7 +354,7 @@
       "Fluffy Bluff 1 - Waterfall Top"
     ],
     "exit_requires": {
-      "Fluffy Bluff 1 - Waterfall Top": "|Can Make Clouds| or (|Can Wall Spin| and |Jump Height 4| and |Medium Logic|) or (|Has Cloud| and ((|Has Ground Spin| and |Medium Logic|) or (|Has Wall Jump| and |Hard Logic|)))"
+      "Fluffy Bluff 1 - Waterfall Top": "|Can Make Clouds| or (|Can Wall Spin| and |Jump Height 4| and {medium_logic()}) or (|Has Cloud| and ((|Has Ground Spin| and {medium_logic()}) or (|Has Wall Jump| and {hard_logic()})))"
     },
     "requires": ""
   },
@@ -363,7 +363,7 @@
       "Fluffy Bluff 1 - Treetops"
     ],
     "exit_requires": {
-      "Fluffy Bluff 1 - Treetops": "|Can Make Clouds| or (|Has Cloud| and |Medium Logic|)"
+      "Fluffy Bluff 1 - Treetops": "|Can Make Clouds| or (|Has Cloud| and {medium_logic()})"
     },
     "requires": ""
   },
@@ -395,7 +395,7 @@
   },
   "Fluffy Bluff S - On Tower": {
     "entrance_requires": {
-      "Fluffy Bluff S - Tower": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|)"
+      "Fluffy Bluff S - Tower": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and {hard_logic()}) or (|Can Make Ground Clouds| and {hard_logic()})"
     },
     "connects_to": [],
     "requires": ""
@@ -412,7 +412,7 @@
       "Flip-Swap - Main"
     ],
     "exit_requires": {
-      "Flip-Swap - Main": "|Has Air Spin| or |Has Long Jump| or |Hard Logic|"
+      "Flip-Swap - Main": "|Has Air Spin| or |Has Long Jump| or {hard_logic()}"
     },
     "requires": ""
   },
@@ -421,7 +421,7 @@
       "Flip-Swap - Star"
     ],
     "exit_requires": {
-      "Flip-Swap - Star": "|Has Air Spin| or |Has Long Jump| or (|Has Ground Spin| and |Hard Logic|)"
+      "Flip-Swap - Star": "|Has Air Spin| or |Has Long Jump| or (|Has Ground Spin| and {hard_logic()})"
     },
     "requires": ""
   },
@@ -441,7 +441,7 @@
   },
   "Flip-Swap C - Start Red Panels": {
     "entrance_requires": {
-      "Flip-Swap C - Start Blue Panels": "|Has Air Spin| or |Hard Logic|"
+      "Flip-Swap C - Start Blue Panels": "|Has Air Spin| or {hard_logic()}"
     },
     "connects_to": [],
     "requires": ""
@@ -451,7 +451,7 @@
       "Flip-Swap C - Electric Fences Blue Panels"
     ],
     "entrance_requires": {
-      "Flip-Swap C - Start Blue Panels": "|Has Air Spin| or |Has Long Jump| or |Medium Logic|"
+      "Flip-Swap C - Start Blue Panels": "|Has Air Spin| or |Has Long Jump| or {medium_logic()}"
     },
     "requires": ""
   },
@@ -461,7 +461,7 @@
       "Flip-Swap C - First Chomp Platform"
     ],
     "entrance_requires": {
-      "Flip-Swap C - 1-Up Platform": "|Has Air Spin| or (|Hard Logic| and |Has Ground Spin|)"
+      "Flip-Swap C - 1-Up Platform": "|Has Air Spin| or ({hard_logic()} and |Has Ground Spin|)"
     },
     "requires": ""
   },
@@ -469,7 +469,7 @@
     "connects_to": [
       "Flip-Swap C - First Chomp Platform"
     ],
-    "requires": "|Has Air Spin| or (|Hard Logic| and |Has Ground Spin|)"
+    "requires": "|Has Air Spin| or ({hard_logic()} and |Has Ground Spin|)"
   },
   "Flip-Swap C - First Chomp Platform": {
     "connects_to": [
@@ -500,7 +500,7 @@
     ],
     "exit_requires": {
       "Rightside Down - Slide": "|Has Ground Spin|",
-      "Rightside Down - Gearmo": "|Has Fire| and (|Has Ground Spin| or (|Can Back or Sideflip| and |Has Wall Jump| and |Medium Logic|) or (|Has Wall Jump| and |Has Triple Jump| and |Hard Logic|))"
+      "Rightside Down - Gearmo": "|Has Fire| and (|Has Ground Spin| or (|Can Back or Sideflip| and |Has Wall Jump| and {medium_logic()}) or (|Has Wall Jump| and |Has Triple Jump| and {hard_logic()}))"
     },
     "requires": ""
   },
@@ -526,7 +526,7 @@
     "connects_to": [
       "Rightside Down - Final Section"
     ],
-    "requires": "|Has Fire| and (|Has Wall Jump| or (|Has Triple Jump| and |Medium Logic|))"
+    "requires": "|Has Fire| and (|Has Wall Jump| or (|Has Triple Jump| and {medium_logic()}))"
   },
   "Rightside Down - Final Section": {
     "connects_to": [
@@ -552,7 +552,7 @@
     ],
     "exit_requires": {
       "Fiery Flotilla - Inside Castle": "|Has Ground Spin|",
-      "Fiery Flotilla - Castle Walls": "(|Has Air Spin| and |Has Backflip|) or (|Medium Logic| and (|Has Air Spin| or |Has Backflip|)) or (|Hard Logic| and |Has Sideflip|)"
+      "Fiery Flotilla - Castle Walls": "(|Has Air Spin| and |Has Backflip|) or ({medium_logic()} and (|Has Air Spin| or |Has Backflip|)) or ({hard_logic()} and |Has Sideflip|)"
     },
     "requires": ""
   },
@@ -676,7 +676,7 @@
     "connects_to": [
       "Hightail Falls - Falling Road"
     ],
-    "requires": "|Has Yoshi| and (|Has Dash Pepper| or |Medium Logic|)"
+    "requires": "|Has Yoshi| and (|Has Dash Pepper| or {medium_logic()})"
   },
   "Hightail Falls - Falling Road": {
     "connects_to": [
@@ -708,7 +708,7 @@
     "connects_to": [
       "Hightail Falls C - Falling Road"
     ],
-    "requires": "|Has Yoshi| and (|Has Dash Pepper| or |Medium Logic|)"
+    "requires": "|Has Yoshi| and (|Has Dash Pepper| or {medium_logic()})"
   },
   "Hightail Falls C - Falling Road": {
     "connects_to": [
@@ -744,7 +744,7 @@
     ],
     "exit_requires": {
       "Boulder Bowl - Rolling Rocks": "|Has Rock|",
-      "Boulder Bowl - Muddy Chomps": "|Hard Logic| and (|Has Rock| or |Can Long Spin|)"
+      "Boulder Bowl - Muddy Chomps": "{hard_logic()} and (|Has Rock| or |Can Long Spin|)"
     },
     "requires": ""
   },
@@ -909,7 +909,7 @@
     "connects_to": [
       "Honeybloom - Fruit"
     ],
-    "requires": "|Has Bee| or (|Has Wall Jump| and |Medium Logic|)"
+    "requires": "|Has Bee| or (|Has Wall Jump| and {medium_logic()})"
   },
   "Honeybloom - Fruit": {
     "connects_to": [
@@ -928,7 +928,7 @@
     "requires": ""
   },
   "Honeybloom S - Climb": {
-    "requires": "|Can Wall Spin| or (|Has Wall Jump| and |Hard Logic|)",
+    "requires": "|Can Wall Spin| or (|Has Wall Jump| and {hard_logic()})",
     "connects_to": []
   },
   "Bowser's Lava Lair": {
@@ -948,13 +948,13 @@
     "connects_to": [
       "Lava Lair - Cylinder #2"
     ],
-    "requires": "|Has Pull Stars| or (|Has Long Jump| and |Medium Logic|)"
+    "requires": "|Has Pull Stars| or (|Has Long Jump| and {medium_logic()})"
   },
   "Lava Lair - Cylinder #2": {
     "connects_to": [
       "Lava Lair - Flomps"
     ],
-    "requires": "|Has Ground Pound| or (|Medium Logic| and (|Jump Height 5|)) or |Hard Logic|"
+    "requires": "|Has Ground Pound| or ({medium_logic()} and (|Jump Height 5|)) or {hard_logic()}"
   },
   "Lava Lair - Flomps": {
     "connects_to": [
@@ -972,7 +972,7 @@
     "connects_to": [
       "Lava Lair - Mattermouths"
     ],
-    "requires": "|Has Ground Pound| or |Medium Logic|"
+    "requires": "|Has Ground Pound| or {medium_logic()}"
   },
   "Lava Lair - Mattermouths": {
     "connects_to": [
@@ -1000,13 +1000,13 @@
     "connects_to": [
       "Lava Lair C - Cylinder #2"
     ],
-    "requires": "|Has Pull Stars| or (|Has Long Jump| and |Medium Logic|)"
+    "requires": "|Has Pull Stars| or (|Has Long Jump| and {medium_logic()})"
   },
   "Lava Lair C - Cylinder #2": {
     "connects_to": [
       "Lava Lair C - Flomps"
     ],
-    "requires": "|Has Ground Pound| or (|Medium Logic| and (|Jump Height 5|)) or |Hard Logic|"
+    "requires": "|Has Ground Pound| or ({medium_logic()} and (|Jump Height 5|)) or {hard_logic()}"
   },
   "Lava Lair C - Flomps": {
     "connects_to": [
@@ -1024,7 +1024,7 @@
     "connects_to": [
       "Lava Lair C - Mattermouths"
     ],
-    "requires": "|Has Ground Pound| or |Medium Logic|"
+    "requires": "|Has Ground Pound| or {medium_logic()}"
   },
   "Lava Lair C - Mattermouths": {
     "connects_to": [
@@ -1066,7 +1066,7 @@
     "connects_to": [
       "Tall Trunk 1 - Carved Log Star Chips"
     ],
-    "requires": "|Can Use Blimp| or (|Hard Logic| and |Can Wall Spin| and |Has Backflip|)"
+    "requires": "|Can Use Blimp| or ({hard_logic()} and |Can Wall Spin| and |Has Backflip|)"
   },
   "Tall Trunk 1 - Carved Log Star Chips": {
     "connects_to": [
@@ -1454,7 +1454,7 @@
     "connects_to": [
       "Supermassive - Thwomps"
     ],
-    "requires": "|Has Wall Jump| or (|Jump Height 6| and |Hard Logic|)"
+    "requires": "|Has Wall Jump| or (|Jump Height 6| and {hard_logic()})"
   },
   "Supermassive - Thwomps": {
     "connects_to": [
@@ -1494,7 +1494,7 @@
     "connects_to": [
       "Supermassive C - Thwomps"
     ],
-    "requires": "|Has Wall Jump| or (|Jump Height 6| and |Hard Logic|)"
+    "requires": "|Has Wall Jump| or (|Jump Height 6| and {hard_logic()})"
   },
   "Supermassive C - Thwomps": {
     "connects_to": [
@@ -1540,8 +1540,8 @@
     ],
     "exit_requires": {
       "Flipsville 1 - Below Start": "|Has Ground Pound|",
-      "Flipsville - Teleporter": "|Has Ground Pound| or (|Hard Logic| and |Has Air Spin|)",
-      "Flipsville 1 - Chomps": "|Hard Logic| and |Can Back or Sideflip| and |Can Wall Spin|"
+      "Flipsville - Teleporter": "|Has Ground Pound| or ({hard_logic()} and |Has Air Spin|)",
+      "Flipsville 1 - Chomps": "{hard_logic()} and |Can Back or Sideflip| and |Can Wall Spin|"
     },
     "requires": ""
   },
@@ -1562,7 +1562,7 @@
     ],
     "exit_requires": {
       "Flipsville 1 - Chomps Below": "|Has Ground Pound|",
-      "Flipsville 1 - Chomps Back": "|Can Wall Spin| and |Can Back or Sideflip| and |Hard Logic|"
+      "Flipsville 1 - Chomps Back": "|Can Wall Spin| and |Can Back or Sideflip| and {hard_logic()}"
     },
     "requires": ""
   },
@@ -1588,7 +1588,7 @@
     "connects_to": [
       "Flipsville 1 - Glamdozer"
     ],
-    "requires": "|Has Ground Pound| or (|Can Wall Spin| and |Hard Logic|)"
+    "requires": "|Has Ground Pound| or (|Can Wall Spin| and {hard_logic()})"
   },
   "Flipsville 1 - Glamdozer": {
     "connects_to": [],
@@ -1602,8 +1602,8 @@
     ],
     "exit_requires": {
       "Flipsville 2 - Start Below": "|Has Spin-Drill|",
-      "Flipsville 2 - Dirt Tower": "(|Jump Height 4| and |Can Wall Spin| and |Medium Logic|) or (|Has Air Spin| and |Hard Logic|)",
-      "Flipsville - Teleporter": "|Has Spin-Drill| or (|Jump Height 4| and |Can Wall Spin| and |Medium Logic|) or (|Has Air Spin| and |Hard Logic|)"
+      "Flipsville 2 - Dirt Tower": "(|Jump Height 4| and |Can Wall Spin| and {medium_logic()}) or (|Has Air Spin| and {hard_logic()})",
+      "Flipsville - Teleporter": "|Has Spin-Drill| or (|Jump Height 4| and |Can Wall Spin| and {medium_logic()}) or (|Has Air Spin| and {hard_logic()})"
     },
     "requires": ""
   },
@@ -1623,7 +1623,7 @@
     "connects_to": [
       "Flipsville 2 - Silver Stars"
     ],
-    "requires": "|Has Spin-Drill| or (|Can Wall Spin| and |Jump Height 4| and |Medium Logic|)"
+    "requires": "|Has Spin-Drill| or (|Can Wall Spin| and |Jump Height 4| and {medium_logic()})"
   },
   "Flipsville 2 - Silver Stars": {
     "requires": "|Has Spin-Drill|",
@@ -1671,7 +1671,7 @@
   },
   "Starshine Beach - Hut Roof": {
     "entrance_requires": {
-      "Starshine Beach 1 - Beach": "|Has Yoshi| and |Medium Logic|",
+      "Starshine Beach 1 - Beach": "|Has Yoshi| and {medium_logic()}",
       "Starshine Beach 2 - Beach w. Clouds": "|Can Make Ground Clouds|"
     },
     "connects_to": [],
@@ -1703,7 +1703,7 @@
     "requires": "|Has Ground Pound|"
   },
   "Starshine Beach 2 - Tower": {
-    "requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Can Back or Sideflip| and |Has Wall Jump| and |Medium Logic|)",
+    "requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Can Back or Sideflip| and |Has Wall Jump| and {medium_logic()})",
     "connects_to": []
   },
   "Starshine Beach C - Shallows": {
@@ -1717,13 +1717,13 @@
     "connects_to": [
       "Starshine Beach C - Gringills"
     ],
-    "requires": "|Can Use Dash| or (|Medium Logic| and |Has Long Jump|) or (|Hard Logic| and |Has Yoshi|)"
+    "requires": "|Can Use Dash| or ({medium_logic()} and |Has Long Jump|) or ({hard_logic()} and |Has Yoshi|)"
   },
   "Starshine Beach C - Gringills": {
     "connects_to": [
       "Starshine Beach C - Ocean"
     ],
-    "requires": "|Can Use Dash| or (|Has Long Jump| and |Hard Logic|)"
+    "requires": "|Can Use Dash| or (|Has Long Jump| and {hard_logic()})"
   },
   "Starshine Beach C - Ocean": {
     "connects_to": [
@@ -1732,7 +1732,7 @@
     "requires": "|Can Use Dash|"
   },
   "Starshine Beach C - Ocean Tower Triples": {
-    "requires": "|Can Use Dash| or (|Hard Logic| and (|Has Long Jump| or |Has Yoshi|))",
+    "requires": "|Can Use Dash| or ({hard_logic()} and (|Has Long Jump| or |Has Yoshi|))",
     "connects_to": []
   },
   "Chompworks Galaxy": {
@@ -1752,8 +1752,8 @@
   },
   "Chompworks - Dispenser 1-Up": {
     "entrance_requires": {
-      "Chompworks 1 - Start": "|Has Backflip| or (|Medium Logic| and (|Has Sideflip| or |Has Air Spin|))",
-      "Chompworks 2 - Start": "|Hard Logic| and |Has Spring|"
+      "Chompworks 1 - Start": "|Has Backflip| or ({medium_logic()} and (|Has Sideflip| or |Has Air Spin|))",
+      "Chompworks 2 - Start": "{hard_logic()} and |Has Spring|"
     },
     "connects_to": [],
     "requires": ""
@@ -1791,7 +1791,7 @@
       "Chompworks 2 - Tower",
       "Chompworks - Rolling Checkpoint"
     ],
-    "requires": "|Has Spring| or (|Can Wall Spin| and |Medium Logic| and (|Has Triple Jump| or |Has Backflip| or |Has Long Jump|)) or |Hard Logic|"
+    "requires": "|Has Spring| or (|Can Wall Spin| and {medium_logic()} and (|Has Triple Jump| or |Has Backflip| or |Has Long Jump|)) or {hard_logic()}"
   },
   "Chompworks 2 - Tower": {
     "requires": "|Can Wall Spin| or (|Has Air Spin| and |Jump Height 5|)",
@@ -1818,7 +1818,7 @@
     "connects_to": [
       "Sweet Mystery - Chocolate Bars"
     ],
-    "requires": "|Can Use Bulb| or (|Has Yoshi| and |Hard Logic|)"
+    "requires": "|Can Use Bulb| or (|Has Yoshi| and {hard_logic()})"
   },
   "Sweet Mystery - Chocolate Bars": {
     "connects_to": [
@@ -1846,22 +1846,22 @@
     "requires": "|Has Purple Comets| and {OptOne(|Sweet Mystery Comet Medal|)}"
   },
   "Sweet Mystery C - First Path 1st Set": {
-    "requires": "|Can Use Bulb| or |Hard Logic|",
+    "requires": "|Can Use Bulb| or {hard_logic()}",
     "connects_to": []
   },
   "Sweet Mystery C - First Path 2nd Set": {
-    "requires": "|Can Use Bulb| or (|Hard Logic| and (|Has Yoshi| or (|Has Air Spin| and |Has Long Jump|)))",
+    "requires": "|Can Use Bulb| or ({hard_logic()} and (|Has Yoshi| or (|Has Air Spin| and |Has Long Jump|)))",
     "connects_to": []
   },
   "Sweet Mystery C - First Path 3rd Set": {
-    "requires": "|Can Use Bulb| or (|Hard Logic| and |Has Yoshi|)",
+    "requires": "|Can Use Bulb| or ({hard_logic()} and |Has Yoshi|)",
     "connects_to": []
   },
   "Sweet Mystery C - Cookie Boxes": {
     "connects_to": [
       "Sweet Mystery C - Cookie Path"
     ],
-    "requires": "|Can Use Bulb| or (|Has Yoshi| and |Hard Logic|)"
+    "requires": "|Can Use Bulb| or (|Has Yoshi| and {hard_logic()})"
   },
   "Sweet Mystery C - Cookie Path": {
     "connects_to": [
@@ -1908,7 +1908,7 @@
     "connects_to": [
       "Honeyhop 1 - Base Lake"
     ],
-    "requires": "|Can Use Floaty Fluff| or |Medium Logic|"
+    "requires": "|Can Use Floaty Fluff| or {medium_logic()}"
   },
   "Honeyhop 1 - Base Lake": {
     "connects_to": [
@@ -2046,13 +2046,13 @@
     "connects_to": [
       "Space Storm 1 - Bob-omb Planet"
     ],
-    "requires": "|Has Pull Stars| or (|Jump Height 6| and |Hard Logic|)"
+    "requires": "|Has Pull Stars| or (|Jump Height 6| and {hard_logic()})"
   },
   "Space Storm 1 - Bob-omb Planet": {
     "connects_to": [
       "Space Storm 1 - Topman Planet"
     ],
-    "requires": "|Has Long Jump| or |Has Air Spin| or |Medium Logic|"
+    "requires": "|Has Long Jump| or |Has Air Spin| or {medium_logic()}"
   },
   "Space Storm 1 - Topman Planet": {
     "connects_to": [
@@ -2074,16 +2074,16 @@
     "connects_to": [
       "Space Storm 2 - Tower"
     ],
-    "requires": "|Has Pull Stars| or (|Has Triple Jump| and |Hard Logic|)"
+    "requires": "|Has Pull Stars| or (|Has Triple Jump| and {hard_logic()})"
   },
   "Space Storm 2 - Tower": {
     "connects_to": [
       "Space Storm 2 - Tower Top"
     ],
-    "requires": "|Has Ground Spin| and (|Has Ground Pound| or |Medium Logic|)"
+    "requires": "|Has Ground Spin| and (|Has Ground Pound| or {medium_logic()})"
   },
   "Space Storm 2 - Tower Top": {
-    "requires": "|Has Ground Pound| or |Hard Logic|",
+    "requires": "|Has Ground Pound| or {hard_logic()}",
     "connects_to": []
   },
   "Slipsand Galaxy": {
@@ -2164,12 +2164,12 @@
       "Shiverburn - Volcano Planet Mushrooms",
       "Shiverburn S - Chimp Room"
     ],
-    "requires": "|Has Ground Pound| and (|Can Make Clouds| or |Hard Logic|)"
+    "requires": "|Has Ground Pound| and (|Can Make Clouds| or {hard_logic()})"
   },
   "Shiverburn - Volcano Planet Mushrooms": {
     "entrance_requires": {
       "Shiverburn - Volcano Planet Ice": "",
-      "Shiverburn - Volcano Planet Fire": "|Hard Logic|"
+      "Shiverburn - Volcano Planet Fire": "{hard_logic()}"
     },
     "connects_to": [],
     "requires": ""
@@ -2179,7 +2179,7 @@
       "Shiverburn - Fire Rain"
     ],
     "entrance_requires": {
-      "Shiverburn - Volcano Planet Fire": "|Can Make Clouds| and |Medium Logic| and |Has Long Jump|",
+      "Shiverburn - Volcano Planet Fire": "|Can Make Clouds| and {medium_logic()} and |Has Long Jump|",
       "Shiverburn - Volcano Planet Ice": ""
     },
     "requires": ""
@@ -2194,7 +2194,7 @@
     "connects_to": [
       "Shiverburn - Starshroom"
     ],
-    "requires": "|Has Ground Spin| or |Hard Logic|"
+    "requires": "|Has Ground Spin| or {hard_logic()}"
   },
   "Shiverburn - Starshroom": {
     "connects_to": [
@@ -2218,7 +2218,7 @@
   },
   "Shiverburn S - Chimp Room": {
     "entrance_requires": {
-      "Shiverburn - Volcano Planet Fire": "|Can Make Clouds| and |Medium Logic| and |Has Long Jump|",
+      "Shiverburn - Volcano Planet Fire": "|Can Make Clouds| and {medium_logic()} and |Has Long Jump|",
       "Shiverburn - Volcano Planet Ice": ""
     },
     "connects_to": [],
@@ -2250,7 +2250,7 @@
     "requires": ""
   },
   "Boo Moon 1 - Pop-Up Book": {
-    "requires": "|Jump Height 3| or |Medium Logic|",
+    "requires": "|Jump Height 3| or {medium_logic()}",
     "connects_to": []
   },
   "Boo Moon 2 - Dark Maze": {
@@ -2286,10 +2286,10 @@
     "connects_to": [
       "Upside Dizzy - Gravity Swap"
     ],
-    "requires": "|Jump Height 3| or ((|Has Long Jump| or |Has Wall Jump|) and |Hard Logic|)"
+    "requires": "|Jump Height 3| or ((|Has Long Jump| or |Has Wall Jump|) and {hard_logic()})"
   },
   "Upside Dizzy - Gravity Swap": {
-    "requires": "|Has Ground Pound| or (|Hard Logic| and (|Has Air Spin| or (|Has Backflip| and |Has Wall Jump|)))",
+    "requires": "|Has Ground Pound| or ({hard_logic()} and (|Has Air Spin| or (|Has Backflip| and |Has Wall Jump|)))",
     "connects_to": []
   },
   "Upside Dizzy S - Gearmo": {
@@ -2355,7 +2355,7 @@
     "requires": ""
   },
   "Boom Bunker - Boss": {
-    "requires": "|Has Ground Pound| and (|Can Make Clouds| or |Hard Logic|)",
+    "requires": "|Has Ground Pound| and (|Can Make Clouds| or {hard_logic()})",
     "connects_to": []
   },
   "Boom Bunker C - Crash Site": {
@@ -2560,7 +2560,7 @@
     "connects_to": [
       "Battle Belt - Starshroom #1"
     ],
-    "requires": "|Has Fire| or (|Jump Height 6| and |Hard Logic|)"
+    "requires": "|Has Fire| or (|Jump Height 6| and {hard_logic()})"
   },
   "Battle Belt - Starshroom #1": {
     "connects_to": [
@@ -2631,7 +2631,7 @@
     "connects_to": [
       "Battle Belt C - Starshroom #1"
     ],
-    "requires": "|Has Fire| or (|Jump Height 6| and |Hard Logic|)"
+    "requires": "|Has Fire| or (|Jump Height 6| and {hard_logic()})"
   },
   "Battle Belt C - Starshroom #1": {
     "connects_to": [
@@ -2727,13 +2727,13 @@
     "connects_to": [
       "Slimy Spring 1 - Underwater Cave End"
     ],
-    "requires": "|Can Swim| and (|Has Koopa Shell| or |Medium Logic|)"
+    "requires": "|Can Swim| and (|Has Koopa Shell| or {medium_logic()})"
   },
   "Slimy Spring 1 - Underwater Cave End": {
     "connects_to": [
       "Slimy Spring 1 - Well Entrance"
     ],
-    "requires": "|Has Koopa Shell| or (|Hard Logic| and |Has Ground Spin|)"
+    "requires": "|Has Koopa Shell| or ({hard_logic()} and |Has Ground Spin|)"
   },
   "Slimy Spring 1 - Well Entrance": {
     "connects_to": [
@@ -2761,13 +2761,13 @@
     "connects_to": [
       "Slimy Spring 2 - Underwater Cave End"
     ],
-    "requires": "|Can Swim| and (|Has Koopa Shell| or |Medium Logic|)"
+    "requires": "|Can Swim| and (|Has Koopa Shell| or {medium_logic()})"
   },
   "Slimy Spring 2 - Underwater Cave End": {
     "connects_to": [
       "Slimy Spring 2 - Well Entrance"
     ],
-    "requires": "|Has Koopa Shell| or (|Hard Logic| and |Has Ground Spin|)"
+    "requires": "|Has Koopa Shell| or ({hard_logic()} and |Has Ground Spin|)"
   },
   "Slimy Spring 2 - Well Entrance": {
     "connects_to": [
@@ -2808,7 +2808,7 @@
     "connects_to": [
       "Galaxy Generator - Spin-Drill Planet"
     ],
-    "requires": "|Can Use Floaty Fluff| or (|Can Long Spin| and |Hard Logic|)"
+    "requires": "|Can Use Floaty Fluff| or (|Can Long Spin| and {hard_logic()})"
   },
   "Galaxy Generator - Spin-Drill Planet": {
     "connects_to": [
@@ -2833,7 +2833,7 @@
     "connects_to": [
       "Galaxy Generator - Cloud Cylinder End"
     ],
-    "requires": "|Can Wall Spin| or |Can Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
+    "requires": "|Can Wall Spin| or |Can Long Spin| or |Can Make Clouds| or (|Has Long Jump| and {hard_logic()})"
   },
   "Galaxy Generator - Cloud Cylinder End": {
     "connects_to": [
@@ -2851,7 +2851,7 @@
     "connects_to": [
       "Galaxy Generator - Yoshi Crusher Walls"
     ],
-    "requires": "|Has Yoshi| or (|Can Make Clouds| and |Has Wall Jump| and |Has Long Jump| and |Hard Logic|)"
+    "requires": "|Has Yoshi| or (|Can Make Clouds| and |Has Wall Jump| and |Has Long Jump| and {hard_logic()})"
   },
   "Galaxy Generator - Yoshi Crusher Walls": {
     "connects_to": [
@@ -2891,7 +2891,7 @@
     "connects_to": [
       "Galaxy Generator C - Spin-Drill Planet"
     ],
-    "requires": "|Can Use Floaty Fluff| or (|Can Long Spin| and |Hard Logic|)"
+    "requires": "|Can Use Floaty Fluff| or (|Can Long Spin| and {hard_logic()})"
   },
   "Galaxy Generator C - Spin-Drill Planet": {
     "connects_to": [
@@ -2916,7 +2916,7 @@
     "connects_to": [
       "Galaxy Generator C - Cloud Cylinder End"
     ],
-    "requires": "|Can Wall Spin| or |Can Long Spin| or |Can Make Clouds| or (|Has Long Jump| and |Hard Logic|)"
+    "requires": "|Can Wall Spin| or |Can Long Spin| or |Can Make Clouds| or (|Has Long Jump| and {hard_logic()})"
   },
   "Galaxy Generator C - Cloud Cylinder End": {
     "connects_to": [
@@ -2934,7 +2934,7 @@
     "connects_to": [
       "Galaxy Generator C - Yoshi Crusher Walls"
     ],
-    "requires": "|Has Yoshi| or (|Can Make Clouds| and |Has Wall Jump| and |Has Long Jump| and |Hard Logic|)"
+    "requires": "|Has Yoshi| or (|Can Make Clouds| and |Has Wall Jump| and |Has Long Jump| and {hard_logic()})"
   },
   "Galaxy Generator C - Yoshi Crusher Walls": {
     "connects_to": [
@@ -2982,7 +2982,7 @@
     "requires": "|Has Purple Comets| and |Has Clone Comets| and {(OptOne|Mario Squared Comet Medal|)}"
   },
   "Mario Squared C - Long Jump Coins": {
-    "requires": "|Has Long Jump| or |Hard Logic|",
+    "requires": "|Has Long Jump| or {hard_logic()}",
     "connects_to": []
   },
   "Rolling Coaster Galaxy": {
@@ -3029,7 +3029,7 @@
     "connects_to": [
       "Twisty Trials - Final"
     ],
-    "requires": "|Has Air Spin| or |Medium Logic|"
+    "requires": "|Has Air Spin| or {medium_logic()}"
   },
   "Twisty Trials - Final": {
     "connects_to": [],
@@ -3045,13 +3045,13 @@
     "connects_to": [
       "Twisty Trials C - Before Final Platform"
     ],
-    "requires": "|Has Air Spin| or |Hard Logic|"
+    "requires": "|Has Air Spin| or {hard_logic()}"
   },
   "Twisty Trials C - Before Final Platform": {
     "connects_to": [
       "Twisty Trials C - Final"
     ],
-    "requires": "|Has Yoshi| or |Medium Logic|"
+    "requires": "|Has Yoshi| or {medium_logic()}"
   },
   "Twisty Trials C - Final": {
     "connects_to": [],
@@ -3074,10 +3074,10 @@
     "connects_to": [
       "Stone Cyclone - Tox Box Paths"
     ],
-    "requires": "|Has Ground Pound| or |Medium Logic|"
+    "requires": "|Has Ground Pound| or {medium_logic()}"
   },
   "Stone Cyclone - Tox Box Paths": {
-    "requires": "|Has Air Spin| or |Medium Logic|",
+    "requires": "|Has Air Spin| or {medium_logic()}",
     "connects_to": []
   },
   "Stone Cyclone C - Start": {
@@ -3188,7 +3188,7 @@
     "connects_to": [
       "Flip-Out - Second Checkpoint"
     ],
-    "requires": "|Can Wall Spin| or (|Has Wall Jump| and |Has Ground Spin| and |Hard Logic|)"
+    "requires": "|Can Wall Spin| or (|Has Wall Jump| and |Has Ground Spin| and {hard_logic()})"
   },
   "Flip-Out - Second Checkpoint": {
     "requires": "|Can Wall Spin|",
@@ -3204,7 +3204,7 @@
     "connects_to": [
       "Flip-Out C - Second Checkpoint"
     ],
-    "requires": "|Can Wall Spin| or (|Has Wall Jump| and |Has Ground Spin| and |Hard Logic|)"
+    "requires": "|Can Wall Spin| or (|Has Wall Jump| and |Has Ground Spin| and {hard_logic()})"
   },
   "Flip-Out C - Second Checkpoint": {
     "requires": "|Can Wall Spin|",
@@ -3245,7 +3245,7 @@
     "connects_to": [
       "Grandmaster - Hammer Bros."
     ],
-    "requires": "|Jump Height 4| or |Medium Logic|"
+    "requires": "|Jump Height 4| or {medium_logic()}"
   },
   "Grandmaster - Hammer Bros.": {
     "requires": "|Has Pull Stars|",
@@ -3279,7 +3279,7 @@
     "connects_to": [
       "Grandmaster C - Hammer Bros."
     ],
-    "requires": "|Jump Height 4| or |Medium Logic|"
+    "requires": "|Jump Height 4| or {medium_logic()}"
   },
   "Grandmaster C - Hammer Bros.": {
     "connects_to": [
@@ -3288,7 +3288,7 @@
     "requires": "|Has Pull Stars|"
   },
   "Grandmaster C - Gate": {
-    "requires": "|Has Long Jump| or |Hard Logic|",
+    "requires": "|Has Long Jump| or {hard_logic()}",
     "connects_to": []
   }
 }
