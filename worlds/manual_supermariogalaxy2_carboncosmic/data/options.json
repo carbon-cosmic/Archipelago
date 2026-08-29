@@ -18,10 +18,7 @@
         "the_perfect_run": 2,
         "star_hunt": 3
       },
-      "aliases": {
-        "easiest": 0
-      },
-      "hidden": false
+      "visibility": "none"
     },
 
     "death_link": {
@@ -57,7 +54,17 @@
       "default": true,
       "group": "Item Options"
     },
-
+    "Star_Hunt_Star_Count": {
+      "display_name": "Star Hunt Star Count",
+      "description": [
+        "How many stars are needed to goal with Star Hunt.",
+        "Minimum 1 star, maximum 122 stars. Default is 70 stars."
+      ],
+      "type": "Range",
+      "range_start": 1,
+      "default": 70,
+      "range_end": 122
+    },
     "Logic_Difficulty": {
       "description": [
         "The expected difficulty of tricks by logic.",
@@ -81,7 +88,7 @@
       "default": 0,
       "group": "Randomization Options"
     },
-    "_1Upsanity": {
+    "OneUpsanity": {
       "description": [
         "Receive checks for collecting 1-Ups.",
         "",
@@ -179,15 +186,6 @@
       "default": true,
       "group": "Randomization Options"
     },
-     "Comet_Medal_Locations": {
-      "description": [
-        "Enable or disable Comet Medal locations."
-      ],
-      "display_name": "Comet Medal Locations",
-      "type": "Toggle",
-      "default": true,
-      "group": "Randomization Options"
-    },
     "Movement_Randomization": {
       "description": [
         "Mario's movement abilities will be randomized. These are: Spin,",
@@ -220,11 +218,11 @@
     },
      "Comet_Medal_Items": {
       "description": [
-        "Each galaxy will have its own comet medal item in the multiworld."
+        "Each galaxy will have its own comet medal item in the multiworld that locks access to its comets."
       ],
       "display_name": "Comet Medal Items",
       "type": "Toggle",
-      "default": true,
+      "default": false,
       "group": "Item Options"
     },
     "Comet_Randomization": {
