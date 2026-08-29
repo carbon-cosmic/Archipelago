@@ -1,7 +1,7 @@
 {
   "Green Stars": {
     "yaml_option": [
-      "Green_Stars_Enabled"
+      "Green_Stars_Locations"
     ]
   },
   "Power Star Locations": {
@@ -9,7 +9,7 @@
   },
   "Green Star Locations": {
     "yaml_option": [
-      "Green_Stars_Enabled"
+      "Green_Stars_Locations"
     ],
     "hidden": true
   },
@@ -44,9 +44,6 @@
     "hidden": true
   },
   "Comet Medal Locations": {
-    "yaml_option": [
-      "Comet_Medal_Locations"
-    ],
     "hidden": true
   },
   "Comet Medals": {
@@ -57,13 +54,13 @@
   },
   "1-Ups": {
     "yaml_option": [
-      "_1Up_Mushroom_Toggle"
+      "OneUp_Mushroom_Toggle"
     ],
     "hidden": true
   },
   "Not 1-Up Mushroom": {
     "yaml_option": [
-      "Not_1Up_Mushroom_Toggle"
+      "Not_OneUp_Mushroom_Toggle"
     ],
     "hidden": true
   },
@@ -91,12 +88,6 @@
   "Luigi": {
     "yaml_option": [
       "Unlockable_Luigi"
-    ],
-    "hidden": false
-  },
-  "Moves": {
-    "yaml_option": [
-      "Movement_Randomization"
     ],
     "hidden": false
   },

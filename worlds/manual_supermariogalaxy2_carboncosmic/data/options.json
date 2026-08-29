@@ -111,11 +111,11 @@
       "default": 0,
       "group": "Randomization Options"
     },
-    "_1Up_Mushroom_Toggle": {
+    "OneUp_Mushroom_Toggle": {
       "type": "Toggle",
       "visibility": "none"
     },
-    "Not_1Up_Mushroom_Toggle": {
+    "Not_OneUp_Mushroom_Toggle": {
       "type": "Toggle",
       "visibility": "none"
     },
