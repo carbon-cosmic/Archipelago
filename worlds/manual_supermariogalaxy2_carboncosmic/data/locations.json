@@ -2,6 +2,61 @@
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
   "data": [
     {
+      "name": "Bowser's Fortified Fortress - Objective",
+      "requires": "|Has Ground Pound|",
+      "region": "Galaxy Generator - Bowser",
+      "category": [
+        "World 6"
+      ],
+      "sort-key": "row-0703"
+    },
+    {
+      "name": "The Ultimate Test - Objective",
+      "requires": "|Has Long Jump| or {medium_logic()}",
+      "region": "Grandmaster - Hammer Bros.",
+      "category": [
+        "World S",
+        "Power Star Locations"
+      ],
+      "sort-key": "row-0806"
+    },
+    {
+      "name": "The Perfect Run - Objective",
+      "requires": "",
+      "region": "Grandmaster C - Gate",
+      "category": [
+        "World S"
+      ],
+      "sort-key": "row-0812"
+    },
+    {
+      "name": "Starship Mario Refueled - Objective",
+      "requires": "{OptionCount(@Power and Grand Stars, Star_Hunt_Star_Count)}",
+      "region": "Starship Mario",
+      "category": [
+        "Starship Mario"
+      ],
+      "sort-key": "row-0001"
+    },
+    {
+      "name": "Bowser's Fortified Fortress",
+      "requires": "|Has Ground Pound|",
+      "region": "Galaxy Generator - Bowser",
+      "category": [
+        "World 6"
+      ],
+      "sort-key": "row-0703"
+    },
+    {
+      "name": "The Perfect Run",
+      "requires": "",
+      "region": "Grandmaster C - Gate",
+      "category": [
+        "World S"
+      ],
+      "sort-key": "row-0812"
+    },
+    {
       "name": "Starship Mario - Starshroom 1-Up",
       "requires": "",
       "region": "Starship Mario",
@@ -7182,16 +7237,6 @@
       "sort-key": "row-0702a"
     },
     {
-      "name": "Bowser's Fortified Fortress",
-      "requires": "|Has Ground Pound|",
-      "region": "Galaxy Generator - Bowser",
-      "category": [
-        "World 6"
-      ],
-      "victory": true,
-      "sort-key": "row-0703"
-    },
-    {
       "name": "Galaxy Generator - Life Mushroom on Pole at Start",
       "requires": "",
       "region": "Galaxy Generator - Start",
@@ -8290,16 +8335,6 @@
         "Comet Medal Locations"
       ],
       "sort-key": "row-0811"
-    },
-    {
-      "name": "The Perfect Run",
-      "requires": "",
-      "region": "Grandmaster C - Gate",
-      "category": [
-        "World S"
-      ],
-      "victory": true,
-      "sort-key": "row-0812"
     },
     {
       "name": "Grandmaster C - 1-Up Replacing Comet Medal",

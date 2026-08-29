@@ -30,6 +30,23 @@
   },
 
   "user": {
+    "Objective": {
+      "display_name": "Objective",
+      "description": [
+        "The goal of the randomizer.",
+        "Options for the final level include: bowers_fortified_fortress, the_ultimate_test, and the_perfect_run.",
+        "Also available is the star_count goal, which requires the collection of a chosen number of stars before completion."
+      ],
+      "type": "Choice",
+      "values": {
+        "bowsers_fortified_fortress": 0,
+        "the_ultimate_test": 1,
+        "the_perfect_run": 2,
+        "star_hunt": 3
+      },
+      "default": 0,
+      "group": "Game Options"
+    },
     "Unlockable_Luigi": {
       "description": [
         "Include Luigi as an item for unlock.",
