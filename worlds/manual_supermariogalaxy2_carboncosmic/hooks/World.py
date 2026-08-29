@@ -47,14 +47,14 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     if world.options._1Upsanity.value == 2:
-        getattr(world.options, "_1Up_Mushroom_Toggle").value = True
-        getattr(world.options, "Not_1Up_Mushroom_Toggle").value = True
+        world.options._1Up_Mushroom_Toggle.value = True
+        world.options.Not_1Up_Mushroom_Toggle.value = True
     elif world.options._1Upsanity.value == 1:
-        getattr(world.options, "_1Up_Mushroom_Toggle").value = True
-        getattr(world.options, "Not_1Up_Mushroom_Toggle").value = False
+        world.options._1Up_Mushroom_Toggle.value = True
+        world.options.Not_1Up_Mushroom_Toggle.value = False
     else:
-        getattr(world.options, "_1Up_Mushroom_Toggle").value = False
-        getattr(world.options, "Not_1Up_Mushroom_Toggle").value = False
+        world.options._1Up_Mushroom_Toggle.value = False
+        world.options.Not_1Up_Mushroom_Toggle.value = False
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
@@ -94,6 +94,25 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
+    movement_items_to_remove = []
+    if world.options.Movement_Randomization.value == 0:
+        movement_items_to_remove = ["Backflip", "Sideflip", "Long Jump", "Wall Jump", "Ground Pound", "Spin", "Progressive Spin",
+                                    "Progressive Spin", "Triple Jump", "Progressive Triple Jump", "Progressive Triple Jump"]
+    elif world.options.Movement_Randomization.value == 1:
+        movement_items_to_remove = ["Spin", "Progressive Spin", "Progressive Spin"]
+    if world.options.Progressive_Movement.value == False and world.options.Movement_Randomization != 0:
+        movement_items_to_remove.append("Progressive Triple Jump")
+        movement_items_to_remove.append("Progressive Triple Jump")
+        if world.options.Progressive_Movement.value == 2:
+            movement_items_to_remove.append("Progressive Spin")
+            movement_items_to_remove.append("Progressive Spin")
+    elif world.options.Progressive_Movement.value == True and world.options.Movement_Randomization != 0:
+        movement_items_to_remove.append("Triple Jump")
+        if world.options.Movement_Randomization.value == 2:
+            movement_items_to_remove.append("Spin")
+
+    for item in movement_items_to_remove:
+        itemNamesToRemove.append(item)
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
