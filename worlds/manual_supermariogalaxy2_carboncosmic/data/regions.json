@@ -395,7 +395,7 @@
   },
   "Fluffy Bluff S - On Tower": {
     "entrance_requires": {
-      "Fluffy Bluff S - Tower": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|))"
+      "Fluffy Bluff S - Tower": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and |Hard Logic|) or (|Can Make Ground Clouds| and |Hard Logic|)"
     },
     "connects_to": [],
     "requires": ""
@@ -552,7 +552,7 @@
     ],
     "exit_requires": {
       "Fiery Flotilla - Inside Castle": "|Has Ground Spin|",
-      "Fiery Flotilla - Castle Walls": "(|Has Air Spin| and |Has Backflip|) or (|Medium Logic| and (|Has Air Spin| or |Has Backflip|)) or (|Hard Logic| and |Has Sideflip|))"
+      "Fiery Flotilla - Castle Walls": "(|Has Air Spin| and |Has Backflip|) or (|Medium Logic| and (|Has Air Spin| or |Has Backflip|)) or (|Hard Logic| and |Has Sideflip|)"
     },
     "requires": ""
   },
@@ -2289,7 +2289,7 @@
     "requires": "|Jump Height 3| or ((|Has Long Jump| or |Has Wall Jump|) and |Hard Logic|)"
   },
   "Upside Dizzy - Gravity Swap": {
-    "requires": "|Has Ground Pound| or (|Hard Logic| and (|Has Air Spin| or (|Has Backflip| and |Has Wall Jump)))",
+    "requires": "|Has Ground Pound| or (|Hard Logic| and (|Has Air Spin| or (|Has Backflip| and |Has Wall Jump|)))",
     "connects_to": []
   },
   "Upside Dizzy S - Gearmo": {

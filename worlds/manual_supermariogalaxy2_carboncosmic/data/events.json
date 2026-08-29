@@ -253,194 +253,194 @@
   },
   {
     "name": "Sky Station Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Sky Station Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Sky Station Comet Medal|)}"
   },
   {
     "name": "Yoshi Star Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Yoshi Star Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Yoshi Star Comet Medal|)}"
   },
   {
     "name": "Spin-Dig Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Spin-Dig Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Spin-Dig Comet Medal|)}"
   },
   {
     "name": "Fluffy Bluff Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Fluffy Bluff Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Fluffy Bluff Comet Medal|)}"
   },
   {
     "name": "Flip-Swap Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Flip-Swap Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Flip-Swap Comet Medal|)}"
   },
   {
     "name": "Rightside Down Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Rightside Down Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Rightside Down Comet Medal|)}"
   },
   {
     "name": "Fiery Flotilla Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Fiery Flotilla Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Fiery Flotilla Comet Medal|)}"
   },
   {
     "name": "Puzzle Plank Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Puzzle Plank Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Puzzle Plank Comet Medal|)}"
   },
   {
     "name": "Hightail Falls Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Hightail Falls Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Hightail Falls Comet Medal|)}"
   },
   {
     "name": "Boulder Bowl Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Boulder Bowl Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Boulder Bowl Comet Medal|)}"
   },
   {
     "name": "Cosmic Cove Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Cosmic Cove Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Cosmic Cove Comet Medal|)}"
   },
   {
     "name": "Wild Glide Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Wild Glide Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Wild Glide Comet Medal|)}"
   },
   {
     "name": "Honeybloom Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Honeybloom Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Honeybloom Comet Medal|)}"
   },
   {
     "name": "Lava Lair Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Lava Lair Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Lava Lair Comet Medal|)}"
   },
   {
     "name": "Tall Trunk Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Tall Trunk Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Tall Trunk Comet Medal|)}"
   },
   {
     "name": "Cloudy Court Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Cloudy Court Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Cloudy Court Comet Medal|)}"
   },
   {
     "name": "Haunty Halls Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Haunty Halls Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Haunty Halls Comet Medal|)}"
   },
   {
     "name": "Freezy Flake Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Freezy Flake Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Freezy Flake Comet Medal|)}"
   },
   {
     "name": "Rolling Masterpiece Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Rolling Masterpiece Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Rolling Masterpiece Comet Medal|)}"
   },
   {
     "name": "Beat Block Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Beat Block Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Beat Block Comet Medal|)}"
   },
   {
     "name": "Fearsome Fleet Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Fearsome Fleet Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Fearsome Fleet Comet Medal|)}"
   },
   {
     "name": "Supermassive Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Supermassive Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Supermassive Comet Medal|)}"
   },
   {
     "name": "Flipsville Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Flipsville Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Flipsville Comet Medal|)}"
   },
   {
     "name": "Starshine Beach Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(| Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Starshine Beach Comet Medal|)}"
   },
   {
     "name": "Chompworks Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(| Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Chompworks Comet Medal|)}"
   },
   {
     "name": "Sweet Mystery Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(| Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Sweet Mystery Comet Medal|)}"
   },
   {
     "name": "Honeyhop Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(| Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Honeyhop Comet Medal|)}"
   },
   {
     "name": "Gravity Gauntlet Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(| Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Gravity Gauntlet Comet Medal|)}"
   },
   {
     "name": "Space Storm Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Space Storm Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Space Storm Comet Medal|)}"
   },
   {
     "name": "Slipsand Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Slipsand Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Slipsand Comet Medal|)}"
   },
   {
     "name": "Shiverburn Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Shiverburn Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Shiverburn Comet Medal|)}"
   },
   {
     "name": "Boo Moon Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Boo Moon Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Boo Moon Comet Medal|)}"
   },
   {
     "name": "Upside Dizzy Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Upside Dizzy Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Upside Dizzy Comet Medal|)}"
   },
   {
     "name": "Fleet Glide Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Fleet Glide Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Fleet Glide Comet Medal|)}"
   },
   {
     "name": "Boom Bunker Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Boom Bunker Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Boom Bunker Comet Medal|)}"
   },
   {
     "name": "Melty Monster Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Melty Monster Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Melty Monster Comet Medal|)}"
   },
   {
     "name": "Clockwork Ruins Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Clockwork Ruins Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Clockwork Ruins Comet Medal|)}"
   },
   {
     "name": "Throwback Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Throwback Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Throwback Comet Medal|)}"
   },
   {
     "name": "Battle Belt Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Battle Belt Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Battle Belt Comet Medal|)}"
   },
   {
     "name": "Flash Black Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Flash Black Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Flash Black Comet Medal|)}"
   },
   {
     "name": "Slimy Spring Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Slimy Spring Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Slimy Spring Comet Medal|)}"
   },
   {
     "name": "Galaxy Generator Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Galaxy Generator Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Galaxy Generator Comet Medal|)}"
   },
   {
     "name": "Mario Squared Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Mario Squared Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Mario Squared Comet Medal|)}"
   },
   {
     "name": "Rolling Coaster Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Rolling Coaster Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Rolling Coaster Comet Medal|)}"
   },
   {
     "name": "Twisty Trials Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Twisty Trials Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Twisty Trials Comet Medal|)}"
   },
   {
     "name": "Stone Cyclone Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Stone Cyclone Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Stone Cyclone Comet Medal|)}"
   },
   {
     "name": "Boss Blitz Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Boss Blitz Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Boss Blitz Comet Medal|)}"
   },
   {
     "name": "Flip-Out Green Stars",
-    "requires": "|Has Green Comets| and {OptOne(|Flip-Out Comet Medal)}"
+    "requires": "|Has Green Comets| and {OptOne(|Flip-Out Comet Medal|)}"
   }
 ]

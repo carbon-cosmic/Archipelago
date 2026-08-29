@@ -4696,7 +4696,7 @@
     },
     {
       "name": "Chompworks - Green Star 2",
-      "requires": "|Chompworks Green Stars| and (|Can Wall Spin| or (|Narrow Jump 5|) or (|Medium Logic| and |Has Triple Jump|)))",
+      "requires": "|Chompworks Green Stars| and (|Can Wall Spin| or (|Narrow Jump 5|) or (|Medium Logic| and |Has Triple Jump|))",
       "region": "Chompworks 1 - Flip-Swap Panels",
       "category": [
         "World 4",
@@ -5388,7 +5388,7 @@
     },
     {
       "name": "Space Storm - Green Star 2",
-      "requires": "|Space Storm Green Stars",
+      "requires": "|Space Storm Green Stars|",
       "region": "Space Storm 2 - Tower",
       "category": [
         "World 5",
@@ -14122,7 +14122,7 @@
       "sort-key": "row-1398"
     },
     {
-      "name": "Sweet Mystery Start Platform Purple Coin #1",
+      "name": "Sweet Mystery - Start Platform Purple Coin #1",
       "requires": "",
       "region": "Sweet Mystery C - Start",
       "category": [
@@ -14683,7 +14683,7 @@
     },
     {
       "name": "Sweet Mystery - Cookie Path Purple Coin #32",
-      "requires": ")",
+      "requires": "",
       "region": "Sweet Mystery C - Cookie Path",
       "category": [
         "Sweet Mystery Purple Coins",
