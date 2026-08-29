@@ -834,47 +834,28 @@
       "progression": true
     },
     {
-      "name": "1-Up",
-      "count": 164,
+      "name": "Star Bits",
+      "count": 1,
       "category": [
         "Filler"
       ],
-      "yaml_option": [
-        "1UPsanity"
+      "filler": true
+    },
+    {
+      "name": "1-Up",
+      "count": 1,
+      "category": [
+        "Filler"
       ],
-      "useful": true
+      "filler": true
     },
     {
       "name": "Life Mushroom",
-      "count": 74,
+      "count": 1,
       "category": [
         "Filler"
       ],
-      "yaml_option": [
-        "Life_Shroomsanity"
-      ],
-      "useful": true
-    },
-    {
-      "name": "Checkpoint Flag",
-      "count": 91,
-      "category": [
-        "Filler",
-        "Checkpoint Flags"
-      ],
-      "useful": true
-    },
-    {
-      "name": "Clock",
-      "count": 69,
-      "category": [
-        "Filler",
-        "Speedrun Clocks"
-      ],
-      "yaml_option": [
-        "Clocksanity"
-      ],
-      "useful": true
+      "filler": true
     },
     {
       "name": "Flip-Swap Purple Coin",

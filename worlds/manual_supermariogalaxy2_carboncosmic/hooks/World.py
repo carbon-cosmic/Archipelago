@@ -35,7 +35,14 @@ import logging
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
-    return False
+    # let's just use anything that's a possible filler in the pool as a possible filler item name
+    possible_filler_names = [
+        i['name'] for i in world.item_name_to_item.values()
+        if i.get('filler', False) == True
+    ]
+
+    # pick one of the fillers at random and send it back
+    return world.random.choice(possible_filler_names)
 
 def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> None:
     """
