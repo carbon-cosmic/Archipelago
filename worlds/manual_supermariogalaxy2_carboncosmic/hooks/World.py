@@ -46,6 +46,15 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
+    if world.options._1Upsanity.value == 2:
+        getattr(world.options, "_1Up_Mushroom_Toggle").value = True
+        getattr(world.options, "Not_1Up_Mushroom_Toggle").value = True
+    elif world.options._1Upsanity.value == 1:
+        getattr(world.options, "_1Up_Mushroom_Toggle").value = True
+        getattr(world.options, "Not_1Up_Mushroom_Toggle").value = False
+    else:
+        getattr(world.options, "_1Up_Mushroom_Toggle").value = False
+        getattr(world.options, "Not_1Up_Mushroom_Toggle").value = False
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.

@@ -56,9 +56,15 @@
     "hidden": false
   },
   "1-Ups": {
+    "yaml_option": [
+      "_1Up_Mushroom_Toggle"
+    ],
     "hidden": true
   },
   "Not 1-Up Mushroom": {
+    "yaml_option": [
+      "Not_1Up_Mushroom_Toggle"
+    ],
     "hidden": true
   },
   "? Coins": {

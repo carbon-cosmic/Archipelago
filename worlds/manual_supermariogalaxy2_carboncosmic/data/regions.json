@@ -2979,7 +2979,7 @@
     "connects_to": [
       "Mario Squared C - Long Jump Coins"
     ],
-    "requires": "|Has Purple Comets| and |Has Clone Comets| and {(OptOne|Mario Squared Comet Medal|)}"
+    "requires": "|Has Purple Comets| and |Has Clone Comets| and {OptOne(|Mario Squared Comet Medal|)}"
   },
   "Mario Squared C - Long Jump Coins": {
     "requires": "|Has Long Jump| or {hard_logic()}",

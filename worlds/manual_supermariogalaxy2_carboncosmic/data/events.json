@@ -233,7 +233,7 @@
   },
   {
     "name": "Can Enter Galaxy Generator",
-    "requires": "{OptionCount(@Power_and_Grand_Stars, Galaxy_Generator_Star_Count)}"
+    "requires": "{OptionCount(@Power and Grand Stars, Galaxy_Generator_Star_Count)}"
   },
   {
     "name": "Has Grandmaster Greens",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Can Enter Grandmaster Galaxy",
-    "requires": "{OptionCount(@Power_and_Grand_Stars, Grandmaster_Star_Count)} and |Has Grandmaster Greens|"
+    "requires": "{OptionCount(@Power and Grand Stars, Grandmaster_Star_Count)} and |Has Grandmaster Greens|"
   },
   {
     "name": "Sky Station Green Stars",
