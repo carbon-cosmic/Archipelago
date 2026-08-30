@@ -229,7 +229,7 @@
        },
     "Prankster_Type_Toggle": {
       "type": "Toggle",
-      "default": false
+      "default": false,
       "visibility": "none"
     },
     "Mechanic_Randomization": {
