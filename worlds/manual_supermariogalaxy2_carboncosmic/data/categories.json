@@ -52,6 +52,11 @@
     ],
     "hidden": false
   },
+  "Prankster Comet Type": {
+    "yaml_option": [
+      "Prankster_Type_Toggle"
+    ]
+  },
   "1-Ups": {
     "yaml_option": [
       "OneUp_Mushroom_Toggle"

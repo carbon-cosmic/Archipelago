@@ -63,6 +63,9 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     else:
         world.options.OneUp_Mushroom_Toggle.value = False
         world.options.Not_OneUp_Mushroom_Toggle.value = False
+    #Prankster Comet Randomization handling
+    if world.options.Comet_Randomization.value == 1:
+        world.options.Prankster_Type_Toggle.value = True
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
@@ -129,6 +132,9 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     for item in movement_items_to_remove:
         itemNamesToRemove.append(item)
+
+    if world.options.Comet_Randomization.value != 2:
+        itemNamesToRemove.append("Prankster Comets")
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)

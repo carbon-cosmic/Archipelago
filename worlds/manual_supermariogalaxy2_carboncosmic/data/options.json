@@ -27,16 +27,6 @@
   },
 
   "user": {
-    "Unlockable_Luigi": {
-      "description": [
-        "Include Luigi as an item for unlock.",
-        "Note: Luigi's extra high jumps are currently not accounted for in logic."
-      ],
-      "display_name": "Unlockable Luigi",
-      "type": "Toggle",
-      "default": true,
-      "group": "Item Options"
-    },
     "Star_Hunt_Star_Count": {
       "display_name": "Star Hunt Star Count",
       "description": [
@@ -47,6 +37,16 @@
       "range_start": 1,
       "default": 70,
       "range_end": 122
+    },
+    "Unlockable_Luigi": {
+      "description": [
+        "Include Luigi as an item for unlock.",
+        "Note: Luigi's extra high jumps are currently not accounted for in logic."
+      ],
+      "display_name": "Unlockable Luigi",
+      "type": "Toggle",
+      "default": true,
+      "group": "Item Options"
     },
     "Logic_Difficulty": {
       "description": [
@@ -80,7 +80,7 @@
         "all: In addition to mushrooms, the 1-Ups from collecting timed coins ",
         "     from a ? coin and eating fruit with Yoshi will be included"
       ],
-      "display_name": "1-Upsanity",
+      "display_name": "1-Up Checks",
       "type": "Choice",
       "values": {
         "off": 0,
@@ -108,7 +108,7 @@
       "description": [
         "Receive checks for collecting Life Mushrooms."
       ],
-      "display_name": "Life Mushroomsanity",
+      "display_name": "Life Mushroom Checks",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -117,7 +117,7 @@
       "description": [
         "Receive checks for purchasing from Luma Shops."
       ],
-      "display_name": "Luma Shopsanity",
+      "display_name": "Luma Shop Checks",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -127,7 +127,7 @@
       "description": [
         "Receive checks for spinning chance cubes."
       ],
-      "display_name": "Chance Cubesanity",
+      "display_name": "Chance Cube Checks",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -137,7 +137,7 @@
       "description": [
         "Receive checks for reaching checkpoint flags."
       ],
-      "display_name": "Checkpointsanity",
+      "display_name": "Checkpoint Checks",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -147,7 +147,7 @@
       "description": [
         "Receive checks for collecting speedrun clocks."
       ],
-      "display_name": "Clocksanity",
+      "display_name": "Clock Checks",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -157,7 +157,7 @@
       "description": [
         "Receive checks for collecting ? Coins."
       ],
-      "display_name": "?-Coinsanity",
+      "display_name": "?-Coin Checks",
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
@@ -166,7 +166,7 @@
       "description": [
         "Enable or disable regular Green Star locations."
       ],
-      "display_name": "Green Stars Locations",
+      "display_name": "Green Star Checks",
       "type": "Toggle",
       "default": true,
       "group": "Randomization Options"
@@ -227,9 +227,16 @@
       "default": 2,
       "group": "Comet Options"
        },
+    "Prankster_Type_Toggle": {
+      "type": "Toggle",
+      "default": false
+      "visibility": "none"
+    },
     "Mechanic_Randomization": {
       "description": [
-        "Access to Pull Stars, Star Balls, and Tornadoes will be randomized."
+        "Access to certain mechanics will be randomized.",
+        "These are: Fluzzard, the Star Ball, Pull Stars, Bob-ombs, Floaty Fluff,",
+        "Tornadoes, Cannons, and Koopa Shells."
       ],
       "display_name": "Mechanic Randomization",
       "type": "Toggle",
@@ -255,7 +262,8 @@
       "display_name": "Galaxy Generator Star Count",
       "range_start": 0,
       "default": 70,
-      "range_end": 122
+      "range_end": 122,
+      "group": "Game Options"
     },
     "Grandmaster_Star_Count": {
       "type": "Range",
@@ -266,9 +274,9 @@
       "display_name": "Grandmaster Power Star Count",
       "range_start": 0,
       "default": 122,
-      "range_end": 122
+      "range_end": 122,
+      "group": "Game Options"
     },
-
     "Grandmaster_Green_Count": {
       "type": "Range",
       "description": [
@@ -279,11 +287,13 @@
       "display_name": "Grandmaster Green Star Count",
       "range_start": 0,
       "default": 0,
-      "range_end": 120
+      "range_end": 120,
+      "group": "Game Options"
     },
     "Purple_Coinsanity": {
       "description": [
-          "Receive checks for collecting Purple Coins. For sickos only."
+        "Receive checks for collecting Purple Coins.",
+        "Note - this setting can significantly slow down generation. Use with caution."
       ],
       "display_name": "Purple Coinsanity",
       "type": "Toggle",
