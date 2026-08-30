@@ -1,11 +1,11 @@
 [
   {
     "name": "Has Ground Spin",
-    "requires": "{OptAll(|Spin| and |Progressive Spin|)}"
+    "requires": "{OptAll(|Spin| and |Progressive Spin|)} or {YamlCompare(Movement_Randomization == 1)}"
   },
   {
     "name": "Has Air Spin",
-    "requires": "{OptAll(|Spin| and |Progressive Spin:2|)}"
+    "requires": "{OptAll(|Spin| and |Progressive Spin:2|)} or ({OptOne(|Progressive Spin|)} and {YamlCompare(Movement_Randomization == 1)})"
   },
   {
     "name": "Can Back or Sideflip",

@@ -45,10 +45,13 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
     return world.random.choice(possible_filler_names)
 
 def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> None:
-    """
-    This is the earliest hook called during generation, before anything else is done.
-    Use it to check or modify incompatible options, or to set up variables for later use.
-    """
+    is_comet_medals_enabled = world.options.Comet_Medal_Items.value
+    is_1ups_enabled = (world.options.OneUpsanity.value >= 1)
+    is_checkpoints_enabled = world.options.Flagsanity.value
+    is_clocks_enabled = world.options.Clocksanity.value
+    if is_comet_medals_enabled and not (is_1ups_enabled or is_checkpoints_enabled or is_clocks_enabled):
+        world.options.Flagsanity.value = 1
+        logging.info(f"Player {player}: Comet Medal items were enabled, likely without enough checks to support them. Checkpoint locations were enabled.")
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -102,6 +105,7 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
@@ -114,20 +118,24 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
     movement_items_to_remove = []
-    if world.options.Movement_Randomization.value == 0:
+    movement_randomization_value = world.options.Movement_Randomization.value
+    progressive_movement_value = world.options.Progressive_Movement.value
+    if movement_randomization_value == 0:
         movement_items_to_remove = ["Backflip", "Sideflip", "Long Jump", "Wall Jump", "Ground Pound", "Spin", "Progressive Spin",
                                     "Progressive Spin", "Triple Jump", "Progressive Triple Jump", "Progressive Triple Jump"]
-    elif world.options.Movement_Randomization.value == 1:
-        movement_items_to_remove = ["Spin", "Progressive Spin", "Progressive Spin"]
-    if world.options.Progressive_Movement.value == False and world.options.Movement_Randomization != 0:
+    elif movement_randomization_value == 1:
+        movement_items_to_remove = ["Spin", "Progressive Spin"]
+        if not progressive_movement_value:
+            movement_items_to_remove.append("Progressive Spin")
+    if not progressive_movement_value and movement_randomization_value != 0:
         movement_items_to_remove.append("Progressive Triple Jump")
         movement_items_to_remove.append("Progressive Triple Jump")
-        if world.options.Progressive_Movement.value == 2:
+        if movement_randomization_value == 2:
             movement_items_to_remove.append("Progressive Spin")
             movement_items_to_remove.append("Progressive Spin")
-    elif world.options.Progressive_Movement.value == True and world.options.Movement_Randomization != 0:
+    elif progressive_movement_value == True and movement_randomization_value != 0:
         movement_items_to_remove.append("Triple Jump")
-        if world.options.Movement_Randomization.value == 2:
+        if movement_randomization_value == 2:
             movement_items_to_remove.append("Spin")
 
     for item in movement_items_to_remove:

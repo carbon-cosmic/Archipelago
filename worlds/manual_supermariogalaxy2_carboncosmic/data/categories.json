@@ -55,7 +55,8 @@
   "Prankster Comet Type": {
     "yaml_option": [
       "Prankster_Type_Toggle"
-    ]
+    ],
+    "hidden": true
   },
   "1-Ups": {
     "yaml_option": [
