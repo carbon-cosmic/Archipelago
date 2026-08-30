@@ -69,15 +69,15 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = []  # List of location names
-    # Removing the duplicated goal location
-    goal_location_names = {
-        0: "Bowser's Fortified Fortress",
-        1: "The Ultimate Test",
-        2: "The Perfect Run",
-        3: "Starship Mario Refueled"
-    }
-    if world.options.goal.value != 3:
-        locationNamesToRemove.append(goal_location_names[world.options.goal.value])
+    ## Removing the duplicated goal location
+    #goal_location_names = {
+    #    0: "Bowser's Fortified Fortress",
+    #    1: "The Ultimate Test",
+    #    2: "The Perfect Run",
+    #    3: "Starship Mario Refueled"
+    #}
+    #if world.options.goal.value != 3:
+    #    locationNamesToRemove.append(goal_location_names[world.options.goal.value])
 
 
     for region in multiworld.regions:
