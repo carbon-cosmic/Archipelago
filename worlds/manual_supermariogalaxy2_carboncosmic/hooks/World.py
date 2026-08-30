@@ -53,6 +53,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
+    #1-Up sanity option tinkering
     if world.options.OneUpsanity.value == 2:
         world.options.OneUp_Mushroom_Toggle.value = True
         world.options.Not_OneUp_Mushroom_Toggle.value = True
@@ -67,9 +68,17 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
-    locationNamesToRemove: list[str] = [] # List of location names
+    locationNamesToRemove: list[str] = []  # List of location names
+    # Removing the duplicated goal location
+    goal_location_names = {
+        0: "Bowser's Fortified Fortress",
+        1: "The Ultimate Test",
+        2: "The Perfect Run",
+        3: "Starship Mario Refueled"
+    }
+    if world.options.goal.value != 3:
+        locationNamesToRemove.append(goal_location_names[world.options.goal.value])
 
-    # Add your code here to calculate which locations to remove
 
     for region in multiworld.regions:
         if region.player == player:

@@ -8,7 +8,8 @@
       "category": [
         "World 6"
       ],
-      "sort-key": "row-0703"
+      "sort-key": "row-0703",
+      "victory": true
     },
     {
       "name": "The Ultimate Test - Objective",
@@ -18,7 +19,8 @@
         "World S",
         "Power Star Locations"
       ],
-      "sort-key": "row-0806"
+      "sort-key": "row-0806",
+      "victory": true
     },
     {
       "name": "The Perfect Run - Objective",
@@ -27,7 +29,8 @@
       "category": [
         "World S"
       ],
-      "sort-key": "row-0812"
+      "sort-key": "row-0812",
+      "victory": true
     },
     {
       "name": "Starship Mario Refueled - Objective",
@@ -36,7 +39,8 @@
       "category": [
         "Starship Mario"
       ],
-      "sort-key": "row-0001"
+      "sort-key": "row-0001",
+      "victory": true
     },
     {
       "name": "Bowser's Fortified Fortress",
