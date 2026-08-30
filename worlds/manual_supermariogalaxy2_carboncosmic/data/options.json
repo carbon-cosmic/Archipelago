@@ -12,12 +12,6 @@
         "Options for the final level include: bowers_fortified_fortress, the_ultimate_test, and the_perfect_run.",
         "Also available is the star_hunt goal, which requires the collection of a chosen number of stars before completion."
       ],
-      "values": {
-        "Bowser's Fortified Fortress - Objective": 0,
-        "The Ultimate Test - Objective": 1,
-        "The Perfect Run - Objective": 2,
-        "Starship Mario Refueled - Objective": 3
-      },
       "aliases": {
         "bowsers_fortified_fortress": 0,
         "the_ultimate_test": 1,
