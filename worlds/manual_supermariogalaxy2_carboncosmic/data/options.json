@@ -164,7 +164,7 @@
     },
      "Green_Stars_Locations": {
       "description": [
-        "Enable or disable regular Green Star locations."
+        "Recieve checks for collecting Green Stars."
       ],
       "display_name": "Green Star Checks",
       "type": "Toggle",

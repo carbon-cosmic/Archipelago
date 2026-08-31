@@ -16,8 +16,7 @@
       "requires": "|Has Long Jump| or {medium_logic()}",
       "region": "Grandmaster - Hammer Bros.",
       "category": [
-        "World S",
-        "Power Star Locations"
+        "World S"
       ],
       "sort-key": "row-0806",
       "victory": true
@@ -47,7 +46,8 @@
       "requires": "|Has Ground Pound|",
       "region": "Galaxy Generator - Bowser",
       "category": [
-        "World 6"
+        "World 6",
+        "Power Star Locations"
       ],
       "sort-key": "row-0703"
     },
@@ -56,7 +56,8 @@
       "requires": "",
       "region": "Grandmaster C - Gate",
       "category": [
-        "World S"
+        "World S",
+        "Power Star Locations"
       ],
       "sort-key": "row-0812"
     },
@@ -4227,7 +4228,8 @@
       "category": [
         "World 4",
         "? Coins"
-      ]
+      ],
+      "sort_key": "row-0412a"
     },
     {
       "name": "In Full Bloom",

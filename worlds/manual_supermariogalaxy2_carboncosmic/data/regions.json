@@ -220,25 +220,19 @@
     "connects_to": [
       "Spin-Dig 1 - Dirt Tower Planet"
     ],
-    "exit_requires": {
-      "Spin-Dig 1 - Dirt Tower Planet": "|Has Spin Drill| or |Jump Height 6| or ({medium_logic()} and |Can Wall Spin| and (|Has Double Jump| or |Has Backflip|)) or ({hard_logic()} and |Can Long Spin| and |Has Wall Jump|)"
-    },
     "requires": ""
   },
   "Spin-Dig 1 - Dirt Tower Planet": {
     "connects_to": [
       "Spin-Dig 1 - Metal Ring Planet"
     ],
-    "exit_requires": {
-      "Spin-Dig 1 - Metal Ring Planet": "|Has Spin-Drill|"
-    },
-    "requires": ""
+    "requires":"|Has Spin-Drill| or |Jump Height 6| or ({medium_logic()} and |Can Wall Spin| and (|Has Double Jump| or |Has Backflip|)) or ({hard_logic()} and |Can Long Spin| and |Has Wall Jump|)"
   },
   "Spin-Dig 1 - Metal Ring Planet": {
     "connects_to": [
       "Spin-Dig 1 - Hollow Planet"
     ],
-    "requires": ""
+    "requires": "|Has Spin-Drill|"
   },
   "Spin-Dig 1 - Hollow Planet": {
     "connects_to": [

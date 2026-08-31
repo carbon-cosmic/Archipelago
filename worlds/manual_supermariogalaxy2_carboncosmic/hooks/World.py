@@ -45,6 +45,9 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
     return world.random.choice(possible_filler_names)
 
 def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> None:
+    #Checks whether Comet Medal Items are enabled (the only setting that can add more items than the smallest number of locations, 170),
+    #and whether one of 1-Ups, Checkpoints, or Clocks is not enabled. If so, forcefully enable Checkpoints to avoid having more items than locations.
+    #It's not a perfect solution, but there are plans to make more robust error-checking for other settings I'm planning to add.
     is_comet_medals_enabled = world.options.Comet_Medal_Items.value
     is_1ups_enabled = (world.options.OneUpsanity.value >= 1)
     is_checkpoints_enabled = world.options.Flagsanity.value
