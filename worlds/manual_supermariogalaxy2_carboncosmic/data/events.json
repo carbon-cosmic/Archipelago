@@ -173,7 +173,7 @@
   },
   {
     "name": "Has Green Comets",
-    "requires": "{OptOne(|Green Comets|)}"
+    "requires": "{OptAll(|Prankster Comets| and |Green Comets|)}"
   },
   {
     "name": "Jump Height 6",
