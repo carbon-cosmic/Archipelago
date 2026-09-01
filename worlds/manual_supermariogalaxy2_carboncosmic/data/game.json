@@ -2,7 +2,8 @@
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
   "game": "SuperMarioGalaxy2",
   "creator": "carboncosmic",
-  "filler_item_name": "Starbits",
+  "filler_item_name": "Star Bits",
+  "death_link": true,
   "starting_items": [
     {
       "item_categories": [
