@@ -1,0 +1,39 @@
+description: Manual_SuperMarioGalaxy2_carboncosmic Template, generated with https://github.com/Eijebong/Archipelago-fuzzer/tree/0.6.2
+game: Manual_SuperMarioGalaxy2_carboncosmic
+requires:
+  version: 0.6.5
+Manual_SuperMarioGalaxy2_carboncosmic:
+  progression_balancing: 40
+  accessibility: minimal
+  goal: starship mario refueled - objective
+  Star_Hunt_Star_Count: 18
+  Galaxy_Generator_Star_Count: 85
+  Grandmaster_Star_Count: 109
+  Grandmaster_Green_Count: 94
+  Unlockable_Luigi: 'true'
+  Movement_Randomization: full
+  Progressive_Movement: 'true'
+  Comet_Medal_Items: 'true'
+  Mechanic_Randomization: 'false'
+  Powerup_Randomization: 'false'
+  Logic_Difficulty: easy
+  OneUpsanity: all
+  Life_Shroomsanity: 'true'
+  Luma_Shopsanity: 'false'
+  Chance_Cubesanity: 'false'
+  Flagsanity: 'true'
+  Clocksanity: 'true'
+  QCoinsanity: 'true'
+  Green_Stars_Locations: 'false'
+  Purple_Coinsanity: 'false'
+  Comet_Randomization: 'false'
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_inventory_from_pool: {}
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
