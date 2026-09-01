@@ -209,7 +209,7 @@
       "display_name": "Comet Medal Items",
       "type": "Toggle",
       "default": false,
-      "group": "Item Options"
+      "group": "Comet Options"
     },
     "Comet_Randomization": {
       "description": [
