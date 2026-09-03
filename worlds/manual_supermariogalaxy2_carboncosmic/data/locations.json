@@ -2679,7 +2679,7 @@
       "sort-key": "row-0259"
     },
     {
-      "name": "Lava Lair - Speed Run",
+      "name": "Lava Lair Speed Run",
       "requires": "",
       "region": "Lava Lair C - Snake Blocks",
       "category": [
@@ -3572,7 +3572,7 @@
     },
     {
       "name": "Sorbetti's Chilly Reception",
-      "requires": "|Has Air Spin| or (|Has Ground Spin| and {medium_logic()})",
+      "requires": "|Has Ground Spin|",
       "region": "Freezy Flake 2 - Sorbetti",
       "category": [
         "World 3",
@@ -4506,7 +4506,7 @@
     },
     {
       "name": "Starshine Beach - Bonus Room ? Coin 1-Up #3",
-      "requires": "|Can Complete Bonus Room ? Coins|",
+      "requires": "|Can Complete Bonus Room ? Coins| or |Yoshi|",
       "region": "Starshine Beach 1 - Beach",
       "category": [
         "World 4",
@@ -4667,7 +4667,7 @@
     },
     {
       "name": "Chompworks - Comet Medal",
-      "requires": "|Narrow Jump 5| or (|Has Triple Jump| and {hard_logic()})",
+      "requires": "|Narrow Jump 3| or |Has Air Spin| or (|Has Triple Jump| and {hard_logic()})",
       "region": "Chompworks 1 - Start",
       "category": [
         "World 4",
@@ -4747,7 +4747,7 @@
     },
     {
       "name": "Chompworks 1 - 1-Up Above Tilting Platform",
-      "requires": "",
+      "requires": "|Jump Height 3| or |Has Wall Jump|",
       "region": "Chompworks 1 - Flip-Swap Panels",
       "category": [
         "World 4",
@@ -6533,7 +6533,7 @@
     },
     {
       "name": "Time for Adventure",
-      "requires": "|Has Ground Pound|",
+      "requires": "|Has Ground Pound| and |Has Air Spin|",
       "region": "Clockwork Ruins - Rolling Drums Top",
       "category": [
         "World 6",

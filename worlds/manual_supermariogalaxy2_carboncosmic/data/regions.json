@@ -1788,7 +1788,7 @@
     "requires": "|Has Spring| or (|Can Wall Spin| and {medium_logic()} and (|Has Triple Jump| or |Has Backflip| or |Has Long Jump|)) or {hard_logic()}"
   },
   "Chompworks 2 - Tower": {
-    "requires": "|Can Wall Spin| or (|Has Air Spin| and |Jump Height 5|)",
+    "requires": "|Has Spring| or |Can Wall Spin| or (|Has Air Spin| and |Jump Height 5|)",
     "connects_to": []
   },
   "Chompworks C - Lava Chomp Planet": {
