@@ -4219,7 +4219,7 @@
         "World 4",
         "Power Star Locations"
       ],
-      "sort-key": "row-0412"
+      "sort-key": "row-0411a"
     },
     {
       "name": "Supermassive C - Giant Brick Block ? Coin",
@@ -4229,7 +4229,7 @@
         "World 4",
         "? Coins"
       ],
-      "sort_key": "row-0412a"
+      "sort-key": "row-0412"
     },
     {
       "name": "In Full Bloom",
@@ -4968,7 +4968,7 @@
     },
     {
       "name": "Honeyhop 1 - Bonus Room Chance Cube #1",
-      "requires": "",
+      "requires": "|Has Ground Spin|",
       "region": "Honeyhop 1 - Start Water",
       "category": [
         "World 4",
@@ -4978,7 +4978,7 @@
     },
     {
       "name": "Honeyhop 1 - Bonus Room Chance Cube #2",
-      "requires": "",
+      "requires": "|Has Ground Spin|",
       "region": "Honeyhop 1 - Start Water",
       "category": [
         "World 4",
@@ -4988,7 +4988,7 @@
     },
     {
       "name": "Honeyhop 1 - Bonus Room Chance Cube #3",
-      "requires": "",
+      "requires": "|Has Ground Spin|",
       "region": "Honeyhop 1 - Start Water",
       "category": [
         "World 4",
@@ -6562,7 +6562,7 @@
       "sort-key": "row-0637"
     },
     {
-      "name": "Clockwork Ruins - Pusher Walls Lower Right Life Mushroom",
+      "name": "Clockwork Ruins - Pusher Walls Life Mushroom",
       "requires": "",
       "region": "Clockwork Ruins - Pusher Walls",
       "category": [
@@ -6632,7 +6632,7 @@
       "sort-key": "row-0644"
     },
     {
-      "name": "Clockwork Ruins - Bonus Room Above Spinning Stones ? Coin",
+      "name": "Clockwork Ruins - Bonus Room ? Coin",
       "requires": "",
       "region": "Clockwork Ruins - Rolling Drums Top",
       "category": [
