@@ -35,6 +35,7 @@
 *.puml
 *.iso
 
+
 setups
 build
 bundle/components.wxs
@@ -69,6 +70,7 @@ Output Logs/
 /players
 /fuzz_output
 /Fuzz Failures
+/.run
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
