@@ -300,6 +300,17 @@
       "type": "Toggle",
       "default": false,
       "group": "Randomization Options"
-        }
+        },
+    "Purple_Coin_Count": {
+      "type": "Range",
+      "description": [
+        "How many purple coin items are needed to collect a purple coin star.",
+        "Maximum 100, minimum 0. Default is 50."
+      ],
+      "display_name": "Purple Coin Count",
+      "range_start": 0,
+      "default": 50,
+      "range_end": 100
+    }
   }
 }

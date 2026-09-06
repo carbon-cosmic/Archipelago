@@ -78,7 +78,7 @@
       "category": [
         "Green Stars"
       ],
-      "progression": true
+      "progression_skip_balancing": true
     },
     {
       "count": 1,

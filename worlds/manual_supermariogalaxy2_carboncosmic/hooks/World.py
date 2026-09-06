@@ -18,6 +18,7 @@ from ..Helpers import is_option_enabled, get_option_value, format_state_prog_ite
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
 
+from math import floor, ceil
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
@@ -38,7 +39,7 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
     # let's just use anything that's a possible filler in the pool as a possible filler item name
     possible_filler_names = [
         i['name'] for i in world.item_name_to_item.values()
-        if i.get('filler', False) == True
+        if i.get('category', None) == ["Filler"]
     ]
 
     # pick one of the fillers at random and send it back
@@ -104,6 +105,56 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    #Checks whether Star Hunt is enabled, to see if it will affect the number of progressive Power Stars.
+    star_hunt_count = 0
+    if world.options.goal == 3:
+        star_hunt_count = world.options.Star_Hunt_Star_Count
+    #Finds the greatest of the Star Count options, then sets that many stars to be progressive. The rest are set to useful. -7 for the Grand Stars
+    progressive_star_count = max([world.options.Galaxy_Generator_Star_Count, world.options.Grandmaster_Star_Count, star_hunt_count]) - 7
+    if progressive_star_count >=7:
+        item_config.update({"Power Star": {"progression_skip_balancing": progressive_star_count, "useful": 115 - progressive_star_count}})
+    else:
+        item_config.update({"Power Star": {"progression_skip_balancing": 7, "useful": 108}})
+
+    #Checks whether green stars are enabled, then sets the number required by Grandmaster to progressive, and the rest useful.
+    #If none are required, set as filler.
+    if world.options.Green_Stars_Locations:
+        progressive_green_count = world.options.Grandmaster_Green_Count
+        if progressive_green_count == 0:
+            item_config.update({"Green Star": {"filler": 120}})
+        else:
+            item_config.update({"Green Star": {"progression_skip_balancing": progressive_green_count, "useful": 120 - progressive_green_count}})
+
+    if world.options.Purple_Coinsanity:
+        regular_purple_coin_stars = ["Flip-Swap Purple Coin", "Puzzle Plank Purple Coin", "Flipsville Purple Coin",
+                                     "Sweet Mystery Purple Coin", "Clockwork Ruins Purple Coin", "Mario Squared Purple Coin"]
+        purple_coin_count = world.options.Purple_Coin_Count
+        if purple_coin_count != 0:
+            #Iterate through all 100 coin stars, making purple_coin_count number progression, then half of the rest useful and the other half filler
+            useful_purple_count = ceil(100 - purple_coin_count)
+            filler_purple_count = floor(100 - purple_coin_count)
+            for coin_type in regular_purple_coin_stars:
+                item_config.update({coin_type: {
+                    "progression_skip_balancing": purple_coin_count,
+                    "useful": useful_purple_count,
+                    "filler": filler_purple_count
+                }})
+            #Then handle the stars with unique numbers of purple coins.
+            item_config.update({"Tall Trunk Purple Coin": {
+                "progression_skip_balancing": purple_coin_count,
+                "useful": useful_purple_count + 20,
+                "filler": filler_purple_count + 20
+            }})
+            item_config.update({"Starshine Beach Purple Coin": {
+                "progression_skip_balancing": purple_coin_count,
+                "useful": useful_purple_count + 20,
+                "filler": filler_purple_count + 20
+            }})
+            item_config.update({"Rolling Coaster Purple Coin": {
+                "progression": purple_coin_count,
+                "useful": useful_purple_count + 5,
+                "filler": filler_purple_count + 5
+            }})
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
