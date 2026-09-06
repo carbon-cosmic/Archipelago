@@ -1347,7 +1347,7 @@
     },
     {
       "name": "Purple Coin Flip 'n' Sprint",
-      "requires": "{OptOne(|Flip-Swap Purple Coin:100|)}",
+      "requires": "{needs_purple_coins(Flip-Swap)}",
       "region": "Flip-Swap C - Final Platform",
       "category": [
         "World 1",
@@ -1788,7 +1788,7 @@
     },
     {
       "name": "Purple Coin Shadow Vault",
-      "requires": "{OptOne(|Puzzle Plank Purple Coin:100|)}",
+      "requires": "{needs_purple_coins(Puzzle Plank)}",
       "region": "Puzzle Plank C - Shadow Vault",
       "category": [
         "World 2",
@@ -3081,7 +3081,7 @@
     },
     {
       "name": "Tall Trunk's Purple Coin Slide",
-      "requires": "{OptOne(|Tall Trunk Purple Coin:100|)}",
+      "requires": "{needs_purple_coins(Tall Trunk)}",
       "region": "Tall Trunk C - Slide End",
       "category": [
         "World 3",
@@ -4444,7 +4444,7 @@
     },
     {
       "name": "Purple Coin Spin Speed Run",
-      "requires": "(|Has Wall Jump| or {hard_logic()}) and {OptOne(|Flipsville Purple Coin:100|)}",
+      "requires": "(|Has Wall Jump| or {hard_logic()}) and {needs_purple_coins(Flipsville)}",
       "region": "Flipsville C - Purple Coins",
       "category": [
         "World 4",
@@ -4647,7 +4647,7 @@
     },
     {
       "name": "Purple Coin Beach Dash",
-      "requires": "{OptOne(|Starshine Beach Purple Coin:100|)}",
+      "requires": "{needs_purple_coins(Starshine Beach)}",
       "region": "Starshine Beach C - Ocean",
       "category": [
         "World 4",
@@ -4948,7 +4948,7 @@
     },
     {
       "name": "Bulb Berry's Purple Coin Glow",
-      "requires": "{OptOne(|Sweet Mystery Purple Coin:100|)}",
+      "requires": "{needs_purple_coins(Clockwork Ruins)}",
       "region": "Sweet Mystery C - Flower Grapples",
       "category": [
         "World 4",
@@ -6693,7 +6693,7 @@
     },
     {
       "name": "The Adventure of the Purple Coins",
-      "requires": "{OptOne(|Clockwork Ruins Purple Coin:100|)}",
+      "requires": "{needs_purple_coins(Clockwork Ruins)}",
       "region": "Clockwork Ruins C - Fourth Wheel",
       "category": [
         "World 6",
@@ -7744,7 +7744,7 @@
     },
     {
       "name": "Luigi's Purple Coin Chaos",
-      "requires": "|Has Long Jump| and {OptOne(|Mario Squared Purple Coin:100|)}",
+      "requires": "|Has Long Jump| and {needs_purple_coins(Mario Squared)}",
       "region": "Mario Squared C - Long Jump Coins",
       "category": [
         "World S",
@@ -7814,7 +7814,7 @@
     },
     {
       "name": "Purple Coins on the Rainbow Road",
-      "requires": "{OptOne(|Rolling Coaster Purple Coin:100|)}",
+      "requires": "{needs_purple_coins(Rolling Coaster)}",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
         "World S",

@@ -10,3 +10,5 @@ def medium_logic():
     return "{YamlCompare(Logic_Difficulty >= 1)}"
 def hard_logic():
     return "{YamlCompare(Logic_Difficulty == 2)}"
+def needs_purple_coins(galaxy):
+    return f"{{OptionCount(|{galaxy} Purple Coin|, Purple_Coin_Count)}}"

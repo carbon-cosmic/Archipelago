@@ -56,6 +56,9 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     if is_comet_medals_enabled and not (is_1ups_enabled or is_checkpoints_enabled or is_clocks_enabled):
         world.options.Flagsanity.value = 1
         logging.info(f"Player {player}: Comet Medal items were enabled, likely without enough checks to support them. Checkpoint locations were enabled.")
+    #Check whether purple coinsanity is enabled - if it isn't, set Purple_Coin_Count to 0.
+    if not world.options.Purple_Coinsanity:
+        world.options.Purple_Coin_Count.value = 0
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -130,7 +133,8 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
                                      "Sweet Mystery Purple Coin", "Clockwork Ruins Purple Coin", "Mario Squared Purple Coin"]
         purple_coin_count = world.options.Purple_Coin_Count
         if purple_coin_count != 0:
-            #Iterate through all 100 coin stars, making purple_coin_count number progression, then half of the rest useful and the other half filler
+            #Iterate through all 100 coin stars, making purple_coin_count number progression,
+            #then half of the rest useful and the other half filler
             useful_purple_count = ceil((100 - purple_coin_count)/2)
             filler_purple_count = floor((100 - purple_coin_count)/2)
             for coin_type in regular_purple_coin_stars:
@@ -156,6 +160,7 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
                 "filler": filler_purple_count + 5
             }})
         else:
+            #If purple_coin_count is 0, set all purple coins as filler.
             for coin_type in regular_purple_coin_stars:
                 item_config.update({coin_type: {"filler": 100}})
             item_config.update({"Tall Trunk Purple Coin": {"filler": 140}})
