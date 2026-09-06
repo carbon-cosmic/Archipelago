@@ -131,8 +131,8 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
         purple_coin_count = world.options.Purple_Coin_Count
         if purple_coin_count != 0:
             #Iterate through all 100 coin stars, making purple_coin_count number progression, then half of the rest useful and the other half filler
-            useful_purple_count = ceil(100 - purple_coin_count)
-            filler_purple_count = floor(100 - purple_coin_count)
+            useful_purple_count = ceil((100 - purple_coin_count)/2)
+            filler_purple_count = floor((100 - purple_coin_count)/2)
             for coin_type in regular_purple_coin_stars:
                 item_config.update({coin_type: {
                     "progression_skip_balancing": purple_coin_count,
@@ -155,6 +155,12 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
                 "useful": useful_purple_count + 5,
                 "filler": filler_purple_count + 5
             }})
+        else:
+            for coin_type in regular_purple_coin_stars:
+                item_config.update({coin_type: {"filler": 100}})
+            item_config.update({"Tall Trunk Purple Coin": {"filler": 140}})
+            item_config.update({"Starshine Beach Purple Coin": {"filler": 140}})
+            item_config.update({"Rolling Coaster Purple Coin": {"filler": 110}})
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
