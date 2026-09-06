@@ -293,8 +293,7 @@
     },
     "Purple_Coinsanity": {
       "description": [
-        "Receive checks for collecting Purple Coins.",
-        "Note - this setting can significantly slow down generation. Use with caution."
+        "Receive checks for collecting Purple Coins."
       ],
       "display_name": "Purple Coinsanity",
       "type": "Toggle",
@@ -305,7 +304,8 @@
       "type": "Range",
       "description": [
         "How many purple coin items are needed to collect a purple coin star.",
-        "Maximum 100, minimum 0. Default is 50."
+        "Maximum 100, minimum 0. Default is 50.",
+        "Warning: High values can slow down generation"
       ],
       "display_name": "Purple Coin Count",
       "range_start": 0,
