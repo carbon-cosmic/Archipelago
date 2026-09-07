@@ -37,16 +37,13 @@
     "connects_to": [
       "Sky Station 1 - Green Hill Planet"
     ],
-    "exit_requires": {
-      "Sky Station 1 - Green Hill Planet": "|Has Ground Spin| or ({hard_logic()} and |Has Triple Jump| and |Has Wall Jump|)"
-    },
     "requires": ""
   },
   "Sky Station 1 - Green Hill Planet": {
     "connects_to": [
       "Sky Station 1 - Planetoids"
     ],
-    "requires": ""
+    "requires": "|Has Ground Spin| or ({hard_logic()} and |Has Triple Jump| and |Has Wall Jump|)"
   },
   "Sky Station 1 - Planetoids": {
     "connects_to": [
@@ -74,16 +71,13 @@
     "connects_to": [
       "Sky Station 2 - Sky Fleet Ship"
     ],
-    "exit_requires": {
-      "Sky Station 2 - Sky Fleet Ship": "|Has Ground Spin|"
-    },
     "requires": ""
   },
   "Sky Station 2 - Sky Fleet Ship": {
     "connects_to": [
       "Sky Station 2 - Flipswitch Planet"
     ],
-    "requires": ""
+    "requires": "|Has Ground Spin|"
   },
   "Sky Station 2 - Flipswitch Planet": {
     "connects_to": [
@@ -99,19 +93,13 @@
     "connects_to": [
       "Sky Station C - Rolling Carts"
     ],
-    "entrance_requires": {
-      "Sky Station Galaxy": "|Has Speedy Comets| and {OptOne(|Sky Station Comet Medal|)}"
-    },
-    "exit_requires": {
-      "Sky Station C - Rolling Carts": "|Has Ground Spin| or ({hard_logic()} and |Can Triple Jump| and |Has Wall Jump|)"
-    },
-    "requires": ""
+    "requires": "|Has Speedy Comets| and {OptOne(|Sky Station Comet Medal|)}"
   },
   "Sky Station C - Rolling Carts": {
     "connects_to": [
       "Sky Station C - Boss Planet"
     ],
-    "requires": ""
+    "requires": "|Has Ground Spin| or ({hard_logic()} and |Can Triple Jump| and |Has Wall Jump|)"
   },
   "Sky Station C - Boss Planet": {
     "connects_to": [],
@@ -129,49 +117,33 @@
     "connects_to": [
       "Yoshi Star 1 - Volcano Front"
     ],
-    "exit_requires": {
-      "Yoshi Star 1 - Volcano Front": "|Has Yoshi| or (|Can Long Spin| and {medium_logic()})"
-    },
     "requires": ""
   },
   "Yoshi Star 1 - Volcano Front": {
     "connects_to": [
       "Yoshi Star 1 - Dirt Planet"
     ],
-    "exit_requires": {
-      "Yoshi Star 1 - Dirt Planet": "|Has Yoshi|"
-    },
-    "requires": ""
+    "requires": "|Has Yoshi| or (|Can Long Spin| and {medium_logic()})"
   },
   "Yoshi Star 1 - Dirt Planet": {
     "connects_to": [
       "Yoshi Star 1 - Tower Planet"
     ],
-    "exit_requires": {
-      "Yoshi Star 1 - Tower Planet": "|Has Ground Spin|"
-    },
-    "requires": ""
+    "requires": "|Has Yoshi|"
   },
   "Yoshi Star 1 - Tower Planet": {
     "connects_to": [
       "Yoshi Star 1 - Fossil Planet"
     ],
-    "exit_requires": {
-      "Yoshi Star 1 - Fossil Planet": "|Has Yoshi|"
-    },
-    "requires": ""
-  },
+    "requires": "|Has Ground Spin|"  },
   "Yoshi Star 1 - Fossil Planet": {
     "connects_to": [],
-    "requires": ""
+    "requires": "|Has Yoshi|"
   },
   "Yoshi Star 2 - Start": {
     "connects_to": [
       "Yoshi Star 2 - Luma Planet"
     ],
-    "exit_requires": {
-      "Yoshi Star 2 - Luma Planet": "|Has Yoshi|"
-    },
     "requires": ""
   },
   "Yoshi Star 2 - Luma Planet": {
@@ -179,17 +151,13 @@
       "Yoshi Star 2 - Stone Planet",
       "Yoshi Star 2 - Secret Planet"
     ],
-    "exit_requires": {
-      "Yoshi Star 2 - Stone Planet": "|Has Yoshi|",
-      "Yoshi Star 2 - Secret Planet": "|Has Yoshi|"
-    },
-    "requires": ""
+    "requires": "|Has Yoshi|"
   },
   "Yoshi Star 2 - Secret Planet": {
     "connects_to": [
       "Yoshi Star 2 - Stone Planet"
     ],
-    "requires": ""
+    "requires": "|Has Yoshi"
   },
   "Yoshi Star 2 - Stone Planet": {
     "connects_to": [
@@ -202,11 +170,8 @@
     "requires": ""
   },
   "Yoshi Star C - Start": {
-    "entrance_requires": {
-      "Yoshi Star Galaxy": "|Has Romp Comets| and {OptOne(|Yoshi Star Comet Medal|)}"
-    },
     "connects_to": [],
-    "requires": ""
+    "requires": "|Has Romp Comets| and {OptOne(|Yoshi Star Comet Medal|)}"
   },
   "Spin-Dig Galaxy": {
     "connects_to": [
@@ -254,45 +219,33 @@
     "connects_to": [
       "Spin-Dig 2 - First Canister Section"
     ],
-    "exit_requires": {
-      "Spin-Dig 2 - First Canister Section": "(|Has Ground Spin| or |Jump Height 3| or (|Can Double| and {medium_logic()}))"
-    },
     "requires": ""
   },
   "Spin-Dig 2 - First Canister Section": {
     "connects_to": [
       "Spin-Dig 2 - Second Canister Section"
     ],
-    "exit_requires": {
-      "Spin-Dig 2 - Second Canister Section": "|Has Spin-Drill|"
-    },
-    "requires": ""
+    "requires": "(|Has Ground Spin| or |Jump Height 3| or (|Can Double| and {medium_logic()}))"
   },
   "Spin-Dig 2 - Second Canister Section": {
     "connects_to": [
       "Spin-Dig 2 - Starshroom"
     ],
-    "exit_requires": {
-      "Spin-Dig 2 - Starshroom": "|Has Spin-Drill| and |Has Ground Spin|"
-    },
-    "requires": ""
+    "requires": "|Has Spin-Drill|"
   },
   "Spin-Dig 2 - Starshroom": {
     "connects_to": [
       "Spin-Dig 2 - Silver Stars"
     ],
-    "requires": ""
+    "requires": "|Has Spin-Drill| and |Has Ground Spin|"
   },
   "Spin-Dig 2 - Silver Stars": {
     "connects_to": [],
     "requires": ""
   },
   "Spin-Dig C - Digga-Leg": {
-    "entrance_requires": {
-      "Spin-Dig Galaxy": "|Has Daredevil Comets| and {OptOne(|Spin-Dig Comet Medal|)}"
-    },
     "connects_to": [],
-    "requires": ""
+    "requires": "|Has Daredevil Comets| and {OptOne(|Spin-Dig Comet Medal|)}"
   },
   "Fluffy Bluff Galaxy": {
     "connects_to": [
@@ -305,9 +258,6 @@
     "connects_to": [
       "Fluffy Bluff 1 - Start Building"
     ],
-    "exit_requires": {
-      "Fluffy Bluff 1 - Start Building": "|Can Make Ground Clouds| or |Jump Height 3| or (|Has Double Jump| and |Has Cloud| and {medium_logic()})"
-    },
     "requires": ""
   },
   "Fluffy Bluff 1 - Start Building": {
@@ -319,7 +269,7 @@
       "Fluffy Bluff 1 - Hungry Luma Cloud": "|Can Make Clouds| or (|Has Cloud| and (|Has Long Jump| or |Has Ground Spin|) and {medium_logic()})",
       "Fluffy Bluff 1 - Clifftops": "|Has Cloud| or (|Jump Height 6| and {hard_logic()})"
     },
-    "requires": ""
+    "requires": "|Can Make Ground Clouds| or |Jump Height 3| or (|Has Double Jump| and |Has Cloud| and {medium_logic()})"
   },
   "Fluffy Bluff 1 - Hungry Luma Cloud": {
     "connects_to": [
@@ -332,38 +282,29 @@
     "connects_to": [
       "Fluffy Bluff 1 - Fountain Planet"
     ],
-    "exit_requires": {
-      "Fluffy Bluff 1 - Fountain Planet": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Has Wall Jump| and {medium_logic()}) or (|Has Cloud| and |Has Long Jump| and |Has Wall Jump| and {medium_logic()})"
-    },
     "requires": ""
   },
   "Fluffy Bluff 1 - Fountain Planet": {
     "connects_to": [
       "Fluffy Bluff 1 - Waterfall"
     ],
-    "requires": ""
+    "requires": "|Can Make Clouds| or (|Can Make Ground Clouds| and |Has Wall Jump| and {medium_logic()}) or (|Has Cloud| and |Has Long Jump| and |Has Wall Jump| and {medium_logic()})"
   },
   "Fluffy Bluff 1 - Waterfall": {
     "connects_to": [
       "Fluffy Bluff 1 - Waterfall Top"
     ],
-    "exit_requires": {
-      "Fluffy Bluff 1 - Waterfall Top": "|Can Make Clouds| or (|Can Wall Spin| and |Jump Height 4| and {medium_logic()}) or (|Has Cloud| and ((|Has Ground Spin| and {medium_logic()}) or (|Has Wall Jump| and {hard_logic()})))"
-    },
     "requires": ""
   },
   "Fluffy Bluff 1 - Waterfall Top": {
     "connects_to": [
       "Fluffy Bluff 1 - Treetops"
     ],
-    "exit_requires": {
-      "Fluffy Bluff 1 - Treetops": "|Can Make Clouds| or (|Has Cloud| and {medium_logic()})"
-    },
-    "requires": ""
+    "requires": "|Can Make Clouds| or (|Can Wall Spin| and |Jump Height 4| and {medium_logic()}) or (|Has Cloud| and ((|Has Ground Spin| and {medium_logic()}) or (|Has Wall Jump| and {hard_logic()})))"
   },
   "Fluffy Bluff 1 - Treetops": {
     "connects_to": [],
-    "requires": ""
+    "requires": "|Can Make Clouds| or (|Has Cloud| and {medium_logic()})"
   },
   "Fluffy Bluff 2 - Landing": {
     "connects_to": [
@@ -375,11 +316,8 @@
     "requires": ""
   },
   "Fluffy Bluff 2 - Tree": {
-    "entrance_requires": {
-      "Fluffy Bluff 2 - Landing": "|Has Long Jump|"
-    },
     "connects_to": [],
-    "requires": ""
+    "requires": "|Has Long Jump|"
   },
   "Fluffy Bluff S - Tower": {
     "connects_to": [
@@ -388,11 +326,8 @@
     "requires": ""
   },
   "Fluffy Bluff S - On Tower": {
-    "entrance_requires": {
-      "Fluffy Bluff S - Tower": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and {hard_logic()}) or (|Can Make Ground Clouds| and {hard_logic()})"
-    },
     "connects_to": [],
-    "requires": ""
+    "requires": "|Can Make Clouds| or (|Has Cloud| and |Can Back or Sideflip| and |Has Wall Jump| and {hard_logic()}) or (|Can Make Ground Clouds| and {hard_logic()})"
   },
   "Flip-Swap Galaxy": {
     "connects_to": [
