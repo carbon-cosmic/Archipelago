@@ -340,59 +340,41 @@
     "connects_to": [
       "Flip-Swap - Main"
     ],
-    "exit_requires": {
-      "Flip-Swap - Main": "|Has Air Spin| or |Has Long Jump| or {hard_logic()}"
-    },
     "requires": ""
   },
   "Flip-Swap - Main": {
     "connects_to": [
       "Flip-Swap - Star"
     ],
-    "exit_requires": {
-      "Flip-Swap - Star": "|Has Air Spin| or |Has Long Jump| or (|Has Ground Spin| and {hard_logic()})"
-    },
-    "requires": ""
+    "requires": "|Has Air Spin| or |Has Long Jump| or {hard_logic()}"
   },
   "Flip-Swap - Star": {
     "connects_to": [],
-    "requires": ""
+    "requires": "|Has Air Spin| or |Has Long Jump| or (|Has Ground Spin| and {hard_logic()})"
   },
   "Flip-Swap C - Start Blue Panels": {
     "connects_to": [
       "Flip-Swap C - Start Red Panels",
       "Flip-Swap C - 1-Up Platform"
     ],
-    "entrance_requires": {
-      "Flip-Swap Galaxy": "|Has Purple Comets| and {OptOne(|Flip-Swap Comet Medal|)}"
-    },
-    "requires": ""
+    "requires": "|Has Purple Comets| and {OptOne(|Flip-Swap Comet Medal|)}"
   },
   "Flip-Swap C - Start Red Panels": {
-    "entrance_requires": {
-      "Flip-Swap C - Start Blue Panels": "|Has Air Spin| or {hard_logic()}"
-    },
     "connects_to": [],
-    "requires": ""
+    "requires": "|Has Air Spin| or {hard_logic()}"
   },
   "Flip-Swap C - 1-Up Platform": {
     "connects_to": [
       "Flip-Swap C - Electric Fences Blue Panels"
     ],
-    "entrance_requires": {
-      "Flip-Swap C - Start Blue Panels": "|Has Air Spin| or |Has Long Jump| or {medium_logic()}"
-    },
-    "requires": ""
+    "requires": "|Has Air Spin| or |Has Long Jump| or {medium_logic()}"
   },
   "Flip-Swap C - Electric Fences Blue Panels": {
     "connects_to": [
       "Flip-Swap C - Electric Fences Red Panels",
       "Flip-Swap C - First Chomp Platform"
     ],
-    "entrance_requires": {
-      "Flip-Swap C - 1-Up Platform": "|Has Air Spin| or ({hard_logic()} and |Has Ground Spin|)"
-    },
-    "requires": ""
+    "requires": "|Has Air Spin| or ({hard_logic()} and |Has Ground Spin|)"
   },
   "Flip-Swap C - Electric Fences Red Panels": {
     "connects_to": [
@@ -508,11 +490,8 @@
     "requires": ""
   },
   "Fiery Flotilla C - Gobblegut": {
-    "entrance_requires": {
-      "Bowser Jr.'s Fiery Flotilla": "|Has Speedy Comets| and {OptOne(|Fiery Flotilla Comet Medal|)}"
-    },
     "connects_to": [],
-    "requires": ""
+    "requires": "|Has Speedy Comets| and {OptOne(|Fiery Flotilla Comet Medal|)}"
   },
   "World 2": {
     "requires": "|Grand Star (World 2 Access)|",

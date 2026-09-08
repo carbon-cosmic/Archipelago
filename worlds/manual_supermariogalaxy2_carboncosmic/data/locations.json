@@ -1537,7 +1537,7 @@
     },
     {
       "name": "The Great Crate Incinerator",
-      "requires": "",
+      "requires": "|Has Fire|",
       "region": "Rightside Down - Gearmo",
       "category": [
         "World 1",
@@ -1547,7 +1547,7 @@
     },
     {
       "name": "Rightside Down S - Bottom Left Crate 1-Up",
-      "requires": "",
+      "requires": "|Has Fire|",
       "region": "Rightside Down - Gearmo",
       "category": [
         "World 1",
