@@ -564,7 +564,7 @@
     "requires": ""
   },
   "Puzzle Plank S - Boss Planet": {
-    "requires": "|Can Make Clouds|",
+    "requires": "|Can Make Clouds| or (|Medium Logic| and |Can Make Ground Clouds| and |Can Long Jump|)",
     "connects_to": []
   },
   "Hightail Falls Galaxy": {
@@ -607,10 +607,7 @@
     "connects_to": [
       "Hightail Falls C - Giant Ramp"
     ],
-    "entrance_requires": {
-      "Hightail Falls Galaxy": "|Has Speedy Comets| and {OptOne(|Hightail Falls Comet Medal|)}"
-    },
-    "requires": ""
+    "requires": "|Has Speedy Comets| and {OptOne(|Hightail Falls Comet Medal|)}"
   },
   "Hightail Falls C - Giant Ramp": {
     "connects_to": [
@@ -862,7 +859,7 @@
     "connects_to": [
       "Lava Lair - Flomps"
     ],
-    "requires": "|Has Ground Pound| or ({medium_logic()} and (|Jump Height 5|)) or {hard_logic()}"
+    "requires": "|Has Ground Pound| or ({medium_logic()} and (|Jump Height 5| or |Has Backflip|)) or {hard_logic()}"
   },
   "Lava Lair - Flomps": {
     "connects_to": [
@@ -914,7 +911,7 @@
     "connects_to": [
       "Lava Lair C - Flomps"
     ],
-    "requires": "|Has Ground Pound| or ({medium_logic()} and (|Jump Height 5|)) or {hard_logic()}"
+    "requires": "|Has Ground Pound| or ({medium_logic()} and (|Jump Height 5|) or |Has Backflip|)"
   },
   "Lava Lair C - Flomps": {
     "connects_to": [

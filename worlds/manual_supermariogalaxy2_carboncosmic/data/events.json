@@ -225,7 +225,7 @@
   },
   {
     "name": "Can Climb Whomps",
-    "requires": "|Can Wall Spin| or (|Has Air Spin| and {medium_logic()}) or {hard_logic()}"
+    "requires": "|Can Wall Spin| or (|Can Triple Jump| and |Can Wall Jump|) or ((|Has Air Spin| or |Has Backflip|) and {medium_logic()}) or {hard_logic()}"
   },
   {
     "name": "Jack O'Goomba Teleporter",
