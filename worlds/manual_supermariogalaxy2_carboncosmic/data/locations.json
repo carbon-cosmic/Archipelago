@@ -4433,9 +4433,9 @@
       "sort-key": "row-0432"
     },
     {
-      "name": "Flipsville 2 - Silver Stars 1-Up on Right",
+      "name": "Flipsville - Switching Gravity 1-Up",
       "requires": "",
-      "region": "Flipsville 2 - Silver Stars",
+      "region": "Flipsville - Gravity 1-Up",
       "category": [
         "World 4",
         "1-Ups"
@@ -6297,7 +6297,8 @@
       "region": "Boom Bunker - Boomerang Bros.",
       "category": [
         "World 5",
-        "1-Ups"
+        "1-Ups",
+        "Not 1-Up Mushroom"
       ],
       "sort-key": "row-0611"
     },
@@ -6337,7 +6338,8 @@
       "region": "Boom Bunker - Spinning Platforms",
       "category": [
         "World 5",
-        "1-Ups"
+        "1-Ups",
+        "Not 1-Up Mushroom"
       ],
       "sort-key": "row-0615"
     },
@@ -6367,7 +6369,8 @@
       "region": "Boom Bunker C - Dark Matter",
       "category": [
         "World 5",
-        "1-Ups"
+        "1-Ups",
+        "Not 1-Up Mushroom"
       ],
       "sort-key": "row-0618"
     },
@@ -6647,7 +6650,8 @@
       "region": "Clockwork Ruins - Rolling Drums Top",
       "category": [
         "World 6",
-        "1-Ups"
+        "1-Ups",
+        "Not 1-Up Mushroom"
       ],
       "sort-key": "row-0646a"
     },
@@ -6657,7 +6661,8 @@
       "region": "Clockwork Ruins - Rolling Drums Top",
       "category": [
         "World 6",
-        "1-Ups"
+        "1-Ups",
+        "Not 1-Up Mushroom"
       ],
       "sort-key": "row-0646b"
     },
@@ -6667,7 +6672,8 @@
       "region": "Clockwork Ruins - Rolling Drums Top",
       "category": [
         "World 6",
-        "1-Ups"
+        "1-Ups",
+        "Not 1-Up Mushroom"
       ],
       "sort-key": "row-0646c"
     },

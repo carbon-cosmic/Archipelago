@@ -1532,7 +1532,11 @@
   },
   "Flipsville 2 - Silver Stars": {
     "requires": "|Has Spin-Drill|",
-    "connects_to": []
+    "connects_to": ["Flipsville - Gravity 1-Up"]
+  },
+  "Flipsville - Gravity 1-Up": {
+    "connects_to": [],
+    "requires": ""
   },
   "Flipsville C - Purple Coins Start": {
     "connects_to": [
@@ -1542,7 +1546,7 @@
   },
   "Flipsville C - Purple Coins": {
     "requires": "|Has Spin-Drill|",
-    "connects_to": []
+    "connects_to": ["Flipsville - Gravity 1-Up"]
   },
   "Starshine Beach Galaxy": {
     "connects_to": [
@@ -1576,7 +1580,7 @@
   },
   "Starshine Beach - Hut Roof": {
     "entrance_requires": {
-      "Starshine Beach 1 - Beach": "|Has Yoshi| and {medium_logic()}",
+      "Starshine Beach 1 - Beach": "|Has Yoshi|",
       "Starshine Beach 2 - Beach w. Clouds": "|Can Make Ground Clouds|"
     },
     "connects_to": [],
@@ -1674,11 +1678,11 @@
     "connects_to": [
       "Chompworks 1 - Lava Chomp Planet"
     ],
-    "requires": "|Has Ground Spin|"
+    "requires": ""
   },
   "Chompworks 1 - Lava Chomp Planet": {
     "connects_to": [],
-    "requires": ""
+    "requires": "|Has Ground Spin|"
   },
   "Chompworks - Rolling Checkpoint": {
     "connects_to": [],
