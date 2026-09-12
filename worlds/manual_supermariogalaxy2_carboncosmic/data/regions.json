@@ -1983,7 +1983,7 @@
     "connects_to": [
       "Space Storm 2 - Tower"
     ],
-    "requires": "|Has Pull Stars| or (|Has Triple Jump| and {hard_logic()})"
+    "requires": "|Has Pull Stars| or (|Jump Height 6| and {hard_logic()})"
   },
   "Space Storm 2 - Tower": {
     "connects_to": [
@@ -2255,7 +2255,7 @@
     "connects_to": [
       "Boom Bunker - Spinning Platforms"
     ],
-    "requires": "|Has Cannon Permit|"
+    "requires": ""
   },
   "Boom Bunker - Spinning Platforms": {
     "connects_to": [
@@ -2283,7 +2283,7 @@
     "connects_to": [
       "Boom Bunker C - Dark Matter"
     ],
-    "requires": "|Has Cannon Permit|"
+    "requires": ""
   },
   "Boom Bunker C - Dark Matter": {
     "connects_to": [
@@ -2742,7 +2742,7 @@
     "connects_to": [
       "Galaxy Generator - Cloud Cylinder End"
     ],
-    "requires": "|Can Wall Spin| or |Can Long Spin| or |Can Make Clouds| or (|Has Long Jump| and {hard_logic()})"
+    "requires": "|Can Wall Spin| or |Can Make Clouds| or (|Can Long Spin| and {hard_logic()}) or (|Can Make Ground Clouds| and {medium_logic()})"
   },
   "Galaxy Generator - Cloud Cylinder End": {
     "connects_to": [
@@ -2825,7 +2825,7 @@
     "connects_to": [
       "Galaxy Generator C - Cloud Cylinder End"
     ],
-    "requires": "|Can Wall Spin| or |Can Long Spin| or |Can Make Clouds| or (|Has Long Jump| and {hard_logic()})"
+    "requires": "|Can Wall Spin| or |Can Make Clouds| or (|Can Long Spin| and {hard_logic()}) or (|Can Make Ground Clouds| and {medium_logic()})"
   },
   "Galaxy Generator C - Cloud Cylinder End": {
     "connects_to": [
