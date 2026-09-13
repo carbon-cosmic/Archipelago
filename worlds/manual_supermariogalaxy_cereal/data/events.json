@@ -80,8 +80,8 @@
     "requires": "{OptOne(|Star Ball|)}"
   },
   {
-    "name": "Has Manta Surfing",
-    "requires": "{OptOne(|Manta Surfing|)}"
+    "name": "Has Ray Surfing",
+    "requires": "{OptOne(|Ray Surfing|)}"
   },
   {
     "name": "Has Bubble",
@@ -122,6 +122,9 @@
   {
     "name": "Can Use Floaty Fluff",
     "requires": "|Has Ground Spin| and |Has Floaty Fluff|"
+  },
+  {
+    "remember to remove these if not needed!": true
   },
   {
     "name": "Has Speedy Comets",

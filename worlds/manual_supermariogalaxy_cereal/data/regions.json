@@ -87,6 +87,8 @@
       ]
     },
     "Good Egg - Bonus Room": {
+      "connects_to": [],
+      "requires": ""
     },
     "Good Egg 1 - Boulder Planet": {
       "connects_to": [
@@ -155,19 +157,24 @@
       ]
     },
     "Good Egg 2 - Star Planet": {
+      "connects_to": [],
+      "requires": ""
     },
     "Good Egg 3 - Start": {
       "connects_to": [
         "Good Egg - Bonus Room, Good Egg 3 - Chomp Planet"
       ],
-      "exit_requires": "|Can Ground Spin|"
+      "requires": ""
     },
     "Good Egg 3 - Chomp Planet": {
       "connects_to": [
         "Good Egg 3 - Chomp Bonus Room, Good Egg 3 - Fleet Planets"
-      ]
+      ],
+      "requires": "|Can Ground Spin|"
     },
     "Good Egg 3 - Chomp Bonus Room": {
+      "connects_to": [],
+      "requires": ""
     },
     "Good Egg 3 - Fleet Planets": {
       "connects_to": [
@@ -180,38 +187,40 @@
       "connects_to": [
         "Good Egg C - Boulder Planet"
       ],
-      "entrance_requires": [
+      "requires": [
         "{canAccessComet(0)} AND {OptOne(|Good Egg Comet Medal|)}"
       ]
     },
     "Good Egg C - Boulder Planet": {
       "connects_to": [
         "Good Egg C - Bean Planet"
-      ]
+      ],
+      "requires": ""
     },
     "Good Egg C - Bean Planet": {
       "connects_to": [
         "Good Egg C - Hollow Planet"
-      ]
+      ],
+      "requires": ""
     },
     "Good Egg C - Hollow Planet": {
       "connects_to": [
         "Good Egg C - Flipswitch Planet",
         "Good Egg C - Stairs Planet"
-      ]
+      ],
+      "requires": ""
     },
     "Good Egg C - Flipswitch Planet": {
       "connects_to": [
         "Good Egg C - Stairs Planet"
-      ]
+      ],
+      "requires": ""
     },
     "Good Egg C - Stairs Planet": {
       "connects_to": [
         "Good Egg C - Boss Planet"
       ],
-      "exit_requires": [
-        "|Can Ground Spin|"
-      ]
+      "requires": ""
     },
     "Good Egg C - Boss Planet": {
     },
@@ -220,18 +229,21 @@
         "Good Egg P - Red Planet",
         "Good Egg P - Egg Planet"
       ],
-      "entrance_requires": "{canAccessComet(4)} AND {OptOne(|Good Egg Comet Medal|)}",
-      "exit_requires": "|Can Ground Spin|"
+      "requires": "{canAccessComet(4)} AND {OptOne(|Good Egg Comet Medal|)}"
     },
     "Good Egg P - Red Planet": {
       "connects_to": [
         "Good Egg P - Egg Planet"
-      ]
+      ],
+      "requires": "|Can Ground Spin|"
     },
     "Good Egg P - Egg Planet": {
+      "connects_to": [],
+      "requires": "|Can Ground Spin|"
     },
     "Good Egg L - Luigi": {
-      "entrance_requires": "|Good Egg Luigi Letter|"
+      "connects_to": [],
+      "requires": "|Good Egg Luigi Letter|"
     },
     "Honeyhive Galaxy": {
       "connects_to": [
@@ -247,7 +259,8 @@
         "Honeyhive 1 - Pond Ledge",
         "Honeyhive 1 - Behind the Waterfall",
         "Honeyhive 1 - Right Ledge"
-      ]
+      ],
+      "requires": ""
     },
     "Loopdeeloop Galaxy": {
       "connects_to": [
@@ -257,10 +270,11 @@
     "Loopdeeloop - Start": {
       "connects_to": [
         "Loopdeeloop - Track"
-      ],
-      "exit_requires": "|Has Manta Surfing|"
+      ]
     },
     "Loopdeeloop - Track": {
+      "connects_to": [],
+      "requires": "|Has Ray Surfing|"
     },
     "Switcheroo Galaxy": {
       "connects_to": [
@@ -268,6 +282,8 @@
       ]
     },
     "Switcheroo - Flipswitches": {
+      "connects_to": [],
+      "requires": ""
     },
     "Bowser Jr.'s Robot Reactor": {
       "connects_to": [
@@ -280,14 +296,18 @@
       ]
     },
     "Robot Reactor - Megaleg": {
+      "connects_to": [],
+      "requires": ""
     },
     "Sweet Sweet Galaxy": {
       "connects_to": [
         "Sweet Sweet - Landing"
       ],
-      "entrance_requires": "|Power Star (Sweet Sweet Access)|"
+      "requires": "|Power Star (Sweet Sweet Access)|"
     },
     "Sweet Sweet - Landing": {
+      "connects_to": [],
+      "requires": ""
     },
     "Fountain": {
       "connects_to": [
