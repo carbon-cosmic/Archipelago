@@ -1,26 +1,26 @@
 [
   {
-    "name": "Can Ground Spin",
-    "requires": "{OptAll(|Spin| and |Progressive Spin|)}"
+    "name": "Has Ground Spin",
+    "requires": "{OptAll(|Spin| and |Progressive Spin|)} or {YamlCompare(Movement_Randomization == 1)}"
   },
   {
-    "name": "Can Air Spin",
-    "requires": "{OptAll(|Spin| and |Progressive Spin:2|)}"
+    "name": "Has Air Spin",
+    "requires": "{OptAll(|Spin| and |Progressive Spin:2|)} or ({OptOne(|Progressive Spin|)} and {YamlCompare(Movement_Randomization == 1)})"
   },
   {
     "name": "Can Back or Sideflip",
     "requires": "{OptAll(|Backflip| or |Sideflip|)}"
   },
   {
-    "name": "Can Backflip",
+    "name": "Has Backflip",
     "requires": "{OptOne(|Backflip|)}"
   },
   {
-    "name": "Can Sideflip",
+    "name": "Has Sideflip",
     "requires": "{OptOne(|Sideflip|)}"
   },
   {
-    "name": "Can Wall Jump",
+    "name": "Has Wall Jump",
     "requires": "{OptOne(|Wall Jump|)}"
   },
   {
@@ -28,19 +28,23 @@
     "requires": "|Can Air Spin| and |Can Wall Jump|"
   },
   {
-    "name": "Can Ground Pound",
+    "name": "Has Ground Pound",
     "requires": "{OptOne(|Ground Pound|)}"
   },
   {
-    "name": "Can Long Jump",
+    "name": "Has Long Jump",
     "requires": "{OptOne(|Long Jump|)}"
   },
   {
-    "name": "Can Double Jump",
+    "name": "Can Long Spin",
+    "requires": "|Has Long Jump| and |Has Air Spin|"
+  },
+  {
+    "name": "Has Double Jump",
     "requires": "{OptAll(|Triple Jump| and |Progressive Triple Jump|)}"
   },
   {
-    "name": "Can Triple Jump",
+    "name": "Has Triple Jump",
     "requires": "{OptAll(|Triple Jump| and |Progressive Triple Jump:2|)}"
   },
   {
@@ -116,6 +120,58 @@
     "requires": "{OptOne(|Floaty Fluff|)}"
   },
   {
+    "name": "Can Use Floaty Fluff",
+    "requires": "|Has Ground Spin| and |Has Floaty Fluff|"
+  },
+  {
+    "name": "Has Speedy Comets",
+    "requires": "{OptAll(|Prankster Comets| and |Speedy Comets|)}"
+  },
+  {
+    "name": "Has Daredevil Comets",
+    "requires": "{OptAll(|Prankster Comets| and |Daredevil Comets|)}"
+  },
+  {
+    "name": "Has Cosmic Comets",
+    "requires": "{OptAll(|Prankster Comets| and |Cosmic Comets|)}"
+  },
+  {
+    "name": "Has Fast Foes Comets",
+    "requires": "{OptAll(|Prankster Comets| and |Fast Foes Comets|)}"
+  },
+  {
+    "name": "Has Purple Comets",
+    "requires": "{OptAll(|Prankster Comets| and |Purple Comets|)}"
+  },
+  {
+    "name": "Jump Height 6",
+    "requires": "|Has Triple Jump| and |Has Air Spin|"
+  },
+  {
+    "name": "Jump Height 5",
+    "requires": "|Jump Height 6| or |Has Triple Jump| or (|Has Air Spin| and |Can Back or Sideflip|)"
+  },
+  {
+    "name": "Jump Height 4",
+    "requires": "|Jump Height 5| or (|Has Air Spin| and |Has Double Jump|)"
+  },
+  {
+    "name": "Jump Height 3",
+    "requires": "|Jump Height 4| or |Can Back or Sideflip| or |Has Air Spin|"
+  },
+  {
+    "name": "Jump Height 2",
+    "requires": "|Jump Height 3| or |Has Double Jump|"
+  },
+  {
+    "name": "Narrow Jump 3",
+    "requires": "|Can Back or Sideflip| or |Has Air Spin|"
+  },
+  {
+    "name": "Narrow Jump 5",
+    "requires": "|Can Back or Sideflip| and |Has Air Spin|"
+  },
+  {
     "name": "Medium Logic",
     "requires": "{YamlCompare(Logic_Difficulty >= 1)}"
   },
@@ -130,5 +186,13 @@
   {
     "name": "Can Break Crates",
     "requires": "|Can Ground Spin| or |Can Ground Pound|"
+  },
+  {
+    "name": "Can Enter Galaxy Reactor",
+    "requires": "{OptionCount(@Power and Grand Stars, Galaxy_Reactor_Star_Count)}"
+  },
+  {
+    "name": "Can Enter Grand Finale Galaxy",
+    "requires": "{OptionCount(@Power and Grand Stars, Grand_Finale_Star_Count)}"
   }
 ]
