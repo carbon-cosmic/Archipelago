@@ -73,7 +73,7 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     else:
         world.options.OneUp_Mushroom_Toggle.value = False
         world.options.Not_OneUp_Mushroom_Toggle.value = False
-    #Prankster Comet Randomization handling
+    #Prankster Comet randomization handling
     if world.options.Comet_Randomization.value == 2:
         world.options.Prankster_Type_Toggle.value = True
     pass
@@ -83,14 +83,15 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = []  # List of location names
     # Removing the duplicated goal location
+    goal_number = world.options.goal
     goal_location_names = {
         0: "Bowser's Fortified Fortress",
         1: "The Ultimate Test",
         2: "The Perfect Run",
         3: "Starship Mario Refueled"
     }
-    if world.options.goal.value != 3:
-        locationNamesToRemove.append(goal_location_names[world.options.goal.value])
+    if goal_number != 3:
+        locationNamesToRemove.append(goal_location_names[goal_number])
 
 
     for region in multiworld.regions:

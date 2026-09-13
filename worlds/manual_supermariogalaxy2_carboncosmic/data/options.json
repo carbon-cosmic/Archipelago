@@ -310,7 +310,8 @@
       "display_name": "Purple Coin Count",
       "range_start": 0,
       "default": 50,
-      "range_end": 100
+      "range_end": 100,
+      "group": "Randomization Options"
     }
   }
 }

@@ -99,7 +99,7 @@
     "connects_to": [
       "Sky Station C - Boss Planet"
     ],
-    "requires": "|Has Ground Spin| or ({hard_logic()} and |Can Triple Jump| and |Has Wall Jump|)"
+    "requires": "|Has Ground Spin| or ({hard_logic()} and |Has Triple Jump| and |Has Wall Jump|)"
   },
   "Sky Station C - Boss Planet": {
     "connects_to": [],
@@ -157,7 +157,7 @@
     "connects_to": [
       "Yoshi Star 2 - Stone Planet"
     ],
-    "requires": "|Has Yoshi"
+    "requires": "|Has Yoshi|"
   },
   "Yoshi Star 2 - Stone Planet": {
     "connects_to": [
@@ -225,7 +225,7 @@
     "connects_to": [
       "Spin-Dig 2 - Second Canister Section"
     ],
-    "requires": "(|Has Ground Spin| or |Jump Height 3| or (|Can Double| and {medium_logic()}))"
+    "requires": "(|Has Ground Spin| or |Jump Height 3| or (|Has Double Jump| and {medium_logic()}))"
   },
   "Spin-Dig 2 - Second Canister Section": {
     "connects_to": [
@@ -564,7 +564,7 @@
     "requires": ""
   },
   "Puzzle Plank S - Boss Planet": {
-    "requires": "|Can Make Clouds| or (|Medium Logic| and |Can Make Ground Clouds| and |Can Long Jump|)",
+    "requires": "|Can Make Clouds| or ({medium_logic()} and |Can Make Ground Clouds| and |Has Long Jump|)",
     "connects_to": []
   },
   "Hightail Falls Galaxy": {
