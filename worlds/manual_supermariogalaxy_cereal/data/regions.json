@@ -188,7 +188,7 @@
         "Good Egg C - Boulder Planet"
       ],
       "requires": [
-        "{canAccessComet(0)} AND {OptOne(|Good Egg Comet Medal|)}"
+        "{canAccessComet(0, Good Egg)}"
       ]
     },
     "Good Egg C - Boulder Planet": {
@@ -229,7 +229,7 @@
         "Good Egg P - Red Planet",
         "Good Egg P - Egg Planet"
       ],
-      "requires": "{canAccessComet(4)} AND {OptOne(|Good Egg Comet Medal|)}"
+      "requires": "{canAccessComet(4, Good Egg)}"
     },
     "Good Egg P - Red Planet": {
       "connects_to": [
@@ -317,7 +317,7 @@
         "Hurry-Scurry Galaxy",
         "Bowser's Star Reactor"
       ],
-      "entrance_requires": "|Grand Star (Fountain Access)|"
+      "requires": "|Grand Star (Fountain Access)|"
     },
     "Space Junk Galaxy": {
       "connects_to": [
@@ -332,20 +332,23 @@
       "connects_to": [
         "Space Junk 1 - Star Chips"
       ],
-      "exit_requires": "|Has Pull Stars|"
+      "requires": ""
     },
     "Space Junk 1 - Star Chips": {
       "connects_to": [
         "Space Junk 1 - Pull Stars"
-      ]
+      ],
+      "requires": "|Has Pull Stars|"
     },
     "Space Junk 1 - Pull Stars": {
       "connects_to": [
         "Space Junk 1 - Silver Stars"
       ],
-      "exit_requires": "|Can Ground Spin|"
+      "requires": ""
     },
     "Space Junk 1 - Silver Stars": {
+      "connects_to": [],
+      "requires": "|Can Ground Spin|"
     },
     "Space Junk 2 - Starshrooms": {
       "connects_to": [
@@ -355,18 +358,17 @@
     "Space Junk 2 - Bridge Airship": {
       "connects_to": [
         "Space Junk 2 - Magikoopa Airship"
-      ],
-      #
-      #
-      "exit_requires": "|Has Ground Spin| or (|Can Long Jump| and |Hard Logic|)"
+      ]
     },
     "Space Junk 2 - Magikoopa Airship": {
       "connects_to": [
         "Space Junk - 2 Boss Airships"
       ],
-      "exit_requires": "|Has Koopa Shell|"
+      "requires": "|Has Ground Spin| or (|Can Long Jump| and |Hard Logic|)"
     },
     "Space Junk 2 - Boss Airships": {
+      "connects_to": [],
+      "requires": "|Has Koopa Shell|"
     },
     "Space Junk 3 - Start": {
       "connects_to": [
@@ -375,42 +377,47 @@
     },
     "Space Junk 3 - Terrarium Planet": {
       "connects_to": [
-        "Space Junk 3 - Sling Pods",
+        "Space Junk 3 - Sling Pods Start",
         "Space Junk S - Yoshi Planet"
       ],
-      "entrance_requires": "|Has Pull Stars|"
+      "requires": "|Has Pull Stars|"
+    },
+    "Space Junk 3 - Sling Pods Start": {
+      "connects_to": ["Space Junk 3 - Sling Pods"],
+      "requires": ""
     },
     "Space Junk 3 - Sling Pods": {
+      "connects_to": [],
+      "requires": "|Has Sling Pods|"
     },
     "Space Junk C - Start": {
       "connects_to": [
         "Space Junk C - Star Chips"
       ],
-      "entrance_requires": "{canAccessComet(0)} AND {OptOne(Space Junk Comet Medal)}",
-      "exit_requires": "|Has Pull Stars|"
+      "requires": "{canAccessComet(0, Space Junk)}"
     },
     "Space Junk C - Star Chips": {
       "connects_to": [
         "Space Junk C - Pull Stars"
-      ]
+      ],
+      "requires": "|Has Pull Stars|"
     },
     "Space Junk C - Pull Stars": {
       "connects_to": [
         "Space Junk C - Silver Stars"
-      ],
-      "exit_requires": "|Can Ground Spin|"
+      ]
     },
     "Space Junk C - Silver Stars": {
+      "connects_to": [],
+      "requires": "|Can Ground Spin|"
     },
     "Space Junk P - Purple Coins": {
-      "entrance_requires": [
-        "{canAccessComet(4)} AND {OptOne(Space Junk Comet Medal)}"
-      ]
+      "connects_to": [],
+      "requires": "{canAccessComet(4, Space Junk)}"
     },
     "Space Junk S - Yoshi Planet": {
-      "entrance_requires": [
-        "|Can Ground Spin| or |Hard Logic|"
-      ]
+      "connects_to": [],
+      "requires": "|Can Ground Spin| or |Hard Logic|"
     },
     "Rolling Green Galaxy": {
       "connects_to": [
@@ -421,9 +428,11 @@
       "connects_to": [
         "Rolling Green - Main Planet"
       ],
-      "exit_requires": "|Has Star Ball|"
+      "requires": ""
     },
     "Rolling Green - Main Planet": {
+      "connects_to": [],
+      "requires": "|Has Star Ball|"
     },
     "Battlerock Galaxy": {
       "connects_to": [
@@ -435,121 +444,141 @@
       ]
     },
     "Battlerock 1 - Start": {
-      "connects_to": "Battlerock 1 - Cannons",
-      "exit_requires": "|Has Pull Stars|"
+      "connects_to": [
+        "Battlerock 1 - Cannons"
+      ],
+      "requires": ""
     },
     "Battlerock 1 - Cannons": {
       "connects_to": [
         "Battlerock 1 - End UFOs"
       ],
-      "entrance_requires": "|Has Screwdriver|"
+      "requires": "|Has Screwdriver| and |Has Pull Stars|"
     },
     "Battlerock 1 - End UFOs": {
+      "connects_to": [],
+      "requires": ""
     },
     "Battlerock 2 - Start": {
-      "connects_to": "Battlerock 2 - Molecule Planet",
-      "exit_requires": "|Has Bob-ombs|"
+      "connects_to": ["Battlerock 2 - Molecule Planet"],
+      "requires": ""
     },
     "Battlerock 2 - Molecule Planet": {
       "connects_to": [
         "Battlerock 2 - Pull Stars",
         "Battlerock S - Ammo Depot"
       ],
-      "exit_requires": "|Has Bob-ombs|"
+      "requires": "|Has Bob-ombs|"
     },
     "Battlerock 2 - Pull Stars": {
       "connects_to": [
         "Battlerock 2 - Cannon Cylinder"
       ],
-      "exit_requires": "{OptOne(|Pull Stars|)}"
+      "requires": ""
     },
     "Battlerock 2 - Cannon Cylinder": {
       "connects_to": [
         "Battlerock 2 - Torpedo Planet"
       ],
-      "exit_requires": "|Has Cannon Permit|"
+      "requires": "|Has Pull Stars|"
     },
     "Battlerock 2 - Torpedo Planet": {
+      "connects_to": [],
+      "requires": "|Has Cannon Permit|"
     },
     "Battlerock 3 - Start": {
       "connects_to": [
         "Battlerock 3 - Pillar Planet"
       ],
-      "exit_requires": "|Has Pull Stars|"
+      "requires": ""
     },
     "Battlerock 3 - Pillar Planet": {
       "connects_to": [
         "Battlerock 3 - 2D Section"
       ],
-      "exit_requires": "|Can Ground Spin|"
+      "requires": "|Has Pull Stars|"
     },
     "Battlerock 3 - 2D Section": {
       "connects_to": [
         "Battlerock 3 - Boss"
-      ]
+      ],
+      "requires": "|Has Ground Spin|"
     },
     "Battlerock 3 - Boss": {
+      "connects_to": [],
+      "requires": ""
     },
     "Battlerock C - Boss Planet": {
-      "entrance_requires": [
-        "{canAccessComet(1)} AND {OptOne(|Battlerock Comet Medal|)}"
-      ]
+      "connects_to": [],
+      "requires": "{canAccessComet(1, Battlerock)}"
     },
     "Battlerock P - Cannons": {
-      "entrance_requires": [
-        "{canAccessComet(4)} AND {OptOne(|Battlerock Comet Medal|)}"
-      ]
+      "connects_to": [],
+      "requires": "{canAccessComet(4, Battlerock)}"
     },
     "Battlerock S - Ammo Depot": {
+      "connects_to": [],
+      "requires": ""
     },
     "Hurry-Scurry Galaxy": {
       "connects_to": [
         "Hurry-Scurry - Start"
-      ]
+      ],
+      "requires": ""
     },
     "Hurry-Scurry - Start": {
       "connects_to": [
         "Hurry-Scurry - Satellite"
-      ]
+      ],
+      "requires": ""
     },
     "Hurry-Scurry - Satellite": {
+      "connects_to": [],
+      "requires": ""
     },
     "Bowser's Star Reactor": {
       "connects_to": [
         "Star Reactor - Start"
-      ]
+      ],
+      "requires": ""
     },
     "Star Reactor - Start": {
       "connects_to": [
         "Star Reactor - 2D Section"
-      ]
+      ],
+      "requires": ""
     },
     "Star Reactor - 2D Section": {
       "connects_to": [
         "Star Reactor - Firebars"
-      ]
+      ],
+      "requires": ""
     },
     "Star Reactor - Firebars": {
+      "connects_to": [],
+      "requires": ""
     },
     "Sling Pod Galaxy": {
       "connects_to": [
         "Sling Pod - Cannons"
       ],
-      "entrance_requires": "|Power Star (Sling Pod Access)|"
+      "requires": "|Power Star (Sling Pod Access)|"
     },
     "Sling Pod - Cannons": {
       "connects_to": [
         "Sling Pod - Pull Stars"
       ],
-      "entrance_requires": "|Has Sling Pods|"
+      "requires": "|Has Sling Pods|"
     },
     "Sling Pod - Pull Stars": {
       "connects_to": [
         "Sling Pod - Firebars"
       ],
-      "entrance_requires": "|Has Pull Stars|"
+      "requires": "|Has Pull Stars|"
     },
     "Sling Pod - Firebars": {
+      "connects_to": [],
+      "requires": ""
     },
     "Kitchen": {
       "connects_to": [
