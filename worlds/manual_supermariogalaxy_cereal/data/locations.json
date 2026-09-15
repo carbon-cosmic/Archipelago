@@ -1,7 +1,7 @@
 [
   {
-    "name": "Comet Observatory Garage Crate 1-Up",
-    "requires": "{OptOne(|Ground Pound|)} OR {OptOne(|Spin|)}",
+    "name": "Comet Observatory - Garage Crate 1-Up",
+    "requires": "|Can Break Crates|",
     "region": "Comet Observatory",
     "category": [
       "Rosalina's Observatory",
@@ -10,8 +10,8 @@
     "sort-key": "row-01-001"
   },
   {
-    "name": "Comet Observatory Top Spire 1-Up",
-    "requires": "{OptOne(|Red Star|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
+    "name": "Comet Observatory - Top Spire 1-Up",
+    "requires": "|Red Crystals|",
     "region": "Comet Observatory",
     "category": [
       "Rosalina's Observatory",
@@ -20,7 +20,7 @@
     "sort-key": "row-01-002"
   },
   {
-    "name": "Comet Observatory Green Bars 1-Up",
+    "name": "Comet Observatory - Green Bars 1-Up",
     "requires": "",
     "region": "Comet Observatory",
     "category": [
@@ -30,7 +30,7 @@
     "sort-key": "row-01-003"
   },
   {
-    "name": "Comet Observatory Kitchen Steps 1-Up",
+    "name": "Comet Observatory - Kitchen Steps 1-Up",
     "requires": "",
     "region": "Comet Observatory",
     "category": [
@@ -40,8 +40,8 @@
     "sort-key": "row-01-004"
   },
   {
-    "name": "Comet Observatory 1-Up Below the Gate",
-    "requires": "{OptOne(|Red Star|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}",
+    "name": "Comet Observatory - 1-Up Below the Gate",
+    "requires": "|Red Crystals|",
     "region": "Comet Observatory",
     "category": [
       "Rosalina's Observatory",
@@ -51,8 +51,8 @@
   },
   {
     "name": "Grand Star Rescue",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Gateway Galaxy",
+    "requires": "",
+    "region": "Gateway 1 - Strange Machine",
     "category": [
       "Gateway",
       "Power Stars"
@@ -60,9 +60,9 @@
     "sort-key": "row-02-001"
   },
   {
-    "name": "Gateway 1 1-Up On Rock",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Gateway Galaxy",
+    "name": "Gateway 1 - 1-Up On Rock",
+    "requires": "",
+    "region": "Gateway 1 - Meteor Planet",
     "category": [
       "Gateway",
       "1-Ups"
@@ -71,8 +71,8 @@
   },
   {
   "name": "Gateway's Purple Coins",
-  "requires": "{OptOne(|Gateway Purple Coin:100|)} AND {OptOne(|Spin|)} AND {OptOne(|Red Star|)}",
-  "region": "Gateway Galaxy",
+  "requires": "{OptOne(|Gateway Purple Coin:100|)} and |Has Flight|",
+  "region": "Gateway 2 - In Air",
   "category": [
     "Gateway",
     "Power Stars"
@@ -161,8 +161,8 @@
  },
   {
     "name": "Dino Piranha",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Good Egg Galaxy",
+    "requires": "|Can Ground Spin|",
+    "region": "Good Egg 1 - Boss Planet",
     "category": [
       "Terrace",
       "Power Stars"
@@ -170,19 +170,19 @@
     "sort-key": "row-03-001"
   },
   {
-    "name": "Good Egg 1 Bonus Room 1-Up",
+    "name": "Good Egg 1 - Bonus Room ? Coin",
     "requires": "",
     "region": "Good Egg Galaxy",
     "category": [
       "Terrace",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-03-002"
   },
   {
-    "name": "Good Egg 1 ?-Tiles Planet 1-Up",
+    "name": "Good Egg - Bonus Room 1-Up",
     "requires": "",
-    "region": "Good Egg Galaxy",
+    "region": "Good Egg - Bonus Room",
     "category": [
       "Terrace",
       "1-Ups"
@@ -190,39 +190,39 @@
     "sort-key": "row-03-003"
   },
   {
-    "name": "Good Egg 1 Octoomba Stairs Planet 1-Up",
+    "name": "Good Egg 1 - Bean Planet ? Coin",
+    "requires": "",
+    "region": "Good Egg Galaxy",
+    "category": [
+      "Terrace",
+      "? Coins"
+    ],
+    "sort-key": "row-03-004"
+  },
+  {
+    "name": "Good Egg 1 - Flipswitch Planet 1-Up",
+    "requires": "",
+    "region": "Good Egg 1 - Flipswitch Planet",
+    "category": [
+      "Terrace",
+      "1-Ups"
+    ],
+    "sort-key": "row-03-005"
+  },
+  {
+    "name": "Good Egg 1 - Octoomba Stairs Planet 1-Up",
     "requires": "",
     "region": "Good Egg Galaxy",
     "category": [
       "Terrace",
       "1-Ups"
     ],
-    "sort-key": "row-03-004"
-  },
-  {
-    "name": "Good Egg 1 Bonus Room ? Coin",
-    "requires": "",
-    "region": "Good Egg Galaxy",
-    "category": [
-      "Terrace",
-      "? Coins"
-    ],
-    "sort-key": "row-03-005"
-  },
-  {
-    "name": "Good Egg 1 Bean Planet ? Coin",
-    "requires": "",
-    "region": "Good Egg Galaxy",
-    "category": [
-      "Terrace",
-      "? Coins"
-    ],
     "sort-key": "row-03-006"
   },
   {
     "name": "A Snack of Cosmic Proportions",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Good Egg Galaxy",
+    "requires": "|Has Air Spin| or |Has Pull Stars| or |Has Long Jump|",
+    "region": "Good Egg 2 - Star Planet",
     "category": [
       "Terrace",
       "Power Stars"
@@ -230,9 +230,9 @@
     "sort-key": "row-03-007"
   },
   {
-    "name": "Good Egg 2 Hungry Luma Planet 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Good Egg Galaxy",
+    "name": "Good Egg 2 - Hungry Luma Planet 1-Up",
+    "requires": "",
+    "region": "Good Egg 2 - Hungry Luma Planet",
     "category": [
       "Terrace",
       "1-Ups"
@@ -240,9 +240,9 @@
     "sort-key": "row-03-008"
   },
   {
-    "name": "Good Egg 2 Pill Planet 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Good Egg Galaxy",
+    "name": "Good Egg 2 - Pill Planet 1-Up",
+    "requires": "",
+    "region": "Good Egg 2 - Pill Planet",
     "category": [
       "Terrace",
       "1-Ups"
@@ -251,8 +251,8 @@
   },
   {
     "name": "King Kaliente's Battle Fleet",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Good Egg Galaxy",
+    "requires": "",
+    "region": "Good Egg 3 - Boss Planet",
     "category": [
       "Terrace",
       "Power Stars"
@@ -260,29 +260,29 @@
     "sort-key": "row-03-010"
   },
   {
-    "name": "Good Egg 3 Airship Crate Life Mushroom",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Good Egg Galaxy",
+    "name": "Good Egg 3 - Chomp Planet Bonus Room ? Coin",
+    "requires": "",
+    "region": "Good Egg 3 - Chomp Bonus Room",
     "category": [
       "Terrace",
-      "Life Mushrooms"
+      "? Coins"
     ],
     "sort-key": "row-03-011"
   },
   {
-    "name": "Good Egg 3 Chomp Planet Bonus Room ? Coin",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Good Egg Galaxy",
+    "name": "Good Egg 3 - Airship Crate Life Mushroom",
+    "requires": "|Has Ground Spin|",
+    "region": "Good Egg 3 - Fleet Planets",
     "category": [
       "Terrace",
-      "? Coins"
+      "Life Mushrooms"
     ],
     "sort-key": "row-03-012"
   },
   {
     "name": "Dino Piranha Speed Run",
-    "requires": "{OptOne(|Speedy Comets|)} AND {OptOne(|Good Egg Comet Medal|)} AND {OptOne(|Spin|)}",
-    "region": "Good Egg Galaxy",
+    "requires": "|Has Ground Spin|",
+    "region": "Good Egg C - Boss Planet",
     "category": [
       "Terrace",
       "Power Stars"
@@ -291,8 +291,8 @@
   },
   {
   "name": "Purple Coin Omelet",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Good Egg Comet Medal|)} AND {OptOne(|Good Egg Purple Coin:100|)} AND {OptOne(|Spin|)}",
-  "region": "Good Egg Galaxy",
+  "requires": "|Has Ground Spin| and |Purple Coin Amounts When I figure those out|",
+  "region": "Good Egg P - Pear Planet",
   "category": [
     "Terrace",
     "Power Stars"
@@ -302,7 +302,7 @@
   {
     "name": "Luigi on the Roof",
     "requires": "|Good Egg Luigi Letter|",
-    "region": "Good Egg Galaxy",
+    "region": "Good Egg 1 - Start",
     "category": [
       "Terrace",
       "Power Stars"
@@ -311,8 +311,8 @@
   },
   {
     "name": "Bee Mario Takes Flight",
-    "requires": "{OptOne(|Bee Mushroom|)}",
-    "region": "Honeyhive Galaxy (3)",
+    "requires": "",
+    "region": "Honeyhive 1 - Tree Top",
     "category": [
       "Terrace",
       "Power Stars"
@@ -320,9 +320,9 @@
     "sort-key": "row-03-016"
   },
   {
-    "name": "Honeyhive 1 Behind Stump-Pipe 1-Up",
-    "requires": "{YamlEnabled(Advanced_Logic)} OR ({OptOne(|Triple Jump|)} OR {OptOne(|Bee Mushroom|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})))",
-    "region": "Honeyhive Galaxy (3)",
+    "name": "Honeyhive - Starting Area Ledge 1-Up",
+    "requires": "",
+    "region": "Honeyhive 1 - Start",
     "category": [
       "Terrace",
       "1-Ups"
@@ -330,49 +330,49 @@
     "sort-key": "row-03-017"
   },
   {
-    "name": "Honeyhive 1 Flower Lake Planet 1-Up",
-    "requires": "{OptOne(|Bee Mushroom|)}",
+    "name": "Honeyhive 1 - Fountain ? Coin",
+    "requires": "",
     "region": "Honeyhive Galaxy (3)",
     "category": [
       "Terrace",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-03-018"
   },
   {
-    "name": "Honeyhive Starting Area Ledge 1-Up",
+    "name": "Honeyhive - Right Ledge Bonus Room ? Coin",
     "requires": "",
-    "region": "Honeyhive Galaxy (3)",
+    "region": "Honeyhive - Right Ledge Bonus Room",
     "category": [
       "Terrace",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-03-019"
   },
   {
-    "name": "Honeyhive 1 Fountain ? Coin",
+    "name": "Honeyhive 1 - Behind Stump-Pipe 1-Up",
     "requires": "",
-    "region": "Honeyhive Galaxy (3)",
+    "region": "Honeyhive 1 - Behind the Waterfall",
     "category": [
       "Terrace",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-03-020"
   },
   {
-    "name": "Honeyhive 1 Right Ledge Bonus Room ? Coin",
-    "requires": "{OptOne(|Wall Jump|)} OR {OptOne(|Bee Mushroom|)}",
-    "region": "Honeyhive Galaxy (3)",
+    "name": "Honeyhive 1 - Flower Lake Planet 1-Up",
+    "requires": "|Has Bee|",
+    "region": "Honeyhive 1 - Flower Lake",
     "category": [
       "Terrace",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-03-021"
   },
   {
-    "name": "Honeyhive 1 Honeycomb ? Coin",
-    "requires": "{OptOne(|Bee Mushroom|)}",
-    "region": "Honeyhive Galaxy (3)",
+    "name": "Honeyhive 1 - Honeycomb ? Coin",
+    "requires": "|Has Bee|",
+    "region": "Honeyhive 1 - Honeycomb Planet",
     "category": [
       "Terrace",
       "? Coins"
@@ -381,8 +381,8 @@
   },
   {
     "name": "Trouble on the Tower",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Honeyhive Galaxy (3)",
+    "requires": "|Has Ground Pound|",
+    "region": "Honeyhive 2 - Tower Top",
     "category": [
       "Terrace",
       "Power Stars"
@@ -390,29 +390,29 @@
     "sort-key": "row-03-023"
   },
   {
-    "name": "Honeyhive 2 Life Mushroom Below Windmill",
-    "requires": "{OptOne(|Wall Jump|)} AND ({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
+    "name": "Honeyhive 2 - Piranha Plant Planet ? Coin",
+    "requires": "",
+    "region": "Honeyhive 2 - Long Planets",
     "category": [
       "Terrace",
-      "Life Mushrooms"
+      "? Coins"
     ],
     "sort-key": "row-03-024"
   },
   {
-    "name": "Honeyhive 2 Piranha Plant Planet ? Coin",
-    "requires": "{OptOne(|Wall Jump|)} AND ({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
+    "name": "Honeyhive 2 - Life Mushroom Below Windmill",
+    "requires": "",
+    "region": "Honeyhive 2 - Tower",
     "category": [
       "Terrace",
-      "? Coins"
+      "Life Mushrooms"
     ],
     "sort-key": "row-03-025"
   },
   {
     "name": "Big Bad Bugaboom",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Bee Mushroom|)}",
-    "region": "Honeyhive Galaxy (3)",
+    "requires": "|Has Ground Pound|",
+    "region": "Honeyhive 3 - Bugaboom Arena",
     "category": [
       "Terrace",
       "Power Stars"
@@ -420,19 +420,19 @@
     "sort-key": "row-03-026"
   },
   {
-    "name": "Honeyhive 3 Honey Path 1-Up",
-    "requires": "{OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})) OR ({OptOne(|Bee Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}))",
-    "region": "Honeyhive Galaxy (3)",
+    "name": "Honeyhive 3 - Wooden Circle Life Mushroom",
+    "requires": "",
+    "region": "Honeyhive 3 - Pond Ledge",
     "category": [
       "Terrace",
-      "1-Ups"
+      "Life Mushrooms"
     ],
     "sort-key": "row-03-027"
   },
   {
-    "name": "Honeyhive 3 Honey Queen's Back 1-Up",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Honeyhive Galaxy (3)",
+    "name": "Honeyhive 3 - Honey Path 1-Up",
+    "requires": "",
+    "region": "Honeyhive 3 - Back Path",
     "category": [
       "Terrace",
       "1-Ups"
@@ -440,9 +440,9 @@
     "sort-key": "row-03-028"
   },
   {
-    "name": "Honeyhive 3 Bugaboom's 1-Up",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Honeyhive Galaxy (3)",
+    "name": "Honeyhive 3 - Honey Queen's Back 1-Up",
+    "requires": "|Bee Crystals|",
+    "region": "Honeyhive 3 - Behind the Waterfall",
     "category": [
       "Terrace",
       "1-Ups"
@@ -450,12 +450,12 @@
     "sort-key": "row-03-029"
   },
   {
-    "name": "Honeyhive 3 Wooden Circle Life Mushroom",
+    "name": "Honeyhive 3 - Bugaboom's 1-Up",
     "requires": "",
-    "region": "Honeyhive Galaxy (3)",
+    "region": "Honeyhive 3 - Bugaboom Arena",
     "category": [
       "Terrace",
-      "Life Mushrooms"
+      "1-Ups"
     ],
     "sort-key": "row-03-030"
   },
@@ -481,8 +481,8 @@
 },
   {
     "name": "Luigi in the Honeyhive Kingdom",
-    "requires": "|Honeyhive Luigi Letter| AND {OptOne(|Bee Mushroom|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)})",
-    "region": "Honeyhive Galaxy (3)",
+    "requires": "|Honeyhive Luigi Letter|",
+    "region": "Honeyhive 1 - Pond Ledge",
     "category": [
       "Terrace",
       "Power Stars"
@@ -491,8 +491,8 @@
   },
   {
     "name": "Surfing 101",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Loopdeeloop Galaxy (5)",
+    "requires": "",
+    "region": "Loopdeeloop - Track",
     "category": [
       "Terrace",
       "Power Stars"
@@ -500,9 +500,9 @@
     "sort-key": "row-03-034"
   },
   {
-    "name": "Loopdeloop Race 1-Up",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Loopdeeloop Galaxy (5)",
+    "name": "Loopdeloop - Race 1-Up",
+    "requires": "",
+    "region": "Loopdeeloop - Track",
     "category": [
       "Terrace",
       "1-Ups"
@@ -512,7 +512,7 @@
   {
     "name": "Painting the Planet Yellow",
     "requires": "",
-    "region": "Flipswitch Galaxy (7)",
+    "region": "Flipswitch - Flipswitches",
     "category": [
       "Terrace",
       "Power Stars"
@@ -522,7 +522,7 @@
   {
     "name": "Megaleg's Moon",
     "requires": "",
-    "region": "Bowser Jr.'s Robot Reactor (8)",
+    "region": "Robot Reactor - Megaleg",
     "category": [
       "Terrace",
       "Power Stars"
@@ -530,9 +530,9 @@
     "sort-key": "row-03-037"
   },
   {
-    "name": "Bowser Jr's Robot Reactor Starting Planet 1-Up",
+    "name": "Robot Reactor - Starting Planet 1-Up",
     "requires": "",
-    "region": "Bowser Jr.'s Robot Reactor (8)",
+    "region": "Robot Reactor - Start",
     "category": [
       "Terrace",
       "1-Ups"
@@ -540,9 +540,9 @@
     "sort-key": "row-03-038"
   },
   {
-    "name": "Bowser Jr's Robot Reactor Megaleg's 1-Up",
+    "name": "Robot Reactor - Megaleg's 1-Up",
     "requires": "",
-    "region": "Bowser Jr.'s Robot Reactor (8)",
+    "region": "Robot Reactor - Megaleg",
     "category": [
       "Terrace",
       "1-Ups"
@@ -552,7 +552,7 @@
   {
     "name": "Rocky Road",
     "requires": "",
-    "region": "Sweet Sweet Galaxy (7)",
+    "region": "Sweet Sweet - Landing",
     "category": [
       "Terrace",
       "Power Stars"
@@ -562,7 +562,7 @@
   {
     "name": "Sweet Sweet 1-Up",
     "requires": "",
-    "region": "Sweet Sweet Galaxy (7)",
+    "region": "Sweet Sweet - Landing",
     "category": [
       "Terrace",
       "1-Ups"
@@ -571,8 +571,8 @@
   },
   {
     "name": "Pull Star Path",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Spin|)}",
-    "region": "Space Junk Galaxy (9)",
+    "requires": "",
+    "region": "Space Junk 1 - Silver Stars",
     "category": [
       "Fountain",
       "Power Stars"
@@ -581,8 +581,8 @@
   },
   {
     "name": "Kamella's Airship Attack",
-    "requires": "{OptOne(|Koopa Shell|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})) AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Spin|)})",
-    "region": "Space Junk Galaxy (9)",
+    "requires": "",
+    "region": "Space Junk 2 - Boss Airships",
     "category": [
       "Fountain",
       "Power Stars"
@@ -590,9 +590,9 @@
     "sort-key": "row-04-002"
   },
   {
-    "name": "Space Junk 2 Space Rock 1-Up",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Space Junk Galaxy (9)",
+    "name": "Space Junk 2 - Space Rock 1-Up",
+    "requires": "(|Has Ground Spin| or (|Has Long Jump| and |Hard Logic|)) and (|Has Air Spin| or (|Has Long Jump| and (|Jump Height 3| or |Hard Logic|)))",
+    "region": "Space Junk 2 - Bridge Airship",
     "category": [
       "Fountain",
       "1-Ups"
@@ -600,9 +600,9 @@
     "sort-key": "row-04-003"
   },
   {
-    "name": "Space Junk 2 Final Airship Right Chest Life Mushroom",
-    "requires": "{OptOne(|Koopa Shell|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Ground Pound|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Space Junk Galaxy (9)",
+    "name": "Space Junk 2 - Final Airship Right Chest Life Mushroom",
+    "requires": "|Has Koopa Shell|",
+    "region": "Space Junk 2 - Boss Airships",
     "category": [
       "Fountain",
       "Life Mushrooms"
@@ -611,8 +611,8 @@
   },
   {
     "name": "Tarantox's Tangled Web",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Sling Pods|)}",
-    "region": "Space Junk Galaxy (9)",
+    "requires": "",
+    "region": "Space Junk 3 - Sling Pods",
     "category": [
       "Fountain",
       "Power Stars"
@@ -620,9 +620,9 @@
     "sort-key": "row-04-005"
   },
   {
-    "name": "Space Junk 3 Rocket Life Mushroom",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Sling Pods|)} AND {OptOne(|Spin|)}",
-    "region": "Space Junk Galaxy (9)",
+    "name": "Space Junk 3 - Rocket Life Mushroom",
+    "requires": "|Has Ground Spin|",
+    "region": "Space Junk 3 - Sling Pods",
     "category": [
       "Fountain",
       "Life Mushrooms"
@@ -631,8 +631,8 @@
   },
   {
     "name": "Pull Star Path Speed Run",
-    "requires": "{OptOne(|Speedy Comets|)} AND {OptOne(|Space Junk Comet Medal|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Spin|)}",
-    "region": "Space Junk Galaxy (9)",
+    "requires": "",
+    "region": "Space Junk C - Silver Stars",
     "category": [
       "Fountain",
       "Power Stars"
@@ -641,8 +641,8 @@
   },
   {
   "name": "Purple Coin Spacewalk",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Space Junk Comet Medal|)}  AND {OptOne(|Space Junk Purple Coin:100|)}",
-  "region": "Space Junk Galaxy (9)",
+  "requires": "|Purple Coins here when i figure them out|",
+  "region": "Space Junk P - Purple Coins",
   "category": [
     "Fountain",
     "Power Stars"
@@ -651,8 +651,8 @@
 },
   {
     "name": "Yoshi's Unexpected Appearence",
-    "requires": "{OptOne(|Pull Stars|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Space Junk Galaxy (9)",
+    "requires": "",
+    "region": "Space Junk S - Yoshi Planet",
     "category": [
       "Fountain",
       "Power Stars"
@@ -661,8 +661,8 @@
   },
   {
     "name": "Rolling in the Clouds",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Green Galaxy (11)",
+    "requires": "",
+    "region": "Rolling Green - Main Planet",
     "category": [
       "Fountain",
       "Power Stars"
@@ -670,19 +670,19 @@
     "sort-key": "row-04-010"
   },
   {
-    "name": "Rolling Green Off the Path 1-Up",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Green Galaxy (11)",
+    "name": "Rolling Green - First ? Coin",
+    "requires": "",
+    "region": "Rolling Green - Main Planet",
     "category": [
       "Fountain",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-04-011"
   },
   {
-    "name": "Rolling Green First ? Coin",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Green Galaxy (11)",
+    "name": "Rolling Green - Middle ? Coin",
+    "requires": "",
+    "region": "Rolling Green - Main Planet",
     "category": [
       "Fountain",
       "? Coins"
@@ -690,19 +690,19 @@
     "sort-key": "row-04-012"
   },
   {
-    "name": "Rolling Green Middle ? Coin",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Green Galaxy (11)",
+    "name": "Rolling Green - Isolated 1-Up",
+    "requires": "",
+    "region": "Rolling Green Galaxy - Main Planet",
     "category": [
       "Fountain",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-04-013"
   },
   {
-    "name": "Rolling Green Final ? Coin",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Rolling Green Galaxy (11)",
+    "name": "Rolling Green - Final ? Coin",
+    "requires": "",
+    "region": "Rolling Green - Main Planet",
     "category": [
       "Fountain",
       "? Coins"
@@ -711,8 +711,8 @@
   },
   {
     "name": "Battlerock Barrage",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Screwdriver|)}",
-    "region": "Battlerock Galaxy (12)",
+    "requires": "",
+    "region": "Battlerock 1 - End UFOs",
     "category": [
       "Fountain",
       "Power Stars"
@@ -720,19 +720,19 @@
     "sort-key": "row-04-015"
   },
   {
-    "name": "Battlerock 1 Final UFO 1-Up",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Screwdriver|)}",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Battlerock 1 - Start ? Coin",
+    "requires": "",
+    "region": "Battlerock 1 - Start",
     "category": [
       "Fountain",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-04-016"
   },
   {
-    "name": "Battlerock 1 Start ? Coin",
+    "name": "Battlerock 1 - Moving UFO ? Coin",
     "requires": "",
-    "region": "Battlerock Galaxy (12)",
+    "region": "Battlerock 1 - Cannons",
     "category": [
       "Fountain",
       "? Coins"
@@ -740,19 +740,19 @@
     "sort-key": "row-04-017"
   },
   {
-    "name": "Battlerock 1 Moving UFO ? Coin",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Screwdriver|)}",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Battlerock 1 - Final UFO 1-Up",
+    "requires": "",
+    "region": "Battlerock 1 - End UFOs",
     "category": [
       "Fountain",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-04-018"
   },
   {
     "name": "Breaking into the Battlerock",
-    "requires": "{OptOne(|Bob-Ombs|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Spin|)} AND {OptOne(|Cannon Permit|)}",
-    "region": "Battlerock Galaxy (12)",
+    "requires": "",
+    "region": "Battlerock 2 - Torpedo Planet",
     "category": [
       "Fountain",
       "Power Stars"
@@ -760,9 +760,9 @@
     "sort-key": "row-04-019"
   },
   {
-    "name": "Battlerock 2 Under Pull Stars UFO 1-Up",
-    "requires": "{OptOne(|Bob-Ombs|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Battlerock 2 - Under Pull Stars UFO 1-Up",
+    "requires": "|Can Break Crates|",
+    "region": "Battlerock 2 - Pull Stars",
     "category": [
       "Fountain",
       "1-Ups"
@@ -770,9 +770,9 @@
     "sort-key": "row-04-020"
   },
   {
-    "name": "Battlerock 2 Pull Stars 1-Up",
-    "requires": "{OptOne(|Bob-Ombs|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Battlerock 2 - Pull Stars 1-Up",
+    "requires": "|Has Pull Stars|",
+    "region": "Battlerock 2 - Pull Stars",
     "category": [
       "Fountain",
       "1-Ups"
@@ -780,29 +780,29 @@
     "sort-key": "row-04-021"
   },
   {
-    "name": "Battlerock 2 Final Planet 1-Up",
-    "requires": "{OptOne(|Bob-Ombs|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Spin|)} AND {OptOne(|Cannon Permit|)}",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Battlerock 2 - Pull Star Life Mushroom",
+    "requires": "|Has Pull Stars|",
+    "region": "Battlerock 2 - Pull Stars",
     "category": [
       "Fountain",
-      "1-Ups"
+      "Life Mushrooms"
     ],
     "sort-key": "row-04-022"
   },
   {
-    "name": "Battlerock 2 Pull Star Life Mushroom",
-    "requires": "{OptOne(|Bob-Ombs|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Battlerock 2 - Torpedo Planet Caged 1-Up",
+    "requires": "",
+    "region": "Battlerock 2 - Torpedo Planet",
     "category": [
       "Fountain",
-      "Life Mushrooms"
+      "1-Ups"
     ],
     "sort-key": "row-04-023"
   },
   {
     "name": "Topmaniac and the Topman Tribe",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Spin|)}",
-    "region": "Battlerock Galaxy (12)",
+    "requires": "",
+    "region": "Battlerock 3 - Boss Planet",
     "category": [
       "Fountain",
       "Power Stars"
@@ -810,59 +810,59 @@
     "sort-key": "row-04-024"
   },
   {
-    "name": "Battlerock 3 2D 1-Up",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Spin|)}",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Battlerock 3 - Start ? Coin",
+    "requires": "",
+    "region": "Battlerock 3 - Start",
     "category": [
       "Fountain",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-04-025"
   },
   {
-    "name": "Battlerock 3 Luma Shop",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Spin|)}",
-    "region": "Battlerock Galaxy (12)",
-    "category": [
-      "Fountain",
-      "Luma Shops"
-    ],
-    "sort-key": "row-04-026"
-  },
-  {
-    "name": "Battlerock 3 Moving Pillar Life Mushroom",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Battlerock 3 - Moving Pillar Life Mushroom",
+    "requires": "",
+    "region": "Battlerock 3 - Pillar Planet",
     "category": [
       "Fountain",
       "Life Mushrooms"
     ],
-    "sort-key": "row-04-027"
+    "sort-key": "row-04-026"
   },
   {
-    "name": "Battlerock 3 Start ? Coin",
+    "name": "Battlerock 3 - 2D Section ? Coin",
     "requires": "",
-    "region": "Battlerock Galaxy (12)",
+    "region": "Battlerock 3 - 2D Section",
     "category": [
       "Fountain",
       "? Coins"
     ],
+    "sort-key": "row-04-027"
+  },
+  {
+    "name": "Battlerock 3 - 2D 1-Up",
+    "requires": "",
+    "region": "Battlerock 3 - 2D Section",
+    "category": [
+      "Fountain",
+      "1-Ups"
+    ],
     "sort-key": "row-04-028"
   },
   {
-    "name": "Battlerock 3 2D Section ? Coin",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Battlerock 3 - Luma Shop",
+    "requires": "",
+    "region": "Battlerock 3 - Boss Planet",
     "category": [
       "Fountain",
-      "? Coins"
+      "Luma Shops"
     ],
     "sort-key": "row-04-029"
   },
   {
     "name": "Topmaniac's Daredevil Run",
-    "requires": "{OptOne(|Daredevil Comets|)} AND {OptOne(|Battlerock Comet Medal|)} AND {OptOne(|Spin|)}",
-    "region": "Battlerock Galaxy (12)",
+    "requires": "|Has Ground Spin|",
+    "region": "Battlerock C - Boss Planet",
     "category": [
       "Fountain",
       "Power Stars"
@@ -870,39 +870,39 @@
     "sort-key": "row-04-030"
   },
   {
-  "name": "Purple Coins on the Battlerock",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Battlerock Comet Medal|)}  AND {OptOne(|Battlerock Purple Coin:100|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})",
-  "region": "Battlerock Galaxy (12)",
-  "category": [
-    "Fountain",
-    "Power Stars"
-  ],
-  "sort-key": "row-04-031"
-},
-  {
-    "name": "Battlerock Purple 1-Up",
-    "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Battlerock Comet Medal|)} ",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Purple Coins on the Battlerock",
+    "requires": "|Purple coins here when i figure them out| and |Narrow Jump 3|",
+    "region": "Battlerock P - Cannons",
     "category": [
       "Fountain",
-      "1-Ups"
+      "Power Stars"
+    ],
+    "sort-key": "row-04-031"
+  },
+  {
+    "name": "Battlerock P - Life Mushroom",
+    "requires": "",
+    "region": "Battlerock P - Cannons",
+    "category": [
+      "Fountain",
+      "Life Mushrooms"
     ],
     "sort-key": "row-04-032"
   },
   {
-    "name": "Battlerock Purple Life Mushroom",
-    "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Battlerock Comet Medal|)} ",
-    "region": "Battlerock Galaxy (12)",
+    "name": "Battlerock P - 1-Up",
+    "requires": "",
+    "region": "Battlerock P - Cannons",
     "category": [
       "Fountain",
-      "Life Mushrooms"
+      "1-Ups"
     ],
     "sort-key": "row-04-033"
   },
   {
     "name": "Battlerock's Garbage Dump",
-    "requires": "{OptOne(|Bob-Ombs|)}",
-    "region": "Battlerock Galaxy (12)",
+    "requires": "",
+    "region": "Battlerock S - Ammo Depot",
     "category": [
       "Fountain",
       "Power Stars"
@@ -911,8 +911,8 @@
   },
   {
     "name": "Luigi under the Saucer",
-    "requires": "|Battlerock Luigi Letter| AND {OptOne(|Pull Stars|)} AND {OptOne(|Screwdriver|)}",
-    "region": "Battlerock Galaxy (12)",
+    "requires": "|Battlerock Luigi Letter|",
+    "region": "Battlerock 1 - End UFOs",
     "category": [
       "Fountain",
       "Power Stars"
@@ -922,7 +922,7 @@
   {
     "name": "Shrinking Satellite",
     "requires": "",
-    "region": "Hurry-Scurry Galaxy (18)",
+    "region": "Hurry-Scurry - Satellite",
     "category": [
       "Fountain",
       "Power Stars"
@@ -932,7 +932,7 @@
   {
     "name": "Hurry-Scurry 1-Up",
     "requires": "",
-    "region": "Hurry-Scurry Galaxy (18)",
+    "region": "Hurry-Scurry - Start",
     "category": [
       "Fountain",
       "1-Ups"
@@ -941,8 +941,8 @@
   },
   {
     "name": "The Fiery Stronghold",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Bowser's Star Reactor (15)",
+    "requires": "|Has Ground Spin|",
+    "region": "Star Reactor - Firebars",
     "category": [
       "Fountain",
       "Power Stars"
@@ -950,9 +950,9 @@
     "sort-key": "row-04-038"
   },
   {
-    "name": "Bowser's Star Reactor Beginning Path 1-Up",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Bowser's Star Reactor (15)",
+    "name": "Star Reactor - Beginning Path 1-Up",
+    "requires": "|Has Ground Spin|",
+    "region": "Star Reactor - Start",
     "category": [
       "Fountain",
       "1-Ups"
@@ -960,9 +960,9 @@
     "sort-key": "row-04-039"
   },
   {
-    "name": "Bowser's Star Reactor Firebar 1-Up",
+    "name": "Star Reactor - Firebar 1-Up",
     "requires": "",
-    "region": "Bowser's Star Reactor (15)",
+    "region": "Star Reactor - Firebars",
     "category": [
       "Fountain",
       "1-Ups"
@@ -970,9 +970,9 @@
     "sort-key": "row-04-040"
   },
   {
-    "name": "Bowser's Star Reactor Meteor Steps Life Mushroom",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Bowser's Star Reactor (15)",
+    "name": "Star Reactor - Steps Life Mushroom",
+    "requires": "|Has Ground Spin|",
+    "region": "Star Reactor - Firebars",
     "category": [
       "Fountain",
       "Life Mushrooms"
@@ -981,8 +981,8 @@
   },
   {
     "name": "A Very Sticky Situation",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Sling Pods|)}",
-    "region": "Sling Pod Galaxy (9)",
+    "requires": "",
+    "region": "Sling Pod - Firebars",
     "category": [
       "Fountain",
       "Power Stars"
@@ -990,9 +990,9 @@
     "sort-key": "row-04-042"
   },
   {
-    "name": "Sling Pod Blue Walls 1-Up",
-    "requires": "{OptOne(|Sling Pods|)}",
-    "region": "Sling Pod Galaxy (9)",
+    "name": "Sling Pod - Blue Walls 1-Up",
+    "requires": "",
+    "region": "Sling Pod - Cannons",
     "category": [
       "Fountain",
       "1-Ups"
@@ -1000,9 +1000,9 @@
     "sort-key": "row-04-043"
   },
   {
-    "name": "Sling Pod Pull Star 1-Up",
-    "requires": "{OptOne(|Sling Pods|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Sling Pod Galaxy (9)",
+    "name": "Sling Pod - Pull Star 1-Up",
+    "requires": "",
+    "region": "Sling Pod - Pull Stars",
     "category": [
       "Fountain",
       "1-Ups"
@@ -1010,22 +1010,22 @@
     "sort-key": "row-04-044"
   },
   {
-    "name": "Sling Pod Firebar 1-Up",
-    "requires": "{OptOne(|Sling Pods|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Sling Pod Galaxy (9)",
+    "name": "Sling Pod ? Coin Before Firebars",
+    "requires": "",
+    "region": "Sling Pod - Firebars",
     "category": [
       "Fountain",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-04-045"
   },
   {
-    "name": "Sling Pod ? Coin Before Firebars",
-    "requires": "{OptOne(|Sling Pods|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Sling Pod Galaxy (9)",
+    "name": "Sling Pod Firebar 1-Up",
+    "requires": "",
+    "region": "Sling Pod - Firebars",
     "category": [
       "Fountain",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-04-046"
   },

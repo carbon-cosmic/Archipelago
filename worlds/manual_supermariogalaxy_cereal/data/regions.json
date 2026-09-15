@@ -76,8 +76,7 @@
         "Good Egg 2 - Start",
         "Good Egg 3 - Start",
         "Good Egg C - Start",
-        "Good Egg P - Pear Planet",
-        "Good Egg L - Luigi"
+        "Good Egg P - Pear Planet"
       ]
     },
     "Good Egg 1 - Start": {
@@ -162,13 +161,15 @@
     },
     "Good Egg 3 - Start": {
       "connects_to": [
-        "Good Egg - Bonus Room, Good Egg 3 - Chomp Planet"
+        "Good Egg - Bonus Room",
+        "Good Egg 3 - Chomp Planet"
       ],
       "requires": ""
     },
     "Good Egg 3 - Chomp Planet": {
       "connects_to": [
-        "Good Egg 3 - Chomp Bonus Room, Good Egg 3 - Fleet Planets"
+        "Good Egg 3 - Chomp Bonus Room",
+        "Good Egg 3 - Fleet Planets"
       ],
       "requires": "|Can Ground Spin|"
     },
@@ -179,16 +180,19 @@
     "Good Egg 3 - Fleet Planets": {
       "connects_to": [
         "Good Egg 3 - Boss Planet"
-      ]
+      ],
+      "requires": ""
     },
     "Good Egg 3 - Boss Planet": {
+      "connects_to": [],
+      "requires": ""
     },
     "Good Egg C - Start": {
       "connects_to": [
         "Good Egg C - Boulder Planet"
       ],
       "requires": [
-        "{canAccessComet(0, Good Egg)}"
+        "{can_access_comet(0, Good Egg)}"
       ]
     },
     "Good Egg C - Boulder Planet": {
@@ -229,7 +233,7 @@
         "Good Egg P - Red Planet",
         "Good Egg P - Egg Planet"
       ],
-      "requires": "{canAccessComet(4, Good Egg)}"
+      "requires": "{can_access_comet(4, Good Egg)}"
     },
     "Good Egg P - Red Planet": {
       "connects_to": [
@@ -240,10 +244,6 @@
     "Good Egg P - Egg Planet": {
       "connects_to": [],
       "requires": "|Can Ground Spin|"
-    },
-    "Good Egg L - Luigi": {
-      "connects_to": [],
-      "requires": "|Good Egg Luigi Letter|"
     },
     "Honeyhive Galaxy": {
       "connects_to": [
@@ -260,7 +260,221 @@
         "Honeyhive 1 - Behind the Waterfall",
         "Honeyhive 1 - Right Ledge"
       ],
+      "requires": "",
+      "exit_requires": {
+        "Honeyhive 1 - Pond Ledge": "|Can Slope Jump| or (|Has Ground Spin| and |Hard Logic|)",
+        "Honeyhive 1 - Behind the Waterfall": "|Can Wall Spin| or |Has Triple Jump| or |Has Bee| or |Narrow Jump 5| or |Can Long Spin| or |Hard Logic|",
+        "Honeyhive 1 - Right Ledge": "|Has Wall Jump|"
+      }
+    },
+    "Honeyhive 1 - Right Ledge": {
+      "connects_to": [
+        "Honeyhive - Right Ledge Bonus Room"
+      ],
       "requires": ""
+    },
+    "Honeyhive 1 - Pond Ledge": {
+      "connects_to": [
+        "Honeyhive 1 - Behind the Waterfall",
+        "Honeyhive 1 - Cliff Path"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Honeyhive 1 - Behind the Waterfall": "|Has Long Jump| or |Hard Logic| or |Has Air Spin|",
+        "Honeyhive 1 - Cliff Path": "|Can Wall Spin| and |Medium Logic|"
+      }
+    },
+    "Honeyhive 1 - Cliff Path": {
+      "connects_to": [
+        "Honeyhive 1 - Top Pond",
+        "Honeyhive 1 - Right Ledge"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Honeyhive 1 - Top Pond": "|Can Wall Spin| and |Medium Logic|",
+        "Honeyhive 1 - Right Ledge": "|Has Bee| and |Hard Logic|"
+      }
+    },
+    "Honeyhive 1 - Top Pond": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Honeyhive 1 - Behind the Waterfall": {
+      "connects_to": [
+        "Honeyhive 1 - Back Path"
+      ],
+      "requires": ""
+    },
+    "Honeyhive 1 - Back Path": {
+      "connects_to": [
+        "Honeyhive 1 - Flower Lake"
+      ],
+      "requires": "|Has Bee| or |Jump Height 5| or |Can Wall Spin|"
+    },
+    "Honeyhive 1 - Flower Lake": {
+      "connects_to": [
+        "Honeyhive 1 - Honeycomb Planet"
+      ],
+      "requires": ""
+    },
+    "Honeyhive 1 - Honeycomb Planet": {
+      "connects_to": [
+        "Honeyhive 1 - Tree Top"
+      ],
+      "requires": "|Has Bee|"
+    },
+    "Honeyhive 1 - Tree Top": {
+      "connects_to": [],
+      "requires": "|Has Bee|"
+    },
+    "Honeyhive 2 - Start": {
+      "connects_to": [
+        "Honeyhive 2 - Pond Ledge",
+        "Honeyhive 2 - Right Ledge"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Honeyhive 2 - Pond Ledge": "|Can Slope Jump| or (|Has Ground Spin| and |Hard Logic|) or |Has Ground Pound|",
+        "Honeyhive 2 - Right Ledge": "|Has Wall Jump|"
+      }
+    },
+    "Honeyhive 2 - Right Ledge": {
+      "connects_to": [
+        "Honeyhive - Right Ledge Bonus Room"
+      ],
+      "requires": ""
+    },
+    "Honeyhive 2 - Pond Ledge": {
+      "connects_to": [
+        "Honeyhive 2 - Cliff Path",
+        "Honeyhive 2 - Wall Jump Path"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Honeyhive 2 - Cliff Path": "|Can Wall Spin| and |Medium Logic|",
+        "Honeyhive 2 - Wall Jump Path": "|Has Ground Pound|"
+      }
+    },
+    "Honeyhive 2 - Cliff Path": {
+      "connects_to": [
+        "Honeyhive 2 - Top Pond"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Honeyhive 2 - Top Pond": "|Can Wall Spin| and |Medium Logic|"
+      }
+    },
+    "Honeyhive 2 - Wall Jump Path": {
+      "connects_to": [
+        "Honeyhive 2 - Top Pond"
+      ],
+      "requires": ""
+    },
+    "Honeyhive 2 - Top Pond": {
+      "connects_to": [
+        "Honeyhive 2 - Long Planets",
+        "Honeyhive 2 - Cliff Path"
+      ],
+      "requires": "",
+      "entrance_requires": {
+        "Honeyhive 2 - Cliff Path": "|Can Wall Spin| and |Medium Logic|",
+        "Honeyhive 2 - Wall Jump Path": "|Has Ground Pound| and (|Has Wall Jump|)"?
+      }
+    },
+    "Honeyhive 2 - Long Planets": {
+      "connects_to": [
+        "Honeyhive 2 - Tower",
+        "Honeyhive 2 - Tower Top"
+      ],
+      "requires": ""
+    },
+    "Honeyhive 2 - Tower": {
+      "connects_to": [
+        "Honeyhive 2 - Tower Top"
+      ],
+      "requires": ""
+    },
+    "Honeyhive 2 - Tower Top": {
+      "connects_to": [],
+      "requires": "",
+      "entrance_requires": {
+        "Honeyhive 2 - Tower": "|Has Ground Pound|",
+        "Honeyhive 2 - Long Planets": "|Hard Logic|"
+      }
+    },
+
+    "Honeyhive 3 - Start": {
+      "connects_to": [
+        "Honeyhive 3 - Pond Ledge",
+        "Honeyhive 3 - Behind the Waterfall",
+        "Honeyhive 3 - Right Ledge",
+        "Honeyhive 3 - Back Path"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Honeyhive 3 - Pond Ledge": "",
+        "Honeyhive 3 - Behind the Waterfall": "|Can Wall Spin| or |Has Triple Jump| or |Narrow Jump 5| or |Can Long Spin|",
+        "Honeyhive 3 - Right Ledge": "|Has Wall Jump|",
+        "Honeyhive 3 - Back Path": "|Has Air Spin| and |Hard Logic|"
+      }
+    },
+    "Honeyhive 3 - Right Ledge": {
+      "connects_to": [
+        "Honeyhive - Right Ledge Bonus Room"
+      ],
+      "requires": ""
+    },
+    "Honeyhive 3 - Pond Ledge": {
+      "connects_to": [
+        "Honeyhive 3 - Behind the Waterfall",
+        "Honeyhive 3 - Cliff Path"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Honeyhive 3 - Behind the Waterfall": "|Has Long Jump| or |Hard Logic| or |Has Air Spin| or |Bee Crystals|",
+        "Honeyhive 3 - Cliff Path": "|Can Wall Spin| and |Medium Logic|"
+      }
+    },
+    "Honeyhive 3 - Cliff Path": {
+      "connects_to": [
+        "Honeyhive 3 - Top Pond",
+        "Honeyhive 3 - Right Ledge"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Honeyhive 3 - Top Pond": "|Can Wall Spin| and |Medium Logic|",
+        "Honeyhive 3 - Right Ledge": "|Bee Crystals| and |Hard Logic|"
+      }
+    },
+    "Honeyhive 3 - Top Pond": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Honeyhive 3 - Behind the Waterfall": {
+      "connects_to": [
+        "Honeyhive 3 - Back Path",
+        "Honeyhive 3 - Arena Islands",
+        "Honeyhive 3 - Right Ledge"
+      ],
+      "requires": ""
+    },
+    "Honeyhive 3 - Back Path": {
+      "connects_to": [],
+      "requires": "",
+      "entrance_requires": {
+        "Honeyhive 3 - Behind the Waterfall": "|Bee Crystals| or |Jump Height 5| or |Can Wall Spin|",
+        "Honeyhive 3 - Start": "|Has Air Spin| and |Hard Logic|"
+      }
+    },
+    "Honeyhive 3 - Arena Islands": {
+      "connects_to": [
+        "Honeyhive 3 - Bugaboom Arena"
+      ],
+      "requires": ""
+    },
+    "Honeyhive 3 - Bugaboom Arena": {
+      "connects_to": [],
+      "requires": "|Bee Crystals|"
     },
     "Loopdeeloop Galaxy": {
       "connects_to": [
@@ -364,7 +578,7 @@
       "connects_to": [
         "Space Junk - 2 Boss Airships"
       ],
-      "requires": "|Has Ground Spin| or (|Can Long Jump| and |Hard Logic|)"
+      "requires": "|Has Ground Spin| or (|Can Long Jump| and |Has Ground Pound| and |Hard Logic|)"
     },
     "Space Junk 2 - Boss Airships": {
       "connects_to": [],
@@ -394,7 +608,7 @@
       "connects_to": [
         "Space Junk C - Star Chips"
       ],
-      "requires": "{canAccessComet(0, Space Junk)}"
+      "requires": "{can_access_comet(0, Space Junk)}"
     },
     "Space Junk C - Star Chips": {
       "connects_to": [
@@ -413,7 +627,7 @@
     },
     "Space Junk P - Purple Coins": {
       "connects_to": [],
-      "requires": "{canAccessComet(4, Space Junk)}"
+      "requires": "{can_access_comet(4, Space Junk)}"
     },
     "Space Junk S - Yoshi Planet": {
       "connects_to": [],
@@ -500,21 +714,21 @@
     },
     "Battlerock 3 - 2D Section": {
       "connects_to": [
-        "Battlerock 3 - Boss"
+        "Battlerock 3 - Boss Planet"
       ],
       "requires": "|Has Ground Spin|"
     },
-    "Battlerock 3 - Boss": {
+    "Battlerock 3 - Boss Planet": {
       "connects_to": [],
       "requires": ""
     },
     "Battlerock C - Boss Planet": {
       "connects_to": [],
-      "requires": "{canAccessComet(1, Battlerock)}"
+      "requires": "{can_access_comet(1, Battlerock)}"
     },
     "Battlerock P - Cannons": {
       "connects_to": [],
-      "requires": "{canAccessComet(4, Battlerock)}"
+      "requires": "{can_access_comet(4, Battlerock)}"
     },
     "Battlerock S - Ammo Depot": {
       "connects_to": [],
@@ -588,7 +802,7 @@
         "Buoy Base Galaxy",
         "Bowser Jr.'s Airship Armada"
       ],
-      "entrance_requires": "|Grand Star (Kitchen Access)|"
+      "requires": "|Grand Star (Kitchen Access)|"
     },
     "Beach Bowl Galaxy": {
       "connects_to": [
@@ -609,27 +823,68 @@
       "connects_to": [
         "Beach Bowl 1 - Top Pond Ledge"
       ],
-      "entrance_requires": "|Can Swim|",
-      "exit_requires": "|Can Ground Spin|"
+      "requires": "|Can Swim|"
     },
     "Beach Bowl 1 - Top Pond Ledge": {
       "connects_to": [
         "Beach Bowl 1 - Top Area"
       ],
-      "exit_requires": "|Can Ground Pound| or "
-      #
+      "requires": "|Has Ground Spin|"
     },
     "Beach Bowl 1 - Top Area": {
+      "connects_to": [],
+      "requires": "|Has Ground Pound| or ()"?
     },
     "Beach Bowl 2 - Ocean": {
       "connects_to": [
-        "Beach Bowl S - Waterfalls",
         "Beach Bowl 2 - Underwater"
       ]
     },
     "Beach Bowl 2 - Underwater": {
+      "connects_to": [
+        "Beach Bowl S - Waterfalls"
+      ],
+      "requires": "|Can Swim|"
+    },
+    "Beach Bowl 3 - Ocean": {
+      "connects_to": ["Beach Bowl 3 - Underwater"],
+      "requires": ""
+    },
+    "Beach Bowl 3 - Underwater": {
+      "connects_to": ["Beach Bowl 3 - Cavern", "Beach Bowl S - Waterfalls"],
+      "requires": "|Can Swim|"
+    },
+    "Beach Bowl 3 - Cavern": {
+      "connects_to": ["Beach Bowl 3 - Cyclone Stone"],
+      "requires": "|Has Koopa Shell|"
+    },
+    "Beach Bowl 3 - Cyclone Stone": {
+      "connects_to": [],
+      "requires": "|Has Ground Pound|"
     },
     "Beach Bowl S - Waterfalls": {
+      "connects_to": [],
+      "requires": "|Has Koopa Shell|"
+    },
+    "Beach Bowl C - Cyclone Stone": {
+      "connects_to": [],
+      "requires": "{can_access_comet(3, Beach Bowl)}"
+    },
+    "Beach Bowl P - Ocean": {
+      "connects_to": ["Beach Bowl P - Underwater", "Beach Bowl P - Top Pond Ledge"],
+      "requires": "{can_access_comet(4, Beach Bowl)}"
+    },
+    "Beach Bowl P - Underwater": {
+      "connects_to": [],
+      "requires": "|Can Swim|"
+    },
+    "Beach Bowl P - Top Pond Ledge": {
+      "connects_to": ["Beach Bowl P - Top Area"],
+      "requires": "(|Has Spring| and |Can Break Crates|) or (|Medium Logic| and (|Jump Height 6| or (|Has Air Spin| and |Has Backflip|)))"
+    },
+    "Beach Bowl P - Top Area": {
+      "connects_to": [""],
+      "requires": "?"?
     },
     "Bubble Breeze Galaxy": {
       "connects_to": [
@@ -640,19 +895,17 @@
       "connects_to": [
         "Bubble Breeze - Start Swamp"
       ],
-      "exit_requires": [
-        "|Has Bubble|"
-      ]
+      "requires": ""
     },
     "Bubble Breeze - Start Swamp": {
       "connects_to": [
         "Bubble Breeze End Swamp"
       ],
-      "exit_requires": [
-        "|Has Bubble|"
-      ]
+      "requires": "|Has Bubble|"
     },
     "Bubble Breeze - End Swamp": {
+      "connects_to": [],
+      "requires": ""
     },
     "Ghostly Galaxy": {
       "connects_to": []

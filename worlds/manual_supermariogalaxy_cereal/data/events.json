@@ -9,7 +9,7 @@
   },
   {
     "name": "Can Back or Sideflip",
-    "requires": "{OptAll(|Backflip| or |Sideflip|)}"
+    "requires": "|Has Backflip| or |Has Sideflip|"
   },
   {
     "name": "Has Backflip",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Can Wall Spin",
-    "requires": "|Can Air Spin| and |Can Wall Jump|"
+    "requires": "|Has Air Spin| and |Has Wall Jump|"
   },
   {
     "name": "Has Ground Pound",
@@ -74,6 +74,30 @@
   {
     "name": "Has Invincibility",
     "requires": "{OptOne(|Rainbow Star|)}"
+  },
+  {
+    "name": "Bee Crystals",
+    "requires": "|Has Bee| and |Can Break Crates|"
+  },
+  {
+    "name": "Boo Crystals",
+    "requires": "|Has Boo| and |Can Break Crates|"
+  },
+  {
+    "name": "Spring Crystals",
+    "requires": "|Has Spring| and |Can Break Crates|"
+  },
+  {
+    "name": "Fire Crystals",
+    "requires": "|Has Fire| and |Can Break Crates|"
+  },
+  {
+    "name": "Ice Crystals",
+    "requires": "|Has Ice| and |Can Break Crates|"
+  },
+  {
+    "name": "Red Crystals",
+    "requires": "|Has Flight| and |Can Break Crates|"
   },
   {
     "name": "Has Star Ball",
@@ -184,11 +208,15 @@
   },
   {
     "name": "Can Swim",
-    "requires": "|Can Ground Pound| or |Medium Logic|"
+    "requires": "|Has Ground Pound| or |Medium Logic|"
   },
   {
     "name": "Can Break Crates",
-    "requires": "|Can Ground Spin| or |Can Ground Pound|"
+    "requires": "|Has Ground Spin| or |Has Ground Pound|"
+  },
+  {
+    "name": "Can Slope Jump",
+    "requires": "|Has Air Spin| and |Medium Logic|"
   },
   {
     "name": "Can Enter Galaxy Reactor",

@@ -13,7 +13,7 @@ import re
 
 # You can also return a string from your function, and it will be evaluated as a requires string.
 
-def canAccessComet(type, galaxy):
+def can_access_comet(type, galaxy):
     if type == 4:
         return f"{{OptAll(|Grand Star (Purple Coins)| and |{galaxy} Comet Medal|)}}"
     comet_list = {
