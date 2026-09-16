@@ -1,0 +1,74 @@
+{
+  "1-Ups": {
+    "yaml_option": [
+      "1UPsanity"
+    ],
+    "hidden": true
+  },
+  "? Coins": {
+    "yaml_option": [
+      "Coinsanity"
+    ],
+    "hidden": true
+  },
+  "Life Mushrooms": {
+    "yaml_option": [
+      "Life_Shroomsanity"
+    ],
+    "hidden": true
+  },
+  "Luma Shops": {
+    "yaml_option": [
+      "Luma_Shopsanity"
+    ],
+    "hidden": true
+  },
+  "Purple Coin Locations": {
+    "yaml_option": [
+      "Purple_Coinsanity"
+    ],
+    "hidden": true
+  },
+  "Purple Coins": {
+    "yaml_option": [
+      "Purple_Coinsanity"
+    ],
+    "hidden": false
+  },
+  "Power Stars": {
+    "yaml_option": [
+      "Power_Star_Locations"
+    ],
+    "hidden": true
+  },
+  "Luigi": {
+    "yaml_option": [
+      "Unlockable_Luigi"
+    ],
+    "hidden": false
+  },
+  "Moves": {
+    "yaml_option": [
+      "Movement_Randomization"
+    ],
+    "hidden": false
+  },
+  "Powerups": {
+    "yaml_option": [
+      "Powerup_Randomization"
+    ],
+    "hidden": false
+  },
+"Mechanics": {
+    "yaml_option": [
+      "Mechanic_Randomization"
+    ],
+    "hidden": false
+  },
+   "Comet Medals": {
+     "yaml_option": [
+      "Comet_Medal_Items"
+    ],
+    "hidden": false
+  }
+}
