@@ -140,7 +140,7 @@
       "count": 1,
       "name": "Speedy Comets",
       "category": [
-        "Prankster Comets",
+        "Comets",
         "Prankster Comet Type"
       ],
       "progression": true
@@ -149,7 +149,7 @@
       "count": 1,
       "name": "Daredevil Comets",
       "category": [
-        "Prankster Comets",
+        "Comets",
         "Prankster Comet Type"
       ],
       "progression": true
@@ -158,7 +158,7 @@
       "count": 1,
       "name": "Purple Comets",
       "category": [
-        "Prankster Comets",
+        "Comets",
         "Prankster Comet Type"
       ],
       "progression": true
@@ -167,7 +167,7 @@
       "count": 1,
       "name": "Cosmic Clone Comets",
       "category": [
-        "Prankster Comets",
+        "Comets",
         "Prankster Comet Type"
       ],
       "progression": true
@@ -176,7 +176,7 @@
       "count": 1,
       "name": "Romp Comets",
       "category": [
-        "Prankster Comets",
+        "Comets",
         "Prankster Comet Type"
       ],
       "progression": true
@@ -185,7 +185,7 @@
       "count": 1,
       "name": "Double Time Comets",
       "category": [
-        "Prankster Comets",
+        "Comets",
         "Prankster Comet Type"
       ],
       "progression": true
@@ -195,7 +195,7 @@
       "name": "Green Comets",
       "category": [
         "Prankster Comet Type",
-        "Prankster Comets",
+        "Comets",
         "Green Star Locations"
       ],
       "progression": true
@@ -204,7 +204,7 @@
       "count": 1,
       "name": "Prankster Comets",
       "category": [
-        "Prankster Comets"
+        "Comets"
       ],
       "progression": true
     },
