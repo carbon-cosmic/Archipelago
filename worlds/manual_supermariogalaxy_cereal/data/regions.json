@@ -908,7 +908,99 @@
       "requires": ""
     },
     "Ghostly Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Ghostly 1 - Starshroom",
+        "Ghostly 2 - Starshroom",
+        "Ghostly 3 - Starshroom",
+        "Ghostly C - Bouldergeist",
+        "Ghostly P - Bone Pen"
+      ],
+      "requires": ""
+    },
+    "Ghostly 1 - Starshroom": {
+      "connects_to": [
+        "Ghostly 1 - Mansion Entrance"
+      ],
+      "requires": ""
+    },
+    "Ghostly 1 - Mansion Entrance": {
+      "connects_to": [
+        "Ghostly 1 - Gravity Room"
+      ],
+      "requires": ""
+    },
+    "Ghostly 1 - Gravity Room": {
+      "connects_to": [
+        "Ghostly 1 - Key"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Ghostly 1 - Key": {
+      "connects_to": [
+        "Ghostly 1 - First Boo Room"
+      ],
+      "requires": ""
+    },
+    "Ghostly 1 - First Boo Room": {
+      "connects_to": [
+        "Ghostly 1 - Luigi Room"
+      ],
+      "requires": "|Has Pull Stars| or (|Has Long Spin| and |Hard Logic|)"
+    },
+    "Ghostly 1 - Luigi Room": {
+      "connects_to": [],
+      "requires": "|Has Boo|"
+    },
+    "Ghostly 2 - Starshroom": {
+      "connects_to": [
+        "Ghostly 2 - Mansion Entrance"
+      ],
+      "requires": ""
+    },
+    "Ghostly 2 - Mansion Entrance": {
+      "connects_to": [
+        "Ghostly 2 - Spooky Speedster",
+        "Ghostly S - Matter Splatter"
+      ],
+      "requires": ""
+    },
+    "Ghostly 2 - Spooky Speedster": {
+      "connects_to": [],
+      "requires": "|Has Pull Stars|"
+    },
+    "Ghostly 3 - Starshroom": {
+      "connects_to": [
+        "Ghostly 3 - Mansion Entrance"
+      ],
+      "requires": ""
+    },
+    "Ghostly 3 - Mansion Entrance": {
+      "connects_to": [
+        "Ghostly 3 - Sling Pods #1"
+      ],
+      "requires": ""
+    },
+    "Ghostly 3 - Sling Pods #1": {
+      "connects_to": [
+        "Ghostly 3 - Sling Pods #2"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Ghostly 3 - Sling Pods #2": {
+      "connects_to": [
+        "Ghostly 3 - Bouncy Planet"
+      ],
+      "requires": "|Has Sling Pods|"
+    },
+    "Ghostly 3 - Bouncy Planet": {
+      "connects_to": [
+        "Ghostly 3 - Bouldergeist"
+      ],
+      "requires": "|Has Pull Stars|"
+    },
+    "Ghostly 3 - Bouldergeist": {
+      "connects_to": [],
+      "requires": ""
     },
     "Buoy Base Galaxy": {
       "connects_to": []
