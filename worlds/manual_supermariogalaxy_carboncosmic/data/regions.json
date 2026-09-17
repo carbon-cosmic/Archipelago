@@ -970,11 +970,11 @@
     },
     "Beach Bowl P - Top Pond Ledge": {
       "connects_to": ["Beach Bowl P - Top Area"],
-      "requires": "(|Has Spring| and |Can Break Crates|) or (|Medium Logic| and (|Jump Height 6| or (|Has Air Spin| and |Has Backflip|)))"
+      "requires": "|Spring Crystals| or (|Medium Logic| and (|Jump Height 6| or (|Has Air Spin| and |Has Backflip|)))"
     },
     "Beach Bowl P - Top Area": {
-      "connects_to": [""],
-      "requires": "?"?
+      "connects_to": [],
+      "requires": "|Spring Crystals| or (|Jump Height 5| and |Has Air Spin| and |Medium Logic|)"
     },
     "Bubble Breeze Galaxy": {
       "connects_to": [
@@ -1114,11 +1114,51 @@
       "connects_to": []
     },
     "Bowser Jr.'s Airship Armada": {
-      "connects_to": []
+      "connects_to": [
+        "Airship Armada - Start Airship"
+      ],
+      "requires": ""
     },
+    "Airship Armada - Start Airship": {
+      "connects_to": [
+        "Airship Armada - Magikoopa Airship",
+        "Airship Armada - Bouncy Planet",
+        "Airship Armada - Luma Airship"
+      ],
+      "requires": ""
+    },
+    "Airship Armada - Bouncy Planet": {
+      "connects_to": [
+        "Airship Armada - Magikoopa Airship"
+      ],
+      "requires": "|Has Cannon Permit|"
+    },
+    "Airship Armada - Magikoopa Airship": {
+      "connects_to": [
+        "Airship Armada - Luma Airship"
+      ],
+      "requires": "|Has Cannon Permit|"
+    },
+    "Airship Armada - Luma Airship": {
+      "connects_to": [
+        "Airship Armada - Moving Platform"
+      ],
+      "requires": "|Has Cannon Permit|"
+    },
+    "Airship Armada - Moving Platform": {
+      "connects_to": [
+        "Airship Armada - Boss"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Airship Armada - Boss": {
+      "connects_to": [],
+      "requires": ""
+    },
+
     "Drip Drop Galaxy": {
       "connects_to": [],
-      "entrance_requires": "|Power Star (Drip Drop Access)|"
+      "requires": "|Power Star (Drip Drop Access)|"
     },
     "Bedroom": {
       "connects_to": [
