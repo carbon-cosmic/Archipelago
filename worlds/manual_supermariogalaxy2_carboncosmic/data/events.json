@@ -149,31 +149,31 @@
   },
   {
     "name": "Has Speedy Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Speedy Comets|)}"
+    "requires": "{OptAll(|All Prankster Comets| and |Speedy Comets|)}"
   },
   {
     "name": "Has Daredevil Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Daredevil Comets|)}"
+    "requires": "{OptAll(|All Prankster Comets| and |Daredevil Comets|)}"
   },
   {
     "name": "Has Clone Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Cosmic Clone Comets|)}"
+    "requires": "{OptAll(|All Prankster Comets| and |Cosmic Clone Comets|)}"
   },
   {
     "name": "Has Romp Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Romp Comets|)}"
+    "requires": "{OptAll(|All Prankster Comets| and |Romp Comets|)}"
   },
   {
     "name": "Has Double Time Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Double Time Comets|)}"
+    "requires": "{OptAll(|All Prankster Comets| and |Double Time Comets|)}"
   },
   {
     "name": "Has Purple Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Purple Comets|)}"
+    "requires": "{OptAll(|All Prankster Comets| and |Purple Comets|)}"
   },
   {
     "name": "Has Green Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Green Comets|)}"
+    "requires": "{OptAll(|All Prankster Comets| and |Green Comets|)}"
   },
   {
     "name": "Jump Height 6",

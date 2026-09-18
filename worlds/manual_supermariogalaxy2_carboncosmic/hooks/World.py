@@ -208,7 +208,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         itemNamesToRemove.append(item)
 
     if world.options.Comet_Randomization.value != 1:
-        itemNamesToRemove.append("Prankster Comets")
+        itemNamesToRemove.append("All Prankster Comets")
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
