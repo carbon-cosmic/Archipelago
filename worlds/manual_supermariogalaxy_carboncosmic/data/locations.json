@@ -1040,19 +1040,19 @@
     "sort-key": "row-05-001"
   },
   {
-    "name": "Beach Bowl 1 - Notes 1-Up",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Sideflip|)})",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Beach Bowl - Waterfall Pool Bonus Room ? Coin",
+    "requires": "|Has Wall Jump| or ((|Has Triple Jump| or |Has Air Spin|) and (|Has Sideflip| or (|Has Backflip| and (|Hard Logic| or |Has Air Spin|))))",
+    "region": "Beach Bowl - Ocean",
     "category": [
       "Kitchen",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-05-002"
   },
   {
-    "name": "Beach Bowl 3 Chest 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Beach Bowl - Stump 1-Up",
+    "requires": "|Has Backflip| or (|Has Triple Jump| and |Medium Logic|) or |Has Air Spin|",
+    "region": "Beach Bowl - Ocean",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1060,19 +1060,19 @@
     "sort-key": "row-05-003"
   },
   {
-    "name": "Beach Bowl 3 Gringill 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Beach Bowl 1 - Top Area Notes ? Coin",
+    "requires": "",?
+    "region": "Beach Bowl - Top Pond Ledge",
     "category": [
       "Kitchen",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-05-004"
   },
   {
-    "name": "Beach Bowl Stump 1-Up",
-    "requires": "{OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)}",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Beach Bowl 1 - Notes 1-Up",
+    "requires": ""?,
+    "region": "Beach Bowl Top Pond Ledge",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1080,49 +1080,49 @@
     "sort-key": "row-05-005"
   },
   {
-    "name": "Beach Bowl 1 Waterfall Pool Bonus Room ? Coin",
-    "requires": "{OptOne(|Wall Jump|)} OR (({OptOne(|Triple Jump|)} OR {OptOne(|Spin|)}) AND ({OptOne(|Sideflip|)} OR ({OptOne(|Backflip|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Spin|)}))))",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Passing the Swim Test",
+    "requires": "|Has Koopa Shell| and (|Has Ground Spin| or |Medium Logic|)",
+    "region": "Beach Bowl 2 - Underwater",
     "category": [
       "Kitchen",
-      "? Coins"
+      "Power Stars"
     ],
     "sort-key": "row-05-006"
   },
   {
-    "name": "Beach Bowl 1 Top Area Notes ? Coin",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "The Secret Undersea Cavern",
+    "requires": "|Has Ground Spin|",
+    "region": "Beach Bowl 3 - Cyclone Stone",
     "category": [
       "Kitchen",
-      "? Coins"
+      "Power Stars"
     ],
     "sort-key": "row-05-007"
   },
   {
-    "name": "Passing the Swim Test",
-    "requires": "{OptOne(|Koopa Shell|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Ground Pound|)} AND {OptOne(|Spin|)}))",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Beach Bowl 3 - Chest 1-Up",
+    "requires": "|Has Koopa Shell|",
+    "region": "Beach Bowl 3 - Underwater",
     "category": [
       "Kitchen",
-      "Power Stars"
+      "1-Ups"
     ],
     "sort-key": "row-05-008"
   },
   {
-    "name": "The Secret Undersea Cavern",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)} AND {OptOne(|Spin|)}",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Beach Bowl 3 - Gringill 1-Up",
+    "requires": "|Has Koopa Shell|",
+    "region": "Beach Bowl 3 - Underwater",
     "category": [
       "Kitchen",
-      "Power Stars"
+      "1-Ups"
     ],
     "sort-key": "row-05-009"
   },
   {
-    "name": "Beach Bowl 3 Stone Cyclone Start 1-Up",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)}",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Beach Bowl 3 - Cyclone Stone Start 1-Up",
+    "requires": "",
+    "region": "Beach Bowl 3 - Cyclone Stone",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1130,9 +1130,9 @@
     "sort-key": "row-05-010"
   },
   {
-    "name": "Beach Bowl 3 Stone Cyclone Moving Stone Blocks 1-Up",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)}",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Beach Bowl 3 - Cyclone Stone Moving Blocks 1-Up",
+    "requires": "",
+    "region": "Beach Bowl 3 - Cyclone Stone",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1140,9 +1140,9 @@
     "sort-key": "row-05-011"
   },
   {
-    "name": "Beach Bowl 3 Stone Cyclone Shrinking Platform 1-Up",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)}",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Beach Bowl 3 - Stone Cyclone Shrinking Platform 1-Up",
+    "requires": "",
+    "region": "Beach Bowl 3 - Cyclone Stone",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1151,8 +1151,8 @@
   },
   {
     "name": "Fast Foes on the Cyclone Stone",
-    "requires": "{OptOne(|Fast-Foe Comets|)} AND {OptOne(|Beach Bowl Comet Medal|)} AND {OptOne(|Beach Bowl Comet Medal|)} AND {OptOne(|Spin|)}",
-    "region": "Beach Bowl Galaxy (16)",
+    "requires": "|Has Ground Spin|",
+    "region": "Beach Bowl C - Cyclone Stone",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1161,8 +1161,8 @@
   },
   {
   "name": "Beachcombing for Purple Coins",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Beach Bowl Comet Medal|)}  AND {OptOne(|Beach Bowl Comet Medal|)} AND {OptOne(|Beach Bowl Purple Coin:100|)} AND {OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)}))",
-  "region": "Beach Bowl Galaxy (16)",
+  "requires": "|Purple coins when i figure them out| and |Spring Crystals| and |Can Swim|",
+  "region": "Beach Bowl P - Ocean",
   "category": [
     "Kitchen",
     "Power Stars"
@@ -1171,8 +1171,8 @@
 },
   {
     "name": "Wall Jumping up Waterfalls",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Ice Flower|)} AND {OptOne(|Koopa Shell|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Ground Pound|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Beach Bowl Galaxy (16)",
+    "requires": "|Has Wall Jump| and |Ice Crystals|",
+    "region": "Beach Bowl S - Waterfalls",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1180,9 +1180,9 @@
     "sort-key": "row-05-015"
   },
   {
-    "name": "Beach Bowl Secret Ice Flower ? Coin",
-    "requires": "{OptOne(|Koopa Shell|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Beach Bowl Galaxy (16)",
+    "name": "Beach Bowl S - Ice Flower ? Coin",
+    "requires": "",
+    "region": "Beach Bowl S - Waterfalls",
     "category": [
       "Kitchen",
       "? Coins"
@@ -1191,8 +1191,8 @@
   },
   {
     "name": "Through the Poison Swamp",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Bubble Breeze Galaxy (19)",
+    "requires": "",
+    "region": "Bubble Breeze - End Swamp",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1200,19 +1200,19 @@
     "sort-key": "row-05-017"
   },
   {
-    "name": "Bubble Breeze Final Area 1-Up",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Bubble Breeze Galaxy (19)",
+    "name": "Bubble Breeze First Area Fan ? Coin",
+    "requires": "",
+    "region": "Bubble Breeze - Start Swamp",
     "category": [
       "Kitchen",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-05-018"
   },
   {
-    "name": "Bubble Breeze First Area Fan ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Bubble Breeze Galaxy (19)",
+    "name": "Bubble Breeze First Area Left ? Coin",
+    "requires": "",
+    "region": "Bubble Breeze - Start Swamp",
     "category": [
       "Kitchen",
       "? Coins"
@@ -1220,9 +1220,9 @@
     "sort-key": "row-05-019"
   },
   {
-    "name": "Bubble Breeze First Area Left ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Bubble Breeze Galaxy (19)",
+    "name": "Bubble Breeze Final Area Wooden Circle ? Coin",
+    "requires": "",
+    "region": "Bubble Breeze - End Swamp",
     "category": [
       "Kitchen",
       "? Coins"
@@ -1230,9 +1230,9 @@
     "sort-key": "row-05-020"
   },
   {
-    "name": "Bubble Breeze Final Area Wooden Circle ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Bubble Breeze Galaxy (19)",
+    "name": "Bubble Breeze Final Area Fan ? Coin",
+    "requires": "",
+    "region": "Bubble Breeze - End Swamp",
     "category": [
       "Kitchen",
       "? Coins"
@@ -1240,19 +1240,19 @@
     "sort-key": "row-05-021"
   },
   {
-    "name": "Bubble Breeze Final Area Fan ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Bubble Breeze Galaxy (19)",
+    "name": "Bubble Breeze Final Area 1-Up",
+    "requires": "",
+    "region": "Bubble Breeze - End Swamp",
     "category": [
       "Kitchen",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-05-022"
   },
   {
     "name": "Bubble Breeze Final Area Mines ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Bubble Breeze Galaxy (19)",
+    "requires": "",
+    "region": "Bubble Breeze - End Swamp",
     "category": [
       "Kitchen",
       "? Coins"
@@ -1261,7 +1261,7 @@
   },
   {
     "name": "Luigi and the Haunted Mansion",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Boo Mushroom|)} AND (({OptOne(|Pull Stars|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}) AND ({OptOne(|Ground Pound|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)})",
+    "requires": "",?
     "region": "Ghostly Galaxy (20)",
     "category": [
       "Kitchen",
@@ -1270,19 +1270,19 @@
     "sort-key": "row-05-024"
   },
   {
-    "name": "Ghostly 1 Painting 1-Up",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}) AND ({OptOne(|Wall Jump|)} OR {OptOne(|Boo Mushroom|)}",
-    "region": "Ghostly Galaxy (20)",
+    "name": "Ghostly 1 - Boo Mushroom ? Coin",
+    "requires": "",
+    "region": "Ghostly 1 - First Boo Room",
     "category": [
       "Kitchen",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-05-025"
   },
   {
-    "name": "Ghostly 1 Boo Mushroom ? Coin",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Pull Stars|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Ghostly Galaxy (20)",
+    "name": "Ghostly 1 - Ceiling ? Coin",
+    "requires": "|Has Boo| or |Can Wall Spin|",
+    "region": "Ghostly 1 - First Boo Room",
     "category": [
       "Kitchen",
       "? Coins"
@@ -1290,19 +1290,19 @@
     "sort-key": "row-05-026"
   },
   {
-    "name": "Ghostly 1 Ceiling ? Coin",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Boo Mushroom|)} AND ({OptOne(|Pull Stars|)} OR {OptOne(|Long Jump|)})",
-    "region": "Ghostly Galaxy (20)",
+    "name": "Ghostly 1 - Painting 1-Up",
+    "requires": "|Has Boo| or |Can Wall Spin|",
+    "region": "Ghostly 1 - First Boo Room",
     "category": [
       "Kitchen",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-05-027"
   },
   {
     "name": "A Very Spooky Sprint",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
+    "requires": "|Has Pull Stars|",
+    "region": "Ghostly 2 - Spooky Speedster",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1311,8 +1311,8 @@
   },
   {
     "name": "Beware of Bouldergeist",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Sling Pods|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Ground Pound|)}) AND {OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
+    "requires": "",
+    "region": "Ghostly 3 - Bouldergeist",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1320,9 +1320,9 @@
     "sort-key": "row-05-029"
   },
   {
-    "name": "Ghostly 3 Bowser Statue 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Sling Pods|)}",
-    "region": "Ghostly Galaxy (20)",
+    "name": "Ghostly 3 - Bowser Statue 1-Up",
+    "requires": "",
+    "region": "Ghostly 3 - Sling Pods #2",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1330,9 +1330,9 @@
     "sort-key": "row-05-030"
   },
   {
-    "name": "Ghostly 3 Bouncy Planet 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Sling Pods|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Ground Pound|)}) AND {OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
+    "name": "Ghostly 3 - Bouncy Planet 1-Up",
+    "requires": "",
+    "region": "Ghostly 3 - Bouncy Planet",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1340,9 +1340,9 @@
     "sort-key": "row-05-031"
   },
   {
-    "name": "Ghostly 3 Luma Shop",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Sling Pods|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Ground Pound|)}) AND {OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
+    "name": "Ghostly 3 - Luma Shop",
+    "requires": "",
+    "region": "Ghostly - Bouldergeist",
     "category": [
       "Kitchen",
       "Luma Shops"
@@ -1351,38 +1351,28 @@
   },
   {
     "name": "Bouldergeist's Daredevil Run",
-    "requires": "{OptOne(|Daredevil Comets|)} AND {OptOne(|Ghostly Comet Medal|)} AND {OptOne(|Spin|)}",
-    "region": "Ghostly Galaxy (20)",
+    "requires": "|Has Spin|",
+    "region": "Ghostly C - Bouldergeist",
     "category": [
       "Kitchen",
       "Power Stars"
     ],
     "sort-key": "row-05-033"
   },
-{
-  "name": "Purple Coins in the Bone Pen",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Ghostly Comet Medal|)}  AND {OptOne(|Ghostly Purple Coin:100|)} AND {OptOne(|Pull Stars|)}",
-  "region": "Ghostly Galaxy (20)",
-  "category": [
-    "Kitchen",
-    "Power Stars"
-  ],
-  "sort-key": "row-05-034"
-},
   {
-    "name": "Ghostly Purple Back of the Bone Pen 1-Up",
-    "requires": "{OptOne(|Pull Stars|)} AND  |Grand Star (Purple Coins)| AND {OptOne(|Ghostly Comet Medal|)} ",
-    "region": "Ghostly Galaxy (20)",
+    "name": "Purple Coins in the Bone Pen",
+    "requires": "|Purple coins when i figure them out|",
+    "region": "Ghostly P - Bone Pen",
     "category": [
       "Kitchen",
-      "1-Ups"
+      "Power Stars"
     ],
-    "sort-key": "row-05-035"
+    "sort-key": "row-05-034"
   },
   {
-    "name": "Ghostly Purple Life Mushroom",
-    "requires": "{OptOne(|Pull Stars|)} AND  |Grand Star (Purple Coins)| AND {OptOne(|Ghostly Comet Medal|)} ",
-    "region": "Ghostly Galaxy (20)",
+    "name": "Ghostly P - Bone Pen Life Mushroom",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
     "category": [
       "Kitchen",
       "Life Mushrooms"
@@ -1390,9 +1380,19 @@
     "sort-key": "row-05-036"
   },
   {
+    "name": "Ghostly P - Bone Pen 1-Up",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Kitchen",
+      "1-Ups"
+    ],
+    "sort-key": "row-05-035"
+  },
+  {
     "name": "Matter Splatter Mansion",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Ghostly Galaxy (20)",
+    "requires": "",
+    "region": "Ghostly S - Matter Splatter",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1400,17 +1400,17 @@
     "sort-key": "row-05-037"
   },
   {
-    "name": "Ghostly Secret Level 1-Up Behind the Door",
+    "name": "Ghostly S - First ? Coin",
     "requires": "{OptOne(|Spin|)}",
     "region": "Ghostly Galaxy (20)",
     "category": [
       "Kitchen",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-05-038"
   },
   {
-    "name": "Ghostly Secret First ? Coin",
+    "name": "Ghostly S - Second ? Coin",
     "requires": "{OptOne(|Spin|)}",
     "region": "Ghostly Galaxy (20)",
     "category": [
@@ -1420,19 +1420,19 @@
     "sort-key": "row-05-039"
   },
   {
-    "name": "Ghostly Secret Second ? Coin",
-    "requires": "{OptOne(|Spin|)}",
+    "name": "Ghostly S - 1-Up Behind Door",
+    "requires": "",
     "region": "Ghostly Galaxy (20)",
     "category": [
       "Kitchen",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-05-040"
   },
   {
     "name": "The Floating Fortress",
-    "requires": "{OptOne(|Screwdriver|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)}) AND {OptOne(|Pull Stars|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))",
-    "region": "Buoy Base Galaxy (30)",
+    "requires": "|Has Screwdriver|",
+    "region": "Buoy Base - Pokeball Planet",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1441,8 +1441,8 @@
   },
   {
     "name": "Buoy Base Top Platform 1-Up",
-    "requires": "({OptOne(|Wall Jump|)} AND {OptOne(|Screwdriver|)}) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))",
-    "region": "Buoy Base Galaxy (30)",
+    "requires": "",
+    "region": "Buoy Base - Tower Top",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1451,8 +1451,8 @@
   },
   {
     "name": "The Secret of Buoy Base",
-    "requires": "{OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Buoy Base Galaxy (30)",
+    "requires": "",
+    "region": "Buoy Base S - Underside",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1461,8 +1461,8 @@
   },
   {
     "name": "Sinking the Airships",
-    "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Spin|)} AND {OptOne(|Koopa Shell|)}",
-    "region": "Bowser Jr.'s Airship Armada (23)",
+    "requires": "|Has Koopa Shell|",
+    "region": "Airship Armada - Boss Airship",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1470,9 +1470,9 @@
     "sort-key": "row-05-044"
   },
   {
-    "name": "Bowser Jr's Airship Armada Secret Planet 1-Up",
-    "requires": "{OptOne(|Cannon Permit|)}",
-    "region": "Bowser Jr.'s Airship Armada (23)",
+    "name": "Airship Armada - Bouncy Planet 1-Up",
+    "requires": "",
+    "region": "Airship Armada - Bouncy Planet",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1480,9 +1480,9 @@
     "sort-key": "row-05-045"
   },
   {
-    "name": "Bowser Jr's Airship Armada Luma Shop",
-    "requires": "{OptOne(|Cannon Permit|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Bowser Jr.'s Airship Armada (23)",
+    "name": "Airship Armada - Luma Shop",
+    "requires": "|Has Ground Spin| or |Hard Logic|",
+    "region": "Airship Armada - Luma Airship",
     "category": [
       "Kitchen",
       "Luma Shops"
@@ -1490,9 +1490,9 @@
     "sort-key": "row-05-046"
   },
   {
-    "name": "Bowser Jr's Airship Armada Moving Platform 1-Up",
-    "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Spin|)}",
-    "region": "Bowser Jr.'s Airship Armada (23)",
+    "name": "Airship Armada - Moving Platform 1-Up",
+    "requires": "",
+    "region": "Airship Armada - Moving Platform",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1500,9 +1500,9 @@
     "sort-key": "row-05-047"
   },
   {
-    "name": "Bowser Jr's Airship Armada Boss 1-Up",
-    "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Spin|)} AND {OptOne(|Koopa Shell|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Sideflip|)})",
-    "region": "Bowser Jr.'s Airship Armada (23)",
+    "name": "Airship Armada - Boss Airship Caged 1-Up",
+    "requires": "|Has Koopa Shell| and (|Hard Logic| or |Has Sideflip| or |Has Triple Jump|)",
+    "region": "Airship Armada - Boss Airship",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1511,8 +1511,8 @@
   },
   {
     "name": "Giant Eel Outbreak",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Drip Drop Galaxy (16)",
+    "requires": "|Has Koopa Shell|",
+    "region": "Drip Drop - Underwater",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1521,8 +1521,8 @@
   },
   {
     "name": "Drip Drop Ship Chest 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Drip Drop Galaxy (16)",
+    "requires": "|Has Koopa Shell|",
+    "region": "Drip Drop - Underwater",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -1531,8 +1531,8 @@
   },
   {
     "name": "Drip Drop Ship Chest Life Mushroom",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Drip Drop Galaxy (16)",
+    "requires": "|Has Koopa Shell|",
+    "region": "Drip Drop - Underwater",
     "category": [
       "Kitchen",
       "Life Mushrooms"

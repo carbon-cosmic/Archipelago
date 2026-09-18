@@ -952,10 +952,6 @@
       "connects_to": [],
       "requires": "|Has Ground Pound|"
     },
-    "Beach Bowl S - Waterfalls": {
-      "connects_to": [],
-      "requires": "|Has Koopa Shell|"
-    },
     "Beach Bowl C - Cyclone Stone": {
       "connects_to": [],
       "requires": "{can_access_comet(3, Beach Bowl)}"
@@ -975,6 +971,10 @@
     "Beach Bowl P - Top Area": {
       "connects_to": [],
       "requires": "|Spring Crystals| or (|Jump Height 5| and |Has Air Spin| and |Medium Logic|)"
+    },
+    "Beach Bowl S - Waterfalls": {
+      "connects_to": [],
+      "requires": "|Has Koopa Shell|"
     },
     "Bubble Breeze Galaxy": {
       "connects_to": [
@@ -1111,7 +1111,55 @@
       "requires": "|Has Ground Spin|"
     },
     "Buoy Base Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Buoy Base - Platform"
+      ],
+      "requires": ""
+    },
+    "Buoy Base - Platform": {
+      "connects_to": [
+        "Buoy Base - Underwater"
+      ],
+      "requires": ""
+    },
+    "Buoy Base - Underwater": {
+      "connects_to": [
+        "Buoy Base S - Underside",
+        "Buoy Base - Raised Platforms"
+      ],
+      "requires": "|Can Swim|"
+    },
+    "Buoy Base - Raised Platforms": {
+      "connects_to": [
+        "Buoy Base - First Tower Level"
+      ],
+      "requires": ""
+    },
+    "Buoy Base - First Tower Level": {
+      "connects_to": [
+        "Buoy Base - Second Tower Level"
+      ],
+      "requires": "?"
+    },
+    "Buoy Base - Second Tower Level": {
+      "connects_to": [
+        "Buoy Base - Tower Top"
+      ],
+      "requires": "?"
+    },
+    "Buoy Base - Tower Top": {
+      "connects_to": [
+        "Buoy Base - Pokeball Planet"
+      ],
+      "requires": "?"
+    },
+    "Buoy Base - Pokeball Planet": {
+      "connects_to": [],
+      "requires": "|Has Pull Stars| and |Has Screwdriver|"
+    },
+    "Buoy Base S - Underside": {
+      "connects_to": [],
+      "requires": ""
     },
     "Bowser Jr.'s Airship Armada": {
       "connects_to": [
@@ -1147,18 +1195,28 @@
     },
     "Airship Armada - Moving Platform": {
       "connects_to": [
-        "Airship Armada - Boss"
+        "Airship Armada - Boss Airship"
       ],
       "requires": "|Has Ground Spin|"
     },
-    "Airship Armada - Boss": {
+    "Airship Armada - Boss Airship": {
       "connects_to": [],
       "requires": ""
     },
 
     "Drip Drop Galaxy": {
-      "connects_to": [],
+      "connects_to": [
+        "Drip Drop - Island"
+      ],
       "requires": "|Power Star (Drip Drop Access)|"
+    },
+    "Drip Drop - Island": {
+      "connects_to": ["Drip Drop - Underwater"],
+      "requires": ""
+    },
+    "Drip Drop - Underwater": {
+      "connects_to": [],
+      "requires": "|Can Swim| or |Has Koopa Shell|"
     },
     "Bedroom": {
       "connects_to": [
