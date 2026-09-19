@@ -1226,12 +1226,145 @@
         "Honeyclimb Galaxy",
         "Bowser's Dark Matter Plant"
       ],
-      "entrance_requires": [
+      "requires": [
         "|Grand Star (Bedroom Access)|"
       ]
     },
     "Gusty Garden Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Gusty Garden 1 - Start",
+        "Gusty Garden 2 - Start",
+        "Gusty Garden 3 - Start",
+        "Gusty Garden C - Major Burrows",
+        "Gusty Garden P - Puzzle Cube"
+      ]
+    },
+    "Gusty Garden 1 - Start": {
+      "connects_to": [
+        "Gusty Garden 1 - Second Planet"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 1 - Second Planet": {
+      "connects_to": [
+        "Gusty Garden 1 - Bean Start"
+      ],
+      "requires": "|Can Use Floaty Fluff|"
+    },
+    "Gusty Garden 1 - Beans Start": {
+      "connects_to": [
+        "Gusty Garden 1 - Beans"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 1 - Beans": {
+      "connects_to": [
+        "Gusty Garden 1 - Puzzle Cube"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 1 - Puzzle Cube": {
+      "connects_to": [
+        "Gusty Garden - Puzzle Cube 1-Up"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 2 - Start": {
+      "connects_to": [
+        "Gusty Garden 2 - Second Planet"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 2 - Second Planet": {
+      "connects_to": [
+        "Gusty Garden 2 - Undergrunt Planet"
+      ],
+      "requires": "|Can Use Floaty Fluff|"
+    },
+    "Gusty Garden 2 - Undergrunt Planet": {
+      "connects_to": [
+        "Gusty Garden 2 - Question Mark Planet"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 2 - Question Mark Planet": {
+      "connects_to": [
+        "Gusty Garden 2 - Apples",
+        "Gusty Garden 2 - Thorn Ring"
+      ],
+      "requires": "|Has Ground Pound| and |Has Ground Spin|"
+    },
+    "Gusty Garden 2 - Thorn Ring": {
+      "connects_to": [
+        "Gusty Garden 2 - Apples"
+      ],
+      "requires": "|Has Pull Stars|"
+    },
+    "Gusty Garden 2 - Apples": {
+      "connects_to": [
+        "Gusty Garden 2 - Small Thorns"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 2 - Small Thorns": {
+      "connects_to": [
+        "Gusty Garden 2 - Major Burrows"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 2 - Major Burrows": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Gusty Garden 3 - Start": {
+      "connects_to": [
+        "Gusty Garden 3 - Second Planet"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 3 - Second Planet": {
+      "connects_to": [
+        "Gusty Garden 3 - Vine Planet"
+      ],
+      "requires": "|Can Use Floaty Fluff|"
+    },
+    "Gusty Garden 3 - Vine Planet": {
+      "connects_to": [
+        "Gusty Garden 3 - Rolling Rocks"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 3 - Rolling Rocks": {
+      "connects_to": [
+        "Gusty Garden 3 - Star Chips"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 3 - Star Chips": {
+      "connects_to": [
+        "Gusty Garden 3 - Gravity Scramble Start"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 3 - Gravity Scramble Start": {
+      "connects_to": [
+        "Gusty Garden 3 - Gravity Scramble Main"
+      ],
+      "requires": ""
+    },
+    "Gusty Garden 3 - Gravity Scramble Main": {
+      "connects_to": [],
+      "requires": "|Has Ground Spin|"
+    },
+    "Gusty Garden C - Major Burrows": {
+      "connects_to": [],
+      "requires": "{can_access_comet(1, Gusty Garden)}"
+    },
+    "Gusty Garden P - Puzzle Cube": {
+      "connects_to": [
+        "Gusty Garden - Puzzle Cube 1-Up"
+      ],
+      "requires": "{can_access_comet(4, Gusty Garden)}"
     },
     "Freezeflame Galaxy": {
       "connects_to": []
@@ -1247,7 +1380,7 @@
     },
     "Bigmouth Galaxy": {
       "connects_to": [],
-      "entrance_requires": "|Power Star (Bigmouth Access)|"
+      "requires": "|Power Star (Bigmouth Access)|"
     },
     "Engine Room": {
       "connects_to": [
@@ -1257,7 +1390,7 @@
         "Bonefin Galaxy",
         "Bowser Jr.'s Lava Reactor"
       ],
-      "entrance_requires": [
+      "requires": [
         "|Grand Star (Engine Room Access)|"
       ]
     },
@@ -1278,11 +1411,11 @@
     },
     "Sand Spiral Galaxy": {
       "connects_to": [],
-      "entrance_requires": "|Power Star (Sand Spiral Access)|"
+      "requires": "|Power Star (Sand Spiral Access)|"
     },
     "Boo's Boneyard Galaxy": {
       "connects_to": [],
-      "entrance_requires": "|Red Power Star|"
+      "requires": "|Red Power Star|"
     },
     "Garden": {
       "connects_to": [
@@ -1291,7 +1424,7 @@
         "Matter Splatter Galaxy",
         "Melty Molten Galaxy"
       ],
-      "entrance_requires": [
+      "requires": [
         "|Grand Star (Garden Access)|"
       ]
     },
@@ -1309,7 +1442,7 @@
     },
     "Snow Cap Galaxy": {
       "connects_to": [],
-      "entrance_requires": "|Power Star (Snow Cap Access)|"
+      "requires": "|Power Star (Snow Cap Access)|"
     },
     "Planet of Trials": {
       "connects_to": [
@@ -1318,7 +1451,7 @@
         "Rolling Gizmo Galaxy",
         "Grand Finale Galaxy"
       ],
-      "entrance_requires": "|Green Star:3|"
+      "requires": "|Green Star:3|"
     },
     "Loopdeeswoop Galaxy": {
       "connects_to": []
@@ -1334,8 +1467,8 @@
       "connects_to": []
     },
     "Grand Finale Galaxy": {
-      "entrance_requires": [
-        "{OptionCount(@Total Stars, Grand_Finale_Star_Count"
+      "requires": [
+        "{OptionCount(@Total Stars, Grand_Finale_Star_Count)}"
       ],
       "connects_to": []
     }

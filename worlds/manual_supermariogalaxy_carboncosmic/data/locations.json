@@ -1520,7 +1520,7 @@
     "sort-key": "row-05-049"
   },
   {
-    "name": "Drip Drop Ship Chest 1-Up",
+    "name": "Drip Drop - Ship Chest 1-Up",
     "requires": "|Has Koopa Shell|",
     "region": "Drip Drop - Underwater",
     "category": [
@@ -1530,7 +1530,7 @@
     "sort-key": "row-05-050"
   },
   {
-    "name": "Drip Drop Ship Chest Life Mushroom",
+    "name": "Drip Drop - Chest Life Mushroom",
     "requires": "|Has Koopa Shell|",
     "region": "Drip Drop - Underwater",
     "category": [
@@ -1541,8 +1541,8 @@
   },
   {
     "name": "Bunnies in the Wind",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "requires": "",
+    "region": "Gusty Garden 1 - Puzzle Cube",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -1550,49 +1550,49 @@
     "sort-key": "row-06-001"
   },
   {
-    "name": "Gusty Garden 1 Piranha Plant Sprout 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
-    "category": [
-      "Bedroom",
-      "1-Ups"
-    ],
-    "sort-key": "row-06-002"
-  },
-  {
-    "name": "Gusty Garden 1 Purple Piranha Plant 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
-    "category": [
-      "Bedroom",
-      "1-Ups"
-    ],
-    "sort-key": "row-06-003"
-  },
-  {
-    "name": "Gusty Garden 1 Final Planet Tunnel 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
-    "category": [
-      "Bedroom",
-      "1-Ups"
-    ],
-    "sort-key": "row-06-004"
-  },
-  {
-    "name": "Gusty Garden 1 Second Planet Pillar ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 1 - Second Planet Pillar ? Coin",
+    "requires": "",
+    "region": "Gusty Garden 1 - Second Planet",
     "category": [
       "Bedroom",
       "? Coins"
     ],
+    "sort-key": "row-06-002"
+  },
+  {
+    "name": "Gusty Garden 1 - Bonus Room ? Coin",
+    "requires": "",
+    "region": "Gusty Garden 1 - Second Planet",
+    "category": [
+      "Bedroom",
+      "? Coins"
+    ],
+    "sort-key": "row-06-003"
+  },
+  {
+    "name": "Gusty Garden 1 - Floaty Fluff ? Coin #1",
+    "requires": "",
+    "region": "Gusty Garden 1 - Beans Start",
+    "category": [
+      "Bedroom",
+      "? Coins"
+    ],
+    "sort-key": "row-06-004"
+  },
+  {
+    "name": "Gusty Garden 1 - Piranha Plant Sprout 1-Up",
+    "requires": "",
+    "region": "Gusty Garden 1 - Beans Start",
+    "category": [
+      "Bedroom",
+      "1-Ups"
+    ],
     "sort-key": "row-06-005"
   },
   {
-    "name": "Gusty Garden 1 Second Planet Bonus Room ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 1 - Floaty Fluff ? Coin 2",
+    "requires": "",
+    "region": "Gusty Garden 1 - Beans",
     "category": [
       "Bedroom",
       "? Coins"
@@ -1600,29 +1600,29 @@
     "sort-key": "row-06-006"
   },
   {
-    "name": "Gusty Garden 1 Floaty Fluff ? Coin 1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 1 - Purple Piranha Plant 1-Up",
+    "requires": "",
+    "region": "Gusty Garden 1 - Beans",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-007"
   },
   {
-    "name": "Gusty Garden 1 Floaty Fluff ? Coin 2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 1 - Puzzle Cube Tunnel 1-Up",
+    "requires": "",
+    "region": "Gusty Garden - Puzzle Cube 1-Up",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-008"
   },
   {
     "name": "The Dirty Tricks of Major Burrows",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "requires": "",
+    "region": "Gusty Garden 2 - Major Burrows",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -1630,39 +1630,39 @@
     "sort-key": "row-06-009"
   },
   {
-    "name": "Gusty Garden 2 Pull Star Planet Top 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Chain ? Coin #1",
+    "requires": "",
+    "region": "Gusty Garden 2 - Second Planet",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-010"
   },
   {
-    "name": "Gusty Garden 2 Pull Star Planet Side 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Chain ? Coin #2",
+    "requires": "",
+    "region": "Gusty Garden 2 - Second Planet",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-011"
   },
   {
-    "name": "Gusty Garden 2 Small Thorn Planet Stump Life Mushroom",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Bonus Room ? Coin",
+    "requires": "",
+    "region": "Gusty Garden 2 - Second Planet",
     "category": [
       "Bedroom",
-      "Life Mushrooms"
+      "? Coins"
     ],
     "sort-key": "row-06-012"
   },
   {
-    "name": "Gusty Garden 2 First Chain ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Chain ? Coin #3",
+    "requires": "",
+    "region": "Gusty Garden 2 - Undergrunt Planet",
     "category": [
       "Bedroom",
       "? Coins"
@@ -1670,9 +1670,9 @@
     "sort-key": "row-06-013"
   },
   {
-    "name": "Gusty Garden 2 Second Chain ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Chain ? Coin #4",
+    "requires": "",
+    "region": "Gusty Garden 2 - Undergrunt Planet",
     "category": [
       "Bedroom",
       "? Coins"
@@ -1680,29 +1680,29 @@
     "sort-key": "row-06-014"
   },
   {
-    "name": "Gusty Garden 2 Second Planet Bonus Room Star ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Thorn Ring Top 1-Up",
+    "requires": "",
+    "region": "Gusty Garden 2 - Thorn Ring",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-015"
   },
   {
-    "name": "Gusty Garden 2 Third Chain ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Thorn Ring Side 1-Up",
+    "requires": "",
+    "region": "Gusty Garden 2 - Thorn Ring",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-016"
   },
   {
-    "name": "Gusty Garden 2 Fourth Chain ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Thorn Ring Top ? Coin",
+    "requires": "",
+    "region": "Gusty Garden 2 - Thorn Ring",
     "category": [
       "Bedroom",
       "? Coins"
@@ -1710,9 +1710,9 @@
     "sort-key": "row-06-017"
   },
   {
-    "name": "Gusty Garden 2 Pull Star Planet Top ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Thorn Ring Right ? Coin",
+    "requires": "",
+    "region": "Gusty Garden 2 - Thorn Ring",
     "category": [
       "Bedroom",
       "? Coins"
@@ -1720,9 +1720,9 @@
     "sort-key": "row-06-018"
   },
   {
-    "name": "Gusty Garden 2 Pull Star Planet Right ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Thorn Ring Bottom ? Coin",
+    "requires": "",
+    "region": "Gusty Garden 2 - Thorn Ring",
     "category": [
       "Bedroom",
       "? Coins"
@@ -1730,19 +1730,19 @@
     "sort-key": "row-06-019"
   },
   {
-    "name": "Gusty Garden 2 Pull Star Planet Bottom ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 2 - Small Thorns Stump Life Mushroom",
+    "requires": "",
+    "region": "Gusty Garden 2 - Small Thorns",
     "category": [
       "Bedroom",
-      "? Coins"
+      "Life Mushrooms"
     ],
     "sort-key": "row-06-020"
   },
   {
     "name": "Gusty Garden's Gravity Scramble",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "requires": "",
+    "region": "Gusty Garden 3 - Gravity Scramble Main",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -1750,29 +1750,29 @@
     "sort-key": "row-06-021"
   },
   {
-    "name": "Gusty Garden 3 Gravity Scramble Blocks 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 3 - Chain ? Coin #1",
+    "requires": "",
+    "region": "Gusty Garden 3 - Second Planet",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-022"
   },
   {
-    "name": "Gusty Garden 3 Gravity Scramble Life Mushroom",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 3 - Chain ? Coin #2",
+    "requires": "",
+    "region": "Gusty Garden 3 - Second Planet",
     "category": [
       "Bedroom",
-      "Life Mushrooms"
+      "? Coins"
     ],
     "sort-key": "row-06-023"
   },
   {
-    "name": "Gusty Garden 3 First Chain ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 3 - Chain ? Coin #3",
+    "requires": "",
+    "region": "Gusty Garden 3 - Vine Planet",
     "category": [
       "Bedroom",
       "? Coins"
@@ -1780,9 +1780,9 @@
     "sort-key": "row-06-024"
   },
   {
-    "name": "Gusty Garden 3 Second Chain ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 3 - Chain ? Coin #4",
+    "requires": "",
+    "region": "Gusty Garden - Vine Planet",
     "category": [
       "Bedroom",
       "? Coins"
@@ -1790,9 +1790,9 @@
     "sort-key": "row-06-025"
   },
   {
-    "name": "Gusty Garden 3 Third Chain ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 3 - Chain ? Coin #5",
+    "requires": "",
+    "region": "Gusty Garden 3 - Vine Planet",
     "category": [
       "Bedroom",
       "? Coins"
@@ -1800,29 +1800,29 @@
     "sort-key": "row-06-026"
   },
   {
-    "name": "Gusty Garden 3 Fourth Chain ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 3 - Gravity Scramble 1-Up",
+    "requires": "",
+    "region": "Gusty Garden 3 - Gravity Scramble Start",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-027"
   },
   {
-    "name": "Gusty Garden 3 Fifth Chain ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "name": "Gusty Garden 3 - Gravity Scramble Life Mushroom",
+    "requires": "",
+    "region": "Gusty Garden 3 - Gravity Scramble Main",
     "category": [
       "Bedroom",
-      "? Coins"
+      "Life Mushrooms"
     ],
     "sort-key": "row-06-028"
   },
   {
     "name": "Major Burrow's Daredevil Run",
-    "requires": "{OptOne(|Daredevil Comets|)} AND {OptOne(|Gusty Garden Comet Medal|)} AND {OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "requires": "|Has Ground Pound| and |Has Ground Spin|",
+    "region": "Gusty Garden C - Major Burrows",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -1831,8 +1831,8 @@
   },
   {
   "name": "Purple Coins on the Puzzle Cube",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Gusty Garden Comet Medal|)}  AND {OptOne(|Gusty Garden Purple Coin:100|)}",
-  "region": "Gusty Garden Galaxy (24)",
+  "requires": "|Purple coins when i figure them out|",
+  "region": "Gusty Garden P - Puzzle Cube",
   "category": [
     "Bedroom",
     "Power Stars"
@@ -1841,8 +1841,8 @@
 },
   {
     "name": "The Golden Chomp",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Floaty Fluff|)} AND {OptOne(|Rainbow Star|)}",
-    "region": "Gusty Garden Galaxy (24)",
+    "requires": "|Has Invincibility|",
+    "region": "Gusty Garden 3 - Rolling Rocks",
     "category": [
       "Bedroom",
       "Power Stars"
