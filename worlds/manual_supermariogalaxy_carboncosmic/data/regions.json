@@ -1367,7 +1367,190 @@
       "requires": "{can_access_comet(4, Gusty Garden)}"
     },
     "Freezeflame Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Freezeflame 1 - Ice Ring",
+        "Freezeflame 2 - Ice Ring",
+        "Freezeflame 3 - Ice Ring",
+        "Freezeflame C - Race",
+        "Freezeflame P - Mountain Base"
+      ]
+    },
+    "Freezeflame 1 - Ice Ring": {
+      "connects_to": [
+        "Freezeflame 1 - Mountain Base"
+      ],
+      "requires": ""
+    },
+    "Freezeflame 1 - Mountain Base": {
+      "connects_to": [
+        "Freezeflame 1 - Second Level",
+        "Freezeflame 1 - Sling Star Ledge",
+        "Freezeflame S - First Secret Layer",
+        "Freezeflame - Mountain Base Collectables"
+      ],
+      "requires": "|Has Ground Spin| or (|Has Long Jump| and |Hard Logic|)",
+      "exit_requires": {
+        "Freezeflame 1 - Second Level": "|Has Ice|",
+        "Freezeflame 1 - Sling Star Ledge": "|Has Wall Jump| or |Has Long Spin| or (|Has Air Spin| and |Medium Logic|)",
+        "Freezeflame S - First Secret Layer": "|Has Ice| and (|Has Triple Jump| or (|Has Back or Sideflip| and |Has Air Spin| and |Medium Logic|))",
+        "Freezeflame - Mountain Base Collectables": ""
+      }
+    },
+    "Freezeflame 1 - Sling Star Ledge": {
+      "connects_to": [
+        "Freezeflame 1 - Second Level",
+        "Freezeflame - Sling Star ? Coin"
+      ],
+      "requires": ""
+    },
+    "Freezeflame 1 - Second Level": {
+      "connects_to": [
+        "Freezeflame 1 - Sling Star Ledge",
+        "Freezeflame 1 - Baron Brr Layer",
+        "Freezeflame S - First Secret Layer"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Freezeflame 1 - Sling Star Ledge": "",
+        "Freezeflame 1 - Baron Brr Layer": "|Ice Crystals|",
+        "Freezeflame S - First Secret Layer": "|Can Wall Spin| and (|Jump Height 4| or |Hard Logic|)"
+      }
+    },
+    "Freezeflame 1 - Baron Brr Layer": {
+      "connects_to": [
+        "Freezeflame 1 - Baron Brr"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Freezeflame 1 - Baron Brr": "|Has Wall Jump|"
+      }
+    },
+    "Freezeflame 1 - Baron Brr": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Freezeflame - Mountain Base Collectables": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Freezeflame - Sling Star ? Coin": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Freezeflame 2 - ": {
+      "connects_to": [
+        "Freezeflame 2 - "
+      ],
+      "requires": ""
+    },
+
+    "Freezeflame P - Mountain Base": {
+      "connects_to": [
+        "Freezeflame P - Second Level",
+        "Freezeflame P - Sling Star Ledge",
+        "Freezeflame P - First Secret Layer",
+        "Freezeflame - Mountain Base Collectables"
+      ],
+      "requires": "{can_access_comet(4, Freezeflame)}",
+      "exit_requires": {
+        "Freezeflame P - Second Level": "|Has Ice|",
+        "Freezeflame P - Sling Star Ledge": "|Has Wall Jump| or |Has Long Spin| or (|Has Air Spin| and |Medium Logic|)",
+        "Freezeflame P - First Secret Layer": "|Has Ice| and (|Has Triple Jump| or (|Has Back or Sideflip| and |Has Air Spin| and |Medium Logic|))",
+        "Freezeflame - Mountain Base Collectables": ""
+      }
+    },
+    "Freezeflame P - Sling Star Ledge": {
+      "connects_to": [
+        "Freezeflame P - Second Level",
+        "Freezeflame - Sling Star ? Coin"
+      ],
+      "requires": ""
+    },
+    "Freezeflame P - Second Level": {
+      "connects_to": [
+        "Freezeflame P - Sling Star Ledge",
+        "Freezeflame P - Baron Brr Layer",
+        "Freezeflame P - First Secret Layer"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Freezeflame P - Sling Star Ledge": "",
+        "Freezeflame P - Baron Brr Layer": "|Ice Crystals|",
+        "Freezeflame P - First Secret Layer": "|Can Wall Spin| and (|Jump Height 4| or |Hard Logic|)"
+      }
+    },
+    "Freezeflame P - Baron Brr Layer": {
+      "connects_to": [
+        "Freezeflame P - Baron Brr"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Freezeflame P - Baron Brr": "|Has Wall Jump|"
+      }
+    },
+    "Freezeflame P - Baron Brr": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Freezeflame P - First Secret Layer": {
+      "connects_to": [
+        "Freezeflame P - Second Secret Layer",
+        "Freezeflame P - Baron Brr Layer"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Freezeflame P - Second Secret Layer": "|Fire Crystals| and (|Has Ground Spin| or |Has Backflip| or |Medium Logic|)",
+        "Freezeflame P - Baron Brr Layer": "|Has Backflip| and |Can Slope Jump| and |Hard Logic|"
+      }
+    },
+    "Freezeflame P - Second Secret Layer": {
+      "connects_to": [
+        "Freezeflame P - Third Secret Layer",
+        "Freezeflame - Secret 1-Up"
+      ],
+      "requires": ""
+    },
+    "Freezeflame P - Third Secret Layer": {
+      "connects_to": [
+        "Freezeflame P - Mountaintop"
+      ],
+      "requires": "|Fire Crystals|"
+    },
+    "Freezeflame P - Mountaintop": {
+      "connects_to": [],
+      "requires": "|Has Wall Jump|"
+    },
+    "Freezeflame S - First Secret Layer": {
+      "connects_to": [
+        "Freezeflame S - Second Secret Layer",
+        "Freezeflame 1 - Baron Brr Layer"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Freezeflame S - Second Secret Layer": "|Fire Crystals| and (|Has Ground Spin| or |Has Backflip| or |Medium Logic|)",
+        "Freezeflame 1 - Baron Brr Layer": "|Has Backflip| and |Can Slope Jump| and |Hard Logic|"
+      }
+    },
+    "Freezeflame S - Second Secret Layer": {
+      "connects_to": [
+        "Freezeflame S - Third Secret Layer",
+        "Freezeflame - Secret 1-Up"
+      ],
+      "requires": ""
+    },
+    "Freezeflame S - Third Secret Layer": {
+      "connects_to": [
+        "Freezeflame S - Mountaintop"
+      ],
+      "requires": "|Fire Crystals|"
+    },
+    "Freezeflame S - Mountaintop": {
+      "connects_to": [],
+      "requires": "|Has Wall Jump|"
+    },
+    "Freezeflame - Secret 1-Up": {
+      "connects_to": [],
+      "requires": ""
     },
     "Dusty Dune Galaxy": {
       "connects_to": []
