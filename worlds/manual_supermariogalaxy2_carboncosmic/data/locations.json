@@ -42,24 +42,49 @@
       "victory": true
     },
     {
-      "name": "Bowser's Fortified Fortress",
-      "requires": "|Has Ground Pound|",
-      "region": "Galaxy Generator - Bowser",
+      "name": "Princess Peach Letter Item #1",
+      "requires": "",
+      "region": "Starship Mario",
       "category": [
-        "World 6",
-        "Power Star Locations"
+        "Starship Mario"
       ],
-      "sort-key": "row-0703"
+      "sort-key": "row-0001a"
     },
     {
-      "name": "The Perfect Run",
+      "name": "Princess Peach Letter Item #2",
       "requires": "",
-      "region": "Grandmaster C - Gate",
+      "region": "Starship Mario",
       "category": [
-        "World S",
-        "Power Star Locations"
+        "Starship Mario"
       ],
-      "sort-key": "row-0812"
+      "sort-key": "row-0001b"
+    },
+    {
+      "name": "Princess Peach Letter Item #3",
+      "requires": "",
+      "region": "Starship Mario",
+      "category": [
+        "Starship Mario"
+      ],
+      "sort-key": "row-0001c"
+    },
+    {
+      "name": "Princess Peach Letter Item #4",
+      "requires": "",
+      "region": "Starship Mario",
+      "category": [
+        "Starship Mario"
+      ],
+      "sort-key": "row-0001d"
+    },
+    {
+      "name": "Princess Peach Letter Item #5",
+      "requires": "",
+      "region": "Starship Mario",
+      "category": [
+        "Starship Mario"
+      ],
+      "sort-key": "row-0001e"
     },
     {
       "name": "Starship Mario - Starshroom 1-Up",
@@ -7249,6 +7274,16 @@
       "sort-key": "row-0702a"
     },
     {
+      "name": "Bowser's Fortified Fortress",
+      "requires": "|Has Ground Pound|",
+      "region": "Galaxy Generator - Bowser",
+      "category": [
+        "World 6",
+        "Power Star Locations"
+      ],
+      "sort-key": "row-0703"
+    },
+    {
       "name": "Galaxy Generator - Life Mushroom on Pole at Start",
       "requires": "",
       "region": "Galaxy Generator - Start",
@@ -8347,6 +8382,16 @@
         "Comet Medal Locations"
       ],
       "sort-key": "row-0811"
+    },
+    {
+      "name": "The Perfect Run",
+      "requires": "",
+      "region": "Grandmaster C - Gate",
+      "category": [
+        "World S",
+        "Power Star Locations"
+      ],
+      "sort-key": "row-0812"
     },
     {
       "name": "Grandmaster C - 1-Up Replacing Comet Medal",
