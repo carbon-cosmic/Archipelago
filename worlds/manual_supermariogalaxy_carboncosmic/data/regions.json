@@ -923,7 +923,7 @@
     },
     "Beach Bowl 1 - Top Area": {
       "connects_to": [],
-      "requires": "|Has Ground Pound| or (|Jump Height 5| and |Has Air Spin| and |Medium Logic|)"
+      "requires": "(|Has Ground Pound| and |Has Wall Jump|) or (|Jump Height 5| and |Has Air Spin| and |Medium Logic|)"
     },
     "Beach Bowl 2 - Ocean": {
       "connects_to": [
@@ -1080,13 +1080,13 @@
       "connects_to": [
         "Ghostly 3 - Bouncy Planet"
       ],
-      "requires": "|Has Sling Pods|"
+      "requires": "|Has Sling Pods| and (|Jump Height 3| or |Has Wall Jump| or (|Hard Logic| and |Has Double Jump|))"
     },
     "Ghostly 3 - Bouncy Planet": {
       "connects_to": [
         "Ghostly 3 - Bouldergeist"
       ],
-      "requires": "|Has Pull Stars|"
+      "requires": "|Has Pull Stars| and (|Has Wall Jump| or |Jump Height 5| or |Has Air Spin| or |Has Ground Pound|)"
     },
     "Ghostly 3 - Bouldergeist": {
       "connects_to": [],
@@ -1124,7 +1124,7 @@
     },
     "Buoy Base - Underwater": {
       "connects_to": [
-        "Buoy Base S - Underside",
+        "Buoy Base G - Underside",
         "Buoy Base - Raised Platforms"
       ],
       "requires": "|Can Swim|"
@@ -1139,25 +1139,25 @@
       "connects_to": [
         "Buoy Base - Second Tower Level"
       ],
-      "requires": "?"
+      "requires": "(|Has Back or Sideflip| and |Has Air Spin| and |Medium Logic|) or |Has Wall Jump|"
     },
     "Buoy Base - Second Tower Level": {
       "connects_to": [
         "Buoy Base - Tower Top"
       ],
-      "requires": "?"
+      "requires": "|Has Screwdriver| or |Jump Height 4| or |Has Sideflip| or (|Has Air Spin| and |Medium Logic|)"
     },
     "Buoy Base - Tower Top": {
       "connects_to": [
         "Buoy Base - Pokeball Planet"
       ],
-      "requires": "?"
+      "requires": "|Jump Height 3| or |Has Screwdriver|"
     },
     "Buoy Base - Pokeball Planet": {
       "connects_to": [],
       "requires": "|Has Pull Stars| and |Has Screwdriver|"
     },
-    "Buoy Base S - Underside": {
+    "Buoy Base G - Underside": {
       "connects_to": [],
       "requires": ""
     },
@@ -1371,7 +1371,7 @@
         "Freezeflame 1 - Ice Ring",
         "Freezeflame 2 - Ice Ring",
         "Freezeflame 3 - Ice Ring",
-        "Freezeflame C - Race",
+        "Freezeflame C - Sky Path",
         "Freezeflame P - Mountain Base"
       ]
     },
@@ -1407,13 +1407,15 @@
       "connects_to": [
         "Freezeflame 1 - Sling Star Ledge",
         "Freezeflame 1 - Baron Brr Layer",
-        "Freezeflame S - First Secret Layer"
+        "Freezeflame S - First Secret Layer",
+        "Freezeflame - Second Layer 1-Up"
       ],
       "requires": "",
       "exit_requires": {
         "Freezeflame 1 - Sling Star Ledge": "",
         "Freezeflame 1 - Baron Brr Layer": "|Ice Crystals|",
-        "Freezeflame S - First Secret Layer": "|Can Wall Spin| and (|Jump Height 4| or |Hard Logic|)"
+        "Freezeflame S - First Secret Layer": "|Can Wall Spin| and (|Jump Height 4| or |Hard Logic|)",
+        "Freezeflame - Second Layer 1-Up": "|Has Air Spin|"
       }
     },
     "Freezeflame 1 - Baron Brr Layer": {
@@ -1437,13 +1439,58 @@
       "connects_to": [],
       "requires": ""
     },
-    "Freezeflame 2 - ": {
+    "Freezeflame - Second Lyaer 1-Up": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Freezeflame 2 - Ice Ring": {
       "connects_to": [
-        "Freezeflame 2 - "
+        "Freezeflame 2 - Core Start"
       ],
       "requires": ""
     },
-
+    "Freezeflame 2 - Core Start": {
+      "connects_to": [
+        "Freezeflame 2 - Core Rollers"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Freezeflame 2 - Core Rollers": {
+      "connects_to": [
+        "Freezeflame 2 - Core End"
+      ],
+      "requires": "|Has Fire| or (|Has Long Spin| and |Medium Logic|) or (|Has Air Spin| and |Hard Logic|)"
+    },
+    "Freezeflame 2 - Core End": {
+      "connects_to": [],
+      "requires": "|Has Fire| and |Has Wall Jump|"
+    },
+    "Freezeflame 3 - Ice Ring": {
+      "connects_to": [
+        "Freezeflame 3 - Split Planet Ice"
+      ],
+      "requires": ""
+    },
+    "Freezeflame 3 - Split Planet Ice": {
+      "connects_to": [
+        "Freezeflame 3 - Split Planet Fire"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Freezeflame 3 - Split Planet Fire": {
+      "connects_to": [
+        "Freezeflame 3 - Sky Path"
+      ],
+      "requires": "|Has Screwdriver|"
+    },
+    "Freezeflame 3 - Sky Path": {
+      "connects_to": [],
+      "requires": "|Has Screwdriver| and |Has Fire|"
+    },
+    "Freezeflame C - Sky Path": {
+      "connects_to": [],
+      "requires": "{can_access_comet(2, Freezeflame)}"
+    },
     "Freezeflame P - Mountain Base": {
       "connects_to": [
         "Freezeflame P - Second Level",
@@ -1470,13 +1517,15 @@
       "connects_to": [
         "Freezeflame P - Sling Star Ledge",
         "Freezeflame P - Baron Brr Layer",
-        "Freezeflame P - First Secret Layer"
+        "Freezeflame P - First Secret Layer",
+        "Freezeflame - Second Layer 1-Up"
       ],
       "requires": "",
       "exit_requires": {
         "Freezeflame P - Sling Star Ledge": "",
         "Freezeflame P - Baron Brr Layer": "|Ice Crystals|",
-        "Freezeflame P - First Secret Layer": "|Can Wall Spin| and (|Jump Height 4| or |Hard Logic|)"
+        "Freezeflame P - First Secret Layer": "|Can Wall Spin| and (|Jump Height 4| or |Hard Logic|)",
+        "Freezeflame - Second Layer 1-Up": "|Has Air Spin|"
       }
     },
     "Freezeflame P - Baron Brr Layer": {
@@ -1553,7 +1602,202 @@
       "requires": ""
     },
     "Dusty Dune Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Dusty Dune 1 - Start",
+        "Dusty Dune 2 - Start",
+        "Dusty Dune 3 - Start",
+        "Dusty Dune C - Start",
+        "Dusty Dune P - Blue Side Start"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 1 - Start": {
+      "connects_to": [
+        "Dusty Dune 1 - 2D Section Start"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 1 - 2D Section Start": {
+      "connects_to": [
+        "Dusty Dune 1 - 2D Section Secret",
+        "Dusty Dune 1 - 2D Section Main"
+      ],
+      "requires": "|Has Tornado Soaring|"
+    },
+    "Dusty Dune 1 - 2D Section Secret": {
+      "connects_to": [
+        "Dusty Dune 1 - 2D Secret Thwomps Top",
+        "Dusty Dune 1 - 2D Section Main"
+      ],
+      "requires": "|Can Break Crates|"
+    },
+    "Dusty Dune 1 - 2D Secret Thwomps Top": {
+      "connects_to": [],
+      "requires": "|Can Wall Spin| or (|Jump Height 6| and |Hard Logic|)"
+    },
+    "Dusty Dune 1 - 2D Section Main": {
+      "connects_to": [
+        "Dusty Dune 1 - Sand Tower"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 1 - Sand Tower": {
+      "connects_to": [
+        "Dusty Dune 1 - Sand Tower Top"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 1 - Sand Tower Top": {
+      "connects_to": [],
+      "requires": "|Has Wall Jump|"
+    },
+    "Dusty Dune 2 - Start": {
+      "connects_to": [
+        "Dusty Dune 2 - Boulders"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 2 - Boulders": {
+      "connects_to": [
+        "Dusty Dune 2 - Sand Stream",
+        "Dusty Dune G - Pyramid"
+      ],
+      "requires": "?"
+    },
+    "Dusty Dune 2 - Sand Stream": {
+      "connects_to": [
+        "Dusty Dune 2 - Rushing Sand Planet"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 2 - Rushing Sand Planet": {
+      "connects_to": [
+        "Dusty Dune 2 - Bonus Room",
+        "Dusty Dune 2 - Blue Side Start"
+      ],
+      "requires": "|Has Pull Stars| and |Has Koopa Shell| and |Has Ground Spin|"
+    },
+    "Dusty Dune 2 - Bonus Room": {
+      "connects_to": [
+        "Dusty Dune 2 - Orange Side"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 2 - Blue Side Start": {
+      "connects_to": [
+        "Dusty Dune 2 - Orange Side"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 2 - Orange Side": {
+      "connects_to": [
+        "Dusty Dune 2 - Blue Side Start",
+        "Dusty Dune 2 - Blue Side"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 2 - Blue Side": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Dusty Dune 3 - Start": {
+      "connects_to": [
+        "Dusty Dune 3 - Rising Sand"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 3 - Rising Sand": {
+      "connects_to": [
+        "Dusty Dune 3 - Koopa Tower"
+      ],
+      "requires": "|Has Ground Pound|"
+    },
+    "Dusty Dune 3 - Koopa Tower": {
+      "connects_to": [
+        "Dusty Dune 3 - Crabber Planet"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune 3 - Crabber Planet": {
+      "connects_to": [
+        "Dusty Dune 3 - Pokey Planets",
+        "Dusty Dune S - Bullet Bill Tower"
+      ],
+      "requires": "|Has Koopa Shell|"
+    },
+    "Dusty Dune 3 - Pokey Planets": {
+      "connects_to": [
+        "Dusty Dune 3 - Sand Castle"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Dusty Dune 3 - Sand Castle": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Dusty Dune C - Start": {
+      "connects_to": [
+        "Dusty Dune C - Boulders"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune C - Boulders": {
+      "connects_to": [
+        "Dusty Dune C - Sand Stream"
+      ],
+      "requires": "?"
+    },
+    "Dusty Dune C - Sand Stream": {
+      "connects_to": [
+        "Dusty Dune C - Rushing Sand Planet"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune C - Rushing Sand Planet": {
+      "connects_to": [
+        "Dusty Dune C - Bonus Room",
+        "Dusty Dune C - Blue Side Start"
+      ],
+      "requires": "|Has Pull Stars| and |Has Koopa Shell| and |Has Ground Spin|"
+    },
+    "Dusty Dune C - Bonus Room": {
+      "connects_to": [
+        "Dusty Dune C - Orange Side"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune C - Blue Side Start": {
+      "connects_to": [
+        "Dusty Dune C - Orange Side"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune C - Orange Side": {
+      "connects_to": [
+        "Dusty Dune C - Blue Side Start",
+        "Dusty Dune C - Blue Side"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune C - Blue Side": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Dusty Dune P - Blue Side Start": {
+      "connects_to": [
+        "Dusty Dune P - Orange Side"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune P - Orange Side": {
+      "connects_to": [
+        "Dusty Dune P - Blue Side"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune P - Blue Side": {
+      "connects_to": [],
+      "requires": ""
     },
     "Honeyclimb Galaxy": {
       "connects_to": []

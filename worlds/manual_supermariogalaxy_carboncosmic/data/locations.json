@@ -1061,7 +1061,7 @@
   },
   {
     "name": "Beach Bowl 1 - Top Area Notes ? Coin",
-    "requires": "",?
+    "requires": "|Jump Height 3| or |Medium Logic|",
     "region": "Beach Bowl - Top Pond Ledge",
     "category": [
       "Kitchen",
@@ -1071,7 +1071,7 @@
   },
   {
     "name": "Beach Bowl 1 - Notes 1-Up",
-    "requires": ""?,
+    "requires": "(|Jump Height 3| or |Medium Logic|) and (|Has Ground Pound| or (|Has Backflip| and |Has Air Spin| and |Medium Logic|) or (|Jump Height 6| and |Hard Logic|))",
     "region": "Beach Bowl Top Pond Ledge",
     "category": [
       "Kitchen",
@@ -1261,8 +1261,8 @@
   },
   {
     "name": "Luigi and the Haunted Mansion",
-    "requires": "",?
-    "region": "Ghostly Galaxy (20)",
+    "requires": "",
+    "region": "Ghostly 1 - Luigi Room",
     "category": [
       "Kitchen",
       "Power Stars"
@@ -1851,8 +1851,8 @@
   },
   {
     "name": "The Frozen Peak of Baron Brrr",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Ice Flower|)} OR ({OptOne(|Long Jump|)} AND {OptOne(|Fire Flower|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame Galaxy (26)",
+    "requires": "|Has Ground Spin|",
+    "region": "Freezeflame 1 - Baron Brr",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -1860,39 +1860,39 @@
     "sort-key": "row-06-032"
   },
   {
-    "name": "Freezeflame 1 2nd Layer ?-Block 1-Up",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 1 - Ice Flower ? Coin",
+    "requires": "",
+    "region": "Freezeflame - Mountain Base Collectables",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-033"
   },
   {
-    "name": "Freezeflame 1 Slide 1-Up",
-    "requires": "({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}) OR {OptOne(|Spin|)} OR  (|Grand Star (Purple Coins)| AND {OptOne(|Freezeflame Comet Medal|)}) ",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 1 - Mountain Base Lake ? Coin",
+    "requires": "",
+    "region": "Freezeflame - Mountain Base Collectables",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-034"
   },
   {
-    "name": "Freezeflame 1 Secret Path Start 1-Up",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND ({OptOne(|Ice Flower|)} OR {OptOne(|Spin|)} OR {OptOne(|Wall Jump|)}) AND (({OptOne(|Ice Flower|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Spin|)} OR {OptOne(|Long Jump|)})))) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR {OptOne(|Triple Jump|)})",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 1 - Sling Star ? Coin",
+    "requires": "",
+    "region": "Freezeflame - Sling Star ? Coin",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-035"
   },
   {
-    "name": "Freezeflame 1 Slide Life Mushroom",
-    "requires": "({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}) OR {OptOne(|Spin|)} OR (|Grand Star (Purple Coins)| AND {OptOne(|Freezeflame Comet Medal|)})",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 1 - Slide Life Mushroom",
+    "requires": "",
+    "region": "Freezeflame - Mountain Base Collectables",
     "category": [
       "Bedroom",
       "Life Mushrooms"
@@ -1900,39 +1900,39 @@
     "sort-key": "row-06-036"
   },
   {
-    "name": "Freezeflame 1 Ice Flower ? Coin",
-    "requires": "{OptOne(|Spin|)} OR  |Grand Star (Purple Coins)| AND {OptOne(|Freezeflame Comet Medal|)}  OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 1 - Slide 1-Up",
+    "requires": "",
+    "region": "Freezeflame - Mountain Base Collectables",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-037"
   },
   {
-    "name": "Freezeflame 1 Mountain Base Lake ? Coin",
-    "requires": "{OptOne(|Spin|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}) OR ( |Grand Star (Purple Coins)| AND {OptOne(|Freezeflame Comet Medal|)}  AND {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 1 - Second Layer ? Block 1-Up",
+    "requires": "|Has Air Spin|",
+    "region": "Freezeflame - Second Layer 1-Up",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-038"
   },
   {
-    "name": "Freezeflame 1 Sling Star ? Coin",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 1 - Secret Path Start 1-Up",
+    "requires": "((|Has Ice Flower| or |Has Wall Jump|) and |Jump Height 3|) or |Jump Height 5|",
+    "region": "Freezeflame 1 - Second Layer",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-039"
   },
   {
     "name": "Freezeflame's Blistering Core",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "requires": "",
+    "region": "Freezeflame 2 - Core End",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -1940,19 +1940,19 @@
     "sort-key": "row-06-040"
   },
   {
-    "name": "Freezeflame 2 Behind the Walljump Notes 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 2 - Ice Ring ? Coin",
+    "requires": "",
+    "region": "Freezeflame 2 - Ice Ring",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-041"
   },
   {
-    "name": "Freezeflame 2 Life Mushroom by Torch",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 2 - Life Mushroom by Torch",
+    "requires": "",
+    "region": "Freezeflame 2 - Core Start",
     "category": [
       "Bedroom",
       "Life Mushrooms"
@@ -1960,7 +1960,7 @@
     "sort-key": "row-06-042"
   },
   {
-    "name": "Freezeflame 2 Below Ice Ring ? Coin",
+    "name": "Freezeflame 2 - Fire Flower ? Coin",
     "requires": "",
     "region": "Freezeflame Galaxy (26)",
     "category": [
@@ -1970,9 +1970,9 @@
     "sort-key": "row-06-043"
   },
   {
-    "name": "Freezeflame 2 Fire Flower ? Coin",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 2 - Wall Jumps ? Coin",
+    "requires": "",
+    "region": "Freezeflame 2 - Core Rollers",
     "category": [
       "Bedroom",
       "? Coins"
@@ -1980,19 +1980,19 @@
     "sort-key": "row-06-044"
   },
   {
-    "name": "Freezeflame 2 ? Coin Behind Wall Jumps",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Fire Flower|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Long Jump|)}))",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 2 - Wall Jumps Notes 1-Up",
+    "requires": "|Has Wall Jump|",
+    "region": "Freezeflame 2 - Core Rollers",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-045"
   },
   {
     "name": "Hot and Cold Collide",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND {OptOne(|Ice Flower|)} AND {OptOne(|Screwdriver|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "requires": "|Has Ice Flower| and (|Has Ground Spin| or |Medium Logic|)",
+    "region": "Freezeflame 3 - Sky Path",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2000,19 +2000,19 @@
     "sort-key": "row-06-046"
   },
   {
-    "name": "Freezeflame 3 Ice Half Planet 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 3 Split Planet Ice Life Mushroom",
+    "requires": "",
+    "region": "Freezeflame 3 - Split Planet Ice",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "Life Mushrooms"
     ],
     "sort-key": "row-06-047"
   },
   {
-    "name": "Freezeflame 3 Fire Half Planet Roof 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Screwdriver|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)})",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 3 - Split Planet Ice 1-Up",
+    "requires": "|Has Ground Pound|",
+    "region": "Freezeflame 3 - Split Planet Ice",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2020,9 +2020,9 @@
     "sort-key": "row-06-048"
   },
   {
-    "name": "Freezeflame 3 Final Stretch 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND {OptOne(|Ice Flower|)} AND {OptOne(|Screwdriver|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame 3 - Split Planet Fire 1-Up",
+    "requires": "|Can Wall Spin| or (|Jump Height 5| and |Has Air Spin)",
+    "region": "Freezeflame 3 - Split Planet Fire",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2030,19 +2030,19 @@
     "sort-key": "row-06-049"
   },
   {
-    "name": "Freezeflame 3 Ice Half Planet Life Mushroom",
+    "name": "Freezeflame 3 - Sky Path 1-Up",
     "requires": "",
-    "region": "Freezeflame Galaxy (26)",
+    "region": "Freezeflame 3 - Sky Path",
     "category": [
       "Bedroom",
-      "Life Mushrooms"
+      "1-Ups"
     ],
     "sort-key": "row-06-050"
   },
   {
     "name": "Frosty Cosmic Mario Race",
-    "requires": "{OptOne(|Cosmic Comets|)} AND {OptOne(|Freezeflame Comet Medal|)} AND {OptOne(|Spin|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "requires": "|Has Ground Spin| or |Hard Logic|",
+    "region": "Freezeflame C - Sky Path",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2050,9 +2050,9 @@
     "sort-key": "row-06-051"
   },
   {
-    "name": "Freezeflame Comet 1-Up",
-    "requires": "{OptOne(|Cosmic Comets|)} AND {OptOne(|Freezeflame Comet Medal|)}",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame C - 1-Up",
+    "requires": "",
+    "region": "Freezeflame C - Sky Path",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -3808,6 +3808,9 @@
       "Power Stars"
     ],
     "sort-key": "row-09-001"
+  },
+  {
+    "name": "Rolling Gizmo - Start 1-Up"
   },
   {
     "name": "Rolling Gizmo Yellow Gear 1-Up",
