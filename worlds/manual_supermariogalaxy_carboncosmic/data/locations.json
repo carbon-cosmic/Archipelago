@@ -2071,8 +2071,8 @@
 },
   {
     "name": "Conquering the Summit",
-    "requires": "{OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND (({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND (({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR ({OptOne(|Sideflip|)} AND {YamlEnabled(Advanced_Logic)}))) OR ({OptOne(|Ground Pound|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))))",
-    "region": "Freezeflame Galaxy (26)",
+    "requires": "",
+    "region": "Freezeflame S - Mountaintop",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2080,9 +2080,9 @@
     "sort-key": "row-06-054"
   },
   {
-    "name": "Freezeflame Secret Level Bomp 1-Up",
-    "requires": "{OptOne(|Fire Flower|)} AND (({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND (({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR ({OptOne(|Sideflip|)} AND {YamlEnabled(Advanced_Logic)}))) OR ({OptOne(|Ground Pound|)} AND (( |Grand Star (Purple Coins)| AND {OptOne(|Freezeflame Comet Medal|)}  AND {OptOne(|Triple Jump|)}) OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))))",
-    "region": "Freezeflame Galaxy (26)",
+    "name": "Freezeflame S - Bomp 1-Up",
+    "requires": "",
+    "region": "Freezeflame - Secret 1-Up",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2091,8 +2091,8 @@
   },
   {
     "name": "Soaring on the Desert Winds",
-    "requires": "{OptOne(|Tornado Soaring|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Spin|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "requires": "|Has Ground Spin|",
+    "region": "Dusty Dune 1 - Sand Tower Top",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2100,9 +2100,9 @@
     "sort-key": "row-06-056"
   },
   {
-    "name": "Dusty Dune 1 Tornado 1-Up",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 1 - Tornado 1-Up",
+    "requires": "|Has Tornado Soaring|",
+    "region": "Dusty Dune 1 - Start",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2110,9 +2110,9 @@
     "sort-key": "row-06-057"
   },
   {
-    "name": "Dusty Dune 1 2D Secret Thwomp 1-Up",
-    "requires": "{OptOne(|Tornado Soaring|)} AND {OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 1 - Secret 2D Thwomp 1-Up",
+    "requires": "",
+    "region": "Dusty Dune 1 - Secret 2D Thwomps Top",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2120,9 +2120,9 @@
     "sort-key": "row-06-058"
   },
   {
-    "name": "Dusty Dune 1 2D Main Path Thwomp 1-Up",
-    "requires": "{OptOne(|Tornado Soaring|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 1 - 2D Main Path Thwomp 1-Up",
+    "requires": "",
+    "region": "Dusty Dune 1 - 2D Section Main",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2130,9 +2130,9 @@
     "sort-key": "row-06-059"
   },
   {
-    "name": "Dusty Dune 1 Sandfall 1-Up",
-    "requires": "{OptOne(|Tornado Soaring|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 1 - Cluckboom 1-Up",
+    "requires": "",
+    "region": "Dusty Dune 1 - Sand Tower",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2140,9 +2140,9 @@
     "sort-key": "row-06-060"
   },
   {
-    "name": "Dusty Dune 1 2D Secret Thwomp Life Mushroom",
-    "requires": "{OptOne(|Tornado Soaring|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 1 - Secret 2D Thwomps Life Mushroom",
+    "requires": "",
+    "region": "Dusty Dune 1 - 2D Section Secret",
     "category": [
       "Bedroom",
       "Life Mushrooms"
@@ -2150,7 +2150,7 @@
     "sort-key": "row-06-061"
   },
   {
-    "name": "Dusty Dune 1 2D Secret Thwomp ? Coin",
+    "name": "Dusty Dune 1 - 2D Secret Thwomp ? Coin",
     "requires": "{OptOne(|Tornado Soaring|)} AND {OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} OR {YamlEnabled(Advanced_Logic)}))",
     "region": "Dusty Dune Galaxy (29)",
     "category": [

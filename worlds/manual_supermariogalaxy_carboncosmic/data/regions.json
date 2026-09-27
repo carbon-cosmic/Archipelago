@@ -1626,12 +1626,12 @@
     },
     "Dusty Dune 1 - 2D Section Secret": {
       "connects_to": [
-        "Dusty Dune 1 - 2D Secret Thwomps Top",
+        "Dusty Dune 1 - Secret 2D Thwomps Top",
         "Dusty Dune 1 - 2D Section Main"
       ],
       "requires": "|Can Break Crates|"
     },
-    "Dusty Dune 1 - 2D Secret Thwomps Top": {
+    "Dusty Dune 1 - Secret 2D Thwomps Top": {
       "connects_to": [],
       "requires": "|Can Wall Spin| or (|Jump Height 6| and |Hard Logic|)"
     },
@@ -1791,7 +1791,8 @@
     },
     "Dusty Dune P - Orange Side": {
       "connects_to": [
-        "Dusty Dune P - Blue Side"
+        "Dusty Dune P - Blue Side",
+        "Dusty Dune P - Tornado Only Coins"
       ],
       "requires": ""
     },
@@ -1799,15 +1800,96 @@
       "connects_to": [],
       "requires": ""
     },
+    "Dusty Dune S - Pyramid": {
+      "connects_to": [],
+      "requires": "|Has Spin| or ?"
+    },
     "Honeyclimb Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Honeyclimb - Start"
+      ],
+      "requires": ""
+    },
+    "Honeyclimb - Start": {
+      "connects_to": [
+        "Honeyclimb - First Wall"
+      ],
+      "requires": ""
+    },
+    "Honeyclimb - First Wall": {
+      "connects_to": [
+        "Honeyclimb - Second Wall"
+      ],
+      "requires": "|Bee Crystals|"
+    },
+    "Honeyclimb - Second Wall": {
+      "connects_to": [
+        "Honeyclimb - Third Wall"
+      ],
+      "requires": ""
+    },
+    "Honeyclimb - Third Wall": {
+      "connects_to": [],
+      "requires": ""
     },
     "Bowser's Dark Matter Plant": {
-      "connects_to": []
+      "connects_to": ["Dark Matter Plant - Start"]
+    },
+    "Dark Matter Plant - Start": {
+      "connects_to": [
+        "Dark Matter Planet - Pole"
+      ],
+      "requires": ""
+    },
+    "Dark Matter Plant - Pole": {
+      "connects_to": [
+        "Dark Matter Planet - Red Platforms"
+      ],
+      "requires": ""
+    },
+    "Dark Matter Plant - Red Platforms": {
+      "connects_to": [
+        "Dark Matter Planet - 2D Gravity Wheel"
+      ],
+      "requires": ""
+    },
+    "Dark Matter Plant - 2D Gravity Wheel": {
+      "connects_to": [
+        "Dark Matter Planet - Bowser Steps"
+      ],
+      "requires": ""
+    },
+    "Dark Matter Plant - Bowser Steps": {
+      "connects_to": [
+        "Dark Matter Planet - Bowser"
+      ],
+      "requires": ""
+    },
+    "Dark Matter Plant - Bowser": {
+      "connects_to": [],
+      "requires": ""
     },
     "Bigmouth Galaxy": {
-      "connects_to": [],
+      "connects_to": [
+        "Bigmouth - Fish's Maw"
+      ],
       "requires": "|Power Star (Bigmouth Access)|"
+    },
+    "Bigmouth - Fish's Maw": {
+      "connects_to": [
+        "Bigmouth - Underwater"
+      ],
+      "requires": ""
+    },
+    "Bigmouth - Underwater": {
+      "connects_to": [
+        "Bigmouth - Underwater with Shell"
+      ],
+      "requires": "|Can Swim| or |Has Koopa Shell|"
+    },
+    "Bigmouth - Underwater with Shell": {
+      "connects_to": [],
+      "requires": "|Has Koopa Shell|"
     },
     "Engine Room": {
       "connects_to": [
