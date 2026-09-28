@@ -2110,7 +2110,17 @@
     "sort-key": "row-06-057"
   },
   {
-    "name": "Dusty Dune 1 - Secret 2D Thwomp 1-Up",
+    "name": "Dusty Dune 1 - Secret 2D Thwomps Life Mushroom",
+    "requires": "",
+    "region": "Dusty Dune 1 - 2D Section Secret",
+    "category": [
+      "Bedroom",
+      "Life Mushrooms"
+    ],
+    "sort-key": "row-06-061"
+  },
+  {
+    "name": "Dusty Dune 1 - Secret 2D Thwomps 1-Up",
     "requires": "",
     "region": "Dusty Dune 1 - Secret 2D Thwomps Top",
     "category": [
@@ -2118,6 +2128,16 @@
       "1-Ups"
     ],
     "sort-key": "row-06-058"
+  },
+  {
+    "name": "Dusty Dune 1 - Secret 2D Thwomp ? Coin",
+    "requires": "",
+    "region": "Dusty Dune 1 - Secret 2D Thowmps Top",
+    "category": [
+      "Bedroom",
+      "? Coins"
+    ],
+    "sort-key": "row-06-062"
   },
   {
     "name": "Dusty Dune 1 - 2D Main Path Thwomp 1-Up",
@@ -2130,6 +2150,16 @@
     "sort-key": "row-06-059"
   },
   {
+    "name": "Dusty Dune 1 - 2D Fire Flower ? Coin",
+    "requires": "",
+    "region": "Dusty Dune 1 - 2D Section Main",
+    "category": [
+      "Bedroom",
+      "? Coins"
+    ],
+    "sort-key": "row-06-063"
+  },
+  {
     "name": "Dusty Dune 1 - Cluckboom 1-Up",
     "requires": "",
     "region": "Dusty Dune 1 - Sand Tower",
@@ -2140,39 +2170,9 @@
     "sort-key": "row-06-060"
   },
   {
-    "name": "Dusty Dune 1 - Secret 2D Thwomps Life Mushroom",
+    "name": "Dusty Dune 1 - Tower Side Tornado ? Coin",
     "requires": "",
-    "region": "Dusty Dune 1 - 2D Section Secret",
-    "category": [
-      "Bedroom",
-      "Life Mushrooms"
-    ],
-    "sort-key": "row-06-061"
-  },
-  {
-    "name": "Dusty Dune 1 - 2D Secret Thwomp ? Coin",
-    "requires": "{OptOne(|Tornado Soaring|)} AND {OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Triple Jump|)} OR {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
-    "category": [
-      "Bedroom",
-      "? Coins"
-    ],
-    "sort-key": "row-06-062"
-  },
-  {
-    "name": "Dusty Dune 1 2D Fire Flower ? Coin",
-    "requires": "{OptOne(|Tornado Soaring|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Dusty Dune Galaxy (29)",
-    "category": [
-      "Bedroom",
-      "? Coins"
-    ],
-    "sort-key": "row-06-063"
-  },
-  {
-    "name": "Dusty Dune 1 Tower Side Tornado ? Coin",
-    "requires": "{OptOne(|Tornado Soaring|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune 1 - Sand Tower",
     "category": [
       "Bedroom",
       "? Coins"
@@ -2180,9 +2180,9 @@
     "sort-key": "row-06-064"
   },
   {
-    "name": "Dusty Dune 1 Tower Wall Jump ? Coin 1",
-    "requires": "{OptOne(|Tornado Soaring|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 1 - Tower Wall Jump ? Coin #1",
+    "requires": "",
+    "region": "Dusty Dune 1 - Sand Tower",
     "category": [
       "Bedroom",
       "? Coins"
@@ -2190,9 +2190,9 @@
     "sort-key": "row-06-065"
   },
   {
-    "name": "Dusty Dune 1 Tower Wall Jump ? Coin 2",
-    "requires": "{OptOne(|Tornado Soaring|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 1 - Tower Wall Jump ? Coin #2",
+    "requires": "",
+    "region": "Dusty Dune 1 - Sand Tower Top",
     "category": [
       "Bedroom",
       "? Coins"
@@ -2200,9 +2200,9 @@
     "sort-key": "row-06-066"
   },
   {
-    "name": "Dusty Dune 1 Tower Wall Jump ? Coin 3",
-    "requires": "{OptOne(|Tornado Soaring|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 1 - Tower Wall Jump ? Coin #3",
+    "requires": "",
+    "region": "Dusty Dune 1 - Sand Tower Top",
     "category": [
       "Bedroom",
       "? Coins"
