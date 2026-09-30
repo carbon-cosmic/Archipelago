@@ -2550,7 +2550,7 @@
     "sort-key": "row-06-101"
   },
   {
-    "name": "Bigmouth Blue Crabber 1-Up",
+    "name": "Bigmouth - Blue Crabber 1-Up",
     "requires": "|Has Koopa Shell| or |Has Ground Spin|",
     "region": "Bigmouth - Fish's Maw",
     "category": [
@@ -2560,7 +2560,7 @@
     "sort-key": "row-06-102"
   },
   {
-    "name": "Bigmouth Underwater Grass 1-Up",
+    "name": "Bigmouth - Underwater Grass 1-Up",
     "requires": "",
     "region": "Bigmouth - Underwater",
     "category": [
