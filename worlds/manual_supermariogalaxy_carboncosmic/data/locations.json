@@ -2117,7 +2117,7 @@
       "Bedroom",
       "Life Mushrooms"
     ],
-    "sort-key": "row-06-061"
+    "sort-key": "row-06-058"
   },
   {
     "name": "Dusty Dune 1 - Secret 2D Thwomps 1-Up",
@@ -2127,7 +2127,7 @@
       "Bedroom",
       "1-Ups"
     ],
-    "sort-key": "row-06-058"
+    "sort-key": "row-06-059"
   },
   {
     "name": "Dusty Dune 1 - Secret 2D Thwomp ? Coin",
@@ -2137,7 +2137,7 @@
       "Bedroom",
       "? Coins"
     ],
-    "sort-key": "row-06-062"
+    "sort-key": "row-06-060"
   },
   {
     "name": "Dusty Dune 1 - 2D Main Path Thwomp 1-Up",
@@ -2147,7 +2147,7 @@
       "Bedroom",
       "1-Ups"
     ],
-    "sort-key": "row-06-059"
+    "sort-key": "row-06-061"
   },
   {
     "name": "Dusty Dune 1 - 2D Fire Flower ? Coin",
@@ -2157,7 +2157,7 @@
       "Bedroom",
       "? Coins"
     ],
-    "sort-key": "row-06-063"
+    "sort-key": "row-06-062"
   },
   {
     "name": "Dusty Dune 1 - Cluckboom 1-Up",
@@ -2167,7 +2167,7 @@
       "Bedroom",
       "1-Ups"
     ],
-    "sort-key": "row-06-060"
+    "sort-key": "row-06-063"
   },
   {
     "name": "Dusty Dune 1 - Tower Side Tornado ? Coin",
@@ -2211,8 +2211,8 @@
   },
   {
     "name": "Blasting through the Sand",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "requires": "|Has Ground Pound|",
+    "region": "Dusty Dune 2 - Blue Side",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2220,29 +2220,29 @@
     "sort-key": "row-06-068"
   },
   {
-    "name": "Dusty Dune 2 Green Path Secret Room Notes 1-Up 1",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Koopa Shell|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 2 - Boulders Life Mushroom",
+    "requires": "",
+    "region": "Dusty Dune 2 - Boulders",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "Life Mushrooms"
     ],
     "sort-key": "row-06-069"
   },
   {
-    "name": "Dusty Dune 2 Green Path Secret Room Notes 1-Up 2",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Koopa Shell|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 2 - Green Path Bonus Room ? Coin",
+    "requires": "",
+    "region": "Dusty Dune 2 - Bonus Room",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-070"
   },
   {
-    "name": "Dusty Dune 2 Green Path Secret Room Notes 1-Up 3",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Koopa Shell|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 2 - Green Path Bonus Room Notes 1-Up #1",
+    "requires": "",
+    "region": "Dusty Dune 2 - Bonus Room",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2250,9 +2250,9 @@
     "sort-key": "row-06-071"
   },
   {
-    "name": "Dusty Dune 2 Blue Side 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Koopa Shell|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 2 - Green Path Bonus Room Notes 1-Up #2",
+    "requires": "",
+    "region": "Dusty Dune 2 - Bonus Room",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2260,9 +2260,9 @@
     "sort-key": "row-06-072"
   },
   {
-    "name": "Dusty Dune 2 Orange Side 1-Up Near Thwomp",
-    "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Dusty Dune Comet Medal|)}  OR ({OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Koopa Shell|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 2 - Green Path Bonus Room Notes 1-Up #3",
+    "requires": "",
+    "region": "Dusty Dune 2 - Bonus Room",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2270,9 +2270,9 @@
     "sort-key": "row-06-073"
   },
   {
-    "name": "Dusty Dune 2 Orange Side 1-Up On Top Of Thwomp",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Koopa Shell|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Tornado Soaring|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 2 - Blue Side 1-Up",
+    "requires": "Dusty Dune 2 - Blue Side",
+    "region": "Dusty Dune 2 - Blue Side",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2280,29 +2280,29 @@
     "sort-key": "row-06-074"
   },
   {
-    "name": "Dusty Dune 2 Under Boulder Platform Life Mushroom",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 2 - Orange Side 1-Up Near Thwomp",
+    "requires": "",
+    "region": "Dusty Dune - Orange Side 1-Up",
     "category": [
       "Bedroom",
-      "Life Mushrooms"
+      "1-Ups"
     ],
     "sort-key": "row-06-075"
   },
   {
-    "name": "Dusty Dune 2 Green Path Bonus Room ? Coin",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Koopa Shell|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 2 - 1-Up On Top Of Thwomp",
+    "requires": "|Can Wall Spin| or |Narrow Jump 5| or (|Hard Logic| and |Has Tornado Soaring|)",
+    "region": "Dusty Dune 2 - Orange Side",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-076"
   },
   {
     "name": "Sunbaked Sand Castle",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)} AND {OptOne(|Spin|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "requires": "",
+    "region": "Dusty Dune 3 - Sand Castle",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2310,29 +2310,29 @@
     "sort-key": "row-06-077"
   },
   {
-    "name": "Dusty Dune 3 Rising Sand 1-Up",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 3 - Rising Sand Life Mushroom",
+    "requires": "",
+    "region": "Dusty Dune 3 - Rising Sand",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "Life Mushrooms"
     ],
     "sort-key": "row-06-078"
   },
   {
-    "name": "Dusty Dune 3 Blue Crabber 1-Up",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)} AND {OptOne(|Spin|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 3 - Rising Sand ? Coin",
+    "requires": "",
+    "region": "Dusty Dune 3 - Rising Sand",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-079"
   },
   {
-    "name": "Dusty Dune 3 Pokey Planet 1-Up",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)} AND {OptOne(|Spin|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 3 - Rising Sand 1-Up",
+    "requires": "",
+    "region": "Dusty Dune 3 - Rising Sand",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2340,9 +2340,9 @@
     "sort-key": "row-06-080"
   },
   {
-    "name": "Dusty Dune 3 Sunbaked Tower 1-Up",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)} AND {OptOne(|Spin|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 3 - Blue Crabber 1-Up",
+    "requires": "|Has Ground Spin|",
+    "region": "Dusty Dune 3 - Crabber Planet",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2350,29 +2350,29 @@
     "sort-key": "row-06-081"
   },
   {
-    "name": "Dusty Dune 3 Rising Sand Life Mushroom",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 3 - Pokey Planet 1-Up",
+    "requires": "",
+    "region": "Dusty Dune 3 - Pokey Planet",
     "category": [
       "Bedroom",
-      "Life Mushrooms"
+      "1-Ups"
     ],
     "sort-key": "row-06-082"
   },
   {
-    "name": "Dusty Dune 3 Rising Sand ? Coin",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune 3 - Sunbaked Tower 1-Up",
+    "requires": "",
+    "region": "Dusty Dune 3 - Sand Castle",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-083"
   },
   {
     "name": "Sandblast Speed Run",
-    "requires": "{OptOne(|Speedy Comets|)} AND {OptOne(|Dusty Dune Comet Medal|)} AND {OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "requires": "|Has Ground Pound|",
+    "region": "Dusty Dune C - Blue Side",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2380,9 +2380,9 @@
     "sort-key": "row-06-084"
   },
   {
-    "name": "Dusty Dune Comet Under Boulder Platform 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Speedy Comets|)} AND {OptOne(|Dusty Dune Comet Medal|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune C - Boulders 1-Up",
+    "requires": "",
+    "region": "Dusty Dune C - Boulders",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2391,7 +2391,7 @@
   },
   {
   "name": "Purple Coins in the Desert",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Dusty Dune Comet Medal|)}  AND {OptOne(|Dusty Dune Purple Coin:100|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Tornado Soaring|)} AND (({OptOne(|Spin|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})) OR ({OptOne(|Triple Jump|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Wall Jump|)} AND {OptOne(|Spin|)}))))",
+  "requires": "|Purple Coins once i figure them out| and |Has Ground Pound| and |Has Tornado Soaring| and ((|Has Air Spin| and |Can Back or Sideflip|) or (|Has Triple Jump| and (|Hard Logic| or |Can Wall Spin|)))",
   "region": "Dusty Dune Galaxy (29)",
   "category": [
     "Bedroom",
@@ -2401,8 +2401,8 @@
 },
   {
     "name": "Bullet Bill on Your Back",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Koopa Shell|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "requires": "",
+    "region": "Dusty Dune S - Bullet Bill Tower",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2411,8 +2411,8 @@
   },
   {
     "name": "Treasure of the Pyramid",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "requires": "|Has Ground Spin|",
+    "region": "Dusty Dune G - Pyramid",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2421,8 +2421,8 @@
   },
   {
     "name": "Scaling the Sticky Wall",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Honeyclimb Galaxy (42)",
+    "requires": "",
+    "region": "Honeyclimb - Mandibug Wall",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2430,29 +2430,29 @@
     "sort-key": "row-06-089"
   },
   {
-    "name": "Honeyclimb Meteor Wall 1-Up",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Honeyclimb Galaxy (42)",
+    "name": "Honeyclimb - Bottom Right ? Coin",
+    "requires": "",
+    "region": "Honeyclimb - First Wall",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-090"
   },
   {
-    "name": "Honeyclimb Mandibug Wall 1-Up",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Honeyclimb Galaxy (42)",
+    "name": "Honeyclimb - Left ? Coin",
+    "requires": "",
+    "region": "Honeyclimb - First Wall",
     "category": [
       "Bedroom",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-06-091"
   },
   {
-    "name": "Honeyclimb Bottom Right ? Coin",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Honeyclimb Galaxy (42)",
+    "name": "Honeyclimb - Top Left ? Coin",
+    "requires": "",
+    "region": "Honeyclimb - First Wall",
     "category": [
       "Bedroom",
       "? Coins"
@@ -2460,29 +2460,29 @@
     "sort-key": "row-06-092"
   },
   {
-    "name": "Honeyclimb Left ? Coin",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Honeyclimb Galaxy (42)",
+    "name": "Honeyclimb - Meteor Wall 1-Up",
+    "requires": "",
+    "region": "Honeyclimb - Meteor Wall",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-093"
   },
   {
-    "name": "Honeyclimb Top Right ? Coin",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Honeyclimb Galaxy (42)",
+    "name": "Honeyclimb - Mandibug Wall 1-Up",
+    "requires": "",
+    "region": "Honeyclimb - Mandibug Wall",
     "category": [
       "Bedroom",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-06-094"
   },
   {
     "name": "Darkness on the Horizon",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Bowser's Dark Matter Plant (33)",
+    "requires": "|Has Ground Spin|",
+    "region": "Dark Matter Plant - Bowser",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2490,9 +2490,9 @@
     "sort-key": "row-06-095"
   },
   {
-    "name": "Bowser's Dark Matter Plant First 2D 1-Up",
+    "name": "Dark Matter Plant - First 2D 1-Up",
     "requires": "",
-    "region": "Bowser's Dark Matter Plant (33)",
+    "region": "Dark Matter Plant - Start",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2500,9 +2500,9 @@
     "sort-key": "row-06-096"
   },
   {
-    "name": "Bowser's Dark Matter Plant 1-Up Lower Pink Platform",
+    "name": "Dark Matter Plant - Lower Red Platform 1-Up",
     "requires": "",
-    "region": "Bowser's Dark Matter Plant (33)",
+    "region": "Dark Matter Plant - Red Platforms",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2510,9 +2510,9 @@
     "sort-key": "row-06-097"
   },
   {
-    "name": "Bowser's Dark Matter Plant Crystal 1-Up",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Bowser's Dark Matter Plant (33)",
+    "name": "Dark Matter Plant - Crystal 1-Up",
+    "requires": "|Has Ground Spin|",
+    "region": "Dark Matter Plant - Red Platforms",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2520,9 +2520,9 @@
     "sort-key": "row-06-098"
   },
   {
-    "name": "Bowser's Dark Matter Plant Second 2D 1-Up",
+    "name": "Dark Matter Plant - Second 2D 1-Up",
     "requires": "",
-    "region": "Bowser's Dark Matter Plant (33)",
+    "region": "Dark Matter Plant - 2D Gravity Wheel",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2530,9 +2530,9 @@
     "sort-key": "row-06-099"
   },
   {
-    "name": "Bowser's Dark Matter Plant Stairs Life Mushroom",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Bowser's Dark Matter Plant (33)",
+    "name": "Dark Matter - Plant Stairs Life Mushroom",
+    "requires": "|Has Ground Spin|",
+    "region": "Dark Matter Plant - Bowser",
     "category": [
       "Bedroom",
       "Life Mushrooms"
@@ -2541,8 +2541,8 @@
   },
   {
     "name": "Bigmouth's Gold Bait",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Bigmouth Galaxy (29)",
+    "requires": "",
+    "region": "Bigmouth - Underwater with Shell",
     "category": [
       "Bedroom",
       "Power Stars"
@@ -2551,8 +2551,8 @@
   },
   {
     "name": "Bigmouth Blue Crabber 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)} OR {OptOne(|Spin|)}",
-    "region": "Bigmouth Galaxy (29)",
+    "requires": "|Has Koopa Shell| or |Has Ground Spin|",
+    "region": "Bigmouth - Fish's Maw",
     "category": [
       "Bedroom",
       "1-Ups"
@@ -2561,8 +2561,8 @@
   },
   {
     "name": "Bigmouth Underwater Grass 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)} OR {OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)}",
-    "region": "Bigmouth Galaxy (29)",
+    "requires": "",
+    "region": "Bigmouth - Underwater",
     "category": [
       "Bedroom",
       "1-Ups"

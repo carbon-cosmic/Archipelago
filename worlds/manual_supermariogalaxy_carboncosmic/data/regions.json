@@ -1692,7 +1692,8 @@
     "Dusty Dune 2 - Orange Side": {
       "connects_to": [
         "Dusty Dune 2 - Blue Side Start",
-        "Dusty Dune 2 - Blue Side"
+        "Dusty Dune 2 - Blue Side",
+        "Dusty Dune - Orange Side 1-Up"
       ],
       "requires": ""
     },
@@ -1739,7 +1740,7 @@
       "connects_to": [
         "Dusty Dune C - Boulders"
       ],
-      "requires": ""
+      "requires": "{canAccessComet(0, Dusty Dune)}"
     },
     "Dusty Dune C - Boulders": {
       "connects_to": [
@@ -1792,7 +1793,8 @@
     "Dusty Dune P - Orange Side": {
       "connects_to": [
         "Dusty Dune P - Blue Side",
-        "Dusty Dune P - Tornado Only Coins"
+        "Dusty Dune P - Tornado Only Coins",
+        "Dusty Dune - Orange Side 1-Up"
       ],
       "requires": ""
     },
@@ -1800,7 +1802,11 @@
       "connects_to": [],
       "requires": ""
     },
-    "Dusty Dune S - Pyramid": {
+    "Dusty Dune S - Bullet Bill Tower": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Dusty Dune G - Pyramid": {
       "connects_to": [],
       "requires": "|Has Spin| or ?"
     },
@@ -1818,17 +1824,17 @@
     },
     "Honeyclimb - First Wall": {
       "connects_to": [
-        "Honeyclimb - Second Wall"
+        "Honeyclimb - Meteor Wall"
       ],
       "requires": "|Bee Crystals|"
     },
-    "Honeyclimb - Second Wall": {
+    "Honeyclimb - Meteor Wall": {
       "connects_to": [
-        "Honeyclimb - Third Wall"
+        "Honeyclimb - Mandibug Wall"
       ],
       "requires": ""
     },
-    "Honeyclimb - Third Wall": {
+    "Honeyclimb - Mandibug Wall": {
       "connects_to": [],
       "requires": ""
     },
