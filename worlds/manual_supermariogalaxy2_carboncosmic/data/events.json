@@ -204,10 +204,6 @@
     "requires": "|Can Back or Sideflip| and |Has Air Spin|"
   },
   {
-    "name": "Can Swim",
-    "requires": "|Has Ground Pound| or {medium_logic()}"
-  },
-  {
     "name": "Can Break Crates",
     "requires": "|Has Ground Spin| or |Has Ground Pound|"
   },

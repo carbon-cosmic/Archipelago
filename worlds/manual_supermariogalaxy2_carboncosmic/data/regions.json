@@ -707,7 +707,7 @@
     "connects_to": [
       "Cosmic Cove 1 - Main Area"
     ],
-    "requires": "|Can Swim| or |Has Koopa Shell|"
+    "requires": ""
   },
   "Cosmic Cove 1 - Main Area": {
     "connects_to": [
@@ -742,7 +742,7 @@
     "connects_to": [
       "Cosmic Cove 2 - Starshroom"
     ],
-    "requires": "|Can Swim| and |Has Ground Spin|"
+    "requires": "|Has Ground Spin|"
   },
   "Cosmic Cove 2 - Starshroom": {
     "connects_to": [
@@ -1568,10 +1568,10 @@
       "Starshine Beach 1 - High Up",
       "Starshine Beach - Hut Roof"
     ],
-    "requires": "|Can Swim|"
+    "requires": ""
   },
   "Starshine Beach 1 - Underwater": {
-    "requires": "|Can Swim|",
+    "requires": "",
     "connects_to": []
   },
   "Starshine Beach 1 - High Up": {
@@ -1596,13 +1596,13 @@
     "connects_to": [
       "Starshine Beach 2 - Underwater"
     ],
-    "requires": "|Can Swim|"
+    "requires": ""
   },
   "Starshine Beach 2 - Underwater": {
     "connects_to": [
       "Starshine Beach 2 - Beach w. Clouds"
     ],
-    "requires": "|Can Swim|"
+    "requires": ""
   },
   "Starshine Beach 2 - Beach w. Clouds": {
     "connects_to": [
@@ -2493,7 +2493,7 @@
     "connects_to": [
       "Battle Belt - Lil' Brrs"
     ],
-    "requires": "|Can Swim| and |Has Koopa Shell|"
+    "requires": "|Has Koopa Shell|"
   },
   "Battle Belt - Lil' Brrs": {
     "connects_to": [
@@ -2564,7 +2564,7 @@
     "connects_to": [
       "Battle Belt C - Lil' Brrs"
     ],
-    "requires": "|Can Swim| and |Has Koopa Shell|"
+    "requires": "|Has Koopa Shell|"
   },
   "Battle Belt C - Lil' Brrs": {
     "connects_to": [
@@ -2636,7 +2636,7 @@
     "connects_to": [
       "Slimy Spring 1 - Underwater Cave End"
     ],
-    "requires": "|Can Swim| and (|Has Koopa Shell| or {medium_logic()})"
+    "requires": "|Has Koopa Shell| or {medium_logic()}"
   },
   "Slimy Spring 1 - Underwater Cave End": {
     "connects_to": [
@@ -2654,7 +2654,7 @@
     "connects_to": [
       "Slimy Spring 1 - Sunset"
     ],
-    "requires": "|Can Swim|"
+    "requires": ""
   },
   "Slimy Spring 1 - Sunset": {
     "connects_to": [],
@@ -2670,7 +2670,7 @@
     "connects_to": [
       "Slimy Spring 2 - Underwater Cave End"
     ],
-    "requires": "|Can Swim| and (|Has Koopa Shell| or {medium_logic()})"
+    "requires": "|Has Koopa Shell| or {medium_logic()}"
   },
   "Slimy Spring 2 - Underwater Cave End": {
     "connects_to": [
@@ -2688,7 +2688,7 @@
     "connects_to": [
       "Slimy Spring 2 - Sunset"
     ],
-    "requires": "|Can Swim|"
+    "requires": ""
   },
   "Slimy Spring 2 - Sunset": {
     "connects_to": [],
