@@ -7024,7 +7024,7 @@
     },
     {
       "name": "Battle Belt - Green Star 2",
-      "requires": "|Battle Belt Green Star| and (|Narrow Jump 5| or (|Jump Height 6| and {hard_logic()}))",
+      "requires": "|Battle Belt Green Stars| and (|Narrow Jump 5| or (|Jump Height 6| and {hard_logic()}))",
       "region": "Battle Belt - Undergrunts",
       "category": [
         "World 6",
