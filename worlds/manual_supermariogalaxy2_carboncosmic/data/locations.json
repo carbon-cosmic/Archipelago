@@ -33,7 +33,7 @@
     },
     {
       "name": "Starship Mario Refueled - Objective",
-      "requires": "{OptionCount(@Power and Grand Stars, Star_Hunt_Star_Count)}",
+      "requires": "{OptionCount(@Power and Grand Stars, star_hunt_star_count)}",
       "region": "Starship Mario",
       "category": [
         "Starship Mario"
@@ -3994,6 +3994,16 @@
         "Power Star Locations"
       ],
       "sort-key": "row-0387"
+    },
+    {
+      "name": "Fearsome Fleet - 1-Up in Space Mine",
+      "requires": "",
+      "region": "Fearsome Fleet - Barrage Platform",
+      "category": [
+        "World 3",
+        "1-Ups"
+      ],
+      "sort-key": "row-0387a"
     },
     {
       "name": "Fearsome Fleet - Green Star 1",
