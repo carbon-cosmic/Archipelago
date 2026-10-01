@@ -1,7 +1,7 @@
 {
   "Green Stars": {
     "yaml_option": [
-      "Green_Stars_Locations"
+      "green_stars_locations"
     ]
   },
   "Power Star Locations": {
@@ -9,37 +9,37 @@
   },
   "Green Star Locations": {
     "yaml_option": [
-      "Green_Stars_Locations"
+      "green_stars_locations"
     ],
     "hidden": true
   },
   "Checkpoints": {
     "yaml_option": [
-      "Flagsanity"
+      "flagsanity"
     ],
     "hidden": true
   },
   "Checkpoint Flags": {
     "yaml_option": [
-      "Flagsanity"
+      "flagsanity"
     ],
     "hidden": true
   },
   "Comet Clocks": {
     "yaml_option": [
-      "Clocksanity"
+      "clocksanity"
     ],
     "hidden": true
   },
   "Speedrun Clocks": {
     "yaml_option": [
-      "Clocksanity"
+      "clocksanity"
     ],
     "hidden": false
   },
   "Chance Cubes": {
     "yaml_option": [
-      "Chance_Cubesanity"
+      "chance_cubesanity"
     ],
     "hidden": true
   },
@@ -48,43 +48,43 @@
   },
   "Comet Medals": {
     "yaml_option": [
-      "Comet_Medal_Items"
+      "comet_medal_items"
     ],
     "hidden": false
   },
   "Prankster Comet Type": {
     "yaml_option": [
-      "Prankster_Type_Toggle"
+      "prankster_type_toggle"
     ],
     "hidden": true
   },
   "1-Ups": {
     "yaml_option": [
-      "OneUp_Mushroom_Toggle"
+      "oneup_mushroom_toggle"
     ],
     "hidden": true
   },
   "Not 1-Up Mushroom": {
     "yaml_option": [
-      "Not_OneUp_Mushroom_Toggle"
+      "not_oneup_Mushroom_Toggle"
     ],
     "hidden": true
   },
   "? Coins": {
     "yaml_option": [
-      "QCoinsanity"
+      "question_coinsanity"
     ],
     "hidden": true
   },
   "Life Mushrooms": {
     "yaml_option": [
-      "Life_Shroomsanity"
+      "life_shroomsanity"
     ],
     "hidden": true
   },
   "Luma Shops": {
     "yaml_option": [
-      "Luma_Shopsanity"
+      "luma_shopsanity"
     ],
     "hidden": true
   },
@@ -93,31 +93,31 @@
   },
   "Luigi": {
     "yaml_option": [
-      "Unlockable_Luigi"
+      "unlockable_luigi"
     ],
     "hidden": false
   },
   "Powerups": {
     "yaml_option": [
-      "Powerup_Randomization"
+      "powerup_randomization"
     ],
     "hidden": false
   },
   "Mechanics": {
     "yaml_option": [
-      "Mechanic_Randomization"
+      "mechanic_randomization"
     ],
     "hidden": false
   },
   "Purple Coin Locations": {
     "yaml_option": [
-      "Purple_Coinsanity"
+      "purple_coinsanity"
     ],
     "hidden": true
   },
   "Purple Coins": {
     "yaml_option": [
-      "Purple_Coinsanity"
+      "purple_coinsanity"
     ],
     "hidden": false
   }

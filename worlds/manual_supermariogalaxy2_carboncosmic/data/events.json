@@ -1,11 +1,11 @@
 [
   {
     "name": "Has Ground Spin",
-    "requires": "{OptAll(|Spin| and |Progressive Spin|)} or {YamlCompare(Movement_Randomization == 1)}"
+    "requires": "{OptAll(|Spin| and |Progressive Spin|)} or {YamlCompare(movement_randomization == 1)}"
   },
   {
     "name": "Has Air Spin",
-    "requires": "{OptAll(|Spin| and |Progressive Spin:2|)} or ({OptOne(|Progressive Spin|)} and {YamlCompare(Movement_Randomization == 1)})"
+    "requires": "{OptAll(|Spin| and |Progressive Spin:2|)} or ({OptOne(|Progressive Spin|)} and {YamlCompare(movement_randomization == 1)})"
   },
   {
     "name": "Can Back or Sideflip",
@@ -233,15 +233,15 @@
   },
   {
     "name": "Can Enter Galaxy Generator",
-    "requires": "{OptionCount(@Power and Grand Stars, Galaxy_Generator_Star_Count)}"
+    "requires": "{OptionCount(@Power and Grand Stars, galaxy_generator_star_count)}"
   },
   {
     "name": "Has Grandmaster Greens",
-    "requires": "{YamlCompare(Grandmaster_Green_Count == 0)} or {YamlDisabled(Green_Star_Locations)} or {OptionCount(Green Star, Grandmaster_Green_Count)}"
+    "requires": "{YamlCompare(grandmaster_green_count == 0)} or {YamlDisabled(green_star_locations)} or {OptionCount(Green Star, grandmaster_green_count)}"
   },
   {
     "name": "Can Enter Grandmaster Galaxy",
-    "requires": "{OptionCount(@Power and Grand Stars, Grandmaster_Star_Count)} and |Has Grandmaster Greens|"
+    "requires": "{OptionCount(@Power and Grand Stars, grandmaster_star_count)} and |Has Grandmaster Greens|"
   },
   {
     "name": "Sky Station Green Stars",
