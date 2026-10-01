@@ -1492,7 +1492,7 @@
     },
     {
       "name": "Rightside Down - Green Star 1",
-      "requires": "|Has Air Spin|",
+      "requires": "|Has Air Spin| and |Rightside Down Green Stars|",
       "region": "Rightside Down - Metal Crates",
       "category": [
         "World 1",
@@ -1542,7 +1542,7 @@
     },
     {
       "name": "Rightside Down - Green Star 2",
-      "requires": "",
+      "requires": "|Rightside Down Green Stars|",
       "region": "Rightside Down - Outside Final Section",
       "category": [
         "World 1",
@@ -3827,7 +3827,7 @@
     },
     {
       "name": "Rolling Masterpiece - Green Star 2",
-      "requires": "",
+      "requires": "|Rolling Masterpiece Green Stars|",
       "region": "Rolling Masterpiece - Silver Chomp",
       "category": [
         "World 3",
@@ -4167,7 +4167,7 @@
     },
     {
       "name": "Supermassive - Green Star 3",
-      "requires": "|Has Long Jump| or {medium_logic()}",
+      "requires": "|Supermassive Green Stars| and (|Has Long Jump| or {medium_logic()})",
       "region": "Supermassive - Koopas",
       "category": [
         "World 4",
@@ -4338,7 +4338,7 @@
     },
     {
       "name": "Flipsville - Green Star 1",
-      "requires": "|Has Ground Pound| or (|Can Wall Spin| and |Can Back or Sideflip| and {hard_logic()})",
+      "requires": "|Flipsville Green Stars| and (|Has Ground Pound| or (|Can Wall Spin| and |Can Back or Sideflip| and {hard_logic()}))",
       "region": "Flipsville 1 - Start",
       "category": [
         "World 4",
@@ -4358,7 +4358,7 @@
     },
     {
       "name": "Flipsville - Green Star 2",
-      "requires": "|Has Wall Jump|",
+      "requires": "|Has Wall Jump| and |Flipsville Green Stars|",
       "region": "Flipsville 1 - Chomps Back",
       "category": [
         "World 4",
@@ -5494,7 +5494,7 @@
     },
     {
       "name": "Space Storm - Green Star 3",
-      "requires": "|Has Ground Spin| and (|Has Ground Pound| or {medium_logic()})",
+      "requires": "|Space Storm Green Stars| and |Has Ground Spin| and (|Has Ground Pound| or {medium_logic()})",
       "region": "Space Storm 2 - Tower Base",
       "category": [
         "World 5",
@@ -6058,7 +6058,7 @@
     },
     {
       "name": "Boo Moon - Green Star 3",
-      "requires": "|Has Ground Pound| and |Can Long Spin|",
+      "requires": "|Boo Moon Green Stars| and |Has Ground Pound| and |Can Long Spin|",
       "region": "Boo Moon 1 - Pop-Up Book",
       "category": [
         "World 5",
@@ -7024,7 +7024,7 @@
     },
     {
       "name": "Battle Belt - Green Star 2",
-      "requires": "|Narrow Jump 5| or (|Jump Height 6| and {hard_logic()})",
+      "requires": "|Battle Belt Green Star| and (|Narrow Jump 5| or (|Jump Height 6| and {hard_logic()}))",
       "region": "Battle Belt - Undergrunts",
       "category": [
         "World 6",
@@ -7885,7 +7885,7 @@
     },
     {
       "name": "Twisty Trials - Green Star 1",
-      "requires": "|Can Make Clouds|",
+      "requires": "|Can Make Clouds| and |Twisty Trials Green Stars|",
       "region": "Twisty Trials - Start",
       "category": [
         "World S",
@@ -7925,7 +7925,7 @@
     },
     {
       "name": "Twisty Trials - Green Star 2",
-      "requires": "|Can Make Clouds|",
+      "requires": "|Can Make Clouds| and |Twisty Trials Green Stars|",
       "region": "Twisty Trials - Final",
       "category": [
         "World S",
@@ -17524,7 +17524,7 @@
       "sort-key": "row-1728"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #1",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #1",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17534,7 +17534,7 @@
       "sort-key": "row-1729"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #2",
+      "name": "Rolling Coaster - Platform Purple Coin #2",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17544,7 +17544,7 @@
       "sort-key": "row-1730"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #3",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #3",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17554,7 +17554,7 @@
       "sort-key": "row-1731"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #4",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #4",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17564,7 +17564,7 @@
       "sort-key": "row-1732"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #5",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #5",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17574,7 +17574,7 @@
       "sort-key": "row-1733"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #6",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #6",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17584,7 +17584,7 @@
       "sort-key": "row-1734"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #7",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #7",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17594,7 +17594,7 @@
       "sort-key": "row-1735"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #8",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #8",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17604,7 +17604,7 @@
       "sort-key": "row-1736"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #9",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #9",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17614,7 +17614,7 @@
       "sort-key": "row-1737"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #10",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #10",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17624,7 +17624,7 @@
       "sort-key": "row-1738"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #11",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #11",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17634,7 +17634,7 @@
       "sort-key": "row-1739"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #12",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #12",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
@@ -17644,7 +17644,7 @@
       "sort-key": "row-1740"
     },
     {
-      "name": "Rolling Coaster - Platform Before Expert Path Purple Coin #13",
+      "name": "Rolling Coaster - Colored Platform Purple Coin #13",
       "requires": "",
       "region": "Rolling Coaster C - Rainbow Road",
       "category": [
