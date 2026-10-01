@@ -49,33 +49,34 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     #Checks whether Comet Medal Items are enabled (the only setting that can add more items than the smallest number of locations, 170),
     #and whether one of 1-Ups, Checkpoints, or Clocks is not enabled. If so, forcefully enable Checkpoints to avoid having more items than locations.
     #It's not a perfect solution, but there are plans to make more robust error-checking for other settings I'm planning to add.
-    is_comet_medals_enabled = world.options.Comet_Medal_Items.value
-    is_1ups_enabled = (world.options.OneUpsanity.value >= 1)
-    is_checkpoints_enabled = world.options.Flagsanity.value
-    is_clocks_enabled = world.options.Clocksanity.value
+    is_comet_medals_enabled = world.options.comet_medal_items.value
+    is_1ups_enabled = (world.options.one_upsanity.value >= 1)
+    is_checkpoints_enabled = world.options.flagsanity.value
+    is_clocks_enabled = world.options.clocksanity.value
     if is_comet_medals_enabled and not (is_1ups_enabled or is_checkpoints_enabled or is_clocks_enabled):
-        world.options.Flagsanity.value = 1
+        world.options.flagsanity.value = 1
         logging.info(f"Player {player}: Comet Medal items were enabled, likely without enough checks to support them. Checkpoint locations were enabled.")
     #Check whether purple coinsanity is enabled - if it isn't, set Purple_Coin_Count to 0.
-    if not world.options.Purple_Coinsanity:
-        world.options.Purple_Coin_Count.value = 0
+    if not world.options.purple_coinsanity:
+        world.options.purple_coin_count.value = 0
+        world.options.purple_coin_bundles.value = 1
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     #1-Up sanity option tinkering
-    if world.options.OneUpsanity.value == 2:
-        world.options.OneUp_Mushroom_Toggle.value = True
-        world.options.Not_OneUp_Mushroom_Toggle.value = True
-    elif world.options.OneUpsanity.value == 1:
-        world.options.OneUp_Mushroom_Toggle.value = True
-        world.options.Not_OneUp_Mushroom_Toggle.value = False
+    if world.options.one_upsanity.value == 2:
+        world.options.oneup_mushroom_toggle.value = True
+        world.options.not_oneup_mushroom_toggle.value = True
+    elif world.options.one_upsanity.value == 1:
+        world.options.oneup_mushroom_toggle.value = True
+        world.options.not_oneup_mushroom_toggle.value = False
     else:
-        world.options.OneUp_Mushroom_Toggle.value = False
-        world.options.Not_OneUp_Mushroom_Toggle.value = False
+        world.options.oneup_mushroom_toggle.value = False
+        world.options.not_oneup_mushroom_toggle.value = False
     #Prankster Comet randomization handling
-    if world.options.Comet_Randomization.value == 2:
-        world.options.Prankster_Type_Toggle.value = True
+    if world.options.comet_randomization.value == 2:
+        world.options.prankster_type_toggle.value = True
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
@@ -112,9 +113,9 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
     #Checks whether Star Hunt is enabled, to see if it will affect the number of progressive Power Stars.
     star_hunt_count = 0
     if world.options.goal == 3:
-        star_hunt_count = world.options.Star_Hunt_Star_Count
+        star_hunt_count = world.options.star_hunt_star_count
     #Finds the greatest of the Star Count options, then sets that many stars to be progressive. The rest are set to useful. -7 for the Grand Stars
-    progressive_star_count = max([world.options.Galaxy_Generator_Star_Count, world.options.Grandmaster_Star_Count, star_hunt_count]) - 7
+    progressive_star_count = max([world.options.galaxy_generator_star_count, world.options.grandmaster_star_count, star_hunt_count]) - 7
     if progressive_star_count >=7:
         item_config.update({"Power Star": {"progression_skip_balancing": progressive_star_count, "useful": 115 - progressive_star_count}})
     else:
@@ -122,51 +123,61 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
     #Checks whether green stars are enabled, then sets the number required by Grandmaster to progressive, and the rest useful.
     #If none are required, set as filler.
-    if world.options.Green_Stars_Locations:
-        progressive_green_count = world.options.Grandmaster_Green_Count
+    if world.options.green_stars_locations:
+        progressive_green_count = world.options.grandmaster_green_count
         if progressive_green_count == 0:
             item_config.update({"Green Star": {"filler": 120}})
         else:
             item_config.update({"Green Star": {"progression_skip_balancing": progressive_green_count, "useful": 120 - progressive_green_count}})
 
-    if world.options.Purple_Coinsanity:
-        regular_purple_coin_stars = ["Flip-Swap Purple Coin", "Puzzle Plank Purple Coin", "Flipsville Purple Coin",
-                                     "Sweet Mystery Purple Coin", "Clockwork Ruins Purple Coin", "Mario Squared Purple Coin"]
-        purple_coin_count = world.options.Purple_Coin_Count
-        if purple_coin_count != 0:
-            #Iterate through all 100 coin stars, making purple_coin_count number progression,
-            #then half of the rest useful and the other half filler
-            useful_purple_count = ceil((100 - purple_coin_count)/2)
-            filler_purple_count = floor((100 - purple_coin_count)/2)
-            for coin_type in regular_purple_coin_stars:
-                item_config.update({coin_type: {
-                    "progression_skip_balancing": purple_coin_count,
-                    "useful": useful_purple_count,
-                    "filler": filler_purple_count
+    if world.options.purple_coinsanity:
+        purple_coin_stars = ["Flip-Swap Purple Coin", "Puzzle Plank Purple Coin", "Tall Trunk Purple Coin",
+                             "Flipsville Purple Coin","Sweet Mystery Purple Coin", "Starshine Beach Purple Coin",
+                             "Clockwork Ruins Purple Coin", "Mario Squared Purple Coin", "Rolling Coaster Purple Coin"]
+        bundle_amounts = {
+            1: "",
+            5: " Bundle - 5",
+            10: " Bundle - 10",
+            20: " Bundle - 20",
+            100: " Bundle - 100"
+        }
+        purple_coin_count = world.options.purple_coin_count
+        purple_coin_bundle_amount = world.options.purple_coin_bundles
+        progression_purple_bundle_count = ceil(purple_coin_count / purple_coin_bundle_amount)
+        useful_purple_count = 100 - purple_coin_count
+        useful_purple_bundle_count = floor(useful_purple_count / purple_coin_bundle_amount)
+        for coin_type in purple_coin_stars:
+            for bundle in bundle_amounts.keys():
+                item_config.update({str(coin_type + bundle_amounts[bundle]): 0})
+            if purple_coin_bundle_amount != 1:
+                coin_type = coin_type + bundle_amounts[purple_coin_bundle_amount]
+            item_config.update({coin_type: {
+                "progression_skip_balancing": progression_purple_bundle_count,
+                "useful": useful_purple_bundle_count
                 }})
-            #Then handle the stars with unique numbers of purple coins.
-            item_config.update({"Tall Trunk Purple Coin": {
-                "progression_skip_balancing": purple_coin_count,
-                "useful": useful_purple_count + 20,
-                "filler": filler_purple_count + 20
-            }})
-            item_config.update({"Starshine Beach Purple Coin": {
-                "progression_skip_balancing": purple_coin_count,
-                "useful": useful_purple_count + 20,
-                "filler": filler_purple_count + 20
-            }})
-            item_config.update({"Rolling Coaster Purple Coin": {
-                "progression": purple_coin_count,
-                "useful": useful_purple_count + 5,
-                "filler": filler_purple_count + 5
-            }})
+        if purple_coin_bundle_amount >= 20:
+            item_config.update({"Rolling Coaster Purple Coin Bundle - 10": {"useful": 1}})
         else:
-            #If purple_coin_count is 0, set all purple coins as filler.
-            for coin_type in regular_purple_coin_stars:
-                item_config.update({coin_type: {"filler": 100}})
-            item_config.update({"Tall Trunk Purple Coin": {"filler": 140}})
-            item_config.update({"Starshine Beach Purple Coin": {"filler": 140}})
-            item_config.update({"Rolling Coaster Purple Coin": {"filler": 110}})
+            item_config.update({
+                "Rolling Coaster Purple Coin" + bundle_amounts[purple_coin_bundle_amount]: {
+                    "progression_skip_balancing": progression_purple_bundle_count,
+                    "useful": floor((useful_purple_count + 10) / purple_coin_bundle_amount)
+            }})
+        if purple_coin_bundle_amount != 100:
+            item_config.update({
+                "Tall Trunk Purple Coin" + bundle_amounts[purple_coin_bundle_amount]: {
+                    "progression_skip_balancing": progression_purple_bundle_count,
+                    "useful": floor((useful_purple_count + 40) / purple_coin_bundle_amount)
+                }})
+            item_config.update({
+                "Starshine Beach Purple Coin" + bundle_amounts[purple_coin_bundle_amount]: {
+                    "progression_skip_balancing": progression_purple_bundle_count,
+                    "useful": floor((useful_purple_count + 40) / purple_coin_bundle_amount)
+                }})
+        else:
+            item_config.update({"Tall Trunk Purple Coin Bundle - 20": {"useful": 2}})
+            item_config.update({"Starshine Beach Purple Coin Bundle - 20": {"useful": 2}})
+
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
@@ -184,8 +195,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
     movement_items_to_remove = []
-    movement_randomization_value = world.options.Movement_Randomization.value
-    progressive_movement_value = world.options.Progressive_Movement.value
+    movement_randomization_value = world.options.movement_randomization.value
+    progressive_movement_value = world.options.progressive_movement.value
     if movement_randomization_value == 0:
         movement_items_to_remove = ["Backflip", "Sideflip", "Long Jump", "Wall Jump", "Ground Pound", "Spin", "Progressive Spin",
                                     "Progressive Spin", "Triple Jump", "Progressive Triple Jump", "Progressive Triple Jump"]
@@ -207,7 +218,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for item in movement_items_to_remove:
         itemNamesToRemove.append(item)
 
-    if world.options.Comet_Randomization.value != 1:
+    if world.options.comet_randomization.value != 1:
         itemNamesToRemove.append("All Prankster Comets")
 
     for itemName in itemNamesToRemove:
