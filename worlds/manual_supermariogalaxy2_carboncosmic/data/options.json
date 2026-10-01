@@ -305,7 +305,7 @@
       "description": [
         "How many purple coin items are needed to collect a purple coin star.",
         "Maximum 100, minimum 0. Default is 50.",
-        "Warning: High values can slow down generation"
+        "Warning: High values combined with low coin bundle amounts can slow down generation significantly."
       ],
       "display_name": "Purple Coin Count",
       "range_start": 0,
