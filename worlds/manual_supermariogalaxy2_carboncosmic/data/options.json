@@ -10,12 +10,13 @@
       "display_name": "Objective",
       "description": ["The goal of the randomizer.",
         "Options for the final level include: bowers_fortified_fortress, the_ultimate_test, and the_perfect_run.",
-        "Also available is the star_hunt goal, which requires the collection of a chosen number of stars before completion."
+        "Also available is the starship_mario_refueled goal, which requires the collection of a chosen number of stars before completion."
       ],
       "aliases": {
         "bowsers_fortified_fortress": 0,
         "the_ultimate_test": 1,
         "the_perfect_run": 2,
+        "starship_mario_refueled": 3,
         "star_hunt": 3
       },
       "default": 0
@@ -92,7 +93,7 @@
         "false": 0,
         "true": 2
       },
-      "default": 0,
+      "default": 1,
       "group": "Randomization Options"
     },
     "oneup_mushroom_toggle": {
@@ -111,7 +112,7 @@
       ],
       "display_name": "Life Mushroom Checks",
       "type": "Toggle",
-      "default": false,
+      "default": true,
       "group": "Randomization Options"
     },
     "luma_shopsanity": {
@@ -120,7 +121,7 @@
       ],
       "display_name": "Luma Shop Checks",
       "type": "Toggle",
-      "default": false,
+      "default": true,
       "group": "Randomization Options"
     },
 
@@ -130,7 +131,7 @@
       ],
       "display_name": "Chance Cube Checks",
       "type": "Toggle",
-      "default": false,
+      "default": true,
       "group": "Randomization Options"
     },
 
@@ -160,7 +161,7 @@
       ],
       "display_name": "?-Coin Checks",
       "type": "Toggle",
-      "default": false,
+      "default": true,
       "group": "Randomization Options"
     },
     "green_stars_locations": {
@@ -169,7 +170,7 @@
       ],
       "display_name": "Green Star Checks",
       "type": "Toggle",
-      "default": true,
+      "default": false,
       "group": "Randomization Options"
     },
     "movement_randomization": {
@@ -196,7 +197,7 @@
         "Whether Spin and Triple Jump will be split into two Progressive items.",
         "Spin splits into only spinning on the ground and underwater, and then Air Spin.",
         "Triple Jump splits into Double Jump, then Triple Jump.",
-        "When Spin Start is on, it will start with only one Progressive Spin."
+        "When Spin Start is on, you will start with only one Progressive Spin."
       ],
       "type": "Toggle",
       "default": true,
@@ -326,7 +327,11 @@
         "20": 20,
         "100": 100
       },
-      "default": 10
+      "default": 10,
+      "aliases": {
+        "1": 1
+      },
+      "group": "Randomization Options"
     }
   }
 }
