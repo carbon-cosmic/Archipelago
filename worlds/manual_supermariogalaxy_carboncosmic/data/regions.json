@@ -1908,7 +1908,26 @@
       "requires": "|Grand Star (Engine Room Access)|"
     },
     "Gold Leaf Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Gold Leaf 1 - Start",
+        "Gold Leaf 2 - Start",
+        "Gold Leaf 3 - Start",
+        "Gold Leaf C - Start",
+        "Gold Leaf P - Start"
+      ]
+    },
+    "Gold Leaf 1 - Start": {
+      "connects_to": [
+        "Gold Leaf 1 - Pond Ledge",
+        "Gold Leaf 1 - Right Ledge",
+        "Gold Leaf 1 - Fountain Ledge"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Gold Leaf 1 - Pond Ledge": "",
+        "Gold Leaf 1 - Right Ledge": "|Jump Height 3| or |Bee Crystals| or |Has Wall Jump|",
+        "Gold Leaf 1 - Fountain Ledge": "?"
+      }
     },
     "Sea Slide Galaxy": {
       "connects_to": []
