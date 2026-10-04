@@ -913,7 +913,7 @@
       "connects_to": [
         "Beach Bowl 1 - Top Pond Ledge"
       ],
-      "requires": "|Can Swim|"
+      "requires": ""
     },
     "Beach Bowl 1 - Top Pond Ledge": {
       "connects_to": [
@@ -934,7 +934,7 @@
       "connects_to": [
         "Beach Bowl S - Waterfalls"
       ],
-      "requires": "|Can Swim|"
+      "requires": ""
     },
     "Beach Bowl 3 - Ocean": {
       "connects_to": ["Beach Bowl 3 - Underwater"],
@@ -942,7 +942,7 @@
     },
     "Beach Bowl 3 - Underwater": {
       "connects_to": ["Beach Bowl 3 - Cavern", "Beach Bowl S - Waterfalls"],
-      "requires": "|Can Swim|"
+      "requires": ""
     },
     "Beach Bowl 3 - Cavern": {
       "connects_to": ["Beach Bowl 3 - Cyclone Stone"],
@@ -962,7 +962,7 @@
     },
     "Beach Bowl P - Underwater": {
       "connects_to": [],
-      "requires": "|Can Swim|"
+      "requires": ""
     },
     "Beach Bowl P - Top Pond Ledge": {
       "connects_to": ["Beach Bowl P - Top Area"],
@@ -1127,7 +1127,7 @@
         "Buoy Base G - Underside",
         "Buoy Base - Raised Platforms"
       ],
-      "requires": "|Can Swim|"
+      "requires": ""
     },
     "Buoy Base - Raised Platforms": {
       "connects_to": [
@@ -1216,7 +1216,7 @@
     },
     "Drip Drop - Underwater": {
       "connects_to": [],
-      "requires": "|Can Swim| or |Has Koopa Shell|"
+      "requires": ""
     },
     "Bedroom": {
       "connects_to": [
@@ -1891,7 +1891,7 @@
       "connects_to": [
         "Bigmouth - Underwater with Shell"
       ],
-      "requires": "|Can Swim| or |Has Koopa Shell|"
+      "requires": ""
     },
     "Bigmouth - Underwater with Shell": {
       "connects_to": [],
@@ -1905,9 +1905,7 @@
         "Bonefin Galaxy",
         "Bowser Jr.'s Lava Reactor"
       ],
-      "requires": [
-        "|Grand Star (Engine Room Access)|"
-      ]
+      "requires": "|Grand Star (Engine Room Access)|"
     },
     "Gold Leaf Galaxy": {
       "connects_to": []

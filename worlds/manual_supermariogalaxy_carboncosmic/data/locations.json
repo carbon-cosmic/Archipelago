@@ -1161,7 +1161,7 @@
   },
   {
   "name": "Beachcombing for Purple Coins",
-  "requires": "|Purple coins when i figure them out| and |Spring Crystals| and |Can Swim|",
+  "requires": "|Purple coins when i figure them out| and |Spring Crystals|",
   "region": "Beach Bowl P - Ocean",
   "category": [
     "Kitchen",

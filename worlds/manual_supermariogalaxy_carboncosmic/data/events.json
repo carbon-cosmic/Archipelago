@@ -148,29 +148,6 @@
     "requires": "|Has Ground Spin| and |Has Floaty Fluff|"
   },
   {
-    "remember to remove these if not needed!": true
-  },
-  {
-    "name": "Has Speedy Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Speedy Comets|)}"
-  },
-  {
-    "name": "Has Daredevil Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Daredevil Comets|)}"
-  },
-  {
-    "name": "Has Cosmic Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Cosmic Comets|)}"
-  },
-  {
-    "name": "Has Fast Foes Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Fast Foes Comets|)}"
-  },
-  {
-    "name": "Has Purple Comets",
-    "requires": "{OptAll(|Prankster Comets| and |Purple Comets|)}"
-  },
-  {
     "name": "Jump Height 6",
     "requires": "|Has Triple Jump| and |Has Air Spin|"
   },
@@ -205,10 +182,6 @@
   {
     "name": "Hard Logic",
     "requires": "{YamlCompare(Logic_Difficulty == 1)}"
-  },
-  {
-    "name": "Can Swim",
-    "requires": "|Has Ground Pound| or |Medium Logic|"
   },
   {
     "name": "Can Break Crates",
