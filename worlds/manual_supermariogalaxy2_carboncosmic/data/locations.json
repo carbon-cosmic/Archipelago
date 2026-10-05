@@ -168,7 +168,7 @@
     },
     {
       "name": "Sky Station - Green Star 1",
-      "requires": "|Sky Station Green Stars| and (|Has Ground Spin| or |Jump Height 4| or (|Jump Height 3| and |Has Wall Jump|))",
+      "requires": "{can_access_comet(8, Sky Station)} and (|Has Ground Spin| or |Jump Height 4| or (|Jump Height 3| and |Has Wall Jump|))",
       "region": "Sky Station 1 - Start Planet",
       "category": [
         "World 1",
@@ -268,7 +268,7 @@
     },
     {
       "name": "Sky Station - Green Star 2",
-      "requires": "|Sky Station Green Stars|",
+      "requires": "{can_access_comet(8, Sky Station)}",
       "region": "Sky Station 1 - Green Hill Planet",
       "category": [
         "World 1",
@@ -428,7 +428,7 @@
     },
     {
       "name": "Sky Station - Green Star 3",
-      "requires": "|Sky Station Green Stars|",
+      "requires": "{can_access_comet(8, Sky Station)}",
       "region": "Sky Station 2 - Sky Fleet Ship",
       "category": [
         "World 1",
@@ -628,7 +628,7 @@
     },
     {
       "name": "Yoshi Star - Green Star 1",
-      "requires": "|Yoshi Star Green Stars| and (|Has Yoshi| or (|Narrow Jump 5|))",
+      "requires": "{can_access_comet(8, Yoshi Star)} and (|Has Yoshi| or (|Narrow Jump 5|))",
       "region": "Yoshi Star 1 - Start",
       "category": [
         "World 1",
@@ -668,7 +668,7 @@
     },
     {
       "name": "Yoshi Star - Green Star 2",
-      "requires": "|Yoshi Star Green Stars|",
+      "requires": "{can_access_comet(8, Yoshi Star)}",
       "region": "Yoshi Star 1 - Volcano Front",
       "category": [
         "World 1",
@@ -718,7 +718,7 @@
     },
     {
       "name": "Yoshi Star - Green Star 3",
-      "requires": "|Yoshi Star Green Stars|",
+      "requires": "{can_access_comet(8, Yoshi Star)}",
       "region": "Yoshi Star 1 - Fossil Planet",
       "category": [
         "World 1",
@@ -868,7 +868,7 @@
     },
     {
       "name": "Spin-Dig - Green Star 1",
-      "requires": "|Spin-Dig Green Stars| and |Jump Height 3|",
+      "requires": "{can_access_comet(8, Spin-Dig)} and |Jump Height 3|",
       "region": "Spin-Dig 1 - Dirt Tower Planet",
       "category": [
         "World 1",
@@ -938,7 +938,7 @@
     },
     {
       "name": "Spin-Dig - Green Star 2",
-      "requires": "|Spin-Dig Green Stars| and (|Jump Height 6| or (|Has Sideflip| and |Has Air Spin|))",
+      "requires": "{can_access_comet(8, Spin-Dig)} and (|Jump Height 6| or (|Has Sideflip| and |Has Air Spin|))",
       "region": "Spin-Dig 1 - Metal Ring Planet",
       "category": [
         "World 1",
@@ -1008,7 +1008,7 @@
     },
     {
       "name": "Spin-Dig - Green Star 3",
-      "requires": "|Spin-Dig Green Stars| and |Has Spin-Drill| and ((|Has Wall Jump| and (|Has Sideflip| or |Has Triple Jump|)) or ({medium_logic()} and |Has Backflip| and |Has Wall Jump|) or ({hard_logic()} and |Jump Height 6|)",
+      "requires": "{can_access_comet(8, Spin-Dig)} and |Has Spin-Drill| and ((|Has Wall Jump| and (|Has Sideflip| or |Has Triple Jump|)) or ({medium_logic()} and |Has Backflip| and |Has Wall Jump|) or ({hard_logic()} and |Jump Height 6|)",
       "region": "Spin-Dig 2 - First Canister Section",
       "category": [
         "World 1",
@@ -1068,7 +1068,7 @@
     },
     {
       "name": "Fluffy Bluff - Green Star 1",
-      "requires": "|Fluffy Bluff Green Stars| and |Can Make Clouds| and (|Can Back or Sideflip| or ({medium_logic()} and |Has Double Jump|))",
+      "requires": "{can_access_comet(8, Fluffy Bluff)} and |Can Make Clouds| and (|Can Back or Sideflip| or ({medium_logic()} and |Has Double Jump|))",
       "region": "Fluffy Bluff 1 - Landing",
       "category": [
         "World 1",
@@ -1121,7 +1121,7 @@
     },
     {
       "name": "Fluffy Bluff - Green Star 2",
-      "requires": "|Fluffy Bluff Green Stars| and |Can Make Clouds|",
+      "requires": "{can_access_comet(8, Fluffy Bluff)} and |Can Make Clouds|",
       "region": "Fluffy Bluff 1 - Clifftops",
       "category": [
         "World 1",
@@ -1192,7 +1192,7 @@
     },
     {
       "name": "Fluffy Bluff - Green Star 3",
-      "requires": "|Fluffy Bluff Green Stars| and |Can Make Clouds|",
+      "requires": "{can_access_comet(8, Fluffy Bluff)} and |Can Make Clouds|",
       "region": "Fluffy Bluff 1 - Treetops",
       "category": [
         "World 1",
@@ -1312,7 +1312,7 @@
     },
     {
       "name": "Flip-Swap - Green Star 1",
-      "requires": "|Flip-Swap Green Stars| and (|Jump Height 6| or {hard_logic()})",
+      "requires": "{can_access_comet(8, Flip-Swap)} and (|Jump Height 6| or {hard_logic()})",
       "region": "Flip-Swap - Main",
       "category": [
         "World 1",
@@ -1352,7 +1352,7 @@
     },
     {
       "name": "Flip-Swap - Green Star 2",
-      "requires": "|Flip-Swap Green Stars| and (|Jump Height 6| or {hard_logic()}",
+      "requires": "{can_access_comet(8, Flip-Swap)} and (|Jump Height 6| or {hard_logic()}",
       "region": "Flip-Swap - Main",
       "category": [
         "World 1",
@@ -1492,7 +1492,7 @@
     },
     {
       "name": "Rightside Down - Green Star 1",
-      "requires": "|Has Air Spin| and |Rightside Down Green Stars|",
+      "requires": "{can_access_comet(8, Rightside Down)} and |Has Air Spin|",
       "region": "Rightside Down - Metal Crates",
       "category": [
         "World 1",
@@ -1542,7 +1542,7 @@
     },
     {
       "name": "Rightside Down - Green Star 2",
-      "requires": "|Rightside Down Green Stars|",
+      "requires": "{can_access_comet(8, Rightside Down)}",
       "region": "Rightside Down - Outside Final Section",
       "category": [
         "World 1",
@@ -1612,7 +1612,7 @@
     },
     {
       "name": "Fiery Flotilla - Green Star 1",
-      "requires": "|Fiery Flotilla Green Stars|",
+      "requires": "{can_access_comet(8, Fiery Flotilla)}",
       "region": "Fiery Flotilla - Castle Walls",
       "category": [
         "World 1",
@@ -1642,7 +1642,7 @@
     },
     {
       "name": "Fiery Flotilla - Green Star 2",
-      "requires": "|Fiery Flotilla Green Stars|",
+      "requires": "{can_access_comet(8, Fiery Flotilla)}",
       "region": "Fiery Flotilla - Fire Planet",
       "category": [
         "World 1",
@@ -1672,7 +1672,7 @@
     },
     {
       "name": "Puzzle Plank - Green Star 1",
-      "requires": "|Puzzle Plank Green Stars| and |Has Ground Pound| and |Can Wall Spin| and |Can Back or Sideflip|",
+      "requires": "{can_access_comet(8, Puzzle Plank)} and |Has Ground Pound| and |Can Wall Spin| and |Can Back or Sideflip|",
       "region": "Puzzle Plank - Start",
       "category": [
         "World 2",
@@ -1763,7 +1763,7 @@
     },
     {
       "name": "Puzzle Plank - Green Star 2",
-      "requires": "|Puzzle Plank Green Stars| and (|Narrow Jump 5| or |Can Wall Spin| or ({hard_logic()} and |Has Triple Jump| and |Has Air Spin|))",
+      "requires": "{can_access_comet(8, Puzzle Plank)} and (|Narrow Jump 5| or |Can Wall Spin| or ({hard_logic()} and |Has Triple Jump| and |Has Air Spin|))",
       "region": "Puzzle Plank - Planks",
       "category": [
         "World 2",
@@ -1773,7 +1773,7 @@
     },
     {
       "name": "Puzzle Plank - Green Star 3",
-      "requires": "|Puzzle Plank Green Stars|",
+      "requires": "{can_access_comet(8, Puzzle Plank)}",
       "region": "Puzzle Plank - Upper Planks",
       "category": [
         "World 2",
@@ -1873,7 +1873,7 @@
     },
     {
       "name": "Hightail Falls - Green Star 1",
-      "requires": "|Can Use Dash| and |Hightail Falls Green Stars|",
+      "requires": "{can_access_comet(8, Hightail Falls)} and |Can Use Dash|",
       "region": "Hightail Falls - Giant Ramp",
       "category": [
         "World 2",
@@ -1943,7 +1943,7 @@
     },
     {
       "name": "Hightail Falls - Green Star 2",
-      "requires": "|Hightail Falls Green Stars|",
+      "requires": "{can_access_comet(8, Hightail Falls)}",
       "region": "Hightail Falls - Final Walls",
       "category": [
         "World 2",
@@ -1953,7 +1953,7 @@
     },
     {
       "name": "Hightail Falls - Green Star 3",
-      "requires": "|Hightail Falls Green Stars|",
+      "requires": "{can_access_comet(8, Hightail Falls)}",
       "region": "Hightail Falls - Final Walls",
       "category": [
         "World 2",
@@ -2033,7 +2033,7 @@
     },
     {
       "name": "Boulder Bowl - Green Star 1",
-      "requires": "|Boulder Bowl Green Stars| and |Can Wall Spin| and |Can Back or Sideflip|",
+      "requires": "{can_access_comet(8, Boulder Bowl)} and |Can Wall Spin| and |Can Back or Sideflip|",
       "region": "Boulder Bowl - Start",
       "category": [
         "World 2",
@@ -2043,7 +2043,7 @@
     },
     {
       "name": "Boulder Bowl - Green Star 2",
-      "requires": "|Boulder Bowl Green Stars| and (|Has Rock| or (|Can Long Spin| and {medium_logic()} and ({hard_logic()} or |Has Wall Jump|)))",
+      "requires": "{can_access_comet(8, Boulder Bowl)} and (|Has Rock| or (|Can Long Spin| and {medium_logic()} and ({hard_logic()} or |Has Wall Jump|)))",
       "region": "Boulder Bowl - Start",
       "category": [
         "World 2",
@@ -2063,7 +2063,7 @@
     },
     {
       "name": "Boulder Bowl - Green Star 3",
-      "requires": "|Boulder Bowl Green Stars|",
+      "requires": "{can_access_comet(8, Boulder Bowl)}",
       "region": "Boulder Bowl - Rolling Rocks",
       "category": [
         "World 2",
@@ -2283,7 +2283,7 @@
     },
     {
       "name": "Cosmic Cove - Green Star 1",
-      "requires": "|Cosmic Cove Green Stars|",
+      "requires": "{can_access_comet(8, Cosmic Cove)}",
       "region": "Cosmic Cove 1 - Twin Falls",
       "category": [
         "World 2",
@@ -2323,7 +2323,7 @@
     },
     {
       "name": "Cosmic Cove - Green Star 2",
-      "requires": "|Cosmic Cove Green Stars| and (|Has Air Spin| or {medium_logic()})",
+      "requires": "{can_access_comet(8, Cosmic Cove)} and (|Has Air Spin| or {medium_logic()})",
       "region": "Cosmic Cove 2 - Space Platforms",
       "category": [
         "World 2",
@@ -2343,7 +2343,7 @@
     },
     {
       "name": "Cosmic Cove - Green Star 3",
-      "requires": "|Cosmic Cove Green Stars| and |Can Long Spin|",
+      "requires": "{can_access_comet(8, Cosmic Cove)} and |Can Long Spin|",
       "region": "Cosmic Cove 2 - Space Platforms",
       "category": [
         "World 2",
@@ -2403,7 +2403,7 @@
     },
     {
       "name": "Wild Glide - Green Star 1",
-      "requires": "|Wild Glide Green Stars|",
+      "requires": "{can_access_comet(8, Wild Glide)}",
       "region": "Wild Glide 1 - Flight",
       "category": [
         "World 2",
@@ -2423,7 +2423,7 @@
     },
     {
       "name": "Wild Glide - Green Star 2",
-      "requires": "|Wild Glide Green Stars|",
+      "requires": "{can_access_comet(8, Wild Glide)}",
       "region": "Wild Glide 1 - Flight",
       "category": [
         "World 2",
@@ -2504,7 +2504,7 @@
     },
     {
       "name": "Honeybloom - Green Star 1",
-      "requires": "|Honeybloom Green Stars|",
+      "requires": "{can_access_comet(8, Honeybloom)}",
       "region": "Honeybloom - Fruit",
       "category": [
         "World 2",
@@ -2524,7 +2524,7 @@
     },
     {
       "name": "Honeybloom - Green Star 2",
-      "requires": "|Honeybloom Green Stars|",
+      "requires": "{can_access_comet(8, Honeybloom)}",
       "region": "Honeybloom - Fuzzies",
       "category": [
         "World 2",
@@ -2625,7 +2625,7 @@
     },
     {
       "name": "Lava Lair - Green Star 1",
-      "requires": "|Lava Lair Green Stars| and (|Has Long Jump| or {medium_logic()})",
+      "requires": "{can_access_comet(8, Lava Lair)} and (|Has Long Jump| or {medium_logic()})",
       "region": "Lava Lair - Whomp Path",
       "category": [
         "World 2",
@@ -2665,7 +2665,7 @@
     },
     {
       "name": "Lava Lair - Green Star 2",
-      "requires": "|Lava Lair Green Stars|",
+      "requires": "{can_access_comet(8, Lava Lair)}",
       "region": "Lava Lair - Mattermouths",
       "category": [
         "World 2",
@@ -2935,7 +2935,7 @@
     },
     {
       "name": "Tall Trunk - Green Star 1",
-      "requires": "|Tall Trunk Green Stars| and (|Can Use Blimp| or ({hard_logic()} and |Can Wall Spin| and |Has Backflip|))",
+      "requires": "{can_access_comet(8, Tall Trunk)} and (|Can Use Blimp| or ({hard_logic()} and |Can Wall Spin| and |Has Backflip|))",
       "region": "Tall Trunk 1 - Big Tree",
       "category": [
         "World 3",
@@ -2965,7 +2965,7 @@
     },
     {
       "name": "Tall Trunk - Green Star 2",
-      "requires": "|Tall Trunk Green Stars| and |Can Use Blimp|",
+      "requires": "{can_access_comet(8, Tall Trunk)} and |Can Use Blimp|",
       "region": "Tall Trunk 1 - Carved Log Start",
       "category": [
         "World 3",
@@ -3086,7 +3086,7 @@
     },
     {
       "name": "Tall Trunk - Green Star 3",
-      "requires": "|Tall Trunk Green Stars|",
+      "requires": "{can_access_comet(8, Tall Trunk)}",
       "region": "Tall Trunk 2 - Slide",
       "category": [
         "World 3",
@@ -3136,7 +3136,7 @@
     },
     {
       "name": "Cloudy Court - Green Star 1",
-      "requires": "|Cloudy Court Green Stars| and ((|Can Make Clouds| and |Jump Height 4|) or (|Can Make Ground Clouds| and |Has Sideflip| and {hard_logic()}))",
+      "requires": "{can_access_comet(8, Cloudy Court)} and ((|Can Make Clouds| and |Jump Height 4|) or (|Can Make Ground Clouds| and |Has Sideflip| and {hard_logic()}))",
       "region": "Cloudy Court - Start",
       "category": [
         "World 3",
@@ -3237,7 +3237,7 @@
     },
     {
       "name": "Cloudy Court - Green Star 2",
-      "requires": "|Cloudy Court Green Stars| and |Can Make Clouds| and (|Has Long Jump| or {medium_logic()})",
+      "requires": "{can_access_comet(8, Cloudy Court)} and |Can Make Clouds| and (|Has Long Jump| or {medium_logic()})",
       "region": "Cloudy Court - Instruments",
       "category": [
         "World 3",
@@ -3307,7 +3307,7 @@
     },
     {
       "name": "Cloudy Court - Green Star 3",
-      "requires": "|Cloudy Court Green Stars|",
+      "requires": "{can_access_comet(8, Cloudy Court)}",
       "region": "Cloudy Court - Castle",
       "category": [
         "World 3",
@@ -3357,7 +3357,7 @@
     },
     {
       "name": "Haunty Halls - Green Star 1",
-      "requires": "|Haunty Halls Green Stars| and |Has Air Spin|",
+      "requires": "{can_access_comet(8, Haunty Halls)} and |Has Air Spin|",
       "region": "Haunty Halls 1 - Start",
       "category": [
         "World 3",
@@ -3397,7 +3397,7 @@
     },
     {
       "name": "Haunty Halls - Green Star 2",
-      "requires": "|Haunty Halls Green Stars| and |Jump Height 5| and |Has Air Spin|",
+      "requires": "{can_access_comet(8, Haunty Halls)} and |Jump Height 5| and |Has Air Spin|",
       "region": "Haunty Halls 1 - Moving Halls",
       "category": [
         "World 3",
@@ -3487,7 +3487,7 @@
     },
     {
       "name": "Haunty Halls - Green Star 3",
-      "requires": "|Haunty Halls Green Stars| and |Jump Height 5|",
+      "requires": "{can_access_comet(8, Haunty Halls)} and |Jump Height 5|",
       "region": "Haunty Halls 2 - Creepy Corridor",
       "category": [
         "World 3",
@@ -3557,7 +3557,7 @@
     },
     {
       "name": "Freezy Flake - Green Star 1",
-      "requires": "|Freezy Flake Green Stars|",
+      "requires": "{can_access_comet(8, Freezy Flake)}",
       "region": "Freezy Flake 1 - Slide",
       "category": [
         "World 3",
@@ -3587,7 +3587,7 @@
     },
     {
       "name": "Freezy Flake - Green Star 2",
-      "requires": "|Freezy Flake Green Stars|",
+      "requires": "{can_access_comet(8, Freezy Flake)}",
       "region": "Freezy Flake 1 - Lava Pool",
       "category": [
         "World 3",
@@ -3677,7 +3677,7 @@
     },
     {
       "name": "Freezy Flake - Green Star 3",
-      "requires": "|Freezy Flake Green Stars|",
+      "requires": "{can_access_comet(8, Freezy Flake)}",
       "region": "Freezy Flake 2 - Snowstorm",
       "category": [
         "World 3",
@@ -3757,7 +3757,7 @@
     },
     {
       "name": "Rolling Masterpiece - Green Star 1",
-      "requires": "|Rolling Masterpiece Green Stars|",
+      "requires": "{can_access_comet(8, Rolling Masterpiece)}",
       "region": "Rolling Masterpiece - Space Junk",
       "category": [
         "World 3",
@@ -3827,7 +3827,7 @@
     },
     {
       "name": "Rolling Masterpiece - Green Star 2",
-      "requires": "|Rolling Masterpiece Green Stars|",
+      "requires": "{can_access_comet(8, Rolling Masterpiece)}",
       "region": "Rolling Masterpiece - Silver Chomp",
       "category": [
         "World 3",
@@ -3897,7 +3897,7 @@
     },
     {
       "name": "Beat Block - Green Star 1",
-      "requires": "|Beat Block Green Stars| and (|Jump Height 6| or (|Has Backflip| and |Has Air Spin|))",
+      "requires": "{can_access_comet(8, Beat Block)} and (|Jump Height 6| or (|Has Backflip| and |Has Air Spin|))",
       "region": "Beat Block - Main",
       "category": [
         "World 3",
@@ -3947,7 +3947,7 @@
     },
     {
       "name": "Beat Block - Green Star 2",
-      "requires": "|Beat Block Green Stars| and (|Narrow Jump 5| or (|Has Triple Jump| and {hard_logic()}))",
+      "requires": "{can_access_comet(8, Beat Block)} and (|Narrow Jump 5| or (|Has Triple Jump| and {hard_logic()}))",
       "region": "Beat Block - Main",
       "category": [
         "World 3",
@@ -4007,7 +4007,7 @@
     },
     {
       "name": "Fearsome Fleet - Green Star 1",
-      "requires": "|Fearsome Fleet Green Stars|",
+      "requires": "{can_access_comet(8, Fearsome Fleet)}",
       "region": "Fearsome Fleet - Barrage Platform",
       "category": [
         "World 3",
@@ -4057,7 +4057,7 @@
     },
     {
       "name": "Fearsome Fleet - Green Star 2",
-      "requires": "|Fearsome Fleet Green Stars|",
+      "requires": "{can_access_comet(8, Fearsome Fleet)}",
       "region": "Fearsome Fleet - Airships",
       "category": [
         "World 3",
@@ -4117,7 +4117,7 @@
     },
     {
       "name": "Supermassive - Green Star 1",
-      "requires": "|Supermassive Green Stars| and |Jump Height 6|",
+      "requires": "{can_access_comet(8, Supermassive)} and |Jump Height 6|",
       "region": "Supermassive - Pipes",
       "category": [
         "World 4",
@@ -4147,7 +4147,7 @@
     },
     {
       "name": "Supermassive - Green Star 2",
-      "requires": "|Supermassive Green Stars|",
+      "requires": "{can_access_comet(8, Supermassive)}",
       "region": "Supermassive - Thwomps",
       "category": [
         "World 4",
@@ -4167,7 +4167,7 @@
     },
     {
       "name": "Supermassive - Green Star 3",
-      "requires": "|Supermassive Green Stars| and (|Has Long Jump| or {medium_logic()})",
+      "requires": "{can_access_comet(8, Supermassive)} and (|Has Long Jump| or {medium_logic()})",
       "region": "Supermassive - Koopas",
       "category": [
         "World 4",
@@ -4338,7 +4338,7 @@
     },
     {
       "name": "Flipsville - Green Star 1",
-      "requires": "|Flipsville Green Stars| and (|Has Ground Pound| or (|Can Wall Spin| and |Can Back or Sideflip| and {hard_logic()}))",
+      "requires": "{can_access_comet(8, Flipsville)} and (|Has Ground Pound| or (|Can Wall Spin| and |Can Back or Sideflip| and {hard_logic()}))",
       "region": "Flipsville 1 - Start",
       "category": [
         "World 4",
@@ -4358,7 +4358,7 @@
     },
     {
       "name": "Flipsville - Green Star 2",
-      "requires": "|Has Wall Jump| and |Flipsville Green Stars|",
+      "requires": "{can_access_comet(8, Flipsville)} and |Has Wall Jump|",
       "region": "Flipsville 1 - Chomps Back",
       "category": [
         "World 4",
@@ -4388,7 +4388,7 @@
     },
     {
       "name": "Flipsville - Green Star 3",
-      "requires": "|Flipsville Green Stars| and (|Can Homing Ground Pound| or {hard_logic()})",
+      "requires": "{can_access_comet(8, Flipsville)} and (|Can Homing Ground Pound| or {hard_logic()})",
       "region": "Flipsville 1 - Lifts",
       "category": [
         "World 4",
@@ -4582,7 +4582,7 @@
     },
     {
       "name": "Starshine Beach - Green Star 1",
-      "requires": "|Starshine Beach Green Stars| and (|Can Use Blimp| or (|Can Back or Sideflip| and |Has Air Spin|))",
+      "requires": "{can_access_comet(8, Starshine Beach)} and (|Can Use Blimp| or (|Can Back or Sideflip| and |Has Air Spin|))",
       "region": "Starshine Beach 1 - Beach",
       "category": [
         "World 4",
@@ -4602,7 +4602,7 @@
     },
     {
       "name": "Starshine Beach - Green Star 2",
-      "requires": "|Starshine Beach Green Stars| and ((|Can Use Dash| and |Has Sideflip|) or (|Has Yoshi| and {medium_logic()}))",
+      "requires": "{can_access_comet(8, Starshine Beach)} and ((|Can Use Dash| and |Has Sideflip|) or (|Has Yoshi| and {medium_logic()}))",
       "region": "Starshine Beach 1 - Beach",
       "category": [
         "World 4",
@@ -4672,7 +4672,7 @@
     },
     {
       "name": "Starshine Beach - Green Star 3",
-      "requires": "|Starshine Beach Green Stars| and |Can Back or Sideflip| and |Can Make Clouds|",
+      "requires": "{can_access_comet(8, Starshine Beach)} and |Can Back or Sideflip| and |Can Make Clouds|",
       "region": "Starshine Beach 2 - Beach w. Clouds",
       "category": [
         "World 4",
@@ -4722,7 +4722,7 @@
     },
     {
       "name": "Chompworks - Green Star 1",
-      "requires": "|Chompworks Green Stars| and |Has Air Spin| and (|Has Long Jump| or (|Has Backflip| and {hard_logic()}))",
+      "requires": "{can_access_comet(8, Chompworks)} and |Has Air Spin| and (|Has Long Jump| or (|Has Backflip| and {hard_logic()}))",
       "region": "Chompworks - Dispenser 1-Up",
       "category": [
         "World 4",
@@ -4792,7 +4792,7 @@
     },
     {
       "name": "Chompworks - Green Star 2",
-      "requires": "|Chompworks Green Stars| and (|Can Wall Spin| or (|Narrow Jump 5|) or ({medium_logic()} and |Has Triple Jump|))",
+      "requires": "{can_access_comet(8, Chompworks)} and (|Can Wall Spin| or (|Narrow Jump 5|) or ({medium_logic()} and |Has Triple Jump|))",
       "region": "Chompworks 1 - Flip-Swap Panels",
       "category": [
         "World 4",
@@ -4873,7 +4873,7 @@
     },
     {
       "name": "Chompworks - Green Star 3",
-      "requires": "|Chompworks Green Stars| and (|Has Spring| or (|Can Wall Spin| and {hard_logic()} and |Can Back or Sideflip| and |Has Long Jump|))",
+      "requires": "{can_access_comet(8, Chompworks)} and (|Has Spring| or (|Can Wall Spin| and {hard_logic()} and |Can Back or Sideflip| and |Has Long Jump|))",
       "region": "Chompworks 2 - Tower",
       "category": [
         "World 4",
@@ -4913,7 +4913,7 @@
     },
     {
       "name": "Sweet Mystery - Green Star 1",
-      "requires": "|Sweet Mystery Green Stars|",
+      "requires": "{can_access_comet(8, Sweet Mystery)}",
       "region": "Sweet Mystery - Chocolate Bars",
       "category": [
         "World 4",
@@ -4933,7 +4933,7 @@
     },
     {
       "name": "Sweet Mystery - Green Star 2",
-      "requires": "|Sweet Mystery Green Stars|",
+      "requires": "{can_access_comet(8, Sweet Mystery)}",
       "region": "Sweet Mystery - Chocolate Bars",
       "category": [
         "World 4",
@@ -5043,7 +5043,7 @@
     },
     {
       "name": "Honeyhop - Green Star 1",
-      "requires": "|Honeyhop Green Stars|",
+      "requires": "{can_access_comet(8, Honeyhop)}",
       "region": "Honeyhop 1 - Floaty Fluff",
       "category": [
         "World 4",
@@ -5083,7 +5083,7 @@
     },
     {
       "name": "Honeyhop - Green Star 2",
-      "requires": "|Honeyhop Green Stars|",
+      "requires": "{can_access_comet(8, Honeyhop)}",
       "region": "Honeyhop 1 - Queen Bee",
       "category": [
         "World 4",
@@ -5133,7 +5133,7 @@
     },
     {
       "name": "Gravity Gauntlet - Green Star 1",
-      "requires": "|Gravity Gauntlet Green Stars|",
+      "requires": "{can_access_comet(8, Gravity Gauntlet)}",
       "region": "Gravity Gauntlet - Start",
       "category": [
         "World 4",
@@ -5204,7 +5204,7 @@
     },
     {
       "name": "Gravity Gauntlet - Green Star 2",
-      "requires": "|Narrow Jump 5| and |Gravity Gauntlet Green Stars|",
+      "requires": "{can_access_comet(8, Gravity Gauntlet)} and |Narrow Jump 5|",
       "region": "Gravity Gauntlet - Whomps",
       "category": [
         "World 4",
@@ -5424,7 +5424,7 @@
     },
     {
       "name": "Space Storm - Green Star 1",
-      "requires": "|Space Storm Green Stars| and |Has Pull Stars|",
+      "requires": "{can_access_comet(8, Space Storm)} and |Has Pull Stars|",
       "region": "Space Storm 1 - Start",
       "category": [
         "World 5",
@@ -5484,7 +5484,7 @@
     },
     {
       "name": "Space Storm - Green Star 2",
-      "requires": "|Space Storm Green Stars|",
+      "requires": "{can_access_comet(8, Space Storm)}",
       "region": "Space Storm 2 - Tower",
       "category": [
         "World 5",
@@ -5494,7 +5494,7 @@
     },
     {
       "name": "Space Storm - Green Star 3",
-      "requires": "|Space Storm Green Stars| and |Has Ground Spin| and (|Has Ground Pound| or {medium_logic()})",
+      "requires": "{can_access_comet(8, Space Storm)} and |Has Ground Spin| and (|Has Ground Pound| or {medium_logic()})",
       "region": "Space Storm 2 - Tower Base",
       "category": [
         "World 5",
@@ -5618,7 +5618,7 @@
     },
     {
       "name": "Slipsand - Green Star 1",
-      "requires": "|Slipsand Green Stars|",
+      "requires": "{can_access_comet(8, Slipsand)}",
       "region": "Slipsand 1 - Sand River",
       "category": [
         "World 5",
@@ -5638,7 +5638,7 @@
     },
     {
       "name": "Slipsand - Green Star 2",
-      "requires": "|Slipsand Green Stars|",
+      "requires": "{can_access_comet(8, Slipsand)}",
       "region": "Slipsand 1 - Sand Slide",
       "category": [
         "World 5",
@@ -5648,7 +5648,7 @@
     },
     {
       "name": "Slipsand - Green Star 3",
-      "requires": "|Slipsand Green Stars|",
+      "requires": "{can_access_comet(8, Slipsand)}",
       "region": "Slipsand 1 - Sand Slide",
       "category": [
         "World 5",
@@ -5788,7 +5788,7 @@
     },
     {
       "name": "Shiverburn - Green Star 1",
-      "requires": "|Shiverburn Green Stars| and |Can Make Clouds|",
+      "requires": "{can_access_comet(8, Shiverburn)} and |Can Make Clouds|",
       "region": "Shiverburn - Volcano Planet Ice",
       "category": [
         "World 5",
@@ -5838,7 +5838,7 @@
     },
     {
       "name": "Shiverburn - Green Star 2",
-      "requires": "|Shiverburn Green Stars|",
+      "requires": "{can_access_comet(8, Shiverburn)}",
       "region": "Shiverburn - Lava Stones",
       "category": [
         "World 5",
@@ -5868,7 +5868,7 @@
     },
     {
       "name": "Shiverburn - Green Star 3",
-      "requires": "|Can Make Clouds| and |Shiverburn Green Stars|",
+      "requires": "{can_access_comet(8, Shiverburn)} and |Can Make Clouds|",
       "region": "Shiverburn - Fire Rain",
       "category": [
         "World 5",
@@ -6038,7 +6038,7 @@
     },
     {
       "name": "Boo Moon - Green Star 2",
-      "requires": "|Boo Moon Green Stars|",
+      "requires": "{can_access_comet(8, Boo Moon)}",
       "region": "Boo Moon 1 - Crescent Moon",
       "category": [
         "World 5",
@@ -6058,7 +6058,7 @@
     },
     {
       "name": "Boo Moon - Green Star 3",
-      "requires": "|Boo Moon Green Stars| and |Has Ground Pound| and |Can Long Spin|",
+      "requires": "{can_access_comet(8, Boo Moon)} and |Has Ground Pound| and |Can Long Spin|",
       "region": "Boo Moon 1 - Pop-Up Book",
       "category": [
         "World 5",
@@ -6128,7 +6128,7 @@
     },
     {
       "name": "Boo Moon - Green Star 1",
-      "requires": "|Boo Moon Green Stars| and |Can Long Spin|",
+      "requires": "{can_access_comet(8, Boo Moon)} and |Can Long Spin|",
       "region": "Boo Moon 1 - Swamp",
       "category": [
         "World 5",
@@ -6158,7 +6158,7 @@
     },
     {
       "name": "Upside Dizzy - Green Star 1",
-      "requires": "|Upside Dizzy Green Stars| and (|Has Air Spin| or (|Has Backflip| and (|Has Wall Jump| OR {hard_logic()})) or ({hard_logic()} and (|Has Triple Jump| or |Has Long Jump|)))",
+      "requires": "{can_access_comet(8, Upside Dizzy)} and (|Has Air Spin| or (|Has Backflip| and (|Has Wall Jump| OR {hard_logic()})) or ({hard_logic()} and (|Has Triple Jump| or |Has Long Jump|)))",
       "region": "Upside Dizzy - Start",
       "category": [
         "World 5",
@@ -6178,7 +6178,7 @@
     },
     {
       "name": "Upside Dizzy - Green Star 2",
-      "requires": "|Upside Dizzy Green Stars| and (|Has Air Spin| or ({hard_logic()} and |Jump Height 2|))",
+      "requires": "{can_access_comet(8, Upside Dizzy)} and (|Has Air Spin| or ({hard_logic()} and |Jump Height 2|))",
       "region": "Upside Dizzy - Moving Platform",
       "category": [
         "World 5",
@@ -6228,7 +6228,7 @@
     },
     {
       "name": "Fleet Glide - Green Star 1",
-      "requires": "|Fleet Glide Green Stars|",
+      "requires": "{can_access_comet(8, Fleet Glide)}",
       "region": "Fleet Glide 1 - Flight",
       "category": [
         "World 5",
@@ -6268,7 +6268,7 @@
     },
     {
       "name": "Fleet Glide - Green Star 2",
-      "requires": "|Fleet Glide Green Stars|",
+      "requires": "{can_access_comet(8, Fleet Glide)}",
       "region": "Fleet Glide 1 - Flight",
       "category": [
         "World 5",
@@ -6318,7 +6318,7 @@
     },
     {
       "name": "Boom Bunker - Green Star 1",
-      "requires": "|Boom Bunker Green Stars|",
+      "requires": "{can_access_comet(8, Boom Bunker)}",
       "region": "Boom Bunker - Boomerang Bros.",
       "category": [
         "World 5",
@@ -6359,7 +6359,7 @@
     },
     {
       "name": "Boom Bunker - Green Star 2",
-      "requires": "|Boom Bunker Green Stars|",
+      "requires": "{can_access_comet(8, Boom Bunker)}",
       "region": "Boom Bunker - Mini Cannon Planet",
       "category": [
         "World 5",
@@ -6451,7 +6451,7 @@
     },
     {
       "name": "Melty Monster - Green Star 1",
-      "requires": "|Melty Monster Green Stars|",
+      "requires": "{can_access_comet(8, Melty Monster)}",
       "region": "Melty Monster 1 - Pull Stars",
       "category": [
         "World 6",
@@ -6501,7 +6501,7 @@
     },
     {
       "name": "Melty Monster - Green Star 2",
-      "requires": "|Melty Monster Green Stars|",
+      "requires": "{can_access_comet(8, Melty Monster)}",
       "region": "Melty Monster 1 - Magma Falls",
       "category": [
         "World 6",
@@ -6541,7 +6541,7 @@
     },
     {
       "name": "Melty Monster - Green Star 3",
-      "requires": "|Melty Monster Green Stars|",
+      "requires": "{can_access_comet(8, Melty Monster)}",
       "region": "Melty Monster 2 - Rolling Lane",
       "category": [
         "World 6",
@@ -6581,7 +6581,7 @@
     },
     {
       "name": "Clockwork Ruins - Green Star 1",
-      "requires": "|Clockwork Ruins Green Stars| and (|Jump Height 3| or |Has Wall Jump|)",
+      "requires": "{can_access_comet(8, Clockwork Ruins)} and (|Jump Height 3| or |Has Wall Jump|)",
       "region": "Clockwork Ruins - Start",
       "category": [
         "World 6",
@@ -6621,7 +6621,7 @@
     },
     {
       "name": "Clockwork Ruins - Green Star 2",
-      "requires": "|Has Ground Spin| and |Clockwork Ruins Green Stars|",
+      "requires": "{can_access_comet(8, Clockwork Ruins)} and |Has Ground Spin|",
       "region": "Clockwork Ruins - Pusher Walls",
       "category": [
         "World 6",
@@ -6724,7 +6724,7 @@
     },
     {
       "name": "Clockwork Ruins - Green Star 3",
-      "requires": "|Clockwork Ruins Green Stars|",
+      "requires": "{can_access_comet(8, Clockwork Ruins)}",
       "region": "Clockwork Ruins - Rolling Drums Top",
       "category": [
         "World 6",
@@ -6784,7 +6784,7 @@
     },
     {
       "name": "Return of the Whomp King",
-      "requires": "{OptOne(|Ground Pound|)}",
+      "requires": "|Has Ground Pound|",
       "region": "Throwback 1 - Under Fortress",
       "category": [
         "World 6",
@@ -6834,7 +6834,7 @@
     },
     {
       "name": "Throwback - Green Star 1",
-      "requires": "|Throwback Green Stars|",
+      "requires": "{can_access_comet(8, Throwback)}",
       "region": "Throwback 1 - Fortress",
       "category": [
         "World 6",
@@ -6914,7 +6914,7 @@
     },
     {
       "name": "Throwback - Green Star 2",
-      "requires": "|Throwback Green Stars| and |Can Climb Whomps|",
+      "requires": "{can_access_comet(8, Throwback)} and |Can Climb Whomps|",
       "region": "Throwback 1 - Fortress",
       "category": [
         "World 6",
@@ -6934,7 +6934,7 @@
     },
     {
       "name": "Throwback - Green Star 3",
-      "requires": "|Throwback Green Stars| and |Can Make Clouds| and |Has Long Jump|",
+      "requires": "{can_access_comet(8, Throwback)} and |Can Make Clouds| and |Has Long Jump|",
       "region": "Throwback 2 - Fortress",
       "category": [
         "World 6",
@@ -6994,7 +6994,7 @@
     },
     {
       "name": "Battle Belt - Green Star 1",
-      "requires": "|Battle Belt Green Stars| and |Jump Height 3|",
+      "requires": "{can_access_comet(8, Battle Belt)} and |Jump Height 3|",
       "region": "Battle Belt - Jack O'Goombas",
       "category": [
         "World 6",
@@ -7024,7 +7024,7 @@
     },
     {
       "name": "Battle Belt - Green Star 2",
-      "requires": "|Battle Belt Green Stars| and (|Narrow Jump 5| or (|Jump Height 6| and {hard_logic()}))",
+      "requires": "{can_access_comet(8, Battle Belt)} and (|Narrow Jump 5| or (|Jump Height 6| and {hard_logic()}))",
       "region": "Battle Belt - Undergrunts",
       "category": [
         "World 6",
@@ -7034,7 +7034,7 @@
     },
     {
       "name": "Battle Belt - Green Star 3",
-      "requires": "|Battle Belt Green Stars| and |Jump Height 3|",
+      "requires": "{can_access_comet(8, Battle Belt)} and |Jump Height 3|",
       "region": "Battle Belt - Silver Chomps",
       "category": [
         "World 6",
@@ -7115,7 +7115,7 @@
     },
     {
       "name": "Flash Black - Green Star 1",
-      "requires": "|Flash Black Green Stars|",
+      "requires": "{can_access_comet(8, Flash Black)}",
       "region": "Flash Black - Inside Manor",
       "category": [
         "World 6",
@@ -7145,7 +7145,7 @@
     },
     {
       "name": "Flash Black - Green Star 2",
-      "requires": "|Flash Black Green Stars|",
+      "requires": "{can_access_comet(8, Flash Black)}",
       "region": "Flash Black - Dark Path",
       "category": [
         "World 6",
@@ -7215,7 +7215,7 @@
     },
     {
       "name": "Slimy Spring - Green Star 1",
-      "requires": "|Slimy Spring Green Stars| and ({hard_logic()} or ({medium_logic()} and |Has Ground Spin|) or |Has Koopa Shell|)",
+      "requires": "{can_access_comet(8, Slimy Spring)} and ({hard_logic()} or ({medium_logic()} and |Has Ground Spin|) or |Has Koopa Shell|)",
       "region": "Slimy Spring 1 - Underwater Cave",
       "category": [
         "World 6",
@@ -7235,7 +7235,7 @@
     },
     {
       "name": "Slimy Spring - Green Star 2",
-      "requires": "|Slimy Spring Green Stars|",
+      "requires": "{can_access_comet(8, Slimy Spring)}",
       "region": "Slimy Spring 1 - Underwater Cave End",
       "category": [
         "World 6",
@@ -7305,7 +7305,7 @@
     },
     {
       "name": "Galaxy Generator - Green Star 1",
-      "requires": "|Galaxy Generator Green Stars| and |Can Use Floaty Fluff|",
+      "requires": "{can_access_comet(8, Galaxy Generator)} and |Can Use Floaty Fluff|",
       "region": "Galaxy Generator - Volcano",
       "category": [
         "World 6",
@@ -7385,7 +7385,7 @@
     },
     {
       "name": "Galaxy Generator - Green Star 2",
-      "requires": "|Galaxy Generator Green Stars| and |Can Make Clouds| and (|Has Long Jump| or {hard_logic()}) and (|Has Wall Jump| or {hard_logic()})",
+      "requires": "{can_access_comet(8, Galaxy Generator)} and |Can Make Clouds| and (|Has Long Jump| or {hard_logic()}) and (|Has Wall Jump| or {hard_logic()})",
       "region": "Galaxy Generator - Yoshi Start",
       "category": [
         "World 6",
@@ -7765,7 +7765,7 @@
     },
     {
       "name": "Mario Squared - Green Star 1",
-      "requires": "|Mario Squared Green Stars|",
+      "requires": "{can_access_comet(8, Mario Squared)}",
       "region": "Mario Squared - Main",
       "category": [
         "World S",
@@ -7785,7 +7785,7 @@
     },
     {
       "name": "Mario Squared - Green Star 2",
-      "requires": "|Mario Squared Green Stars|",
+      "requires": "{can_access_comet(8, Mario Squared)}",
       "region": "Mario Squared - Main",
       "category": [
         "World S",
@@ -7825,7 +7825,7 @@
     },
     {
       "name": "Rolling Coaster - Green Star 1",
-      "requires": "|Rolling Coaster Green Stars|",
+      "requires": "{can_access_comet(8, Rolling Coaster)}",
       "region": "Rolling Coaster - Rainbow Road",
       "category": [
         "World S",
@@ -7855,7 +7855,7 @@
     },
     {
       "name": "Rolling Coaster - Green Star 2",
-      "requires": "|Rolling Coaster Green Stars|",
+      "requires": "{can_access_comet(8, Rolling Coaster)}",
       "region": "Rolling Coaster - Rainbow Road",
       "category": [
         "World S",
@@ -7885,7 +7885,7 @@
     },
     {
       "name": "Twisty Trials - Green Star 1",
-      "requires": "|Can Make Clouds| and |Twisty Trials Green Stars|",
+      "requires": "{can_access_comet(8, Twisty Trials)} and |Can Make Clouds|",
       "region": "Twisty Trials - Start",
       "category": [
         "World S",
@@ -7925,7 +7925,7 @@
     },
     {
       "name": "Twisty Trials - Green Star 2",
-      "requires": "|Can Make Clouds| and |Twisty Trials Green Stars|",
+      "requires": "{can_access_comet(8, Twisty Trials)} and |Can Make Clouds|",
       "region": "Twisty Trials - Final",
       "category": [
         "World S",
@@ -8035,7 +8035,7 @@
     },
     {
       "name": "Stone Cyclone - Green Star 1",
-      "requires": "|Jump Height 6| and |Stone Cyclone Green Stars|",
+      "requires": "{can_access_comet(8, Stone Cyclone)} and |Jump Height 6|",
       "region": "Stone Cyclone - Tox Box Paths",
       "category": [
         "World S",
@@ -8045,7 +8045,7 @@
     },
     {
       "name": "Stone Cyclone - Green Star 2",
-      "requires": "|Stone Cyclone Green Stars| and |Can Long Spin|",
+      "requires": "{can_access_comet(8, Stone Cyclone)} and |Can Long Spin|",
       "region": "Stone Cyclone - Tox Box Paths",
       "category": [
         "World S",
@@ -8185,7 +8185,7 @@
     },
     {
       "name": "Boss Blitz - Green Star 1",
-      "requires": "|Boss Blitz Green Stars| and |Jump Height 2|",
+      "requires": "{can_access_comet(8, Boss Blitz)} and |Jump Height 2|",
       "region": "Boss Blitz - Major Burrows",
       "category": [
         "World S",
@@ -8215,7 +8215,7 @@
     },
     {
       "name": "Boss Blitz - Green Star 2",
-      "requires": "|Boss Blitz Green Stars|",
+      "requires": "{can_access_comet(8, Boss Blitz)}",
       "region": "Boss Blitz - Bouldergeist",
       "category": [
         "World S",
@@ -8255,7 +8255,7 @@
     },
     {
       "name": "Flip-Out - Green Star 1",
-      "requires": "|Flip-Out Green Stars| and |Can Wall Spin|",
+      "requires": "{can_access_comet(8, Flip-Out)} and |Can Wall Spin|",
       "region": "Flip-Out - Start",
       "category": [
         "World S",
@@ -8325,7 +8325,7 @@
     },
     {
       "name": "Flip-Out - Green Star 2",
-      "requires": "|Flip-Out Green Stars|",
+      "requires": "{can_access_comet(8, Flip-Out)}",
       "region": "Flip-Out C - Second Checkpoint",
       "category": [
         "World S",
