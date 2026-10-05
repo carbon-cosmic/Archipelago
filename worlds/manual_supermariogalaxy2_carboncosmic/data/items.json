@@ -866,34 +866,6 @@
       "filler": true
     },
     {
-      "name": "Flip-Swap Purple Coin",
-      "count": 100,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Flip-Swap PC": 1
-      },
-      "progression_skip_balancing": true
-    },
-    {
-      "name": "Flip-Swap Purple Coin Bundle - 5",
-      "count": 1,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Flip-Swap PC": 5
-      },
-      "progression_skip_balancing": true
-    },
-    {
       "name": "Flip-Swap Purple Coin Bundle - 10",
       "count": 1,
       "category": [
@@ -932,34 +904,6 @@
       ],
       "value": {
         "Flip-Swap PC": 100
-      },
-      "progression_skip_balancing": true
-    },
-    {
-      "name": "Puzzle Plank Purple Coin",
-      "count": 100,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Puzzle Plank PC": 1
-      },
-      "progression_skip_balancing": true
-    },
-    {
-      "name": "Puzzle Plank Purple Coin Bundle - 5",
-      "count": 1,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Puzzle Plank PC": 5
       },
       "progression_skip_balancing": true
     },
@@ -1006,34 +950,6 @@
       "progression_skip_balancing": true
     },
     {
-      "name": "Tall Trunk Purple Coin",
-      "count": 140,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Tall Trunk PC": 1
-      },
-      "progression_skip_balancing": true
-    },
-    {
-      "name": "Tall Trunk Purple Coin Bundle - 5",
-      "count": 1,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Tall Trunk PC": 5
-      },
-      "progression_skip_balancing": true
-    },
-    {
       "name": "Tall Trunk Purple Coin Bundle - 10",
       "count": 1,
       "category": [
@@ -1072,33 +988,6 @@
       ],
       "value": {
         "Tall Trunk PC": 100
-      },
-      "progression_skip_balancing": true
-    },
-    {
-      "name": "Flipsville Purple Coin",
-      "count": 100,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Flipsville PC": 1
-      },
-      "progression_skip_balancing": true
-    }, {
-      "name": "Flipsville Purple Coin Bundle - 5",
-      "count": 1,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Flipsville PC": 5
       },
       "progression_skip_balancing": true
     },
@@ -1145,34 +1034,6 @@
       "progression_skip_balancing": true
     },
     {
-      "name": "Starshine Beach Purple Coin",
-      "count": 100,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Starshine Beach PC": 1
-      },
-      "progression": true
-    },
-    {
-      "name": "Starshine Beach Purple Coin Bundle - 5",
-      "count": 1,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Starshine Beach PC": 5
-      },
-      "progression_skip_balancing": true
-    },
-    {
       "name": "Starshine Beach Purple Coin Bundle - 10",
       "count": 1,
       "category": [
@@ -1211,34 +1072,6 @@
       ],
       "value": {
         "Starshine Beach PC": 100
-      },
-      "progression_skip_balancing": true
-    },
-    {
-      "name": "Sweet Mystery Purple Coin",
-      "count": 100,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Sweet Mystery PC": 1
-      },
-      "progression": true
-    },
-    {
-      "name": "Sweet Mystery Purple Coin Bundle - 5",
-      "count": 1,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Sweet Mystery PC": 5
       },
       "progression_skip_balancing": true
     },
@@ -1285,34 +1118,6 @@
       "progression_skip_balancing": true
     },
     {
-      "name": "Clockwork Ruins Purple Coin",
-      "count": 100,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Clockwork Ruins PC": 1
-      },
-      "progression": true
-    },
-    {
-      "name": "Clockwork Ruins Purple Coin Bundle - 5",
-      "count": 1,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Clockwork Ruins PC": 5
-      },
-      "progression_skip_balancing": true
-    },
-    {
       "name": "Clockwork Ruins Purple Coin Bundle - 10",
       "count": 1,
       "category": [
@@ -1355,34 +1160,6 @@
       "progression_skip_balancing": true
     },
     {
-      "name": "Mario Squared Purple Coin",
-      "count": 100,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Mario Squared PC": 1
-      },
-      "progression": true
-    },
-    {
-      "name": "Mario Squared Purple Coin Bundle - 5",
-      "count": 1,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Mario Squared PC": 5
-      },
-      "progression_skip_balancing": true
-    },
-    {
       "name": "Mario Squared Purple Coin Bundle - 10",
       "count": 1,
       "category": [
@@ -1421,34 +1198,6 @@
       ],
       "value": {
         "Mario Squared PC": 100
-      },
-      "progression_skip_balancing": true
-    },
-    {
-      "name": "Rolling Coaster Purple Coin",
-      "count": 110,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Rolling Coaster PC": 1
-      },
-      "progression": true
-    },
-    {
-      "name": "Rolling Coaster Purple Coin Bundle - 5",
-      "count": 1,
-      "category": [
-        "Purple Coins"
-      ],
-      "yaml_option": [
-        "Purple_Coinsanity"
-      ],
-      "value": {
-        "Rolling Coaster PC": 5
       },
       "progression_skip_balancing": true
     },

@@ -59,7 +59,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     #Check whether purple coinsanity is enabled - if it isn't, set Purple_Coin_Count to 0.
     if not world.options.purple_coinsanity:
         world.options.purple_coin_count.value = 0
-        world.options.purple_coin_bundles.value = 1
+        world.options.purple_coin_bundles.value = 10
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
