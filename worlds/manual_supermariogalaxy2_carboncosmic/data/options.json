@@ -317,20 +317,15 @@
       "type": "Choice",
       "description": [
         "Whether Purple Coin items should be bundled or not.",
-        "Available values are off (or 1), 5, 10, 20, and 100."
+        "Available values are 10, 20, and 100."
       ],
       "display_name": "Purple Coin Bundles",
       "values": {
-        "off": 1,
-        "5": 5,
         "10": 10,
         "20": 20,
         "100": 100
       },
       "default": 10,
-      "aliases": {
-        "1": 1
-      },
       "group": "Randomization Options"
     }
   }

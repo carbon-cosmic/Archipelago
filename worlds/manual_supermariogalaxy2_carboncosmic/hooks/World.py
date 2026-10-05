@@ -135,8 +135,6 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
                              "Flipsville Purple Coin","Sweet Mystery Purple Coin", "Starshine Beach Purple Coin",
                              "Clockwork Ruins Purple Coin", "Mario Squared Purple Coin", "Rolling Coaster Purple Coin"]
         bundle_amounts = {
-            1: "",
-            5: " Bundle - 5",
             10: " Bundle - 10",
             20: " Bundle - 20",
             100: " Bundle - 100"
@@ -149,8 +147,7 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
         for coin_type in purple_coin_stars:
             for bundle in bundle_amounts.keys():
                 item_config.update({str(coin_type + bundle_amounts[bundle]): 0})
-            if purple_coin_bundle_amount != 1:
-                coin_type = coin_type + bundle_amounts[purple_coin_bundle_amount]
+            coin_type = coin_type + bundle_amounts[purple_coin_bundle_amount]
             item_config.update({coin_type: {
                 "progression_skip_balancing": progression_purple_bundle_count,
                 "useful": useful_purple_bundle_count
