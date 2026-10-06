@@ -199,6 +199,7 @@
         "Triple Jump splits into Double Jump, then Triple Jump.",
         "When Spin Start is on, you will start with only one Progressive Spin."
       ],
+      "display_name": "Progressive Movement",
       "type": "Toggle",
       "default": true,
       "group": "Item Options"
