@@ -1,6 +1,6 @@
 {
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
-  "game": "SuperMarioGalaxy2",
+  "game": "SMG2_Unstable",
   "creator": "carboncosmic",
   "filler_item_name": "Star Bit",
   "death_link": true,
