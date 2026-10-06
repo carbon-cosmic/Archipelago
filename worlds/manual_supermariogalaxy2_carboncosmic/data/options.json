@@ -199,6 +199,7 @@
         "Triple Jump splits into Double Jump, then Triple Jump.",
         "When Spin Start is on, you will start with only one Progressive Spin."
       ],
+      "display_name": "Progressive Movement",
       "type": "Toggle",
       "default": true,
       "group": "Item Options"
@@ -303,9 +304,8 @@
     "purple_coin_count": {
       "type": "Range",
       "description": [
-        "How many purple coin items are needed to collect a purple coin star.",
-        "Maximum 100, minimum 0. Default is 50.",
-        "Warning: High values combined with low coin bundle amounts can slow down generation significantly."
+        "How many purple coin items are needed to collect a purple coin star when purple coinsanity is enabled.",
+        "Maximum 100, minimum 0. Default is 50."
       ],
       "display_name": "Purple Coin Count",
       "range_start": 0,
@@ -316,7 +316,7 @@
     "purple_coin_bundles": {
       "type": "Choice",
       "description": [
-        "Whether Purple Coin items should be bundled or not.",
+        "How Purple Coins should be bundled.",
         "Available values are 10, 20, and 100."
       ],
       "display_name": "Purple Coin Bundles",
