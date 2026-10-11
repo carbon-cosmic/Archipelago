@@ -198,5 +198,35 @@
   {
     "name": "Can Enter Grand Finale Galaxy",
     "requires": "{OptionCount(@Power and Grand Stars, Grand_Finale_Star_Count)}"
+  },
+  {
+    "name": "Gold Leaf 1 - Stumps Pull Star Chip",
+    "requires": "|Has Ground Pound| or |Jump Height 6| or (|Has Sideflip| and |Has Air Spin|) or |Bee Crystals|",
+    "region": "Gold Leaf 1 - Start"
+  },
+  {
+    "name": "Gold Leaf 1 - Piranha Plants Pull Star Chip",
+    "requires": "",
+    "region": "Gold Leaf 1 - Left Ledge"
+  },
+  {
+    "name": "Gold Leaf 1 - Spring Pull Star Chip",
+    "requires": "|Has Ground Pound| or |Has Air Spin|",
+    "region": "Gold Leaf 1 - Pond Ledge"
+  },
+  {
+    "name": "Gold Leaf 1 - Crate Pull Star Chip",
+    "requires": "|Can Break Crates|",
+    "region": "Gold Leaf 1 - Start"
+  },
+  {
+    "name": "Gold Leaf 3 - Left Ledge Bee Mushroom",
+    "requires": "(|Has Wall Jump| or |Jump Height 2|) and |Has Bee|"
   }
+  {
+    "name": "Gold Leaf 3 - Can Reach Pond Ledge",
+    "requires": "",
+    "region": "Gold Leaf 3 - Pond Ledge"
+  }
+
 ]

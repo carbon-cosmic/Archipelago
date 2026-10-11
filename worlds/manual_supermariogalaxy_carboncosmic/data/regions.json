@@ -1919,15 +1919,184 @@
     "Gold Leaf 1 - Start": {
       "connects_to": [
         "Gold Leaf 1 - Pond Ledge",
-        "Gold Leaf 1 - Right Ledge",
-        "Gold Leaf 1 - Fountain Ledge"
+        "Gold Leaf 1 - Left Ledge",
+        "Gold Leaf 1 - Fountain Ledge",
+        "Gold Leaf 1 - Off the Cliff",
+        "Gold Leaf 1 - Wooden Planet"
       ],
       "requires": "",
       "exit_requires": {
         "Gold Leaf 1 - Pond Ledge": "",
-        "Gold Leaf 1 - Right Ledge": "|Jump Height 3| or |Bee Crystals| or |Has Wall Jump|",
-        "Gold Leaf 1 - Fountain Ledge": "?"
+        "Gold Leaf 1 - Left Ledge": "(|Jump Height 2| and |Medium Logic|) or |Jump Height 4| or |Bee Crystals| or |Has Wall Jump|",
+        "Gold Leaf 1 - Fountain Ledge": "",
+        "Gold Leaf 1 - Off the Cliff": "|Bee Crystals|",
+        "Gold Leaf 1 - Wooden Planet": "|Gold Leaf 1 - Crate Pull Star Chip| and |Gold Leaf 1 - Spring Pull Star Chip| and |Gold Leaf 1 - Piranha Plants Pull Star Chip| and |Gold Leaf 1 - Stumps Pull Star Chip| and |Has Pull Stars|"
       }
+    },
+    "Gold Leaf 1 - Pond Ledge": {
+      "connects_to": [
+        "Gold Leaf 1 - Off the Cliff",
+        "Gold Leaf 1 - Top Area"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Gold Leaf 1 - Off the Cliff": "|Hard Logic|",
+        "Gold Leaf 1 - Top Area": "|Bee Crystals|"
+      }
+    },
+    "Gold Leaf 1 - Off the Cliff": {
+      "connects_to": [
+        "Gold Leaf - Cliff ? Coin",
+        "Gold Leaf 1 - Top Area"
+      ]
+    },
+    "Gold Leaf 1 - Top Area": {
+      "connects_to": [
+        "Gold Leaf - Bonus Room"
+      ]
+    },
+    "Gold Leaf 1 - Wooden Planet": {
+      "connects_to": "",
+      "requires": ""
+    },
+    "Gold Leaf 2 - Start": {
+      "connects_to": [
+        "Gold Leaf 2 - Pond Ledge"
+      ],
+      "requires": ""
+    },
+    "Gold Leaf 2 - Pond Ledge": {
+      "connects_to": [
+        "Gold Leaf 2 - Ledge Behind the Waterfall",
+        "Gold Leaf 2 - Off the Cliff",
+        "Gold Leaf 2 - Big Tree Bubble"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Gold Leaf 2 - Ledge Behind the Waterfall": "|Bee Crystals| or (|Can Wall Spin| and |Medium Logic|)",
+        "Gold Leaf 2 - Off the Cliff": "|Hard Logic| or |Bee Crystals|",
+        "Gold Leaf 2 - Big Tree Bubble": "|Has Bubble|"
+      }
+    },
+    "Gold Leaf 2 - Big Tree Bubble": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Gold Leaf 2 - Ledge Behind the Waterfall": {
+      "connects_to": [
+        "Gold Leaf 2 - Fountain Ledge"
+      ],
+      "requires": ""
+    },
+    "Gold Leaf 2 - Fountain Ledge": {
+      "connects_to": [
+        "Gold Leaf 2 - Cataquack Planets"
+      ],
+      "requires": ""
+    },
+    "Gold Leaf 2 - Off the Cliff": {
+      "connects_to": [
+        "Gold Leaf - Cliff ? Coin",
+        "Gold Leaf 2 - Top Area"
+      ],
+      "requires": ""
+    },
+    "Gold Leaf 2 - Top Area": {
+      "connects_to": [
+        "Gold Leaf - Bonus Room"
+      ],
+      "requires": ""
+    },
+    "Gold Leaf 2 - Cataquack Planets": {
+      "connects_to": [
+        "Gold Leaf 2 - Final Planet"
+      ],
+      "requires": ""
+    },
+    "Gold Leaf 2 - Final Planet": {
+      "connects_to": [],
+      "requires": "|Can Break Crates|"
+    },
+    "Gold Leaf 3 - Start": {
+      "connects_to": [
+        "Gold Leaf 3 - Pond Ledge",
+        "Gold Leaf 3 - Off the Cliff"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Gold Leaf 3 - Pond Ledge": "|Can Slope Jump| or (|Has Ground Spin| and |Hard Logic|) or |Gold Leaf 3 - Left Ledge Bee Mushroom|",
+        "Gold Leaf 3 - Off the Cliff": "|Gold Leaf 3 - Left Ledge Bee Mushroom|"
+      }
+    },
+    "Gold Leaf 3 - Pond Ledge": {
+      "connects_to": [
+        "Gold Leaf 3 - Bottom Platforms",
+        "Gold Leaf 3 - Off the Cliff"
+      ],
+      "requires": ""
+    },
+    "Gold Leaf 3 - Off the Cliff": {
+      "connects_to": [
+        "Gold Leaf - Cliff ? Coin",
+        "Gold Leaf 3 - Top Area"
+      ],
+      "requires": ""
+    },
+    "Gold Leaf 3 - Bottom Platforms": {
+      "connects_to": [
+        "Gold Leaf 3 - Tower Climb"
+      ],
+      "requires": "|Gold Leaf 3 - Left Ledge Bee Mushroom| or |Bee Crystals|"
+    },
+    "Gold Leaf 3 - Tower Climb": {
+      "connects_to": [
+        "Gold Leaf 3 - Tower Top"
+      ],
+      "requires": ""
+    },
+    "Gold Leaf 3 - Tower Top": {
+      "connects_to": [],
+      "requires": "|Has Ground Pound|"
+    },
+    "Gold Leaf C - Race": {
+      "connects_to": [],
+      "requires": "{can_access_comet(2, Gold Leaf)}"
+    },
+    "Gold Leaf P - Start": {
+      "connects_to": [
+        "Gold Leaf P - Planks"
+      ],
+      "requires": "{can_access_comet(4, Gold Leaf)}"
+    },
+    "Gold Leaf P - Planks": {
+      "connects_to": [
+        "Gold Leaf P - Tower Bottom"
+      ],
+      "requires": ""
+    },
+    "Gold Leaf P - Tower Bottom": {
+      "connects_to": [
+        "Gold Leaf P - Tower Climb"
+      ],
+      "requires": "|Has Ground Pound| or |Has Air Spin|"
+    },
+    "Gold Leaf P - Tower Climb": {
+      "connects_to": [
+        "Gold Leaf P - Tower Top"
+      ],
+      "requires": "|Has Air Spin|"
+    },
+    "Gold Leaf P - Tower Top": {
+      "connects_to": [],
+      "requires": "|Has Ground Pound|"
+    },
+    "Gold Leaf - Cliff ? Coin": {
+      "connects_to": "",
+      "requires": ""
+    },
+    "Gold Leaf - Bonus Room": {
+      "connects_to": "",
+      "requires": ""
     },
     "Sea Slide Galaxy": {
       "connects_to": []

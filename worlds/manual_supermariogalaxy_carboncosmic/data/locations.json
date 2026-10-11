@@ -2061,7 +2061,7 @@
   },
   {
   "name": "Purple Coins on the Summit",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Freezeflame Comet Medal|)}  AND {OptOne(|Freezeflame Purple Coin:100|)} AND {OptOne(|Spin|)} AND {OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND ({OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})",
+  "requires": "Figure this out sometime please",
   "region": "Freezeflame Galaxy (26)",
   "category": [
     "Bedroom",
@@ -2571,8 +2571,8 @@
   },
   {
     "name": "Star Bunnies on the Hunt",
-    "requires": "{OptOne(|Pull Stars|)} AND ({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})) AND (({OptOne(|Triple Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Wall Jump|)} AND {OptOne(|Ground Pound|)})) OR {OptOne(|Bee Mushroom|)})",
-    "region": "Gold Leaf Galaxy (34)",
+    "requires": "|Has Ground Pound| or |Hard Logic|",
+    "region": "Gold Leaf 1 - Wooden Planet",
     "category": [
       "Engine",
       "Power Stars"
@@ -2580,9 +2580,9 @@
     "sort-key": "row-07-001"
   },
   {
-    "name": "Gold Leaf 1 1-Up Under the Bridge",
+    "name": "Gold Leaf 1 - 1-Up Under the Bridge",
     "requires": "",
-    "region": "Gold Leaf Galaxy (34)",
+    "region": "Gold Leaf 1 - Pond Ledge",
     "category": [
       "Engine",
       "1-Ups"
@@ -2590,9 +2590,9 @@
     "sort-key": "row-07-002"
   },
   {
-    "name": "Gold Leaf 1 1-Up Atop the Tree",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Gold Leaf Galaxy (34)",
+    "name": "Gold Leaf 1 - 1-Up Atop the Tree",
+    "requires": "|Bee Crystals|",
+    "region": "Gold Leaf 1 - Top Area",
     "category": [
       "Engine",
       "1-Ups"
@@ -2600,9 +2600,9 @@
     "sort-key": "row-07-003"
   },
   {
-    "name": "Gold Leaf Off the Planet ? Coin",
-    "requires": "({OptOne(|Bee Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}))",
-    "region": "Gold Leaf Galaxy (34)",
+    "name": "Gold Leaf - ? Coin Off the Planet",
+    "requires": "",
+    "region": "Gold Leaf - Cliff ? Coin",
     "category": [
       "Engine",
       "? Coins"
@@ -2611,7 +2611,7 @@
   },
   {
     "name": "Gold Leaf Top Area Bonus Room ? Coin",
-    "requires": "({OptOne(|Bee Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)})) OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)})",
+    "requires": "",
     "region": "Gold Leaf Galaxy (34)",
     "category": [
       "Engine",
@@ -2621,7 +2621,7 @@
   },
   {
     "name": "Cataquack to the Skies",
-    "requires": "{OptOne(|Bee Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
+    "requires": "|Has Bee|",
     "region": "Gold Leaf Galaxy (34)",
     "category": [
       "Engine",
@@ -2630,29 +2630,29 @@
     "sort-key": "row-07-006"
   },
   {
-    "name": "Gold Leaf 2 Bubble ?-Coin 1-Up",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Gold Leaf Galaxy (34)",
+    "name": "Gold Leaf 2 - Bubble ? Coin",
+    "requires": "",
+    "region": "Gold Leaf 2 - Big Tree Bubble",
     "category": [
       "Engine",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-07-007"
   },
   {
-    "name": "Gold Leaf 2 Bubble ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Gold Leaf Galaxy (34)",
+    "name": "Gold Leaf 2 - Bubble ? Coin 1-Up",
+    "requires": "",
+    "region": "Gold Leaf 2 - Big Tree Bubble",
     "category": [
       "Engine",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-07-008"
   },
   {
     "name": "When It Rains, It Pours",
-    "requires": "({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND {OptOne(|Bee Mushroom|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Gold Leaf Galaxy (34)",
+    "requires": "|Has Ground Pound|",
+    "region": "Gold Leaf 3 - Tower Top",
     "category": [
       "Engine",
       "Power Stars"
@@ -2660,29 +2660,29 @@
     "sort-key": "row-07-009"
   },
   {
-    "name": "Gold Leaf 3 Raincloud ?-Coin 1-Up",
-    "requires": "{OptOne(|Triple Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR {OptOne(|Spin|)} OR ({OptOne(|Wall Jump|)} AND {OptOne(|Bee Mushroom|)})",
-    "region": "Gold Leaf Galaxy (34)",
+    "name": "Gold Leaf 3 - Raincloud ? Coin",
+    "requires": "|Jump Height 3| or (|Gold Leaf 3 - Can Reach Pond Ledge| and |Bee Crystals|) or |Gold Leaf 3 - Left Ledge Bee Mushroom|",
+    "region": "Gold Leaf 3 - Start",
     "category": [
       "Engine",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-07-010"
   },
   {
-    "name": "Gold Leaf 3 Raincloud ? Coin",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Wall Jump|)} AND {OptOne(|Bee Mushroom|)})",
-    "region": "Gold Leaf Galaxy (34)",
+    "name": "Gold Leaf 3 - Raincloud ?-Coin 1-Up",
+    "requires": "|Jump Height 3| or (|Gold Leaf 3 - Can Reach Pond Ledge| and |Bee Crystals|) or |Gold Leaf 3 - Left Ledge Bee Mushroom|",
+    "region": "Gold Leaf 3 - Start",
     "category": [
       "Engine",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-07-011"
   },
   {
     "name": "Gold Leaf 3 Tower ? Coin",
-    "requires": "({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}) AND {OptOne(|Bee Mushroom|)}",
-    "region": "Gold Leaf Galaxy (34)",
+    "requires": "",
+    "region": "Gold Leaf 3 - Tower Climb",
     "category": [
       "Engine",
       "? Coins"
@@ -2691,8 +2691,8 @@
   },
   {
     "name": "Cosmic Mario Forest Race",
-    "requires": "{OptOne(|Cosmic Comets|)} AND {OptOne(|Gold Leaf Comet Medal|)} AND {OptOne(|Long Jump|)}",
-    "region": "Gold Leaf Galaxy (34)",
+    "requires": "(|Has Long Jump| and (|Medium Logic| or|Jump Height 3|)) or |Hard Logic|",
+    "region": "Gold Leaf C - Race",
     "category": [
       "Engine",
       "Power Stars"
@@ -2700,9 +2700,9 @@
     "sort-key": "row-07-013"
   },
   {
-    "name": "Gold Leaf Comet Octagon Platform 1-Up",
-    "requires": "{OptOne(|Cosmic Comets|)} AND {OptOne(|Gold Leaf Comet Medal|)}",
-    "region": "Gold Leaf Galaxy (34)",
+    "name": "Gold Leaf C - Octagon Platform 1-Up",
+    "requires": "",
+    "region": "Gold Leaf C - Race",
     "category": [
       "Engine",
       "1-Ups"
@@ -2711,8 +2711,8 @@
   },
   {
   "name": "Purple Coins in the Woods",
-  "requires": "|Grand Star (Purple Coins)| AND {OptOne(|Gold Leaf Comet Medal|)}  AND {OptOne(|Gold Leaf Purple Coin:100|)} AND {OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Wall Jump|)})",
-  "region": "Gold Leaf Galaxy (34)",
+  "requires": "{Purple Coins when i figure them out} ",
+  "region": "Gold Leaf P - Tower Top",
   "category": [
     "Engine",
     "Power Stars"
@@ -2721,8 +2721,8 @@
 },
   {
     "name": "The Bell on the Big Tree",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Gold Leaf Galaxy (34)",
+    "requires": "",
+    "region": "Gold Leaf 2 - Big Tree Bubble",
     "category": [
       "Engine",
       "Power Stars"
@@ -12648,8 +12648,8 @@
   },
   {
     "name": "Gold Leaf Planks Spring Purple Coin #3",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})",
-    "region": "Gold Leaf Galaxy (34)",
+    "requires": "",
+    "region": "Gold Leaf P - Planks",
     "category": [
       "Gold Leaf Purple Coins",
        "Purple Coin Locations"],
@@ -12657,8 +12657,8 @@
   },
   {
     "name": "Gold Leaf Planks Spring Purple Coin #4",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))",
-    "region": "Gold Leaf Galaxy (34)",
+    "requires": "|Has Ground Pound| or |Has Air Spin|",
+    "region": "Gold Leaf P - Planks",
     "category": [
       "Gold Leaf Purple Coins",
        "Purple Coin Locations"],
@@ -12666,8 +12666,8 @@
   },
   {
     "name": "Gold Leaf Planks Spring Purple Coin #5",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {OptOne(|Triple Jump|)}))",
-    "region": "Gold Leaf Galaxy (34)",
+    "requires": "|Has Ground Pound| or |Jump Height 6|",
+    "region": "Gold Leaf P - Planks",
     "category": [
       "Gold Leaf Purple Coins",
        "Purple Coin Locations"],
@@ -12702,7 +12702,7 @@
   },
   {
     "name": "Gold Leaf Vine Swing Spring Purple Coin #3",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))",
+    "requires": "|Has Ground Pound| or |Has Air Spin|",
     "region": "Gold Leaf Galaxy (34)",
     "category": [
       "Gold Leaf Purple Coins",
