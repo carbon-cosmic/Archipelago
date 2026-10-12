@@ -2751,8 +2751,8 @@
   },
   {
     "name": "Faster Than a Speeding Penguin",
-    "requires": "{OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Sea Slide Galaxy (36)",
+    "requires": "(|Has Koopa Shell| and (|Has Ground Spin| or |Medium Logic|)) or (|Has Ground Spin| and |Hard Logic|)",
+    "region": "Sea Slide 2 - Ocean Ring",
     "category": [
       "Engine",
       "Power Stars"
@@ -2761,8 +2761,8 @@
   },
   {
     "name": "The Silver Stars of Sea Slide",
-    "requires": "{OptOne(|Pull Stars|)} AND {OptOne(|Bee Mushroom|)} AND {OptOne(|Screwdriver|)} AND ({OptOne(|Koopa Shell|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Sea Slide Galaxy (36)",
+    "requires": "|Sea Slide 3 - Can Reach Starshroom Silver| and |Sea Slide 3 - Can Reach Center| and |Sea Slide 3 - Can Reach Tree Silver|",
+    "region": "Sea Slide 3 - Ocean Ring",
     "category": [
       "Engine",
       "Power Stars"
@@ -2771,8 +2771,8 @@
   },
   {
     "name": "Sea Slide 3 - Pull Star 1-Up",
-    "requires": "{OptOne(|Cannon Permit|)} AND (({OptOne(|Koopa Shell|)} AND {OptOne(|Pull Stars|)}) OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Sea Slide Galaxy (36)",
+    "requires": "|Has Pull Stars|",
+    "region": "Sea Slide 3 - Red Starshroom",
     "category": [
       "Engine",
       "1-Ups"
@@ -2780,9 +2780,9 @@
     "sort-key": "row-07-020"
   },
   {
-    "name": "Sea Slide 3 - Center Notes 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)} AND {OptOne(|Screwdriver|)}",
-    "region": "Sea Slide Galaxy (36)",
+    "name": "Sea Slide 3 - Blue Crabber 1-Up",
+    "requires": "|Has Ground Spin|",
+    "region": "Sea Slide 3 - Center Planet",
     "category": [
       "Engine",
       "1-Ups"
@@ -2790,29 +2790,29 @@
     "sort-key": "row-07-022"
   },
   {
-    "name": "Sea Slide 3 - Blue Crabber 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)} AND {OptOne(|Screwdriver|)} AND {OptOne(|Spin|)}",
-    "region": "Sea Slide Galaxy (36)",
+    "name": "Sea Slide 3 - Center Planet Notes ? Coin",
+    "requires": "",
+    "region": "Sea Slide 3 - Center Planet",
     "category": [
       "Engine",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-07-023"
   },
   {
-    "name": "Sea Slide 3 - Center Planet Notes ? Coin",
-    "requires": "{OptOne(|Screwdriver|)}",
-    "region": "Sea Slide Galaxy (36)",
+    "name": "Sea Slide 3 - Center Notes 1-Up",
+    "requires": "",
+    "region": "Sea Slide 3 - Center Planet",
     "category": [
       "Engine",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-07-024"
   },
   {
     "name": "Underwater Cosmic Mario Race",
-    "requires": "{OptOne(|Cosmic Comets|)} AND {OptOne(|Sea Slide Comet Medal|)} AND {OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Spin|)})",
-    "region": "Sea Slide Galaxy (36)",
+    "requires": "(|Has Koopa Shell| and (|Has Ground Spin| or |Hard Logic|)) or (|Has Ground Spin| and |Hard Logic|)",
+    "region": "Sea Slide C - Ocean Ring",
     "category": [
       "Engine",
       "Power Stars"
@@ -2821,8 +2821,8 @@
   },
   {
     "name": "Sea Slide Comet Under Palm Tree Island 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Cosmic Comets|)} AND {OptOne(|Sea Slide Comet Medal|)}",
-    "region": "Sea Slide Galaxy (36)",
+    "requires": "",
+    "region": "Sea Slide C - Ocean Ring",
     "category": [
       "Engine",
       "1-Ups"
@@ -2831,7 +2831,7 @@
   },
   {
   "name": "Purple Coins by the Seaside",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Sea Slide Comet Medal|)}  AND {OptOne(|Sea Slide Purple Coin:100|)} AND {OptOne(|Bee Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
+  "requires": "|Figure this out|",
   "region": "Sea Slide Galaxy (36)",
   "category": [
     "Engine",
@@ -2841,8 +2841,8 @@
 },
   {
     "name": "Hurry, He's Hungry",
-    "requires": "{OptOne(|Cannon Permit|)} AND ({OptOne(|Koopa Shell|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Sea Slide Galaxy (36)",
+    "requires": "",
+    "region": "Sea Slide S - Satellite",
     "category": [
       "Engine",
       "Power Stars"

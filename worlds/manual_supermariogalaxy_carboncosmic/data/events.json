@@ -222,11 +222,25 @@
   {
     "name": "Gold Leaf 3 - Left Ledge Bee Mushroom",
     "requires": "(|Has Wall Jump| or |Jump Height 2|) and |Has Bee|"
-  }
+  },
   {
     "name": "Gold Leaf 3 - Can Reach Pond Ledge",
     "requires": "",
     "region": "Gold Leaf 3 - Pond Ledge"
+  },
+  {
+    "name": "Sea Slide 3 - Can Reach Center",
+    "requires": "",
+    "region": "Sea Slide 3 - Center Planet"
+  },
+  {
+    "name": "Sea Slide 3 - Can Reach Starshroom Silver",
+    "requires": "|Has Pull Stars|",
+    "region": "Sea Slide 3 - Starshroom"
+  },
+  {
+    "name": "Sea Slide 3 - Can Reach Tree Silver",
+    "requires": "",
+    "region": "Sea Slide 3 - Big Tree and Clouds"
   }
-
 ]

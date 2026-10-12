@@ -2118,6 +2118,43 @@
       ],
       "requires": ""
     },
+    "Sea Slide 1 - Ocean Ring": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Sea Slide 2 - Ocean Ring": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Sea Slide 3 - Ocean Ring": {
+      "connects_to": [
+        "Sea Slide 3 - Red Starshroom",
+        "Sea Slide 3 - Center Planet",
+        "Sea Slide 3 - Big Tree and Clouds",
+        "Sea Slide S - Satellite"
+      ],
+      "requires": ""
+    },
+    "Sea Slide 3 - Red Starshroom": {
+      "connects_to": [],
+      "requires": "|Has Cannon Permit|"
+    },
+    "Sea Slide 3 - Center Planet": {
+      "connects_to": [],
+      "requires": "|Has Screwdriver| and (|Has Koopa Shell| or |Medium Logic| or |Bee Crystals|)"
+    },
+    "Sea Slide 3 - Big Tree and Clouds": {
+      "connects_to": [],
+      "requires": "|Has Bee| and (|Can Break Crates| or |Has Koopa Shell|)"
+    },
+    "Sea Slide C - Ocean Ring": {
+      "connects_to": [],
+      "requires": "{can_access_comets(2, Sea Slide)}"
+    },
+    "Sea Slide S - Satellite": {
+      "connects_to": [],
+      "requires": "|Has Cannon Permit|"
+    },
     "Toy Time Galaxy": {
       "connects_to": []
     },
