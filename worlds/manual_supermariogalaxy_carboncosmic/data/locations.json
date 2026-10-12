@@ -332,7 +332,7 @@
   {
     "name": "Honeyhive 1 - Fountain ? Coin",
     "requires": "",
-    "region": "Honeyhive Galaxy (3)",
+    "region": "Honeyhive 1 - Start",
     "category": [
       "Terrace",
       "? Coins"
@@ -462,7 +462,7 @@
   {
     "name": "Honeyhive Cosmic Mario Race",
     "requires": " {OptOne(|Cosmic Comets|)} AND {OptOne(|Honeyhive Comet Medal|)} AND (({OptOne(|Long Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}))) OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
+    "region": "Honeyhive C - ",
     "category": [
       "Terrace",
       "Power Stars"
@@ -472,7 +472,7 @@
   {
   "name": "The Honeyhive's Purple Coins",
   "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Honeyhive Comet Medal|)}  AND {OptOne(|Honeyhive Purple Coin:100|)} AND ({OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Spin|)}))",
-  "region": "Honeyhive Galaxy (3)",
+  "region": "Honeyhive P - Start",
   "category": [
     "Terrace",
     "Power Stars"
@@ -5033,6 +5033,906 @@
     "sort-key": "row-10-363"
   },
   {
+    "name": "Honeyhive - Starting Area Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-365"
+  },
+  {
+    "name": "Honeyhive - Starting Area Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-366"
+  },
+  {
+    "name": "Honeyhive - Starting Area Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-367"
+  },
+  {
+    "name": "Honeyhive - Starting Area Purple Coin #4",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-368"
+  },
+  {
+    "name": "Honeyhive - Starting Area Purple Coin #5",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-369"
+  },
+  {
+    "name": "Honeyhive - Starting Area Purple Coin #6",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-370"
+  },
+  {
+    "name": "Honeyhive - Starting Area Purple Coin #7",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-371"
+  },
+  {
+    "name": "Honeyhive - Starting Area Purple Coin #8",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-372"
+  },
+  {
+    "name": "Honeyhive - Starting Area Purple Coin #9",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-373"
+  },
+  {
+    "name": "Honeyhive - Starting Area Purple Coin #10",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-374"
+  },
+  {
+    "name": "Honeyhive - Starting Area Ledge Purple Coin",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-375"
+  },
+  {
+    "name": "Honeyhive - Purple Coin in Air at Starting Area",
+    "requires": "|Jump Height 2| or |Medium Logic|",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-376"
+  },
+  {
+    "name": "Honeyhive - Right Ledge Path Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-377"
+  },
+  {
+    "name": "Honeyhive - Right Ledge Path Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-378"
+  },
+  {
+    "name": "Honeyhive - Right Ledge Path Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-379"
+  },
+  {
+    "name": "Honeyhive - Right Ledge Path Purple Coin #4",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-380"
+  },
+  {
+    "name": "Honeyhive - Right Ledge Path Purple Coin #5",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-381"
+  },
+  {
+    "name": "Honeyhive - Right Ledge Path Purple Coin #6",
+    "requires": "",
+    "region": "Honeyhive P - Right Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-382"
+  },
+  {
+    "name": "Honeyhive - Right Ledge Path Purple Coin #7",
+    "requires": "",
+    "region": "Honeyhive P - Right Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-383"
+  },
+  {
+    "name": "Honeyhive - Right Ledge Path Purple Coin #8",
+    "requires": "",
+    "region": "Honeyhive P - Right Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-384"
+  },
+  {
+    "name": "Honeyhive - Right Ledge Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Right Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-385"
+  },
+  {
+    "name": "Honeyhive - Right Ledge Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Right Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-386"
+  },
+  {
+    "name": "Honeyhive - Vine Swing Purple Coin",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-387"
+  },
+  {
+    "name": "Honeyhive - Fountain Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-388"
+  },
+  {
+    "name": "Honeyhive - Fountain Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-389"
+  },
+  {
+    "name": "Honeyhive - Fountain Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-390"
+  },
+  {
+    "name": "Honeyhive - Fountain Purple Coin #4",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-391"
+  },
+  {
+    "name": "Honeyhive - Fountain Purple Coin #5",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-392"
+  },
+  {
+    "name": "Honeyhive - Purple Coin by Stack of Stones",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-393"
+  },
+  {
+    "name": "Honeyhive - Waterfall Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-394"
+  },
+  {
+    "name": "Honeyhive - Waterfall Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-395"
+  },
+  {
+    "name": "Honeyhive - Honey Path Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Back Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-396"
+  },
+  {
+    "name": "Honeyhive - Honey Path Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Back Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-397"
+  },
+  {
+    "name": "Honeyhive - Honey Path Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Back Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-398"
+  },
+  {
+    "name": "Honeyhive - Honey Path Purple Coin #4",
+    "requires": "",
+    "region": "Honeyhive P - Back Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-399"
+  },
+  {
+    "name": "Honeyhive - Honey Path Purple Coin #5",
+    "requires": "",
+    "region": "Honeyhive P - Back Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-400"
+  },
+  {
+    "name": "Honeyhive - Honey Path Purple Coin #6",
+    "requires": "",
+    "region": "Honeyhive P - Back Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-401"
+  },
+  {
+    "name": "Honeyhive - Honey Path Purple Coin #7",
+    "requires": "",
+    "region": "Honeyhive P - Back Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-402"
+  },
+  {
+    "name": "Honeyhive - Honey Path Purple Coin #8",
+    "requires": "",
+    "region": "Honeyhive P - Back Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-403"
+  },
+  {
+    "name": "Honeyhive - Honey Path Purple Coin #9",
+    "requires": "",
+    "region": "Honeyhive P - Back Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-404"
+  },
+  {
+    "name": "Honeyhive - Below Honey Path Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Back Path Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-405"
+  },
+  {
+    "name": "Honeyhive - Below Honey Path Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Back Path Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-406"
+  },
+  {
+    "name": "Honeyhive - Starting Slope Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-407"
+  },
+  {
+    "name": "Honeyhive - Starting Slope Purple Coin #2",
+    "requires": "|Has Ground Pound| or (|Has Backflip| and |Has Air Spin|) or |Can Slope Jump| or (|Has Ground Spin| and |Hard Logic|)",
+    "region": "Honeyhive P - Start",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-408"
+  },
+  {
+    "name": "Honeyhive - Starting Slope Purple Coin #3",
+    "requires": "|Has Ground Pound| or |Can Slope Jump| or (|Has Ground Spin| and |Hard Logic|)",
+    "region": "Honeyhive P - ",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-409"
+  },
+  {
+    "name": "Honeyhive - Purple Coin on Block Over Spring",
+    "requires": "|Has Ground Pound| or |Narrow Jump 5| or ((|Jump Height 6| or |Can Long Spin|) and |Medium Logic|)",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-410"
+  },
+  {
+    "name": "Honeyhive - Pond Fence Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-411"
+  },
+  {
+    "name": "Honeyhive - Pond Fence Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - ",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-412"
+  },
+  {
+    "name": "Honeyhive - Pond Fence Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-413"
+  },
+  {
+    "name": "Honeyhive - Purple Coin Behind Big Tree #1",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-414"
+  },
+  {
+    "name": "Honeyhive - Purple Coin Behind Big Tree #2",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-415"
+  },
+  {
+    "name": "Honeyhive - Purple Coin Behind Big Tree #3",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-416"
+  },
+  {
+    "name": "Honeyhive - Purple Coin Behind Big Tree #4",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-417"
+  },
+  {
+    "name": "Honeyhive - Purple Coin Behind Big Tree #5",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-418"
+  },
+  {
+    "name": "Honeyhive - Purple Coin on Wooden Wall #1",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-419"
+  },
+  {
+    "name": "Honeyhive - Purple Coin on Wooden Wall #2",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-420"
+  },
+  {
+    "name": "Honeyhive - Purple Coin on Wooden Wall #3",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-421"
+  },
+  {
+    "name": "Honeyhive - Purple Coin on Wooden Wall #4",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-422"
+  },
+  {
+    "name": "Honeyhive - Purple Coin on Wooden Wall #5",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-423"
+  },
+  {
+    "name": "Honeyhive - Luigi Tree Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-424"
+  },
+  {
+    "name": "Honeyhive - Luigi Tree Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-425"
+  },
+  {
+    "name": "Honeyhive - Luigi Tree Pond Purple Coin",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-426"
+  },
+  {
+    "name": "Honeyhive - Luigi Tree Cliff Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-427"
+  },
+  {
+    "name": "Honeyhive - Luigi Tree Cliff Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-428"
+  },
+  {
+    "name": "Honeyhive - Luigi Tree Cliff Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Pond Ledge",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-429"
+  },
+  {
+    "name": "Honeyhive - Purple Coin in Wall Jump Section #1",
+    "requires": "|Has Air Spin| or |Has Backflip| or |Has Wall Jump|",
+    "region": "Honeyhive P - Wall Jump Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-430"
+  },
+  {
+    "name": "Honeyhive - Purple Coin in Wall Jump Section #2",
+    "requires": "|Has Air Spin| or |Has Backflip| or |Has Wall Jump|",
+    "region": "Honeyhive P - Wall Jump Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-431"
+  },
+  {
+    "name": "Honeyhive - Purple Coin on Top of Wall Jumps #1",
+    "requires": "",
+    "region": "Honeyhive P - Top Pond",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-432"
+  },
+  {
+    "name": "Honeyhive - Purple Coin on Top of Wall Jumps #2",
+    "requires": "",
+    "region": "Honeyhive P -Top Pond ",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-433"
+  },
+  {
+    "name": "Honeyhive - Waterfall Path Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Cliff Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-434"
+  },
+  {
+    "name": "Honeyhive - Waterfall Path Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Cliff Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-435"
+  },
+  {
+    "name": "Honeyhive - Waterfall Path Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Cliff Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-436"
+  },
+  {
+    "name": "Honeyhive - Waterfall Path Purple Coin #4",
+    "requires": "",
+    "region": "Honeyhive P - Cliff Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-437"
+  },
+  {
+    "name": "Honeyhive - Waterfall Path Purple Coin #5",
+    "requires": "",
+    "region": "Honeyhive P - Cliff Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-438"
+  },
+  {
+    "name": "Honeyhive - Ledge Above Fountain Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Cliff Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-439"
+  },
+  {
+    "name": "Honeyhive - Ledge Above Fountain Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Cliff Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-440"
+  },
+  {
+    "name": "Honeyhive - Ledge Above Fountain Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Cliff Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-441"
+  },
+  {
+    "name": "Honeyhive - Ledge Above Fountain Purple Coin #4",
+    "requires": "",
+    "region": "Honeyhive P - Cliff Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-442"
+  },
+  {
+    "name": "Honeyhive - Ledge Above Fountain Purple Coin #5",
+    "requires": "",
+    "region": "Honeyhive P - Cliff Path",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-443"
+  },
+  {
+    "name": "Honeyhive - Top Pond Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Top Pond",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-444"
+  },
+  {
+    "name": "Honeyhive - Top Pond Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Top Pond",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-445"
+  },
+  {
+    "name": "Honeyhive - Top Pond Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Top Pond",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-446"
+  },
+  {
+    "name": "Honeyhive - Top Pond Inner Grassy Wall Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Top Pond",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-447"
+  },
+  {
+    "name": "Honeyhive - Top Pond Inner Grassy Wall Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Top Pond",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-448"
+  },
+  {
+    "name": "Honeyhive - Top Pond Inner Grassy Wall Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Top Pond",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-449"
+  },
+  {
+    "name": "Honeyhive - Top Pond Wall Jumps Purple Coin",
+    "requires": "|Jump Height 3| or |Has Wall Jump|",
+    "region": "Honeyhive P - Top Pond",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-450"
+  },
+  {
+    "name": "Honeyhive - Top Pond Wall Jump Boards Purple Coin #1",
+    "requires": "|Has Wall Jump| or (|Jump Height 3| and |Medium Logic|) or (|Jump Height 5| and |Has Air Spin|)",
+    "region": "Honeyhive P - Top Pond",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-451"
+  },
+  {
+    "name": "Honeyhive - Top Pond Wall Jump Boards Purple Coin #2",
+    "requires": "|Has Wall Jump| or (|Jump Height 3| and |Medium Logic|) or (|Jump Height 5| and |Has Air Spin|)",
+    "region": "Honeyhive P - Top Pond",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-452"
+  },
+  {
+    "name": "Honeyhive - Top Area Outer Grassy Wall Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Mountain Backside",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-453"
+  },
+  {
+    "name": "Honeyhive - Top Area Outer Grassy Wall Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Mountain Backside",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-454"
+  },
+  {
+    "name": "Honeyhive - Blocks Behind Mountain Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Mountain Backside",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-455"
+  },
+  {
+    "name": "Honeyhive - Blocks Behind Mountain Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Mountain Backside",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-456"
+  },
+  {
+    "name": "Honeyhive - Grassy Tunnel Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Behind the Waterfall",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-457"
+  },
+  {
+    "name": "Honeyhive - Grassy Tunnel Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Behind the Waterfall",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-458"
+  },
+  {
+    "name": "Honeyhive - Grassy Tunnel Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Behind the Waterfall",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-459"
+  },
+  {
+    "name": "Honeyhive - Back Path Slope Purple Coin #1",
+    "requires": "",
+    "region": "Honeyhive P - Back Path Slope",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-460"
+  },
+  {
+    "name": "Honeyhive - Back Path Slope Purple Coin #2",
+    "requires": "",
+    "region": "Honeyhive P - Back Path Slope",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-461"
+  },
+  {
+    "name": "Honeyhive - Back Path Slope Purple Coin #3",
+    "requires": "",
+    "region": "Honeyhive P - Back Path Slope",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-462"
+  },
+  {
+    "name": "Honeyhive - Back Path Slope Purple Coin #4",
+    "requires": "",
+    "region": "Honeyhive P - Back Path Slope",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-463"
+  },
+  {
+    "name": "Honeyhive - Back Path Slope Purple Coin #5",
+    "requires": "",
+    "region": "Honeyhive P - Back Path Slope",
+    "category": [
+      "Honeyhive Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-464"
+  },
+  {
     "name": "Dusty Dune Start Purple Coin #1",
     "requires": "",
     "region": "Dusty Dune Galaxy (29)",
@@ -7281,906 +8181,6 @@
       "Gusty Garden Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-262"
-  },
-  {
-    "name": "Honeyhive Starting Area Purple Coin #1",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-365"
-  },
-  {
-    "name": "Honeyhive Starting Area Purple Coin #2",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-366"
-  },
-  {
-    "name": "Honeyhive Starting Area Purple Coin #3",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-367"
-  },
-  {
-    "name": "Honeyhive Starting Area Purple Coin #4",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-368"
-  },
-  {
-    "name": "Honeyhive Starting Area Purple Coin #5",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-369"
-  },
-  {
-    "name": "Honeyhive Starting Area Purple Coin #6",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-370"
-  },
-  {
-    "name": "Honeyhive Starting Area Purple Coin #7",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-371"
-  },
-  {
-    "name": "Honeyhive Starting Area Purple Coin #8",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-372"
-  },
-  {
-    "name": "Honeyhive Starting Area Purple Coin #9",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-373"
-  },
-  {
-    "name": "Honeyhive Starting Area Purple Coin #10",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-374"
-  },
-  {
-    "name": "Honeyhive Starting Area Ledge Purple Coin",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-375"
-  },
-  {
-    "name": "Honeyhive Purple Coin in Air at Starting Area",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-376"
-  },
-  {
-    "name": "Honeyhive Right Ledge Path Purple Coin #1",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-377"
-  },
-  {
-    "name": "Honeyhive Right Ledge Path Purple Coin #2",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-378"
-  },
-  {
-    "name": "Honeyhive Right Ledge Path Purple Coin #3",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-379"
-  },
-  {
-    "name": "Honeyhive Right Ledge Path Purple Coin #4",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-380"
-  },
-  {
-    "name": "Honeyhive Right Ledge Path Purple Coin #5",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-381"
-  },
-  {
-    "name": "Honeyhive Right Ledge Path Purple Coin #6",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-382"
-  },
-  {
-    "name": "Honeyhive Right Ledge Path Purple Coin #7",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-383"
-  },
-  {
-    "name": "Honeyhive Right Ledge Path Purple Coin #8",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-384"
-  },
-  {
-    "name": "Honeyhive Right Ledge Purple Coin #1",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-385"
-  },
-  {
-    "name": "Honeyhive Right Ledge Purple Coin #2",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-386"
-  },
-  {
-    "name": "Honeyhive Vine Swing Purple Coin",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-387"
-  },
-  {
-    "name": "Honeyhive Fountain Purple Coin #1",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-388"
-  },
-  {
-    "name": "Honeyhive Fountain Purple Coin #2",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-389"
-  },
-  {
-    "name": "Honeyhive Fountain Purple Coin #3",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-390"
-  },
-  {
-    "name": "Honeyhive Fountain Purple Coin #4",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-391"
-  },
-  {
-    "name": "Honeyhive Fountain Purple Coin #5",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-392"
-  },
-  {
-    "name": "Honeyhive Purple Coin by Stack of Stones",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-393"
-  },
-  {
-    "name": "Honeyhive Waterfall Purple Coin #1",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-394"
-  },
-  {
-    "name": "Honeyhive Waterfall Purple Coin #2",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-395"
-  },
-  {
-    "name": "Honeyhive Honey Path Purple Coin #1",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-396"
-  },
-  {
-    "name": "Honeyhive Honey Path Purple Coin #2",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-397"
-  },
-  {
-    "name": "Honeyhive Honey Path Purple Coin #3",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-398"
-  },
-  {
-    "name": "Honeyhive Honey Path Purple Coin #4",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-399"
-  },
-  {
-    "name": "Honeyhive Honey Path Purple Coin #5",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-400"
-  },
-  {
-    "name": "Honeyhive Honey Path Purple Coin #6",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-401"
-  },
-  {
-    "name": "Honeyhive Honey Path Purple Coin #7",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-402"
-  },
-  {
-    "name": "Honeyhive Honey Path Purple Coin #8",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-403"
-  },
-  {
-    "name": "Honeyhive Honey Path Purple Coin #9",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-404"
-  },
-  {
-    "name": "Honeyhive Below Honey Path Purple Coin #1",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-405"
-  },
-  {
-    "name": "Honeyhive Below Honey Path Purple Coin #2",
-    "requires": "",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-406"
-  },
-  {
-    "name": "Honeyhive Starting Slope Purple Coin #1",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-407"
-  },
-  {
-    "name": "Honeyhive Starting Slope Purple Coin #2",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-408"
-  },
-  {
-    "name": "Honeyhive Starting Slope Purple Coin #3",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-409"
-  },
-  {
-    "name": "Honeyhive Purple Coin on Block Over Spring",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-410"
-  },
-  {
-    "name": "Honeyhive Pond Fence Purple Coin #1",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-411"
-  },
-  {
-    "name": "Honeyhive Pond Fence Purple Coin #2",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-412"
-  },
-  {
-    "name": "Honeyhive Pond Fence Purple Coin #3",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-413"
-  },
-  {
-    "name": "Honeyhive Purple Coin Behind Big Tree #1",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-414"
-  },
-  {
-    "name": "Honeyhive Purple Coin Behind Big Tree #2",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-415"
-  },
-  {
-    "name": "Honeyhive Purple Coin Behind Big Tree #3",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-416"
-  },
-  {
-    "name": "Honeyhive Purple Coin Behind Big Tree #4",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-417"
-  },
-  {
-    "name": "Honeyhive Purple Coin Behind Big Tree #5",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-418"
-  },
-  {
-    "name": "Honeyhive Purple Coin on Wooden Wall #1",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-419"
-  },
-  {
-    "name": "Honeyhive Purple Coin on Wooden Wall #2",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-420"
-  },
-  {
-    "name": "Honeyhive Purple Coin on Wooden Wall #3",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-421"
-  },
-  {
-    "name": "Honeyhive Purple Coin on Wooden Wall #4",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-422"
-  },
-  {
-    "name": "Honeyhive Purple Coin on Wooden Wall #5",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-423"
-  },
-  {
-    "name": "Honeyhive Luigi Tree Purple Coin #1",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-424"
-  },
-  {
-    "name": "Honeyhive Luigi Tree Purple Coin #2",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-425"
-  },
-  {
-    "name": "Honeyhive Luigi Tree Pond Purple Coin",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-426"
-  },
-  {
-    "name": "Honeyhive Luigi Tree Cliff Purple Coin #1",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-427"
-  },
-  {
-    "name": "Honeyhive Luigi Tree Cliff Purple Coin #2",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-428"
-  },
-  {
-    "name": "Honeyhive Luigi Tree Cliff Purple Coin #3",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-429"
-  },
-  {
-    "name": "Honeyhive Purple Coin in Wall Jump Section #1",
-    "requires": "({OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Backflip|)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-430"
-  },
-  {
-    "name": "Honeyhive Purple Coin in Wall Jump Section #2",
-    "requires": "({OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Backflip|)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-431"
-  },
-  {
-    "name": "Honeyhive Purple Coin on Top of Wall Jump Section #1",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-432"
-  },
-  {
-    "name": "Honeyhive Purple Coin on Top of Wall Jump Section #2",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-433"
-  },
-  {
-    "name": "Honeyhive Waterfall Path Purple Coin #1",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-434"
-  },
-  {
-    "name": "Honeyhive Waterfall Path Purple Coin #2",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-435"
-  },
-  {
-    "name": "Honeyhive Waterfall Path Purple Coin #3",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-436"
-  },
-  {
-    "name": "Honeyhive Waterfall Path Purple Coin #4",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-437"
-  },
-  {
-    "name": "Honeyhive Waterfall Path Purple Coin #5",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-438"
-  },
-  {
-    "name": "Honeyhive Ledge Above Fountain Purple Coin #1",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-439"
-  },
-  {
-    "name": "Honeyhive Ledge Above Fountain Purple Coin #2",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-440"
-  },
-  {
-    "name": "Honeyhive Ledge Above Fountain Purple Coin #3",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-441"
-  },
-  {
-    "name": "Honeyhive Ledge Above Fountain Purple Coin #4",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-442"
-  },
-  {
-    "name": "Honeyhive Ledge Above Fountain Purple Coin #5",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-443"
-  },
-  {
-    "name": "Honeyhive Top Area Purple Coin #1",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-444"
-  },
-  {
-    "name": "Honeyhive Top Area Purple Coin #2",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-445"
-  },
-  {
-    "name": "Honeyhive Top Area Purple Coin #3",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-446"
-  },
-  {
-    "name": "Honeyhive Top Area Inner Grassy Wall Purple Coin #1",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-447"
-  },
-  {
-    "name": "Honeyhive Top Area Inner Grassy Wall Purple Coin #2",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-448"
-  },
-  {
-    "name": "Honeyhive Top Area Inner Grassy Wall Purple Coin #3",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-449"
-  },
-  {
-    "name": "Honeyhive Top Area Wall Jump Boards Purple Coin #1",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-450"
-  },
-  {
-    "name": "Honeyhive Top Area Wall Jump Boards Purple Coin #2",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-451"
-  },
-  {
-    "name": "Honeyhive Top Area Wall Jump Boards Purple Coin #3",
-    "requires": "(({OptOne(|Ground Pound|)} AND ({OptOne(|Wall Jump|)} OR ({OptOne(|Sideflip|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-452"
-  },
-  {
-    "name": "Honeyhive Top Area Outer Grassy Wall Purple Coin #1",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-453"
-  },
-  {
-    "name": "Honeyhive Top Area Outer Grassy Wall Purple Coin #2",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-454"
-  },
-  {
-    "name": "Honeyhive Blocks Behind Mountain Purple Coin #1",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-455"
-  },
-  {
-    "name": "Honeyhive Blocks Behind Mountain Purple Coin #2",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-456"
-  },
-  {
-    "name": "Honeyhive Grassy Tunnel Purple Coin #1",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-457"
-  },
-  {
-    "name": "Honeyhive Grassy Tunnel Purple Coin #2",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-458"
-  },
-  {
-    "name": "Honeyhive Grassy Tunnel Purple Coin #3",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)}) AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-459"
-  },
-  {
-    "name": "Honeyhive Slope Behind Mountain Purple Coin #1",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-460"
-  },
-  {
-    "name": "Honeyhive Slope Behind Mountain Purple Coin #2",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-461"
-  },
-  {
-    "name": "Honeyhive Slope Behind Mountain Purple Coin #3",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-462"
-  },
-  {
-    "name": "Honeyhive Slope Behind Mountain Purple Coin #4",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-463"
-  },
-  {
-    "name": "Honeyhive Slope Behind Mountain Purple Coin #5",
-    "requires": "(({OptOne(|Ground Pound|)} AND (({OptOne(|Sideflip|)} AND {OptOne(|Spin|)}) OR ({OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})))) OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Honeyhive Galaxy (3)",
-    "category": [
-      "Honeyhive Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-464"
   },
   {
     "name": "Space Junk First Row Cluster Purple Coin #1",

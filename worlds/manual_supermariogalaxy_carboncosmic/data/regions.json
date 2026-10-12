@@ -478,6 +478,7 @@
       "connects_to": [],
       "requires": "|Bee Crystals|"
     },
+
     "Honeyhive P - Start": {
       "connects_to": [
         "Honeyhive P - Pond Ledge",
@@ -498,7 +499,8 @@
     "Honeyhive P - Pond Ledge": {
       "connects_to": [
         "Honeyhive P - Cliff Path",
-        "Honeyhive P - Wall Jump Path"
+        "Honeyhive P - Wall Jump Path",
+        "Honeyhive P - Top Pond"
       ],
       "requires": "",
       "exit_requires": {
@@ -529,16 +531,23 @@
       "requires": "",
       "entrance_requires": {
         "Honeyhive P - Cliff Path": "|Can Wall Spin| and |Medium Logic|",
-        "Honeyhive P - Wall Jump Path": "|Has Ground Pound| and (|Has Wall Jump| or (|Narrow Jump 5| and |Medium Logic|))"
+        "Honeyhive P - Wall Jump Path": "|Has Ground Pound| and (|Has Wall Jump| or (|Narrow Jump 5| and |Medium Logic|))",
+        "Honeyhive P - Pond Ledge": "|Jump Height 6| and |Medium Logic|"
       }
     },
     "Honeyhive P - Mountain Backside": {
       "connects_to": [
         "Honeyhive P - Behind the Waterfall"
       ],
-      "requires": "|Jump Height 3| or (|Jump Height 2| and |Medium Logic|)"
+      "requires": "|Jump Height 3| or (|Jump Height 2| and |Medium Logic|) or (|Has Wall Jump| and |Has Long Jump|)"
     },
     "Honeyhive P - Behind the Waterfall": {
+      "connects_to": [
+        "Honeyhive P - Back Path Slope"
+      ],
+      "requires": ""
+    },
+    "Honeyhive P - Back Path Slope": {
       "connects_to": [
         "Honeyhive P - Back Path Start"
       ],
@@ -552,7 +561,8 @@
       "requires": "",
       "exit_requires": {
         "Honeyhive P - Back Path": "|Can Wall Spin| or (|Has Air Spin| and |Jump Height 5|)",
-        "Honeyhive P - Right Ledge": ""
+        "Honeyhive P - Right Ledge": "",
+        "Honeyhive P - Back Path Slope": "|Can Slope Jump| or (|Has Ground Spin| and |Hard Logic|)"
       }
     },
     "Honeyhive P - Back Path": {
@@ -2099,7 +2109,14 @@
       "requires": ""
     },
     "Sea Slide Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Sea Slide 1 - Ocean Ring",
+        "Sea Slide 2 - Ocean Ring",
+        "Sea Slide 3 - Ocean Ring",
+        "Sea Slide C - Ocean Ring",
+        "Sea Slide P - Ocean Ring"
+      ],
+      "requires": ""
     },
     "Toy Time Galaxy": {
       "connects_to": []
