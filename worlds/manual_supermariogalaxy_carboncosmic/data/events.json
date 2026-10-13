@@ -148,6 +148,26 @@
     "requires": "|Has Ground Spin| and |Has Floaty Fluff|"
   },
   {
+    "name": "Has Speedy Comets",
+    "requires": "OptAll(|Speedy Comets| and |All Prankster Comets|)"
+  },
+  {
+    "name": "Has Daredevil Comets",
+    "requires": "OptAll(|Daredevil Comets| and |All Prankster Comets|)"
+  },
+  {
+    "name": "Has Cosmic Comets",
+    "requires": "OptAll(|Cosmic Comets| and |All Prankster Comets|)"
+  },
+  {
+    "name": "Has Fast Foe Comets",
+    "requires": "OptAll(|Fast Foe Comets| and |All Prankster Comets|)"
+  },
+  {
+    "name": "Has Purple Comets",
+    "requires": "|Grand Star (Purple Comets)|"
+  },
+  {
     "name": "Jump Height 6",
     "requires": "|Has Triple Jump| and |Has Air Spin|"
   },

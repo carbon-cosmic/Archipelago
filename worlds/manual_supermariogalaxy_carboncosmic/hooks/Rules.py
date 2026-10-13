@@ -13,13 +13,15 @@ import re
 
 # You can also return a string from your function, and it will be evaluated as a requires string.
 
-def can_access_comet(type, galaxy):
-    if type == 4:
-        return f"{{OptAll(|Grand Star (Purple Coins)| and |{galaxy} Comet Medal|)}}"
+def can_access_comet(world: World, type: int, galaxy: str):
     comet_list = {
         0: "Speedy",
         1: "Daredevil",
         2: "Cosmic",
-        3: "Fast-Foe"
+        3: "Fast-Foe",
+        4: "Purple"
     }
-    return f"{{OptAll(|{comet_list[type]} Comets| and |Prankster Comets| and |{galaxy} Comet Medal|)}}"
+    if world.options.comet_medal_items == 0:
+        return f"|Has {comet_list[type]} Comets|"
+    else:
+        return f"{{|Has {comet_list[type]} Comets| and |{galaxy} Comet Medal|)}}"

@@ -2156,17 +2156,252 @@
       "requires": "|Has Cannon Permit|"
     },
     "Toy Time Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Toy Time 1 - Train",
+        "Toy Time 2 - Train",
+        "Toy Time 3 - Train",
+        "Toy Time C - Flipswitch Chain",
+        "Toy Time P - Luigi's Foot"
+      ],
+      "requires": ""
+    },
+    "Toy Time 1 - Train": {
+      "connects_to": [
+        "Toy Time 1 - Factory"
+      ],
+      "requires": ""
+    },
+    "Toy Time 1 - Factory": {
+      "connects_to": [
+        "Toy Time 1 - Conveyors Base"
+      ],
+      "requires": ""
+    },
+    "Toy Time 1 - Conveyors Base": {
+      "connects_to": [
+        "Toy Time 1 - Conveyors Middle"
+      ],
+      "requires": "|Has Screwdriver|"
+    },
+    "Toy Time 1 - Conveyors Middle": {
+      "connects_to": [
+        "Toy Time 1 - Conveyors Top",
+        "Toy Time 1 - Bonus Room"
+      ],
+      "requires": "|Has Spring| or (|Can Wall Spin| and |Medium Logic|) or (|Jump Height 6| and |Hard Logic|)"
+    },
+    "Toy Time 1 - Bonus Room": {
+      "connects_to": [],
+      "requires": "((|Can Slope Jump| or (|Hard Logic| and |Has Ground Spin|)) and (|Jump Height 5| or |Can Wall Spin| or (|Can Back or Sideflip| and |Medium Logic|))) or |Has Spring|"
+    },
+    "Toy Time 1 - Conveyors Top": {
+      "connects_to": [
+        "Toy Time 1 - Bottle"
+      ],
+      "requires": "|Has Spring| or (|Can Wall Spin| and |Medium Logic|)"
+    },
+    "Toy Time 1 - Bottle": {
+      "connects_to": [
+        "Toy Time 1 - Bowser Base"
+      ],
+      "requires": ""
+    },
+    "Toy Time 1 - Bowser Base": {
+      "connects_to": [
+        "Toy Time 1 - Bowser Chest"
+      ],
+      "requires": "|Has Ground Pound| and (|Spring Crystals| or |Can Slope Jump| or (|Jump Height 6| and |Medium Logic|))"
+    },
+    "Toy Time 1 - Bowser Chest": {
+      "connects_to": [
+        "Toy Time 1 - Bowser Left Arm",
+        "Toy Time 1 - Bowser Right Arm"
+      ],
+      "requires": "|Has Wall Jump| or (|Jump Height 5| and |Medium Logic|)"
+    },
+    "Toy Time 1 - Bowser Left Arm": {
+      "connects_to": [
+        "Toy Time 1 - Bowser Snout"
+      ],
+      "requires": "",
+      "entrance_requires": {
+        "Toy Time 1 - Bowser Chest": "|Medium Logic| and (|Has Air Spin| or (|Has Long Jump| and |Hard Logic))",
+        "Toy Time 1 - Bowser Snout": ""
+      },
+      "exit_requires": {
+        "Toy Time 1 - Bowser Snout": "|Can Wall Spin| and |Hard Logic| and |Can Back or Sideflip|"
+      }
+    },
+    "Toy Time 1 - Bowser Right Arm": {
+      "connects_to": [
+        "Toy Time 1 - Bowser Snout"
+      ],
+      "requires": ""
+    },
+    "Toy Time 1 - Bowser Snout": {
+      "connects_to": [
+        "Toy Time 1 - Bowser Top"
+      ],
+      "requires": ""
+    },
+    "Toy Time 1 - Bowser Top": {
+      "connects_to": [],
+      "requires": "|Spring Crystals| or (|Medium Logic| and |Jump Height 4| and |Can Wall Spin) or (|Can Wall Spin| and |Hard Logic|)"
+    },
+    "Toy Time 2 - Train": {
+      "connects_to": [
+        "Toy Time 2 - Giant Screw"
+      ],
+      "requires": ""
+    },
+    "Toy Time 2 - Giant Screw": {
+      "connects_to": [
+        "Toy Time 2 - Mario",
+        "Toy Time S - Flipswitch Chain"
+      ],
+      "requires": ""
+    },
+    "Toy Time 2 - Mario": {
+      "connects_to": [],
+      "requires": "|Has Ground Spin| and (|Has Ground Pound| or |Has Air Spin| or |Hard Logic|) and (|Has Screwdriver| or (|Hard Logic| and |Jump Height 6|))"
+    },
+    "Toy Time 3 - Train": {
+      "connects_to": [
+        "Toy Time 3 - Cinnamon Bun"
+      ],
+      "requires": ""
+    },
+    "Toy Time 3 - Cinnamon Bun": {
+      "connects_to": [
+        "Toy Time 3 - Conveyor Belt"
+      ],
+      "requires": ""
+    },
+    "Toy Time 3 - Conveyor Belt": {
+      "connects_to": [
+        "Toy Time 3 - Rotating Cake"
+      ],
+      "requires": "|Spring Crystals|"
+    },
+    "Toy Time 3 - Rotating Cake": {
+      "connects_to": [
+        "Toy Time 3 - Ice Cream Cone"
+      ],
+      "requires": ""
+    },
+    "Toy Time 3 - Ice Cream Cone": {
+      "connects_to": [
+        "Toy Time 3 - Ice"
+      ],
+      "requires": ""
+    },
+    "Toy Time 3 - Ice": {
+      "connects_to": [
+        "Toy Time 3 - Candle Cake"
+      ],
+      "requires": ""
+    },
+    "Toy Time 3 - Candle Cake": {
+      "connects_to": [
+        "Toy Time 3 - Boss"
+      ],
+      "requires": "|Has Cannon Permit|"
+    },
+    "Toy Time 3 - Boss": {
+      "connects_to": [],
+      "requires": "|Has Ground Spin|"
+    },
+    "Toy Time C - Flipswitch Chain": {
+      "connects_to": [],
+      "requires": "{can_access_comet(3, Toy Time)}"
+    },
+    "Toy Time P - Luigi's Foot": {
+      "connects_to": [
+        "Toy Time P - "
+      ],
+      "requires": ""
+    },
+    "Toy Time S - Flipswitch Chain": {
+      "connects_to": [],
+      "requires": ""
     },
     "Bonefin Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Bonefin - Starshroom"
+      ],
+      "requires": ""
+    },
+    "Bonefin - Starshroom": {
+      "connects_to": [
+        "Bonefin - Arena"
+      ],
+      "requires": ""
+    },
+    "Bonefin - Arena": {
+      "connects_to": [
+        "Bonefin - Arena w. Shell"
+      ],
+      "requires": ""
+    },
+    "Bonefin - Arena w. Shell": {
+      "connects_to": [],
+      "requires": "|Has Koopa Shell|"
     },
     "Bowser Jr.'s Lava Reactor": {
-      "connects_to": []
+      "connects_to": [
+        "Lava Reactor - Start"
+      ],
+      "requires": ""
+    },
+    "Lava Reactor - Start": {
+      "connects_to": [
+        "Lava Reactor - Lava Rocks"
+      ],
+      "requires": ""
+    },
+    "Lava Reactor - Lava Rocks": {
+      "connects_to": [
+        "Lava Reactor - King Kaliente"
+      ],
+      "requires": ""
+    },
+    "Lava Reactor - King Kaliente": {
+      "connects_to": [],
+      "requires": "|Has Ground Spin|"
     },
     "Sand Spiral Galaxy": {
-      "connects_to": [],
+      "connects_to": [
+        "Sand Spiral - Start"
+      ],
       "requires": "|Power Star (Sand Spiral Access)|"
+    },
+    "Sand Spiral - Start": {
+      "connects_to": [
+        "Sand Spiral - Sliding Platforms"
+      ],
+      "requires": ""
+    },
+    "Sand Spiral - Sliding Platforms": {
+      "connects_to": [
+        "Sand Spiral - Sand River"
+      ],
+      "requires": ""
+    },
+    "Sand Spiral - Sand River": {
+      "connects_to": [
+        "Sand Spiral - Spiral Road"
+      ],
+      "requires": "|Boo Crystals| or |Bee Crystals|"
+    },
+    "Sand Spiral - Spiral Road": {
+      "connects_to": [
+        "Sand Spiral - Moon"
+      ],
+      "requires": ""
+    },
+    "Sand Spiral - Moon": {
+      "connects_to": [],
+      "requires": ""
     },
     "Boo's Boneyard Galaxy": {
       "connects_to": [],

@@ -2851,8 +2851,8 @@
   },
   {
     "name": "Heavy Metal Mecha-Bowser",
-    "requires": "{OptOne(|Screwdriver|)} AND {OptOne(|Ground Pound|)} AND (({OptOne(|Spring Mushroom|)} AND {OptOne(|Wall Jump|)}) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Spring Mushroom|)}) AND ({OptOne(|Triple Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Toy Time Galaxy (40)",
+    "requires": "|Has Ground Pound|",
+    "region": "Toy Time 1 - Bowser Top",
     "category": [
       "Engine",
       "Power Stars"
@@ -2860,9 +2860,9 @@
     "sort-key": "row-07-029"
   },
   {
-    "name": "Toy Time 1 Wall Jump 1-Up",
-    "requires": "{OptOne(|Wall Jump|)} OR {OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}))",
-    "region": "Toy Time Galaxy (40)",
+    "name": "Toy Time 1 - Wall Jump 1-Up",
+    "requires": "|Has Wall Jump| or |Jump Height 5| or |Hard Logic|",
+    "region": "Toy Time 1 - Factory",
     "category": [
       "Engine",
       "1-Ups"
@@ -2870,29 +2870,9 @@
     "sort-key": "row-07-030"
   },
   {
-    "name": "Toy Time 1 Next to Secret Train 1-Up",
-    "requires": "{OptOne(|Screwdriver|)} AND ({OptOne(|Spring Mushroom|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))))",
-    "region": "Toy Time Galaxy (40)",
-    "category": [
-      "Engine",
-      "1-Ups"
-    ],
-    "sort-key": "row-07-031"
-  },
-  {
-    "name": "Toy Time 1 Mecha-Bowser's Left Arm 1-Up",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Screwdriver|)} AND (({OptOne(|Spring Mushroom|)} AND ({OptOne(|Wall Jump|)} OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Spin|)} AND ({OptOne(|Triple Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))) OR ({OptOne(|Wall Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Toy Time Galaxy (40)",
-    "category": [
-      "Engine",
-      "1-Ups"
-    ],
-    "sort-key": "row-07-032"
-  },
-  {
-    "name": "Toy Time 1 Pipes Behind Screw Wall Life Mushroom",
+    "name": "Toy Time 1 - Life Mushroom Behind Building",
     "requires": "",
-    "region": "Toy Time Galaxy (40)",
+    "region": "Toy Time 1 - Factory",
     "category": [
       "Engine",
       "Life Mushrooms"
@@ -2900,9 +2880,9 @@
     "sort-key": "row-07-033"
   },
   {
-    "name": "Toy Time 1 Spring Mushroom ? Coin",
-    "requires": "{OptOne(|Screwdriver|)} AND (({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})) OR {OptOne(|Spring Mushroom|)})",
-    "region": "Toy Time Galaxy (40)",
+    "name": "Toy Time 1 - Spring Mushroom ? Coin",
+    "requires": "",
+    "region": "Toy Time 1 - Conveyors Base",
     "category": [
       "Engine",
       "? Coins"
@@ -2910,9 +2890,9 @@
     "sort-key": "row-07-034"
   },
   {
-    "name": "Toy Time 1 Bonus Room ? Coin",
-    "requires": "{OptOne(|Screwdriver|)} AND (({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})) OR {OptOne(|Spring Mushroom|)})",
-    "region": "Toy Time Galaxy (40)",
+    "name": "Toy Time 1 - Bonus Room ? Coin",
+    "requires": "(|Can Wall Spin| and |Medium Logic|) or |Has Spring|",
+    "region": "Toy Time 1 - Bonus Room",
     "category": [
       "Engine",
       "? Coins"
@@ -2920,9 +2900,29 @@
     "sort-key": "row-07-035"
   },
   {
+    "name": "Toy Time 1 - Next to Secret Train 1-Up",
+    "requires": "|Has Spring| or (|Can Back or Sideflip| and |Medium Logic|) or |Jump Height 5| or |Can Wall Spin|",
+    "region": "Toy Time 1 - Conveyors Middle",
+    "category": [
+      "Engine",
+      "1-Ups"
+    ],
+    "sort-key": "row-07-031"
+  },
+  {
+    "name": "Toy Time 1 - Mecha-Bowser's Left Arm 1-Up",
+    "requires": "",
+    "region": "Toy Time 1 - Bowser Left Arm",
+    "category": [
+      "Engine",
+      "1-Ups"
+    ],
+    "sort-key": "row-07-032"
+  },
+  {
     "name": "Mario Meets Mario",
-    "requires": "{OptOne(|Spin|)} AND (({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}) OR ({OptOne(|Screwdriver|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Toy Time Galaxy (40)",
+    "requires": "",
+    "region": "Toy Time 2 - Mario",
     "category": [
       "Engine",
       "Power Stars"
@@ -2930,9 +2930,9 @@
     "sort-key": "row-07-036"
   },
   {
-    "name": "Toy Time 2 Mario's Ear 1-Up",
-    "requires": "{OptOne(|Spin|)} AND (({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)}) OR ({OptOne(|Screwdriver|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Toy Time Galaxy (40)",
+    "name": "Toy Time 2 - Mario's Ear 1-Up",
+    "requires": "",
+    "region": "Toy Time 2 - Mario",
     "category": [
       "Engine",
       "1-Ups"
@@ -2941,8 +2941,8 @@
   },
   {
     "name": "Bouncing Down Cake Lane",
-    "requires": "{OptOne(|Ground Pound|)} AND {OptOne(|Spring Mushroom|)} AND {OptOne(|Spin|)} AND {OptOne(|Cannon Permit|)}",
-    "region": "Toy Time Galaxy (40)",
+    "requires": "|Has Ground Pound|",
+    "region": "Toy Time 3 - Boss",
     "category": [
       "Engine",
       "Power Stars"
@@ -2950,19 +2950,19 @@
     "sort-key": "row-07-038"
   },
   {
-    "name": "Toy Time 3 Red Spoon 1-Up",
-    "requires": "{OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)}) AND {OptOne(|Cannon Permit|)}",
-    "region": "Toy Time Galaxy (40)",
+    "name": "Toy Time 3 - Conveyor Belt ? Coin",
+    "requires": "",
+    "region": "Toy Time 3 - Conveyor Belt",
     "category": [
       "Engine",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-07-039"
   },
   {
-    "name": "Toy Time 3 Cake Planet Pipe Notes 1-Up",
-    "requires": "{OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)}) AND {OptOne(|Cannon Permit|)}",
-    "region": "Toy Time Galaxy (40)",
+    "name": "Toy Time 3 - Red Spoon 1-Up",
+    "requires": "",
+    "region": "Toy Time 3 - Rotating Cake",
     "category": [
       "Engine",
       "1-Ups"
@@ -2970,29 +2970,49 @@
     "sort-key": "row-07-040"
   },
   {
-    "name": "Toy Time 3 1-Up Above Undergrunt Gunner",
-    "requires": "{OptOne(|Spring Mushroom|)} AND {OptOne(|Spin|)} AND {OptOne(|Cannon Permit|)}",
-    "category": [
-      "Engine",
-      "1-Ups"
-    ],
-    "sort-key": "row-07-041",
-    "region": "Toy Time Galaxy (40)"
-  },
-  {
     "name": "Toy Time 3 Life Mushroom Behind Cannon",
-    "requires": "{OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Toy Time Galaxy (40)",
+    "requires": "",
+    "region": "Toy Time 3 - Ice",
     "category": [
       "Engine",
       "Life Mushrooms"
     ],
+    "sort-key": "row-07-041"
+  },
+  {
+    "name": "Toy Time 3 Cake Planet Bonus Room ? Coin",
+    "requires": "",
+    "region": "Toy Time 3 - Candle Cake",
+    "category": [
+      "Engine",
+      "? Coins"
+    ],
     "sort-key": "row-07-042"
   },
   {
+    "name": "Toy Time 3 - Cake Planet Pipe Notes 1-Up",
+    "requires": "",
+    "region": "Toy Time 3 - Candle Cake",
+    "category": [
+      "Engine",
+      "1-Ups"
+    ],
+    "sort-key": "row-07-043"
+  },
+  {
+    "name": "Toy Time 3 - 1-Up Above Undergrunt Gunner",
+    "requires": "|Spring Crystals|",
+    "region": "Toy Time 3 - Boss",
+    "category": [
+      "Engine",
+      "1-Ups"
+    ],
+    "sort-key": "row-07-041"
+  },
+  {
     "name": "Toy Time 3 Undergrunt Gunner Life Mushroom",
-    "requires": "{OptOne(|Spring Mushroom|)} AND {OptOne(|Spin|)} AND {OptOne(|Cannon Permit|)}",
-    "region": "Toy Time Galaxy (40)",
+    "requires": "",
+    "region": "Toy Time 3 - Boss",
     "category": [
       "Engine",
       "Life Mushrooms"
@@ -3000,29 +3020,9 @@
     "sort-key": "row-07-043"
   },
   {
-    "name": "Toy Time 3 Conveyor Belt ? Coin",
-    "requires": "{OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Toy Time Galaxy (40)",
-    "category": [
-      "Engine",
-      "? Coins"
-    ],
-    "sort-key": "row-07-044"
-  },
-  {
-    "name": "Toy Time 3 Cake Planet Bonus Room ? Coin",
-    "requires": "{OptOne(|Spring Mushroom|)} AND {OptOne(|Cannon Permit|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Toy Time Galaxy (40)",
-    "category": [
-      "Engine",
-      "? Coins"
-    ],
-    "sort-key": "row-07-045"
-  },
-  {
     "name": "Fast Foes of Toy Time",
-    "requires": "{OptOne(|Fast-Foe Comets|)} AND {OptOne(|Toy Time Comet Medal|)}",
-    "region": "Toy Time Galaxy (40)",
+    "requires": "",
+    "region": "Toy Time C - Flipswitch Chain",
     "category": [
       "Engine",
       "Power Stars"
@@ -3031,8 +3031,8 @@
   },
   {
   "name": "Luigi's Purple Coins",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Toy Time Comet Medal|)}  AND {OptOne(|Toy Time Purple Coin:100|)} AND ({OptOne(|Spin|)} OR {OptOne(|Long Jump|)})",
-  "region": "Toy Time Galaxy (40)",
+  "requires": "Puprles when I figure them out",
+  "region": "Toy Time P - ",
   "category": [
     "Engine",
     "Power Stars"
@@ -3041,8 +3041,8 @@
 },
   {
     "name": "Toy Time Purple Luigi's Fist 1-Up",
-    "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Toy Time Comet Medal|)} ",
-    "region": "Toy Time Galaxy (40)",
+    "requires": "",
+    "region": "Toy Time P - ",
     "category": [
       "Engine",
       "1-Ups"
@@ -3052,7 +3052,7 @@
   {
     "name": "The Flipswitch Chain",
     "requires": "",
-    "region": "Toy Time Galaxy (40)",
+    "region": "Toy Time S - Flipswitch Chain",
     "category": [
       "Engine",
       "Power Stars"
@@ -3061,8 +3061,8 @@
   },
   {
     "name": "Kingfin's Fearsome Waters",
-    "requires": "{OptOne(|Koopa Shell|)} AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Spin|)} AND {OptOne(|Ground Pound|)})",
-    "region": "Bonefin Galaxy (55)",
+    "requires": "",
+    "region": "Bonefin - Arena w. Shell",
     "category": [
       "Engine",
       "Power Stars"
@@ -3070,9 +3070,9 @@
     "sort-key": "row-07-050"
   },
   {
-    "name": "BoneFin Chest 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Bonefin Galaxy (55)",
+    "name": "Bonefin - Chest 1-Up",
+    "requires": "",
+    "region": "Bonefin - Arena w. Shell",
     "category": [
       "Engine",
       "1-Ups"
@@ -3080,9 +3080,9 @@
     "sort-key": "row-07-051"
   },
   {
-    "name": "Bonefin Boss Fight Life Mushroom",
+    "name": "Bonefin - Boss Fight Life Mushroom",
     "requires": "",
-    "region": "Bonefin Galaxy (55)",
+    "region": "Bonefin - Arena w. Shell",
     "category": [
       "Engine",
       "Life Mushrooms"
@@ -3091,8 +3091,8 @@
   },
   {
     "name": "King Kaliente's Spicy Return",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Bowser Jr.'s Lava Reactor (45)",
+    "requires": "|Has Ground Spin|",
+    "region": "Lava Reactor - King Kaliente",
     "category": [
       "Engine",
       "Power Stars"
@@ -3100,9 +3100,9 @@
     "sort-key": "row-07-053"
   },
   {
-    "name": "Bowser Junior's Lava Reactor Caged 1-Up",
+    "name": "Lava Reactor - Caged 1-Up",
     "requires": "",
-    "region": "Bowser Jr.'s Lava Reactor (45)",
+    "region": "Lava Reactor - Start",
     "category": [
       "Engine",
       "1-Ups"
@@ -3110,9 +3110,9 @@
     "sort-key": "row-07-054"
   },
   {
-    "name": "Bowser Jr.'s Lava Reactor Lava Rock Life Mushroom",
+    "name": "Lava Reactor - Lava Rock Life Mushroom",
     "requires": "",
-    "region": "Bowser Jr.'s Lava Reactor (45)",
+    "region": "Lava Reactor - Lava Rocks",
     "category": [
       "Engine",
       "Life Mushrooms"
@@ -3121,8 +3121,8 @@
   },
   {
     "name": "Choosing a Favorite Snack",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}) AND ({OptOne(|Bee Mushroom|)} OR {OptOne(|Boo Mushroom|)})",
-    "region": "Sand Spiral Galaxy (36)",
+    "requires": "",
+    "region": "Sand Spiral - Moon",
     "category": [
       "Engine",
       "Power Stars"
@@ -3131,8 +3131,8 @@
   },
   {
     "name": "Sand Spiral Water Cannon 1-Up",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}) AND ({OptOne(|Bee Mushroom|)} OR {OptOne(|Boo Mushroom|)})",
-    "region": "Sand Spiral Galaxy (36)",
+    "requires": "",
+    "region": "Sand Spiral - Sand River",
     "category": [
       "Engine",
       "1-Ups"
