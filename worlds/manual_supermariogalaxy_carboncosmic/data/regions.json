@@ -2405,8 +2405,26 @@
       "requires": ""
     },
     "Boo's Boneyard Galaxy": {
+      "connects_to": [
+        "Boo's Boneyard - Skull"
+      ],
+      "requires": "|Power Star (Boo's Boneyard Access)|"
+    },
+    "Boo's Boneyard - Skull": {
+      "connects_to": [
+        "Boo's Boneyard - Race Start"
+      ],
+      "requires": ""
+    },
+    "Boo's Boneyard - Race Start": {
+      "connects_to": [
+        "Boo's Boneyard - Race"
+      ],
+      "requires": ""
+    },
+    "Boo's Boneyard - Race": {
       "connects_to": [],
-      "requires": "|Red Power Star|"
+      "requires": "|Boo Crystals|"
     },
     "Garden": {
       "connects_to": [
@@ -2432,8 +2450,20 @@
       "connects_to": []
     },
     "Snow Cap Galaxy": {
-      "connects_to": [],
+      "connects_to": [
+        "Snow Cap - Glass Planet"
+      ],
       "requires": "|Power Star (Snow Cap Access)|"
+    },
+    "Snow Cap - Glass Planet": {
+      "connects_to": [
+        "Snow Cap - Snowy Planet"
+      ],
+      "requires": ""
+    },
+    "Snow Cap - Snowy Planet": {
+      "connects_to": [],
+      "requires": "|Has Koopa Shell|"
     },
     "Planet of Trials": {
       "connects_to": [

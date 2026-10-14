@@ -81,8 +81,8 @@
 },
   {
     "name": "Racing the Spooky Speedster",
-    "requires": "{OptOne(|Boo Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Boo's Boneyard Galaxy (Grand Star (Garden Access))",
+    "requires": "",
+    "region": "Boo's Boneyard - Race",
     "category": [
       "Gateway",
       "Power Stars"
@@ -90,9 +90,9 @@
     "sort-key": "row-02-004"
   },
   {
-    "name": "Boo's Boneyard First Junction Upper Path 1-Up",
-    "requires": "{OptOne(|Boo Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Boo's Boneyard Galaxy (Grand Star (Garden Access))",
+    "name": "Boo's Boneyard - First Right 1-Up",
+    "requires": "",
+    "region": "Boo's Boneyard - Race",
     "category": [
       "Gateway",
       "1-Ups"
@@ -100,9 +100,9 @@
     "sort-key": "row-02-005"
   },
   {
-    "name": "Boo's Boneyard First Right ? Coin 1",
-    "requires": "{OptOne(|Boo Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Boo's Boneyard Galaxy (Grand Star (Garden Access))",
+    "name": "Boo's Boneyard - First Right ? Coin #1",
+    "requires": "",
+    "region": "Boo's Boneyard - Race",
     "category": [
       "Gateway",
       "? Coins"
@@ -110,9 +110,9 @@
     "sort-key": "row-02-006"
   },
   {
-    "name": "Boo's Boneyard First Right ? Coin 2",
-    "requires": "{OptOne(|Boo Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Boo's Boneyard Galaxy (Grand Star (Garden Access))",
+    "name": "Boo's Boneyard - First Right ? Coin #2",
+    "requires": "",
+    "region": "Boo's Boneyard - Race",
     "category": [
       "Gateway",
       "? Coins"
@@ -120,9 +120,9 @@
     "sort-key": "row-02-007"
   },
   {
-    "name": "Boo's Boneyard First Left ? Coin",
-    "requires": "{OptOne(|Boo Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Boo's Boneyard Galaxy (Grand Star (Garden Access))",
+    "name": "Boo's Boneyard - First Left ? Coin",
+    "requires": "",
+    "region": "Boo's Boneyard - Race",
     "category": [
       "Gateway",
       "? Coins"
@@ -130,9 +130,9 @@
     "sort-key": "row-02-008"
   },
   {
-    "name": "Boo's Boneyard Down Section ? Coin 1",
-    "requires": "{OptOne(|Boo Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Boo's Boneyard Galaxy (Grand Star (Garden Access))",
+    "name": "Boo's Boneyard - Springs Section ? Coin #1",
+    "requires": "",
+    "region": "Boo's Boneyard - Race",
     "category": [
       "Gateway",
       "? Coins"
@@ -140,25 +140,15 @@
     "sort-key": "row-02-009"
   },
   {
-    "name": "Boo's Boneyard Down Section ? Coin 2",
-    "requires": "{OptOne(|Boo Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Boo's Boneyard Galaxy (Grand Star (Garden Access))",
+    "name": "Boo's Boneyard - Springs Section ? Coin #2",
+    "requires": "",
+    "region": "Boo's Boneyard - Race",
     "category": [
       "Gateway",
       "? Coins"
     ],
     "sort-key": "row-02-010"
   },
-  {
-  "name": "The Star Festival",
-  "requires": "{OptOne(|Gateway Purple Coin:100|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-  "region": "Planet of Trials (3 Green Stars)",
-  "category": [
-    "Gateway",
-    "Power Stars"
-  ],
-  "sort-key": "row-02-004"
- },
   {
     "name": "Dino Piranha",
     "requires": "|Can Ground Spin|",
@@ -1590,7 +1580,7 @@
     "sort-key": "row-06-005"
   },
   {
-    "name": "Gusty Garden 1 - Floaty Fluff ? Coin 2",
+    "name": "Gusty Garden 1 - Floaty Fluff ? Coin #2",
     "requires": "",
     "region": "Gusty Garden 1 - Beans",
     "category": [
@@ -3570,7 +3560,7 @@
     "sort-key": "row-08-042"
   },
   {
-    "name": "Matter Splatter Spring Mushroom ? Coin 1",
+    "name": "Matter Splatter Spring Mushroom ? Coin #1",
     "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
     "region": "Matter Splatter Galaxy (50)",
     "category": [
@@ -3580,7 +3570,7 @@
     "sort-key": "row-08-043"
   },
   {
-    "name": "Matter Splatter Spring Mushroom ? Coin 2",
+    "name": "Matter Splatter Spring Mushroom ? Coin #2",
     "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
     "region": "Matter Splatter Galaxy (50)",
     "category": [
@@ -3923,7 +3913,7 @@
     "sort-key": "row-09-011"
   },
   {
-    "name": "Loopdeeswoop - Victory Lap ? Coin 1",
+    "name": "Loopdeeswoop - Victory Lap ? Coin #1",
     "requires": "",
     "region": "Loopdeeswoop - Race End",
     "category": [
@@ -3933,7 +3923,7 @@
     "sort-key": "row-09-012"
   },
   {
-    "name": "Loopdeeswoop - Victory Lap ? Coin 2",
+    "name": "Loopdeeswoop - Victory Lap ? Coin #2",
     "requires": "",
     "region": "Loopdeeswoop - Race End",
     "category": [
@@ -3943,7 +3933,7 @@
     "sort-key": "row-09-013"
   },
   {
-    "name": "Loopdeeswoop - Victory Lap ? Coin 3",
+    "name": "Loopdeeswoop - Victory Lap ? Coin #3",
     "requires": "",
     "region": "Loopdeeswoop - Race End",
     "category": [
@@ -11393,7 +11383,7 @@
     "sort-key": "row-10-165"
   },
   {
-    "name": "Gusty Garden Purple Coin on Crossroads Side # 1",
+    "name": "Gusty Garden Purple Coin on Crossroads Side #1",
     "requires": "",
     "region": "Gusty Garden Galaxy (24)",
     "category": [
@@ -11402,7 +11392,7 @@
     "sort-key": "row-10-166"
   },
   {
-    "name": "Gusty Garden Purple Coin on Crossroads Side # 2",
+    "name": "Gusty Garden Purple Coin on Crossroads Side #2",
     "requires": "",
     "region": "Gusty Garden Galaxy (24)",
     "category": [
@@ -11411,7 +11401,7 @@
     "sort-key": "row-10-167"
   },
   {
-    "name": "Gusty Garden Purple Coin on Crossroads Side # 3",
+    "name": "Gusty Garden Purple Coin on Crossroads Side #3",
     "requires": "",
     "region": "Gusty Garden Galaxy (24)",
     "category": [
@@ -11420,7 +11410,7 @@
     "sort-key": "row-10-168"
   },
   {
-    "name": "Gusty Garden Purple Coin on Crossroads Side # 4",
+    "name": "Gusty Garden Purple Coin on Crossroads Side #4",
     "requires": "",
     "region": "Gusty Garden Galaxy (24)",
     "category": [
@@ -11429,7 +11419,7 @@
     "sort-key": "row-10-169"
   },
   {
-    "name": "Gusty Garden Purple Coin on Crossroads Side # 5",
+    "name": "Gusty Garden Purple Coin on Crossroads Side #5",
     "requires": "",
     "region": "Gusty Garden Galaxy (24)",
     "category": [
@@ -11438,7 +11428,7 @@
     "sort-key": "row-10-170"
   },
   {
-    "name": "Gusty Garden Purple Coin on Crossroads Side # 6",
+    "name": "Gusty Garden Purple Coin on Crossroads Side #6",
     "requires": "",
     "region": "Gusty Garden Galaxy (24)",
     "category": [
@@ -11447,7 +11437,7 @@
     "sort-key": "row-10-171"
   },
   {
-    "name": "Gusty Garden Purple Coin on Crossroads Side # 7",
+    "name": "Gusty Garden Purple Coin on Crossroads Side #7",
     "requires": "",
     "region": "Gusty Garden Galaxy (24)",
     "category": [
@@ -15335,7 +15325,7 @@
     "sort-key": "row-10-1262"
   },
   {
-    "name": "Deep Dark Purple Coin in Air Left of Ship # 1",
+    "name": "Deep Dark Purple Coin in Air Left of Ship #1",
     "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)})",
     "region": "Deep Dark Galaxy (46)",
     "category": [
