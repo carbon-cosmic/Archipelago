@@ -12,6 +12,7 @@
         "Bedroom",
         "Engine Room",
         "Garden",
+        "Planet of Trials",
         "Sweet Sweet Galaxy",
         "Sling Pod Galaxy",
         "Drip Drop Galaxy",
@@ -2443,18 +2444,147 @@
       ],
       "requires": "|Green Star:3|"
     },
+    "Rolling Gizmo Galaxy": {
+      "connects_to": [
+        "Rolling Gizmo - Start"
+      ],
+      "requires": ""
+    },
+    "Rolling Gizmo - Start": {
+      "connects-to": [
+        "Rolling Gizmo - Coin Circle"
+      ],
+      "requires": ""
+    },
+    "Rolling Gizmo - Coin Circle": {
+      "connects-to": [
+        "Rolling Gizmo - Ramps"
+      ],
+      "requires": "|Has Star Ball|"
+    },
+    "Rolling Gizmo - Ramps": {
+      "connects-to": [
+        "Rolling Gizmo - Gears"
+      ],
+      "requires": ""
+    },
+    "Rolling Gizmo - Gears": {
+      "connects-to": [
+        "Rolling Gizmo - Final"
+      ],
+      "requires": ""
+    },
+    "Rolling Gizmo - Final": {
+      "connects-to": [],
+      "requires": ""
+    },
     "Loopdeeswoop Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Loopdeeswoop - Start"
+      ],
+      "requires": ""
+    },
+    "Loopdeeswoop - Start": {
+      "connects_to": [
+        "Loopdeeswoop - Race"
+      ],
+      "requires": ""
+    },
+    "Loopdeeswoop - Race": {
+      "connects_to": [
+        "Loopdeeswoop - Race End"
+      ],
+      "requires": "|Has Ray Surfing|"
+    },
+    "Loopdeeswoop - Race End": {
+      "connects_to": [],
+      "requires": ""
     },
     "Bubble Blast Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Bubble Blast - Start"
+      ],
+      "requires": ""
     },
-    "Rolling Gizmo Galaxy": {
-      "connects_to": []
+    "Bubble Blast - Start": {
+      "connects_to": [
+        "Bubble Blast - Star Chips"
+      ],
+      "requires": ""
+    },
+    "Bubble Blast - Star Chips": {
+      "connects_to": [
+        "Bubble Blast - Bullet Bills"
+      ],
+      "requires": "|Has Bubble|"
+    },
+    "Bubble Blast - Bullet Bills": {
+      "connects_to": [],
+      "requires": ""
     },
     "Bowser's Galaxy Reactor": {
-      "requires": "{OptionCount(@Total Stars, Galaxy_Generator_Star_Count)}",
-      "connects_to": []
+      "connects_to": [
+        "Galaxy Reactor - Spotlights"
+      ],
+      "requires": "{OptionCount(@Total Stars, Galaxy_Generator_Star_Count)}"
+    },
+    "Galaxy Reactor - Spotlights": {
+      "connects_to": [
+        "Galaxy Reactor - Fire Planet"
+      ],
+      "requires": ""
+    },
+    "Galaxy Reactor - Fire Planet": {
+      "connects_to": [
+        "Galaxy Reactor - Ice Planet"
+      ],
+      "requires": ""
+    },
+    "Galaxy Reactor - Ice Planet": {
+      "connects_to": [
+        "Galaxy Reactor - Sand Planet"
+      ],
+      "requires": ""
+    },
+    "Galaxy Reactor - Sand Planet": {
+      "connects_to": [
+        "Galaxy Reactor - Space Junk"
+      ],
+      "requires": ""
+    },
+    "Galaxy Reactor - Space Junk": {
+      "connects_to": [
+        "Galaxy Reactor - Fire Tunnel"
+      ],
+      "requires": ""
+    },
+    "Galaxy Reactor - Fire Tunnel": {
+      "connects_to": [
+        "Galaxy Reactor - Bowser Steps"
+      ],
+      "requires": "|Has Wall Jump|"
+    },
+    "Galaxy Reactor - Bowser Steps": {
+      "connects_to": [
+        "Galaxy Reactor - Bowser Boulder"
+      ],
+      "requires": ""
+    },
+    "Galaxy Reactor - Bowser Boulder": {
+      "connects_to": [
+        "Galaxy Reactor - Bowser Spikes"
+      ],
+      "requires": ""
+    },
+    "Galaxy Reactor - Bowser Spikes": {
+      "connects_to": [
+        "Galaxy Reactor - Final Bowser"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Galaxy Reactor - Final Bowser": {
+      "connects_to": [],
+      "requires": "|Has Ground Spin|"
     },
     "Grand Finale Galaxy": {
       "requires": [

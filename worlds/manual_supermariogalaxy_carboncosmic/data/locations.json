@@ -1402,7 +1402,7 @@
   {
     "name": "Ghostly S - First ? Coin",
     "requires": "{OptOne(|Spin|)}",
-    "region": "Ghostly Galaxy (20)",
+    "region": "Ghostly S - Matter Splatter",
     "category": [
       "Kitchen",
       "? Coins"
@@ -1412,7 +1412,7 @@
   {
     "name": "Ghostly S - Second ? Coin",
     "requires": "{OptOne(|Spin|)}",
-    "region": "Ghostly Galaxy (20)",
+    "region": "Ghostly S - Matter Splatter",
     "category": [
       "Kitchen",
       "? Coins"
@@ -1422,7 +1422,7 @@
   {
     "name": "Ghostly S - 1-Up Behind Door",
     "requires": "",
-    "region": "Ghostly Galaxy (20)",
+    "region": "Ghostly S - Matter Splatter",
     "category": [
       "Kitchen",
       "1-Ups"
@@ -3813,9 +3813,19 @@
     "name": "Rolling Gizmo - Start 1-Up"
   },
   {
-    "name": "Rolling Gizmo Yellow Gear 1-Up",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Rolling Gizmo - Start 1-Up",
+    "requires": "",
+    "region": "Rolling Gizmo - Start",
+    "category": [
+      "Planet of Trials",
+      "1-Ups"
+    ],
+    "sort-key": "row-09-001a"
+  },
+  {
+    "name": "Rolling Gizmo - Yellow Gear 1-Up",
+    "requires": "",
+    "region": "Rolling Gizmo - Gears",
     "category": [
       "Planet of Trials",
       "1-Ups"
@@ -3823,29 +3833,29 @@
     "sort-key": "row-09-002"
   },
   {
-    "name": "Rolling Gizmo Final Path 1-Up",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Rolling Gizmo Final Gear Left ? Coin",
+    "requires": "",
+    "region": "Rolling Gizmo - Final",
     "category": [
       "Planet of Trials",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-09-003"
   },
   {
-    "name": "Loopdeswoop First Surface 1-Up",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Rolling Gizmo - Final Gear Right ? Coin",
+    "requires": "",
+    "region": "Rolling Gizmo - Final",
     "category": [
       "Planet of Trials",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-09-004"
   },
   {
-    "name": "Loopdeswoop Second Surface 1-Up",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Rolling Gizmo - Final Path 1-Up",
+    "requires": "",
+    "region": "Rolling Gizmo - Final",
     "category": [
       "Planet of Trials",
       "1-Ups"
@@ -3853,19 +3863,19 @@
     "sort-key": "row-09-005"
   },
   {
-    "name": "Loopdeswoop First Jump 1-Up",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "The Galaxy's Greatest Wave",
+    "requires": "",
+    "region": "Loopdeeswoop - Race End",
     "category": [
       "Planet of Trials",
-      "1-Ups"
+      "Power Stars"
     ],
     "sort-key": "row-09-006"
   },
   {
-    "name": "Loopdeswoop Third Surface 1-Up",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Loopdeeswoop - First Surface 1-Up",
+    "requires": "",
+    "region": "Loopdeeswoop - Race",
     "category": [
       "Planet of Trials",
       "1-Ups"
@@ -3873,9 +3883,9 @@
     "sort-key": "row-09-007"
   },
   {
-    "name": "Loopdeswoop Second Jump 1-Up",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Loopdeeswoop - Second Surface 1-Up",
+    "requires": "",
+    "region": "Loopdeeswoop - Race",
     "category": [
       "Planet of Trials",
       "1-Ups"
@@ -3883,9 +3893,9 @@
     "sort-key": "row-09-008"
   },
   {
-    "name": "Bubble Blast Top-Left Section 1-Up",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Loopdeeswoop - First Jump 1-Up",
+    "requires": "",
+    "region": "Loopdeeswoop - Race",
     "category": [
       "Planet of Trials",
       "1-Ups"
@@ -3893,9 +3903,9 @@
     "sort-key": "row-09-009"
   },
   {
-    "name": "Bubble Blast Caged 1-Up",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Loopdeeswoop - Third Surface 1-Up",
+    "requires": "",
+    "region": "Loopdeeswoop - Race",
     "category": [
       "Planet of Trials",
       "1-Ups"
@@ -3903,9 +3913,9 @@
     "sort-key": "row-09-010"
   },
   {
-    "name": "Bubble Blast Red Fence 1-Up",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Loopdeeswoop - Second Jump 1-Up",
+    "requires": "",
+    "region": "Loopdeeswoop - Race",
     "category": [
       "Planet of Trials",
       "1-Ups"
@@ -3913,19 +3923,19 @@
     "sort-key": "row-09-011"
   },
   {
-    "name": "Bubble Blast Final Turn 1-Up",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Loopdeeswoop - Victory Lap ? Coin 1",
+    "requires": "",
+    "region": "Loopdeeswoop - Race End",
     "category": [
       "Planet of Trials",
-      "1-Ups"
+      "? Coins"
     ],
     "sort-key": "row-09-012"
   },
   {
-    "name": "Rolling Gizmo Final Area Left ? Coin",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Loopdeeswoop - Victory Lap ? Coin 2",
+    "requires": "",
+    "region": "Loopdeeswoop - Race End",
     "category": [
       "Planet of Trials",
       "? Coins"
@@ -3933,9 +3943,9 @@
     "sort-key": "row-09-013"
   },
   {
-    "name": "Rolling Gizmo Final Area Right ? Coin",
-    "requires": "{OptOne(|Star Ball|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Loopdeeswoop - Victory Lap ? Coin 3",
+    "requires": "",
+    "region": "Loopdeeswoop - Race End",
     "category": [
       "Planet of Trials",
       "? Coins"
@@ -3944,8 +3954,8 @@
   },
   {
     "name": "The Electric Labyrinth",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "requires": "",
+    "region": "Bubble Blast - Bullet Bills",
     "category": [
       "Planet of Trials",
       "Power Stars"
@@ -3953,9 +3963,9 @@
     "sort-key": "row-09-015"
   },
   {
-    "name": "Bubble Blast Top Section ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Bubble Blast - Top Section ? Coin",
+    "requires": "",
+    "region": "Bubble Blast - Star Chips",
     "category": [
       "Planet of Trials",
       "? Coins"
@@ -3963,9 +3973,9 @@
     "sort-key": "row-09-016"
   },
   {
-    "name": "Bubble Blast Top Right Section ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Bubble Blast - Top Right Section ? Coin",
+    "requires": "",
+    "region": "Bubble Blast - Star Chips",
     "category": [
       "Planet of Trials",
       "? Coins"
@@ -3973,9 +3983,9 @@
     "sort-key": "row-09-017"
   },
   {
-    "name": "Bubble Blast Top Left Section ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Bubble Blast - Top Left Section ? Coin",
+    "requires": "",
+    "region": "Bubble Blast - Star Chips",
     "category": [
       "Planet of Trials",
       "? Coins"
@@ -3983,9 +3993,19 @@
     "sort-key": "row-09-018"
   },
   {
-    "name": "Bubble Blast Bottom Right Section ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Bubble Blast - Top Left Section 1-Up",
+    "requires": "",
+    "region": "Bubble Blast - Star Chips",
+    "category": [
+      "Planet of Trials",
+      "1-Ups"
+    ],
+    "sort-key": "row-09-016"
+  },
+  {
+    "name": "Bubble Blast - Bottom Right Section ? Coin",
+    "requires": "",
+    "region": "Bubble Blast - Star Chips",
     "category": [
       "Planet of Trials",
       "? Coins"
@@ -3993,9 +4013,9 @@
     "sort-key": "row-09-019"
   },
   {
-    "name": "Bubble Blast Bottom Left Section ? Coin",
-    "requires": "{OptOne(|Bubble|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Bubble Blast - Bottom Left Section ? Coin",
+    "requires": "",
+    "region": "Bubble Blast - Star Chips",
     "category": [
       "Planet of Trials",
       "? Coins"
@@ -4003,59 +4023,81 @@
     "sort-key": "row-09-020"
   },
   {
-    "name": "The Galaxy's Greatest Wave",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Bubble Blast - Caged 1-Up",
+    "requires": "",
+    "region": "Bubble Blast - Bullet Bills",
     "category": [
       "Planet of Trials",
-      "Power Stars"
+      "1-Ups"
     ],
     "sort-key": "row-09-021"
   },
   {
-    "name": "Loopdeswoop Victory Lap ? Coin 1",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Bubble Blast - Red Fence 1-Up",
+    "requires": "",
+    "region": "Bubble Blast - Bullet Bills",
     "category": [
       "Planet of Trials",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-09-022"
   },
   {
-    "name": "Loopdeswoop Victory Lap ? Coin 2",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "Bubble Blast - Final Turn 1-Up",
+    "requires": "",
+    "region": "Bubble Blast - Bullet Bills",
     "category": [
       "Planet of Trials",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-09-023"
   },
   {
-    "name": "Loopdeswoop Victory Lap ? Coin 3",
-    "requires": "{OptOne(|Manta Surfing|)}",
-    "region": "Planet of Trials (3 Green Stars)",
+    "name": "The Star Festival - Objective",
+    "requires": "",
+    "region": "Grand Finale - Festival Starshroom",
     "category": [
       "Planet of Trials",
-      "? Coins"
+      "Power Stars"
     ],
-    "sort-key": "row-09-024"
+    "sort-key": "row-09-024",
+    "victory": true
   },
   {
-    "name": "The Fate of the Universe",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spin|)}",
-    "region": "Bowser's Galaxy Reactor (60)",
+    "name": "The Fate of the Universe - Objective",
+    "requires": "|Has Ground Spin|",
+    "region": "Galaxy Reactor - Final Bowser",
     "category": [
-      "Bowser's Galaxy Reactor"
+      "Bowser's Galaxy Reactor",
+      "Power Stars"
     ],
     "sort-key": "row-10-001",
     "victory": true
   },
   {
-    "name": "Bowser's Galaxy Reactor First Section 1-Up",
+    "name": "The Star Festival",
     "requires": "",
-    "region": "Bowser's Galaxy Reactor (60)",
+    "region": "Grand Finale - Festival Starshroom",
+    "category": [
+      "Planet of Trials",
+      "Power Stars"
+    ],
+    "sort-key": "row-09-024"
+  },
+  {
+    "name": "The Fate of the Universe",
+    "requires": "|Has Ground Spin|",
+    "region": "Galaxy Reactor - Final Bowser",
+    "category": [
+      "Bowser's Galaxy Reactor",
+      "Power Stars"
+    ],
+    "sort-key": "row-10-001"
+  },
+  {
+    "name": "Galaxy Reactor - Spotlights 1-Up",
+    "requires": "",
+    "region": "Galaxy Reactor - Spotlights",
     "category": [
       "Bowser's Galaxy Reactor",
       "1-Ups"
@@ -4063,9 +4105,9 @@
     "sort-key": "row-10-002"
   },
   {
-    "name": "Bowser's Galaxy Reactor Fire Planet 1-Up",
+    "name": "Galaxy Reactor - Fire Planet 1-Up",
     "requires": "",
-    "region": "Bowser's Galaxy Reactor (60)",
+    "region": "Galaxy Reactor - Fire Planet",
     "category": [
       "Bowser's Galaxy Reactor",
       "1-Ups"
@@ -4073,9 +4115,9 @@
     "sort-key": "row-10-003"
   },
   {
-    "name": "Bowser's Galaxy Reactor Ice Planet Right 1-Up",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)}",
-    "region": "Bowser's Galaxy Reactor (60)",
+    "name": "Galaxy Reactor - Ice Planet Right 1-Up",
+    "requires": "|Jump Height 3|?",
+    "region": "Galaxy Reactor - Ice Planet",
     "category": [
       "Bowser's Galaxy Reactor",
       "1-Ups"
@@ -4083,9 +4125,9 @@
     "sort-key": "row-10-004"
   },
   {
-    "name": "Bowser's Galaxy Reactor Ice Planet End 1-Up",
+    "name": "Galaxy Reactor - Ice Planet End 1-Up",
     "requires": "",
-    "region": "Bowser's Galaxy Reactor (60)",
+    "region": "Galaxy Reactor - Ice Planet",
     "category": [
       "Bowser's Galaxy Reactor",
       "1-Ups"
@@ -4093,9 +4135,9 @@
     "sort-key": "row-10-005"
   },
   {
-    "name": "Bowser's Galaxy Reactor Space Junk Area 1-Up",
-    "requires": "{OptOne(|Wall Jump|)}",
-    "region": "Bowser's Galaxy Reactor (60)",
+    "name": "Galaxy Reactor - Space Junk 1-Up",
+    "requires": "|Has Wall Jump|",
+    "region": "Galaxy Reactor - Space Junk",
     "category": [
       "Bowser's Galaxy Reactor",
       "1-Ups"
@@ -4103,9 +4145,9 @@
     "sort-key": "row-10-006"
   },
   {
-    "name": "Bowser's Galaxy Reactor Fire Tunnel 1-Up",
-    "requires": "{OptOne(|Wall Jump|)}",
-    "region": "Bowser's Galaxy Reactor (60)",
+    "name": "Galaxy Reactor - 1-Up Under Thwomp",
+    "requires": "",
+    "region": "Galaxy Reactor - Fire Tunnel",
     "category": [
       "Bowser's Galaxy Reactor",
       "1-Ups"
@@ -4113,9 +4155,9 @@
     "sort-key": "row-10-007"
   },
   {
-    "name": "Bowser's Galaxy Reactor Bowser Steps 1-Up",
-    "requires": "{OptOne(|Wall Jump|)}",
-    "region": "Bowser's Galaxy Reactor (60)",
+    "name": "Galaxy Reactor - Bowser Steps 1-Up",
+    "requires": "",
+    "region": "Galaxy Reactor - Bowser Steps",
     "category": [
       "Bowser's Galaxy Reactor",
       "1-Ups"
@@ -4123,9 +4165,9 @@
     "sort-key": "row-10-008"
   },
   {
-    "name": "Bowser's Galaxy Reactor Bowser Steps Life Mushroom",
-    "requires": "{OptOne(|Wall Jump|)}",
-    "region": "Bowser's Galaxy Reactor (60)",
+    "name": "Galaxy Reactor - Bowser Steps Life Mushroom",
+    "requires": "",
+    "region": "Galaxy Reactor - Bowser Steps",
     "category": [
       "Bowser's Galaxy Reactor",
       "Life Mushrooms"
@@ -7733,6 +7775,2247 @@
     "sort-key": "row-10-666"
   },
   {
+    "name": "Beach Bowl Island Near Beach Purple Coin",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-668"
+  },
+  {
+    "name": "Beach Bowl Box Bridge Purple Coin #1",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-669"
+  },
+  {
+    "name": "Beach Bowl Box Bridge Purple Coin #2",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-670"
+  },
+  {
+    "name": "Beach Bowl Box Bridge Purple Coin #3",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-671"
+  },
+  {
+    "name": "Beach Bowl Coach Penguin Island Purple Coin #1",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-672"
+  },
+  {
+    "name": "Beach Bowl Coach Penguin Island Purple Coin #2",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-673"
+  },
+  {
+    "name": "Beach Bowl Coach Penguin's Head Purple Coin",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-674"
+  },
+  {
+    "name": "Beach Bowl Island Chain Purple Coin #1",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-675"
+  },
+  {
+    "name": "Beach Bowl Island Chain Purple Coin #2",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-676"
+  },
+  {
+    "name": "Beach Bowl Island Chain Purple Coin #3",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-677"
+  },
+  {
+    "name": "Beach Bowl Island Chain Purple Coin #4",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-678"
+  },
+  {
+    "name": "Beach Bowl Island Chain Purple Coin #5",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-679"
+  },
+  {
+    "name": "Beach Bowl Island Chain Purple Coin #6",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-680"
+  },
+  {
+    "name": "Beach Bowl Floating Crates Purple Coin #1",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-681"
+  },
+  {
+    "name": "Beach Bowl Floating Crates Purple Coin #2",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-682"
+  },
+  {
+    "name": "Beach Bowl Floating Crates Purple Coin #3",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-683"
+  },
+  {
+    "name": "Beach Bowl Floating Crates Purple Coin #4",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-684"
+  },
+  {
+    "name": "Beach Bowl Floating Crates Purple Coin #5",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-685"
+  },
+  {
+    "name": "Beach Bowl Floating Crates Purple Coin #6",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-686"
+  },
+  {
+    "name": "Beach Bowl Floating Crates Purple Coin #7",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-687"
+  },
+  {
+    "name": "Beach Bowl Floating Crates Purple Coin #8",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-688"
+  },
+  {
+    "name": "Beach Bowl Island Palm Tree Purple Coin #1",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-689"
+  },
+  {
+    "name": "Beach Bowl Island Palm Tree Purple Coin #2",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-690"
+  },
+  {
+    "name": "Beach Bowl Island Palm Tree Purple Coin #3",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-691"
+  },
+  {
+    "name": "Beach Bowl Island Palm Tree Purple Coin #4",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-692"
+  },
+  {
+    "name": "Beach Bowl Underwater Purple Coin #1",
+    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-693"
+  },
+  {
+    "name": "Beach Bowl Underwater Purple Coin #2",
+    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-694"
+  },
+  {
+    "name": "Beach Bowl Underwater Purple Coin #3",
+    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-695"
+  },
+  {
+    "name": "Beach Bowl Underwater Purple Coin #4",
+    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-696"
+  },
+  {
+    "name": "Beach Bowl Underwater Purple Coin #5",
+    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-697"
+  },
+  {
+    "name": "Beach Bowl Purple Coin in Corner",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-698"
+  },
+  {
+    "name": "Beach Bowl Purple Coin Around Waterfall Basin #1",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-699"
+  },
+  {
+    "name": "Beach Bowl Purple Coin Around Waterfall Basin #2",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-700"
+  },
+  {
+    "name": "Beach Bowl Purple Coin Around Waterfall Basin #3",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-701"
+  },
+  {
+    "name": "Beach Bowl Purple Coin Around Waterfall Basin #4",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-702"
+  },
+  {
+    "name": "Beach Bowl Purple Coin Around Waterfall Basin #5",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-703"
+  },
+  {
+    "name": "Beach Bowl Purple Coin Around Waterfall Basin #6",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-704"
+  },
+  {
+    "name": "Beach Bowl Waterfall Basin Crate Purple Coin",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-705"
+  },
+  {
+    "name": "Beach Bowl Purple Coin in Waterfall Basin #1",
+    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-706"
+  },
+  {
+    "name": "Beach Bowl Purple Coin in Waterfall Basin #2",
+    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-707"
+  },
+  {
+    "name": "Beach Bowl Purple Coin Under Waterfall",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-708"
+  },
+  {
+    "name": "Beach Bowl Grass Right of Waterfall Purple Coin #1",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-709"
+  },
+  {
+    "name": "Beach Bowl Grass Right of Waterfall Purple Coin #2",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-710"
+  },
+  {
+    "name": "Beach Bowl Grass Right of Waterfall Purple Coin #3",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-711"
+  },
+  {
+    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #1",
+    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-712"
+  },
+  {
+    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #2",
+    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-713"
+  },
+  {
+    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #3",
+    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-714"
+  },
+  {
+    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #4",
+    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-715"
+  },
+  {
+    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #5",
+    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-716"
+  },
+  {
+    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #6",
+    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-717"
+  },
+  {
+    "name": "Beach Bowl Tree Swing Stump Purple Coin",
+    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-718"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #1",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-719"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #2",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-720"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #3",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-721"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #4",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-722"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #5",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-723"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #6",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-724"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #7",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-725"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #8",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-726"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #9",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-727"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #01",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-728"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #11",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-729"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #12",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-730"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #13",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-731"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #14",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-732"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #15",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-733"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #16",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-734"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #17",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-735"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #18",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-736"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #19",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-737"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #20",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-738"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #21",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-739"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #22",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-740"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #23",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-741"
+  },
+  {
+    "name": "Beach Bowl Vine Purple Coin #24",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-742"
+  },
+  {
+    "name": "Beach Bowl Vine Palm Tree Purple Coin #1",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-743"
+  },
+  {
+    "name": "Beach Bowl Vine Palm Tree Purple Coin #2",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-744"
+  },
+  {
+    "name": "Beach Bowl Palm Tree Close To Vine Purple Coin",
+    "requires": "",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-745"
+  },
+  {
+    "name": "Beach Bowl Beach Palm Tree Purple Coin #1",
+    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR ({OptOne(|Spring Mushroom|)} AND {OptOne(|Ground Pound|)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-746"
+  },
+  {
+    "name": "Beach Bowl Beach Palm Tree Purple Coin #2",
+    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR ({OptOne(|Spring Mushroom|)} AND {OptOne(|Ground Pound|)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-747"
+  },
+  {
+    "name": "Beach Bowl Far Grassy Palm Tree Purple Coin",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Triple Jump|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-748"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Around Pool #1",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-749"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Around Pool #2",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-750"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Around Pool #3",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-751"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Around Pool #4",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-752"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Around Pool #5",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-753"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Around Pool #6",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-754"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Around Pool #7",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-755"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Around Pool #8",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-756"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Around Pool #9",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-757"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Around Pool #10",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-758"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Above White Rock #1",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-759"
+  },
+  {
+    "name": "Beach Bowl Top Area Purple Coin Above White Rock #2",
+    "requires": "{OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-760"
+  },
+  {
+    "name": "Beach Bowl Top Area Second Ledge Purple Coin #1",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-761"
+  },
+  {
+    "name": "Beach Bowl Top Area Second Ledge Purple Coin #2",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-762"
+  },
+  {
+    "name": "Beach Bowl Top Area Peak Purple Coin #1",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-763"
+  },
+  {
+    "name": "Beach Bowl Top Area Peak Purple Coin #2",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-764"
+  },
+  {
+    "name": "Beach Bowl Top Area Palm Tree Purple Coin #1",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-765"
+  },
+  {
+    "name": "Beach Bowl Top Area Palm Tree Purple Coin #2",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-766"
+  },
+  {
+    "name": "Beach Bowl Top Area Palm Tree Purple Coin #3",
+    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
+    "region": "Beach Bowl Galaxy (16)",
+    "category": [
+      "Beach Bowl Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-767"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #1",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-769"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #2",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-770"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #3",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-771"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #4",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-772"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #5",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-773"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #6",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-774"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #7",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-775"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #8",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-776"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #9",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-777"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #10",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-778"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #11",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-779"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #12",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-780"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #13",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-781"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #14",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-782"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #15",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-783"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #16",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-784"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #17",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-785"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #18",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-786"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #19",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-787"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #20",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-788"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #21",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-789"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #22",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-790"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #23",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-791"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #24",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-792"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #25",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-793"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #26",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-794"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #27",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-795"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #28",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-796"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #29",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-797"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #30",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-798"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #31",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-799"
+  },
+  {
+    "name": "Ghostly - Bottom Right Purple Coin #32",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-800"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #1",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-801"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #2",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-802"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #3",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-803"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #4",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-804"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #5",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-805"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #6",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-806"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #7",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-807"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #8",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-808"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #9",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-809"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #10",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-810"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #11",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-811"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #12",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-812"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #13",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-813"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #14",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-814"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #15",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-815"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #16",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-816"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #17",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-817"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #18",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-818"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #19",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-819"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #20",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-820"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #21",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-821"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #22",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-822"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #23",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-823"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #24",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-824"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #25",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-825"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #26",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-826"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #27",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-827"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #28",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-828"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #29",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-829"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #30",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-830"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #31",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-831"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #32",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-832"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #33",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-833"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #34",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-834"
+  },
+  {
+    "name": "Ghostly - Bottom Left Purple Coin #35",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-835"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #1",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-836"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #2",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-837"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #3",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-838"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #4",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-839"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #5",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-840"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #6",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-841"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #7",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-842"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #8",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-843"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #9",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-844"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #10",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-845"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #11",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-846"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #12",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-847"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #13",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-848"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #14",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-849"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #15",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-850"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #16",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-851"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #17",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-852"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #18",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-853"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #19",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-854"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #20",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-855"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #21",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-856"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #22",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-857"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #23",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-858"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #24",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-859"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #25",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-860"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #26",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-861"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #27",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-862"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #28",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-863"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #29",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-864"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #30",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-865"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #31",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-866"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #32",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-867"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #33",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-868"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #34",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-869"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #35",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-870"
+  },
+  {
+    "name": "Ghostly - Top Left Purple Coin #36",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-871"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #1",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-872"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #2",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-873"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #3",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-874"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #4",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-875"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #5",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-876"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #6",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-877"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #7",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-878"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #8",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-879"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #9",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-880"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #10",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-881"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #11",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-882"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #12",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-883"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #13",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-884"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #14",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-885"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #15",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-886"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #16",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-887"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #17",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-888"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #18",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-889"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #19",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-890"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #20",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-891"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #21",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-892"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #22",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-893"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #23",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-894"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #24",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-895"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #25",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-896"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #26",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-897"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #27",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-898"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #28",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-899"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #29",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-900"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #30",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-901"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #31",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-902"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #32",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-903"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #33",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-904"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #34",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-905"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #35",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-906"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #36",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-907"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #37",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-908"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #38",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-909"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #39",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-910"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #40",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-911"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #41",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-912"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #42",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-913"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #43",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-914"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #44",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-915"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #45",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-916"
+  },
+  {
+    "name": "Ghostly - Top Right Purple Coin #46",
+    "requires": "",
+    "region": "Ghostly P - Bone Pen",
+    "category": [
+      "Ghostly Purple Coins",
+       "Purple Coin Locations"],
+    "sort-key": "row-10-917"
+  },
+  {
     "name": "Dusty Dune Start Purple Coin #1",
     "requires": "",
     "region": "Dusty Dune Galaxy (29)",
@@ -9981,2247 +12264,6 @@
       "Gusty Garden Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-262"
-  },
-  {
-    "name": "Beach Bowl Island Near Beach Purple Coin",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-668"
-  },
-  {
-    "name": "Beach Bowl Box Bridge Purple Coin #1",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-669"
-  },
-  {
-    "name": "Beach Bowl Box Bridge Purple Coin #2",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-670"
-  },
-  {
-    "name": "Beach Bowl Box Bridge Purple Coin #3",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-671"
-  },
-  {
-    "name": "Beach Bowl Coach Penguin Island Purple Coin #1",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-672"
-  },
-  {
-    "name": "Beach Bowl Coach Penguin Island Purple Coin #2",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-673"
-  },
-  {
-    "name": "Beach Bowl Coach Penguin's Head Purple Coin",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-674"
-  },
-  {
-    "name": "Beach Bowl Island Chain Purple Coin #1",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-675"
-  },
-  {
-    "name": "Beach Bowl Island Chain Purple Coin #2",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-676"
-  },
-  {
-    "name": "Beach Bowl Island Chain Purple Coin #3",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-677"
-  },
-  {
-    "name": "Beach Bowl Island Chain Purple Coin #4",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-678"
-  },
-  {
-    "name": "Beach Bowl Island Chain Purple Coin #5",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-679"
-  },
-  {
-    "name": "Beach Bowl Island Chain Purple Coin #6",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-680"
-  },
-  {
-    "name": "Beach Bowl Floating Crates Purple Coin #1",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-681"
-  },
-  {
-    "name": "Beach Bowl Floating Crates Purple Coin #2",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-682"
-  },
-  {
-    "name": "Beach Bowl Floating Crates Purple Coin #3",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-683"
-  },
-  {
-    "name": "Beach Bowl Floating Crates Purple Coin #4",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-684"
-  },
-  {
-    "name": "Beach Bowl Floating Crates Purple Coin #5",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-685"
-  },
-  {
-    "name": "Beach Bowl Floating Crates Purple Coin #6",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-686"
-  },
-  {
-    "name": "Beach Bowl Floating Crates Purple Coin #7",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-687"
-  },
-  {
-    "name": "Beach Bowl Floating Crates Purple Coin #8",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-688"
-  },
-  {
-    "name": "Beach Bowl Island Palm Tree Purple Coin #1",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-689"
-  },
-  {
-    "name": "Beach Bowl Island Palm Tree Purple Coin #2",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-690"
-  },
-  {
-    "name": "Beach Bowl Island Palm Tree Purple Coin #3",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-691"
-  },
-  {
-    "name": "Beach Bowl Island Palm Tree Purple Coin #4",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-692"
-  },
-  {
-    "name": "Beach Bowl Underwater Purple Coin #1",
-    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-693"
-  },
-  {
-    "name": "Beach Bowl Underwater Purple Coin #2",
-    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-694"
-  },
-  {
-    "name": "Beach Bowl Underwater Purple Coin #3",
-    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-695"
-  },
-  {
-    "name": "Beach Bowl Underwater Purple Coin #4",
-    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-696"
-  },
-  {
-    "name": "Beach Bowl Underwater Purple Coin #5",
-    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-697"
-  },
-  {
-    "name": "Beach Bowl Purple Coin in Corner",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-698"
-  },
-  {
-    "name": "Beach Bowl Purple Coin Around Waterfall Basin #1",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-699"
-  },
-  {
-    "name": "Beach Bowl Purple Coin Around Waterfall Basin #2",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-700"
-  },
-  {
-    "name": "Beach Bowl Purple Coin Around Waterfall Basin #3",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-701"
-  },
-  {
-    "name": "Beach Bowl Purple Coin Around Waterfall Basin #4",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-702"
-  },
-  {
-    "name": "Beach Bowl Purple Coin Around Waterfall Basin #5",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-703"
-  },
-  {
-    "name": "Beach Bowl Purple Coin Around Waterfall Basin #6",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-704"
-  },
-  {
-    "name": "Beach Bowl Waterfall Basin Crate Purple Coin",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-705"
-  },
-  {
-    "name": "Beach Bowl Purple Coin in Waterfall Basin #1",
-    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-706"
-  },
-  {
-    "name": "Beach Bowl Purple Coin in Waterfall Basin #2",
-    "requires": "({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-707"
-  },
-  {
-    "name": "Beach Bowl Purple Coin Under Waterfall",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-708"
-  },
-  {
-    "name": "Beach Bowl Grass Right of Waterfall Purple Coin #1",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-709"
-  },
-  {
-    "name": "Beach Bowl Grass Right of Waterfall Purple Coin #2",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-710"
-  },
-  {
-    "name": "Beach Bowl Grass Right of Waterfall Purple Coin #3",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-711"
-  },
-  {
-    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #1",
-    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-712"
-  },
-  {
-    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #2",
-    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-713"
-  },
-  {
-    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #3",
-    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-714"
-  },
-  {
-    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #4",
-    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-715"
-  },
-  {
-    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #5",
-    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-716"
-  },
-  {
-    "name": "Beach Bowl Right Ledge Palm Tree Swing Purple Coin #6",
-    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-717"
-  },
-  {
-    "name": "Beach Bowl Tree Swing Stump Purple Coin",
-    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Spin|)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-718"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #1",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-719"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #2",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-720"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #3",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-721"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #4",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-722"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #5",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-723"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #6",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-724"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #7",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-725"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #8",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-726"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #9",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-727"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #01",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-728"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #11",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-729"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #12",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-730"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #13",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-731"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #14",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-732"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #15",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-733"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #16",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-734"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #17",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-735"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #18",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-736"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #19",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-737"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #20",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-738"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #21",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-739"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #22",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-740"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #23",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-741"
-  },
-  {
-    "name": "Beach Bowl Vine Purple Coin #24",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-742"
-  },
-  {
-    "name": "Beach Bowl Vine Palm Tree Purple Coin #1",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-743"
-  },
-  {
-    "name": "Beach Bowl Vine Palm Tree Purple Coin #2",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-744"
-  },
-  {
-    "name": "Beach Bowl Palm Tree Close To Vine Purple Coin",
-    "requires": "",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-745"
-  },
-  {
-    "name": "Beach Bowl Beach Palm Tree Purple Coin #1",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR ({OptOne(|Spring Mushroom|)} AND {OptOne(|Ground Pound|)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-746"
-  },
-  {
-    "name": "Beach Bowl Beach Palm Tree Purple Coin #2",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR ({OptOne(|Spring Mushroom|)} AND {OptOne(|Ground Pound|)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-747"
-  },
-  {
-    "name": "Beach Bowl Far Grassy Palm Tree Purple Coin",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Triple Jump|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Spin|)})) OR ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-748"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Around Pool #1",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-749"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Around Pool #2",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-750"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Around Pool #3",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-751"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Around Pool #4",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-752"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Around Pool #5",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-753"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Around Pool #6",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-754"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Around Pool #7",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-755"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Around Pool #8",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-756"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Around Pool #9",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-757"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Around Pool #10",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-758"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Above White Rock #1",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-759"
-  },
-  {
-    "name": "Beach Bowl Top Area Purple Coin Above White Rock #2",
-    "requires": "{OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-760"
-  },
-  {
-    "name": "Beach Bowl Top Area Second Ledge Purple Coin #1",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-761"
-  },
-  {
-    "name": "Beach Bowl Top Area Second Ledge Purple Coin #2",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-762"
-  },
-  {
-    "name": "Beach Bowl Top Area Peak Purple Coin #1",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-763"
-  },
-  {
-    "name": "Beach Bowl Top Area Peak Purple Coin #2",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-764"
-  },
-  {
-    "name": "Beach Bowl Top Area Palm Tree Purple Coin #1",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-765"
-  },
-  {
-    "name": "Beach Bowl Top Area Palm Tree Purple Coin #2",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-766"
-  },
-  {
-    "name": "Beach Bowl Top Area Palm Tree Purple Coin #3",
-    "requires": "(({OptOne(|Spring Mushroom|)} AND ({OptOne(|Ground Pound|)} OR {OptOne(|Spin|)})) OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Beach Bowl Galaxy (16)",
-    "category": [
-      "Beach Bowl Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-767"
-  },
-  {
-    "name": "Bottom Right Purple Coin #1",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-769"
-  },
-  {
-    "name": "Bottom Right Purple Coin #2",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-770"
-  },
-  {
-    "name": "Bottom Right Purple Coin #3",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-771"
-  },
-  {
-    "name": "Bottom Right Purple Coin #4",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-772"
-  },
-  {
-    "name": "Bottom Right Purple Coin #5",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-773"
-  },
-  {
-    "name": "Bottom Right Purple Coin #6",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-774"
-  },
-  {
-    "name": "Bottom Right Purple Coin #7",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-775"
-  },
-  {
-    "name": "Bottom Right Purple Coin #8",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-776"
-  },
-  {
-    "name": "Bottom Right Purple Coin #9",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-777"
-  },
-  {
-    "name": "Bottom Right Purple Coin #10",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-778"
-  },
-  {
-    "name": "Bottom Right Purple Coin #11",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-779"
-  },
-  {
-    "name": "Bottom Right Purple Coin #12",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-780"
-  },
-  {
-    "name": "Bottom Right Purple Coin #13",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-781"
-  },
-  {
-    "name": "Bottom Right Purple Coin #14",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-782"
-  },
-  {
-    "name": "Bottom Right Purple Coin #15",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-783"
-  },
-  {
-    "name": "Bottom Right Purple Coin #16",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-784"
-  },
-  {
-    "name": "Bottom Right Purple Coin #17",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-785"
-  },
-  {
-    "name": "Bottom Right Purple Coin #18",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-786"
-  },
-  {
-    "name": "Bottom Right Purple Coin #19",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-787"
-  },
-  {
-    "name": "Bottom Right Purple Coin #20",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-788"
-  },
-  {
-    "name": "Bottom Right Purple Coin #21",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-789"
-  },
-  {
-    "name": "Bottom Right Purple Coin #22",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-790"
-  },
-  {
-    "name": "Bottom Right Purple Coin #23",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-791"
-  },
-  {
-    "name": "Bottom Right Purple Coin #24",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-792"
-  },
-  {
-    "name": "Bottom Right Purple Coin #25",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-793"
-  },
-  {
-    "name": "Bottom Right Purple Coin #26",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-794"
-  },
-  {
-    "name": "Bottom Right Purple Coin #27",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-795"
-  },
-  {
-    "name": "Bottom Right Purple Coin #28",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-796"
-  },
-  {
-    "name": "Bottom Right Purple Coin #29",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-797"
-  },
-  {
-    "name": "Bottom Right Purple Coin #30",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-798"
-  },
-  {
-    "name": "Bottom Right Purple Coin #31",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-799"
-  },
-  {
-    "name": "Bottom Right Purple Coin #32",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-800"
-  },
-  {
-    "name": "Bottom Left Purple Coin #1",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-801"
-  },
-  {
-    "name": "Bottom Left Purple Coin #2",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-802"
-  },
-  {
-    "name": "Bottom Left Purple Coin #3",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-803"
-  },
-  {
-    "name": "Bottom Left Purple Coin #4",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-804"
-  },
-  {
-    "name": "Bottom Left Purple Coin #5",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-805"
-  },
-  {
-    "name": "Bottom Left Purple Coin #6",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-806"
-  },
-  {
-    "name": "Bottom Left Purple Coin #7",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-807"
-  },
-  {
-    "name": "Bottom Left Purple Coin #8",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-808"
-  },
-  {
-    "name": "Bottom Left Purple Coin #9",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-809"
-  },
-  {
-    "name": "Bottom Left Purple Coin #10",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-810"
-  },
-  {
-    "name": "Bottom Left Purple Coin #11",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-811"
-  },
-  {
-    "name": "Bottom Left Purple Coin #12",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-812"
-  },
-  {
-    "name": "Bottom Left Purple Coin #13",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-813"
-  },
-  {
-    "name": "Bottom Left Purple Coin #14",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-814"
-  },
-  {
-    "name": "Bottom Left Purple Coin #15",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-815"
-  },
-  {
-    "name": "Bottom Left Purple Coin #16",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-816"
-  },
-  {
-    "name": "Bottom Left Purple Coin #17",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-817"
-  },
-  {
-    "name": "Bottom Left Purple Coin #18",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-818"
-  },
-  {
-    "name": "Bottom Left Purple Coin #19",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-819"
-  },
-  {
-    "name": "Bottom Left Purple Coin #20",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-820"
-  },
-  {
-    "name": "Bottom Left Purple Coin #21",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-821"
-  },
-  {
-    "name": "Bottom Left Purple Coin #22",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-822"
-  },
-  {
-    "name": "Bottom Left Purple Coin #23",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-823"
-  },
-  {
-    "name": "Bottom Left Purple Coin #24",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-824"
-  },
-  {
-    "name": "Bottom Left Purple Coin #25",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-825"
-  },
-  {
-    "name": "Bottom Left Purple Coin #26",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-826"
-  },
-  {
-    "name": "Bottom Left Purple Coin #27",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-827"
-  },
-  {
-    "name": "Bottom Left Purple Coin #28",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-828"
-  },
-  {
-    "name": "Bottom Left Purple Coin #29",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-829"
-  },
-  {
-    "name": "Bottom Left Purple Coin #30",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-830"
-  },
-  {
-    "name": "Bottom Left Purple Coin #31",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-831"
-  },
-  {
-    "name": "Bottom Left Purple Coin #32",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-832"
-  },
-  {
-    "name": "Bottom Left Purple Coin #33",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-833"
-  },
-  {
-    "name": "Bottom Left Purple Coin #34",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-834"
-  },
-  {
-    "name": "Bottom Left Purple Coin #35",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-835"
-  },
-  {
-    "name": "Top Left Purple Coin #1",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-836"
-  },
-  {
-    "name": "Top Left Purple Coin #2",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-837"
-  },
-  {
-    "name": "Top Left Purple Coin #3",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-838"
-  },
-  {
-    "name": "Top Left Purple Coin #4",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-839"
-  },
-  {
-    "name": "Top Left Purple Coin #5",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-840"
-  },
-  {
-    "name": "Top Left Purple Coin #6",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-841"
-  },
-  {
-    "name": "Top Left Purple Coin #7",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-842"
-  },
-  {
-    "name": "Top Left Purple Coin #8",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-843"
-  },
-  {
-    "name": "Top Left Purple Coin #9",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-844"
-  },
-  {
-    "name": "Top Left Purple Coin #10",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-845"
-  },
-  {
-    "name": "Top Left Purple Coin #11",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-846"
-  },
-  {
-    "name": "Top Left Purple Coin #12",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-847"
-  },
-  {
-    "name": "Top Left Purple Coin #13",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-848"
-  },
-  {
-    "name": "Top Left Purple Coin #14",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-849"
-  },
-  {
-    "name": "Top Left Purple Coin #15",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-850"
-  },
-  {
-    "name": "Top Left Purple Coin #16",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-851"
-  },
-  {
-    "name": "Top Left Purple Coin #17",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-852"
-  },
-  {
-    "name": "Top Left Purple Coin #18",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-853"
-  },
-  {
-    "name": "Top Left Purple Coin #19",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-854"
-  },
-  {
-    "name": "Top Left Purple Coin #20",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-855"
-  },
-  {
-    "name": "Top Left Purple Coin #21",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-856"
-  },
-  {
-    "name": "Top Left Purple Coin #22",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-857"
-  },
-  {
-    "name": "Top Left Purple Coin #23",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-858"
-  },
-  {
-    "name": "Top Left Purple Coin #24",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-859"
-  },
-  {
-    "name": "Top Left Purple Coin #25",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-860"
-  },
-  {
-    "name": "Top Left Purple Coin #26",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-861"
-  },
-  {
-    "name": "Top Left Purple Coin #27",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-862"
-  },
-  {
-    "name": "Top Left Purple Coin #28",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-863"
-  },
-  {
-    "name": "Top Left Purple Coin #29",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-864"
-  },
-  {
-    "name": "Top Left Purple Coin #30",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-865"
-  },
-  {
-    "name": "Top Left Purple Coin #31",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-866"
-  },
-  {
-    "name": "Top Left Purple Coin #32",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-867"
-  },
-  {
-    "name": "Top Left Purple Coin #33",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-868"
-  },
-  {
-    "name": "Top Left Purple Coin #34",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-869"
-  },
-  {
-    "name": "Top Left Purple Coin #35",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-870"
-  },
-  {
-    "name": "Top Left Purple Coin #36",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-871"
-  },
-  {
-    "name": "Top Right Purple Coin #1",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-872"
-  },
-  {
-    "name": "Top Right Purple Coin #2",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-873"
-  },
-  {
-    "name": "Top Right Purple Coin #3",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-874"
-  },
-  {
-    "name": "Top Right Purple Coin #4",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-875"
-  },
-  {
-    "name": "Top Right Purple Coin #5",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-876"
-  },
-  {
-    "name": "Top Right Purple Coin #6",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-877"
-  },
-  {
-    "name": "Top Right Purple Coin #7",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-878"
-  },
-  {
-    "name": "Top Right Purple Coin #8",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-879"
-  },
-  {
-    "name": "Top Right Purple Coin #9",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-880"
-  },
-  {
-    "name": "Top Right Purple Coin #10",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-881"
-  },
-  {
-    "name": "Top Right Purple Coin #11",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-882"
-  },
-  {
-    "name": "Top Right Purple Coin #12",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-883"
-  },
-  {
-    "name": "Top Right Purple Coin #13",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-884"
-  },
-  {
-    "name": "Top Right Purple Coin #14",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-885"
-  },
-  {
-    "name": "Top Right Purple Coin #15",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-886"
-  },
-  {
-    "name": "Top Right Purple Coin #16",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-887"
-  },
-  {
-    "name": "Top Right Purple Coin #17",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-888"
-  },
-  {
-    "name": "Top Right Purple Coin #18",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-889"
-  },
-  {
-    "name": "Top Right Purple Coin #19",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-890"
-  },
-  {
-    "name": "Top Right Purple Coin #20",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-891"
-  },
-  {
-    "name": "Top Right Purple Coin #21",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-892"
-  },
-  {
-    "name": "Top Right Purple Coin #22",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-893"
-  },
-  {
-    "name": "Top Right Purple Coin #23",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-894"
-  },
-  {
-    "name": "Top Right Purple Coin #24",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-895"
-  },
-  {
-    "name": "Top Right Purple Coin #25",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-896"
-  },
-  {
-    "name": "Top Right Purple Coin #26",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-897"
-  },
-  {
-    "name": "Top Right Purple Coin #27",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-898"
-  },
-  {
-    "name": "Top Right Purple Coin #28",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-899"
-  },
-  {
-    "name": "Top Right Purple Coin #29",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-900"
-  },
-  {
-    "name": "Top Right Purple Coin #30",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-901"
-  },
-  {
-    "name": "Top Right Purple Coin #31",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-902"
-  },
-  {
-    "name": "Top Right Purple Coin #32",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-903"
-  },
-  {
-    "name": "Top Right Purple Coin #33",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-904"
-  },
-  {
-    "name": "Top Right Purple Coin #34",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-905"
-  },
-  {
-    "name": "Top Right Purple Coin #35",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-906"
-  },
-  {
-    "name": "Top Right Purple Coin #36",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-907"
-  },
-  {
-    "name": "Top Right Purple Coin #37",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-908"
-  },
-  {
-    "name": "Top Right Purple Coin #38",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-909"
-  },
-  {
-    "name": "Top Right Purple Coin #39",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-910"
-  },
-  {
-    "name": "Top Right Purple Coin #40",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-911"
-  },
-  {
-    "name": "Top Right Purple Coin #41",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-912"
-  },
-  {
-    "name": "Top Right Purple Coin #42",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-913"
-  },
-  {
-    "name": "Top Right Purple Coin #43",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-914"
-  },
-  {
-    "name": "Top Right Purple Coin #44",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-915"
-  },
-  {
-    "name": "Top Right Purple Coin #45",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-916"
-  },
-  {
-    "name": "Top Right Purple Coin #46",
-    "requires": "{OptOne(|Pull Stars|)}",
-    "region": "Ghostly Galaxy (20)",
-    "category": [
-      "Ghostly Purple Coins",
-       "Purple Coin Locations"],
-    "sort-key": "row-10-917"
   },
   {
     "name": "Gold Leaf Start Blocks Purple Coin #1",
