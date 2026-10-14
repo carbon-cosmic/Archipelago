@@ -3281,7 +3281,7 @@
 },
   {
     "name": "Boo in a Box",
-    "requires": "{OptOne(|Koopa Shell|)} AND {OptOne(|Spin|)}",
+    "requires": "|Has Air Spin|",
     "region": "Deep Dark Galaxy (46)",
     "category": [
       "Garden",
@@ -3291,8 +3291,8 @@
   },
   {
     "name": "Infiltrating the Dreadnought",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Ground Pound|)})",
-    "region": "Dreadnought Galaxy (48)",
+    "requires": "",
+    "region": "Dreadnought 1 - Water Spotlights",
     "category": [
       "Garden",
       "Power Stars"
@@ -3300,19 +3300,19 @@
     "sort-key": "row-08-016"
   },
   {
-    "name": "Dreadnought 1 2D Purple Starbit Ledge 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 1 - 2D Section Life Mushroom",
+    "requires": "",
+    "region": "Dreadnought 1 - 2D Main",
     "category": [
       "Garden",
-      "1-Ups"
+      "Life Mushrooms"
     ],
     "sort-key": "row-08-017"
   },
   {
-    "name": "Dreadnought 1 1-Up In Cage Below Walljumps",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Bob-Ombs|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Ground Pound|)})",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 1 - 2D Secret Ledge 1-Up",
+    "requires": "",
+    "region": "Dreadnought 1 - 2D Main",
     "category": [
       "Garden",
       "1-Ups"
@@ -3320,9 +3320,9 @@
     "sort-key": "row-08-018"
   },
   {
-    "name": "Dreadnought 1 1-Up Next to Star",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Ground Pound|)})",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 1 - 1-Up In Cage Below Wall Jumps",
+    "requires": "|Has Bob-ombs|",
+    "region": "Dreadnought 1 - Rising Wall Jumps|",
     "category": [
       "Garden",
       "1-Ups"
@@ -3330,19 +3330,19 @@
     "sort-key": "row-08-019"
   },
   {
-    "name": "Dreadnought 1 2D Section Life Mushroom",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Wall Jump|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 1 1-Up Next to Star",
+    "requires": "",
+    "region": "Dreadnought 1 - Water Spotlights",
     "category": [
       "Garden",
-      "Life Mushrooms"
+      "1-Ups"
     ],
     "sort-key": "row-08-020"
   },
   {
     "name": "Dreadnought's Colossal Cannons",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "requires": "",
+    "region": "Dreadnought 2 - Cannons",
     "category": [
       "Garden",
       "Power Stars"
@@ -3350,9 +3350,9 @@
     "sort-key": "row-08-021"
   },
   {
-    "name": "Dreadnought 2 1-Up Caged at Start",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Bob-Ombs|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 2 - 1-Up Caged at Start",
+    "requires": "|Has Bob-ombs|",
+    "region": "Dreadnought 2 - Chain Chomps",
     "category": [
       "Garden",
       "1-Ups"
@@ -3360,9 +3360,9 @@
     "sort-key": "row-08-022"
   },
   {
-    "name": "Dreadnought 2 1-Up Over Thwomp",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 2 - 1-Up Over Thwomp",
+    "requires": "|Jump Height 2|",
+    "region": "Dreadnought 2 - Cannons",
     "category": [
       "Garden",
       "1-Ups"
@@ -3371,8 +3371,8 @@
   },
   {
     "name": "Revenge of the Topman Tribe",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "requires": "",
+    "region": "Dreadnought 3 - Topmaniac UFO",
     "category": [
       "Garden",
       "Power Stars"
@@ -3380,9 +3380,9 @@
     "sort-key": "row-08-024"
   },
   {
-    "name": "Dreadnought 3 Pillar 1-Up",
-    "requires": "({OptOne(|Spin|)} OR ({OptOne(|Backflip|)} AND {YamlEnabled(Advanced_Logic)}) OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 3 - Pillar 1-Up",
+    "requires": "|Has Air Spin| or (|Has Sideflip| and |Medium Logic|) or (|Has Backflip| and |Hard Logic|) or |Has Triple Jump|",
+    "region": "Dreadnought 3 - Pillars Plnaet",
     "category": [
       "Garden",
       "1-Ups"
@@ -3390,9 +3390,9 @@
     "sort-key": "row-08-025"
   },
   {
-    "name": "Dreadnought 3 1-Up High Above Cube",
-    "requires": "{OptOne(|Spin|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 3 - 1-Up High Above Cube",
+    "requires": "",
+    "region": "Dreadnought 3 - Cube",
     "category": [
       "Garden",
       "1-Ups"
@@ -3400,19 +3400,19 @@
     "sort-key": "row-08-026"
   },
   {
-    "name": "Dreadnought 3 Pull Star 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 3 - Life Mushroom Under Pull Star Planet",
+    "requires": "",
+    "region": "Dreadnought 3 - Pull Stars",
     "category": [
       "Garden",
-      "1-Ups"
+      "Life Mushrooms"
     ],
     "sort-key": "row-08-027"
   },
   {
-    "name": "Dreadnought 3 Furthest Chest 1-Up",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Koopa Shell|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 3 - Pull Stars 1-Up",
+    "requires": "",
+    "region": "Dreadnought 3 - Pull Stars",
     "category": [
       "Garden",
       "1-Ups"
@@ -3420,9 +3420,29 @@
     "sort-key": "row-08-028"
   },
   {
-    "name": "Dreadnought 3 Luma Shop",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought 3 - Laser Platform Life Mushroom",
+    "requires": "",
+    "region": "Dreadnought 3 - Laser Platform",
+    "category": [
+      "Garden",
+      "Life Mushrooms"
+    ],
+    "sort-key": "row-08-029"
+  },
+  {
+    "name": "Dreadnought 3 - Furthest Chest 1-Up",
+    "requires": "",
+    "region": "Dreadnought 3 - Laser Platform",
+    "category": [
+      "Garden",
+      "1-Ups"
+    ],
+    "sort-key": "row-08-030"
+  },
+  {
+    "name": "Dreadnought 3 - Luma Shop",
+    "requires": "",
+    "region": "Dreadnought 3 - Topmaniac UFO",
     "category": [
       "Garden",
       "Luma Shops"
@@ -3430,29 +3450,9 @@
     "sort-key": "row-08-029"
   },
   {
-    "name": "Dreadnought 3 Life Mushroom Under Pull Star Planet",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Dreadnought Galaxy (48)",
-    "category": [
-      "Garden",
-      "Life Mushrooms"
-    ],
-    "sort-key": "row-08-030"
-  },
-  {
-    "name": "Dreadnought 3 Laser Platform Life Mushroom",
-    "requires": "{OptOne(|Spin|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Pull Stars|)}",
-    "region": "Dreadnought Galaxy (48)",
-    "category": [
-      "Garden",
-      "Life Mushrooms"
-    ],
-    "sort-key": "row-08-031"
-  },
-  {
     "name": "Topman Tribe Speed Run",
-    "requires": "{OptOne(|Speedy Comets|)} AND {OptOne(|Dreadnought Comet Medal|)} AND {OptOne(|Spin|)} AND {OptOne(|Pull Stars|)} AND {OptOne(|Ground Pound|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "requires": "",
+    "region": "Dreadnought C - Topmaniac UFO",
     "category": [
       "Garden",
       "Power Stars"
@@ -3461,8 +3461,8 @@
   },
  {
   "name": "Battlestation's Purple Coins",
-  "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Dreadnought Comet Medal|)}  AND {OptOne(|Dreadnought Purple Coin:100|)} AND ({OptOne(|Spin|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})",
-  "region": "Dreadnought Galaxy (48)",
+  "requires": "Purples when i figure them out",
+  "region": "Dreadnought P - End",
   "category": [
     "Garden",
     "Power Stars"
@@ -3470,9 +3470,9 @@
   "sort-key": "row-08-033"
 },
   {
-    "name": "Dreadnought Purple Platform 1-Up",
-    "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Dreadnought Comet Medal|)} ",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought P - 1-Up",
+    "requires": "",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Garden",
       "1-Ups"
@@ -3480,9 +3480,9 @@
     "sort-key": "row-08-034"
   },
   {
-    "name": "Dreadnought Purple Life Mushroom",
-    "requires": " |Grand Star (Purple Coins)| AND {OptOne(|Dreadnought Comet Medal|)} ",
-    "region": "Dreadnought Galaxy (48)",
+    "name": "Dreadnought P - Life Mushroom",
+    "requires": "",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Garden",
       "Life Mushrooms"
@@ -3491,8 +3491,8 @@
   },
   {
     "name": "Dreadnought's Garbage Dump",
-    "requires": "{OptOne(|Bob-Ombs|)}",
-    "region": "Dreadnought Galaxy (48)",
+    "requires": "|Has Bob-ombs|",
+    "region": "Dreadnought S - Ammo Depot",
     "category": [
       "Garden",
       "Power Stars"
@@ -3501,7 +3501,7 @@
   },
   {
     "name": "Watch Your Step",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
+    "requires": "",
     "region": "Matter Splatter Galaxy (50)",
     "category": [
       "Garden",
@@ -16756,900 +16756,900 @@
     "sort-key": "row-10-1422"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #1",
+    "name": "Dreadnought - First Platform Purple Coin #1",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1424"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #2",
+    "name": "Dreadnought - First Platform Purple Coin #2",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1425"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #3",
+    "name": "Dreadnought - First Platform Purple Coin #3",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1426"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #4",
+    "name": "Dreadnought - First Platform Purple Coin #4",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1427"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #5",
+    "name": "Dreadnought - First Platform Purple Coin #5",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1428"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #6",
+    "name": "Dreadnought - First Platform Purple Coin #6",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1429"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #7",
+    "name": "Dreadnought - First Platform Purple Coin #7",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1430"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #8",
+    "name": "Dreadnought - First Platform Purple Coin #8",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1431"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #9",
+    "name": "Dreadnought - First Platform Purple Coin #9",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1432"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #10",
+    "name": "Dreadnought - First Platform Purple Coin #10",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1433"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #11",
+    "name": "Dreadnought - First Platform Purple Coin #11",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1434"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #12",
+    "name": "Dreadnought - First Platform Purple Coin #12",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1435"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #13",
+    "name": "Dreadnought - First Platform Purple Coin #13",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1436"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #14",
+    "name": "Dreadnought - First Platform Purple Coin #14",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1437"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #15",
+    "name": "Dreadnought - First Platform Purple Coin #15",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1438"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #16",
+    "name": "Dreadnought - First Platform Purple Coin #16",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1439"
   },
   {
-    "name": "Dreadnought First Platform Purple Coin #17",
+    "name": "Dreadnought - First Platform Purple Coin #17",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1440"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #1",
+    "name": "Dreadnought - Second Platform Purple Coin #1",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1441"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #2",
+    "name": "Dreadnought - Second Platform Purple Coin #2",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1442"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #3",
+    "name": "Dreadnought - Second Platform Purple Coin #3",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1443"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #4",
+    "name": "Dreadnought - Second Platform Purple Coin #4",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1444"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #5",
+    "name": "Dreadnought - Second Platform Purple Coin #5",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1445"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #6",
+    "name": "Dreadnought - Second Platform Purple Coin #6",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1446"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #7",
+    "name": "Dreadnought - Second Platform Purple Coin #7",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1447"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #8",
+    "name": "Dreadnought - Second Platform Purple Coin #8",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1448"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #9",
+    "name": "Dreadnought - Second Platform Purple Coin #9",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1449"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #10",
+    "name": "Dreadnought - Second Platform Purple Coin #10",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1450"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #11",
+    "name": "Dreadnought - Second Platform Purple Coin #11",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1451"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #12",
+    "name": "Dreadnought - Second Platform Purple Coin #12",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1452"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #13",
+    "name": "Dreadnought - Second Platform Purple Coin #13",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1453"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #14",
+    "name": "Dreadnought - Second Platform Purple Coin #14",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1454"
   },
   {
-    "name": "Dreadnought Second Platform Purple Coin #15",
+    "name": "Dreadnought - Second Platform Purple Coin #15",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1455"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #1",
+    "name": "Dreadnought - Third Platform Purple Coin #1",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1456"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #2",
+    "name": "Dreadnought - Third Platform Purple Coin #2",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1457"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #3",
+    "name": "Dreadnought - Third Platform Purple Coin #3",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1458"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #4",
+    "name": "Dreadnought - Third Platform Purple Coin #4",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1459"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #5",
+    "name": "Dreadnought - Third Platform Purple Coin #5",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1460"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #6",
+    "name": "Dreadnought - Third Platform Purple Coin #6",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1461"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #7",
+    "name": "Dreadnought - Third Platform Purple Coin #7",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1462"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #8",
+    "name": "Dreadnought - Third Platform Purple Coin #8",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1463"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #9",
+    "name": "Dreadnought - Third Platform Purple Coin #9",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1464"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #10",
+    "name": "Dreadnought - Third Platform Purple Coin #10",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1465"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #11",
+    "name": "Dreadnought - Third Platform Purple Coin #11",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1466"
   },
   {
-    "name": "Dreadnought Purple Coin on Top of Thwomp #1",
+    "name": "Dreadnought - Purple Coin on Top of Thwomp #1",
     "requires": "({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1467"
   },
   {
-    "name": "Dreadnought Purple Coin on Top of Thwomp #2",
+    "name": "Dreadnought - Purple Coin on Top of Thwomp #2",
     "requires": "({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1468"
   },
   {
-    "name": "Dreadnought Purple Coin on Top of Thwomp #3",
+    "name": "Dreadnought - Purple Coin on Top of Thwomp #3",
     "requires": "({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1469"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #12",
+    "name": "Dreadnought - Third Platform Purple Coin #12",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1470"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #13",
+    "name": "Dreadnought - Third Platform Purple Coin #13",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1471"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #14",
+    "name": "Dreadnought - Third Platform Purple Coin #14",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1472"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #15",
+    "name": "Dreadnought - Third Platform Purple Coin #15",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1473"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #16",
+    "name": "Dreadnought - Third Platform Purple Coin #16",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1474"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #17",
+    "name": "Dreadnought - Third Platform Purple Coin #17",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1475"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #18",
+    "name": "Dreadnought - Third Platform Purple Coin #18",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1476"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #19",
+    "name": "Dreadnought - Third Platform Purple Coin #19",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1477"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #20",
+    "name": "Dreadnought - Third Platform Purple Coin #20",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1478"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #21",
+    "name": "Dreadnought - Third Platform Purple Coin #21",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1479"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #22",
+    "name": "Dreadnought - Third Platform Purple Coin #22",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1480"
   },
   {
-    "name": "Dreadnought Third Platform Purple Coin #23",
+    "name": "Dreadnought - Third Platform Purple Coin #23",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1481"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #1",
+    "name": "Dreadnought - Fourth Platform Purple Coin #1",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1482"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #2",
+    "name": "Dreadnought - Fourth Platform Purple Coin #2",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1483"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #3",
+    "name": "Dreadnought - Fourth Platform Purple Coin #3",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1484"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #4",
+    "name": "Dreadnought - Fourth Platform Purple Coin #4",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1485"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #5",
+    "name": "Dreadnought - Fourth Platform Purple Coin #5",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1486"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #6",
+    "name": "Dreadnought - Fourth Platform Purple Coin #6",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1487"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #7",
+    "name": "Dreadnought - Fourth Platform Purple Coin #7",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1488"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #8",
+    "name": "Dreadnought - Fourth Platform Purple Coin #8",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1489"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #9",
+    "name": "Dreadnought - Fourth Platform Purple Coin #9",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1490"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #10",
+    "name": "Dreadnought - Fourth Platform Purple Coin #10",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1491"
   },
   {
-    "name": "Dreadnought Fourth Platform Purple Coin #11",
+    "name": "Dreadnought - Fourth Platform Purple Coin #11",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1492"
   },
   {
-    "name": "Dreadnought Fifth Platform Purple Coin #1",
+    "name": "Dreadnought - Fifth Platform Purple Coin #1",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1493"
   },
   {
-    "name": "Dreadnought Fifth Platform Purple Coin #2",
+    "name": "Dreadnought - Fifth Platform Purple Coin #2",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1494"
   },
   {
-    "name": "Dreadnought Fifth Platform Purple Coin #3",
+    "name": "Dreadnought - Fifth Platform Purple Coin #3",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1495"
   },
   {
-    "name": "Dreadnought Fifth Platform Purple Coin #4",
+    "name": "Dreadnought - Fifth Platform Purple Coin #4",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1496"
   },
   {
-    "name": "Dreadnought Fifth Platform Purple Coin #5",
+    "name": "Dreadnought - Fifth Platform Purple Coin #5",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1497"
   },
   {
-    "name": "Dreadnought Fifth Platform Purple Coin #6",
+    "name": "Dreadnought - Fifth Platform Purple Coin #6",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1498"
   },
   {
-    "name": "Dreadnought Fifth Platform Purple Coin #7",
+    "name": "Dreadnought - Fifth Platform Purple Coin #7",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1499"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #1",
+    "name": "Dreadnought - Sixth Platform Purple Coin #1",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1500"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #2",
+    "name": "Dreadnought - Sixth Platform Purple Coin #2",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1501"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #3",
+    "name": "Dreadnought - Sixth Platform Purple Coin #3",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1502"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #4",
+    "name": "Dreadnought - Sixth Platform Purple Coin #4",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1503"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #5",
+    "name": "Dreadnought - Sixth Platform Purple Coin #5",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1504"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #6",
+    "name": "Dreadnought - Sixth Platform Purple Coin #6",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1505"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #7",
+    "name": "Dreadnought - Sixth Platform Purple Coin #7",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1506"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #8",
+    "name": "Dreadnought - Sixth Platform Purple Coin #8",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1507"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #9",
+    "name": "Dreadnought - Sixth Platform Purple Coin #9",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1508"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #10",
+    "name": "Dreadnought - Sixth Platform Purple Coin #10",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1509"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #11",
+    "name": "Dreadnought - Sixth Platform Purple Coin #11",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1510"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #12",
+    "name": "Dreadnought - Sixth Platform Purple Coin #12",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1511"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #13",
+    "name": "Dreadnought - Sixth Platform Purple Coin #13",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1512"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #14",
+    "name": "Dreadnought - Sixth Platform Purple Coin #14",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1513"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #15",
+    "name": "Dreadnought - Sixth Platform Purple Coin #15",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1514"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #16",
+    "name": "Dreadnought - Sixth Platform Purple Coin #16",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1515"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #17",
+    "name": "Dreadnought - Sixth Platform Purple Coin #17",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1516"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #18",
+    "name": "Dreadnought - Sixth Platform Purple Coin #18",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1517"
   },
   {
-    "name": "Dreadnought Sixth Platform Purple Coin #19",
+    "name": "Dreadnought - Sixth Platform Purple Coin #19",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1518"
   },
   {
-    "name": "Dreadnought Spring Purple Coin #1",
+    "name": "Dreadnought - Spring Purple Coin #1",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1519"
   },
   {
-    "name": "Dreadnought Spring Purple Coin #2",
+    "name": "Dreadnought - Spring Purple Coin #2",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1520"
   },
   {
-    "name": "Dreadnought Spring Purple Coin #3",
+    "name": "Dreadnought - Spring Purple Coin #3",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1521"
   },
   {
-    "name": "Dreadnought Spring Purple Coin #4",
+    "name": "Dreadnought - Spring Purple Coin #4",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1522"
   },
   {
-    "name": "Dreadnought Final Purple Coin",
+    "name": "Dreadnought - Final Purple Coin",
     "requires": "",
-    "region": "Dreadnought Galaxy (48)",
+    "region": "Dreadnought P - Cannons",
     "category": [
       "Dreadnought Purple Coins",
        "Purple Coin Locations"],

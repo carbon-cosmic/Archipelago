@@ -2460,7 +2460,7 @@
         "Deep Dark - Starshroom 1-Up": "|Can Wall Spin| or |Has Triple Jump| or (|Medium Logic| and |Has Air Spin|)",
         "Deep Dark 1 - Octoguy Planet": "|Has Cannon Permit|",
         "Deep Dark 1 - Gateway Planet": "|Has Cannon Permit|",
-        "Deep Dark - Bonus Room": "|Has Cannon Permit| and |Hard Logic|",
+        "Deep Dark - Bonus Room": "|Has Cannon Permit| and |Medium Logic|",
         "Deep Dark 1 - Underground Lake": "|Has Cannon Permit| and |Medium Logic|"
       }
     },
@@ -2490,7 +2490,7 @@
       "requires": "",
       "exit_requires": {
         "Deep Dark 1 - Underground Lake": "|Fire Crystals|",
-        "Deep Dark - Starshroom 1-Up": "|Has Air Spin| or |Has Long Jump| or ?"
+        "Deep Dark - Starshroom 1-Up": "|Has Long Jump|"
       }
     },
     "Deep Dark 1 - Underground Lake": {
@@ -2514,14 +2514,13 @@
     "Deep Dark 2 - Beach": {
       "connects_to": [
         "Deep Dark 2 - Beach w. Cannon",
-        "Deep Dark - Starshroom 1-Up",
         "Deep Dark 2 - Underground Lake"
       ],
       "requires": ""
     },
     "Deep Dark 2 - Underground Lake": {
       "connects_to": [
-        "Deep Dark 2 - Lake Cliffs",
+        "Deep Dark 2 - Lake Cliffs Lower",
         "Deep Dark S - Boo Box"
       ],
       "requires": ""
@@ -2529,7 +2528,7 @@
     "Deep Dark 2 - Beach w. Cannon": {
       "connects_to": [
         "Deep Dark 2 - Octoguy Planet",
-        "Deep Dark 2 - Lake Cliffs"
+        "Deep Dark 2 - Lake Cliffs Upper"
       ],
       "requires": "|Has Ground Spin| or |Has Koopa Shell| or (|Has Ground Pound| and |Jump Height 3|)"
     },
@@ -2547,32 +2546,42 @@
       "requires": "",
       "exit_requires": {
         "Deep Dark 2 - Lake w. Ice Flower": "|Fire Crystals|",
-        "Deep Dark - Starshroom 1-Up": "|Has Air Spin| or |Has Long Spin| or ?"
+        "Deep Dark - Starshroom 1-Up": "|Has Long Jump|"
       }
     },
     "Deep Dark 2 - Lake w. Ice Flower": {
       "connects_to": [
-        "Deep Dark 2 - Lake Cliffs"
+        "Deep Dark 2 - Lake Cliffs Lower"
       ],
       "requires": ""
     },
-    "Deep Dark 2 - Lake Cliffs": {
+    "Deep Dark 2 - Lake Cliffs Lower": {
       "connects_to": [
-        "Deep Dark 2 - Cheep Cheep Planet",
-        "Deep Dark - Bonus Room"
+        "Deep Dark 2 - Lake Cliffs Upper"
       ],
       "requires": "",
       "entrance_requires": {
         "Deep Dark 2 - Underground Lake": "|Can Wall Spin| and |Hard Logic|",
-        "Deep Dark 2 - Beach w. Cannon": "|Has Cannon Permit| and |Medium Logic|",
-        "Deep Dark 2 - Lake w. Ice Flower": "|Has Ice Flower|"
+        "Deep Dark 2 - Lake w. Ice Flower": "|Has Ice Flower|",
+        "Deep Dark 2 - Lake Cliffs Upper": ""
+      },
+      "exit_requires": {
+        "Deep Dark 2 - Lake Cliffs Upper": "|Jump Height 3| or |Has Wall Jump|"
       }
+    },
+    "Deep Dark 2 - Lake Cliffs Upper": {
+      "connects_to": [
+        "Deep Dark 2 - Cheep Cheep Planet",
+        "Deep Dark - Bonus Room",
+        "Deep Dark 2 - Lake Cliffs Lower"
+      ],
+      "requires": ""
     },
     "Deep Dark 2 - Cheep Cheep Planet": {
       "connects_to": [
         "Deep Dark 2 - Watermelon Planet"
       ],
-      "requires": "?"
+      "requires": "|Jump Height 3| or |Has Wall Jump| or |Hard Logic|"
     },
     "Deep Dark 2 - Watermelon Planet": {
       "connects_to": [],
@@ -2580,8 +2589,7 @@
     },
     "Deep Dark 3 - Beach": {
       "connects_to": [
-        "Deep Dark 3 - Underground Lake",
-        "Deep Dark - Starshroom 1-Up"
+        "Deep Dark 3 - Underground Lake"
       ],
       "requires": ""
     },
@@ -2621,9 +2629,9 @@
     "Dreadnought Galaxy": {
       "connects_to": [
         "Dreadnought 1 - Spotlights Planet",
-        "Dreadnought 2 - Bolt Platforms",
-        "Dreadnought 3 - UFOs",
-        "Dreadnought C - UFOs",
+        "Dreadnought 2 - Chain Chomps",
+        "Dreadnought 3 - UFO",
+        "Dreadnought C - UFO",
         "Dreadnought P - Cannons"
       ]
     },
@@ -2670,6 +2678,111 @@
       "requires": ""
     },
     "Dreadnought 1 - Water Spotlights": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Dreadnought 2 - Chain Chomps": {
+      "connects_to": [
+        "Dreadnought 2 - Bolt Platforms"
+      ],
+      "requires": ""
+    },
+    "Dreadnought 2 - Bolt Platforms": {
+      "connects_to": [
+        "Dreadnought 2 - Cannons"
+      ],
+      "requires": ""
+    },
+    "Dreadnought 2 - Cannons": {
+      "connects_to": [],
+      "requires": "|Has Spin|"
+    },
+    "Dreadnought 3 - UFO": {
+      "connects_to": [
+        "Dreadnought 3 - Pillars Planet",
+        "Dreadnought S - Ammo Depot"
+      ],
+      "requires": ""
+    },
+    "Dreadnought 3 - Pillars Planet": {
+      "connects_to": [
+        "Dreadnought 3 - Cube"
+      ],
+      "requires": ""
+    },
+    "Dreadnought 3 - Cube": {
+      "connects_to": [
+        "Dreadnought 3 - Pull Stars"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Dreadnought 3 - Pull Stars": {
+      "connects_to": [
+        "Dreadnought 3 - Laser Platform"
+      ],
+      "requires": "|Has Ground Pound| and |Has Pull Stars|"
+    },
+    "Dreadnought 3 - Laser Platform": {
+      "connects_to": [
+        "Dreadnought 3 - Tomaniac UFO"
+      ],
+      "requires": "|Has Pull Stars|"
+    },
+    "Dreadnought 3 - Topmaniac UFO": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Dreadnought C - UFO": {
+      "connects_to": [
+        "Dreadnought C - Pillars Planet"
+      ],
+      "requires": "{can_access_comet(0, Dreadnought)}"
+    },
+    "Dreadnought C - Pillars Planet": {
+      "connects_to": [
+        "Dreadnought C - Cube"
+      ],
+      "requires": ""
+    },
+    "Dreadnought C - Cube": {
+      "connects_to": [
+        "Dreadnought C - Pull Stars"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Dreadnought C - Pull Stars": {
+      "connects_to": [
+        "Dreadnought C - Laser Platform"
+      ],
+      "requires": "|Has Ground Pound| and |Has Pull Stars|"
+    },
+    "Dreadnought C - Laser Platform": {
+      "connects_to": [
+        "Dreadnought C - Tomaniac UFO"
+      ],
+      "requires": "|Has Pull Stars|"
+    },
+    "Dreadnought C - Topmaniac UFO": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Dreadnought P - Cannons": {
+      "connects_to": [
+        "Dreadnought P - On Thwomp"
+      ],
+      "requires": "{can_access_comet(4, Dreadnought)}"
+    },
+    "Dreadnought P - On Thwomp": {
+      "connects_to": [
+        "Dreadnought P - End"
+      ],
+      "requires": "|Jump Height 2|"
+    },
+    "Dreadnought P - End": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Dreadnought S - Ammo Depot": {
       "connects_to": [],
       "requires": ""
     },
