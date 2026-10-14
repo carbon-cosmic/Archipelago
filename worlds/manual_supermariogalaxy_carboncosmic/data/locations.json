@@ -3502,7 +3502,7 @@
   {
     "name": "Watch Your Step",
     "requires": "",
-    "region": "Matter Splatter Galaxy (50)",
+    "region": "Matter Splatter - Dark Maze",
     "category": [
       "Garden",
       "Power Stars"
@@ -3511,8 +3511,8 @@
   },
   {
     "name": "Matter Splatter Left Start Pillar 1-Up",
-    "requires": "{OptOne(|Triple Jump|)} OR {OptOne(|Wall Jump|)} OR ({OptOne(|Spin|)} AND ({OptOne(|Sideflip|)} OR {OptOne(|Backflip|)}))",
-    "region": "Matter Splatter Galaxy (50)",
+    "requires": "|Has Wall Jump| or |Narrow Jump 5| or (|Has Triple Jump| and |Medium Logic|)",
+    "region": "Matter Splatter - Start",
     "category": [
       "Garden",
       "1-Ups"
@@ -3520,49 +3520,9 @@
     "sort-key": "row-08-038"
   },
   {
-    "name": "Matter Splatter Spring Mushroom 1-Up On Swinging Platform",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Matter Splatter Galaxy (50)",
-    "category": [
-      "Garden",
-      "1-Ups"
-    ],
-    "sort-key": "row-08-039"
-  },
-  {
-    "name": "Matter Splatter Left Final Area Pillar 1-Up",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Matter Splatter Galaxy (50)",
-    "category": [
-      "Garden",
-      "1-Ups"
-    ],
-    "sort-key": "row-08-040"
-  },
-  {
-    "name": "Matter Splatter Right Final Area Pillar Lower 1-Up",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Matter Splatter Galaxy (50)",
-    "category": [
-      "Garden",
-      "1-Ups"
-    ],
-    "sort-key": "row-08-041"
-  },
-  {
-    "name": "Matter Splatter Right Final Area Pillar Upper 1-Up",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Matter Splatter Galaxy (50)",
-    "category": [
-      "Garden",
-      "1-Ups"
-    ],
-    "sort-key": "row-08-042"
-  },
-  {
-    "name": "Matter Splatter Spring Mushroom ? Coin #1",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Matter Splatter Galaxy (50)",
+    "name": "Matter Splatter - Spring Mushroom Start ? Coin",
+    "requires": "|Spring Crystals| or (|Narrow Jump 5|?)",
+    "region": "Matter Splatter - Spring Mushroom Start",
     "category": [
       "Garden",
       "? Coins"
@@ -3570,14 +3530,54 @@
     "sort-key": "row-08-043"
   },
   {
-    "name": "Matter Splatter Spring Mushroom ? Coin #2",
-    "requires": "{OptOne(|Wall Jump|)} AND {OptOne(|Spring Mushroom|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})",
-    "region": "Matter Splatter Galaxy (50)",
+    "name": "Matter Splatter - 1-Up On Swinging Platform",
+    "requires": "",
+    "region": "Matter Splatter - Spring Mushroom",
+    "category": [
+      "Garden",
+      "1-Ups"
+    ],
+    "sort-key": "row-08-039"
+  },
+  {
+    "name": "Matter Splatter - Spring Mushroom Star Bits ? Coin",
+    "requires": "",
+    "region": "Matter Splatter - Spring Mushroom",
     "category": [
       "Garden",
       "? Coins"
     ],
     "sort-key": "row-08-044"
+  },
+  {
+    "name": "Matter Splatter - Dark Maze Left Pillar 1-Up",
+    "requires": "",
+    "region": "Matter Splatter - Dark Maze",
+    "category": [
+      "Garden",
+      "1-Ups"
+    ],
+    "sort-key": "row-08-040"
+  },
+  {
+    "name": "Matter Splatter - Dark Maze Right Pillar Lower 1-Up",
+    "requires": "",
+    "region": "Matter Splatter - Dark Maze",
+    "category": [
+      "Garden",
+      "1-Ups"
+    ],
+    "sort-key": "row-08-041"
+  },
+  {
+    "name": "Matter Splatter Dark Maze Right Pillar Upper 1-Up",
+    "requires": "",
+    "region": "Matter Splatter - Dark Maze",
+    "category": [
+      "Garden",
+      "1-Ups"
+    ],
+    "sort-key": "row-08-042"
   },
   {
     "name": "The Sinking Lava Spire",

@@ -2787,7 +2787,38 @@
       "requires": ""
     },
     "Matter Splatter Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Matter Splatter - Start"
+      ],
+      "requires": ""
+    },
+    "Matter Splatter - Start": {
+      "connects_to": [
+        "Matter Splatter - Wall Jumps"
+      ],
+      "requires": ""
+    },
+    "Matter Splatter - Wall Jumps": {
+      "connects_to": [
+        "Matter Splatter - Spring Mushroom Start"
+      ],
+      "requires": ""
+    },
+    "Matter Splatter - Spring Mushroom Start": {
+      "connects_to": [
+        "Matter Splatter - Spring Mushroom"
+      ],
+      "requires": "|Has Wall Jump|"
+    },
+    "Matter Splatter - Spring Mushroom": {
+      "connects_to": [
+        "Matter Splatter - Dark Maze"
+      ],
+      "requires": "|Spring Crystals|"
+    },
+    "Matter Splatter - Dark Maze": {
+      "connects_to": [],
+      "requires": ""
     },
     "Melty Molten Galaxy": {
       "connects_to": []
