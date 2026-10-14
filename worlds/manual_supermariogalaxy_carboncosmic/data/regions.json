@@ -1450,7 +1450,7 @@
       "connects_to": [],
       "requires": ""
     },
-    "Freezeflame - Second Lyaer 1-Up": {
+    "Freezeflame - Second Layer 1-Up": {
       "connects_to": [],
       "requires": ""
     },
@@ -2991,10 +2991,14 @@
       "requires": "|Has Ground Spin|"
     },
     "Grand Finale Galaxy": {
-      "requires": [
-        "{OptionCount(@Total Stars, Grand_Finale_Star_Count)}"
+      "connects_to": [
+        "Grand Finale - Festival"
       ],
-      "connects_to": []
+      "requires": "{OptionCount(@Total Stars, Grand_Finale_Star_Count)}"
+    },
+    "Grand Finale - Festival": {
+      "connects_to": [],
+      "requires": ""
     }
   }
 }
