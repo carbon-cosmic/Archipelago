@@ -1527,19 +1527,19 @@
     "Freezeflame P - Second Level": {
       "connects_to": [
         "Freezeflame P - Sling Star Ledge",
-        "Freezeflame P - Baron Brr Layer",
+        "Freezeflame P - Arena",
         "Freezeflame P - First Secret Layer",
         "Freezeflame - Second Layer 1-Up"
       ],
       "requires": "",
       "exit_requires": {
         "Freezeflame P - Sling Star Ledge": "",
-        "Freezeflame P - Baron Brr Layer": "|Ice Crystals|",
+        "Freezeflame P - Arena": "|Ice Crystals|",
         "Freezeflame P - First Secret Layer": "|Can Wall Spin| and (|Jump Height 4| or |Hard Logic|)",
         "Freezeflame - Second Layer 1-Up": "|Has Air Spin|"
       }
     },
-    "Freezeflame P - Baron Brr Layer": {
+    "Freezeflame P - Arena": {
       "connects_to": [
         "Freezeflame P - Baron Brr"
       ],
@@ -1555,12 +1555,12 @@
     "Freezeflame P - First Secret Layer": {
       "connects_to": [
         "Freezeflame P - Second Secret Layer",
-        "Freezeflame P - Baron Brr Layer"
+        "Freezeflame P - Arena"
       ],
       "requires": "",
       "exit_requires": {
         "Freezeflame P - Second Secret Layer": "|Fire Crystals| and (|Has Ground Spin| or |Has Backflip| or |Medium Logic|)",
-        "Freezeflame P - Baron Brr Layer": "|Has Backflip| and |Can Slope Jump| and |Hard Logic|"
+        "Freezeflame P - Arena": "|Has Backflip| and |Can Slope Jump| and |Hard Logic|"
       }
     },
     "Freezeflame P - Second Secret Layer": {
@@ -1577,8 +1577,21 @@
       "requires": "|Fire Crystals|"
     },
     "Freezeflame P - Mountaintop": {
-      "connects_to": [],
+      "connects_to": [
+        "Freezeflame P - Mountain Leap"
+      ],
       "requires": "|Has Wall Jump|"
+    },
+    "Freezeflame P - Mountain Leap": {
+      "connects_to": [
+        "Freezeflame P - Mountain Base",
+        "Freezeflame P - Arena"
+      ],
+      "requires": "|Has Long Jump|",
+      "exit_requires": {
+        "Freezeflame P - Mountain Base": "",
+        "Freezeflame P - Arena": "|Hard Logic| and |Has Long Jump|"
+      }
     },
     "Freezeflame S - First Secret Layer": {
       "connects_to": [

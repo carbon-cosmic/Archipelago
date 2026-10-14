@@ -11525,7 +11525,7 @@
   },
   {
     "name": "Freezeflame - Purple Coin Above Ice Flower",
-    "requires": "(|Can Back or Sideflip| or (|Has Air Spin| and |Has Ice Flower| and |Hard Logic|))",
+    "requires": "(|Has Ice Flower and (|Can Back or Sideflip| or (|Has Air Spin| and |Hard Logic|))) or (|Has Triple Jump| and |Hard Logic|)",
     "region": "Freezeflame P - Mountain Base",
     "category": [
       "Freezeflame Purple Coins",
@@ -11597,7 +11597,7 @@
   },
   {
     "name": "Freezeflame - Purple Coin High Above Rock Pillar",
-    "requires": "|Has Air Spin| and (|Has Wall Jump| or (|Has Long Jump| and |Hard Logic|) OR |Has Ice Flower|) and |Can Back or Sideflip|",
+    "requires": "|Can Air Spin| or (|Has Long Jump| and |Hard Logic|) or (|Has Ice Flower| and |Jump Height 2|)",
     "region": "Freezeflame P - Mountain Base",
     "category": [
       "Freezeflame Purple Coins",
@@ -11606,7 +11606,7 @@
   },
   {
     "name": "Freezeflame - Purple Coin on Rock Pillar",
-    "requires": "|Has Air Spin| and (|Has Wall Jump| or (|Has Long Jump| and |Hard Logic|) OR |Has Ice Flower|) and (|Can Back or Sideflip| or (|Has Air Spin| and |Hard Logic|))?",
+    "requires": "|Narrow Jump 5| and (|Can Air Spin| or (|Has Long Jump| and |Hard Logic|) or (|Has Ice Flower| and |Jump Height 2|))",
     "region": "Freezeflame P - Mountain Base",
     "category": [
       "Freezeflame Purple Coins",
@@ -11624,7 +11624,7 @@
   },
   {
     "name": "Freezeflame - Purple Coin on Fountains Near Secret Path",
-    "requires": "",
+    "requires": "|Jump Height 3| or |Has Ice Flower| or |Has Wall Jump|",
     "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
@@ -11632,16 +11632,16 @@
     "sort-key": "row-10-1353"
   },
   {
-    "name": "Freezeflame - Second Level Purple Coin on Ice Near Bomps #1",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin on Ice Near Bomps #1",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1354"
   },
   {
-    "name": "Freezeflame - Second Level Purple Coin on Ice Near Bomps #2",
+    "name": "Freezeflame - Purple Coin on Ice Near Bomps #2",
     "requires": "",
     "region": "Freezeflame P - Second Level",
     "category": [
@@ -11650,7 +11650,7 @@
     "sort-key": "row-10-1355"
   },
   {
-    "name": "Freezeflame - Second Level Purple Coin on Ice Near Bomps #3",
+    "name": "Freezeflame - Purple Coin on Ice Near Bomps #3",
     "requires": "",
     "region": "Freezeflame P - Second Level",
     "category": [
@@ -11659,7 +11659,7 @@
     "sort-key": "row-10-1356"
   },
   {
-    "name": "Freezeflame - Second Level Purple Coin on Ice Near Bomps #4",
+    "name": "Freezeflame - Purple Coin on Ice Near Bomps #4",
     "requires": "",
     "region": "Freezeflame P - Second Level",
     "category": [
@@ -11668,7 +11668,7 @@
     "sort-key": "row-10-1357"
   },
   {
-    "name": "Freezeflame - Second Level Purple Coin on Snow near Bomps #1",
+    "name": "Freezeflame - Purple Coin on Snow near ? Block #1",
     "requires": "",
     "region": "Freezeflame P - Second Level",
     "category": [
@@ -11677,7 +11677,7 @@
     "sort-key": "row-10-1358"
   },
   {
-    "name": "Freezeflame - Second Level Purple Coin on Snow near Bomps #2",
+    "name": "Freezeflame - Purple Coin on Snow near ? Block #2",
     "requires": "",
     "region": "Freezeflame P - Second Level",
     "category": [
@@ -11686,8 +11686,8 @@
     "sort-key": "row-10-1359"
   },
   {
-    "name": "Freezeflame - Second Level Purple Coin Over Bomps #1",
-    "requires": "|Can Back or Sideflip|?",
+    "name": "Freezeflame - Purple Coin Over Second Level Lower Bomp",
+    "requires": "",
     "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
@@ -11695,188 +11695,188 @@
     "sort-key": "row-10-1360"
   },
   {
-    "name": "Freezeflame - Second Layer Purple Coin Over Bomps #2",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin Over Second Level Upper Bomp",
+    "requires": "|Narrow Jump 3| or (|Can Double Jump| and |Medium Logic|)",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1361"
   },
   {
-    "name": "Freezeflame - Second Layer Left Purple Coin Over Seesaw",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Left Purple Coin Over Seesaw Ice",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1362"
   },
   {
-    "name": "Freezeflame - Second Layer Middle Left Purple Coin Over Seesaw",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame -  Middle Left Purple Coin Over Seesaw",
+    "requires": "|Jump Height 2| or |Medium Logic|",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1363"
   },
   {
-    "name": "Freezeflame - Second Layer Middle Purple Coin Over Seesaw",
-    "requires": "({OptOne(|Spin|)} OR (({OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)}) AND ({OptOne(|Triple Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Middle Purple Coin Over Seesaw",
+    "requires": "|Jump Height 2|",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1364"
   },
   {
-    "name": "Freezeflame - Second Layer Middle Right Purple Coin Over Seesaw",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Middle Right Purple Coin Over Seesaw",
+    "requires": "|Jump Height 2| or |Medium Logic|",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1365"
   },
   {
-    "name": "Freezeflame - Second Layer Right Purple Coin Over Seesaw",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Right Purple Coin Over Seesaw",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1366"
   },
   {
-    "name": "Freezeflame - Second Layer Purple Coin on Snowy Ledge #1",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin near Yellow Toad #1",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1367"
   },
   {
-    "name": "Freezeflame - Second Layer Purple Coin on Snowy Ledge #2",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin near Yellow Toad #2",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1368"
   },
   {
-    "name": "Freezeflame - Second Layer Purple Coin on Snowy Ledge #3",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin near Yellow Toad #3",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1369"
   },
   {
-    "name": "Freezeflame - Second Layer Purple Coin on Snowy Ledge #4",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin near Yellow Toad #4",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1370"
   },
   {
-    "name": "Freezeflame - Second Layer Purple Coin on Snowy Ledge #5",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin near Yellow Toad #5",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1371"
   },
   {
-    "name": "Freezeflame - Second Layer Purple Coin on Snowy Ledge #6",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin near Yellow Toad #6",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1372"
   },
   {
-    "name": "Freezeflame - Second Layer Purple Coin on Snowy Ledge #7",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin near Yellow Toad #7",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1373"
   },
   {
-    "name": "Freezeflame - Second Layer Purple Coin on Sinking Platform",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin on Sinking Platform",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1374"
   },
   {
-    "name": "Freezeflame - Second Layer Bomp Path Purple Coin #1",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Level Bomp Path Purple Coin #1",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1375"
   },
   {
-    "name": "Freezeflame - Second Layer Bomp Path Purple Coin #2",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Level Bomp Path Purple Coin #2",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1376"
   },
   {
-    "name": "Freezeflame - Second Layer Bomp Path Purple Coin #3",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Level Bomp Path Purple Coin #3",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1377"
   },
   {
-    "name": "Freezeflame - Second Layer Bomp Path Purple Coin #4",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Level Bomp Path Purple Coin #4",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1378"
   },
   {
-    "name": "Freezeflame - Second Layer Bomp Path Purple Coin #5",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Level Bomp Path Purple Coin #5",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1379"
   },
   {
-    "name": "Freezeflame - Second Layer Purple Coin Off Sling Star Ledge",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin After Bomp Sling Star",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1380"
   },
   {
-    "name": "Freezeflame - Second Layer Sling Star Purple Coin #1",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
+    "name": "Freezeflame - Second Level Sling Star Purple Coin #1",
+    "requires": "",
     "region": "Freezeflame P - ",
     "category": [
       "Freezeflame Purple Coins",
@@ -11884,8 +11884,8 @@
     "sort-key": "row-10-1381"
   },
   {
-    "name": "Freezeflame - Second Layer Sling Star Purple Coin #2",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
+    "name": "Freezeflame - Second Level Sling Star Purple Coin #2",
+    "requires": "",
     "region": "Freezeflame P - ",
     "category": [
       "Freezeflame Purple Coins",
@@ -11893,8 +11893,8 @@
     "sort-key": "row-10-1382"
   },
   {
-    "name": "Freezeflame - Second Layer Sling Star Purple Coin #3",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
+    "name": "Freezeflame - Second Level Sling Star Purple Coin #3",
+    "requires": "",
     "region": "Freezeflame P - ",
     "category": [
       "Freezeflame Purple Coins",
@@ -11902,18 +11902,18 @@
     "sort-key": "row-10-1383"
   },
   {
-    "name": "Freezeflame - Arena First Fountain Step Purple Coin",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Ice Flower|)})",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - First Fountain Step Purple Coin",
+    "requires": "",
+    "region": "Freezeflame P - Second Level",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1384"
   },
   {
-    "name": "Freezeflame - Arena Second Fountain Step Purple Coin",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Fountain Step Purple Coin",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -11921,8 +11921,8 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #1",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -11930,8 +11930,8 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #2",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -11939,8 +11939,8 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #3",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -11948,8 +11948,8 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #4",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -11957,8 +11957,8 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #5",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -11966,8 +11966,8 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #6",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -11975,8 +11975,8 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #7",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -11984,8 +11984,8 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #8",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -11993,8 +11993,8 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #9",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -12002,8 +12002,8 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #10",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -12011,17 +12011,17 @@
   },
   {
     "name": "Freezeflame - Arena Island Purple Coin #11",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1396"
   },
   {
-    "name": "Freezeflame - Arena Purple Coin Behind Crystals #1",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Ice Flower|)}  OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin Behind Crystals #1",
+    "requires": "|Has Ground Spin|",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -12029,17 +12029,17 @@
   },
   {
     "name": "Freezeflame - Arena Purple Coin Behind Crystals #2",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Ice Flower|)}  OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "|Has Ground Spin|",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1398"
   },
   {
-    "name": "Freezeflame - Arena Lower Wall Jump Purple Coin",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Lower Arena Wall Jump Purple Coin",
+    "requires": "",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -12047,8 +12047,8 @@
   },
   {
     "name": "Freezeflame - Arena Higher Wall Jump Purple Coin",
-    "requires": "(({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)}) AND ({OptOne(|Wall Jump|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "(|Ice Crystals| and |Jump Height 3|) or |Has Wall Jump|",
+    "region": "Freezeflame P - Arena",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -12056,8 +12056,8 @@
   },
   {
     "name": "Freezeflame - Arena Top Purple Coin #1",
-    "requires": "{OptOne(|Wall Jump|)} AND (({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Baron Brr",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -12065,8 +12065,8 @@
   },
   {
     "name": "Freezeflame - Arena Top Purple Coin #2",
-    "requires": "{OptOne(|Wall Jump|)} AND (({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Baron Brr",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -12074,8 +12074,8 @@
   },
   {
     "name": "Freezeflame - Arena Top Purple Coin #3",
-    "requires": "{OptOne(|Wall Jump|)} AND (({OptOne(|Ice Flower|)} AND ({OptOne(|Spin|)} OR {OptOne(|Ground Pound|)})) OR ({OptOne(|Fire Flower|)} AND {OptOne(|Long Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Baron Brr",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -12083,16 +12083,16 @@
   },
   {
     "name": "Freezeflame - Secret Sling Star Ledge Purple Coin",
-    "requires": "(({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - First Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1404"
   },
   {
-    "name": "Freezeflame - Secret First Layer Purple Coin on Jump",
-    "requires": "(({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
+    "name": "Freezeflame - Purple Coin before First Secret Layer Jump",
+    "requires": "",
     "region": "Freezeflame P - ",
     "category": [
       "Freezeflame Purple Coins",
@@ -12100,99 +12100,99 @@
     "sort-key": "row-10-1405"
   },
   {
-    "name": "Freezeflame - Secret First Layer Purple Coin Behind Snowman",
-    "requires": "(({OptOne(|Fire Flower|)}  OR ({OptOne(|Long Jump|)} AND {OptOne(|Spin|)})) AND (({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {{OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin Behind First Secret Layer Snowman",
+    "requires": "|Has Fire Flower| or (|Has Backflip| and |Has Air Spin|) or |Has Long Spin|",
+    "region": "Freezeflame P - First Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1406"
   },
   {
-    "name": "Freezeflame - Secret First Layer Purple Coin by Sling Star",
-    "requires": "(({OptOne(|Fire Flower|)}  OR ({OptOne(|Long Jump|)} AND {OptOne(|Spin|)})) AND (({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Purple Coin by First Secret Layer Sling Star",
+    "requires": "|Has Fire Flower| or (|Has Backflip| and |Has Air Spin|) or (|Has Long Spin| and |Medium Logic|)",
+    "region": "Freezeflame P - First Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1407"
   },
   {
-    "name": "Freezeflame - Secret Second Layer Purple Coin #1",
-    "requires": "({OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Secret Layer Purple Coin #1",
+    "requires": "",
+    "region": "Freezeflame P - Second Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1408"
   },
   {
-    "name": "Freezeflame - Secret Second Layer Purple Coin #2",
-    "requires": "({OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Secret Layer Purple Coin #2",
+    "requires": "",
+    "region": "Freezeflame P - Second Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1409"
   },
   {
-    "name": "Freezeflame - Secret Second Layer Purple Coin #3",
-    "requires": "({OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Secret Layer Purple Coin #3",
+    "requires": "",
+    "region": "Freezeflame P - Second Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1410"
   },
   {
-    "name": "Freezeflame - Secret Second Layer Purple Coin #4",
-    "requires": "({OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Secret Layer Purple Coin #4",
+    "requires": "",
+    "region": "Freezeflame P - Second Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1411"
   },
   {
-    "name": "Freezeflame - Secret Second Layer Purple Coin #5",
-    "requires": "({OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Second Secret Layer Purple Coin #5",
+    "requires": "",
+    "region": "Freezeflame P - Second Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1412"
   },
   {
-    "name": "Freezeflame - Secret Third Layer Purple Coin #1",
-    "requires": "({OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Third Secret Layer Purple Coin #1",
+    "requires": "",
+    "region": "Freezeflame P - Third Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1413"
   },
   {
-    "name": "Freezeflame - Secret Third Layer Purple Coin #2",
-    "requires": "({OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Third Secret Layer Purple Coin #2",
+    "requires": "",
+    "region": "Freezeflame P - Third Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1414"
   },
   {
-    "name": "Freezeflame - Secret Third Layer Purple Coin #3",
-    "requires": "({OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Third Secret Layer Purple Coin #3",
+    "requires": "",
+    "region": "Freezeflame P - Third Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1415"
   },
   {
-    "name": "Freezeflame - Secret Third Layer Purple Coin #4",
-    "requires": "({OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Third Secret Layer Purple Coin #4",
+    "requires": "",
+    "region": "Freezeflame P - Third Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -12200,25 +12200,25 @@
   },
   {
     "name": "Freezeflame - Secret Third Layer Purple Coin #5",
-    "requires": "({OptOne(|Fire Flower|)} AND ({OptOne(|Spin|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Third Secret Layer",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1417"
   },
   {
-    "name": "Freezeflame - Mountain Top Purple Coin #1",
-    "requires": "({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "name": "Freezeflame - Mountaintop Purple Coin #1",
+    "requires": "",
+    "region": "Freezeflame P - Mountaintop",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-1418"
   },
   {
-    "name": "Freezeflame - Mountain Top Purple Coin #2",
-    "requires": "({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
+    "name": "Freezeflame - Mountaintop Purple Coin #2",
+    "requires": "",
     "region": "Freezeflame P - ",
     "category": [
       "Freezeflame Purple Coins",
@@ -12226,8 +12226,8 @@
     "sort-key": "row-10-1419"
   },
   {
-    "name": "Freezeflame - Mountain Top Purple Coin #3",
-    "requires": "({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)}))))",
+    "name": "Freezeflame - Mountaintop Purple Coin #3",
+    "requires": "",
     "region": "Freezeflame P - ",
     "category": [
       "Freezeflame Purple Coins",
@@ -12236,8 +12236,8 @@
   },
   {
     "name": "Freezeflame - Mountain Leap Purple Coin #1",
-    "requires": "({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Mountain Leap",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
@@ -12245,8 +12245,8 @@
   },
   {
     "name": "Freezeflame - Mountain Leap Purple Coin #2",
-    "requires": "({OptOne(|Fire Flower|)} AND {OptOne(|Wall Jump|)} AND {OptOne(|Long Jump|)} AND ({OptOne(|Spin|)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Ice Flower|)} OR {YamlEnabled(Advanced_Logic)})) OR ({OptOne(|Ice Flower|)} AND ({OptOne(|Triple Jump|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})) OR ({OptOne(|Ground Pound|)} AND {YamlEnabled(Advanced_Logic)}))))",
-    "region": "Freezeflame P - ",
+    "requires": "",
+    "region": "Freezeflame P - Mountain Leap",
     "category": [
       "Freezeflame Purple Coins",
        "Purple Coin Locations"],
