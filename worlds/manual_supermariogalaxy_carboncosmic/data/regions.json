@@ -2438,10 +2438,240 @@
       ]
     },
     "Deep Dark Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Deep Dark 1 - Beach",
+        "Deep Dark 2 - Beach",
+        "Deep Dark 3 - Beach",
+        "Deep Dark C - Cavern Beach",
+        "Deep Dark P - Cavern Beach"
+      ],
+      "requires": ""
+    },
+    "Deep Dark 1 - Beach": {
+      "connects_to": [
+        "Deep Dark - Starshroom 1-Up",
+        "Deep Dark 1 - Octoguy Planet",
+        "Deep Dark 1 - Gateway Planet",
+        "Deep Dark 1 - Lake Cliffs",
+        "Deep Dark 1 - Underground Lake"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Deep Dark - Starshroom 1-Up": "|Can Wall Spin| or |Has Triple Jump| or (|Medium Logic| and |Has Air Spin|)",
+        "Deep Dark 1 - Octoguy Planet": "|Has Cannon Permit|",
+        "Deep Dark 1 - Gateway Planet": "|Has Cannon Permit|",
+        "Deep Dark - Bonus Room": "|Has Cannon Permit| and |Hard Logic|",
+        "Deep Dark 1 - Underground Lake": "|Has Cannon Permit| and |Medium Logic|"
+      }
+    },
+    "Deep Dark 1 - Gateway Planet": {
+      "connects_to": [
+        "Deep Dark 1 - Shrinking Gateway Planet"
+      ],
+      "requires": ""
+    },
+    "Deep Dark 1 - Shrinking Gateway Planet": {
+      "connects_to": [
+        "Deep Dark 1 - Octoguy Planet"
+      ],
+      "requires": "|Has Screwdriver|"
+    },
+    "Deep Dark 1 - Octoguy Planet": {
+      "connects_to": [
+        "Deep Dark 1 - Beach Palm Trees"
+      ],
+      "requires": ""
+    },
+    "Deep Dark 1 - Beach Palm Trees": {
+      "connects_to": [
+        "Deep Dark 1 - Underground Lake",
+        "Deep Dark - Starshroom 1-Up"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Deep Dark 1 - Underground Lake": "|Fire Crystals|",
+        "Deep Dark - Starshroom 1-Up": "|Has Air Spin| or |Has Long Jump| or ?"
+      }
+    },
+    "Deep Dark 1 - Underground Lake": {
+      "connects_to": [
+        "Deep Dark 1 - Cavern Beach",
+        "Deep Dark S - Boo Box"
+      ],
+      "requires": ""
+    },
+    "Deep Dark 1 - Cavern Beach": {
+      "connects_to": [
+        "Deep Dark 1 - Cavern Ship",
+        "Deep Dark - Ship ? Coin"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Deep Dark 1 - Cavern Ship": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Deep Dark 2 - Beach": {
+      "connects_to": [
+        "Deep Dark 2 - Beach w. Cannon",
+        "Deep Dark - Starshroom 1-Up",
+        "Deep Dark 2 - Underground Lake"
+      ],
+      "requires": ""
+    },
+    "Deep Dark 2 - Underground Lake": {
+      "connects_to": [
+        "Deep Dark 2 - Lake Cliffs",
+        "Deep Dark S - Boo Box"
+      ],
+      "requires": ""
+    },
+    "Deep Dark 2 - Beach w. Cannon": {
+      "connects_to": [
+        "Deep Dark 2 - Octoguy Planet",
+        "Deep Dark 2 - Lake Cliffs"
+      ],
+      "requires": "|Has Ground Spin| or |Has Koopa Shell| or (|Has Ground Pound| and |Jump Height 3|)"
+    },
+    "Deep Dark 2 - Octoguy Planet": {
+      "connects_to": [
+        "Deep Dark 2 - Beach Palm Trees"
+      ],
+      "requires": "|Has Cannon Permit|"
+    },
+    "Deep Dark 2 - Beach Palm Trees": {
+      "connects_to": [
+        "Deep Dark 2 - Lake w. Ice Flower",
+        "Deep Dark - Starshroom 1-Up"
+      ],
+      "requires": "",
+      "exit_requires": {
+        "Deep Dark 2 - Lake w. Ice Flower": "|Fire Crystals|",
+        "Deep Dark - Starshroom 1-Up": "|Has Air Spin| or |Has Long Spin| or ?"
+      }
+    },
+    "Deep Dark 2 - Lake w. Ice Flower": {
+      "connects_to": [
+        "Deep Dark 2 - Lake Cliffs"
+      ],
+      "requires": ""
+    },
+    "Deep Dark 2 - Lake Cliffs": {
+      "connects_to": [
+        "Deep Dark 2 - Cheep Cheep Planet",
+        "Deep Dark - Bonus Room"
+      ],
+      "requires": "",
+      "entrance_requires": {
+        "Deep Dark 2 - Underground Lake": "|Can Wall Spin| and |Hard Logic|",
+        "Deep Dark 2 - Beach w. Cannon": "|Has Cannon Permit| and |Medium Logic|",
+        "Deep Dark 2 - Lake w. Ice Flower": "|Has Ice Flower|"
+      }
+    },
+    "Deep Dark 2 - Cheep Cheep Planet": {
+      "connects_to": [
+        "Deep Dark 2 - Watermelon Planet"
+      ],
+      "requires": "?"
+    },
+    "Deep Dark 2 - Watermelon Planet": {
+      "connects_to": [],
+      "requires": "|Has Ground Pound|"
+    },
+    "Deep Dark 3 - Beach": {
+      "connects_to": [
+        "Deep Dark 3 - Underground Lake",
+        "Deep Dark - Starshroom 1-Up"
+      ],
+      "requires": ""
+    },
+    "Deep Dark 3 - Underground Lake": {
+      "connects_to": [
+        "Deep Dark S - Boo Box"
+      ],
+      "requires": ""
+    },
+    "Deep Dark C - Cavern Beach": {
+      "connects_to": [
+        "Deep Dark C - Cavern Ship",
+        "Deep Dark - Ship ? Coin"
+      ],
+      "requires": "{can_access_comet(1, Deep Dark)}"
+    },
+    "Deep Dark C - Cavern Ship": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Deep Dark S - Boo Box": {
+      "connects_to": [],
+      "requires": "|Has Koopa Shell|"
+    },
+    "Deep Dark - Starshroom 1-Up": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Deep Dark - Bonus Room": {
+      "connects_to": [],
+      "requires": ""
+    },
+    "Deep Dark - Ship ? Coin": {
+      "connects_to": [],
+      "requires": ""
     },
     "Dreadnought Galaxy": {
-      "connects_to": []
+      "connects_to": [
+        "Dreadnought 1 - Spotlights Planet",
+        "Dreadnought 2 - Bolt Platforms",
+        "Dreadnought 3 - UFOs",
+        "Dreadnought C - UFOs",
+        "Dreadnought P - Cannons"
+      ]
+    },
+    "Dreadnought 1 - Spotlights Planet": {
+      "connects_to": [
+        "Dreadnought 1 - Entrance"
+      ],
+      "requires": ""
+    },
+    "Dreadnought 1 - Entrance": {
+      "connects_to": [
+        "Dreadnought 1 - 2D Start"
+      ],
+      "requires": ""
+    },
+    "Dreadnought 1 - 2D Start": {
+      "connects_to": [
+        "Dreadnought 1 - 2D Main"
+      ],
+      "requires": "|Has Ground Spin|"
+    },
+    "Dreadnought 1 - 2D Main": {
+      "connects_to": [
+        "Dreadnought 1 - 2D End"
+      ],
+      "requires": "|Has Wall Jump|"
+    },
+    "Dreadnought 1 - 2D End": {
+      "connects_to": [
+        "Dreadnought 1 - Falling Rotators"
+      ],
+      "requires": "|Has Ground Pound| or |Medium Logic|"
+    },
+    "Dreadnought 1 - Falling Rotators": {
+      "connects_to": [
+        "Dreadnought 1 - Rising Wall Jumps"
+      ],
+      "requires": ""
+    },
+    "Dreadnought 1 - Rising Wall Jumps": {
+      "connects_to": [
+        "Dreadnought 1 - Water Spotlights"
+      ],
+      "requires": ""
+    },
+    "Dreadnought 1 - Water Spotlights": {
+      "connects_to": [],
+      "requires": ""
     },
     "Matter Splatter Galaxy": {
       "connects_to": []

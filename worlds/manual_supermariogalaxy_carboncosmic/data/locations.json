@@ -3131,8 +3131,8 @@
   },
   {
     "name": "The Underground Ghost Ship",
-    "requires": "{OptOne(|Cannon Permit|)} AND {OptOne(|Spin|)} AND {OptOne(|Koopa Shell|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Fire Flower|)}",
-    "region": "Deep Dark Galaxy (46)",
+    "requires": "|Has Koopa Shell|",
+    "region": "Deep Dark 1 - Cavern Ship",
     "category": [
       "Garden",
       "Power Stars"
@@ -3140,9 +3140,9 @@
     "sort-key": "row-08-001"
   },
   {
-    "name": "Deep Dark 1 Starshroom 1-Up",
-    "requires": "{OptOne(|Triple Jump|)} OR {OptOne(|Spin|)} OR {OptOne(|Cannon Permit|)}",
-    "region": "Deep Dark Galaxy (46)",
+    "name": "Deep Dark 1 - Starshroom 1-Up",
+    "requires": "",
+    "region": "Deep Dark - Starshroom 1-Up",
     "category": [
       "Garden",
       "1-Ups"
@@ -3150,9 +3150,9 @@
     "sort-key": "row-08-002"
   },
   {
-    "name": "Deep Dark 1 Underwater Chest 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)}",
-    "region": "Deep Dark Galaxy (46)",
+    "name": "Deep Dark 1 - Underwater Chest 1-Up",
+    "requires": "|Has Koopa Shell|",
+    "region": "Deep Dark 1 - Beach",
     "category": [
       "Garden",
       "1-Ups"
@@ -3160,9 +3160,9 @@
     "sort-key": "row-08-003"
   },
   {
-    "name": "Deep Dark 1 Blue Crabber 1-Up",
-    "requires": "{OptOne(|Spin|)} OR {OptOne(|Koopa Shell|)}",
-    "region": "Deep Dark Galaxy (46)",
+    "name": "Deep Dark 1 - Blue Crabber 1-Up",
+    "requires": "|Has Ground Spin| or |Has Koopa Shell|",
+    "region": "Deep Dark 1 - Beach",
     "category": [
       "Garden",
       "1-Ups"
@@ -3170,19 +3170,9 @@
     "sort-key": "row-08-004"
   },
   {
-    "name": "Deep Dark 1 Pipe Near Pointed Rocks Notes 1-Up",
-    "requires": "{OptOne(|Wall Jump|)} AND (({OptOne(|Ice Flower|)} AND {OptOne(|Fire Flower|)} AND {OptOne(|Cannon Permit|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Cannon Permit|)} OR {OptOne(|Spin|)})))",
-    "region": "Deep Dark Galaxy (46)",
-    "category": [
-      "Garden",
-      "1-Ups"
-    ],
-    "sort-key": "row-08-005"
-  },
-  {
-    "name": "Deep Dark 1 Cavern Beach Ledge Life Mushroom",
-    "requires": "{OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Deep Dark Galaxy (46)",
+    "name": "Deep Dark 1 - Cavern Beach Life Mushroom",
+    "requires": "|Jump Height 2|",
+    "region": "Deep Dark 1 - Cavern Beach",
     "category": [
       "Garden",
       "Life Mushrooms"
@@ -3190,9 +3180,9 @@
     "sort-key": "row-08-006"
   },
   {
-  "name": "Deep Dark 1 ? Coin Under Ghost Ship",
-  "requires": "{OptOne(|Spin|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-  "region": "Deep Dark Galaxy (46)",
+  "name": "Deep Dark 1 - ? Coin Under Ghost Ship",
+  "requires": "",
+  "region": "Deep Dark - Ship ? Coin",
   "category": [
     "Kitchen",
     "? Coins"
@@ -3201,8 +3191,8 @@
 },
   {
     "name": "Bubble Blastoff",
-    "requires": "{OptOne(|Ground Pound|)} AND ((({OptOne(|Spin|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)} OR ({OptOne(|Triple Jump|)} AND {YamlEnabled(Advanced_Logic)})) AND {OptOne(|Cannon Permit|)}) OR ({OptOne(|Wall Jump|)} AND {OptOne(|Spin|)}) AND ({YamlEnabled(Advanced_Logic)} OR ({OptOne(|Fire Flower|)} AND {OptOne(|Ice Flower|)})))",
-    "region": "Deep Dark Galaxy (46)",
+    "requires": "|Has Ground Pound|",
+    "region": "Deep Dark 2 - Watermelon Planet",
     "category": [
       "Garden",
       "Power Stars"
@@ -3210,9 +3200,9 @@
     "sort-key": "row-08-007"
   },
   {
-    "name": "Deep Dark 2 Bottom Gringill 1-Up",
-    "requires": "{OptOne(|Koopa Shell|)} AND ({OptOne(|Ground Pound|)} OR {YamlEnabled(Advanced_Logic)})",
-    "region": "Deep Dark Galaxy (46)",
+    "name": "Deep Dark 2 - Lake Bottom Gringill 1-Up",
+    "requires": "|Has Koopa Shell|",
+    "region": "Deep Dark 2 - Underground Lake",
     "category": [
       "Garden",
       "1-Ups"
@@ -3220,9 +3210,9 @@
     "sort-key": "row-08-008"
   },
   {
-    "name": "Deep Dark 2 Pointed Rocks Pipe Top ? Coin",
-    "requires": "({OptOne(|Ice Flower|)} AND {OptOne(|Fire Flower|)} AND {OptOne(|Cannon Permit|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}))) OR ({YamlEnabled(Advanced_Logic)} AND (({OptOne(|Cannon Permit|)} AND {OptOne(|Wall Jump|)}) OR {OptOne(|Spin|)}))",
-    "region": "Deep Dark Galaxy (46)",
+    "name": "Deep Dark 2 - Sling Stars Platform ? Coin",
+    "requires": "",
+    "region": "Deep Dark 2 - Lake Cliffs",
     "category": [
       "Garden",
       "? Coins"
@@ -3230,9 +3220,9 @@
     "sort-key": "row-08-009"
   },
   {
-    "name": "Deep Dark 2 Pointed Rocks Pipe Bottom ? Coin",
-    "requires": "({OptOne(|Ice Flower|)} AND {OptOne(|Fire Flower|)} AND {OptOne(|Cannon Permit|)} AND {OptOne(|Ground Pound|)} AND {OptOne(|Wall Jump|)} AND ({OptOne(|Spin|)} OR ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}))) OR ({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Cannon Permit|)} OR {OptOne(|Spin|)}))",
-    "region": "Deep Dark Galaxy (46)",
+    "name": "Deep Dark 2 - Pointed Rocks Pipe Bottom ? Coin",
+    "requires": "",
+    "region": "Deep Dark - Bonus Room",
     "category": [
       "Garden",
       "? Coins"
@@ -3240,28 +3230,38 @@
     "sort-key": "row-08-010"
   },
   {
-    "name": "Deep Dark 2 Sling Stars Platform ? Coin",
-    "requires": "({YamlEnabled(Advanced_Logic)} AND ({OptOne(|Cannon Permit|)} OR ({OptOne(|Wall Jump|)} AND {OptOne(|Spin|)})) OR ({OptOne(|Ice Flower|)} AND {OptOne(|Fire Flower|)} AND {OptOne(|Cannon Permit|)} AND {OptOne(|Ground Pound|)} AND ({OptOne(|Spin|)} OR {OptOne(|Triple Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)}))",
-    "region": "Deep Dark Galaxy (46)",
+    "name": "Deep Dark 2 - Pipe Near Pointed Rocks Notes 1-Up",
+    "requires": "|Has Wall Jump| or (|Hard Logic| and |Has Air Spin|)",
+    "region": "Deep Dark - Bonus Room",
     "category": [
       "Garden",
-      "? Coins"
+      "1-Ups"
     ],
     "sort-key": "row-08-011"
   },
   {
-    "name": "Guppy and the Underground Lake",
-    "requires": "{YamlEnabled(Advanced_Logic)} OR ({OptOne(|Koopa Shell|)} OR ({OptOne(|Spin|)})",
-    "region": "Deep Dark Galaxy (46)",
+    "name": "Deep Dark 2 - Pointed Rocks Pipe Top ? Coin",
+    "requires": "|Has Wall Jump| or (|Hard Logic| and |Has Air Spin|)",
+    "region": "Deep Dark - Bonus Room",
     "category": [
       "Garden",
-      "Power Stars"
+      "? Coins"
     ],
     "sort-key": "row-08-012"
   },
   {
+    "name": "Guppy and the Underground Lake",
+    "requires": "|Has Koopa Shell| or |Has Ground Spin| or |Medium Logic|",
+    "region": "Deep Dark 3 - Underground Lake",
+    "category": [
+      "Garden",
+      "Power Stars"
+    ],
+    "sort-key": "row-08-012a"
+  },
+  {
     "name": "Ghost Ship Daredevil Run",
-    "requires": "{OptOne(|Daredevil Comets|)} AND {OptOne(|Deep Dark Comet Medal|)} AND {OptOne(|Koopa Shell|)} AND ({YamlEnabled(Advanced_Logic)} OR {OptOne(|Spin|)})",
+    "requires": "|Has Koopa Shell| and (|Has Ground Spin| or |Medium Logic|)",
     "region": "Deep Dark Galaxy (46)",
     "category": [
       "Garden",
