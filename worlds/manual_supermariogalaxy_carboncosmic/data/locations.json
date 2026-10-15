@@ -20647,9 +20647,9 @@
     "sort-key": "row-10-1220"
   },
   {
-    "name": "Gateway Tower Purple Coin #1",
+    "name": "Gateway - Tower Purple Coin #1",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20657,9 +20657,9 @@
     "sort-key": "row-10-1525"
   },
   {
-    "name": "Gateway Tower Purple Coin #2",
+    "name": "Gateway - Tower Purple Coin #2",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20667,9 +20667,9 @@
     "sort-key": "row-10-1526"
   },
   {
-    "name": "Gateway Tower Purple Coin #3",
+    "name": "Gateway - Tower Purple Coin #3",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20677,9 +20677,9 @@
     "sort-key": "row-10-1527"
   },
   {
-    "name": "Gateway Tower Purple Coin #4",
+    "name": "Gateway - Tower Purple Coin #4",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20687,9 +20687,9 @@
     "sort-key": "row-10-1528"
   },
   {
-    "name": "Gateway Tower Purple Coin #5",
+    "name": "Gateway - Tower Purple Coin #5",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20697,9 +20697,9 @@
     "sort-key": "row-10-1529"
   },
   {
-    "name": "Gateway Tower Purple Coin #6",
+    "name": "Gateway - Tower Purple Coin #6",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20707,9 +20707,9 @@
     "sort-key": "row-10-1530"
   },
   {
-    "name": "Gateway Tower Purple Coin #7",
+    "name": "Gateway - Tower Purple Coin #7",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20717,9 +20717,9 @@
     "sort-key": "row-10-1531"
   },
   {
-    "name": "Gateway Tower Purple Coin #8",
+    "name": "Gateway - Tower Purple Coin #8",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20727,9 +20727,9 @@
     "sort-key": "row-10-1532"
   },
   {
-    "name": "Gateway Tower Purple Coin #9",
+    "name": "Gateway - Tower Purple Coin #9",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20737,9 +20737,9 @@
     "sort-key": "row-10-1533"
   },
   {
-    "name": "Gateway Tower Purple Coin #10",
+    "name": "Gateway - Tower Purple Coin #10",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20747,9 +20747,9 @@
     "sort-key": "row-10-1534"
   },
   {
-    "name": "Gateway Bubbled Purple Coin Close To Tower #1",
+    "name": "Gateway - Bubbled Purple Coin Close To Tower #1",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20757,9 +20757,9 @@
     "sort-key": "row-10-1535"
   },
   {
-    "name": "Gateway Bubbled Purple Coin Close To Tower #2",
+    "name": "Gateway - Bubbled Purple Coin Close To Tower #2",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20767,9 +20767,9 @@
     "sort-key": "row-10-1536"
   },
   {
-    "name": "Gateway Bubbled Purple Coin Second Closest to Tower #1",
+    "name": "Gateway - Bubbled Purple Coin Second Closest to Tower #1",
     "requires": "{OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20777,9 +20777,9 @@
     "sort-key": "row-10-1537"
   },
   {
-    "name": "Gateway Bubbled Purple Coin Second Closest to Tower #2",
+    "name": "Gateway - Bubbled Purple Coin Second Closest to Tower #2",
     "requires": "{OptOne(|Spin|)} OR {OptOne(|Long Jump|)} OR {OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20787,9 +20787,9 @@
     "sort-key": "row-10-1538"
   },
   {
-    "name": "Gateway Bubbled Purple Coin Third Closest to Tower #1",
+    "name": "Gateway - Bubbled Purple Coin Third Closest to Tower #1",
     "requires": "({OptOne(|Spin|)} AND {OptOne(|Long Jump|)}) OR {OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20797,9 +20797,9 @@
     "sort-key": "row-10-1539"
   },
   {
-    "name": "Gateway Bubbled Purple Coin Third Closest to Tower #2",
+    "name": "Gateway - Bubbled Purple Coin Third Closest to Tower #2",
     "requires": "({OptOne(|Spin|)} AND {OptOne(|Long Jump|)}) OR {OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20807,9 +20807,9 @@
     "sort-key": "row-10-1540"
   },
   {
-    "name": "Gateway Bubbled Purple Coin Fourth Closest Behind Tower",
+    "name": "Gateway - Bubbled Purple Coin Fourth Closest Behind Tower",
     "requires": "{OptOne(|Red Star|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20817,9 +20817,9 @@
     "sort-key": "row-10-1541"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #1",
+    "name": "Gateway - Bubbled Purple Coin #1",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20827,9 +20827,9 @@
     "sort-key": "row-10-1542"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #2",
+    "name": "Gateway - Bubbled Purple Coin #2",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20837,9 +20837,9 @@
     "sort-key": "row-10-1543"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #3",
+    "name": "Gateway - Bubbled Purple Coin #3",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20847,9 +20847,9 @@
     "sort-key": "row-10-1544"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #4",
+    "name": "Gateway - Bubbled Purple Coin #4",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20857,9 +20857,9 @@
     "sort-key": "row-10-1545"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #5",
+    "name": "Gateway - Bubbled Purple Coin #5",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20867,9 +20867,9 @@
     "sort-key": "row-10-1546"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #6",
+    "name": "Gateway - Bubbled Purple Coin #6",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20877,9 +20877,9 @@
     "sort-key": "row-10-1547"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #7",
+    "name": "Gateway - Bubbled Purple Coin #7",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20887,9 +20887,9 @@
     "sort-key": "row-10-1548"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #8",
+    "name": "Gateway - Bubbled Purple Coin #8",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20897,9 +20897,9 @@
     "sort-key": "row-10-1549"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #9",
+    "name": "Gateway - Bubbled Purple Coin #9",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20907,9 +20907,9 @@
     "sort-key": "row-10-1550"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #10",
+    "name": "Gateway - Bubbled Purple Coin #10",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20917,9 +20917,9 @@
     "sort-key": "row-10-1551"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #11",
+    "name": "Gateway - Bubbled Purple Coin #11",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20927,9 +20927,9 @@
     "sort-key": "row-10-1552"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #12",
+    "name": "Gateway - Bubbled Purple Coin #12",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20937,9 +20937,9 @@
     "sort-key": "row-10-1553"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #13",
+    "name": "Gateway - Bubbled Purple Coin #13",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20947,9 +20947,9 @@
     "sort-key": "row-10-1554"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #14",
+    "name": "Gateway - Bubbled Purple Coin #14",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20957,9 +20957,9 @@
     "sort-key": "row-10-1555"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #15",
+    "name": "Gateway - Bubbled Purple Coin #15",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20967,9 +20967,9 @@
     "sort-key": "row-10-1556"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #16",
+    "name": "Gateway - Bubbled Purple Coin #16",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20977,9 +20977,9 @@
     "sort-key": "row-10-1557"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #17",
+    "name": "Gateway - Bubbled Purple Coin #17",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20987,9 +20987,9 @@
     "sort-key": "row-10-1558"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #18",
+    "name": "Gateway - Bubbled Purple Coin #18",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -20997,9 +20997,9 @@
     "sort-key": "row-10-1559"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #19",
+    "name": "Gateway - Bubbled Purple Coin #19",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21007,9 +21007,9 @@
     "sort-key": "row-10-1560"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #20",
+    "name": "Gateway - Bubbled Purple Coin #20",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21017,9 +21017,9 @@
     "sort-key": "row-10-1561"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #21",
+    "name": "Gateway - Bubbled Purple Coin #21",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21027,9 +21027,9 @@
     "sort-key": "row-10-1562"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #22",
+    "name": "Gateway - Bubbled Purple Coin #22",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21037,9 +21037,9 @@
     "sort-key": "row-10-1563"
   },
   {
-    "name": "Gateway Bubbled Purple Coin #23",
+    "name": "Gateway - Bubbled Purple Coin #23",
     "requires": "{OptOne(|Red Star|)}",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - In Air",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21047,9 +21047,9 @@
     "sort-key": "row-10-1564"
   },
   {
-    "name": "Gateway Pond Purple Coin #1",
+    "name": "Gateway - Pond Purple Coin #1",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21057,9 +21057,9 @@
     "sort-key": "row-10-1565"
   },
   {
-    "name": "Gateway Pond Purple Coin #2",
+    "name": "Gateway - Pond Purple Coin #2",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21067,9 +21067,9 @@
     "sort-key": "row-10-1566"
   },
   {
-    "name": "Gateway Pond Purple Coin #3",
+    "name": "Gateway - Pond Purple Coin #3",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21077,9 +21077,9 @@
     "sort-key": "row-10-1567"
   },
   {
-    "name": "Gateway Pond Purple Coin #4",
+    "name": "Gateway - Pond Purple Coin #4",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21087,9 +21087,9 @@
     "sort-key": "row-10-1568"
   },
   {
-    "name": "Gateway Pond Purple Coin #5",
+    "name": "Gateway - Pond Purple Coin #5",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21097,9 +21097,9 @@
     "sort-key": "row-10-1569"
   },
   {
-    "name": "Gateway Pond Purple Coin #6",
+    "name": "Gateway - Pond Purple Coin #6",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21107,9 +21107,9 @@
     "sort-key": "row-10-1570"
   },
   {
-    "name": "Gateway Pond Purple Coin #7",
+    "name": "Gateway - Pond Purple Coin #7",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21117,9 +21117,9 @@
     "sort-key": "row-10-1571"
   },
   {
-    "name": "Gateway Pond Purple Coin #8",
+    "name": "Gateway - Pond Purple Coin #8",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21127,9 +21127,9 @@
     "sort-key": "row-10-1572"
   },
   {
-    "name": "Gateway Pond Purple Coin #9",
+    "name": "Gateway - Pond Purple Coin #9",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21137,9 +21137,9 @@
     "sort-key": "row-10-1573"
   },
   {
-    "name": "Gateway Pond Purple Coin #10",
+    "name": "Gateway - Pond Purple Coin #10",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21147,9 +21147,9 @@
     "sort-key": "row-10-1574"
   },
   {
-    "name": "Gateway Pond Purple Coin #11",
+    "name": "Gateway - Pond Purple Coin #11",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21157,9 +21157,9 @@
     "sort-key": "row-10-1575"
   },
   {
-    "name": "Gateway Pond Purple Coin #12",
+    "name": "Gateway - Pond Purple Coin #12",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21167,9 +21167,9 @@
     "sort-key": "row-10-1576"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #1",
+    "name": "Gateway - Flower Circle Purple Coin #1",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21177,9 +21177,9 @@
     "sort-key": "row-10-1577"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #2",
+    "name": "Gateway - Flower Circle Purple Coin #2",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21187,9 +21187,9 @@
     "sort-key": "row-10-1578"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #3",
+    "name": "Gateway - Flower Circle Purple Coin #3",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21197,9 +21197,9 @@
     "sort-key": "row-10-1579"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #4",
+    "name": "Gateway - Flower Circle Purple Coin #4",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21207,9 +21207,9 @@
     "sort-key": "row-10-1580"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #5",
+    "name": "Gateway - Flower Circle Purple Coin #5",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21217,9 +21217,9 @@
     "sort-key": "row-10-1581"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #6",
+    "name": "Gateway - Flower Circle Purple Coin #6",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21227,9 +21227,9 @@
     "sort-key": "row-10-1582"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #7",
+    "name": "Gateway - Flower Circle Purple Coin #7",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21237,9 +21237,9 @@
     "sort-key": "row-10-1583"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #8",
+    "name": "Gateway - Flower Circle Purple Coin #8",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21247,9 +21247,9 @@
     "sort-key": "row-10-1584"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #9",
+    "name": "Gateway - Flower Circle Purple Coin #9",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21257,9 +21257,9 @@
     "sort-key": "row-10-1585"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #10",
+    "name": "Gateway - Flower Circle Purple Coin #10",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21267,9 +21267,9 @@
     "sort-key": "row-10-1586"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #11",
+    "name": "Gateway - Flower Circle Purple Coin #11",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21277,9 +21277,9 @@
     "sort-key": "row-10-1587"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #12",
+    "name": "Gateway - Flower Circle Purple Coin #12",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21287,9 +21287,9 @@
     "sort-key": "row-10-1588"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #13",
+    "name": "Gateway - Flower Circle Purple Coin #13",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21297,9 +21297,9 @@
     "sort-key": "row-10-1589"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #14",
+    "name": "Gateway - Flower Circle Purple Coin #14",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21307,9 +21307,9 @@
     "sort-key": "row-10-1590"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #15",
+    "name": "Gateway - Flower Circle Purple Coin #15",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21317,9 +21317,9 @@
     "sort-key": "row-10-1591"
   },
   {
-    "name": "Gateway Flower Circle Purple Coin #16",
+    "name": "Gateway - Flower Circle Purple Coin #16",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21327,9 +21327,9 @@
     "sort-key": "row-10-1592"
   },
   {
-    "name": "Gateway Rubber Bulb Patch Purple Coin #1",
+    "name": "Gateway - Rubber Bulb Patch Purple Coin #1",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21337,9 +21337,9 @@
     "sort-key": "row-10-1593"
   },
   {
-    "name": "Gateway Rubber Bulb Patch Purple Coin #2",
+    "name": "Gateway - Rubber Bulb Patch Purple Coin #2",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21347,9 +21347,9 @@
     "sort-key": "row-10-1594"
   },
   {
-    "name": "Gateway Rubber Bulb Patch Purple Coin #3",
+    "name": "Gateway - Rubber Bulb Patch Purple Coin #3",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21357,9 +21357,9 @@
     "sort-key": "row-10-1595"
   },
   {
-    "name": "Gateway Rubber Bulb Patch Purple Coin #4",
+    "name": "Gateway - Rubber Bulb Patch Purple Coin #4",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21367,9 +21367,9 @@
     "sort-key": "row-10-1596"
   },
   {
-    "name": "Gateway Stepping Stone Purple Coin #1",
+    "name": "Gateway - Stepping Stone Purple Coin #1",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21377,9 +21377,9 @@
     "sort-key": "row-10-1597"
   },
   {
-    "name": "Gateway Stepping Stone Purple Coin #2",
+    "name": "Gateway - Stepping Stone Purple Coin #2",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21387,9 +21387,9 @@
     "sort-key": "row-10-1598"
   },
   {
-    "name": "Gateway Stepping Stone Purple Coin #3",
+    "name": "Gateway - Stepping Stone Purple Coin #3",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21397,9 +21397,9 @@
     "sort-key": "row-10-1599"
   },
   {
-    "name": "Gateway Stepping Stone Purple Coin #4",
+    "name": "Gateway - Stepping Stone Purple Coin #4",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21407,9 +21407,9 @@
     "sort-key": "row-10-1600"
   },
   {
-    "name": "Gateway Stepping Stone Purple Coin #5",
+    "name": "Gateway - Stepping Stone Purple Coin #5",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21417,9 +21417,9 @@
     "sort-key": "row-10-1601"
   },
   {
-    "name": "Gateway Stepping Stone Purple Coin #6",
+    "name": "Gateway - Stepping Stone Purple Coin #6",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21427,9 +21427,9 @@
     "sort-key": "row-10-1602"
   },
   {
-    "name": "Gateway Stepping Stone Purple Coin #7",
+    "name": "Gateway - Stepping Stone Purple Coin #7",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21437,9 +21437,9 @@
     "sort-key": "row-10-1603"
   },
   {
-    "name": "Gateway Stepping Stone Purple Coin #8",
+    "name": "Gateway - Stepping Stone Purple Coin #8",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21447,9 +21447,9 @@
     "sort-key": "row-10-1604"
   },
   {
-    "name": "Gateway Stepping Stone Purple Coin #9",
+    "name": "Gateway - Stepping Stone Purple Coin #9",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21457,9 +21457,9 @@
     "sort-key": "row-10-1605"
   },
   {
-    "name": "Gateway Stepping Stone Purple Coin #10",
+    "name": "Gateway - Stepping Stone Purple Coin #10",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21467,9 +21467,9 @@
     "sort-key": "row-10-1606"
   },
   {
-    "name": "Gateway Purple Coin Around Houses #1",
+    "name": "Gateway - Purple Coin Around Houses #1",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21477,9 +21477,9 @@
     "sort-key": "row-10-1607"
   },
   {
-    "name": "Gateway Purple Coin Around Houses #2",
+    "name": "Gateway - Purple Coin Around Houses #2",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21487,9 +21487,9 @@
     "sort-key": "row-10-1608"
   },
   {
-    "name": "Gateway Long House Roof Purple Coin #1",
+    "name": "Gateway - Long House Roof Purple Coin #1",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21497,9 +21497,9 @@
     "sort-key": "row-10-1609"
   },
   {
-    "name": "Gateway Long House Roof Purple Coin #2",
+    "name": "Gateway - Long House Roof Purple Coin #2",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21507,9 +21507,9 @@
     "sort-key": "row-10-1610"
   },
   {
-    "name": "Gateway Long House Roof Purple Coin #3",
+    "name": "Gateway - Long House Roof Purple Coin #3",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21517,9 +21517,9 @@
     "sort-key": "row-10-1611"
   },
   {
-    "name": "Gateway Long House Roof Purple Coin #4",
+    "name": "Gateway - Long House Roof Purple Coin #4",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21527,9 +21527,9 @@
     "sort-key": "row-10-1612"
   },
   {
-    "name": "Gateway Long House Roof Purple Coin #5",
+    "name": "Gateway - Long House Roof Purple Coin #5",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21537,9 +21537,9 @@
     "sort-key": "row-10-1613"
   },
   {
-    "name": "Gateway Long House Roof Purple Coin #6",
+    "name": "Gateway - Long House Roof Purple Coin #6",
     "requires": "",
-    "region": "Gateway Galaxy",
+    "region": "Gateway P - Start",
     "category": [
       "Gateway Purple Coins",
       "Purple Coin Locations"
@@ -21547,90 +21547,90 @@
     "sort-key": "row-10-1614"
   },
   {
-  "name": "Gateway Blue House Roof Purple Coin #1",
-  "requires": "{OptOne(|Red Star|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-  "region": "Gateway Galaxy",
+  "name": "Gateway - Blue House Roof Purple Coin #1",
+  "requires": "",
+  "region": "Gateway P - Blue House Roof",
   "category": [
     "Gateway Purple Coins",
       "Purple Coins"  ],
   "sort-key": "row-10-1615"
 },
 {
-  "name": "Gateway Blue House Roof Purple Coin #2",
-  "requires": "{OptOne(|Red Star|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-  "region": "Gateway Galaxy",
+  "name": "Gateway - Blue House Roof Purple Coin #2",
+  "requires": "",
+  "region": "Gateway P - Blue House Roof",
   "category": [
     "Gateway Purple Coins",
       "Purple Coins"  ],
   "sort-key": "row-10-1616"
 },
 {
-  "name": "Gateway Blue House Roof Purple Coin #3",
-  "requires": "{OptOne(|Red Star|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)} OR ({OptOne(|Long Jump|)} AND {YamlEnabled(Advanced_Logic)})",
-  "region": "Gateway Galaxy",
+  "name": "Gateway - Blue House Roof Purple Coin #3",
+  "requires": "",
+  "region": "Gateway P - Blue House Roof",
   "category": [
     "Gateway Purple Coins",
       "Purple Coins"  ],
   "sort-key": "row-10-1617"
 },
 {
-  "name": "Gateway Circle Stones Purple Coin #1",
-  "requires": "{OptOne(|Red Star|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
-  "region": "Gateway Galaxy",
+  "name": "Gateway - Circle Stones Purple Coin #1",
+  "requires": "",
+  "region": "Gateway P - Circle Stones",
   "category": [
     "Gateway Purple Coins",
       "Purple Coins"  ],
   "sort-key": "row-10-1618"
 },
 {
-  "name": "Gateway Circle Stones Purple Coin #2",
-  "requires": "{OptOne(|Red Star|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
-  "region": "Gateway Galaxy",
+  "name": "Gateway - Circle Stones Purple Coin #2",
+  "requires": "",
+  "region": "Gateway P - Circle Stones",
   "category": [
     "Gateway Purple Coins",
       "Purple Coins"  ],
   "sort-key": "row-10-1619"
 },
 {
-  "name": "Gateway Circle Stones Purple Coin #3",
-  "requires": "{OptOne(|Red Star|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
-  "region": "Gateway Galaxy",
+  "name": "Gateway - Circle Stones Purple Coin #3",
+  "requires": "",
+  "region": "Gateway P - Circle Stones",
   "category": [
     "Gateway Purple Coins",
       "Purple Coins"  ],
   "sort-key": "row-10-1620"
 },
 {
-  "name": "Gateway Circle Stones Purple Coin #4",
-  "requires": "{OptOne(|Red Star|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
-  "region": "Gateway Galaxy",
+  "name": "Gateway - Circle Stones Purple Coin #4",
+  "requires": "",
+  "region": "Gateway P - Circle Stones",
   "category": [
     "Gateway Purple Coins",
       "Purple Coins"  ],
   "sort-key": "row-10-1621"
 },
 {
-  "name": "Gateway Circle Stones Purple Coin #5",
-  "requires": "{OptOne(|Red Star|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
-  "region": "Gateway Galaxy",
+  "name": "Gateway - Circle Stones Purple Coin #5",
+  "requires": "",
+  "region": "Gateway P - Circle Stones",
   "category": [
     "Gateway Purple Coins",
       "Purple Coins"  ],
   "sort-key": "row-10-1622"
 },
 {
-  "name": "Gateway Circle Stones Purple Coin #6",
-  "requires": "{OptOne(|Red Star|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
-  "region": "Gateway Galaxy",
+  "name": "Gateway - Circle Stones Purple Coin #6",
+  "requires": "",
+  "region": "Gateway P - Circle Stones",
   "category": [
     "Gateway Purple Coins",
       "Purple Coins"  ],
   "sort-key": "row-10-1623"
 },
 {
-  "name": "Gateway Circle Stones Purple Coin #7",
-  "requires": "{OptOne(|Red Star|)} OR {OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)}",
-  "region": "Gateway Galaxy",
+  "name": "Gateway - Circle Stones Purple Coin #7",
+  "requires": "",
+  "region": "Gateway P - Circle Stones",
   "category": [
     "Gateway Purple Coins",
       "Purple Coins"  ],

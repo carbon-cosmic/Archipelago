@@ -53,13 +53,23 @@
     },
     "Gateway P - Start": {
       "connects_to": [
-        "Gateway P - In Air"
+        "Gateway P - In Air",
+        "Gateway P - Blue House Roof",
+        "Gateway P - Circle Stones"
       ],
       "requires": ""
     },
     "Gateway P - In Air": {
       "connects_to": [],
       "requires": "|Has Red Star|"
+    },
+    "Gateway P - Blue House Roof": {
+      "connects_to": [],
+      "requires": "|Has Red Star| or (|Jump Height 3| and |Medium Logic|) or (|Has Long Jump| and |Medium Logic|)"
+    },
+    "Gateway P - Circle Stones": {
+      "connects_to": [],
+      "requires": "(|Jump Height 3| and |Medium Logic|) or |Has Red Star|"
     },
     "Terrace": {
       "connects_to": [
