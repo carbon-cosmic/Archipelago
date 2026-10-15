@@ -1812,19 +1812,49 @@
       "connects_to": [
         "Dusty Dune P - Orange Side"
       ],
-      "requires": ""
+      "requires": "{can_access_comet(4, Dusty Dune)}"
     },
     "Dusty Dune P - Orange Side": {
       "connects_to": [
         "Dusty Dune P - Blue Side",
         "Dusty Dune P - Tornado Only Coins",
-        "Dusty Dune - Orange Side 1-Up"
+        "Dusty Dune - Orange Side 1-Up",
+        "Dusty Dune P - Tornado Mostly Coins",
+        "Dusty Dune P - Coins on Thwomp",
+        "Dusty Dune P - Back or Side Tornado Coins"
       ],
       "requires": ""
     },
     "Dusty Dune P - Blue Side": {
+      "connects_to": [
+        "Dusty Dune P - Orange Side End",
+        "Dusty Dune P - Blue Side Tower"
+      ],
+      "requires": ""
+    },
+    "Dusty Dune P - Tornado Only Coins": {
+      "connects_to": [],
+      "requires": "|Has Tornado Soaring|"
+    },
+    "Dusty Dune P - Tornado Mostly Coins": {
+      "connects_to": [],
+      "requires": "|Has Tornado Soaring| or (|Jump Height 6| and |Hard Logic|)"
+    },
+    "Dusty Dune P - Back or Side Tornado Coins": {
+      "connects_to": [],
+      "requires": "|Has Tornado Soaring| or (|Can Back or Sideflip| and |Hard Logic| and |Has Air Spin|)"
+    },
+    "Dusty Dune P - Coins on Thwomp": {
+      "connects_to": [],
+      "requires": "|Narrow Jump 5| or |Can Wall Spin| or (|Has Tornado Soaring| and |Hard Logic|)"
+    },
+    "Dusty Dune P - Orange Side End": {
       "connects_to": [],
       "requires": ""
+    },
+    "Dusty Dune P - Blue Side Tower": {
+      "connects_to": [],
+      "requires": "|Has Ground Pound|"
     },
     "Dusty Dune S - Bullet Bill Tower": {
       "connects_to": [],

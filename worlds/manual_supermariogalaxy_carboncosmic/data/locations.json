@@ -2382,7 +2382,7 @@
   {
   "name": "Purple Coins in the Desert",
   "requires": "|Purple Coins once i figure them out| and |Has Ground Pound| and |Has Tornado Soaring| and ((|Has Air Spin| and |Can Back or Sideflip|) or (|Has Triple Jump| and (|Hard Logic| or |Can Wall Spin|)))",
-  "region": "Dusty Dune Galaxy (29)",
+  "region": "Dusty Dune P - Blue Side",
   "category": [
     "Bedroom",
     "Power Stars"
@@ -12253,900 +12253,900 @@
     "sort-key": "row-10-1422"
   },
   {
-    "name": "Dusty Dune Start Purple Coin #1",
+    "name": "Dusty Dune - Start Purple Coin #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side Start",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-012"
   },
   {
-    "name": "Dusty Dune Start Purple Coin #2",
+    "name": "Dusty Dune - Start Purple Coin #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side Start",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-013"
   },
   {
-    "name": "Dusty Dune Start Purple Coin #3",
+    "name": "Dusty Dune - Start Purple Coin #3",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side Start",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-014"
   },
   {
-    "name": "Dusty Dune Start Purple Coin #4",
+    "name": "Dusty Dune - Start Purple Coin #4",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side Start",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-015"
   },
   {
-    "name": "Dusty Dune Start Purple Coin #5",
+    "name": "Dusty Dune - Start Purple Coin #5",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side Start",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-016"
   },
   {
-    "name": "Dusty Dune Start Purple Coin #6",
+    "name": "Dusty Dune - Start Purple Coin #6",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side Start",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-017"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Before Thwomp #1",
+    "name": "Dusty Dune - Purple Coin Before Thwomp #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-018"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Before Thwomp #2",
+    "name": "Dusty Dune - Purple Coin Before Thwomp #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-019"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Before Thwomp #3",
+    "name": "Dusty Dune - Purple Coin Before Thwomp #3",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-020"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Before Thwomp #4",
+    "name": "Dusty Dune - Purple Coin Before Thwomp #4",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-021"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Before Thwomp #5",
+    "name": "Dusty Dune - Purple Coin Before Thwomp #5",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-022"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Before Thwomp #6",
+    "name": "Dusty Dune - Purple Coin Before Thwomp #6",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-023"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Before Thwomp #7",
+    "name": "Dusty Dune - Purple Coin Before Thwomp #7",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-024"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Under Thwomp #1",
+    "name": "Dusty Dune - Purple Coin Under Thwomp #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-025"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Under Thwomp #2",
+    "name": "Dusty Dune - Purple Coin Under Thwomp #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-026"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Under Thwomp #3",
+    "name": "Dusty Dune - Purple Coin Under Thwomp #3",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-027"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Under Thwomp #4",
+    "name": "Dusty Dune - Purple Coin Under Thwomp #4",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-028"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air Before Thwomp #1",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air Before Thwomp #1",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Only Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-029"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air Before Thwomp #2",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air Before Thwomp #2",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Only Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-030"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air Before Thwomp #3",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air Before Thwomp #3",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-031"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air Next to Thwomp #1",
+    "name": "Dusty Dune - Lower Purple Coin Next to Thwomp",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-032"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air Next to Thwomp #2",
-    "requires": "({OptOne(|Spin|)} OR {OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Middle Purple Coin Next to Thwomp",
+    "requires": "|Narrow Jump 3| or |Has Wall Jump|",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-033"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air Next to Thwomp #3",
-    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Orange Side Purple Coin in Air Next to Thwomp #3",
+    "requires": "|Can Back or Sideflip| or |Has Wall Jump|",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-034"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin After Thwomp #1",
+    "name": "Dusty Dune - Purple Coin After Thwomp #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-035"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin After Thwomp #2",
+    "name": "Dusty Dune - Purple Coin After Thwomp #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-036"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin After Thwomp #3",
+    "name": "Dusty Dune - Purple Coin After Thwomp #3",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-037"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin After Thwomp #4",
+    "name": "Dusty Dune - Purple Coin After Thwomp #4",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-038"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin on Top of Thwomp #1",
-    "requires": "(({OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Tornado Soaring|)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin on Top of Thwomp #1",
+    "requires": "",
+    "region": "Dusty Dune P - Coins on Thwomp",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-039"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin on Top of Thwomp #2",
-    "requires": "(({OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Tornado Soaring|)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Orange Side Purple Coin on Top of Thwomp #2",
+    "requires": "",
+    "region": "Dusty Dune P - Coins on Thwomp",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-040"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin on Top of Thwomp #3",
-    "requires": "(({OptOne(|Spin|)} AND ({OptOne(|Wall Jump|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Backflip|)})) OR ({YamlEnabled(Advanced_Logic)} AND {OptOne(|Tornado Soaring|)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Orange Side Purple Coin on Top of Thwomp #3",
+    "requires": "",
+    "region": "Dusty Dune P - Coins on Thwomp",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-041"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air Near Thwomp #1",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Tornado Purple Coin near Thwomp #1",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-042"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air Near Thwomp #2",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Tornado Purple Coin near Thwomp #2",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-043"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air Near Thwomp #3",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Tornado Purple Coin near Thwomp #3",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-044"
   },
   {
-    "name": "Dusty Dune Orange Side Moving Platform Purple Coin #1",
+    "name": "Dusty Dune - Moving Platform Purple Coin #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-045"
   },
   {
-    "name": "Dusty Dune Orange Side Moving Platform Purple Coin #2",
+    "name": "Dusty Dune - Moving Platform Purple Coin #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-046"
   },
   {
-    "name": "Dusty Dune Orange Side Moving Platform Purple Coin #3",
+    "name": "Dusty Dune - Moving Platform Purple Coin #3",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-047"
   },
   {
-    "name": "Dusty Dune Orange Side Moving Platform Purple Coin #4",
+    "name": "Dusty Dune - Moving Platform Purple Coin #4",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-048"
   },
   {
-    "name": "Dusty Dune Orange Side Moving Platform Purple Coin #5",
+    "name": "Dusty Dune - Moving Platform Purple Coin #5",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-049"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin After Moving Platform #1",
+    "name": "Dusty Dune - Purple Coin After Moving Platform #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-050"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin After Moving Platform #2",
+    "name": "Dusty Dune - Purple Coin After Moving Platform #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-051"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin After Moving Platform #3",
+    "name": "Dusty Dune - Purple Coin After Moving Platform #3",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-052"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin After Moving Platform #4",
+    "name": "Dusty Dune - Purple Coin After Moving Platform #4",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-053"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin After Moving Platform #5",
+    "name": "Dusty Dune - Purple Coin After Moving Platform #5",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-054"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin After Moving Platform #6",
+    "name": "Dusty Dune - Purple Coin After Moving Platform #6",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-055"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air After Moving Platform #1",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air After Moving Platform #1",
+    "requires": "",
+    "region": "Dusty Dune P - Back and Side Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-056"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air After Moving Platform #2",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air After Moving Platform #2",
+    "requires": "",
+    "region": "Dusty Dune P - Back and Side Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-057"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air After Moving Platform #3",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)} AND ({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air After Moving Platform #3",
+    "requires": "|",
+    "region": "Dusty Dune P - Back and Side Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-058"
   },
   {
-    "name": "Dusty Dune Purple Coin in Air Between Sides",
+    "name": "Dusty Dune - Purple Coin in Air Between Sides",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-059"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air at Start",
-    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)} OR {OptOne(|Triple Jump|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Blue Side",
+    "requires": "|Can Back or Sideflip| or |Jump Height 4|",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-060"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Path to Tower #1",
+    "name": "Dusty Dune - Purple Coin on Path to Blue Side Tower #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-061"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Path to Tower #2",
+    "name": "Dusty Dune - Purple Coin on Path to Blue Side Tower #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-062"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Path to Tower #3",
+    "name": "Dusty Dune - Purple Coin on Path to Blue Side Tower #3",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-063"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Path to Tower #4",
+    "name": "Dusty Dune - Purple Coin on Path to Blue Side Tower #4",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-064"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Path to Tower #5",
+    "name": "Dusty Dune - Purple Coin on Path to Blue Side Tower #5",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-065"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin Behind Tower",
+    "name": "Dusty Dune - Purple Coin Behind Tower",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-066"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Main Path #1",
+    "name": "Dusty Dune - Purple Coin on Blue Side Main Path #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-067"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Main Path #2",
+    "name": "Dusty Dune - Purple Coin on Blue Side Main Path #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-068"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Main Path #3",
+    "name": "Dusty Dune - Purple Coin on Blue Side Main Path #3",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-069"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Main Path #4",
+    "name": "Dusty Dune - Purple Coin on Blue Side Main Path #4",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-070"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Main Path #5",
+    "name": "Dusty Dune - Purple Coin on Blue Side Main Path #5",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-071"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Main Path #6",
+    "name": "Dusty Dune - Purple Coin on Blue Side Main Path #6",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-072"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Main Path #7",
+    "name": "Dusty Dune - Purple Coin on Blue Side Main Path #7",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-073"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Main Path #8",
+    "name": "Dusty Dune - Purple Coin on Blue Side Main Path #8",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-074"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Main Path #9",
+    "name": "Dusty Dune - Purple Coin on Blue Side Main Path #9",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-075"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Main Path #10",
+    "name": "Dusty Dune - Purple Coin on Blue Side Main Path #10",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-076"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air by Tornadoes #1",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Blue Side #1",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-077"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air by Tornadoes #2",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Blue Side #2",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-078"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air by Tornadoes #3",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Blue Side #3",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-079"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air by Tornadoes #4",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Blue Side #4",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-080"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air by Tornadoes #5",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Blue Side #5",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-081"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air by Tornadoes #6",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Blue Side #6",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-082"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air by Tornadoes #7",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Blue Side #7",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-083"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air by End #1",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Blue Side #8",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-084"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air by End #2",
-    "requires": "{OptOne(|Tornado Soaring|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Blue Side #9",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-085"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin in Air by End #3",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Blue Side Purple Coin in Air by End #3",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-086"
   },
   {
-    "name": "Dusty Dune Purple Coin Between Sides at End #1",
+    "name": "Dusty Dune - Purple Coin Between Sides at End #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-087"
   },
   {
-    "name": "Dusty Dune Purple Coin Between Sides at End #2",
+    "name": "Dusty Dune - Purple Coin Between Sides at End #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-088"
   },
   {
-    "name": "Dusty Dune Purple Coin Between Sides at End #3",
+    "name": "Dusty Dune - Purple Coin Between Sides at End #3",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-089"
   },
   {
-    "name": "Dusty Dune Purple Coin Between Sides at End #4",
+    "name": "Dusty Dune - Purple Coin Between Sides at End #4",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-090"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin on Path to Tower #1",
+    "name": "Dusty Dune - Purple Coin on Path to Orange Side Tower #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side End",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-091"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin on Path to Tower #2",
+    "name": "Dusty Dune - Purple Coin on Path to Orange Side Tower #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side End",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-092"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin on Path to Tower #3",
+    "name": "Dusty Dune - Purple Coin on Path to Orange Side Tower #3",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side End",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-093"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin on Path to Tower #4",
+    "name": "Dusty Dune - Purple Coin on Path to Orange Side Tower #4",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side End",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-094"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin on Path to Tower #5",
+    "name": "Dusty Dune - Purple Coin on Path to Orange Side Tower #5",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side End",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-095"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air on Path to Tower #1",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Path to Tower #1",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-096"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air on Path to Tower #2",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Path to Tower #2",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-097"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air on Path to Tower #3",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Path to Tower #3",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-098"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air on Path to Tower #4",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Path to Tower #4",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-099"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air on Path to Tower #5",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Path to Tower #5",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-100"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air on Path to Tower #6",
-    "requires": "({OptOne(|Tornado Soaring|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)} AND {YamlEnabled(Advanced_Logic)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin in Air on Path to Tower #6",
+    "requires": "",
+    "region": "Dusty Dune P - Tornado Mostly Coins",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-101"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin on Tower",
+    "name": "Dusty Dune - Orange Side Purple Coin on Tower",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-102"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Behind Tower #1",
+    "name": "Dusty Dune - Orange Side Purple Coin Behind Tower #1",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-103"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin Behind Tower #2",
+    "name": "Dusty Dune - Orange Side Purple Coin Behind Tower #2",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-104"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air on Tower",
-    "requires": "({OptOne(|Backflip|)} OR {OptOne(|Sideflip|)})",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin on Orange Side Tower",
+    "requires": "|Narrow Jump 3|",
+    "region": "Dusty Dune P - Orange Side End",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-105"
   },
   {
-    "name": "Dusty Dune Orange Side Purple Coin in Air Behind Tower",
+    "name": "Dusty Dune - Purple Coin in Air Behind Orange Side Tower",
     "requires": "",
-    "region": "Dusty Dune Galaxy (29)",
+    "region": "Dusty Dune P - Orange Side End",
     "category": [
       "Dusty Dune Purple Coins",
        "Purple Coin Locations"],
     "sort-key": "row-10-106"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Tower #1",
-    "requires": "({OptOne(|Ground Pound|)} OR ({OptOne(|Triple Jump|)} AND {OptOne(|Spin|)}))",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin on Blue Side Tower #1",
+    "requires": "|Has Ground Pound| or |Jump Height 6|",
+    "region": "Dusty Dune P - Blue Side",
     "category": [
       "Dusty Dune Purple Coins",
          "Purple Coins"  ],
     "sort-key": "row-10-107"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Tower #2",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Blue Side Purple Coin on Blue Side Tower #2",
+    "requires": "",
+    "region": "Dusty Dune P - Blue Side Tower",
     "category": [
       "Dusty Dune Purple Coins",
          "Purple Coins"  ],
     "sort-key": "row-10-108"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Tower #3",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin on Blue Side Tower #3",
+    "requires": "",
+    "region": "Dusty Dune P - Blue Side Tower",
     "category": [
       "Dusty Dune Purple Coins",
          "Purple Coins"  ],
     "sort-key": "row-10-109"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Tower #4",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin on Blue Side Tower #4",
+    "requires": "",
+    "region": "Dusty Dune P - Blue Side Tower",
     "category": [
       "Dusty Dune Purple Coins",
          "Purple Coins"  ],
     "sort-key": "row-10-110"
   },
   {
-    "name": "Dusty Dune Blue Side Purple Coin on Tower #5",
-    "requires": "{OptOne(|Ground Pound|)}",
-    "region": "Dusty Dune Galaxy (29)",
+    "name": "Dusty Dune - Purple Coin on Blue Side Tower #5",
+    "requires": "",
+    "region": "Dusty Dune P - Blue Side Tower",
     "category": [
       "Dusty Dune Purple Coins",
          "Purple Coins"  ],
