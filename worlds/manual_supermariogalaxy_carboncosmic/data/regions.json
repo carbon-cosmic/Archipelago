@@ -968,20 +968,36 @@
       "requires": "{can_access_comet(3, Beach Bowl)}"
     },
     "Beach Bowl P - Ocean": {
-      "connects_to": ["Beach Bowl P - Underwater", "Beach Bowl P - Top Pond Ledge"],
+      "connects_to": [
+        "Beach Bowl P - Underwater",
+        "Beach Bowl P - Top Pond Ledge",
+        "Beach Bowl P - Palm Tree Swing"
+      ],
       "requires": "{can_access_comet(4, Beach Bowl)}"
     },
     "Beach Bowl P - Underwater": {
       "connects_to": [],
       "requires": ""
     },
+    "Beach Bowl P - Palm Tree Swing": {
+      "connects_to": "",
+      "requires": "|Has Backflip| or |Has Air Spin| or |Has Triple Jump|"
+    },
     "Beach Bowl P - Top Pond Ledge": {
-      "connects_to": ["Beach Bowl P - Top Area"],
+      "connects_to": [
+        "Beach Bowl P - Top Area"
+      ],
       "requires": "|Spring Crystals| or (|Medium Logic| and (|Jump Height 6| or (|Has Air Spin| and |Has Backflip|)))"
     },
     "Beach Bowl P - Top Area": {
-      "connects_to": [],
+      "connects_to": [
+        "Beach Bowl P - Top Area Palm Tree"
+      ],
       "requires": "|Spring Crystals| or (|Jump Height 5| and |Has Air Spin| and |Medium Logic|)"
+    },
+    "Beach Bowl P - Top Area Palm Tree": {
+      "connects_to": [],
+      "requires": "|Spring Crystals| or (|Medium Logic| and (|Has Triple Jump| or |Has Backflip|))"
     },
     "Beach Bowl S - Waterfalls": {
       "connects_to": [],
